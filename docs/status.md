@@ -3,6 +3,11 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8 (QA in the emulator) in progress, 2026-10-30.
+- **Phase 7 review follow-up:** whole-script lint now validates every authored non-data entry, including ASCII
+  and control-only sources; unauthored ASCII/control-only entries explicitly retain original bytes. The exact
+  FONT_6:556 `{sm_ryo}` -> `ryo` substitution is documented in lint. This exposed YUMI2_10:009's untranslated
+  comma, now fixed. Control-only/ASCII regression probes pass; `check.py`: 38 passed, lint 0 errors over 6018
+  text/box checks. Remaining Important findings: replace guessed label widths with measurements; add write audit.
 - **Phase 8 progress:** phase 6 review fixes done (d047a7c: glossary names + character honorifics are lint/batch
   ERRORS now, reviewed exceptions in script/glossary_ok.txt; Enma-sama; art-use spacing). Graphics lettering
   pipeline: `tools/gfx.py` (TIM decode/repack, `show`/`dump`/`words` CLI to find text rects), `tools/gfx_en.py`
