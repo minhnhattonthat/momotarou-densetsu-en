@@ -22,7 +22,7 @@ def main(args):
         import layout
         missing = [s for _, d in insert.docs() for s in d['strings']
                    if s.get('en') and s.get('jp') and 'data' not in s
-                   and layout.BOX[layout.box(s['id'], s['jp'])][0] is None]
+                   and layout.box(s['id'], s['jp']) == 'label']
         for s in missing:
             print(s['id'], repr(s['en']))
         print(f'{len(missing)} authored labels without a measured budget (docs/re/windows.md)')

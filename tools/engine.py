@@ -107,6 +107,30 @@ OVERLAY_PATCH = [
     (f'0/07HMAP/{pac}:65', off, b'\x06\x00\x0c\x00', b'\x07\x00\x0c\x00')
     for pac, off in [('HMAP26.PAC', 0x31DC), ('HMAP2606.PAC', 0x1608), ('HMAP2607.PAC', 0xBB4)]
 ]
+# English difficulty names need more than the original 44px first column. Keep full words by moving
+# the character and title columns; the Fuku window and score suffix also need a wider descriptor.
+OVERLAY_PATCH += [
+    (f'0/30EV/{name}.PAC:0', off, struct.pack('<I', 0x2406003C), struct.pack('<I', 0x24060058))
+    for name, offsets in [('DARUMA', (0x15C0, 0x15DC, 0x15F8)), ('FUKU', (0xACC, 0xAE8, 0xB04))]
+    for off in offsets
+]
+OVERLAY_PATCH += [
+    ('0/30EV/DARUMA.PAC:0', off, struct.pack('<I', 0x2406008C), struct.pack('<I', 0x240600A0))
+    for off in (0x1614, 0x1630, 0x164C)
+]
+OVERLAY_PATCH += [
+    ('0/30EV/FUKU.PAC:0', off, struct.pack('<I', 0x24060074), struct.pack('<I', 0x24060094))
+    for off in (0xB20, 0xB3C, 0xB58)
+]
+OVERLAY_PATCH += [
+    # Anchor the wider Fuku menu at x80 so its right edge remains inside the 320px screen.
+    ('0/30EV/FUKU.PAC:0', 0x1540, b'\x80\x00\x10\x00', b'\x50\x00\x10\x00'),
+    ('0/30EV/FUKU.PAC:0', 0x1544, b'\x16\x00\x08\x00', b'\x1c\x00\x08\x00'),
+    ('0/30EV/FUKU.PAC:0', 0x1524, b'\x07\x00\x04\x00', b'\x09\x00\x04\x00'),
+    ('0/30EV/YUMI2.PAC:0', 0x17CC, b'\x08\x00\x04\x00', b'\x0a\x00\x04\x00'),
+    # The debug destination list also has long English bath/location names.
+    ('0/06CITY/SMAP01.PAC:32', 0x1434, b'\x0a\x00\x08\x00', b'\x12\x00\x08\x00'),
+]
 # Name-entry grids (docs/re/text.md): 15 x 5 cells, row-major left to right, each {glyph}{end}. The first page shown
 # (hiragana at EXE 0xD4158) becomes English; hiragana moves to the 英数字 page (0xD43B8); katakana stays.
 GRID_FIRST, GRID_ALNUM, GRID_CELLS = 0xD4158, 0xD43B8, 75

@@ -53,6 +53,8 @@ def allowed():
     exe += [(g, g + 4 * engine.GRID_CELLS) for g in (engine.GRID_FIRST, engine.GRID_ALNUM)]
     for loc, off, old, _ in engine.OVERLAY_PATCH:        # window descriptors widened in map overlays
         out.setdefault(loc, []).append((off, off + len(old)))
+    maze_loc = '0/07HMAP/HMAP2606.PAC:65'
+    out[maze_loc].append((0x2628, insert.WORD_MAZE_END))  # appended single-letter answer pool + reserved gap
     for loc, _, edits in gfx_en.IMAGES.values():       # redrawn graphics text: pixel bytes of the declared rects
         bpp, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + (y * w + x1) * bpp // 8)
@@ -126,6 +128,9 @@ def test_only_text_and_engine_bytes_change(built):
             elif loc not in ok:
                 bad.append((loc, 'changed but holds no text'))
             elif ok[loc] is not None:
+                if loc == '0/07HMAP/HMAP2606.PAC:65':
+                    assert len(a) == 0x2628 and len(a) <= len(b) <= insert.WORD_MAZE_END
+                    a = a.ljust(len(b), b'\xff')
                 bad += [(loc, hex(o)) for o in changed(a, b) if not any(lo <= o < hi for lo, hi in ok[loc])]
     assert not bad, bad[:20]
 
@@ -145,3 +150,18 @@ def test_every_table_holds_all_its_strings(built):
                     continue
                 exp = insert.EN.encode(s['en'] + '{end}') if s.get('en') else extract.TBL.encode(s['jp'] + '{end}')
                 assert b[o:o + len(exp)] == exp, (loc, s['id'])
+
+
+def test_word_maze_answers_match_keyboard_codes(built):
+    """The game scatters individual u16 letters, then memcmp's the keyboard answer against the pool."""
+    import re
+    doc = extract.load(ROOT / 'script/07HMAP/HMAP2606_65.json')
+    b = entry(built['0/07HMAP/HMAP2606.PAC'], 65)
+    for s in doc['strings']:
+        answer = re.sub('[^A-Za-z]', '', s['en']).upper()
+        assert 1 <= len(answer) <= 18
+        expected = b''.join(insert.EN1.encode(c) for c in answer) + b'\x00\x80'
+        for ptr in s['ptrs']:
+            offset = struct.unpack_from('<I', b, int(ptr[5:], 16))[0] - 0x80168000
+            assert insert.WORD_MAZE_POOL <= offset < insert.WORD_MAZE_END
+            assert b[offset:offset + len(expected)] == expected

@@ -1,0 +1,12 @@
+# id	edge	reason
+FONT_6:759	leading	Dialogue indentation; English reflows at the measured left margin.
+SMAP15_37:072	trailing	Padding after final wait, not a joined fragment.
+HMAP26_66:117	trailing	Padding after final wait, not a joined fragment.
+BM024_1:252	leading	Continuation dialogue indentation; English reflows at the measured left margin.
+BM025_1:250	leading	Same continuation dialogue as BM024_1:252.
+END02_14:051	leading	Credits use measured English 250px rows instead of Japanese centering spaces.
+END02_14:052	leading	Credits use measured English 250px rows instead of Japanese centering spaces.
+END02_14:053	leading	Credits use measured English 250px rows instead of Japanese centering spaces.
+END02_14:054	leading	Credits use measured English 250px rows instead of Japanese centering spaces.
+END02_14:055	leading	Credits use measured English 250px rows instead of Japanese centering spaces.
+END02_14:056	leading	Credits use measured English 250px rows instead of Japanese centering spaces.

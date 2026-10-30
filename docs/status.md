@@ -2,6 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **Active review follow-up (2026-10-30):** phase-7 Important findings implemented, runtime verification underway.
+  Single-line labels in every table now fail closed unless their consumer is classified; `label_refs.py
+  --unmeasured` includes non-FONT tables and reports zero. Consumer budgets and overlay window changes are in
+  docs/re/windows.md. FONT_10:029/030 retain trailing separators; lint compares source edge blanks with insertion,
+  with reviewed exceptions in script/space_ok.tsv. Literal short final paragraph lines now fail lint.
+  Static tracing also found the Word Maze answers used digraphs even though the game distributes individual
+  glyphs and compares keyboard codes: answers now use uppercase single glyphs, at most 18 letters, in an audited
+  appended pool (engine.md). Full check passed 46 tests after the last window-origin adjustment, lint 0 errors;
+  isolated build `work/qa/review7_new/momotarou_en.cue` passed smoke. Both difficulty menus verified after cold
+  boot in `work/qa/warp_review7_final/{daruma_choices,fuku_choices}/scene.png`, with repeatable scenes committed.
+  Helpers are probing graphics, battle statuses/fragments, and the Word Maze; phase 8 is not complete.
+
 - **Phase:** 8 (QA in the emulator) in progress, 2026-10-30. Tour gate green: 68 tour sheets (`tools/tour.py`, every
   warp scene EN | JP), 6 visual-QA chunks reviewed by visual-qa agents, 5 issues fixed and rechecked
   (`work/qa/verdicts/recheck_1.tsv`); `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0. Old round
@@ -30,9 +42,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `xref.py`, `imm.py`, `boxmeasure.py --runs`; scenes `orders_party`, `town_warp`, `enon_world` (debug.md).
   Check: 44 passed, lint 0 errors over 6023 checks. Image `build/momotarou_en.bin` 143893008 bytes,
   2026-10-30 10:48 UTC, SHA-1 `815e3e16e1ab02052031d39a59cf0f8150a352e0`; smoke ok (`work/qa/m8_smoke`).
-  Open (not a gate yet): single-line strings of non-FONT tables (FONT_10/11 labels, MECD save labels, HMAP8500_18
-  card names, minigame tables, ~650) still default to the 234 px dialogue budget; map their consumers in phase 8
-  QA (strlog + the descriptor formula) where they are drawn outside a dialogue box.
+  This session supersedes the previous non-FONT coverage gap: all plain labels now require a mapped consumer,
+  including FONT_10/11, MECD save labels, card names, and minigame tables (follow-up above).
 - **Phase 7 review follow-up:** whole-script lint now validates every authored non-data entry, including ASCII
   and control-only sources; unauthored ASCII/control-only entries explicitly retain original bytes. The exact
   FONT_6:556 `{sm_ryo}` -> `ryo` substitution is documented in lint. This exposed YUMI2_10:009's untranslated

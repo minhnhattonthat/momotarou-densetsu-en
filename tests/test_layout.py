@@ -52,6 +52,12 @@ def test_string_ending_in_wait_and_battle_names():
 def test_joining_spaces_kept():
     assert layout.layout(' used the Kintan art!', 'きんたんの術を 使った！')[0] == ' used the Kintan art!'
     assert layout.layout('Momotaro ', '桃太郎は')[0] == 'Momotaro '
+    for jp, en in [('それぞれ ', 'each'), ('さらに ', 'Also,')]:
+        assert any('trailing source blanks' in e for e in batches.problems(jp, en, 'dlg', []))
+        assert not batches.problems(jp, en + ' ', 'dlg', [])
+        assert layout.layout(en + ' ', jp)[0].endswith(' ')
+    assert any('leading source blanks' in e for e in batches.problems(' 名前', 'Name', 'dlg', []))
+    assert not batches.problems(' 名前', 'Name', 'dlg', [], space_ok={'leading'})
 
 
 def test_overflow_and_too_many_lines_reported():
@@ -63,6 +69,11 @@ def test_no_lone_last_word_when_it_can_move():
     lines = layout.wrap("But the oni's attack only cut through the empty air!", 108)   # greedy: [..., 'cut through the empty', 'air!']
     assert ' ' in lines[-1].strip() and all(layout.width(ln) <= 108 for ln in lines)
     assert layout.wrap('Hello there friend', 1000) == ['Hello there friend']
+    assert any('short final' in e for e in layout.layout('Hello{n}a', 'hello{n}a', 'dlg')[1])
+    assert any('short final' in e for e in batches.problems('hello{n}a', 'Hello{n}a', 'dlg', []))
+    assert not layout.layout('Choose{n}Yes{n}No{n}Exit', '選ぶ{n}はい{n}いいえ{n}出る', 'choices')[1]
+    assert not layout.layout('Answer{n}{num}', '答え{n}{num}', 'dlg')[1]
+    assert layout.box('HMAP8500_18:999', '未測定') == 'label'
 
 
 def test_unmapped_labels_fail_closed():
@@ -71,6 +82,11 @@ def test_unmapped_labels_fail_closed():
     assert layout.layout('Yes', 'はい', 'label')[1]
     assert layout.box('FONT_6:799', '1階') == 'floor' and not layout.layout('Floor 5', '5階', 'floor')[1]
     assert layout.box('FONT_6:600', 'スクロールスピード') == 'unused'
+    assert layout.box('FONT_10:117', '？？？') == 'cmd'
+    for sid in ('MECD_1:999', 'FUKU_11:999', 'HMAP2607_66:999', 'UNKNOWN:001'):
+        assert layout.box(sid, '未測定') == 'label'
+    assert layout.layout('Capital letters only', 'ことば', 'proverb') == ('CAPITALLETTERSONLY', [])
+    assert layout.layout('Too many letters to enter in this puzzle', 'ことば', 'proverb')[1]
 
 
 def test_check_problems():

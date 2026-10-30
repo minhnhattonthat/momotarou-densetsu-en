@@ -87,3 +87,18 @@ compressed bytes do not need a blanket raw-disc permission range. Existing tests
 allowed changed ranges, PAC metadata, table contents, identity rebuilds, and SFS relocation. The one-command
 check runs both the audits and probes proving wrong originals, overlaps, overwrites, and unlogged edits fail.
 
+# Word Maze answer encoding (phase 7 second review)
+
+HMAP2606.PAC:65's 41 answer strings are not ordinary dialogue. The overlay's +0x1400 counts u16 codes up to 18;
++0xC78 distributes one code per NPC clue, and +0x97C compares the player's keyboard answer byte-for-byte. Digraph
+compression therefore made the previous translated answers impossible to type as individual letters. The layout
+now normalizes these answers to uppercase A-Z without spaces or punctuation, checks 1..18 letters, and insertion
+uses the same single-glyph codes as the English keyboard. Four answers were rephrased to fit 18 letters; the rule
+explanation tells the player the input format. The full sayings in HMAP2606_66:045-085 remain ordinary prose.
+
+The 928-byte old pool cannot hold single-glyph English. New strings live at overlay +0x3000 (RAM 0x8016B000),
+after the original code/data/BSS through +0x2628; the new pool is bounded by +0x4000. Each appended span and each
+original pointer word is audited, the original pool remains untouched, and tests reconstruct every expected answer
+from individual keyboard glyph codes. No game code or runtime arrays occupy the reserved pool. The total overlay
+remains well below its next resident FONT text region at 0x8017C000.
+

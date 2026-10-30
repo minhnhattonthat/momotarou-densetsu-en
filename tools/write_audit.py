@@ -14,14 +14,17 @@ class Buffer:
         self.location = location
         self.writes = []
 
-    def put(self, offset, data, owner, expected=None, *, replace=False):
+    def put(self, offset, data, owner, expected=None, *, replace=False, append=False):
         data = bytes(data)
         assert owner and offset >= 0, (self.location, owner, offset)
-        end = len(self.original) if replace else offset + len(data)
-        assert (replace and offset == 0) or end <= len(self.original), (self.location, owner, 'out of bounds')
+        assert not (replace and append), (self.location, owner, 'conflicting write modes')
+        end = offset if append else len(self.original) if replace else offset + len(data)
+        assert (append and offset == len(self.data) and offset >= len(self.original)) or \
+            (replace and offset == 0) or (not append and end <= len(self.original)), \
+            (self.location, owner, 'out of bounds')
         old = self.original[offset:end]
         assert expected is None or bytes(expected) == old, (self.location, owner, 'wrong expected original')
-        stop = max(end, len(data)) if replace else end
+        stop = offset + len(data) if append else max(end, len(data)) if replace else end
         for w in self.writes:
             assert not (offset < w['stop'] and w['offset'] < stop), (
                 self.location, owner, 'overlap', w['owner'])

@@ -35,3 +35,16 @@ def test_atomic_table_resize(new):
     b.put(0, new, 'table', replace=True)
     assert b.data == new
     b.verify(new)
+
+
+def test_appended_pool_has_no_gaps_or_overwrites():
+    b = Buffer(b'code', 'overlay')
+    with pytest.raises(AssertionError, match='out of bounds'):
+        b.put(5, b'text', 'pool', append=True)
+    b.put(4, b'text', 'pool', append=True)
+    b.put(8, b'more', 'pool2', append=True)
+    b.verify(b'codetextmore')
+    with pytest.raises(AssertionError):
+        b.put(4, b'bad!', 'overwrite', append=True)
+    with pytest.raises(AssertionError, match='overwritten write'):
+        b.verify(b'codetextoops')

@@ -120,10 +120,16 @@ return {
   ev_pt00        = { event = 17, settle = 300 },    -- PT00
   -- minigames (main-loop state 4)
   mg_fuku        = { minigame = 0, settle = 300 },  -- FUKU
+  fuku_choices   = { minigame = 0, settle = 220,
+    route = { { 400, "-" }, { 6, "circle" }, { 100, "-" }, { 6, "circle" } } },
   mg_yumi1b      = { minigame = 2, settle = 300 },  -- YUMI1, archery
   mg_yumi2       = { minigame = 3, settle = 300 },  -- YUMI2
   mg_suiei       = { minigame = 4, settle = 300 },  -- SUIEI
   mg_daruma      = { minigame = 5, settle = 300 },  -- DARUMA
+  daruma_choices = { minigame = 5, settle = 300,
+    route = { { 400, "-" }, { 6, "circle" }, { 100, "-" }, { 6, "circle" }, { 100, "-" },
+              { 6, "circle" }, { 200, "-" }, { 6, "up" }, { 40, "-" }, { 6, "circle" },
+              { 600, "-" }, { 6, "circle" } } },
   mg_mogura      = { minigame = 6, settle = 300 },  -- MOGURA
   -- Not reachable by a plain warp (overlay loads, screen stays black; needs its caller's context):
   -- event 5 (EVT069), minigame 1 (YUMI1 other entry). docs/re/debug.md.

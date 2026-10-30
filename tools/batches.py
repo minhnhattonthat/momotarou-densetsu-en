@@ -187,7 +187,18 @@ def glossary_ok():
     return ok
 
 
-def problems(jp, en, box, gl, ok=()):
+def space_exceptions():
+    """Reviewed removal of source indentation/padding, never joining separators."""
+    out = {}
+    for ln in (ROOT / 'script/space_ok.tsv').read_text(encoding='utf-8').splitlines():
+        if ln.strip() and not ln.startswith('#'):
+            sid, side, reason = ln.split('\t')
+            assert side in ('leading', 'trailing') and reason.strip(), ln
+            out.setdefault(sid, set()).add(side)
+    return out
+
+
+def problems(jp, en, box, gl, ok=(), space_ok=()):
     """Error list. ok: JP terms (or term+honorific) reviewed as fine to leave out of this string."""
     errs = []
     if not en.strip():
@@ -207,8 +218,14 @@ def problems(jp, en, box, gl, ok=()):
         errs.append('the JP ends with {wait} and the English does not, or the reverse')
     if re.search(r'\{(num|str|name|gold)\}(st|nd|rd|th)\b', en):
         errs.append('ordinal suffix glued to a variable (write "No. {num}")')
-    _, lp = layout.layout(en, jp, box)
+    rendered, lp = layout.layout(en, jp, box)
     errs += lp
+    # Check the inserted result, not just authored English: layout must not eat a separator.
+    for side, pattern in (('leading', r'^ +'), ('trailing', r' +$')):
+        source = re.search(pattern, jp)
+        target = re.search(pattern, rendered)
+        if source and (not target or len(source[0]) != len(target[0])) and side not in space_ok:
+            errs.append(f'{side} source blanks lost in inserted text (review in script/space_ok.tsv)')
     plain = TOKEN.sub('', jp)
     for j, e, avoid, person in gl:
         for a_ in avoid:
@@ -251,9 +268,11 @@ def check(name):
     for i in sorted(set(got) - set(want)):
         errs.append(f'{i}: not in this batch')
     ok = glossary_ok()
+    spaces = space_exceptions()
     for i in want:
         if i in got and i in us:
-            errs += [f'{i}: {x}' for x in problems(us[i]['jp'], got[i], us[i]['box'], gl, ok.get(i, ()))]
+            errs += [f'{i}: {x}' for x in problems(us[i]['jp'], got[i], us[i]['box'], gl,
+                                                 ok.get(i, ()), spaces.get(i, ()))]
     for e in errs:
         print('ERROR', e)
     print(f'{name}: {"OK" if not errs else f"{len(errs)} errors"} ({len(got)} entries)')

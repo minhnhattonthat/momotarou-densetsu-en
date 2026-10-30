@@ -35,9 +35,10 @@ fits when the sum of its advances minus 1 is at most the budget. Never derive a 
 | Save slot label (空きファイル) | EXE/title tables | 178 | scroll interior ~290 | ~110 px | 1 | measured: title_load |
 | Gold box | {gold} + unit 両 | 217..292 | - | - | 1 | measured interior; unit glyph after the number |
 
-Label coverage (phase 7 review follow-up, done): every authored FONT_5/6/7 label maps to a measured box or to the
-explicit unused list below. The Japanese-length fallback is gone: an unmapped label gets box `label` with budget 0,
-so any English fails the lint (fail closed). `python -X utf8 tools/debug/label_refs.py --unmeasured` exits 0.
+Label coverage now includes every authored non-data table and overlay. A single-line string without a mapped
+consumer gets box `label` with budget 0 and fails lint. `label_refs.py --unmeasured` checks that classification
+directly (its previous `is None` test missed budget 0). Dialogue page markers remain a dialogue classification;
+known labels and fragments override it. The non-FONT consumers and static evidence are listed below.
 
 ## Window descriptors
 
@@ -76,8 +77,56 @@ screens above. Box `unused` (no width check): FONT_6:579 (ターボ), 595 + 597-
 name-entry screen never fetches it). A computed index can hide from the static scan (the directions are reached
 that way), so if one of these ever shows in game, measure its window and move it to a box.
 
-Not covered by this gate: single-line strings of non-FONT tables (FONT_10/11, MECD, card names in HMAP8500_18,
-minigame tables ...) still default to the dialogue box (234 px) unless listed above.
+## Non-FONT consumers (phase 7 second review)
+
+Use `tools/debug/code.py FILE[:ENTRY] BASE --calls ADDRESS...`, `--refs ADDRESS...`, or `--range START SIZE`
+to reproduce these disassemblies, including decompression. Map overlays load at 0x80168000, minigames at
+0x801C0000, MECD:0 at 0x80110000, and FBTL.BIN at 0x80190000. Static budgets use the same descriptor formula
+validated against the six measured windows above; column limits also reserve the following cursor/value field.
+
+| Source | Consumer / evidence | Budget |
+|---|---|---|
+| FONT_10:117 | FBTL 0x80190188 passes 117, table 0x8017C000, x16 to draw_string; battle grid | 52 x 1 |
+| FONT_10:028-030 | Battle sentence fragments (company, each, Also); appended to battle dialogue | 234 x 1 |
+| FONT_10:079-099, :102 | Battle name / None substitutions | 114 x 1 |
+| FONT_11 plain subject fragments :047-110 | Subject prefixes joined to battle messages; only the enumerated plain entries use this form | 234 x 1 |
+| HMAP8500_18:082-084 | Rock/paper/scissors callback 0x80169028, descriptor +0x1FDC width10, x16 | 58 x 1 |
+| HMAP8500_18:085-381 | Card names fed to `0x8003B63C` at overlay +0x570/+0x600/+0x6FC etc.; not an album list | 134 x 1; containing dialogue also reserves 134 per `{str}` (longest current name 131) |
+| SMAP01_33:041-043 | Play/Info/Quit callback +0xD10, descriptor +0x1418 width10 | 58 x 1 |
+| SMAP01_33:053-070 | Destination list callback +0xE2C reads records +0x13C0; descriptor +0x1434 widened 10 -> 18 tiles for bath names | 122 x 1 |
+| SMAP16_37:130-137 | Callback +0x2628: two columns, x16/80; descriptor +0x46AC width24. First column ends before next cursor, second at interior186 | 52 first / 106 second, one line |
+| DMAP03_92:027-036 | Animal puzzle callback +0x137C..+0x1490: x16+56*column; cursor reservation | 48 x 1 |
+| HMAP26_66:163-164; HMAP2606_66:287-288 | Floor/swim travel callback +0x2C74 / +0x1468, descriptors +0x3B90 / +0x25A0, width18 | 122 x 1 |
+| HMAP2607_66:021-025 | Floor guides callback +0x834, descriptor +0x1004 width12, x16 | 74 x 1 |
+| HMAP26_66:215-270 | Music titles: callback +0x6D8, x40 after track number; descriptor +0x36FC width30 | 194 x 1 |
+| HMAP2606_66:045-085 | Complete sayings inserted into :030 via `0x8003B63C` at +0x9F4 | 234 x 1; :030 reserves 180 for `{str}` (current maximum 178) |
+| HMAP2606_65 | Word Maze letter clues/keyboard comparison, pointer list +0x209C; length routine +0x1400 caps at18, distribution +0xC78 copies individual u16 codes | 18 uppercase letters, no spaces/punctuation, single-glyph encoding; see engine.md |
+| HMAP8300_18:038-041 | Restaurant callback +0x10DC: names x16, price right-aligned at144, suffix at148; reserve five 8px digits | 86 x 1 |
+| MECD_1:000 | Save details callback +0xE2C, Level x24, party name x48 | 22 x 1 |
+| MECD_1:001-018 | Save names enter prompts via +0x2F0/+0x30C; status labels via +0xF6C and position table +0x3108; descriptor +0x311C width20 | 106 x 1 (empty file starts x48, other states x8) |
+| DARUMA_11:015-021 | Callback +0x154C; difficulty/character/title columns now x16/88/160, width32 | 70 / 58 / 90 x 1 |
+| FUKU_11:006-012 | Callback +0xA58; columns now x16/88/148, descriptor +0x1544 widened22 -> 28 and origin +0x1540 moved128 -> 80 to stay onscreen | 70 / 58 / 70 x 1 |
+| FUKU_11:044 | Points at x36, descriptor +0x1524 widened7 -> 9 tiles | 30 x 1 |
+| YUMI2_10:002 | Points at x40, descriptor +0x17CC widened8 -> 10 tiles | 30 x 1 (34 available) |
+| YUMI2_10:009-011 | Score row separators / sum at callbacks +0x0000..+0x0258; sum heading beside final value | 9 / 16 / 9 x 1; Total -> Sum (a full equivalent word) |
+| MOGURA_11:016-017 | Yes/No choice rows | 58 x 1 |
+| BM008_1:278; BM028_1:222-233 | Battle quiz prompt / arithmetic question fragments | 234 px dialogue / one line |
+
+Unused additions: FONT_10:122-154 are the unused monster-editor headings following the last battle message
+(:121); no renderer consumer found in the EXE/FBTL/overlay inspection. YUMI2_10:003-004 are duplicate score-unit
+strings with no caller (the score suffix callback uses :002). As with the earlier unused list, a newly found caller
+must be measured and mapped. They are explicitly classified, never silently accepted as dialogue.
+
+Source edge spaces are checked against the rendered insertion. The battle fragments :029/:030 preserve their
+trailing separators; reviewed indentation and post-wait padding exceptions are in `script/space_ok.tsv`. Added
+English joining spaces remain allowed. The short-final-line gate rejects literal final rows under six visible
+characters after wrapping; runtime variables, independent quiz choices, credits rows and the exact two cipher
+clues are treated separately. Wrapping also rebalances a short multi-word tail, not just a lone word.
+
+Cold-boot verification: `work/qa/warp_review7_final/daruma_choices/scene.png` and
+`work/qa/warp_review7_final/fuku_choices/scene.png` show all three rows and columns within their frames.
+Both routes are named scenes in `tools/debug/scenes.lua`. The first Fuku probe exposed its wider frame running
+past x320; the corrected x80 origin keeps the full 28-tile window and title suffix onscreen.
 
 Additional measurements from fresh English-build states (2026-10-30 review follow-up):
 

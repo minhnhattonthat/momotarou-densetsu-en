@@ -108,7 +108,7 @@
   {
    "id": "HMAP2606_66:020",
    "jp": "「そして その 文字から できる{n} ことばを 当ててね！」{n}{wait}",
-   "en": "\"Then guess the word those letters make!\"{wait}"
+      "en": "\"Then guess the saying those letters make!\"{wait}\"Use capital letters only, with no spaces or punctuation.\"{wait}"
   },
   {
    "id": "HMAP2606_66:021",

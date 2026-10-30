@@ -28,6 +28,10 @@ EN = engine.table()
 # drawn glyph by glyph by the effect 0x80022750 (glyph_prim, no digraph hook): single glyph codes only
 SINGLE = {'SMAP16_36:46c4'}
 EN1 = engine.table(pairs=False)
+# Word Maze splits these answers into individual letter clues and compares them to keyboard input.
+# Reserve a new pool beyond the overlay's code/data/BSS (original ends +0x2628).
+WORD_MAZE = 'HMAP2606_65'
+WORD_MAZE_POOL, WORD_MAZE_END = 0x3000, 0x4000
 FONT = '0/03FONT/FONT.PAC'
 EXE = 'SLPS_017.85'
 FILLER = 'The quick brown fox jumps over the lazy dog. '
@@ -116,14 +120,19 @@ def repacked(doc, b, audit=None):
     ss, orig, at = doc['strings'], audit.original, int(doc['base'], 16)
     assert all(a['off'] + a['max'] == c['off'] for a, c in zip(ss, ss[1:])), doc['id']
     pos, end = ss[0]['off'], ss[-1]['off'] + ss[-1]['max']
+    maze = doc['id'] == WORD_MAZE
+    if maze:
+        assert len(orig) <= WORD_MAZE_POOL
+        audit.put(len(orig), bytes(WORD_MAZE_POOL - len(orig)), 'word-maze:pool-gap', append=True)
+        pos, end = WORD_MAZE_POOL, WORD_MAZE_END
     for s in ss:
-        enc = EN.encode(s['en'] + '{end}') if s.get('en') else orig[s['off']:s['off'] + 2 * len(extract.string_words(orig, s['off']))]
+        enc = (EN1 if maze else EN).encode(s['en'] + '{end}') if s.get('en') else orig[s['off']:s['off'] + 2 * len(extract.string_words(orig, s['off']))]
         assert pos + len(enc) <= end, (doc['id'], s['id'], pos + len(enc) - end, 'bytes over the pool')
-        audit.put(pos, enc, s['id'])
+        audit.put(pos, enc, s['id'], append=maze)
         for p in s['ptrs']:
             audit.put(int(p[5:], 16), struct.pack('<I', at + pos), f"{s['id']}:{p}")
         pos += len(enc)
-    if pos < end:
+    if pos < end and not maze:
         audit.put(pos, bytes(end - pos), f"{doc['id']}:pool-padding")
     audit.verify(b)
     return bytes(b)

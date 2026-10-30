@@ -20,6 +20,7 @@ def validate(ds, gl, ok, keep=()):
     This classification does not exempt an authored English field from any check.
     """
     errs, seen, copies = [], set(), {}
+    spaces = batches.space_exceptions()
     avoid = [r for r in gl if r[2]]
     reviewed = {}
     for _, doc in ds:
@@ -44,14 +45,15 @@ def validate(ds, gl, ok, keep=()):
             # The money label is a single redrawn glyph replaced with literal ASCII, per engine.md.
             # Match both source and replacement exactly; any other token change must still fail.
             control_jp = en if (sid, jp, en) == ('FONT_6:556', '{sm_ryo}', 'ryo') else jp
-            key = (jp, en, box, exceptions, control_jp)
+            space_ok = tuple(sorted(spaces.get(sid, ())))
+            key = (jp, en, box, exceptions, control_jp, space_ok)
             if key in seen:
                 continue
             seen.add(key)
             if batches.JA.search(en):
                 errs.append(f'{sid}: Japanese left in the English')
             errors = batches.problems(control_jp, en, box,
-                                      avoid + [r for r in gl if not r[2] and r[0] in jp], exceptions)
+                                      avoid + [r for r in gl if not r[2] and r[0] in jp], exceptions, space_ok)
             errs.extend(f'{sid}: {e}' for e in errors)
     for jp, variants in copies.items():
         if len(variants) > 1:

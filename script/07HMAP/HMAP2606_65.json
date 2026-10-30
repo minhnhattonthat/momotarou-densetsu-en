@@ -84,7 +84,7 @@
     "word@0x20b8"
    ],
    "jp": "かふくはあざなえるなわのごとし",
-   "en": "Luck twists like a rope"
+      "en": "Luck twists a rope"
   },
   {
    "id": "HMAP2606_65:1dac",
@@ -314,7 +314,7 @@
     "word@0x2114"
    ],
    "jp": "のうあるたかはつめをかくす",
-   "en": "Clever hawks hide claws"
+      "en": "Keen hawks hide claws"
   },
   {
    "id": "HMAP2606_65:1fa8",
@@ -324,7 +324,7 @@
     "word@0x2118"
    ],
    "jp": "ころばぬさきのつえ",
-   "en": "Better safe than sorry"
+      "en": "Safety before sorry"
   },
   {
    "id": "HMAP2606_65:1fbc",
@@ -384,7 +384,7 @@
     "word@0x2130"
    ],
    "jp": "ふくすいぼんにかえらず",
-   "en": "Spilt milk stays spilt"
+      "en": "Spilt milk is spilt"
   },
   {
    "id": "HMAP2606_65:2054",
