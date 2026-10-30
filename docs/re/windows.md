@@ -35,10 +35,49 @@ fits when the sum of its advances minus 1 is at most the budget. Never derive a 
 | Save slot label (空きファイル) | EXE/title tables | 178 | scroll interior ~290 | ~110 px | 1 | measured: title_load |
 | Gold box | {gold} + unit 両 | 217..292 | - | - | 1 | measured interior; unit glyph after the number |
 
-Phase 7 review correction: the variants above are measured, but **coverage is incomplete**. Unmapped FONT labels
-still reach the legacy Japanese-length fallback in `layout.budget`; they must not be treated as validated fits.
-`python -X utf8 tools/debug/label_refs.py --unmeasured` lists the remaining authored labels and exits 1 until
-there are none. Do not declare phase 7 complete while it fails; remove the fallback after mapping these consumers.
+Label coverage (phase 7 review follow-up, done): every authored FONT_5/6/7 label maps to a measured box or to the
+explicit unused list below. The Japanese-length fallback is gone: an unmapped label gets box `label` with budget 0,
+so any English fails the lint (fail closed). `python -X utf8 tools/debug/label_refs.py --unmeasured` exits 0.
+
+## Window descriptors
+
+Menu windows come from 16-byte descriptors in RAM: u16 width, height in 8 px tiles, then flags, then the draw
+callback (find one with `tools/debug/xref.py <callback>`: the descriptor starts 12 bytes before the data word).
+Callbacks draw each row with `0x8003D968(index a0, table a1, x a2, y a3)`, x relative to the window. For x = 16 the
+text budget is **8 x width - 22 px** (x = 10: 8 x width - 16): checked in-game on six windows (rows marked
+measured below). Windows only read from code are marked static; they use the same formula.
+
+| Variant | Strings | Window | Budget | Evidence |
+|---|---|---|---|---|
+| Item popup Use / Drop | FONT_6:646-647 | 10 tiles, desc 0x800E34F8 | 58 px | measured `work/qa/m8_use/f000040.png` (x207, interior ends 264) |
+| Yes / No | FONT_6:649-650 | 10 tiles, desc 0x800E34A0 | 58 px | measured `work/qa/m8_elev3/f000420.png` (x48, ends 105) |
+| Play / Info / Exit | FONT_5:058, FONT_6:682, :654 | 10 tiles, desc 0x800E34BC / 0x800E3DFC | 58 px | static |
+| Companion Skills / Part | FONT_6:747-748 | 10 tiles, desc 0x8007AC70 | 58 px | measured `work/qa/m8_part/f000100.png` (x195, ends 252) |
+| Companion skill list | FONT_6:693-698 | 12 tiles, desc 0x8007AC8C | 74 px | measured `work/qa/m8_skills/f000020.png` (x195, ends 268); all six seen (strlog) |
+| Town Warp list | FONT_6:700-707 | 11 tiles, desc 0x8007ACA8 | 66 px | measured `work/qa/warp_m8/town_warp/scene.png` (x48, ends 113) |
+| Elevator floors (maps 309-314) | FONT_6:799-803 | was 6 tiles = 26 px: cut "Floor 5" to "Floor" | 34 px | **fixed**: engine.OVERLAY_PATCH widens HMAP26/2606/2607:65 to 7 tiles; measured `work/qa/m8_elev3/f000250.png` (x48, ends 81) |
+| Equip: Unequip row | FONT_6:594 | item list | 114 px | measured `work/qa/m8_equip/f000300.png` (x28, ends 141) |
+| Equip slot None | FONT_6:593 | equip slot, side box | 103 px | measured (equip slot, above); also drawn in the 134 px side box |
+| Equip stat + / = | FONT_6:659-660 | + at x212, base stat right-aligned before the = (3 digits from ~222) | 9 px | measured `work/qa/m8_equip/zoom_stats.png`; code 0x800DA650 |
+| {str} slot in dialogue | FONT_6:733-740 (into :730), SHOP:344-346, floors into :805/806 | lint counts {str} as 114 px | 114 px | directions seen: `work/qa/warp_m8/enon_world/scene.png` ("Head West ..."); set by 0x8003B650/0x8003B63C |
+| Bank menu | SHOP:259-260, FONT_6:588, :654 | 8 tiles, desc 0x8007A904 | 42 px | static (code 0x800365D0) |
+| Bank Deposit / Withdraw | SHOP:261-262 | 11 tiles, desc 0x8007A920 | 66 px | static |
+| Bank balance heading | SHOP:263 | 12 tiles, x 10 | 80 px | static (0x800368BC) |
+| Clinic menu | SHOP:342-343 (FONT_6:572-573, :654 too) | 9 tiles, desc 0x8007A974 | 50 px | static; SHOP:342 "Cure Poison" (52) -> "Poison" |
+| Sound test Exit (debug) | FONT_6:530 | 34 tiles, desc 0x800E3EE8, x 24 | 242 px | static |
+
+## Unused labels
+
+No consumer found: no `addiu/ori rt, rs, index` with the index (or base + offset forms) in the EXE, SHOP.MMB or any
+decompressed PAC entry, no u16 data word with it in the EXE, and never fetched by `tools/debug/strlog.lua` in the
+screens above. Box `unused` (no width check): FONT_6:579 (ターボ), 595 + 597-605 (debug menu: かり, ATRきりかえ ...
+フィールドマップへ), 661-662 (性能値, キャラの力), 681 + 683-686 (bank labels; the bank draws its SHOP copies),
+796 (デバッグ); FONT_7:019-023 (はやい/ふつう/おそい, おじいさん/おばあさん); FONT_5:093 (文字を入力してください: the
+name-entry screen never fetches it). A computed index can hide from the static scan (the directions are reached
+that way), so if one of these ever shows in game, measure its window and move it to a box.
+
+Not covered by this gate: single-line strings of non-FONT tables (FONT_10/11, MECD, card names in HMAP8500_18,
+minigame tables ...) still default to the dialogue box (234 px) unless listed above.
 
 Additional measurements from fresh English-build states (2026-10-30 review follow-up):
 

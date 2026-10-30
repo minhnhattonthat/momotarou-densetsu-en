@@ -204,6 +204,11 @@ def files(marker_build=False, qa=None, audit=None):
             buffer('0/' + path, int(ent)).put(0, b, f'graphics:{loc}', replace=True)
             put('0/' + path, int(ent), b)
 
+    for loc, off, old, new in [] if marker_build else engine.OVERLAY_PATCH:
+        path, ent = loc.rsplit(':', 1)
+        buf = buffer(path, int(ent))               # shared with the string pass (HMAP2606:65 proverb pool)
+        buf.put(off, new, f'overlay-patch:{loc}:{off:#x}', expected=old)
+        put(path, int(ent), bytes(buf.data))
     raw[EXE] = engine.patch_exe(base(EXE, None), buffer(EXE, None))
     cache = {}
     for path, ents in entries.items():

@@ -70,6 +70,20 @@ def main(argv):
     if argv[0] == '--segments':
         print(segments(argv[1], int(argv[2]), int(argv[3])))
         return
+    if argv[0] == '--runs':  # every box run on row Y (not only the widest): popups beside a bigger window
+        img = Image.open(argv[1]).convert('RGB')
+        y = int(argv[2])
+        px = [img.getpixel((x, y))[:3] for x in range(img.width)]
+        start = None
+        for x in range(img.width + 1):
+            inside = x < img.width and (navy(px[x]) or bright(px[x]))
+            if inside and start is None:
+                start = x
+            elif not inside and start is not None:
+                ink = [i for i in range(start, x) if bright(px[i])]
+                print(f'y={y} interior x={start}..{x - 1} ink={(min(ink), max(ink)) if ink else None}')
+                start = None
+        return
     if argv[0] == '--scan':
         for p in argv[1:]:
             for b in scan(p):

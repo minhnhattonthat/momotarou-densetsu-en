@@ -69,6 +69,19 @@ CR_PG01-99 are not loaded by the ending (end1 log): likely card-album pages (gue
 - Battle command menu: `battle_long` / `battle_lists` (god mode, circle every 100 frames) reach it on round 2; the
   first round can be an ambush (no commands). Marker build: menu at ~f5440 with --var SETTLE=6000 --state-every 40.
 
+## Companions, string log, overlay calls (phase 7 width work)
+- Party: u16 at 0x80091310 + 2 * id != 0 puts character id with Momotaro (ids 4-13 = Dog .. Jizo; list 0x8007ACCC,
+  check 0x8003FB64). Companion skills unlock by bits of u16 0x8009195C (0xFFFF = all). Scenes `orders_party`,
+  `town_warp` (pheasant's list in town 2), `enon_world` (Enon's direction line on the overworld).
+- `tools/debug/strlog.lua` (--debugger) logs the first fetch of each FONT_5/6/7 string through get_string
+  0x8003D944 with its caller: which screen draws a label. `tools/debug/hold.lua --var "HOLD={{addr,size,v}}"`
+  rewrites RAM every frame in a run from a savestate.
+- `tools/debug/xref.py ADDR` finds lui/addiu pairs and data words that hold an address (window callbacks ->
+  descriptors, docs/re/windows.md); `tools/debug/imm.py FILE BASE N..` lists immediate index loads in any code file.
+- Elevator (maps 309-314, HMAP26/2606/2607:65 overlay at 0x80168000): reach the floor list with call.lua
+  AT=0x8003B284 CALL=0x801681E4 from a map-309 state, route menu > Check (`circle; right; circle`), and hold
+  0x80084786 = 0x200 (`work/qa/m8_elev3`).
+
 ## Title
 - The logo screen shows the menu box (はじめて / つづきから) only after a button press; warp.lua detects the box by
   screen pixels (white box top edge at y=154, green post at 60,152) because the title RAM had no clean flag.

@@ -51,6 +51,8 @@ def allowed():
     exe += [(lo - engine.EXE_BASE, hi - engine.EXE_BASE) for lo, hi in ((engine.HOOK, engine.FREE1_END),
                                                                          (engine.DIGRAPH, engine.FREE2_END))]
     exe += [(g, g + 4 * engine.GRID_CELLS) for g in (engine.GRID_FIRST, engine.GRID_ALNUM)]
+    for loc, off, old, _ in engine.OVERLAY_PATCH:        # window descriptors widened in map overlays
+        out.setdefault(loc, []).append((off, off + len(old)))
     for loc, _, edits in gfx_en.IMAGES.values():       # redrawn graphics text: pixel bytes of the declared rects
         bpp, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + (y * w + x1) * bpp // 8)

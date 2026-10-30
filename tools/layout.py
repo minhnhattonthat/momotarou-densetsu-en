@@ -17,22 +17,35 @@ TOKEN = re.compile(r'(\{[^}]*\})')
 # px a control token takes when drawn: a {str} run is the longest monster name (114 px; items 103, party 44)
 TOKEN_W = {'{str}': 114, '{num}': 40, '{gold}': 56, '{name}': 64}
 
-# (px, lines) per box variant, docs/re/windows.md; 'label' = unmeasured short label: budget = the JP's own width
+# (px, lines) per box variant, docs/re/windows.md. 'label' = a short label with no measured consumer: budget 0, so
+# any English fails the lint until its window is measured. 'unused' = no consumer exists (windows.md §Unused labels).
 BOX = {'dlg': (234, 3), 'side': (134, 3), 'item': (103, 1), 'tech': (85, 1), 'monster': (114, 1), 'cmd': (52, 1),
        'party': (44, 1), 'shop': (58, 1), 'namecmd': (56, 1), 'staff': (250, 3), 'place': (110, 1),
-       'status': (40, 1), 'stat': (72, 1), 'slot': (20, 1), 'label': (None, 1),
+       'status': (40, 1), 'stat': (72, 1), 'slot': (20, 1), 'label': (0, 1), 'unused': (10 ** 6, 1),
        'settings': (106, 1), 'settingchoice': (86, 1), 'treasure': (78, 1), 'summary': (111, 1),
-       'oniunit': (18, 1), 'cardunit': (34, 1), 'moneyunit': (17, 1), 'namemode': (57, 1)}
+       'oniunit': (18, 1), 'cardunit': (34, 1), 'moneyunit': (17, 1), 'namemode': (57, 1),
+       'itemlist': (114, 1), 'equipslot': (103, 1), 'popup': (58, 1), 'op': (9, 1), 'skill': (74, 1), 'townwarp': (66, 1),
+       'floor': (34, 1), 'strslot': (114, 1), 'soundtest': (242, 1), 'bankmenu': (42, 1), 'bankmove': (66, 1),
+       'bankbalance': (80, 1), 'clinic': (50, 1)}
 
-FONT_6 = [(0, 31, 'tech'), (32, 60, 'side'), (61, 301, 'item'), (302, 526, 'side'), (536, 550, 'party'),
+UNUSED = {'FONT_6': [(579, 579), (595, 605), (661, 662), (681, 681), (683, 686), (796, 796)],
+          'FONT_7': [(19, 23)], 'FONT_5': [(93, 93)]}
+# first match wins: a string drawn in several windows sits under its narrowest one, listed before its range
+FONT_6 = [(588, 588, 'bankmenu'), (654, 654, 'bankmenu'),
+          (0, 31, 'tech'), (32, 60, 'side'), (61, 301, 'item'), (302, 526, 'side'), (536, 550, 'party'),
           (559, 573, 'status'), (574, 576, 'stat'), (584, 591, 'cmd'), (606, 630, 'place'), (651, 654, 'shop'),
           (655, 655, 'item'), (656, 658, 'slot'), (663, 663, 'stat'), (556, 556, 'moneyunit'),
           (577, 577, 'treasure'), (578, 578, 'summary'), (580, 581, 'summary'), (582, 582, 'oniunit'),
           (583, 583, 'cardunit'), (592, 592, 'cmd'), (786, 786, 'settings'), (787, 788, 'settingchoice'),
-          (789, 789, 'settings'), (790, 791, 'settingchoice'), (792, 792, 'settings'), (793, 795, 'settingchoice')]
+          (789, 789, 'settings'), (790, 791, 'settingchoice'), (792, 792, 'settings'), (793, 795, 'settingchoice'),
+          (530, 530, 'soundtest'), (593, 593, 'equipslot'), (594, 594, 'itemlist'), (646, 647, 'popup'),
+          (649, 650, 'popup'), (659, 660, 'op'), (682, 682, 'popup'), (693, 698, 'skill'), (700, 707, 'townwarp'),
+          (733, 740, 'strslot'), (747, 748, 'popup'), (799, 803, 'floor')]
 FONT_7 = [(3, 9, 'monster'),(10, 16, 'cmd'), (24, 25, 'dlg'), (26, 34, 'cmd'), (35, 271, 'monster')]
 FONT_5 = [(0, 91, 'place'), (94, 98, 'namecmd')]
-RANGES = {'FONT_6': FONT_6, 'FONT_7': FONT_7, 'FONT_5': FONT_5}
+SHOP = [(259, 260, 'bankmenu'), (261, 262, 'bankmove'), (263, 263, 'bankbalance'), (342, 343, 'clinic'),
+        (344, 346, 'strslot')]
+RANGES = {'FONT_6': FONT_6, 'FONT_7': FONT_7, 'FONT_5': FONT_5, 'SHOP': SHOP}
 
 
 def box(sid, jp):
@@ -40,24 +53,20 @@ def box(sid, jp):
     table, _, idx = sid.partition(':')
     if sid in ('SLPS_017:d44f4', 'SLPS_017:d4500', 'SLPS_017:d450c'):
         return 'namemode'
+    if idx.isdigit() and any(lo <= int(idx) <= hi for lo, hi in UNUSED.get(table, [])):
+        return 'unused'
     for lo, hi, name in RANGES.get(table, []):
         if idx.isdigit() and lo <= int(idx) <= hi:
             return name
     if table == 'END02_14':
         return 'staff'
-    if '{n}' in jp or '{wait}' in jp or '「' in jp or table not in RANGES and table != 'SLPS_017':
+    if '{n}' in jp or '{wait}' in jp or '「' in jp or table not in ('FONT_5', 'FONT_6', 'FONT_7', 'SLPS_017'):
         return 'dlg'
     return 'label'
 
 
 def budget(name, jp):
-    px, lines = BOX[name]
-    return (px if px is not None else max(40, jp_width(jp))), lines
-
-
-def jp_width(jp):
-    """Pixel width of the widest JP line (13 px per glyph)."""
-    return max(13 * len(TOKEN.sub('', line)) for line in re.split(r'\{n\}|\{wait\}', jp))
+    return BOX[name]
 
 
 def width(text):
@@ -81,7 +90,7 @@ def wrap(text, px):
     """Greedy word wrap of one page; forced breaks at {n}; continuation lines inside a quote get a 1-space indent."""
     lines = []
     for para in text.split('{n}'):
-        words, line = para.split(' '), ''
+        words, line, first = para.split(' '), '', len(lines)
         for w in words:
             cand = f'{line} {w}' if line else w
             if line and width(cand) > px:
@@ -91,6 +100,13 @@ def wrap(text, px):
             else:
                 line = cand
         lines.append(line)
+        # no lone word on a paragraph's last line: pull the line above's last word down when it fits
+        if len(lines) - first >= 2 and ' ' not in lines[-1].strip():
+            head, _, last = lines[-2].rpartition(' ')
+            indent = lines[-1][:len(lines[-1]) - len(lines[-1].lstrip(' '))]
+            moved = f'{indent}{last} {lines[-1].lstrip(" ")}'
+            if ' ' in head.strip() and width(moved) <= px:
+                lines[-2:] = [head, moved]
     return lines
 
 

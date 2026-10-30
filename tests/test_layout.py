@@ -59,6 +59,20 @@ def test_overflow_and_too_many_lines_reported():
     assert layout.layout(' '.join(['word'] * 120), '一{n}二{n}三')[1]
 
 
+def test_no_lone_last_word_when_it_can_move():
+    lines = layout.wrap("But the oni's attack only cut through the empty air!", 108)   # greedy: [..., 'cut through the empty', 'air!']
+    assert ' ' in lines[-1].strip() and all(layout.width(ln) <= 108 for ln in lines)
+    assert layout.wrap('Hello there friend', 1000) == ['Hello there friend']
+
+
+def test_unmapped_labels_fail_closed():
+    """A FONT label outside every measured range gets no width from its Japanese: any English overflows."""
+    assert layout.box('FONT_6:9999', 'はい') == 'label'
+    assert layout.layout('Yes', 'はい', 'label')[1]
+    assert layout.box('FONT_6:799', '1階') == 'floor' and not layout.layout('Floor 5', '5階', 'floor')[1]
+    assert layout.box('FONT_6:600', 'スクロールスピード') == 'unused'
+
+
 def test_check_problems():
     gl = [('桃太郎', 'Momotaro', ['Momotarou'], True)]
     assert any('control codes' in e for e in batches.problems('{str}の 攻撃！', '{str} attacks{num}!', 'dlg', gl))

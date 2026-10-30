@@ -78,6 +78,13 @@ PATCH = [                        # (address, original, replacement)
     # name entry 0x800DC3D0: cursor starts at column 0 (top-left 'A' of the English page), not 14 (あ, top-right)
     (0x800DC5FC, 'addiu $a0, $zero, 0xe', 'addiu $a0, $zero, 0'),
 ]
+# Map-overlay layout patches (decompressed PAC entry, offset, original, replacement). Window descriptors start with
+# u16 width, height in 8 px tiles (docs/re/windows.md §Window descriptors).
+OVERLAY_PATCH = [
+    # elevator floor list (maps 309-314, FONT_6:799-803): 6 tiles = 26 px cut "Floor 5" to "Floor"; 7 tiles = 34 px
+    (f'0/07HMAP/{pac}:65', off, b'\x06\x00\x0c\x00', b'\x07\x00\x0c\x00')
+    for pac, off in [('HMAP26.PAC', 0x31DC), ('HMAP2606.PAC', 0x1608), ('HMAP2607.PAC', 0xBB4)]
+]
 # Name-entry grids (docs/re/text.md): 15 x 5 cells, row-major left to right, each {glyph}{end}. The first page shown
 # (hiragana at EXE 0xD4158) becomes English; hiragana moves to the 英数字 page (0xD43B8); katakana stays.
 GRID_FIRST, GRID_ALNUM, GRID_CELLS = 0xD4158, 0xD43B8, 75

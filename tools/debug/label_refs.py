@@ -25,7 +25,7 @@ def main(args):
                    and layout.BOX[layout.box(s['id'], s['jp'])][0] is None]
         for s in missing:
             print(s['id'], repr(s['en']))
-        print(f'{len(missing)} authored labels still need measured budgets; phase 7 remains incomplete')
+        print(f'{len(missing)} authored labels without a measured budget (docs/re/windows.md)')
         return int(bool(missing))
     raw = (ROOT / 'work/disc/tree/SLPS_017.85').read_bytes()
     base = struct.unpack_from('<I', raw, 0x18)[0] - 0x800

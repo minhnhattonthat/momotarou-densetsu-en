@@ -13,6 +13,10 @@ SHOP_BUY[#SHOP_BUY + 1] = { 40, "-" }; SHOP_BUY[#SHOP_BUY + 1] = { 6, "circle" }
 SHOP_BUY[#SHOP_BUY + 1] = { 240, "-" }; SHOP_BUY[#SHOP_BUY + 1] = { 6, "circle" } -- past "what will you buy?"
 local ITEMS = {}                                             -- inventory: 6-byte slots, u16 item id (0xFFFF empty)
 for i = 0, 23 do ITEMS[#ITEMS + 1] = { 0x8009133A + 6 * i, 2, i + 1 } end
+local PARTY = {}                                             -- u16 per character id != 0: with the party (0x8003FB64)
+for id = 4, 13 do PARTY[#PARTY + 1] = { 0x80091310 + 2 * id, 2, 1 } end
+local SKILLS = { { 0x8009195C, 2, 0xFFFF } }                -- every companion skill unlocked (bits read at 0x80040568)
+for _, p in ipairs(PARTY) do SKILLS[#SKILLS + 1] = p end
 local function menu(downs, right)
   local r = { { 6, "circle" }, { 20, "-" } }
   if right then r[#r + 1] = { 6, "right" }; r[#r + 1] = { 20, "-" } end
@@ -53,6 +57,17 @@ return {
   menu_soubi     = { map = 1, settle = 90, route = menu(1, true) },
   menu_meirei    = { map = 1, settle = 90, route = menu(2, true) },
   menu_settei    = { map = 1, settle = 90, route = menu(3, true) },
+  orders_party   = { map = 1, settle = 90, route = menu(2, true), hold = PARTY },  -- companions 4-13 with Momotaro
+  enon_world     = { map = 0, x = 60, y = 60, settle = 300, hold = SKILLS, mash = 60,  -- Enon's skill: direction
+                     route = { { 6, "circle" }, { 20, "-" }, { 6, "right" }, { 20, "-" }, { 6, "down" }, { 20, "-" },
+                               { 6, "down" }, { 20, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "down" }, { 20, "-" },
+                               { 6, "down" }, { 20, "-" }, { 6, "down" }, { 20, "-" }, { 6, "down" }, { 20, "-" },
+                               { 6, "circle" }, { 30, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "circle" } } },
+  town_warp      = { map = 2, settle = 240, hold = SKILLS, mash = 60,               -- pheasant's Town Warp list
+                     route = { { 6, "circle" }, { 20, "-" }, { 6, "right" }, { 20, "-" }, { 6, "down" }, { 20, "-" },
+                               { 6, "down" }, { 20, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "down" }, { 20, "-" },
+                               { 6, "down" }, { 20, "-" }, { 6, "circle" }, { 40, "-" }, { 6, "down" }, { 20, "-" },
+                               { 6, "circle" } } },
   status_summary = { map = 1, settle = 60, route = status_scroll("left") },
   status_treasure = { map = 1, settle = 60, route = status_scroll("right") },
   setting_rumble = { map = 1, settle = 90, route = setting(0) },

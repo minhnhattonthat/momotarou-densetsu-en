@@ -2,7 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 reopened by review; phase 8 (QA in the emulator) remains incomplete, 2026-10-30.
+- **Phase:** 7 review findings closed (labels measured, JP-length fallback removed, widow wrap); phase 8 (QA in the
+  emulator) is next, 2026-10-30.
+- **Label widths done (this session):** all 64 remaining FONT labels mapped (docs/re/windows.md §Window
+  descriptors, §Unused labels): measured in-game where reachable (Use/Drop, Yes/No, companion Skills/Part and skill
+  list, Town Warp list, elevator floors, Unequip, equip +/=, directions via {str}); bank, clinic, Play/Info/Exit and
+  sound-test windows from their window descriptors (formula 8 x tiles - 22 px, matches all 6 measured windows);
+  18 debug/dead labels listed as `unused`. `layout.budget` has no Japanese-length fallback: an unmapped FONT label
+  gets budget 0 (fail closed). `label_refs.py --unmeasured` exits 0. **Bug fixed:** elevator floor list (maps
+  309-314) cut "Floor 5" to "Floor"; `engine.OVERLAY_PATCH` widens its window 6 -> 7 tiles in HMAP26/2606/2607:65
+  (audited, allowed in test_insert); seen fixed in `work/qa/m8_elev3/f000250.png`. SHOP:342 "Cure Poison" (52 px
+  in a 50 px clinic menu) -> "Poison". Minor finding 4 (orphan final line): `layout.wrap` pulls the previous
+  line's last word down when a paragraph would end on one word and it fits: one-word last lines 4031 -> 345 of
+  10907 pages (the rest can't move: worst-case {str} 114 px). New tools: `tools/debug/strlog.lua`, `hold.lua`,
+  `xref.py`, `imm.py`, `boxmeasure.py --runs`; scenes `orders_party`, `town_warp`, `enon_world` (debug.md).
+  Check: 44 passed, lint 0 errors over 6023 checks. Image `build/momotarou_en.bin` 143893008 bytes,
+  2026-10-30 10:48 UTC, SHA-1 `815e3e16e1ab02052031d39a59cf0f8150a352e0`; smoke ok (`work/qa/m8_smoke`).
+  Open (not a gate yet): single-line strings of non-FONT tables (FONT_10/11 labels, MECD save labels, HMAP8500_18
+  card names, minigame tables, ~650) still default to the 234 px dialogue budget; map their consumers in phase 8
+  QA (strlog + the descriptor formula) where they are drawn outside a dialogue box.
 - **Phase 7 review follow-up:** whole-script lint now validates every authored non-data entry, including ASCII
   and control-only sources; unauthored ASCII/control-only entries explicitly retain original bytes. The exact
   FONT_6:556 `{sm_ryo}` -> `ryo` substitution is documented in lint. This exposed YUMI2_10:009's untranslated
@@ -11,18 +29,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   overlay strings and pointers, EXE patches, font rows and SFS updates; verifies final decompressed entries and
   final-disc file payloads. Regression probes reject bad originals, overlaps, overwrites and unlogged changes.
   `check.py`: 42 passed, lint 0 errors; fresh build + `work/qa/review7_smoke` smoke passed.
-  Remaining Important finding: replace guessed label widths with measurements. Phase 7 completion is reopened
-  pending that work; a green legacy width lint is not proof of measured coverage.
-- **This session's width/QA progress:** 21 formerly unmeasured authored labels now use measured budgets
-  (docs/re/windows.md); 64 remain. `python -X utf8 tools/debug/label_refs.py --unmeasured` lists them and exits 1.
-  That helper also locates EXE immediate-index candidates and disassembles ranges for tracing their consumers.
+- **Earlier width/QA progress:** 21 labels measured first (docs/re/windows.md).
+  `label_refs.py` also locates EXE immediate-index candidates and disassembles ranges for tracing their consumers.
   Fixed a real clipping bug in FONT_6:583: status-summary count and full "cards" suffix move left 16 px.
   New cold-boot scenes `status_summary`, `status_treasure`, `setting_rumble`, `setting_music`, `setting_text`
   all reach on the new build; proof shots `work/qa/warp_review7_fixed/<scene>/scene.png`. Status panels require
-  holding left/right (650 frames), not short taps. The phase 7 review's Minor orphan-final-line finding is still open.
-  Latest full check: 42 passed, lint 0 errors over 6021 text/box checks. Latest image: `build/momotarou_en.bin`,
-  143888304 bytes, 2026-10-30 10:10:41 UTC, SHA-1 `fb52f230639e505d2baa2884539d37ed8cc9fcc1`;
-  `work/qa/review7_fixed_smoke` passes. No phase-8 visual-QA manifest/verdict completion is claimed.
+  holding left/right (650 frames), not short taps. No phase-8 visual-QA manifest/verdict completion is claimed.
 - **Phase 8 progress:** phase 6 review fixes done (d047a7c: glossary names + character honorifics are lint/batch
   ERRORS now, reviewed exceptions in script/glossary_ok.txt; Enma-sama; art-use spacing). Graphics lettering
   pipeline: `tools/gfx.py` (TIM decode/repack, `show`/`dump`/`words` CLI to find text rects), `tools/gfx_en.py`
@@ -67,8 +79,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   components reach outside it and are kept). Built: `tools/cards.py templates` (families keyed by the bottom
   border colour: cream 38 cards, cyan 25, pink 177; greys outvoted -> clean backgrounds, few specks; ~57 cards with
   their own art get no template -> use plates).
-- **Next:** finish the 64 measured-width mappings and remove `layout.budget`'s Japanese-length fallback
-  (Important finding 2), then orphan-final-line wrapping/lint (Minor finding 4). Resume phase 8 graphics text
+- **Next:** phase 8. Resume graphics text
   (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
