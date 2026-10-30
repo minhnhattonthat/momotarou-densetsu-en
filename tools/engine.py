@@ -130,6 +130,9 @@ OVERLAY_PATCH += [
     ('0/30EV/YUMI2.PAC:0', 0x17CC, b'\x08\x00\x04\x00', b'\x0a\x00\x04\x00'),
     # The debug destination list also has long English bath/location names.
     ('0/06CITY/SMAP01.PAC:32', 0x1434, b'\x0a\x00\x08\x00', b'\x12\x00\x08\x00'),
+    # END01 repeats the same closing phrase twice. Center the first sprite and give the second zero width.
+    ('0/30EV/END01.PAC:1', 0x206, b'\x28', b'\xf3'),
+    ('0/30EV/END01.PAC:1', 0x210, b'\x60', b'\x00'),
 ]
 # Name-entry grids (docs/re/text.md): 15 x 5 cells, row-major left to right, each {glyph}{end}. The first page shown
 # (hiragana at EXE 0xD4158) becomes English; hiragana moves to the 英数字 page (0xD43B8); katakana stays.

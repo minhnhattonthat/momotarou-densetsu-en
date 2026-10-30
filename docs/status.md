@@ -2,6 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **Current phase-8 checkpoint (2026-10-30, after 7899460):** Word Maze correct/wrong answers passed through the
+  real keyboard and comparison path (`work/qa/word_maze_probe/report.md`, engine.md). The battle grid is legible;
+  runtime fragment probes found duplicate separators and the empty solo prefix, now fixed across all 78 reward
+  tables and both theft templates (windows.md). New town graphics found by a full town sweep are translated:
+  stone signs, round huts, flower shop, PLAY, and tiled-roof GROCER. DMAP03 Oni panels also redrawn. The ending
+  plate is now one centered "The End", verified at `work/qa/phase8_latest/end_scan/f000240.png` from a fresh-build
+  state. All 297 album cards captured; read-only review found residual lettering and damage to art, now under
+  repair in cards.py (glyph masks, preserved stat-box art and inner frames, longer one-column names). Fresh
+  99-page album capture and 83-scene cold-boot tour are complete in `work/qa/phase8_cardsfix`; independent visual
+  recheck is in progress. Full check: 47 tests passed, lint 0; rebuilt main image passed smoke after the final Oni
+  background cleanup. Remaining runtime graphics: six battle ailments, Congrats banner,
+  AMAP flag and Daruma title banner; playtester probes are active. **Phase 8 is not complete.**
+
 - **Active review follow-up (2026-10-30):** phase-7 Important findings implemented, runtime verification underway.
   Single-line labels in every table now fail closed unless their consumer is classified; `label_refs.py
   --unmeasured` includes non-FONT tables and reports zero. Consumer budgets and overlay window changes are in
@@ -104,10 +117,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   their own art get no template -> use plates).
 - **Next (phase 8 done-when):** see each remaining graphics row English in a zoomed cold-boot shot, adding scenes to
   tools/debug/scenes.lua where needed: battle status words (needs a battle with a status: find the status byte),
-  Congrats banner (HMAP26 maps 306-314), roof INN + wood plate row + SMAP16 plates (town maps), END01 "The End",
-  DARUMA.PAC:6 banner, DMAP03 鬼 plate (not placed yet), AMAP.PAC:9-11 map flag (unread: see the map in ev_amap later
-  frames), 77 REVIEW cards, English battle command grid. Then add those scenes to the tour (warp --all, tour.py,
-  qa_gate init/todo, visual-qa agents). Visual-QA notes worth a look: text still typing in many shots (tune scene
+  Congrats banner (HMAP26 maps 306-314), DARUMA.PAC:6 banner and AMAP.PAC:9-11 map flag. Review the refreshed
+  33-sheet album manifest and 83-sheet tour manifest in `work/qa/phase8_cardsfix`, fix any issues, and recheck.
+  The ending, Oni panels, town signs and battle grid are now captured. Visual-QA notes worth a look: text still typing in many shots (tune scene
   `hold` so boxes are complete), "Head West" capital W (enon_world).
 - **Older next notes:** phase 8. Resume graphics text
   (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner

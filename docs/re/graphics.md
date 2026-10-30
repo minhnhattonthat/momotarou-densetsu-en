@@ -1,5 +1,28 @@
 # Graphics text
 
+## Phase-8 runtime follow-up (2026-10-30)
+
+- Town sweep found additional glyphs omitted by the original plate matching: SMAP03B:3 stone signs (map 5),
+  SMAP06/0601:6 FLOWER (maps 9/10), SMAP15/1501:6 round-hut signs (maps 20/21), SMAP16:6 PLAY (map 22),
+  SMAP27/28:3 GROCER (maps 34/35). All now have explicit PLATE_KINDS and cold-boot scenes `signs_*`.
+  The round-hut :3 small variants are also translated; the larger :6 plates are the ones seen in-game.
+- Wood SHOE/WPN/ARM and the thatched-roof INN were seen on map 34. CLOTH, BATH and CARD DOJO were seen on map 22.
+  KIMONO/RESTAURANT did not appear in the exhaustive map-22 camera sweep; their runtime context is still unknown.
+- DMAP03:2's green Oni puzzle is map 403, tile 22,33 (`puzzle_oni`): eight panels. The glyph uses both palette
+  ramps 1..4 and 11..15, unlike the adjacent direction panels. Its inset is cleared to the dark stone colour
+  before lettering, preserving the border; the grey spare panel is also redrawn but was not seen in the map sweep.
+- END01 repeats one sprite twice to form the Japanese closing idiom. `engine.OVERLAY_PATCH` centers the first
+  sprite (entry 1 offset 0x206, signed x -13) and sets the second's width to zero (0x210). The texture is unchanged
+  by this placement fix. Fresh-build proof: `work/qa/phase8_latest/end_scan/f000240.png`, a single centered
+  "The End". Named cold-boot scene `ending_plate` settles at 35640 frames after event start.
+- All 99 album pages were captured by `tools/debug/album.lua`, showing all 297 cards. Read-only visual review
+  found leftover JP punctuation/antialiasing and erased character art. `cards.py` now erases common stat-label
+  glyphs instead of the entire stat box, preserves coloured art in the name column, erases the full flavour
+  lettering including its tinted fringe, and keeps the inner frame. Full updated album visual recheck pending.
+  Kanji drawn into miniature props are retained under D11, while the card labels and explanations are English.
+- Pending: actual battle ailments, museum Congrats banner, AMAP flag and Daruma title banner. See the per-row
+  source table below; older "preview only" notes are superseded only by the explicit proofs above.
+
 ## Static sweep (done 2026-10-30)
 `python -X utf8 tools/gfxdump.py work/gfx` renders every unique TIM image in every PAC (1,055 unique of 3,406;
 duplicates listed in `work/gfx/index.tsv`) to 44 labelled sheets; 4 read-only reviewer agents read all 44 and listed

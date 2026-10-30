@@ -123,7 +123,7 @@
   {
    "id": "FONT_10:023",
    "jp": "{str}{n}{col2}{str}{col0}を 盗まれた！{n}{wait}",
-   "en": "{str} {col2}{str}{col0} was stolen!{wait}"
+   "en": "{str}{col2}{str}{col0} was stolen!{wait}"
   },
   {
    "id": "FONT_10:024",
@@ -153,7 +153,7 @@
   {
    "id": "FONT_10:029",
    "jp": "それぞれ ",
-      "en": "each "
+   "en": "Each "
   },
   {
    "id": "FONT_10:030",
@@ -242,7 +242,7 @@
   {
    "id": "FONT_10:047",
    "jp": "{str} {num}両を{n}盗まれた！{n}{wait}",
-   "en": "{str} {num} ryo was stolen!{wait}"
+   "en": "{str}{num} ryo was stolen!{wait}"
   },
   {
    "id": "FONT_10:048",

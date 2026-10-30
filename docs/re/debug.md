@@ -57,7 +57,9 @@ CR_PG01-99 are not loaded by the ending (end1 log): likely card-album pages (gue
 
 ## Inventory, techniques, name entry (verified, phase 5)
 - Inventory: 6-byte slots from 0x8009133A (u16 item id, 0xFFFF = empty, then 4 bytes), ~96 slots; found by a RAM
-  diff around a purchase. Item id i is named by FONT_6:060+i. Scene `menu_items` pokes ids 1-24.
+  diff around a purchase. Scene `menu_items` pokes ids 1-24. Item names are not generally FONT_6:060+i:
+  `0x800DEF20(id)` reads the name index at +6 of the 20-byte record at `0x800E1510 + 20*id`.
+  For example, Map is item 264, whose name is FONT_6:287; item 227 is Pacific Saury, not Map.
 - Techniques: 9 learned bits per party member at 0x800FE3A8 + 2 * member (byte 2m bits 0-7, byte 2m+1 bit 0);
   read by the flag check 0x800FC0C8 (flags 0x10E + 9 * member + k), counted by 0x800DF5A4. Scenes `menu_techs`,
   `battle_lists` hold 0x1FF there (scene field `hold` = poke every frame).

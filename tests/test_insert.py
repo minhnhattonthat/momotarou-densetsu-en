@@ -57,7 +57,9 @@ def allowed():
     out[maze_loc].append((0x2628, insert.WORD_MAZE_END))  # appended single-letter answer pool + reserved gap
     for loc, _, edits in gfx_en.IMAGES.values():       # redrawn graphics text: pixel bytes of the declared rects
         bpp, w, _, _ = gfx.indices(gfx.entry(loc))
-        out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + (y * w + x1) * bpp // 8)
+        # An odd right edge in a 4bpp image still owns the low nibble of its final byte.
+        # gfx_en.redraw separately asserts that the neighbouring pixel outside the rect is unchanged.
+        out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + ((y * w + x1) * bpp + 7) // 8)
                            for (x0, y0, x1, y1), *_ in edits for y in range(y0, y1)]
     x0, y0, x1, y1 = gfx_en.STAMP                        # album-cover stamp: STAMP across both 8bpp halves of the cover
     left = 0

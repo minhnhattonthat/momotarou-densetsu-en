@@ -102,3 +102,12 @@ original pointer word is audited, the original pool remains untouched, and tests
 from individual keyboard glyph codes. No game code or runtime arrays occupy the reserved pool. The total overlay
 remains well below its next resident FONT text region at 0x8017C000.
 
+# Word Maze runtime verification
+
+On the fresh review build, a playtester started the game through Big Sis on map 312, received fourteen clue
+glyphs for `RAISEDWITHCARE`, opened keyboard mode 6 through its real caller, and entered the answer using the
+directional controls. The 28-byte comparison returned zero and displayed the success response; changing the
+last letter to S produced the failure response. No RAM pokes forced the selected answer or result. Clue display
+was separately tested through the real clue routine with a redirected entry. Evidence and complete routes:
+`work/qa/word_maze_probe/report.md`, `ok_key.png`, `ok_key2.png`. Other answers retain static encoding checks.
+

@@ -423,7 +423,7 @@
   {
    "id": "BM029_1:083",
    "jp": "{str}心の数{num}を{n}手に 入れた！{n}{wait}",
-   "en": "{str} got hearts x{num}!{wait}"
+   "en": "{str}+{num} hearts!{wait}"
   },
   {
    "id": "BM029_1:084",

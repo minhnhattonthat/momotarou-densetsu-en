@@ -34,7 +34,7 @@ def run(rom, scene, extra, tag=''):
     cmd = [sys.executable, '-X', 'utf8', str(Path(SKILL) / 'scripts/emu.py'), str(rom), '--out', str(out),
            '--script', str(ROOT / 'tools/debug/warp.lua'), '--var', f"SCENE='{scene}'",
            '--var', f"SCENES=[[{SCENES.as_posix()}]]", '--var', f"STATE_SAVE=[[{state.as_posix()}]]",
-           '--frames', '30000', '--timeout', '900', *extra]  # runs stop on arrival; 30000 = the epilogue's need
+           '--frames', '47000', '--timeout', '900', *extra]  # stop on arrival; ending plate needs ~37400 frames
     r = subprocess.run(cmd, capture_output=True, text=True)
     ok = r.returncode == 0 and (out / 'scene.png').exists()
     msg = (out / 'lua_error.txt').read_text(errors='replace').strip() if (out / 'lua_error.txt').exists() else ''

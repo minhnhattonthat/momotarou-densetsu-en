@@ -59,6 +59,21 @@ PLATE_KINDS = [
     # light 宿 plates on inn roofs (the second one is cut by a tile row)
     ('06CITY01/OMAP00.PAC:1', (218, 46), 28, 19, ['INN'], (12, 13), (2, 17), 12, 10, 7, ROOF_IMAGES),
     ('06CITY01/OMAP00.PAC:1', (224, 176), 22, 17, ['INN'], (12, 13), (1, 16), 12, 10, 6, ROOF_IMAGES),
+    # Additional styles found by the cold-boot town sweep (maps 5, 9/10, 20/21, 22, 34/35).
+    ('06CITY/SMAP15.PAC:3', (176, 224), 16, 16, ['INN', 'TEA', 'DOC', 'ARM', 'SHOE'], (6, 7),
+     (1, 15), 6, 7, 5, ['06CITY/SMAP15.PAC:3', '06CITY/SMAP1501.PAC:3']),
+    ('06CITY/SMAP15.PAC:3', (176, 240), 16, 16, ['WPN', 'BANK'], (6, 7),
+     (1, 15), 6, 7, 5, ['06CITY/SMAP15.PAC:3', '06CITY/SMAP1501.PAC:3']),
+    ('06CITY/SMAP15.PAC:6', (0, 54), 32, 20, ['INN', 'TEA', 'DOC', 'ARMOR', 'SHOES', 'ARMS', 'BANK'], (6, 7),
+     (2, 17), 6, 7, 7, ['06CITY/SMAP15.PAC:6', '06CITY/SMAP1501.PAC:6']),
+    ('06CITY/SMAP06.PAC:6', (72, 86), 32, 20, ['FLOWER'], (6, 7, 8),
+     (2, 17), 6, 7, 7, ['06CITY/SMAP06.PAC:6', '06CITY/SMAP0601.PAC:6']),
+    ('06CITY/SMAP16.PAC:6', (0, 214), 32, 20, ['PLAY'], (6, 7, 8),
+     (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
+    ('06CITY/SMAP27.PAC:3', (192, 175), 56, 17, ['GROCER'], (12, 13, 14),
+     (2, 16), 12, 13, 6, ['06CITY/SMAP27.PAC:3', '06CITY/SMAP28.PAC:3']),
+    ('06CITY/SMAP03B.PAC:3', (72, 176), 16, 20, ['BANK', 'INN', 'ARM', 'SHOE', 'DOC'], (13, 14),
+     (2, 20), 13, 14, 10, ['06CITY/SMAP03B.PAC:3']),
 ] + [  # Shuten-doji's cave, 7-tile floor word しゅてんどうじ (DMAP03_92:002): SH u TE N DO U JI, small ゅ -> small U
     ('06DAN01/DMAP03.PAC:0', (x, y), 16, 16, [word], (1, 2, 3), (1, 15), 3, 1, 3 if s == 2 else 8, ['06DAN01/DMAP03.PAC:0'], s)
     for x, y, word, s in ((64, 160, 'SH', 2), (64, 176, 'U', 1), (64, 192, 'TE', 2), (64, 208, 'N', 2), (64, 224, 'DO', 2),
@@ -69,7 +84,7 @@ PIXEL_FONT = {ch: rows.split('/') for ch, rows in {     # 3x5 caps
     'I': '###/.#./.#./.#./###', 'J': '..#/..#/..#/#.#/.#.', 'K': '#.#/#.#/##./#.#/#.#', 'M': '#.#/###/###/#.#/#.#',
     'N': '##./#.#/#.#/#.#/#.#', 'O': '.#./#.#/#.#/#.#/.#.', 'P': '##./#.#/##./#../#..', 'R': '##./#.#/##./#.#/#.#',
     'S': '.##/#../.#./..#/##.', 'T': '###/.#./.#./.#./.#.', 'W': '#.#/#.#/###/###/#.#', 'L': '#../#../#../#../###',
-    'U': '#.#/#.#/#.#/#.#/###', ' ': '.../.../.../.../...'}.items()}
+    'U': '#.#/#.#/#.#/#.#/###', 'Y': '#.#/#.#/.#./.#./.#.', ' ': '.../.../.../.../...'}.items()}
 # bath-event band: 8bpp 256x256, band y5-80 (ゆ 湯 ゆ + edge) and a 湯 tile below it; rects, word, font px
 BATH_IMAGE, BATH_CLUT, BATH_INK = '30EV/FURO_0.PAC:6', '30EV/FURO_0.PAC:5', (160, 80, 0)
 BATH_LOCS = ['30EV/FURO_%d.PAC:6' % n for n in range(5)]
@@ -155,10 +170,13 @@ IMAGES = {
     ]),
     # Shuten-doji's cave quiz panels (DMAP03_92:044-055): 東 西 南 北 on stone, 赤 青 黄 白 on flat grey
     'cave_panels': ('06DAN01/DMAP03.PAC:2', ('06DAN01/DMAP03.PAC:4', 0), [
-        ((x + 3, 8, x + 45, 40), word, 'sprite', 13, {'erase': (1, 2, 3, 4)})
-        for x, word in ((0, 'East'), (48, 'West'), (96, 'South'), (144, 'North'))] + [
+        ((x + 3, 4 if word == 'Oni' else 8, x + 45, 44 if word == 'Oni' else 40), word, 'sprite', 13,
+         {'ink': 15} if word == 'Oni' else {'erase': (1, 2, 3, 4)})
+        for x, word in ((0, 'East'), (48, 'West'), (96, 'South'), (144, 'North'), (192, 'Oni'))] + [
         ((x + 4, 58, x + 44, 88), word, 'sprite', 11, {}) for x, word in ((0, 'Red'), (48, 'Blue'), (96, 'Yellow'),
-                                                                          (144, 'White'))]),
+                                                                          (144, 'White'))] + [
+        ((198, 100, 234, 138), 'Oni', 'sprite', 12, {}),
+    ]),
     # Daruma-otoshi title ribbons だルマ / おとし！ (brush greys on a grey-white gradient ribbon)
     'daruma_banner': ('30EV/DARUMA.PAC:6', ('30EV/DARUMA.PAC:5', 0), [
         ((58, 150, 160, 190), 'Daruma', 'sprite', 22, {'erase': DARUMA_INK, 'grow': 2}),

@@ -128,6 +128,13 @@ Cold-boot verification: `work/qa/warp_review7_final/daruma_choices/scene.png` an
 Both routes are named scenes in `tools/debug/scenes.lua`. The first Fuku probe exposed its wider frame running
 past x320; the corrected x80 origin keeps the full 28-tile window and title suffix onscreen.
 
+Battle joins: the consumer trace found FONT_10:029 only in every BM table's :083 reward, and :030 in
+FONT_10:023/:047 theft messages. These templates now rely on the fragment's separator. Reward wording is
+`{str}+{num} hearts!`, with `Each ` or an empty prefix, so both group and solo forms begin correctly.
+`tools/debug/battle_join.lua` feeds these real strings and argument slots through the game's message builder;
+it is an injected render check, not a claimed natural victory/theft. `battle_cmd` reaches the English command
+grid from cold boot (settle1420, mash40); measured labels fit all four rows.
+
 Additional measurements from fresh English-build states (2026-10-30 review follow-up):
 
 | Variant | Source | Evidence | Measured budget |
@@ -149,6 +156,14 @@ The renderer near 0x8003EE80/0x8003EED8 builds those two sprites directly from F
 Other phase 7 layout work (docs/re/engine.md §Layout
 patches): HUD labels, money unit, name-entry English page, {num} pitch; staff-roll lines fit 250 px (lint). The
 ？？？ battle command: its overflow was the marker text; the grid strings (FONT_7:026-034, ？？？ = FONT_10:117 "???")
-are short in English and pass the lint, but the English grid is not shot yet (phase 8, battle_lists route). Minigame
+are short in English and pass the lint; the English grid is verified by the cold-boot `battle_cmd` scene. Minigame
 result/score screens beyond the message box were not reached (HUDs are graphics); treat any new box found in phase 8
 as unmeasured and measure it before fitting.
+
+### Battle fragment runtime recheck
+
+`tools/debug/battle_join.lua` exercises the real battle message builder with selected reward/theft arguments;
+it substitutes the first attack message, rather than claiming a natural victory or theft. From a fresh
+`battle_cmd` state, use `--debugger --var "MODE='each'"` (or alone/ryo/item), route
+`6 circle;40 -;6 circle;300 -`, 400 frames. `work/qa/phase8_latest/join_*/final.png` verifies
+"Each +37 hearts!", "+37 hearts!", "Also, 37 ryo was stolen!", and the item theft without doubled separators.

@@ -69,6 +69,17 @@ return {
                                { 6, "down" }, { 20, "-" }, { 6, "circle" }, { 40, "-" }, { 6, "down" }, { 20, "-" },
                                { 6, "circle" } } },
   status_summary = { map = 1, settle = 60, route = status_scroll("left") },
+  signs_stone    = { map = 5, x = 50, y = 26 },
+  signs_flower   = { map = 9, x = 20, y = 41 },
+  signs_hut_inn  = { map = 20, x = 20, y = 41 },
+  signs_hut_tea  = { map = 20, x = 20, y = 67 },
+  signs_hut_bank = { map = 20, x = 90, y = 67 },
+  signs_play     = { map = 22, x = 92, y = 41 },
+  signs_carddojo = { map = 22, x = 20, y = 67 },
+  signs_cloth    = { map = 22, x = 25, y = 20 },
+  signs_wood     = { map = 34, x = 40, y = 22 },
+  signs_roof     = { map = 34, x = 20, y = 31 },
+  puzzle_oni     = { map = 403, x = 22, y = 33 },
   status_treasure = { map = 1, settle = 60, route = status_scroll("right") },
   setting_rumble = { map = 1, settle = 90, route = setting(0) },
   setting_music  = { map = 1, settle = 90, route = setting(1) },
@@ -116,10 +127,12 @@ return {
   ev_end00       = { event = 15, settle = 600 },    -- END00
   ev_end01       = { event = 16, settle = 600 },    -- END02 (staff roll over the walk) then END01 (epilogue)
   credits_end    = { event = 16, settle = 5400 },   -- last staff-roll page
+  ending_plate   = { event = 16, settle = 35640, mash = 120 }, -- centered final plate, after the right-to-left wipe
   epilogue       = { event = 16, settle = 24600, mash = 60 },  -- END01: village at night
   ev_pt00        = { event = 17, settle = 300 },    -- PT00
   -- minigames (main-loop state 4)
   mg_fuku        = { minigame = 0, settle = 300 },  -- FUKU
+  battle_cmd     = { map = 0, x = 60, y = 60, until_state = 1, settle = 1420, mash = 40, god = true },
   fuku_choices   = { minigame = 0, settle = 220,
     route = { { 400, "-" }, { 6, "circle" }, { 100, "-" }, { 6, "circle" } } },
   mg_yumi1b      = { minigame = 2, settle = 300 },  -- YUMI1, archery

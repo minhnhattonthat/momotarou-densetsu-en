@@ -76,6 +76,7 @@ def templates():
 CIRCLE = (66, 6, 87, 27)        # the initial's glyph inside the disc
 COLUMN = (62, 30, 92, 133)      # vertical name
 STATS = (2, 2, 60, 62)          # 体力 攻撃 守備 速さ rows (monster families) or flavour text (cream family)
+FLAVOUR_RECT = (4, 3, 62, 72)   # keep the inner frame; JP punctuation can extend below the old 62-row box
 # the game draws each value at x ~34 on the label's row, so a label has the JP label's ~29 px: abbreviated (D9)
 STAT_EN = ['HP', 'Atk', 'Def', 'Spd']
 STAT_W = 30
@@ -84,7 +85,7 @@ FLAVOUR_PX, FLAVOUR_LH = 9, 12                  # font size and line pitch: 5 li
 REVIEW = []                     # cards whose name was lettered over art (check them by eye)
 
 
-def inpaint(img, rect, todo=None):
+def inpaint(img, rect, todo=None, coloured=False):
     """Replace the greys and dark pixels (glyph residue; the backgrounds are light) in rect, or the pixels in todo,
     by their neighbours, growing inwards."""
     x0, y0, x1, y1 = rect
@@ -94,7 +95,8 @@ def inpaint(img, rect, todo=None):
         done = {}
         for x, y in todo:
             nb = [img[(y + dy) * W + x + dx] for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
-                  if 0 <= x + dx < W and 0 <= y + dy < H and (x + dx, y + dy) not in todo]
+                  if 0 <= x + dx < W and 0 <= y + dy < H and (x + dx, y + dy) not in todo
+                  and (not coloured or not glyphish(img[(y + dy) * W + x + dx]))]
             if nb:
                 done[(x, y)] = Counter(nb).most_common(1)[0][0]
         if not done:
@@ -242,7 +244,8 @@ def redraw(n, tmpl, name):
         if inside:
             for x, y in comp:
                 if y >= COLUMN[1]:
-                    out[y * W + x] = t[y * W + x]
+                    if glyphish(rgb[y * W + x]):
+                        out[y * W + x] = t[y * W + x]
         elif len(comp) > 40 and max(y for _, y in comp) > STATS[3] and \
                 any(COLUMN[0] <= x < COLUMN[2] and COLUMN[1] <= y < COLUMN[3] for x, y in comp):
             art.update(comp)            # (strays and the left box's text touching the column are not art)
@@ -259,6 +262,11 @@ def redraw(n, tmpl, name):
         REVIEW.append(n)
         span = list(range(y0, y1))
     try:
+        letters(name, 8, x1 - x0, len(span), rotate=True)
+    except AssertionError:
+        # Prefer one outlined column over art to an isolated suffix in a second column.
+        span = list(range(y0, y1))
+    try:
         lt = fit(name, x1 - x0, len(span), range(16, 7, -1), rotate=True)
     except AssertionError:
         REVIEW.append(n)
@@ -271,9 +279,26 @@ def redraw(n, tmpl, name):
     stats = has_stats(rgb)
     lines = flavour().get(n)
     x0, y0, x1, y1 = STATS
-    for y in range(y0, y1 if stats or lines else y0):
-        for x in range(x0, x1):
-            out[y * W + x] = t[y * W + x]
+    if stats:
+        # Reset only the common JP label glyphs, not the whole box: horns and heads extend into it.
+        for x, y in label_mask():
+            if glyphish(rgb[y * W + x]):
+                out[y * W + x] = t[y * W + x]
+    elif lines:
+        x0, y0, x1, y1 = FLAVOUR_RECT
+        clean = list(rgb)
+        mask = lettering(rgb, FLAVOUR_RECT)
+        # Include isolated white antialias pixels; seed inpainting from coloured background only.
+        mask.update((x, y) for y in range(y0, y1) for x in range(x0, x1)
+                    if glyphish(rgb[y * W + x]) and min(rgb[y * W + x]) > 180)
+        # A one-pixel fringe is tinted toward the green background, so it is not classified as grey.
+        green = key(pal, px) in {(192, 136, 0), (184, 136, 0), (184, 152, 0)}
+        if green:
+            mask = {(x + dx, y + dy) for x, y in mask for dx in (-1, 0, 1) for dy in (-1, 0, 1)
+                    if x0 <= x + dx < x1 and y0 <= y + dy < y1}
+        inpaint(clean, FLAVOUR_RECT, mask, coloured=green)
+        for x, y in mask:
+            out[y * W + x] = clean[y * W + x]
     rows = [(label, 10, STAT_W, 15, 'H') for label in STAT_EN] if stats else \
         [(line, FLAVOUR_PX, x1 - x0, FLAVOUR_LH, 'Hg') for line in lines or []]
     for r, (text, size, w, lh, ref) in enumerate(rows):
@@ -354,7 +379,7 @@ def check():
     for n, lines in flavour().items():
         for line in lines:
             try:
-                letters(line, FLAVOUR_PX, STATS[2] - STATS[0], FLAVOUR_LH, align='left', ref='Hg')
+                letters(line, FLAVOUR_PX, FLAVOUR_RECT[2] - FLAVOUR_RECT[0], FLAVOUR_LH, align='left', ref='Hg')
             except AssertionError:
                 bad += 1
                 print(f'card {n}: too wide: {line!r}')
