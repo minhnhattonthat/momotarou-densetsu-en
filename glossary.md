@@ -1,13 +1,13 @@
-# Glossary - <Game title>
+# Glossary - Momotarou Densetsu (PS1)
 
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
-- Honorifics: <kept, hyphenated (Johannes-san) | dropped>. Name order: <JP | Western>.
-- Romanisation source: <official art / anime / Hepburn>.
-- Credits: <stay kanji | English>.
+- Honorifics: kept, hyphenated (Kintaro-san style; Hepburn drops the long-vowel u: Momotaro). Name order: Western (given name first).
+- Romanisation source: official English names where they exist, else an earlier fan patch, else Hepburn without macrons.
+- Credits: English.
 - Register / flavour: <e.g. keep light JP flavour>. Sound effects: <*Slam!*>.
-- Abbreviations: <default: full names and terms everywhere, prefer engine changes over shortening>.
+- Abbreviations: full names and terms everywhere, prefer engine changes over shortening.
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> '...', ・・・ -> ..., ！？ -> !?, <more>.

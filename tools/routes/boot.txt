@@ -1,0 +1,4 @@
+# Cold boot: Hudson logo, intro, title (~f1100-1700); circle picks "Hajimete" (new game), then the first village scene.
+1800 -
+6 circle
+600 -

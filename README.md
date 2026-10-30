@@ -1,6 +1,6 @@
-# <Game title> English translation
+# Momotarou Densetsu English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
+Unofficial English fan translation of **Momotarou Densetsu** (PlayStation, Hudson Soft, 1996): the source text and tools
 that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
@@ -40,11 +40,11 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/momotarou-densetsu-en
+cd momotarou-densetsu-en
+# copy your dump to: rom/Momotarou Densetsu (Japan).bin + .cue
+#   (144048240 bytes, SHA-1 850eaabb0feb0dda476471f4b69c67537755a7db; the build refuses any other dump, see rom.sha1)
+python -X utf8 tools/build.py                          # -> build/momotarou_en.bin
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +56,8 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
+Tools and English translation: MIT. The original Japanese text in `script/` is Hudson Soft's and is included only so
+the translation can be checked against it. Momotarou Densetsu is (c) Hudson Soft; this project is not affiliated with them.
 Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.
