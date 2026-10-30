@@ -22,6 +22,7 @@ ROUND = ROOT / 'fonts/mplus/MPLUSRounded1c-ExtraBold-latin.ttf'
 # ramp: palette indices background..ink (antialiased onto a flat background), or one ink index over a textured
 # background (each row filled with its commonest index). options: align left|center (default).
 MECD_STRIP = [(8, 59, 'Save'), (77, 128, 'Copy'), (141, 188, 'Erase'), (198, 249, 'Quit')]   # memory-card menu
+VERT = {'rotate': True, 'ink': 15}    # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
         # left edges = the JP words' (the cursor peach sits just left of them)
@@ -66,19 +67,32 @@ IMAGES = {
     'end_plate': ('30EV/END01.PAC:2', ('30EV/END01.PAC:3', 0), [
         ((40, 192, 132, 216), 'The End', [48, 54, 56, 63], 22, {}),
     ]),
+    # card-album index: vertical labels (rotated English) and the kanji numerals of the card count (digits)
+    'album_index': ('30EV/EVTCARD.PAC:5', ('30EV/EVTCARD.PAC:7', 0), [
+        ((96, 1, 124, 62), 'Contents', 'sprite', 12, VERT),
+        ((80, 1, 96, 100), "Momotaro's Friends", 'sprite', 9, VERT),
+        ((64, 2, 80, 35), 'Folk', 'sprite', 10, VERT),      # the game cuts each label at the JP length: 32 px
+        ((48, 2, 64, 35), 'Hermit', 'sprite', 9, VERT),
+        ((32, 3, 48, 52), 'Boss Oni', 'sprite', 10, VERT),
+        ((16, 1, 32, 21), 'Oni', 'sprite', 9, VERT),
+        ((0, 0, 16, 62), 'Cards', 'sprite', 12, VERT),      # 現在合計 (total)
+        ((0, 119, 16, 137), '', 'sprite', 9, {}),                        # 枚 (counter): "Cards" says it
+        ((144, 0, 160, 15), '0', 'sprite', 13, {}),                      # 〇
+    ] + [((100, 64 + 16 * i, 124, 80 + 16 * i), str(i + 1), 'sprite', 13, {}) for i in range(9)]),
     # つづき うつす けす やめる strip (title > Continue)
     'mecd_load': ('13BTL/MECD.PAC:2', ('13BTL/MECD.PAC:5', 0), [
         ((x0, 162, x1, 181), 'Load' if t == 'Save' else t, 1, 14, {}) for x0, x1, t in MECD_STRIP]),
 }
 
 
-def coverage(text, size, w, h, align='center', font=ROUND):
-    """L image w x h with text centred vertically (align: left or center), 0 = background, 255 = ink."""
+def coverage(text, size, w, h, align='center', font=ROUND, ref='H'):
+    """L image w x h with text centred vertically (align: left or center), 0 = background, 255 = ink.
+    ref: the sample centred ('Hg' leaves room for descenders in a tight box)."""
     f = ImageFont.truetype(str(font), size)
     im = Image.new('L', (w, h))
     d = ImageDraw.Draw(im)
     x0, y0, x1, y1 = d.textbbox((0, 0), text, font=f)
-    _, top, _, base = d.textbbox((0, 0), 'H', font=f)        # caps centred, so every word sits on one baseline
+    _, top, _, base = d.textbbox((0, 0), ref, font=f)        # same sample for every word: one baseline
     y = (h - (base - top)) // 2 - top
     assert x1 - x0 <= w and y + y0 >= 0 and y + y1 <= h, (text, x1 - x0, y1 - y0, 'does not fit', w, h)
     d.text(((w - (x1 - x0)) // 2 * (align == 'center') - x0, y), text, font=f, fill=255)
@@ -99,8 +113,14 @@ def sprite(px, new, w, rect, text, size, opt):
     known = [(y, f[0][0]) for y, f in fills.items() if f]
     fill = {y: min(known, key=lambda k: abs(k[0] - y))[1] for y in range(y0, y1)}
     e = opt.get('edge', 1)
-    cov = coverage(text, size, x1 - x0 - 2 * e, y1 - y0 - 2 * e, opt.get('align', 'center')).point(
-        lambda v: 255 * (v > 110)).load()
+    if opt.get('rotate'):                       # vertical label, reads top to bottom: solid outline colour, row fills would stripe it
+        e = opt.get('edge', 0)
+        fill = dict.fromkeys(range(y0, y1), opt.get('ink', edge))
+        cov = coverage(text, size, y1 - y0 - 2 * e, x1 - x0 - 2 * e, opt.get('align', 'center'))
+        cov = cov.rotate(-90, expand=True)
+    else:
+        cov = coverage(text, size, x1 - x0 - 2 * e, y1 - y0 - 2 * e, opt.get('align', 'center'))
+    cov = cov.point(lambda v: 255 * (v > 110)).load()
     hw, hh = x1 - x0 - 2 * e, y1 - y0 - 2 * e
     ink = lambda x, y: 0 <= x < hw and 0 <= y < hh and cov[x, y]  # noqa: E731
     for y in range(y0, y1):

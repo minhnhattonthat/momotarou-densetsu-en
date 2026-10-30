@@ -16,7 +16,7 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 | Memory-card menu きろく うつす けす やめる / つづき | MECD.PAC:3, MECD.PAC:2 | **English** (mecd_menu, mecd_load), Load menu seen in-game |
 | Card-album cover stamp カードアルバム | EVTCARD.PAC:1 right edge + EVTCARD.PAC:2 (red stamp, vertical) | todo |
 | Status-ailment lettering 病気 混乱 眠り マヒ 封印 + effect kanji | FONT.PAC:4 (VRAM 960,0 sprite sheet) | battle |
-| Collectible cards: 297 cards, name + circled initial + flavour text (cards 1-60) or stat labels 体力/攻撃/守備/速さ (61-297) | CR_PG01-99.PAC entries 0/2/4 (8bpp 96x136) | biggest graphics job; names must match glossary; 5 cards carry real people's names (dajare contest winners) |
+| Collectible cards: 297 cards, name + circled initial + flavour text (cards 1-60) or stat labels 体力/攻撃/守備/速さ (61-297) | CR_PG01-99.PAC entries 0/2/4 (8bpp 96x136) | **English** (tools/cards.py: names, initials, HP/Atk/Def/Spd; flavour text of cards 1-60 from script/cards.tsv), cards 1-3 seen in-game; 5 cards carry real people's names (dajare contest winners) |
 | Shop-sign plates 茶 医 防 足 武 ど つ 旅 銭 宿 湯 ... and 八百屋 | SMAPxx.PAC:3/4/6, OMAP00/01 | one shared sign strip per town tileset |
 | Bath signs 男湯 / 女湯; inn and shop boards | HMAP8200.PAC:3/0, HMAP8500.PAC:0/3, HMAP8600.PAC:3, HMAP26.PAC:3 | |
 | Map flag (3-4 chars) | AMAP.PAC:9-11 | unread |
@@ -28,7 +28,7 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 | Daruma-otoshi banner | DARUMA.PAC:6 | |
 | Fuku-warai title | FUKU.PAC:3/5 | unsure |
 | Ending めでたし | END01.PAC:2 | **English** "The End" (end_plate); not yet seen in-game |
-| Card-album screen labels (numerals, 桃太郎の仲間, 鬼, 人, 仙) | EVTCARD.PAC:5 | unsure |
+| Card-album index page 目次 桃太郎の仲間 村人 仙人 ボス鬼 鬼 現在合計 枚 + kanji numerals | EVTCARD.PAC:5 (4bpp; in-game CLUT is not EVTCARD.PAC:7: index 15 = black, 0 transparent) | **English** (album_index), seen in-game: Contents / Momotaro's Friends / Folk / Hermit / Boss Oni / Oni / Cards. The game cuts each label at the JP glyph length (村人 仙人 32 px), hence Folk/Hermit. Savestates hold the old texture in VRAM: re-warp from cold boot after a rebuild |
 | Calligraphy scrolls | BB241.PAC:2 | decorative, likely leave |
 
 Font-drawn UI (menus, battle commands, status labels, 8x8 体力/技/段 etc.) is text, not graphics: see text.md.
