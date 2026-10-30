@@ -33,6 +33,16 @@ IMAGES = {
         ((36, 187, 88, 203), 'Save', 1, 14, {}), ((105, 187, 157, 203), 'Quit', 1, 14, {}),
         ((27, 227, 79, 244), 'Load', 1, 14, {}), ((97, 227, 149, 244), 'Quit', 1, 14, {}),
     ]),
+    # minigame words: すたーと げーむおーばー そこまで！ げーむくりあー, 得点 最高得点 時間
+    'daruma_words': ('30EV/DARUMA.PAC:10', ('30EV/DARUMA.PAC:11', 0), [
+        ((0, 152, 104, 176), 'Start!', 'sprite', 22, {}),
+        ((0, 176, 182, 201), 'Game Over', 'sprite', 22, {}),
+        ((0, 201, 115, 225), "Time's Up!", 'sprite', 18, {}),
+        ((0, 225, 182, 249), 'Game Clear!', 'sprite', 22, {}),
+        ((168, 56, 196, 73), 'Score', 'sprite', 9, {}),
+        ((196, 56, 249, 73), 'Best', 'sprite', 11, {}),
+        ((203, 74, 246, 96), 'Time', 'sprite', 16, {}),
+    ]),
     # つづき うつす けす やめる strip (title > Continue)
     'mecd_load': ('13BTL/MECD.PAC:2', ('13BTL/MECD.PAC:5', 0), [
         ((x0, 162, x1, 181), 'Load' if t == 'Save' else t, 1, 14, {}) for x0, x1, t in MECD_STRIP]),
@@ -52,12 +62,42 @@ def coverage(text, size, w, h, align='center', font=ROUND):
     return im
 
 
+def sprite(px, new, w, rect, text, size, opt):
+    """Lettering on a transparent (index 0) sprite: outline = the index most found on the JP glyphs' edge, fill per
+    row = the commonest inner index of that JP row (keeps vertical gradients); opt 'edge': outline width (1)."""
+    x0, y0, x1, y1 = rect
+    at = lambda x, y: px[y * w + x] if x0 <= x < x1 and y0 <= y < y1 else 0  # noqa: E731
+    edge = Counter(at(x, y) for y in range(y0, y1) for x in range(x0, x1) if at(x, y) and
+                   not all(at(x + dx, y + dy) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))).most_common(1)[0][0]
+    fills = {y: Counter(at(x, y) for x in range(x0, x1) if at(x, y) not in (0, edge)).most_common(1) for y in
+             range(y0, y1)}
+    known = [(y, f[0][0]) for y, f in fills.items() if f]
+    fill = {y: min(known, key=lambda k: abs(k[0] - y))[1] for y in range(y0, y1)}
+    e = opt.get('edge', 1)
+    cov = coverage(text, size, x1 - x0 - 2 * e, y1 - y0 - 2 * e, opt.get('align', 'center')).point(
+        lambda v: 255 * (v > 110)).load()
+    hw, hh = x1 - x0 - 2 * e, y1 - y0 - 2 * e
+    ink = lambda x, y: 0 <= x < hw and 0 <= y < hh and cov[x, y]  # noqa: E731
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            cx, cy = x - x0 - e, y - y0 - e
+            if ink(cx, cy):
+                new[y * w + x] = fill[y]
+            elif any(ink(cx + dx, cy + dy) for dx in range(-e, e + 1) for dy in range(-e, e + 1)):
+                new[y * w + x] = edge
+            else:
+                new[y * w + x] = 0
+
+
 def redraw(name):
     loc, _, edits = IMAGES[name]
     raw = gfx.entry(loc)
     _, w, h, px = gfx.indices(raw)
     new = bytearray(px)
     for (x0, y0, x1, y1), text, ramp, size, opt in edits:
+        if ramp == 'sprite':
+            sprite(px, new, w, (x0, y0, x1, y1), text, size, opt)
+            continue
         cov = coverage(text, size, x1 - x0, y1 - y0, opt.get('align', 'center')).load()
         for y in range(y0, y1):
             if isinstance(ramp, int):       # textured background: each row takes the commonest index beside the rect

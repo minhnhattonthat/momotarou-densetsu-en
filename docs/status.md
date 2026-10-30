@@ -8,8 +8,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   pipeline: `tools/gfx.py` (TIM decode/repack, `show`/`dump`/`words` CLI to find text rects), `tools/gfx_en.py`
   (IMAGES table: rect, English, palette-index ramp, font size; asserts no pixel changes outside rects; preview to
   work/gfx_en/; insert.files() writes it into the build). Font fonts/mplus (Rounded M+ ExtraBold, OFL, ASCII
-  subset). Done in-game: title menu New Game / Continue (EVTTIT.PAC:9, CLUT entry 19). Next in order: MECD.PAC:2/3
-  memory-card menus (wood-grain bg: fill per row, threshold ink), minigame words (DARUMA/MOGURA/YUMI1), status
+  subset). Done and seen in-game: title menu New Game / Continue (EVTTIT.PAC:9), memory-card menus
+  Save/Copy/Erase/Quit + Load (MECD.PAC:2/3; `title_load`), DARUMA.PAC:10 words Start!/Game Over/Time's Up!/Game
+  Clear!/Score/Best/Time ('sprite' mode: outline from JP glyph edges, per-row fill; seen via route from
+  work/states/en_mg_daruma.sstate: `30 -;6 up;20 -;6 circle;...` answers Yes). Next in order: MOGURA.PAC:10 and
+  YUMI1.PAC:9 (same words, other layouts; MOGURA bg index is 32 not 0: sprite mode assumes 0), status
   ailments FONT.PAC:4, END01 めでたし, title logo, bath/shop signs, card album + 297 cards (CR_PG*, names from
   HMAP8500_18 card list), then the qa_gate tour.
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
