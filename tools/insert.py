@@ -9,6 +9,7 @@ pointer words reach them (repacked). The EXE always gets the engine hook and FON
 English glyphs; graphics text gets tools/gfx_en.py's redrawn images. marker_build=True gives every non-data string `[n.i]` + filler of the Japanese line's pixel width
 (phase 5 marker build): n = the doc's number in docs() order, i = the string index; build/markers.tsv maps n back.
 """
+import hashlib
 import re
 import struct
 from pathlib import Path
@@ -123,6 +124,17 @@ def repacked(doc, b):
     return bytes(b)
 
 
+def compressed(b):
+    """lzss.compress(b), kept in build/lzss/<sha1> across runs (pure-Python LZSS: the 240 cards take minutes)."""
+    p = ROOT / 'build/lzss' / hashlib.sha1(b).hexdigest()
+    if p.exists():
+        return p.read_bytes()
+    out = lzss.compress(b)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_bytes(out)
+    return out
+
+
 def files(marker_build=False, qa=None):
     """{disc path: bytes} for build.build. qa: {string id: text} overrides (stress lines, torture line)."""
     entries, raw = {}, {}          # {pac path: {entry: decompressed bytes}}, {raw file: bytes}
@@ -186,7 +198,7 @@ def files(marker_build=False, qa=None):
             lim = {0x10D: SLOT_LIMIT.get(extra[0]), 0x116: BATTLE_LIMIT}.get(typ & 0xFFFF)
             assert marker_build or lim is None or len(b) <= lim, (f'{path}:{i}', len(b), 'bytes over slot', lim)
             if typ & 0x10000:
-                b = cache[b] if b in cache else cache.setdefault(b, lzss.compress(b))
+                b = cache[b] if b in cache else cache.setdefault(b, compressed(b))
             items[i] = (typ, b, extra)
         raw[path] = pac.pack(items)
         assert marker_build or len(raw[path]) < PAC_LIMIT, (path, len(raw[path]), 'bytes, PAC over the load buffer')

@@ -3,7 +3,7 @@
 Skill: translate-retro-game; `python tools/skill.py` prints its folder (`$SKILL` below). Read its SKILL.md before ROM, text or QA work. `"$(python tools/skill.py)"` works in bash and PowerShell; never paste a `plugins/cache/<hash>` path.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py` -> build/momotarou_en.bin + .cue (checks the dump against `rom.sha1` first; unpacks to work/disc if missing; regenerates MMPS_CD.SFS; ~1 s)
+- Build:    `python -X utf8 tools/build.py` -> build/momotarou_en.bin + .cue (checks the dump against `rom.sha1` first; unpacks to work/disc if missing; regenerates MMPS_CD.SFS; ~20 s, card redraws included; LZSS output cached in build/lzss/)
 - Check:    `python -X utf8 tools/check.py`  (pytest `tests/` + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/momotarou_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py <scene>.. | map:<id>:<x>:<y> | --all [--jobs 4] | --list` -> `work/qa/warp/<scene>/scene.png` + `work/states/<scene>.sstate` (cold boot; scenes in `tools/debug/scenes.lua`, RAM map `docs/re/debug.md`; never ask the user to play to a scene)

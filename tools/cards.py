@@ -6,6 +6,7 @@
 Cards of one family share a background (pink swirls for monsters, cream for villagers...); the per-pixel mode of
 the family's colours is that background without names, art or labels (each card's own art is in the minority).
 """
+import functools
 import sys
 from collections import Counter
 from pathlib import Path
@@ -66,6 +67,8 @@ def templates():
             votes = Counter(pal[px[i]] for pal, px in cols)
             bg = [c for c, _ in votes.most_common() if not glyphish(c)]
             t.append(bg[0] if bg else votes.most_common(1)[0][0])
+        inpaint(t, COLUMN)
+        inpaint(t, STATS)
         out[k] = t
     return out
 
@@ -153,9 +156,7 @@ def redraw(n, tmpl, name):
     """New pixel indices of card n (a template family card)."""
     pal, px = card(n)
     rgb = [pal[i] for i in px]
-    t = list(tmpl)
-    inpaint(t, COLUMN)
-    inpaint(t, STATS)
+    t = tmpl
     out = list(rgb)
     # JP name: components of "differs from the template" pixels lying wholly inside the name column
     diff = {(x, y) for y in range(H) for x in range(W) if rgb[y * W + x] != t[y * W + x]}
@@ -237,12 +238,13 @@ def redraw(n, tmpl, name):
                 out[y * W + x] = disc
     for (x, y), k in letters(name[0], 16, x1 - x0, y1 - y0).items():
         out[(y0 + y) * W + x0 + x] = white if k == 'fill' else black
-    cache = {}
-    return [px[i] if out[i] == rgb[i] else cache.setdefault(out[i], nearest(pal, out[i])) for i in range(W * H)]
+    idx = {c: nearest(pal, c) for c in {out[i] for i in range(W * H) if out[i] != rgb[i]}}
+    return [px[i] if out[i] == rgb[i] else idx[out[i]] for i in range(W * H)]
 
 
+@functools.cache
 def entries():
-    """{card location: new TIM bytes} for every card of a template family."""
+    """{card location: new TIM bytes} for every card of a template family (cached: ~10 s, built per process)."""
     tm = templates()
     nm = names()
     out = {}
