@@ -15,6 +15,24 @@ def entries(data):
     return out
 
 
+def unpack(data):
+    """[(type, bytes, extra)] per entry. extra = header bytes 12-24 kept raw (u32 at 12 is a per-entry id/param,
+    e.g. a battle sprite index). An all-zero entry comes back as (0, b'', zeros) and repacks as zeros."""
+    return [(typ, data[off:off + size], data[i * 24 + 12:i * 24 + 24])
+            for i, (off, size, typ) in enumerate(entries(data))]
+
+
+def pack(items):
+    """Inverse of unpack: header, then entries back to back (no padding)."""
+    head, body = bytearray(), bytearray()
+    first = 24 * len(items)
+    for typ, blob, extra in items:
+        off = first + len(body) if typ or blob else 0
+        head += struct.pack('<III', off, len(blob), typ) + extra
+        body += blob
+    return bytes(head + body)
+
+
 def main(paths):
     for p in paths:
         data = open(p, 'rb').read()

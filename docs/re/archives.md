@@ -9,6 +9,12 @@
   not ISO9660** (verified: `cd_load` 0x8001AC54 indexes it in RAM at 0x8008F710, docs/re/debug.md): a rebuild
   that moves or resizes a file must rewrite it.
 - Unpack: `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s work/disc/layout.xml rom/<cue>`.
+- Rebuild (verified, phase 3: `tests/test_build.py`): `mkpsxiso -y layout.xml` from `work/disc/` gives the dump's
+  exact sha1. `tools/build.py` writes `build/layout.xml` (absolute sources, replaced files from `build/files/`),
+  lays out once with `-noisogen -lba`, rewrites the SFS from the log, then builds. SFS entries match files by
+  original LBA; all 590 match file LBA + length except MECD.PAC (entry 338: size 107973, file 107982), so the
+  build keeps each entry's size offset from its file length. Entries 590-799 are zero. In-game proof: a build
+  with GUEST.PAC grown 2048 bytes (every later file +1 sector) warps to the village and draws it correctly.
 
 ## Free space (candidates only, none trap-tested)
 - Disc: files are rebuilt by mkpsxiso, so text can grow; GAISYU.DAT's 36 MB of zeros can be shrunk if the disc
@@ -18,8 +24,10 @@
   0x800E5EEC (1 KB). Trap-fill and tour before using any (pipeline.md §Recon 2).
 
 ## PAC (verified on every PAC: `tools/pac.py`)
-- Header: N x 24 bytes `{u32 offset, u32 size, u32 type, 12 zero bytes}`, N = first offset / 24; entries packed
-  back to back, byte-aligned (no padding). Some PACs end with an all-zero entry.
+- Header: N x 24 bytes `{u32 offset, u32 size, u32 type, u32 param, 8 zero bytes}`, N = first offset / 24; entries
+  packed back to back, byte-aligned (no padding). Some PACs end with an all-zero entry (offset 0). `param` is
+  nonzero in 402 PACs (battle sprite ids 3, 4, 8.., 0x7 on type 0x10d tables, 0xff/0x1ff in minigames): keep it.
+- Repack (verified: `pac.pack(pac.unpack(d)) == d` for all 585 PACs, `tests/test_build.py`).
 - Type low 16 bits = content, bit 16 (0x10000) = LZSS-compressed. Seen: 0x11 CLUT TIM, 0x12 image TIM,
   0x10d / 0x116 string tables (docs/re/text.md), 0x102 MIPS code overlay, 0x22/0x23 map data, 0x106/0x10e/0x114/
   0x118-0x11a data (not identified), 0x110 extra image pages (4bpp, 256x96).
