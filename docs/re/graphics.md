@@ -11,9 +11,10 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 ## Elements (source = PAC entry, compressed 4bpp/8bpp TIM unless noted)
 | Element | Source | Notes |
 |---|---|---|
-| Title logo 桃太郎伝説 | EVTTIT.PAC:6 (8bpp, VRAM 832,0), also MECD.PAC:4, EVTCARD.PAC:1 | D5: keep JP logo only if no official English one (none exists) -> translate |
-| Title menu はじめて / つづきから | EVTTIT.PAC:9 | seen on the boot tour (f1250+) |
-| Memory-card menu きろく うつす けす やめる | MECD.PAC:3 (+2?) | |
+| Title logo 桃太郎伝説 | EVTTIT.PAC:6 (8bpp, VRAM 832,0; drawn stroke by stroke from EVTTIT.PAC:5 in the intro), also MECD.PAC:4 stamp, EVTCARD.PAC:1 | **kept Japanese**: D5 keeps the original logo when no official English logo exists (none does) |
+| Title menu はじめて / つづきから | EVTTIT.PAC:9 | **English** (tools/gfx_en.py title_menu), seen in-game |
+| Memory-card menu きろく うつす けす やめる / つづき | MECD.PAC:3, MECD.PAC:2 | **English** (mecd_menu, mecd_load), Load menu seen in-game |
+| Card-album cover stamp カードアルバム | EVTCARD.PAC:1 right edge + EVTCARD.PAC:2 (red stamp, vertical) | todo |
 | Status-ailment lettering 病気 混乱 眠り マヒ 封印 + effect kanji | FONT.PAC:4 (VRAM 960,0 sprite sheet) | battle |
 | Collectible cards: 297 cards, name + circled initial + flavour text (cards 1-60) or stat labels 体力/攻撃/守備/速さ (61-297) | CR_PG01-99.PAC entries 0/2/4 (8bpp 96x136) | biggest graphics job; names must match glossary; 5 cards carry real people's names (dajare contest winners) |
 | Shop-sign plates 茶 医 防 足 武 ど つ 旅 銭 宿 湯 ... and 八百屋 | SMAPxx.PAC:3/4/6, OMAP00/01 | one shared sign strip per town tileset |
@@ -23,10 +24,10 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 | カート… sign, 湯 mark | SMAP16.PAC:6 | |
 | Dungeon plates 東 西 南 北 鬼 + colour plates, kana column | DMAP03.PAC:2/0 | |
 | Seal 封 talismans, circled 技 | BM000.PAC:12/16, BM091.PAC:24 | battle effects |
-| Minigame words すたーと げーむおーばー そこまで！ げーむくりあー 得点 最高得点 | DARUMA.PAC:10, MOGURA.PAC:10, YUMI1.PAC:9 | three copies |
+| Minigame words すたーと げーむおーばー そこまで！ げーむくりあー 得点 最高得点 | DARUMA.PAC:10, MOGURA.PAC:10, YUMI1.PAC:9 | **English** (+ 失敗 Miss, 時間 Time), all three seen in-game |
 | Daruma-otoshi banner | DARUMA.PAC:6 | |
 | Fuku-warai title | FUKU.PAC:3/5 | unsure |
-| Ending めでたし | END01.PAC:2 | |
+| Ending めでたし | END01.PAC:2 | **English** "The End" (end_plate); not yet seen in-game |
 | Card-album screen labels (numerals, 桃太郎の仲間, 鬼, 人, 仙) | EVTCARD.PAC:5 | unsure |
 | Calligraphy scrolls | BB241.PAC:2 | decorative, likely leave |
 
