@@ -61,6 +61,10 @@ IMAGES = {
         ((0, 104, 57, 121), 'Best', 'sprite', 13, {}),
         ((57, 104, 84, 121), 'Score', 'sprite', 8, {}),
     ]),
+    # めでたし (the folk-tale closing formula) on the white plate of the ending frame
+    'end_plate': ('30EV/END01.PAC:2', ('30EV/END01.PAC:3', 0), [
+        ((40, 192, 132, 216), 'The End', [48, 54, 56, 63], 22, {}),
+    ]),
     # つづき うつす けす やめる strip (title > Continue)
     'mecd_load': ('13BTL/MECD.PAC:2', ('13BTL/MECD.PAC:5', 0), [
         ((x0, 162, x1, 181), 'Load' if t == 'Save' else t, 1, 14, {}) for x0, x1, t in MECD_STRIP]),
