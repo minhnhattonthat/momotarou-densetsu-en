@@ -6,7 +6,7 @@ Authored `en` is word-wrapped and paged by tools/layout.py first (qa overrides a
 A table with any `en` is rebuilt from its doc (`en`, else the original `jp` bytes) and written to every `copies`
 location; overlay strings are written in place (`max` bytes), or packed into a shared pool and repointed when only
 pointer words reach them (repacked). The EXE always gets the engine hook and FONT.PAC the
-English glyphs. marker_build=True gives every non-data string `[n.i]` + filler of the Japanese line's pixel width
+English glyphs; graphics text gets tools/gfx_en.py's redrawn images. marker_build=True gives every non-data string `[n.i]` + filler of the Japanese line's pixel width
 (phase 5 marker build): n = the doc's number in docs() order, i = the string index; build/markers.tsv maps n back.
 """
 import re
@@ -15,6 +15,7 @@ from pathlib import Path
 
 import engine
 import extract
+import gfx_en
 import layout
 import lzss
 import pac
@@ -171,6 +172,10 @@ def files(marker_build=False, qa=None):
     if marker_build:
         (ROOT / 'build').mkdir(exist_ok=True)
         (ROOT / 'build/markers.tsv').write_text('\n'.join(tags) + '\n', encoding='utf-8', newline='\n')
+    else:
+        for loc, b in gfx_en.entries().items():
+            path, ent = loc.rsplit(':', 1)
+            put('0/' + path, int(ent), b)
 
     raw[EXE] = engine.patch_exe(base(EXE, None))
     cache = {}

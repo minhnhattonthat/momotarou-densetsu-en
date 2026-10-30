@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import engine  # noqa: E402
 import extract  # noqa: E402
+import gfx  # noqa: E402
+import gfx_en  # noqa: E402
 import insert  # noqa: E402
 import pac  # noqa: E402
 
@@ -48,6 +50,10 @@ def allowed():
     exe += [(lo - engine.EXE_BASE, hi - engine.EXE_BASE) for lo, hi in ((engine.HOOK, engine.FREE1_END),
                                                                          (engine.DIGRAPH, engine.FREE2_END))]
     exe += [(g, g + 4 * engine.GRID_CELLS) for g in (engine.GRID_FIRST, engine.GRID_ALNUM)]
+    for loc, _, edits in gfx_en.IMAGES.values():       # redrawn graphics text: pixel bytes of the declared rects
+        bpp, w, _, _ = gfx.indices(gfx.entry(loc))
+        out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + (y * w + x1) * bpp // 8)
+                           for (x0, y0, x1, y1), *_ in edits for y in range(y0, y1)]
     return out
 
 

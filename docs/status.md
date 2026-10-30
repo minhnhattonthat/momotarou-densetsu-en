@@ -2,7 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert + fit) **done** 2026-10-30. Next: phase 8 (QA in the emulator).
+- **Phase:** 8 (QA in the emulator) in progress, 2026-10-30.
+- **Phase 8 progress:** phase 6 review fixes done (d047a7c: glossary names + character honorifics are lint/batch
+  ERRORS now, reviewed exceptions in script/glossary_ok.txt; Enma-sama; art-use spacing). Graphics lettering
+  pipeline: `tools/gfx.py` (TIM decode/repack, `show`/`dump`/`words` CLI to find text rects), `tools/gfx_en.py`
+  (IMAGES table: rect, English, palette-index ramp, font size; asserts no pixel changes outside rects; preview to
+  work/gfx_en/; insert.files() writes it into the build). Font fonts/mplus (Rounded M+ ExtraBold, OFL, ASCII
+  subset). Done in-game: title menu New Game / Continue (EVTTIT.PAC:9, CLUT entry 19). Next in order: MECD.PAC:2/3
+  memory-card menus (wood-grain bg: fill per row, threshold ink), minigame words (DARUMA/MOGURA/YUMI1), status
+  ailments FONT.PAC:4, END01 めでたし, title logo, bath/shop signs, card album + 297 cards (CR_PG*, names from
+  HMAP8500_18 card list), then the qa_gate tour.
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
