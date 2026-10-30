@@ -7,6 +7,7 @@ index and draws the English there with an antialiased font mapped onto a ramp of
 ink), so only pixels inside the declared rects change (asserted).
 """
 import functools
+import math
 import sys
 from collections import Counter
 from pathlib import Path
@@ -36,6 +37,10 @@ WOOD_IMAGES = ['06CITY/SMAP%s.PAC:3' % n for n in ('00', '04', '0401', '06', '06
 OVAL_IMAGES = ['06CITY/SMAP%s.PAC:6' % n for n in ('00', '01', '02', '04', '0401', '06', '0601', '08', '09', '12', '13',
                                                    '16', '20', '2001', '21', '22', '23', '24', '26')] + \
     ['06CITY01/JMAP00.PAC:4', '06CITY01/OMAP00.PAC:4', '07HMAP3/HMAP8600.PAC:3']
+ROOF_IMAGES = ['06CITY/SMAP%s.PAC:3' % n for n in ('00', '06', '0601', '08', '09', '13', '14', '20', '2001', '21', '22',
+                                                   '24', '27', '28')] + \
+    ['06CITY01/JMAP00.PAC:1', '06CITY01/OMAP00.PAC:1'] + \
+    ['06CITY01/OMAP0%d.PAC:%d' % (n, e) for n in range(1, 6) for e in (3, 5)]
 PLATE_KINDS = [
     ('06CITY/SMAP00.PAC:3', (0, 80), 16, 16, ['TEA', 'DOC', 'ARM', 'SHOE', 'WPN', 'ITEM', 'SHOP', 'SEER', 'BANK', 'RENT',
                                               'BATH', 'SHOP', 'FEST', 'BATH', 'JOKE', 'EDGE'], (12, 13, 14), (1, 15), 12,
@@ -50,6 +55,9 @@ PLATE_KINDS = [
     ('06CITY/SMAP16.PAC:6', (32, 86), 64, 20, ['RESTAURANT'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
     ('06CITY/SMAP16.PAC:6', (96, 86), 104, 20, ['CARD DOJO'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
     ('06CITY/SMAP16.PAC:6', (200, 84), 48, 28, ['BATH'], (6, 7, 8), (3, 25), 6, 7, 11, ['06CITY/SMAP16.PAC:6']),
+    # light 宿 plates on inn roofs (the second one is cut by a tile row)
+    ('06CITY01/OMAP00.PAC:1', (218, 46), 28, 19, ['INN'], (12, 13), (2, 17), 12, 10, 7, ROOF_IMAGES),
+    ('06CITY01/OMAP00.PAC:1', (224, 176), 22, 17, ['INN'], (12, 13), (1, 16), 12, 10, 6, ROOF_IMAGES),
 ] + [  # Shuten-doji's cave, 7-tile floor word しゅてんどうじ (DMAP03_92:002): SH u TE N DO U JI, small ゅ -> small U
     ('06DAN01/DMAP03.PAC:0', (x, y), 16, 16, [word], (1, 2, 3), (1, 15), 3, 1, 3 if s == 2 else 8, ['06DAN01/DMAP03.PAC:0'], s)
     for x, y, word, s in ((64, 160, 'SH', 2), (64, 176, 'U', 1), (64, 192, 'TE', 2), (64, 208, 'N', 2), (64, 224, 'DO', 2),
@@ -360,7 +368,7 @@ def plates():
             _, w, h, px = gfx.indices(gfx.entry(loc))
             new, rects = out.get(loc, (bytearray(px), []))
             for y0 in range(0, h - bh + 1):
-                for x0 in range(0, w - bw + 1, 8):
+                for x0 in range(0, w - bw + 1, math.gcd(rx, 8)):     # copies keep the reference's x alignment
                     m = (y0 + bh // 2) * w + x0
                     if bytes(px[m:m + bw]) in mid and (b := new_blocks.get(blk(px, w, x0, y0))):
                         rects.append((x0, y0, x0 + bw, y0 + bh))
