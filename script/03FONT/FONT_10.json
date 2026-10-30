@@ -122,17 +122,17 @@
   },
   {
    "id": "FONT_10:023",
-   "jp": "{str}{n}{col2}{str}{col0}を 盜まれた！{n}{wait}",
+   "jp": "{str}{n}{col2}{str}{col0}を 盗まれた！{n}{wait}",
    "en": ""
   },
   {
    "id": "FONT_10:024",
-   "jp": "{str}{str}に{n}{col2}{str}{col0}を 盜まれた！{n}{wait}",
+   "jp": "{str}{str}に{n}{col2}{str}{col0}を 盗まれた！{n}{wait}",
    "en": ""
   },
   {
    "id": "FONT_10:025",
-   "jp": "{str}{str}に{n}盜まれていた ものを{n}取り返した！{wait}",
+   "jp": "{str}{str}に{n}盗まれていた ものを{n}取り返した！{wait}",
    "en": ""
   },
   {
@@ -236,12 +236,12 @@
   },
   {
    "id": "FONT_10:046",
-   "jp": "お金 {num}両を{n}盜まれた！{n}{wait}",
+   "jp": "お金 {num}両を{n}盗まれた！{n}{wait}",
    "en": ""
   },
   {
    "id": "FONT_10:047",
-   "jp": "{str} {num}両を{n}盜まれた！{n}{wait}",
+   "jp": "{str} {num}両を{n}盗まれた！{n}{wait}",
    "en": ""
   },
   {
@@ -281,7 +281,7 @@
   },
   {
    "id": "FONT_10:055",
-   "jp": "{str}{str}は {str}を{n}道具袋から{n}とりだそうと した！{wait}{n}しかし {str}は{n}すでに 盜まれていた！{n}{wait}",
+   "jp": "{str}{str}は {str}を{n}道具袋から{n}とりだそうと した！{wait}{n}しかし {str}は{n}すでに 盗まれていた！{n}{wait}",
    "en": ""
   },
   {
@@ -336,7 +336,7 @@
   },
   {
    "id": "FONT_10:066",
-   "jp": "{str}{str}は{n}道具袋から{n}なにかを 盜もうとした！{wait}{n}しかし{n}ほしくなるような ものは{n}入っていなかった{wait}",
+   "jp": "{str}{str}は{n}道具袋から{n}なにかを 盗もうとした！{wait}{n}しかし{n}ほしくなるような ものは{n}入っていなかった{wait}",
    "en": ""
   },
   {
@@ -402,62 +402,62 @@
   {
    "id": "FONT_10:079",
    "jp": "桃太郎",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_10:080",
    "jp": "金太郎",
-   "en": ""
+   "en": "Kintaro"
   },
   {
    "id": "FONT_10:081",
    "jp": "浦島",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_10:082",
    "jp": "夜叉姫",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_10:083",
    "jp": "イヌ",
-   "en": ""
+   "en": "Dog"
   },
   {
    "id": "FONT_10:084",
    "jp": "キジ",
-   "en": ""
+   "en": "Pheasant"
   },
   {
    "id": "FONT_10:085",
    "jp": "サル",
-   "en": ""
+   "en": "Monkey"
   },
   {
    "id": "FONT_10:086",
    "jp": "じんぱち",
-   "en": ""
+   "en": "Jinpachi"
   },
   {
    "id": "FONT_10:087",
    "jp": "えのん",
-   "en": ""
+   "en": "Enon"
   },
   {
    "id": "FONT_10:088",
    "jp": "ウンチ",
-   "en": ""
+   "en": "Poop"
   },
   {
    "id": "FONT_10:089",
    "jp": "鉄ウンチ",
-   "en": ""
+   "en": "Iron Poop"
   },
   {
    "id": "FONT_10:090",
    "jp": "地蔵",
-   "en": ""
+   "en": "Jizo"
   },
   {
    "id": "FONT_10:091",
@@ -517,7 +517,7 @@
   {
    "id": "FONT_10:102",
    "jp": "なし",
-   "en": ""
+   "en": "None"
   },
   {
    "id": "FONT_10:103",
@@ -617,22 +617,22 @@
   {
    "id": "FONT_10:122",
    "jp": "段",
-   "en": ""
+   "en": "Level"
   },
   {
    "id": "FONT_10:123",
    "jp": "金",
-   "en": ""
+   "en": "Money"
   },
   {
    "id": "FONT_10:124",
    "jp": "心",
-   "en": ""
+   "en": "Hearts"
   },
   {
    "id": "FONT_10:125",
    "jp": "技",
-   "en": ""
+   "en": "SP"
   },
   {
    "id": "FONT_10:126",
@@ -642,17 +642,17 @@
   {
    "id": "FONT_10:127",
    "jp": "攻撃力",
-   "en": ""
+   "en": "Attack"
   },
   {
    "id": "FONT_10:128",
    "jp": "守備力",
-   "en": ""
+   "en": "Defense"
   },
   {
    "id": "FONT_10:129",
    "jp": "素早さ",
-   "en": ""
+   "en": "Speed"
   },
   {
    "id": "FONT_10:130",
@@ -727,12 +727,12 @@
   {
    "id": "FONT_10:144",
    "jp": "かばう",
-   "en": ""
+   "en": "Cover"
   },
   {
    "id": "FONT_10:145",
    "jp": "仲間",
-   "en": ""
+   "en": "Friends"
   },
   {
    "id": "FONT_10:146",

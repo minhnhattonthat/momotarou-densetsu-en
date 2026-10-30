@@ -2,6 +2,7 @@
 
     files(marker_build=False) -> {disc path: bytes}
 
+Authored `en` is word-wrapped and paged by tools/layout.py first (qa overrides and markers go in as written).
 A table with any `en` is rebuilt from its doc (`en`, else the original `jp` bytes) and written to every `copies`
 location; overlay strings are written in place (`max` bytes). The EXE always gets the engine hook and FONT.PAC the
 English glyphs. marker_build=True gives every non-data string `[n.i]` + filler of the Japanese line's pixel width
@@ -12,6 +13,7 @@ from pathlib import Path
 
 import engine
 import extract
+import layout
 import lzss
 import pac
 
@@ -82,6 +84,16 @@ def marked(n, doc):
     return doc
 
 
+def laid_out(doc):
+    """A copy of doc whose authored `en` is word-wrapped and paged like its `jp` (tools/layout.py)."""
+    strs = []
+    for s in doc['strings']:
+        if s.get('en') and 'jp' in s:
+            s = {**s, 'en': layout.layout(s['en'], s['jp'], layout.box(s['id'], s['jp']))[0]}
+        strs.append(s)
+    return {**doc, 'strings': strs}
+
+
 def files(marker_build=False, qa=None):
     """{disc path: bytes} for build.build. qa: {string id: text} overrides (stress lines, torture line)."""
     entries, raw = {}, {}          # {pac path: {entry: decompressed bytes}}, {raw file: bytes}
@@ -106,6 +118,8 @@ def files(marker_build=False, qa=None):
         tags.append(f'{n}\t{rel}')
         if marker_build:
             doc = marked(n, doc)
+        else:
+            doc = laid_out(doc)
         if qa and any(s['id'] in qa for s in doc['strings']):
             doc = {**doc, 'strings': [{**s, 'en': qa[s['id']]} if s['id'] in qa else s for s in doc['strings']]}
         if not any(s.get('en') for s in doc['strings']):

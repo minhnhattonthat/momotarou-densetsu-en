@@ -8,162 +8,162 @@
   {
    "id": "FONT_6:000",
    "jp": "きんたん",
-   "en": ""
+   "en": "Kintan"
   },
   {
    "id": "FONT_6:001",
    "jp": "ぬけだし",
-   "en": ""
+   "en": "Escape"
   },
   {
    "id": "FONT_6:002",
    "jp": "いなずま",
-   "en": ""
+   "en": "Lightning"
   },
   {
    "id": "FONT_6:003",
    "jp": "はやあし",
-   "en": ""
+   "en": "Dash"
   },
   {
    "id": "FONT_6:004",
    "jp": "ほうひ",
-   "en": ""
+   "en": "Fart"
   },
   {
    "id": "FONT_6:005",
    "jp": "ひえん",
-   "en": ""
+   "en": "Warp"
   },
   {
    "id": "FONT_6:006",
    "jp": "ひえん2",
-   "en": ""
+   "en": "Warp 2"
   },
   {
    "id": "FONT_6:007",
    "jp": "ひえん3",
-   "en": ""
+   "en": "Warp 3"
   },
   {
    "id": "FONT_6:008",
    "jp": "ろっかく",
-   "en": ""
+   "en": "Smash"
   },
   {
    "id": "FONT_6:009",
    "jp": "ふゆう",
-   "en": ""
+   "en": "Float"
   },
   {
    "id": "FONT_6:010",
    "jp": "せんきんたん",
-   "en": ""
+   "en": "Kintan Plus"
   },
   {
    "id": "FONT_6:011",
    "jp": "まんきんたん",
-   "en": ""
+   "en": "Kintan Max"
   },
   {
    "id": "FONT_6:012",
    "jp": "はりて",
-   "en": ""
+   "en": "Palm Slap"
   },
   {
    "id": "FONT_6:013",
    "jp": "つっぱり",
-   "en": ""
+   "en": "Thrust"
   },
   {
    "id": "FONT_6:014",
    "jp": "ずつき",
-   "en": ""
+   "en": "Headbutt"
   },
   {
    "id": "FONT_6:015",
    "jp": "おとひめ",
-   "en": ""
+   "en": "Otohime Heal"
   },
   {
    "id": "FONT_6:016",
    "jp": "うずしお",
-   "en": ""
+   "en": "Whirlpool"
   },
   {
    "id": "FONT_6:017",
    "jp": "めざまし",
-   "en": ""
+   "en": "Wake Up"
   },
   {
    "id": "FONT_6:018",
    "jp": "まもり",
-   "en": ""
+   "en": "Shield"
   },
   {
    "id": "FONT_6:019",
    "jp": "ふういん",
-   "en": ""
+   "en": "Seal"
   },
   {
    "id": "FONT_6:020",
    "jp": "おによけ",
-   "en": ""
+   "en": "Oni Ward"
   },
   {
    "id": "FONT_6:021",
    "jp": "ふにゃら",
-   "en": ""
+   "en": "Soften"
   },
   {
    "id": "FONT_6:022",
    "jp": "ばいりき",
-   "en": ""
+   "en": "Power"
   },
   {
    "id": "FONT_6:023",
    "jp": "ぶんしん",
-   "en": ""
+   "en": "Clone"
   },
   {
    "id": "FONT_6:024",
    "jp": "かくらん",
-   "en": ""
+   "en": "Confuse"
   },
   {
    "id": "FONT_6:025",
    "jp": "ながれぼし",
-   "en": ""
+   "en": "Shooting Star"
   },
   {
    "id": "FONT_6:026",
    "jp": "りょうり",
-   "en": ""
+   "en": "Cooking"
   },
   {
    "id": "FONT_6:027",
    "jp": "まいたん",
-   "en": ""
+   "en": "Regenerate"
   },
   {
    "id": "FONT_6:028",
    "jp": "はやて",
-   "en": ""
+   "en": "Haste"
   },
   {
    "id": "FONT_6:029",
    "jp": "わざよせ",
-   "en": ""
+   "en": "SP Drain"
   },
   {
    "id": "FONT_6:030",
    "jp": "わざわけ",
-   "en": ""
+   "en": "SP Share"
   },
   {
    "id": "FONT_6:031",
    "jp": "やまびこ",
-   "en": ""
+   "en": "Echo"
   },
   {
    "id": "FONT_6:032",
@@ -313,1207 +313,1207 @@
   {
    "id": "FONT_6:061",
    "jp": "はりせん",
-   "en": ""
+   "en": "Paper Fan"
   },
   {
    "id": "FONT_6:062",
    "jp": "鬼の金棒",
-   "en": ""
+   "en": "Oni Club"
   },
   {
    "id": "FONT_6:063",
    "jp": "竹刀",
-   "en": ""
+   "en": "Bamboo Sword"
   },
   {
    "id": "FONT_6:064",
    "jp": "木刀",
-   "en": ""
+   "en": "Wooden Sword"
   },
   {
    "id": "FONT_6:065",
    "jp": "わきざし",
-   "en": ""
+   "en": "Short Sword"
   },
   {
    "id": "FONT_6:066",
    "jp": "刀",
-   "en": ""
+   "en": "Katana"
   },
   {
    "id": "FONT_6:067",
    "jp": "木の葉切りの刀",
-   "en": ""
+   "en": "Leafcutter Sword"
   },
   {
    "id": "FONT_6:068",
    "jp": "小枝切りの刀",
-   "en": ""
+   "en": "Twigcutter Sword"
   },
   {
    "id": "FONT_6:069",
    "jp": "竹割りの刀",
-   "en": ""
+   "en": "Bamboo Splitter"
   },
   {
    "id": "FONT_6:070",
    "jp": "石切りの刀",
-   "en": ""
+   "en": "Stonecutter Sword"
   },
   {
    "id": "FONT_6:071",
    "jp": "岩切りの刀",
-   "en": ""
+   "en": "Rockcutter Sword"
   },
   {
    "id": "FONT_6:072",
    "jp": "しゃくねつの弓",
-   "en": ""
+   "en": "Scorching Bow"
   },
   {
    "id": "FONT_6:073",
    "jp": "かぶと切りの刀",
-   "en": ""
+   "en": "Helmcutter Sword"
   },
   {
    "id": "FONT_6:074",
    "jp": "鬼切り丸",
-   "en": ""
+   "en": "Oni Slayer"
   },
   {
    "id": "FONT_6:075",
    "jp": "百鬼切り丸",
-   "en": ""
+   "en": "Hundred Oni Slayer"
   },
   {
    "id": "FONT_6:076",
    "jp": "びしゃもんの刀",
-   "en": ""
+   "en": "Bishamon Sword"
   },
   {
    "id": "FONT_6:077",
    "jp": "まりしてんの刀",
-   "en": ""
+   "en": "Marishiten Sword"
   },
   {
    "id": "FONT_6:078",
    "jp": "勇気の剣",
-   "en": ""
+   "en": "Sword of Courage"
   },
   {
    "id": "FONT_6:079",
    "jp": "まさかり",
-   "en": ""
+   "en": "Axe"
   },
   {
    "id": "FONT_6:080",
    "jp": "銅のまさかり",
-   "en": ""
+   "en": "Bronze Axe"
   },
   {
    "id": "FONT_6:081",
    "jp": "鉄のまさかり",
-   "en": ""
+   "en": "Iron Axe"
   },
   {
    "id": "FONT_6:082",
    "jp": "銀のまさかり",
-   "en": ""
+   "en": "Silver Axe"
   },
   {
    "id": "FONT_6:083",
    "jp": "金のまさかり",
-   "en": ""
+   "en": "Gold Axe"
   },
   {
    "id": "FONT_6:084",
    "jp": "希望のまさかり",
-   "en": ""
+   "en": "Axe of Hope"
   },
   {
    "id": "FONT_6:085",
    "jp": "風のまさかり",
-   "en": ""
+   "en": "Wind Axe"
   },
   {
    "id": "FONT_6:086",
    "jp": "モリ",
-   "en": ""
+   "en": "Harpoon"
   },
   {
    "id": "FONT_6:087",
    "jp": "かいがらのモリ",
-   "en": ""
+   "en": "Seashell Harpoon"
   },
   {
    "id": "FONT_6:088",
    "jp": "サンゴのモリ",
-   "en": ""
+   "en": "Coral Harpoon"
   },
   {
    "id": "FONT_6:089",
    "jp": "鉄のモリ",
-   "en": ""
+   "en": "Iron Harpoon"
   },
   {
    "id": "FONT_6:090",
    "jp": "金のモリ",
-   "en": ""
+   "en": "Gold Harpoon"
   },
   {
    "id": "FONT_6:091",
    "jp": "正義のモリ",
-   "en": ""
+   "en": "Harpoon of Justice"
   },
   {
    "id": "FONT_6:092",
    "jp": "銀のモリ",
-   "en": ""
+   "en": "Silver Harpoon"
   },
   {
    "id": "FONT_6:093",
    "jp": "光のモリ",
-   "en": ""
+   "en": "Light Harpoon"
   },
   {
    "id": "FONT_6:094",
    "jp": "朝日のモリ",
-   "en": ""
+   "en": "Sunrise Harpoon"
   },
   {
    "id": "FONT_6:095",
    "jp": "かんざし",
-   "en": ""
+   "en": "Hairpin"
   },
   {
    "id": "FONT_6:096",
    "jp": "つげのかんざし",
-   "en": ""
+   "en": "Boxwood Hairpin"
   },
   {
    "id": "FONT_6:097",
    "jp": "ベッコウかんざし",
-   "en": ""
+   "en": "Tortoiseshell Hairpin"
   },
   {
    "id": "FONT_6:098",
    "jp": "象牙のかんざし",
-   "en": ""
+   "en": "Ivory Hairpin"
   },
   {
    "id": "FONT_6:099",
    "jp": "ヒスイのかんざし",
-   "en": ""
+   "en": "Jade Hairpin"
   },
   {
    "id": "FONT_6:100",
    "jp": "銀のかんざし",
-   "en": ""
+   "en": "Silver Hairpin"
   },
   {
    "id": "FONT_6:101",
    "jp": "金のかんざし",
-   "en": ""
+   "en": "Gold Hairpin"
   },
   {
    "id": "FONT_6:102",
    "jp": "愛のかんざし",
-   "en": ""
+   "en": "Hairpin of Love"
   },
   {
    "id": "FONT_6:103",
    "jp": "風車",
-   "en": ""
+   "en": "Pinwheel"
   },
   {
    "id": "FONT_6:104",
    "jp": "夢のかんざし",
-   "en": ""
+   "en": "Dream Hairpin"
   },
   {
    "id": "FONT_6:105",
    "jp": "鬼のかんざし",
-   "en": ""
+   "en": "Oni Hairpin"
   },
   {
    "id": "FONT_6:106",
    "jp": "鬼のふんどし",
-   "en": ""
+   "en": "Oni Loincloth"
   },
   {
    "id": "FONT_6:107",
-   "jp": "板の朋",
-   "en": ""
+   "jp": "板の胴",
+   "en": "Plank Cuirass"
   },
   {
    "id": "FONT_6:108",
-   "jp": "竹の朋",
-   "en": ""
+   "jp": "竹の胴",
+   "en": "Bamboo Cuirass"
   },
   {
    "id": "FONT_6:109",
-   "jp": "麻糸の朋",
-   "en": ""
+   "jp": "麻糸の胴",
+   "en": "Hemp Cuirass"
   },
   {
    "id": "FONT_6:110",
-   "jp": "くろがねの朋",
-   "en": ""
+   "jp": "くろがねの胴",
+   "en": "Steel Cuirass"
   },
   {
    "id": "FONT_6:111",
-   "jp": "しろがねの朋",
-   "en": ""
+   "jp": "しろがねの胴",
+   "en": "Silver Cuirass"
   },
   {
    "id": "FONT_6:112",
    "jp": "よろい",
-   "en": ""
+   "en": "Armor"
   },
   {
    "id": "FONT_6:113",
    "jp": "大よろい",
-   "en": ""
+   "en": "Great Armor"
   },
   {
    "id": "FONT_6:114",
    "jp": "かっちゅう",
-   "en": ""
+   "en": "Samurai Armor"
   },
   {
    "id": "FONT_6:115",
-   "jp": "勇気の朋",
-   "en": ""
+   "jp": "勇気の胴",
+   "en": "Cuirass of Courage"
   },
   {
    "id": "FONT_6:116",
-   "jp": "一校朋",
-   "en": ""
+   "jp": "一枚胴",
+   "en": "One-Plate Cuirass"
   },
   {
    "id": "FONT_6:117",
-   "jp": "二校朋",
-   "en": ""
+   "jp": "二枚胴",
+   "en": "Two-Plate Cuirass"
   },
   {
    "id": "FONT_6:118",
-   "jp": "三校朋",
-   "en": ""
+   "jp": "三枚胴",
+   "en": "Three-Plate Cuirass"
   },
   {
    "id": "FONT_6:119",
    "jp": "大かっちゅう",
-   "en": ""
+   "en": "Great Samurai Armor"
   },
   {
    "id": "FONT_6:120",
    "jp": "はらがけ",
-   "en": ""
+   "en": "Apron"
   },
   {
    "id": "FONT_6:121",
    "jp": "もめんのはらがけ",
-   "en": ""
+   "en": "Cotton Apron"
   },
   {
    "id": "FONT_6:122",
    "jp": "銀のはらがけ",
-   "en": ""
+   "en": "Silver Apron"
   },
   {
    "id": "FONT_6:123",
    "jp": "金のはらがけ",
-   "en": ""
+   "en": "Gold Apron"
   },
   {
    "id": "FONT_6:124",
    "jp": "希望のはらがけ",
-   "en": ""
+   "en": "Apron of Hope"
   },
   {
    "id": "FONT_6:125",
    "jp": "着物",
-   "en": ""
+   "en": "Kimono"
   },
   {
    "id": "FONT_6:126",
    "jp": "漁師の着物",
-   "en": ""
+   "en": "Fisherman Kimono"
   },
   {
    "id": "FONT_6:127",
    "jp": "大漁着物",
-   "en": ""
+   "en": "Big Catch Kimono"
   },
   {
    "id": "FONT_6:128",
    "jp": "黒潮着物",
-   "en": ""
+   "en": "Black Tide Kimono"
   },
   {
    "id": "FONT_6:129",
    "jp": "正義の着物",
-   "en": ""
+   "en": "Kimono of Justice"
   },
   {
    "id": "FONT_6:130",
    "jp": "十二ひとえ",
-   "en": ""
+   "en": "Twelve-Layer Robe"
   },
   {
    "id": "FONT_6:131",
    "jp": "小そで",
-   "en": ""
+   "en": "Kosode"
   },
   {
    "id": "FONT_6:132",
    "jp": "千鳥の小そで",
-   "en": ""
+   "en": "Plover Kosode"
   },
   {
    "id": "FONT_6:133",
    "jp": "白鳥の小そで",
-   "en": ""
+   "en": "Swan Kosode"
   },
   {
    "id": "FONT_6:134",
    "jp": "おおとりの小そで",
-   "en": ""
+   "en": "Phoenix Kosode"
   },
   {
    "id": "FONT_6:135",
    "jp": "松葉の小そで",
-   "en": ""
+   "en": "Pine Needle Kosode"
   },
   {
    "id": "FONT_6:136",
    "jp": "うめのふりそで",
-   "en": ""
+   "en": "Plum Furisode"
   },
   {
    "id": "FONT_6:137",
    "jp": "さくらのふりそで",
-   "en": ""
+   "en": "Cherry Furisode"
   },
   {
    "id": "FONT_6:138",
    "jp": "愛のふりそで",
-   "en": ""
+   "en": "Furisode of Love"
   },
   {
    "id": "FONT_6:139",
    "jp": "わらじ",
-   "en": ""
+   "en": "Straw Sandals"
   },
   {
    "id": "FONT_6:140",
    "jp": "たび",
-   "en": ""
+   "en": "Tabi"
   },
   {
    "id": "FONT_6:141",
    "jp": "ウサギのたび",
-   "en": ""
+   "en": "Rabbit Tabi"
   },
   {
    "id": "FONT_6:142",
    "jp": "キツネのたび",
-   "en": ""
+   "en": "Fox Tabi"
   },
   {
    "id": "FONT_6:143",
    "jp": "シカのたび",
-   "en": ""
+   "en": "Deer Tabi"
   },
   {
    "id": "FONT_6:144",
    "jp": "かんじき",
-   "en": ""
+   "en": "Snowshoes"
   },
   {
    "id": "FONT_6:145",
    "jp": "シシのたび",
-   "en": ""
+   "en": "Lion Tabi"
   },
   {
    "id": "FONT_6:146",
    "jp": "ヒョウのたび",
-   "en": ""
+   "en": "Leopard Tabi"
   },
   {
    "id": "FONT_6:147",
    "jp": "ながぐつ",
-   "en": ""
+   "en": "Rain Boots"
   },
   {
    "id": "FONT_6:148",
    "jp": "健康サンダル",
-   "en": ""
+   "en": "Health Sandals"
   },
   {
    "id": "FONT_6:149",
    "jp": "勇気のたび",
-   "en": ""
+   "en": "Tabi of Courage"
   },
   {
    "id": "FONT_6:150",
    "jp": "希望のたび",
-   "en": ""
+   "en": "Tabi of Hope"
   },
   {
    "id": "FONT_6:151",
    "jp": "正義のたび",
-   "en": ""
+   "en": "Tabi of Justice"
   },
   {
    "id": "FONT_6:152",
    "jp": "愛のたび",
-   "en": ""
+   "en": "Tabi of Love"
   },
   {
    "id": "FONT_6:153",
    "jp": "おまんじゅう",
-   "en": ""
+   "en": "Steamed Bun"
   },
   {
    "id": "FONT_6:154",
    "jp": "おにぎり",
-   "en": ""
+   "en": "Rice Ball"
   },
   {
    "id": "FONT_6:155",
    "jp": "きびだんご",
-   "en": ""
+   "en": "Millet Dumpling"
   },
   {
    "id": "FONT_6:156",
    "jp": "やきいも",
-   "en": ""
+   "en": "Sweet Potato"
   },
   {
    "id": "FONT_6:157",
    "jp": "ユキのおにぎり",
-   "en": ""
+   "en": "Snow Rice Ball"
   },
   {
    "id": "FONT_6:158",
    "jp": "ユキのきびだんご",
-   "en": ""
+   "en": "Snow Millet Dumpling"
   },
   {
    "id": "FONT_6:159",
    "jp": "仙人のかすみ",
-   "en": ""
+   "en": "Hermit's Mist"
   },
   {
    "id": "FONT_6:160",
    "jp": "仙人の桃",
-   "en": ""
+   "en": "Hermit's Peach"
   },
   {
    "id": "FONT_6:161",
    "jp": "強力丹",
-   "en": ""
+   "en": "Potent Pill"
   },
   {
    "id": "FONT_6:162",
    "jp": "打ち出のこづち",
-   "en": ""
+   "en": "Lucky Mallet"
   },
   {
    "id": "FONT_6:163",
    "jp": "こうがしゃの玉",
-   "en": ""
+   "en": "Myriad Orb"
   },
   {
    "id": "FONT_6:164",
    "jp": "こんろんの玉",
-   "en": ""
+   "en": "Kunlun Orb"
   },
   {
    "id": "FONT_6:165",
    "jp": "根性の玉",
-   "en": ""
+   "en": "Guts Orb"
   },
   {
    "id": "FONT_6:166",
    "jp": "元気の玉",
-   "en": ""
+   "en": "Vigor Orb"
   },
   {
    "id": "FONT_6:167",
    "jp": "毒消し",
-   "en": ""
+   "en": "Antidote"
   },
   {
    "id": "FONT_6:168",
    "jp": "マヒ消し",
-   "en": ""
+   "en": "Paralysis Cure"
   },
   {
    "id": "FONT_6:169",
    "jp": "野生の薬草",
-   "en": ""
+   "en": "Wild Herb"
   },
   {
    "id": "FONT_6:170",
    "jp": "スズメの涙",
-   "en": ""
+   "en": "Sparrow Tear"
   },
   {
    "id": "FONT_6:171",
    "jp": "命の仙豆",
-   "en": ""
+   "en": "Life Bean"
   },
   {
    "id": "FONT_6:172",
    "jp": "技の仙豆",
-   "en": ""
+   "en": "SP Bean"
   },
   {
    "id": "FONT_6:173",
    "jp": "早さの仙豆",
-   "en": ""
+   "en": "Speed Bean"
   },
   {
    "id": "FONT_6:174",
    "jp": "戦いの仙豆",
-   "en": ""
+   "en": "Attack Bean"
   },
   {
    "id": "FONT_6:175",
    "jp": "守りの仙豆",
-   "en": ""
+   "en": "Defense Bean"
   },
   {
    "id": "FONT_6:176",
    "jp": "はやぶさの玉",
-   "en": ""
+   "en": "Falcon Orb"
   },
   {
    "id": "FONT_6:177",
    "jp": "本",
-   "en": ""
+   "en": "Book"
   },
   {
    "id": "FONT_6:178",
    "jp": "書物",
-   "en": ""
+   "en": "Tome"
   },
   {
    "id": "FONT_6:179",
    "jp": "秘伝書",
-   "en": ""
+   "en": "Secret Tome"
   },
   {
    "id": "FONT_6:180",
    "jp": "金歩の玉",
-   "en": ""
+   "en": "Goldstep Orb"
   },
   {
    "id": "FONT_6:181",
    "jp": "物増やしの玉",
-   "en": ""
+   "en": "Duplicate Orb"
   },
   {
    "id": "FONT_6:182",
    "jp": "ごしゅうぎの玉",
-   "en": ""
+   "en": "Jubilee Orb"
   },
   {
    "id": "FONT_6:183",
    "jp": "はごろも",
-   "en": ""
+   "en": "Feather Robe"
   },
   {
    "id": "FONT_6:184",
    "jp": "隠れみの",
-   "en": ""
+   "en": "Hiding Cloak"
   },
   {
    "id": "FONT_6:185",
    "jp": "金のひょうたん",
-   "en": ""
+   "en": "Gold Gourd"
   },
   {
    "id": "FONT_6:186",
    "jp": "竹の水筒",
-   "en": ""
+   "en": "Bamboo Canteen"
   },
   {
    "id": "FONT_6:187",
    "jp": "金のなる木",
-   "en": ""
+   "en": "Money Tree"
   },
   {
    "id": "FONT_6:188",
    "jp": "サンゴのなみだ",
-   "en": ""
+   "en": "Coral Tear"
   },
   {
    "id": "FONT_6:189",
    "jp": "まねきねこ",
-   "en": ""
+   "en": "Lucky Cat"
   },
   {
    "id": "FONT_6:190",
    "jp": "ワライダケ",
-   "en": ""
+   "en": "Laughing Mushroom"
   },
   {
    "id": "FONT_6:191",
    "jp": "運送券",
-   "en": ""
+   "en": "Freight Ticket"
   },
   {
    "id": "FONT_6:192",
    "jp": "出前券",
-   "en": ""
+   "en": "Delivery Ticket"
   },
   {
    "id": "FONT_6:193",
    "jp": "といち屋券",
-   "en": ""
+   "en": "Bank Ticket"
   },
   {
    "id": "FONT_6:194",
    "jp": "鬼の笛",
-   "en": ""
+   "en": "Oni Flute"
   },
   {
    "id": "FONT_6:195",
    "jp": "鬼ののろし",
-   "en": ""
+   "en": "Oni Smoke Signal"
   },
   {
    "id": "FONT_6:196",
    "jp": "鬼だいこ",
-   "en": ""
+   "en": "Oni Drum"
   },
   {
    "id": "FONT_6:197",
    "jp": "鬼のかくらん",
-   "en": ""
+   "en": "Oni Confuser"
   },
   {
    "id": "FONT_6:198",
    "jp": "鬼の角",
-   "en": ""
+   "en": "Oni Horn"
   },
   {
    "id": "FONT_6:199",
    "jp": "鬼のつめ",
-   "en": ""
+   "en": "Oni Claw"
   },
   {
    "id": "FONT_6:200",
    "jp": "鬼のはた",
-   "en": ""
+   "en": "Oni Flag"
   },
   {
    "id": "FONT_6:201",
    "jp": "鬼のなみだ",
-   "en": ""
+   "en": "Oni Tear"
   },
   {
    "id": "FONT_6:202",
    "jp": "といし",
-   "en": ""
+   "en": "Whetstone"
   },
   {
    "id": "FONT_6:203",
    "jp": "骨",
-   "en": ""
+   "en": "Bone"
   },
   {
    "id": "FONT_6:204",
    "jp": "がらくた",
-   "en": ""
+   "en": "Junk"
   },
   {
    "id": "FONT_6:205",
    "jp": "こっとう品",
-   "en": ""
+   "en": "Antique"
   },
   {
    "id": "FONT_6:206",
    "jp": "金ののべ棒",
-   "en": ""
+   "en": "Gold Bar"
   },
   {
    "id": "FONT_6:207",
    "jp": "かぎなわ",
-   "en": ""
+   "en": "Grappling Hook"
   },
   {
    "id": "FONT_6:208",
    "jp": "きゅうり",
-   "en": ""
+   "en": "Cucumber"
   },
   {
    "id": "FONT_6:209",
    "jp": "クモの糸",
-   "en": ""
+   "en": "Spider Thread"
   },
   {
    "id": "FONT_6:210",
    "jp": "ろっかくの玉",
-   "en": ""
+   "en": "Smash Orb"
   },
   {
    "id": "FONT_6:211",
    "jp": "サンゴのお札",
-   "en": ""
+   "en": "Coral Talisman"
   },
   {
    "id": "FONT_6:212",
    "jp": "おりひめの笛",
-   "en": ""
+   "en": "Orihime's Flute"
   },
   {
    "id": "FONT_6:213",
    "jp": "ふにゃらの玉",
-   "en": ""
+   "en": "Soften Orb"
   },
   {
    "id": "FONT_6:214",
    "jp": "会心の玉",
-   "en": ""
+   "en": "Critical Orb"
   },
   {
    "id": "FONT_6:215",
    "jp": "金のウンチ",
-   "en": ""
+   "en": "Gold Poop"
   },
   {
    "id": "FONT_6:216",
    "jp": "銀のウンチ",
-   "en": ""
+   "en": "Silver Poop"
   },
   {
    "id": "FONT_6:217",
    "jp": "カメ石",
-   "en": ""
+   "en": "Turtle Stone"
   },
   {
    "id": "FONT_6:218",
    "jp": "こめだわら",
-   "en": ""
+   "en": "Rice Bale"
   },
   {
    "id": "FONT_6:219",
    "jp": "ひえんの巻き物",
-   "en": ""
+   "en": "Warp Scroll"
   },
   {
    "id": "FONT_6:220",
    "jp": "タマゴ",
-   "en": ""
+   "en": "Egg"
   },
   {
    "id": "FONT_6:221",
    "jp": "だいこん",
-   "en": ""
+   "en": "Daikon Radish"
   },
   {
    "id": "FONT_6:222",
    "jp": "にんじん",
-   "en": ""
+   "en": "Carrot"
   },
   {
    "id": "FONT_6:223",
    "jp": "はくさい",
-   "en": ""
+   "en": "Napa Cabbage"
   },
   {
    "id": "FONT_6:224",
    "jp": "ごぼう",
-   "en": ""
+   "en": "Burdock"
   },
   {
    "id": "FONT_6:225",
    "jp": "玉ねぎ",
-   "en": ""
+   "en": "Onion"
   },
   {
    "id": "FONT_6:226",
    "jp": "なすび",
-   "en": ""
+   "en": "Eggplant"
   },
   {
    "id": "FONT_6:227",
    "jp": "かぶ",
-   "en": ""
+   "en": "Turnip"
   },
   {
    "id": "FONT_6:228",
    "jp": "さくら",
-   "en": ""
+   "en": "Cherry Blossom"
   },
   {
    "id": "FONT_6:229",
    "jp": "ばら",
-   "en": ""
+   "en": "Rose"
   },
   {
    "id": "FONT_6:230",
    "jp": "うめ",
-   "en": ""
+   "en": "Plum Blossom"
   },
   {
    "id": "FONT_6:231",
    "jp": "すいせん",
-   "en": ""
+   "en": "Daffodil"
   },
   {
    "id": "FONT_6:232",
    "jp": "すみれ",
-   "en": ""
+   "en": "Violet"
   },
   {
    "id": "FONT_6:233",
    "jp": "あやめ",
-   "en": ""
+   "en": "Iris"
   },
   {
    "id": "FONT_6:234",
    "jp": "マグロ",
-   "en": ""
+   "en": "Tuna"
   },
   {
    "id": "FONT_6:235",
    "jp": "タイ",
-   "en": ""
+   "en": "Sea Bream"
   },
   {
    "id": "FONT_6:236",
    "jp": "ヒラメ",
-   "en": ""
+   "en": "Flounder"
   },
   {
    "id": "FONT_6:237",
    "jp": "エビ",
-   "en": ""
+   "en": "Shrimp"
   },
   {
    "id": "FONT_6:238",
    "jp": "カニ",
-   "en": ""
+   "en": "Crab"
   },
   {
    "id": "FONT_6:239",
    "jp": "アワビ",
-   "en": ""
+   "en": "Abalone"
   },
   {
    "id": "FONT_6:240",
    "jp": "アジ",
-   "en": ""
+   "en": "Horse Mackerel"
   },
   {
    "id": "FONT_6:241",
    "jp": "サバ",
-   "en": ""
+   "en": "Mackerel"
   },
   {
    "id": "FONT_6:242",
    "jp": "サンマ",
-   "en": ""
+   "en": "Saury"
   },
   {
    "id": "FONT_6:243",
    "jp": "イワシ",
-   "en": ""
+   "en": "Sardine"
   },
   {
    "id": "FONT_6:244",
    "jp": "タコ",
-   "en": ""
+   "en": "Octopus"
   },
   {
    "id": "FONT_6:245",
    "jp": "シジミ",
-   "en": ""
+   "en": "Clam"
   },
   {
    "id": "FONT_6:246",
    "jp": "くさったマグロ",
-   "en": ""
+   "en": "Rotten Tuna"
   },
   {
    "id": "FONT_6:247",
    "jp": "くさったタイ",
-   "en": ""
+   "en": "Rotten Sea Bream"
   },
   {
    "id": "FONT_6:248",
    "jp": "くさったヒラメ",
-   "en": ""
+   "en": "Rotten Flounder"
   },
   {
    "id": "FONT_6:249",
    "jp": "くさったエビ",
-   "en": ""
+   "en": "Rotten Shrimp"
   },
   {
    "id": "FONT_6:250",
    "jp": "くさったカニ",
-   "en": ""
+   "en": "Rotten Crab"
   },
   {
    "id": "FONT_6:251",
    "jp": "くさったアワビ",
-   "en": ""
+   "en": "Rotten Abalone"
   },
   {
    "id": "FONT_6:252",
    "jp": "くさったアジ",
-   "en": ""
+   "en": "Rotten Horse Mackerel"
   },
   {
    "id": "FONT_6:253",
    "jp": "くさったサバ",
-   "en": ""
+   "en": "Rotten Mackerel"
   },
   {
    "id": "FONT_6:254",
    "jp": "くさったサンマ",
-   "en": ""
+   "en": "Rotten Saury"
   },
   {
    "id": "FONT_6:255",
    "jp": "くさったイワシ",
-   "en": ""
+   "en": "Rotten Sardine"
   },
   {
    "id": "FONT_6:256",
    "jp": "くさったタコ",
-   "en": ""
+   "en": "Rotten Octopus"
   },
   {
    "id": "FONT_6:257",
    "jp": "くさったシジミ",
-   "en": ""
+   "en": "Rotten Clam"
   },
   {
    "id": "FONT_6:258",
    "jp": "寿司",
-   "en": ""
+   "en": "Sushi"
   },
   {
    "id": "FONT_6:259",
    "jp": "うな重",
-   "en": ""
+   "en": "Eel Rice Box"
   },
   {
    "id": "FONT_6:260",
    "jp": "フグ料理",
-   "en": ""
+   "en": "Pufferfish Dish"
   },
   {
    "id": "FONT_6:261",
    "jp": "氷の塔の鍵",
-   "en": ""
+   "en": "Ice Tower Key"
   },
   {
    "id": "FONT_6:262",
    "jp": "氷室の削り火",
-   "en": ""
+   "en": "Icehouse Fire"
   },
   {
    "id": "FONT_6:263",
    "jp": "ばいりきの刀",
-   "en": ""
+   "en": "Power Sword"
   },
   {
    "id": "FONT_6:264",
    "jp": "貧刀",
-   "en": ""
+   "en": "Poverty Sword"
   },
   {
    "id": "FONT_6:265",
    "jp": "キングボンビー刀",
-   "en": ""
+   "en": "King Bombee Sword"
   },
   {
    "id": "FONT_6:266",
    "jp": "捨て身のまさかり",
-   "en": ""
+   "en": "Reckless Axe"
   },
   {
    "id": "FONT_6:267",
    "jp": "気まぐれのモリ",
-   "en": ""
+   "en": "Fickle Harpoon"
   },
   {
    "id": "FONT_6:268",
    "jp": "鬼神のかんざし",
-   "en": ""
+   "en": "Oni God Hairpin"
   },
   {
    "id": "FONT_6:269",
    "jp": "やまびこの衣",
-   "en": ""
+   "en": "Echo Robe"
   },
   {
    "id": "FONT_6:270",
    "jp": "いだてんのたび",
-   "en": ""
+   "en": "Idaten Tabi"
   },
   {
    "id": "FONT_6:271",
    "jp": "左魂の塔の鍵",
-   "en": ""
+   "en": "Left Soul Tower Key"
   },
   {
    "id": "FONT_6:272",
    "jp": "右魂の塔の鍵",
-   "en": ""
+   "en": "Right Soul Tower Key"
   },
   {
    "id": "FONT_6:273",
    "jp": "カードアルバム",
-   "en": ""
+   "en": "Card Album"
   },
   {
    "id": "FONT_6:274",
    "jp": "命の倍仙豆",
-   "en": ""
+   "en": "Double Life Bean"
   },
   {
    "id": "FONT_6:275",
    "jp": "技の倍仙豆",
-   "en": ""
+   "en": "Double SP Bean"
   },
   {
    "id": "FONT_6:276",
    "jp": "極意書",
-   "en": ""
+   "en": "Master Tome"
   },
   {
    "id": "FONT_6:277",
    "jp": "運玉",
-   "en": ""
+   "en": "Luck Orb"
   },
   {
    "id": "FONT_6:278",
    "jp": "昇段免状",
-   "en": ""
+   "en": "Level Up Diploma"
   },
   {
    "id": "FONT_6:279",
    "jp": "天下御免の札",
-   "en": ""
+   "en": "Untouchable Pass"
   },
   {
    "id": "FONT_6:280",
    "jp": "金創丹",
-   "en": ""
+   "en": "Wound Pill"
   },
   {
    "id": "FONT_6:281",
    "jp": "こんろんの連珠",
-   "en": ""
+   "en": "Kunlun Beads"
   },
   {
    "id": "FONT_6:282",
    "jp": "でたらめ仙豆",
-   "en": ""
+   "en": "Random Bean"
   },
   {
    "id": "FONT_6:283",
    "jp": "銭のお札",
-   "en": ""
+   "en": "Coin Talisman"
   },
   {
    "id": "FONT_6:284",
    "jp": "心のお札",
-   "en": ""
+   "en": "Heart Talisman"
   },
   {
    "id": "FONT_6:285",
    "jp": "絶好丹",
-   "en": ""
+   "en": "Peak Pill"
   },
   {
    "id": "FONT_6:286",
    "jp": "ケータイ電話",
-   "en": ""
+   "en": "Cell Phone"
   },
   {
    "id": "FONT_6:287",
    "jp": "地図",
-   "en": ""
+   "en": "Map"
   },
   {
    "id": "FONT_6:288",
    "jp": "応募はがき",
-   "en": ""
+   "en": "Entry Postcard"
   },
   {
    "id": "FONT_6:289",
    "jp": "きれいな花の種",
-   "en": ""
+   "en": "Pretty Flower Seeds"
   },
   {
    "id": "FONT_6:290",
    "jp": "ふつうの花の種",
-   "en": ""
+   "en": "Plain Flower Seeds"
   },
   {
    "id": "FONT_6:291",
    "jp": "へんな花の種",
-   "en": ""
+   "en": "Odd Flower Seeds"
   },
   {
    "id": "FONT_6:292",
    "jp": "竜の首飾り",
-   "en": ""
+   "en": "Dragon Necklace"
   },
   {
    "id": "FONT_6:293",
    "jp": "仏のお鉢",
-   "en": ""
+   "en": "Buddha's Bowl"
   },
   {
    "id": "FONT_6:294",
    "jp": "金色の毛皮",
-   "en": ""
+   "en": "Golden Fur"
   },
   {
    "id": "FONT_6:295",
    "jp": "ほうらいの玉",
-   "en": ""
+   "en": "Horai Jewel"
   },
   {
    "id": "FONT_6:296",
    "jp": "つばめの子安貝",
-   "en": ""
+   "en": "Swallow's Cowry"
   },
   {
    "id": "FONT_6:297",
    "jp": "つばさのたび",
-   "en": ""
+   "en": "Wing Tabi"
   },
   {
    "id": "FONT_6:298",
    "jp": "ネズミのたび",
-   "en": ""
+   "en": "Mouse Tabi"
   },
   {
    "id": "FONT_6:299",
    "jp": "オオカミのたび",
-   "en": ""
+   "en": "Wolf Tabi"
   },
   {
    "id": "FONT_6:300",
    "jp": "カモシカのたび",
-   "en": ""
+   "en": "Antelope Tabi"
   },
   {
    "id": "FONT_6:301",
    "jp": "びしゃもんのたび",
-   "en": ""
+   "en": "Bishamon Tabi"
   },
   {
    "id": "FONT_6:302",
@@ -2448,17 +2448,17 @@
   {
    "id": "FONT_6:488",
    "jp": "寿司",
-   "en": ""
+   "en": "Sushi"
   },
   {
    "id": "FONT_6:489",
    "jp": "うな重",
-   "en": ""
+   "en": "Eel Rice Box"
   },
   {
    "id": "FONT_6:490",
    "jp": "フグ料理",
-   "en": ""
+   "en": "Pufferfish Dish"
   },
   {
    "id": "FONT_6:491",
@@ -2658,7 +2658,7 @@
   {
    "id": "FONT_6:530",
    "jp": "しゅうりょう",
-   "en": ""
+   "en": "Exit"
   },
   {
    "id": "FONT_6:531",
@@ -2688,77 +2688,77 @@
   {
    "id": "FONT_6:536",
    "jp": "桃太郎",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_6:537",
    "jp": "金太郎",
-   "en": ""
+   "en": "Kintaro"
   },
   {
    "id": "FONT_6:538",
    "jp": "浦島",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_6:539",
    "jp": "夜叉姫",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_6:540",
    "jp": "イヌ",
-   "en": ""
+   "en": "Dog"
   },
   {
    "id": "FONT_6:541",
    "jp": "サル",
-   "en": ""
+   "en": "Monkey"
   },
   {
    "id": "FONT_6:542",
    "jp": "キジ",
-   "en": ""
+   "en": "Pheasant"
   },
   {
    "id": "FONT_6:543",
    "jp": "じんぱち",
-   "en": ""
+   "en": "Jinpachi"
   },
   {
    "id": "FONT_6:544",
    "jp": "えのん",
-   "en": ""
+   "en": "Enon"
   },
   {
    "id": "FONT_6:545",
    "jp": "ウンチ",
-   "en": ""
+   "en": "Poop"
   },
   {
    "id": "FONT_6:546",
    "jp": "鉄ウンチ",
-   "en": ""
+   "en": "Iron Poop"
   },
   {
    "id": "FONT_6:547",
    "jp": "地蔵",
-   "en": ""
+   "en": "Jizo"
   },
   {
    "id": "FONT_6:548",
    "jp": "村長",
-   "en": ""
+   "en": "Chief"
   },
   {
    "id": "FONT_6:549",
    "jp": "村人2",
-   "en": ""
+   "en": "Villager 2"
   },
   {
    "id": "FONT_6:550",
    "jp": "村人3",
-   "en": ""
+   "en": "Villager 3"
   },
   {
    "id": "FONT_6:551",
@@ -2803,187 +2803,187 @@
   {
    "id": "FONT_6:559",
    "jp": "段",
-   "en": ""
+   "en": "Level"
   },
   {
    "id": "FONT_6:560",
    "jp": "体",
-   "en": ""
+   "en": "HP"
   },
   {
    "id": "FONT_6:561",
    "jp": "技",
-   "en": ""
+   "en": "SP"
   },
   {
    "id": "FONT_6:562",
    "jp": "心",
-   "en": ""
+   "en": "Hearts"
   },
   {
    "id": "FONT_6:563",
    "jp": "次",
-   "en": ""
+   "en": "Next"
   },
   {
    "id": "FONT_6:564",
    "jp": "金",
-   "en": ""
+   "en": "Money"
   },
   {
    "id": "FONT_6:565",
    "jp": "道具",
-   "en": ""
+   "en": "Items"
   },
   {
    "id": "FONT_6:566",
    "jp": "といち屋",
-   "en": ""
+   "en": "Bank"
   },
   {
    "id": "FONT_6:567",
    "jp": "両",
-   "en": ""
+   "en": "ryo"
   },
   {
    "id": "FONT_6:568",
    "jp": "個",
-   "en": ""
+   "en": "pcs"
   },
   {
    "id": "FONT_6:569",
    "jp": "状態",
-   "en": ""
+   "en": "Status"
   },
   {
    "id": "FONT_6:570",
    "jp": "術効果",
-   "en": ""
+   "en": "Effects"
   },
   {
    "id": "FONT_6:571",
    "jp": "毒",
-   "en": ""
+   "en": "Poison"
   },
   {
    "id": "FONT_6:572",
    "jp": "病気",
-   "en": ""
+   "en": "Sick"
   },
   {
    "id": "FONT_6:573",
    "jp": "大けが",
-   "en": ""
+   "en": "Injured"
   },
   {
    "id": "FONT_6:574",
    "jp": "攻撃力",
-   "en": ""
+   "en": "Attack"
   },
   {
    "id": "FONT_6:575",
    "jp": "守備力",
-   "en": ""
+   "en": "Defense"
   },
   {
    "id": "FONT_6:576",
    "jp": "素早さ",
-   "en": ""
+   "en": "Speed"
   },
   {
    "id": "FONT_6:577",
    "jp": "宝物",
-   "en": ""
+   "en": "Treasure"
   },
   {
    "id": "FONT_6:578",
    "jp": "タイム",
-   "en": ""
+   "en": "Time"
   },
   {
    "id": "FONT_6:579",
    "jp": "ターボ",
-   "en": ""
+   "en": "Turbo"
   },
   {
    "id": "FONT_6:580",
    "jp": "カード",
-   "en": ""
+   "en": "Cards"
   },
   {
    "id": "FONT_6:581",
    "jp": "こらしめたオニ",
-   "en": ""
+   "en": "Oni Defeated"
   },
   {
    "id": "FONT_6:582",
    "jp": "匹",
-   "en": ""
+   "en": "oni"
   },
   {
    "id": "FONT_6:583",
-   "jp": "校",
-   "en": ""
+   "jp": "枚",
+   "en": "cards"
   },
   {
    "id": "FONT_6:584",
    "jp": "はなす",
-   "en": ""
+   "en": "Talk"
   },
   {
    "id": "FONT_6:585",
    "jp": "しらべる",
-   "en": ""
+   "en": "Check"
   },
   {
    "id": "FONT_6:586",
    "jp": "じゅつ",
-   "en": ""
+   "en": "Arts"
   },
   {
    "id": "FONT_6:587",
    "jp": "そうび",
-   "en": ""
+   "en": "Equip"
   },
   {
    "id": "FONT_6:588",
    "jp": "どうぐ",
-   "en": ""
+   "en": "Items"
   },
   {
    "id": "FONT_6:589",
    "jp": "めいれい",
-   "en": ""
+   "en": "Orders"
   },
   {
    "id": "FONT_6:590",
    "jp": "つよさ",
-   "en": ""
+   "en": "Status"
   },
   {
    "id": "FONT_6:591",
    "jp": "めいれい",
-   "en": ""
+   "en": "Orders"
   },
   {
    "id": "FONT_6:592",
    "jp": "設定",
-   "en": ""
+   "en": "Settings"
   },
   {
    "id": "FONT_6:593",
    "jp": "なし",
-   "en": ""
+   "en": "None"
   },
   {
    "id": "FONT_6:594",
    "jp": "そうび はずす",
-   "en": ""
+   "en": "Unequip"
   },
   {
    "id": "FONT_6:595",
    "jp": "かり",
-   "en": ""
+   "en": "Temp"
   },
   {
    "id": "FONT_6:596",
@@ -2993,172 +2993,172 @@
   {
    "id": "FONT_6:597",
    "jp": "ATRきりかえ",
-   "en": ""
+   "en": "ATR Switch"
   },
   {
    "id": "FONT_6:598",
    "jp": "お金GET",
-   "en": ""
+   "en": "Add Money"
   },
   {
    "id": "FONT_6:599",
    "jp": "バトル",
-   "en": ""
+   "en": "Battle"
   },
   {
    "id": "FONT_6:600",
    "jp": "スクロールスピード",
-   "en": ""
+   "en": "Scroll Speed"
   },
   {
    "id": "FONT_6:601",
    "jp": "アイテムGET",
-   "en": ""
+   "en": "Add Items"
   },
   {
    "id": "FONT_6:602",
    "jp": "テストひえん",
-   "en": ""
+   "en": "Test Warp"
   },
   {
    "id": "FONT_6:603",
    "jp": "人のついかさくじょ",
-   "en": ""
+   "en": "Add/Remove People"
   },
   {
    "id": "FONT_6:604",
    "jp": "術GET",
-   "en": ""
+   "en": "Add Arts"
   },
   {
    "id": "FONT_6:605",
    "jp": "フィールドマップへ",
-   "en": ""
+   "en": "To Field Map"
   },
   {
    "id": "FONT_6:606",
    "jp": "桃太郎の実家",
-   "en": ""
+   "en": "Momotaro's Home"
   },
   {
    "id": "FONT_6:607",
    "jp": "旅立ちの村",
-   "en": ""
+   "en": "Tabidachi Village"
   },
   {
    "id": "FONT_6:608",
    "jp": "カチカチの村",
-   "en": ""
+   "en": "Kachikachi Village"
   },
   {
    "id": "FONT_6:609",
    "jp": "おむすび村",
-   "en": ""
+   "en": "Omusubi Village"
   },
   {
    "id": "FONT_6:610",
    "jp": "ボンビーの村",
-   "en": ""
+   "en": "Bombee Village"
   },
   {
    "id": "FONT_6:611",
    "jp": "ウンチの穴",
-   "en": ""
+   "en": "Poop Hole"
   },
   {
    "id": "FONT_6:612",
    "jp": "花咲かの村",
-   "en": ""
+   "en": "Hanasaka Village"
   },
   {
    "id": "FONT_6:613",
    "jp": "金太郎の村",
-   "en": ""
+   "en": "Kintaro Village"
   },
   {
    "id": "FONT_6:614",
    "jp": "浦島の村",
-   "en": ""
+   "en": "Urashima Village"
   },
   {
    "id": "FONT_6:615",
    "jp": "竜宮城",
-   "en": ""
+   "en": "Ryugu Palace"
   },
   {
    "id": "FONT_6:616",
    "jp": "寝太郎の村",
-   "en": ""
+   "en": "Netaro Village"
   },
   {
    "id": "FONT_6:617",
    "jp": "ほほえみの村",
-   "en": ""
+   "en": "Hohoemi Village"
   },
   {
    "id": "FONT_6:618",
    "jp": "とこなつの村",
-   "en": ""
+   "en": "Tokonatsu Village"
   },
   {
    "id": "FONT_6:619",
    "jp": "希望の都",
-   "en": ""
+   "en": "Capital of Hope"
   },
   {
    "id": "FONT_6:620",
    "jp": "塩ふきの村",
-   "en": ""
+   "en": "Shiobuki Village"
   },
   {
    "id": "FONT_6:621",
    "jp": "ウサカメの村",
-   "en": ""
+   "en": "Usakame Village"
   },
   {
    "id": "FONT_6:622",
    "jp": "ひこぼしの村",
-   "en": ""
+   "en": "Hikoboshi Village"
   },
   {
    "id": "FONT_6:623",
    "jp": "竹取りの村",
-   "en": ""
+   "en": "Taketori Village"
   },
   {
    "id": "FONT_6:624",
    "jp": "すずめのお宿1",
-   "en": ""
+   "en": "Sparrow Inn 1"
   },
   {
    "id": "FONT_6:625",
    "jp": "すずめのお宿2",
-   "en": ""
+   "en": "Sparrow Inn 2"
   },
   {
    "id": "FONT_6:626",
    "jp": "すずめのお宿3",
-   "en": ""
+   "en": "Sparrow Inn 3"
   },
   {
    "id": "FONT_6:627",
    "jp": "すずめのお宿4",
-   "en": ""
+   "en": "Sparrow Inn 4"
   },
   {
    "id": "FONT_6:628",
    "jp": "すずめのお宿5",
-   "en": ""
+   "en": "Sparrow Inn 5"
   },
   {
    "id": "FONT_6:629",
    "jp": "すずめのお宿6",
-   "en": ""
+   "en": "Sparrow Inn 6"
   },
   {
    "id": "FONT_6:630",
    "jp": "地獄",
-   "en": ""
+   "en": "Hell"
   },
   {
    "id": "FONT_6:631",
@@ -3238,12 +3238,12 @@
   {
    "id": "FONT_6:646",
    "jp": "つかう",
-   "en": ""
+   "en": "Use"
   },
   {
    "id": "FONT_6:647",
    "jp": "すてる",
-   "en": ""
+   "en": "Drop"
   },
   {
    "id": "FONT_6:648",
@@ -3253,77 +3253,77 @@
   {
    "id": "FONT_6:649",
    "jp": "はい",
-   "en": ""
+   "en": "Yes"
   },
   {
    "id": "FONT_6:650",
    "jp": "いいえ",
-   "en": ""
+   "en": "No"
   },
   {
    "id": "FONT_6:651",
    "jp": "買う",
-   "en": ""
+   "en": "Buy"
   },
   {
    "id": "FONT_6:652",
    "jp": "売る",
-   "en": ""
+   "en": "Sell"
   },
   {
    "id": "FONT_6:653",
    "jp": "下取り",
-   "en": ""
+   "en": "Trade-In"
   },
   {
    "id": "FONT_6:654",
    "jp": "やめる{n}",
-   "en": ""
+   "en": "Exit"
   },
   {
    "id": "FONT_6:655",
    "jp": "鉄のウンチ",
-   "en": ""
+   "en": "Iron Poop"
   },
   {
    "id": "FONT_6:656",
    "jp": "武",
-   "en": ""
+   "en": "Wpn"
   },
   {
    "id": "FONT_6:657",
    "jp": "防",
-   "en": ""
+   "en": "Arm"
   },
   {
    "id": "FONT_6:658",
    "jp": "足",
-   "en": ""
+   "en": "Ft"
   },
   {
    "id": "FONT_6:659",
    "jp": "＋",
-   "en": ""
+   "en": "+"
   },
   {
    "id": "FONT_6:660",
    "jp": "＝",
-   "en": ""
+   "en": "="
   },
   {
    "id": "FONT_6:661",
    "jp": "性能値",
-   "en": ""
+   "en": "Bonus"
   },
   {
    "id": "FONT_6:662",
    "jp": "キャラの力",
-   "en": ""
+   "en": "Base Stat"
   },
   {
    "id": "FONT_6:663",
    "jp": "攻撃力",
-   "en": ""
+   "en": "Attack"
   },
   {
    "id": "FONT_6:664",
@@ -3413,32 +3413,32 @@
   {
    "id": "FONT_6:681",
    "jp": "お金",
-   "en": ""
+   "en": "Money"
   },
   {
    "id": "FONT_6:682",
    "jp": "説明",
-   "en": ""
+   "en": "Info"
   },
   {
    "id": "FONT_6:683",
    "jp": "あず",
-   "en": ""
+   "en": "Store"
   },
   {
    "id": "FONT_6:684",
    "jp": "おあずけ",
-   "en": ""
+   "en": "Deposit"
   },
   {
    "id": "FONT_6:685",
    "jp": "お引き出し",
-   "en": ""
+   "en": "Withdraw"
   },
   {
    "id": "FONT_6:686",
    "jp": "あずかりだか",
-   "en": ""
+   "en": "Balance"
   },
   {
    "id": "FONT_6:687",
@@ -3473,32 +3473,32 @@
   {
    "id": "FONT_6:693",
    "jp": "偵察",
-   "en": ""
+   "en": "Scout"
   },
   {
    "id": "FONT_6:694",
    "jp": "敵を呼ぶ",
-   "en": ""
+   "en": "Call Foes"
   },
   {
    "id": "FONT_6:695",
    "jp": "さがす",
-   "en": ""
+   "en": "Search"
   },
   {
    "id": "FONT_6:696",
    "jp": "村ひえん",
-   "en": ""
+   "en": "Town Warp"
   },
   {
    "id": "FONT_6:697",
    "jp": "野宿",
-   "en": ""
+   "en": "Camp"
   },
   {
    "id": "FONT_6:698",
    "jp": "きんとうん",
-   "en": ""
+   "en": "Nimbus"
   },
   {
    "id": "FONT_6:699",
@@ -3508,42 +3508,42 @@
   {
    "id": "FONT_6:700",
    "jp": "神社",
-   "en": ""
+   "en": "Shrine"
   },
   {
    "id": "FONT_6:701",
    "jp": "武器屋",
-   "en": ""
+   "en": "Weapons"
   },
   {
    "id": "FONT_6:702",
    "jp": "防具屋",
-   "en": ""
+   "en": "Armor"
   },
   {
    "id": "FONT_6:703",
    "jp": "はきもの屋",
-   "en": ""
+   "en": "Footwear"
   },
   {
    "id": "FONT_6:704",
    "jp": "茶店",
-   "en": ""
+   "en": "Teahouse"
   },
   {
    "id": "FONT_6:705",
    "jp": "医院",
-   "en": ""
+   "en": "Clinic"
   },
   {
    "id": "FONT_6:706",
    "jp": "といち屋",
-   "en": ""
+   "en": "Bank"
   },
   {
    "id": "FONT_6:707",
    "jp": "宿屋",
-   "en": ""
+   "en": "Inn"
   },
   {
    "id": "FONT_6:708",
@@ -3673,42 +3673,42 @@
   {
    "id": "FONT_6:733",
    "jp": "東",
-   "en": ""
+   "en": "East"
   },
   {
    "id": "FONT_6:734",
    "jp": "西",
-   "en": ""
+   "en": "West"
   },
   {
    "id": "FONT_6:735",
    "jp": "南",
-   "en": ""
+   "en": "South"
   },
   {
    "id": "FONT_6:736",
    "jp": "北",
-   "en": ""
+   "en": "North"
   },
   {
    "id": "FONT_6:737",
    "jp": "北東",
-   "en": ""
+   "en": "NE"
   },
   {
    "id": "FONT_6:738",
    "jp": "北西",
-   "en": ""
+   "en": "NW"
   },
   {
    "id": "FONT_6:739",
    "jp": "南東",
-   "en": ""
+   "en": "SE"
   },
   {
    "id": "FONT_6:740",
    "jp": "南西",
-   "en": ""
+   "en": "SW"
   },
   {
    "id": "FONT_6:741",
@@ -3743,12 +3743,12 @@
   {
    "id": "FONT_6:747",
    "jp": "特技",
-   "en": ""
+   "en": "Skills"
   },
   {
    "id": "FONT_6:748",
    "jp": "別れる",
-   "en": ""
+   "en": "Part"
   },
   {
    "id": "FONT_6:749",
@@ -3938,57 +3938,57 @@
   {
    "id": "FONT_6:786",
    "jp": "しんどう",
-   "en": ""
+   "en": "Rumble"
   },
   {
    "id": "FONT_6:787",
    "jp": "オン",
-   "en": ""
+   "en": "On"
   },
   {
    "id": "FONT_6:788",
    "jp": "オフ",
-   "en": ""
+   "en": "Off"
   },
   {
    "id": "FONT_6:789",
    "jp": "おんがく",
-   "en": ""
+   "en": "Music"
   },
   {
    "id": "FONT_6:790",
    "jp": "ステレオ",
-   "en": ""
+   "en": "Stereo"
   },
   {
    "id": "FONT_6:791",
    "jp": "モノラル",
-   "en": ""
+   "en": "Mono"
   },
   {
    "id": "FONT_6:792",
    "jp": "セリフ",
-   "en": ""
+   "en": "Text"
   },
   {
    "id": "FONT_6:793",
    "jp": "はやい",
-   "en": ""
+   "en": "Fast"
   },
   {
    "id": "FONT_6:794",
    "jp": "ふつう",
-   "en": ""
+   "en": "Normal"
   },
   {
    "id": "FONT_6:795",
    "jp": "おそい",
-   "en": ""
+   "en": "Slow"
   },
   {
    "id": "FONT_6:796",
    "jp": "デバッグ",
-   "en": ""
+   "en": "Debug"
   },
   {
    "id": "FONT_6:797",
@@ -4003,27 +4003,27 @@
   {
    "id": "FONT_6:799",
    "jp": "1階",
-   "en": ""
+   "en": "Floor 1"
   },
   {
    "id": "FONT_6:800",
    "jp": "2階",
-   "en": ""
+   "en": "Floor 2"
   },
   {
    "id": "FONT_6:801",
    "jp": "3階",
-   "en": ""
+   "en": "Floor 3"
   },
   {
    "id": "FONT_6:802",
    "jp": "4階",
-   "en": ""
+   "en": "Floor 4"
   },
   {
    "id": "FONT_6:803",
    "jp": "5階",
-   "en": ""
+   "en": "Floor 5"
   },
   {
    "id": "FONT_6:804",

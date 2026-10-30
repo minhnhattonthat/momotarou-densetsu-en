@@ -8,462 +8,462 @@
   {
    "id": "FONT_5:000",
    "jp": "洞窟",
-   "en": ""
+   "en": "Cave"
   },
   {
    "id": "FONT_5:001",
    "jp": "並び",
-   "en": ""
+   "en": "Row"
   },
   {
    "id": "FONT_5:002",
    "jp": "金の",
-   "en": ""
+   "en": "Gold"
   },
   {
    "id": "FONT_5:003",
    "jp": "あみだ",
-   "en": ""
+   "en": "Amida"
   },
   {
    "id": "FONT_5:004",
    "jp": "すずめのお宿",
-   "en": ""
+   "en": "Sparrow Inn"
   },
   {
    "id": "FONT_5:005",
    "jp": "鬼ヶ島",
-   "en": ""
+   "en": "Onigashima"
   },
   {
    "id": "FONT_5:006",
    "jp": "じごく",
-   "en": ""
+   "en": "Hell"
   },
   {
    "id": "FONT_5:007",
    "jp": "鬼のつめあと",
-   "en": ""
+   "en": "Oni Claw Marks"
   },
   {
    "id": "FONT_5:008",
    "jp": "じんじゃ",
-   "en": ""
+   "en": "Shrine"
   },
   {
    "id": "FONT_5:009",
    "jp": "旅立ちの村",
-   "en": ""
+   "en": "Tabidachi Village"
   },
   {
    "id": "FONT_5:010",
    "jp": "カチカチの村",
-   "en": ""
+   "en": "Kachikachi Village"
   },
   {
    "id": "FONT_5:011",
    "jp": "ネズミの穴",
-   "en": ""
+   "en": "Mouse Hole"
   },
   {
    "id": "FONT_5:012",
    "jp": "ボンビーの村",
-   "en": ""
+   "en": "Bombee Village"
   },
   {
    "id": "FONT_5:013",
    "jp": "ウンチの穴",
-   "en": ""
+   "en": "Poop Hole"
   },
   {
    "id": "FONT_5:014",
    "jp": "花咲かの村",
-   "en": ""
+   "en": "Hanasaka Village"
   },
   {
    "id": "FONT_5:015",
    "jp": "ふ思ぎな森",
-   "en": ""
+   "en": "Mystery Forest"
   },
   {
    "id": "FONT_5:016",
    "jp": "金太郎の村",
-   "en": ""
+   "en": "Kintaro Village"
   },
   {
    "id": "FONT_5:017",
    "jp": "浦島の村",
-   "en": ""
+   "en": "Urashima Village"
   },
   {
    "id": "FONT_5:018",
    "jp": "竜宮城",
-   "en": ""
+   "en": "Ryugu Palace"
   },
   {
    "id": "FONT_5:019",
    "jp": "ふ思ぎな森2",
-   "en": ""
+   "en": "Mystery Forest 2"
   },
   {
    "id": "FONT_5:020",
    "jp": "寝太郎の村",
-   "en": ""
+   "en": "Netaro Village"
   },
   {
    "id": "FONT_5:021",
    "jp": "ほほ笑みの村",
-   "en": ""
+   "en": "Hohoemi Village"
   },
   {
    "id": "FONT_5:022",
    "jp": "希望の橋",
-   "en": ""
+   "en": "Bridge of Hope"
   },
   {
    "id": "FONT_5:023",
    "jp": "とこなつの村",
-   "en": ""
+   "en": "Tokonatsu Village"
   },
   {
    "id": "FONT_5:024",
    "jp": "希望の都",
-   "en": ""
+   "en": "Capital of Hope"
   },
   {
    "id": "FONT_5:025",
    "jp": "風神の谷",
-   "en": ""
+   "en": "Fujin's Valley"
   },
   {
    "id": "FONT_5:026",
    "jp": "並び地蔵",
-   "en": ""
+   "en": "Jizo Row"
   },
   {
    "id": "FONT_5:027",
    "jp": "大木",
-   "en": ""
+   "en": "Great Tree"
   },
   {
    "id": "FONT_5:028",
    "jp": "塩ふきの村",
-   "en": ""
+   "en": "Shiobuki Village"
   },
   {
    "id": "FONT_5:029",
    "jp": "ウサカメの村",
-   "en": ""
+   "en": "Usakame Village"
   },
   {
    "id": "FONT_5:030",
    "jp": "ひこぼしの村",
-   "en": ""
+   "en": "Hikoboshi Village"
   },
   {
    "id": "FONT_5:031",
    "jp": "おりひめの村",
-   "en": ""
+   "en": "Orihime Village"
   },
   {
    "id": "FONT_5:032",
    "jp": "竹取りの村",
-   "en": ""
+   "en": "Taketori Village"
   },
   {
    "id": "FONT_5:033",
    "jp": "北の岬",
-   "en": ""
+   "en": "North Cape"
   },
   {
    "id": "FONT_5:034",
    "jp": "ひょう流される岸べ",
-   "en": ""
+   "en": "Castaway Shore"
   },
   {
    "id": "FONT_5:035",
    "jp": "カチカチ山",
-   "en": ""
+   "en": "Kachikachi Mountain"
   },
   {
    "id": "FONT_5:036",
    "jp": "鬼たいじ",
-   "en": ""
+   "en": "Oni Slaying"
   },
   {
    "id": "FONT_5:037",
    "jp": "たなばた",
-   "en": ""
+   "en": "Tanabata"
   },
   {
    "id": "FONT_5:038",
    "jp": "祭り",
-   "en": ""
+   "en": "Festival"
   },
   {
    "id": "FONT_5:039",
    "jp": "ぶき",
-   "en": ""
+   "en": "Weapons"
   },
   {
    "id": "FONT_5:040",
    "jp": "ぼうぐ",
-   "en": ""
+   "en": "Armor"
   },
   {
    "id": "FONT_5:041",
    "jp": "はきもの",
-   "en": ""
+   "en": "Footwear"
   },
   {
    "id": "FONT_5:042",
    "jp": "仲間",
-   "en": ""
+   "en": "Friends"
   },
   {
    "id": "FONT_5:043",
    "jp": "村人",
-   "en": ""
+   "en": "Villager"
   },
   {
    "id": "FONT_5:044",
    "jp": "仙人",
-   "en": ""
+   "en": "Hermit"
   },
   {
    "id": "FONT_5:045",
    "jp": "大文字",
-   "en": ""
+   "en": "Daimonji"
   },
   {
    "id": "FONT_5:046",
    "jp": "焼き",
-   "en": ""
+   "en": "Bonfire"
   },
   {
    "id": "FONT_5:047",
    "jp": "大文字焼き",
-   "en": ""
+   "en": "Daimonji Bonfire"
   },
   {
    "id": "FONT_5:048",
    "jp": "はい",
-   "en": ""
+   "en": "Yes"
   },
   {
    "id": "FONT_5:049",
    "jp": "いいえ",
-   "en": ""
+   "en": "No"
   },
   {
    "id": "FONT_5:050",
    "jp": "ボンビー",
-   "en": ""
+   "en": "Bombee"
   },
   {
    "id": "FONT_5:051",
    "jp": "塩吹きウス",
-   "en": ""
+   "en": "Salt Mill"
   },
   {
    "id": "FONT_5:052",
    "jp": "様",
-   "en": ""
+   "en": "-sama"
   },
   {
    "id": "FONT_5:053",
    "jp": "ほほえみ",
-   "en": ""
+   "en": "Hohoemi"
   },
   {
    "id": "FONT_5:054",
    "jp": "だじゃれ",
-   "en": ""
+   "en": "Puns"
   },
   {
    "id": "FONT_5:055",
    "jp": "ピョピョン",
-   "en": ""
+   "en": "Hop Hop"
   },
   {
    "id": "FONT_5:056",
    "jp": "兄弟",
-   "en": ""
+   "en": "Brothers"
   },
   {
    "id": "FONT_5:057",
    "jp": "流れ星",
-   "en": ""
+   "en": "Shooting Star"
   },
   {
    "id": "FONT_5:058",
    "jp": "あそぶ",
-   "en": ""
+   "en": "Play"
   },
   {
    "id": "FONT_5:059",
    "jp": "人",
-   "en": ""
+   "en": "People"
   },
   {
    "id": "FONT_5:060",
    "jp": "鬼",
-   "en": ""
+   "en": "Oni"
   },
   {
    "id": "FONT_5:061",
    "jp": "えんま",
-   "en": ""
+   "en": "Enma"
   },
   {
    "id": "FONT_5:062",
    "jp": "かぐや",
-   "en": ""
+   "en": "Kaguya"
   },
   {
    "id": "FONT_5:063",
    "jp": "かぐや姫",
-   "en": ""
+   "en": "Princess Kaguya"
   },
   {
    "id": "FONT_5:064",
    "jp": "地蔵",
-   "en": ""
+   "en": "Jizo"
   },
   {
    "id": "FONT_5:065",
    "jp": "ウンチ",
-   "en": ""
+   "en": "Poop"
   },
   {
    "id": "FONT_5:066",
    "jp": "いしゃ",
-   "en": ""
+   "en": "Doctor"
   },
   {
    "id": "FONT_5:067",
    "jp": "花咲かじいさん",
-   "en": ""
+   "en": "Old Man Hanasaka"
   },
   {
    "id": "FONT_5:068",
    "jp": "花咲かじじい",
-   "en": ""
+   "en": "Old Geezer Hanasaka"
   },
   {
    "id": "FONT_5:069",
    "jp": "えのん",
-   "en": ""
+   "en": "Enon"
   },
   {
    "id": "FONT_5:070",
    "jp": "くろガッパ",
-   "en": ""
+   "en": "Black Kappa"
   },
   {
    "id": "FONT_5:071",
    "jp": "カメ",
-   "en": ""
+   "en": "Turtle"
   },
   {
    "id": "FONT_5:072",
    "jp": "桃太郎",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_5:073",
    "jp": "金太郎",
-   "en": ""
+   "en": "Kintaro"
   },
   {
    "id": "FONT_5:074",
    "jp": "浦島",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_5:075",
    "jp": "夜叉姫",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_5:076",
    "jp": "スリの銀次",
-   "en": ""
+   "en": "Ginji the Pickpocket"
   },
   {
    "id": "FONT_5:077",
    "jp": "寝太郎",
-   "en": ""
+   "en": "Netaro"
   },
   {
    "id": "FONT_5:078",
    "jp": "乙姫",
-   "en": ""
+   "en": "Otohime"
   },
   {
    "id": "FONT_5:079",
    "jp": "銀の鬼",
-   "en": ""
+   "en": "Silver Oni"
   },
   {
    "id": "FONT_5:080",
    "jp": "金の鬼",
-   "en": ""
+   "en": "Gold Oni"
   },
   {
    "id": "FONT_5:081",
    "jp": "竜燈鬼",
-   "en": ""
+   "en": "Ryutoki"
   },
   {
    "id": "FONT_5:082",
    "jp": "塩吹き鬼",
-   "en": ""
+   "en": "Salt Oni"
   },
   {
    "id": "FONT_5:083",
    "jp": "りゅうのくびかざり",
-   "en": ""
+   "en": "Dragon Necklace"
   },
   {
    "id": "FONT_5:084",
    "jp": "ほとけのおはち",
-   "en": ""
+   "en": "Buddha's Bowl"
   },
   {
    "id": "FONT_5:085",
    "jp": "きんいろのけがわ",
-   "en": ""
+   "en": "Golden Fur"
   },
   {
    "id": "FONT_5:086",
    "jp": "ほうらいのたま",
-   "en": ""
+   "en": "Horai Jewel"
   },
   {
    "id": "FONT_5:087",
    "jp": "つばめのこやすがい",
-   "en": ""
+   "en": "Swallow's Cowry"
   },
   {
    "id": "FONT_5:088",
    "jp": "ひむろのけずりひ",
-   "en": ""
+   "en": "Icehouse Fire"
   },
   {
    "id": "FONT_5:089",
    "jp": "あれ",
-   "en": ""
+   "en": "That"
   },
   {
    "id": "FONT_5:090",
    "jp": "それ",
-   "en": ""
+   "en": "It"
   },
   {
    "id": "FONT_5:091",
    "jp": "これ",
-   "en": ""
+   "en": "This"
   },
   {
    "id": "FONT_5:092",
@@ -473,32 +473,32 @@
   {
    "id": "FONT_5:093",
    "jp": "文字を入力してください",
-   "en": ""
+   "en": "Please enter a name."
   },
   {
    "id": "FONT_5:094",
    "jp": "すすむ",
-   "en": ""
+   "en": "Forward"
   },
   {
    "id": "FONT_5:095",
    "jp": "もどる",
-   "en": ""
+   "en": "Back"
   },
   {
    "id": "FONT_5:096",
    "jp": "いれる",
-   "en": ""
+   "en": "Insert"
   },
   {
    "id": "FONT_5:097",
    "jp": "けずる",
-   "en": ""
+   "en": "Delete"
   },
   {
    "id": "FONT_5:098",
    "jp": "おわる",
-   "en": ""
+   "en": "Done"
   },
   {
    "id": "FONT_5:099",

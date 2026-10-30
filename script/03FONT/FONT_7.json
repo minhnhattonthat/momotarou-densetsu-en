@@ -23,72 +23,72 @@
   {
    "id": "FONT_7:003",
    "jp": "ももたろう",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_7:004",
    "jp": "きんたろう",
-   "en": ""
+   "en": "Kintaro"
   },
   {
    "id": "FONT_7:005",
    "jp": "うらしまたろう",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_7:006",
    "jp": "やしゃひめ",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_7:007",
    "jp": "イヌ",
-   "en": ""
+   "en": "Dog"
   },
   {
    "id": "FONT_7:008",
    "jp": "サル",
-   "en": ""
+   "en": "Monkey"
   },
   {
    "id": "FONT_7:009",
    "jp": "キジ",
-   "en": ""
+   "en": "Pheasant"
   },
   {
    "id": "FONT_7:010",
    "jp": "はなす",
-   "en": ""
+   "en": "Talk"
   },
   {
    "id": "FONT_7:011",
    "jp": "じゅつ",
-   "en": ""
+   "en": "Arts"
   },
   {
    "id": "FONT_7:012",
    "jp": "つよさ",
-   "en": ""
+   "en": "Status"
   },
   {
    "id": "FONT_7:013",
    "jp": "しらべる",
-   "en": ""
+   "en": "Check"
   },
   {
    "id": "FONT_7:014",
    "jp": "そうび",
-   "en": ""
+   "en": "Equip"
   },
   {
    "id": "FONT_7:015",
    "jp": "めいれい",
-   "en": ""
+   "en": "Orders"
   },
   {
    "id": "FONT_7:016",
    "jp": "とくべつ",
-   "en": ""
+   "en": "Special"
   },
   {
    "id": "FONT_7:017",
@@ -103,27 +103,27 @@
   {
    "id": "FONT_7:019",
    "jp": "はやい",
-   "en": ""
+   "en": "Fast"
   },
   {
    "id": "FONT_7:020",
    "jp": "ふつう",
-   "en": ""
+   "en": "Normal"
   },
   {
    "id": "FONT_7:021",
    "jp": "おそい",
-   "en": ""
+   "en": "Slow"
   },
   {
    "id": "FONT_7:022",
    "jp": "おじいさん",
-   "en": ""
+   "en": "Grandpa"
   },
   {
    "id": "FONT_7:023",
    "jp": "おばあさん",
-   "en": ""
+   "en": "Grandma"
   },
   {
    "id": "FONT_7:024",
@@ -138,1232 +138,1232 @@
   {
    "id": "FONT_7:026",
    "jp": "たたかう",
-   "en": ""
+   "en": "Fight"
   },
   {
    "id": "FONT_7:027",
    "jp": "どうぐ",
-   "en": ""
+   "en": "Items"
   },
   {
    "id": "FONT_7:028",
    "jp": "じゅつ",
-   "en": ""
+   "en": "Arts"
   },
   {
    "id": "FONT_7:029",
    "jp": "すもう技",
-   "en": ""
+   "en": "Sumo"
   },
   {
    "id": "FONT_7:030",
    "jp": "まもる",
-   "en": ""
+   "en": "Defend"
   },
   {
    "id": "FONT_7:031",
    "jp": "かばう",
-   "en": ""
+   "en": "Cover"
   },
   {
    "id": "FONT_7:032",
    "jp": "つよさ",
-   "en": ""
+   "en": "Status"
   },
   {
    "id": "FONT_7:033",
    "jp": "オート",
-   "en": ""
+   "en": "Auto"
   },
   {
    "id": "FONT_7:034",
    "jp": "にげる",
-   "en": ""
+   "en": "Run"
   },
   {
    "id": "FONT_7:035",
    "jp": "赤鬼",
-   "en": ""
+   "en": "Red Oni"
   },
   {
    "id": "FONT_7:036",
    "jp": "青鬼",
-   "en": ""
+   "en": "Blue Oni"
   },
   {
    "id": "FONT_7:037",
    "jp": "黄鬼",
-   "en": ""
+   "en": "Yellow Oni"
   },
   {
    "id": "FONT_7:038",
    "jp": "緑鬼",
-   "en": ""
+   "en": "Green Oni"
   },
   {
    "id": "FONT_7:039",
    "jp": "ピンク鬼",
-   "en": ""
+   "en": "Pink Oni"
   },
   {
    "id": "FONT_7:040",
    "jp": "オニレンジャー",
-   "en": ""
+   "en": "Oni Rangers"
   },
   {
    "id": "FONT_7:041",
    "jp": "銀の鬼",
-   "en": ""
+   "en": "Silver Oni"
   },
   {
    "id": "FONT_7:042",
    "jp": "金の鬼",
-   "en": ""
+   "en": "Gold Oni"
   },
   {
    "id": "FONT_7:043",
    "jp": "黒鬼",
-   "en": ""
+   "en": "Black Oni"
   },
   {
    "id": "FONT_7:044",
    "jp": "ネズミ鬼",
-   "en": ""
+   "en": "Mouse Oni"
   },
   {
    "id": "FONT_7:045",
    "jp": "ひむろ鬼",
-   "en": ""
+   "en": "Icehouse Oni"
   },
   {
    "id": "FONT_7:046",
    "jp": "雪鬼",
-   "en": ""
+   "en": "Snow Oni"
   },
   {
    "id": "FONT_7:047",
    "jp": "漢字の鬼",
-   "en": ""
+   "en": "Kanji Oni"
   },
   {
    "id": "FONT_7:048",
    "jp": "ケータイの鬼",
-   "en": ""
+   "en": "Cell Phone Oni"
   },
   {
    "id": "FONT_7:049",
    "jp": "グルメの鬼",
-   "en": ""
+   "en": "Gourmet Oni"
   },
   {
    "id": "FONT_7:050",
    "jp": "ゲージツの鬼",
-   "en": ""
+   "en": "Artiste Oni"
   },
   {
    "id": "FONT_7:051",
    "jp": "鬼がわら",
-   "en": ""
+   "en": "Oni Tile"
   },
   {
    "id": "FONT_7:052",
    "jp": "地獄がわら",
-   "en": ""
+   "en": "Hell Tile"
   },
   {
    "id": "FONT_7:053",
    "jp": "火炎がわら",
-   "en": ""
+   "en": "Flame Tile"
   },
   {
    "id": "FONT_7:054",
    "jp": "コウモリ",
-   "en": ""
+   "en": "Bat"
   },
   {
    "id": "FONT_7:055",
    "jp": "血吸いコウモリ",
-   "en": ""
+   "en": "Vampire Bat"
   },
   {
    "id": "FONT_7:056",
    "jp": "大コウモリ",
-   "en": ""
+   "en": "Giant Bat"
   },
   {
    "id": "FONT_7:057",
    "jp": "雪原コウモリ",
-   "en": ""
+   "en": "Snowfield Bat"
   },
   {
    "id": "FONT_7:058",
    "jp": "クモザル",
-   "en": ""
+   "en": "Spider Monkey"
   },
   {
    "id": "FONT_7:059",
    "jp": "ひむろザル",
-   "en": ""
+   "en": "Icehouse Monkey"
   },
   {
    "id": "FONT_7:060",
    "jp": "ブルーモンキーズ",
-   "en": ""
+   "en": "Blue Monkeys"
   },
   {
    "id": "FONT_7:061",
    "jp": "ちゃくまヒヒ",
-   "en": ""
+   "en": "Chacma Baboon"
   },
   {
    "id": "FONT_7:062",
    "jp": "どくえらヒヒ",
-   "en": ""
+   "en": "Olive Baboon"
   },
   {
    "id": "FONT_7:063",
    "jp": "車内販売の鬼",
-   "en": ""
+   "en": "Snack Cart Oni"
   },
   {
    "id": "FONT_7:064",
    "jp": "どくろ鬼",
-   "en": ""
+   "en": "Skull Oni"
   },
   {
    "id": "FONT_7:065",
    "jp": "のざらし鬼",
-   "en": ""
+   "en": "Bleached Skull Oni"
   },
   {
    "id": "FONT_7:066",
    "jp": "しゃれこうべ鬼",
-   "en": ""
+   "en": "Cranium Oni"
   },
   {
    "id": "FONT_7:067",
    "jp": "のっぺらぼう",
-   "en": ""
+   "en": "Faceless Ghost"
   },
   {
    "id": "FONT_7:068",
    "jp": "きなこぼう",
-   "en": ""
+   "en": "Floury Ghost"
   },
   {
    "id": "FONT_7:069",
    "jp": "どふもこふも",
-   "en": ""
+   "en": "Dofumokofumo"
   },
   {
    "id": "FONT_7:070",
    "jp": "いのしし鬼",
-   "en": ""
+   "en": "Boar Oni"
   },
   {
    "id": "FONT_7:071",
    "jp": "とらふずく鬼",
-   "en": ""
+   "en": "Long-Eared Owl Oni"
   },
   {
    "id": "FONT_7:072",
    "jp": "むじな鬼",
-   "en": ""
+   "en": "Badger Oni"
   },
   {
    "id": "FONT_7:073",
    "jp": "げらだひひ鬼",
-   "en": ""
+   "en": "Gelada Oni"
   },
   {
    "id": "FONT_7:074",
    "jp": "とら鬼",
-   "en": ""
+   "en": "Tiger Oni"
   },
   {
    "id": "FONT_7:075",
    "jp": "くま鬼",
-   "en": ""
+   "en": "Bear Oni"
   },
   {
    "id": "FONT_7:076",
    "jp": "文学の鬼",
-   "en": ""
+   "en": "Literature Oni"
   },
   {
    "id": "FONT_7:077",
    "jp": "みみずく",
-   "en": ""
+   "en": "Horned Owl"
   },
   {
    "id": "FONT_7:078",
    "jp": "しまふくろう",
-   "en": ""
+   "en": "Fish Owl"
   },
   {
    "id": "FONT_7:079",
    "jp": "よるごろすけ",
-   "en": ""
+   "en": "Night Hooter"
   },
   {
    "id": "FONT_7:080",
    "jp": "すずかごぜん",
-   "en": ""
+   "en": "Lady Suzuka"
   },
   {
    "id": "FONT_7:081",
    "jp": "かつらぎごぜん",
-   "en": ""
+   "en": "Lady Katsuragi"
   },
   {
    "id": "FONT_7:082",
    "jp": "ふぶきごぜん",
-   "en": ""
+   "en": "Lady Blizzard"
   },
   {
    "id": "FONT_7:083",
    "jp": "ひょうがごぜん",
-   "en": ""
+   "en": "Lady Glacier"
   },
   {
    "id": "FONT_7:084",
    "jp": "夜叉",
-   "en": ""
+   "en": "Yasha"
   },
   {
    "id": "FONT_7:085",
    "jp": "こくう夜叉",
-   "en": ""
+   "en": "Void Yasha"
   },
   {
    "id": "FONT_7:086",
    "jp": "とびてん夜叉",
-   "en": ""
+   "en": "Sky Yasha"
   },
   {
    "id": "FONT_7:087",
    "jp": "ひむろ夜叉",
-   "en": ""
+   "en": "Icehouse Yasha"
   },
   {
    "id": "FONT_7:088",
    "jp": "ほね鬼",
-   "en": ""
+   "en": "Bone Oni"
   },
   {
    "id": "FONT_7:089",
    "jp": "むくろ鬼",
-   "en": ""
+   "en": "Corpse Oni"
   },
   {
    "id": "FONT_7:090",
    "jp": "はっこつ鬼",
-   "en": ""
+   "en": "Skeleton Oni"
   },
   {
    "id": "FONT_7:091",
    "jp": "ほねオニぞん",
-   "en": ""
+   "en": "Bone-Weary Oni"
   },
   {
    "id": "FONT_7:092",
    "jp": "トラ王",
-   "en": ""
+   "en": "Tiger King"
   },
   {
    "id": "FONT_7:093",
    "jp": "びゃっこ",
-   "en": ""
+   "en": "White Tiger"
   },
   {
    "id": "FONT_7:094",
    "jp": "えきびょう鬼",
-   "en": ""
+   "en": "Plague Oni"
   },
   {
    "id": "FONT_7:095",
    "jp": "まんびょう鬼",
-   "en": ""
+   "en": "Malady Oni"
   },
   {
    "id": "FONT_7:096",
    "jp": "びょうま鬼",
-   "en": ""
+   "en": "Sickness Oni"
   },
   {
    "id": "FONT_7:097",
    "jp": "くまタカ",
-   "en": ""
+   "en": "Hawk Eagle"
   },
   {
    "id": "FONT_7:098",
    "jp": "かんむりくまタカ",
-   "en": ""
+   "en": "Crowned Hawk Eagle"
   },
   {
    "id": "FONT_7:099",
    "jp": "タカさんチェック",
-   "en": ""
+   "en": "Hawk-san Check"
   },
   {
    "id": "FONT_7:100",
    "jp": "てなが鬼",
-   "en": ""
+   "en": "Long-Arm Oni"
   },
   {
    "id": "FONT_7:101",
    "jp": "あしなが鬼",
-   "en": ""
+   "en": "Long-Leg Oni"
   },
   {
    "id": "FONT_7:102",
    "jp": "あしながオニさん",
-   "en": ""
+   "en": "Daddy Long-Oni"
   },
   {
    "id": "FONT_7:103",
    "jp": "あめねり鬼",
-   "en": ""
+   "en": "Taffy Oni"
   },
   {
    "id": "FONT_7:104",
    "jp": "鬼のめ",
-   "en": ""
+   "en": "Oni Eye"
   },
   {
    "id": "FONT_7:105",
    "jp": "にらみ鬼",
-   "en": ""
+   "en": "Glare Oni"
   },
   {
    "id": "FONT_7:106",
    "jp": "あばれウシ",
-   "en": ""
+   "en": "Raging Bull"
   },
   {
    "id": "FONT_7:107",
    "jp": "やぎゅう",
-   "en": ""
+   "en": "Bison"
   },
   {
    "id": "FONT_7:108",
    "jp": "あばれウマ",
-   "en": ""
+   "en": "Raging Horse"
   },
   {
    "id": "FONT_7:109",
    "jp": "くろこま",
-   "en": ""
+   "en": "Black Colt"
   },
   {
    "id": "FONT_7:110",
    "jp": "びゃくやウマ",
-   "en": ""
+   "en": "White Night Horse"
   },
   {
    "id": "FONT_7:111",
    "jp": "きめんガニ",
-   "en": ""
+   "en": "Oni-Face Crab"
   },
   {
    "id": "FONT_7:112",
    "jp": "かぶとガニ",
-   "en": ""
+   "en": "Horseshoe Crab"
   },
   {
    "id": "FONT_7:113",
    "jp": "ひょうせつガニ",
-   "en": ""
+   "en": "Frost Crab"
   },
   {
    "id": "FONT_7:114",
    "jp": "亡者",
-   "en": ""
+   "en": "Wraith"
   },
   {
    "id": "FONT_7:115",
    "jp": "ごくそつ亡者",
-   "en": ""
+   "en": "Jailer Wraith"
   },
   {
    "id": "FONT_7:116",
    "jp": "ぼうはち亡者",
-   "en": ""
+   "en": "Wicked Wraith"
   },
   {
    "id": "FONT_7:117",
    "jp": "ながやり鬼",
-   "en": ""
+   "en": "Long Spear Oni"
   },
   {
    "id": "FONT_7:118",
    "jp": "まさかり鬼",
-   "en": ""
+   "en": "Axe Oni"
   },
   {
    "id": "FONT_7:119",
    "jp": "みつまた鬼",
-   "en": ""
+   "en": "Trident Oni"
   },
   {
    "id": "FONT_7:120",
    "jp": "白うかり",
-   "en": ""
+   "en": "White Ukari"
   },
   {
    "id": "FONT_7:121",
    "jp": "赤うかり",
-   "en": ""
+   "en": "Red Ukari"
   },
   {
    "id": "FONT_7:122",
    "jp": "みつめ鬼",
-   "en": ""
+   "en": "Three-Eyed Oni"
   },
   {
    "id": "FONT_7:123",
    "jp": "百目鬼",
-   "en": ""
+   "en": "Hundred-Eyed Oni"
   },
   {
    "id": "FONT_7:124",
    "jp": "のみ鬼",
-   "en": ""
+   "en": "Flea Oni"
   },
   {
    "id": "FONT_7:125",
    "jp": "まめ鬼",
-   "en": ""
+   "en": "Mini Oni"
   },
   {
    "id": "FONT_7:126",
    "jp": "手のり鬼",
-   "en": ""
+   "en": "Pocket Oni"
   },
   {
    "id": "FONT_7:127",
    "jp": "ビジュアル系の鬼",
-   "en": ""
+   "en": "Visual Kei Oni"
   },
   {
    "id": "FONT_7:128",
    "jp": "ギャンブルの鬼",
-   "en": ""
+   "en": "Gambling Oni"
   },
   {
    "id": "FONT_7:129",
    "jp": "ゲットの鬼",
-   "en": ""
+   "en": "Gotcha Oni"
   },
   {
    "id": "FONT_7:130",
    "jp": "友達んちの鬼",
-   "en": ""
+   "en": "Friend's House Oni"
   },
   {
    "id": "FONT_7:131",
    "jp": "福の神",
-   "en": ""
+   "en": "God of Fortune"
   },
   {
    "id": "FONT_7:132",
    "jp": "福の神キング",
-   "en": ""
+   "en": "God of Fortune King"
   },
   {
    "id": "FONT_7:133",
    "jp": "福の神ゴッド",
-   "en": ""
+   "en": "God of Fortune God"
   },
   {
    "id": "FONT_7:134",
    "jp": "あまのじゃく",
-   "en": ""
+   "en": "Amanojaku"
   },
   {
    "id": "FONT_7:135",
    "jp": "あまのじゃくZ",
-   "en": ""
+   "en": "Amanojaku Z"
   },
   {
    "id": "FONT_7:136",
    "jp": "歴史の鬼",
-   "en": ""
+   "en": "History Oni"
   },
   {
    "id": "FONT_7:137",
    "jp": "レンタルの鬼",
-   "en": ""
+   "en": "Rental Oni"
   },
   {
    "id": "FONT_7:138",
    "jp": "阿修羅隊",
-   "en": ""
+   "en": "Ashura Squad"
   },
   {
    "id": "FONT_7:139",
    "jp": "算数の鬼",
-   "en": ""
+   "en": "Math Oni"
   },
   {
    "id": "FONT_7:140",
    "jp": "地燈鬼",
-   "en": ""
+   "en": "Chitoki"
   },
   {
    "id": "FONT_7:141",
    "jp": "天燈鬼",
-   "en": ""
+   "en": "Tentoki"
   },
   {
    "id": "FONT_7:142",
    "jp": "蛇燈鬼",
-   "en": ""
+   "en": "Jatoki"
   },
   {
    "id": "FONT_7:143",
    "jp": "しし",
-   "en": ""
+   "en": "Lion"
   },
   {
    "id": "FONT_7:144",
    "jp": "地獄じし",
-   "en": ""
+   "en": "Hell Lion"
   },
   {
    "id": "FONT_7:145",
    "jp": "よもつじし",
-   "en": ""
+   "en": "Yomi Lion"
   },
   {
    "id": "FONT_7:146",
    "jp": "キツネ",
-   "en": ""
+   "en": "Fox"
   },
   {
    "id": "FONT_7:147",
    "jp": "ぎんギツネ",
-   "en": ""
+   "en": "Silver Fox"
   },
   {
    "id": "FONT_7:148",
    "jp": "じゅうじキツネ",
-   "en": ""
+   "en": "Cross Fox"
   },
   {
    "id": "FONT_7:149",
    "jp": "くぐつ鬼",
-   "en": ""
+   "en": "Puppet Oni"
   },
   {
    "id": "FONT_7:150",
    "jp": "やみくぐつ",
-   "en": ""
+   "en": "Dark Puppet"
   },
   {
    "id": "FONT_7:151",
    "jp": "たつまき鬼",
-   "en": ""
+   "en": "Tornado Oni"
   },
   {
    "id": "FONT_7:152",
    "jp": "火の玉",
-   "en": ""
+   "en": "Will-o'-Wisp"
   },
   {
    "id": "FONT_7:153",
    "jp": "がきだま",
-   "en": ""
+   "en": "Hungry Wisp"
   },
   {
    "id": "FONT_7:154",
    "jp": "びろーん",
-   "en": ""
+   "en": "Stretchy"
   },
   {
    "id": "FONT_7:155",
    "jp": "はらだし",
-   "en": ""
+   "en": "Bare Belly"
   },
   {
    "id": "FONT_7:156",
    "jp": "くじゃく",
-   "en": ""
+   "en": "Peacock"
   },
   {
    "id": "FONT_7:157",
    "jp": "べにくじゃく",
-   "en": ""
+   "en": "Crimson Peacock"
   },
   {
    "id": "FONT_7:158",
    "jp": "ゆめみくじゃく",
-   "en": ""
+   "en": "Dreamy Peacock"
   },
   {
    "id": "FONT_7:159",
    "jp": "まだらチョウ",
-   "en": ""
+   "en": "Spotted Butterfly"
   },
   {
    "id": "FONT_7:160",
    "jp": "じゃのめチョウ",
-   "en": ""
+   "en": "Eyespot Butterfly"
   },
   {
    "id": "FONT_7:161",
    "jp": "てんぐチョウ",
-   "en": ""
+   "en": "Tengu Butterfly"
   },
   {
    "id": "FONT_7:162",
    "jp": "雪はんにゃ",
-   "en": ""
+   "en": "Snow Hannya"
   },
   {
    "id": "FONT_7:163",
    "jp": "金剛はんにゃ",
-   "en": ""
+   "en": "Vajra Hannya"
   },
   {
    "id": "FONT_7:164",
    "jp": "よもつはんにゃ",
-   "en": ""
+   "en": "Yomi Hannya"
   },
   {
    "id": "FONT_7:165",
    "jp": "おろち",
-   "en": ""
+   "en": "Orochi"
   },
   {
    "id": "FONT_7:166",
    "jp": "くちなわおろち",
-   "en": ""
+   "en": "Serpent Orochi"
   },
   {
    "id": "FONT_7:167",
    "jp": "大なむち",
-   "en": ""
+   "en": "Onamuchi"
   },
   {
    "id": "FONT_7:168",
    "jp": "おんりょう",
-   "en": ""
+   "en": "Vengeful Ghost"
   },
   {
    "id": "FONT_7:169",
    "jp": "もうりょう",
-   "en": ""
+   "en": "Moryo"
   },
   {
    "id": "FONT_7:170",
    "jp": "ちみもうりょう",
-   "en": ""
+   "en": "Chimi-Moryo"
   },
   {
    "id": "FONT_7:171",
    "jp": "黒ガッパ",
-   "en": ""
+   "en": "Black Kappa"
   },
   {
    "id": "FONT_7:172",
    "jp": "かわたろう",
-   "en": ""
+   "en": "Kawataro"
   },
   {
    "id": "FONT_7:173",
    "jp": "たろうぼう",
-   "en": ""
+   "en": "Tarobo"
   },
   {
    "id": "FONT_7:174",
    "jp": "がらっぱどん",
-   "en": ""
+   "en": "Garappa-don"
   },
   {
    "id": "FONT_7:175",
    "jp": "しりこガッパ",
-   "en": ""
+   "en": "Bottom Kappa"
   },
   {
    "id": "FONT_7:176",
    "jp": "えびせんガッパ",
-   "en": ""
+   "en": "Shrimp Chip Kappa"
   },
   {
    "id": "FONT_7:177",
    "jp": "火炎羅刹",
-   "en": ""
+   "en": "Flame Rakshasa"
   },
   {
    "id": "FONT_7:178",
    "jp": "いなずま羅刹",
-   "en": ""
+   "en": "Lightning Rakshasa"
   },
   {
    "id": "FONT_7:179",
    "jp": "だくりゅう羅刹",
-   "en": ""
+   "en": "Torrent Rakshasa"
   },
   {
    "id": "FONT_7:180",
    "jp": "あやつり童子",
-   "en": ""
+   "en": "Puppeteer Doji"
   },
   {
    "id": "FONT_7:181",
    "jp": "きどうまる",
-   "en": ""
+   "en": "Kidomaru"
   },
   {
    "id": "FONT_7:182",
    "jp": "ぬえ",
-   "en": ""
+   "en": "Nue"
   },
   {
    "id": "FONT_7:183",
    "jp": "すくな",
-   "en": ""
+   "en": "Sukuna"
   },
   {
    "id": "FONT_7:184",
    "jp": "きまいら",
-   "en": ""
+   "en": "Chimera"
   },
   {
    "id": "FONT_7:185",
    "jp": "ばっかん邪鬼",
-   "en": ""
+   "en": "Bakkan Imp"
   },
   {
    "id": "FONT_7:186",
    "jp": "酒呑邪鬼",
-   "en": ""
+   "en": "Shuten Imp"
   },
   {
    "id": "FONT_7:187",
    "jp": "羅生邪鬼",
-   "en": ""
+   "en": "Rasho Imp"
   },
   {
    "id": "FONT_7:188",
    "jp": "もうそうちく",
-   "en": ""
+   "en": "Giant Bamboo"
   },
   {
    "id": "FONT_7:189",
    "jp": "おかめざさ",
-   "en": ""
+   "en": "Dwarf Bamboo"
   },
   {
    "id": "FONT_7:190",
    "jp": "てんごう鬼",
-   "en": ""
+   "en": "Prankster Oni"
   },
   {
    "id": "FONT_7:191",
    "jp": "びゃくれん鬼",
-   "en": ""
+   "en": "White Lotus Oni"
   },
   {
    "id": "FONT_7:192",
    "jp": "だつえば",
-   "en": ""
+   "en": "Datsueba"
   },
   {
    "id": "FONT_7:193",
    "jp": "やさぶろうば",
-   "en": ""
+   "en": "Yasaburoba"
   },
   {
    "id": "FONT_7:194",
    "jp": "えんば",
-   "en": ""
+   "en": "Enba"
   },
   {
    "id": "FONT_7:195",
    "jp": "うんば",
-   "en": ""
+   "en": "Unba"
   },
   {
    "id": "FONT_7:196",
    "jp": "地獄金剛",
-   "en": ""
+   "en": "Hell Vajra"
   },
   {
    "id": "FONT_7:197",
    "jp": "よもつ金剛",
-   "en": ""
+   "en": "Yomi Vajra"
   },
   {
    "id": "FONT_7:198",
    "jp": "がねえしゃ",
-   "en": ""
+   "en": "Ganesha"
   },
   {
    "id": "FONT_7:199",
    "jp": "あいらばた",
-   "en": ""
+   "en": "Airavata"
   },
   {
    "id": "FONT_7:200",
    "jp": "けんだばごくそつ",
-   "en": ""
+   "en": "Gandharva Jailer"
   },
   {
    "id": "FONT_7:201",
    "jp": "くばんだごくそつ",
-   "en": ""
+   "en": "Kumbhanda Jailer"
   },
   {
    "id": "FONT_7:202",
    "jp": "びしゃだごくそつ",
-   "en": ""
+   "en": "Pishacha Jailer"
   },
   {
    "id": "FONT_7:203",
    "jp": "ふたんなごくそつ",
-   "en": ""
+   "en": "Putana Jailer"
   },
   {
    "id": "FONT_7:204",
    "jp": "羅刹",
-   "en": ""
+   "en": "Rakshasa"
   },
   {
    "id": "FONT_7:205",
    "jp": "ましら",
-   "en": ""
+   "en": "Mashira"
   },
   {
    "id": "FONT_7:206",
    "jp": "ごず",
-   "en": ""
+   "en": "Gozu"
   },
   {
    "id": "FONT_7:207",
    "jp": "めず",
-   "en": ""
+   "en": "Mezu"
   },
   {
    "id": "FONT_7:208",
    "jp": "塩吹き鬼",
-   "en": ""
+   "en": "Salt Oni"
   },
   {
    "id": "FONT_7:209",
    "jp": "酒呑童子",
-   "en": ""
+   "en": "Shuten-doji"
   },
   {
    "id": "FONT_7:210",
    "jp": "阿修羅",
-   "en": ""
+   "en": "Ashura"
   },
   {
    "id": "FONT_7:211",
    "jp": "夜叉姫",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_7:212",
    "jp": "風神",
-   "en": ""
+   "en": "Fujin"
   },
   {
    "id": "FONT_7:213",
    "jp": "雷神",
-   "en": ""
+   "en": "Raijin"
   },
   {
    "id": "FONT_7:214",
    "jp": "えんま大王",
-   "en": ""
+   "en": "Great King Enma"
   },
   {
    "id": "FONT_7:215",
    "jp": "ユキだるま",
-   "en": ""
+   "en": "Snowman"
   },
   {
    "id": "FONT_7:216",
    "jp": "きんたん仙人",
-   "en": ""
+   "en": "Kintan Hermit"
   },
   {
    "id": "FONT_7:217",
    "jp": "いなずま仙人",
-   "en": ""
+   "en": "Lightning Hermit"
   },
   {
    "id": "FONT_7:218",
    "jp": "ろっかく仙人",
-   "en": ""
+   "en": "Smash Hermit"
   },
   {
    "id": "FONT_7:219",
    "jp": "ふういん仙人",
-   "en": ""
+   "en": "Seal Hermit"
   },
   {
    "id": "FONT_7:220",
    "jp": "はやて仙人",
-   "en": ""
+   "en": "Haste Hermit"
   },
   {
    "id": "FONT_7:221",
    "jp": "わざよせ仙人",
-   "en": ""
+   "en": "SP Drain Hermit"
   },
   {
    "id": "FONT_7:222",
    "jp": "ふにゃら仙人",
-   "en": ""
+   "en": "Soften Hermit"
   },
   {
    "id": "FONT_7:223",
    "jp": "ばいりき仙人",
-   "en": ""
+   "en": "Power Hermit"
   },
   {
    "id": "FONT_7:224",
    "jp": "ムチ鬼",
-   "en": ""
+   "en": "Whip Oni"
   },
   {
    "id": "FONT_7:225",
    "jp": "砂びろーん",
-   "en": ""
+   "en": "Sand Stretchy"
   },
   {
    "id": "FONT_7:226",
    "jp": "紅びろーん",
-   "en": ""
+   "en": "Crimson Stretchy"
   },
   {
    "id": "FONT_7:227",
    "jp": "岩びろーん",
-   "en": ""
+   "en": "Rock Stretchy"
   },
   {
    "id": "FONT_7:228",
    "jp": "仙人掌",
-   "en": ""
+   "en": "Cactus"
   },
   {
    "id": "FONT_7:229",
    "jp": "鬼面掌",
-   "en": ""
+   "en": "Oni-Face Cactus"
   },
   {
    "id": "FONT_7:230",
    "jp": "三面掌",
-   "en": ""
+   "en": "Three-Face Cactus"
   },
   {
    "id": "FONT_7:231",
    "jp": "蟻地獄",
-   "en": ""
+   "en": "Antlion"
   },
   {
    "id": "FONT_7:232",
    "jp": "毒牙地獄",
-   "en": ""
+   "en": "Venomfang Antlion"
   },
   {
    "id": "FONT_7:233",
    "jp": "地獄ノコギリ",
-   "en": ""
+   "en": "Hell Saw"
   },
   {
    "id": "FONT_7:234",
    "jp": "鬼面魚",
-   "en": ""
+   "en": "Oni-Face Fish"
   },
   {
    "id": "FONT_7:235",
    "jp": "一角鬼面魚",
-   "en": ""
+   "en": "Horned Oni-Face Fish"
   },
   {
    "id": "FONT_7:236",
    "jp": "醜面魚",
-   "en": ""
+   "en": "Ugly-Face Fish"
   },
   {
    "id": "FONT_7:237",
    "jp": "ぬれ女",
-   "en": ""
+   "en": "Nure-Onna"
   },
   {
    "id": "FONT_7:238",
    "jp": "いそ女",
-   "en": ""
+   "en": "Iso-Onna"
   },
   {
    "id": "FONT_7:239",
    "jp": "人魚",
-   "en": ""
+   "en": "Mermaid"
   },
   {
    "id": "FONT_7:240",
    "jp": "海牛",
-   "en": ""
+   "en": "Sea Bull"
   },
   {
    "id": "FONT_7:241",
    "jp": "雷牛",
-   "en": ""
+   "en": "Thunder Bull"
   },
   {
    "id": "FONT_7:242",
    "jp": "火牛",
-   "en": ""
+   "en": "Fire Bull"
   },
   {
    "id": "FONT_7:243",
    "jp": "餓鬼",
-   "en": ""
+   "en": "Hungry Ghost"
   },
   {
    "id": "FONT_7:244",
    "jp": "追っかけの鬼",
-   "en": ""
+   "en": "Groupie Oni"
   },
   {
    "id": "FONT_7:245",
    "jp": "えんおうば",
-   "en": ""
+   "en": "Enoba"
   },
   {
    "id": "FONT_7:246",
    "jp": "お好みや鬼",
-   "en": ""
+   "en": "Okonomiyaki Oni"
   },
   {
    "id": "FONT_7:247",
    "jp": "タコや鬼",
-   "en": ""
+   "en": "Takoyaki Oni"
   },
   {
    "id": "FONT_7:248",
    "jp": "へんぷく",
-   "en": ""
+   "en": "Flittermouse"
   },
   {
    "id": "FONT_7:249",
    "jp": "血吸いてんそ",
-   "en": ""
+   "en": "Vampire Flitter"
   },
   {
    "id": "FONT_7:250",
    "jp": "オオカワホリ",
-   "en": ""
+   "en": "Giant Flittermouse"
   },
   {
    "id": "FONT_7:251",
    "jp": "両鉄",
-   "en": ""
+   "en": "Ryotetsu"
   },
   {
    "id": "FONT_7:252",
    "jp": "竜燈鬼",
-   "en": ""
+   "en": "Ryutoki"
   },
   {
    "id": "FONT_7:253",
    "jp": "醜女",
-   "en": ""
+   "en": "Shikome"
   },
   {
    "id": "FONT_7:254",
    "jp": "代替鬼",
-   "en": ""
+   "en": "Stand-In Oni"
   },
   {
    "id": "FONT_7:255",
-   "jp": "山娃",
-   "en": ""
+   "jp": "山姥",
+   "en": "Yamanba"
   },
   {
    "id": "FONT_7:256",
    "jp": "水鬼",
-   "en": ""
+   "en": "Water Oni"
   },
   {
    "id": "FONT_7:257",
    "jp": "羅生門の鬼",
-   "en": ""
+   "en": "Rashomon Oni"
   },
   {
    "id": "FONT_7:258",
    "jp": "左魂鬼",
-   "en": ""
+   "en": "Left Soul Oni"
   },
   {
    "id": "FONT_7:259",
    "jp": "右魂鬼",
-   "en": ""
+   "en": "Right Soul Oni"
   },
   {
    "id": "FONT_7:260",
    "jp": "せんきん仙人",
-   "en": ""
+   "en": "Kintan Plus Hermit"
   },
   {
    "id": "FONT_7:261",
    "jp": "まんきん仙人",
-   "en": ""
+   "en": "Kintan Max Hermit"
   },
   {
    "id": "FONT_7:262",
    "jp": "やしゃひめ2",
-   "en": ""
+   "en": "Yashahime 2"
   },
   {
    "id": "FONT_7:263",
    "jp": "てんの仙人",
-   "en": ""
+   "en": "Heaven Hermit"
   },
   {
    "id": "FONT_7:264",
    "jp": "きねん仙人",
-   "en": ""
+   "en": "Memento Hermit"
   },
   {
    "id": "FONT_7:265",
    "jp": "ふゆう仙人",
-   "en": ""
+   "en": "Float Hermit"
   },
   {
    "id": "FONT_7:266",
    "jp": "まもり仙人",
-   "en": ""
+   "en": "Shield Hermit"
   },
   {
    "id": "FONT_7:267",
    "jp": "きゅうどう仙人",
-   "en": ""
+   "en": "Archery Hermit"
   },
   {
    "id": "FONT_7:268",
    "jp": "かち",
-   "en": ""
+   "en": "Win"
   },
   {
    "id": "FONT_7:269",
    "jp": "まけ",
-   "en": ""
+   "en": "Lose"
   },
   {
    "id": "FONT_7:270",
    "jp": "にげる",
-   "en": ""
+   "en": "Run"
   },
   {
    "id": "FONT_7:271",
    "jp": "ひえん",
-   "en": ""
+   "en": "Warp"
   }
  ]
 }
