@@ -223,7 +223,7 @@ def files(marker_build=False, qa=None, audit=None):
         raw[path] = pac.pack(items)
         assert marker_build or len(raw[path]) < PAC_LIMIT, (path, len(raw[path]), 'bytes, PAC over the load buffer')
     assert marker_build or len(raw.get('0/03FONT/SHOP.MMB', b'')) <= SHOP_LIMIT, 'SHOP.MMB over its buffer'
-    raw[FONT] = engine.patch_font(base(FONT, None), buffer(FONT, engine.FONT_ENTRY))
+    raw[FONT] = engine.patch_font(base(FONT, None), lambda ent: buffer(FONT, ent))
     # Validate against the final compressed containers, not merely the work buffers.
     for loc, buf in audit.buffers.items():
         path, _, ent = loc.partition(':')

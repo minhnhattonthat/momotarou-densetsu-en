@@ -2,8 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 review findings closed (labels measured, JP-length fallback removed, widow wrap); phase 8 (QA in the
-  emulator) is next, 2026-10-30.
+- **Phase:** 8 (QA in the emulator) in progress, 2026-10-30. Tour gate green: 68 tour sheets (`tools/tour.py`, every
+  warp scene EN | JP), 6 visual-QA chunks reviewed by visual-qa agents, 5 issues fixed and rechecked
+  (`work/qa/verdicts/recheck_1.tsv`); `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exits 0. Old round
+  moved to `work/qa/v0/`. Left for the phase-8 done-when: graphics rows not yet seen in a cold-boot shot (list under
+  Next).
+- **This session (phase 8):** open bug fixed: status-summary time reads "Day 1 00:00:14" (engine.PATCH reorders the
+  time renderer's slots; engine.patch_day redraws the 日目 font cells as one 24 px "Day" sprite; FONT.PAC:2 now
+  audited too). New graphics (gfx_en): battle status words FONT.PAC:4 (Sick/Con-fused/Asleep/Para-lyzed/Poison/
+  Sealed; sprite records in FONT.PAC:8, docs/re/graphics.md), map-event compass 北 -> N (seen), Fuku-warai wallpaper
+  福笑い -> Fukuwarai (FUKU.PAC:3+5 as one 512 px canvas; seen), shrine offering box 賽銭 -> OFFERING (map 47; seen),
+  Mogura "Miss" rim strip, title menu spacing (seen). gfx_en.sprite: opts `ink` (solid fill), `ref`; redraw: `pad`.
+  Kept as props (owner may override): battle seal talismans 封 (BM000.PAC:12/16), circled 技 orb.
+  Check: 44 passed, lint 0 errors. Image `build/momotarou_en.bin` 143888304 bytes, SHA-1
+  `637f91ac262a7cb41f99963ba12ed9239045a493`; smoke ok (`work/qa/m8_smoke3`).
 - **Label widths done (this session):** all 64 remaining FONT labels mapped (docs/re/windows.md §Window
   descriptors, §Unused labels): measured in-game where reachable (Use/Drop, Yes/No, companion Skills/Part and skill
   list, Town Warp list, elevator floors, Unequip, equip +/=, directions via {str}); bank, clinic, Play/Info/Exit and
@@ -79,7 +91,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   components reach outside it and are kept). Built: `tools/cards.py templates` (families keyed by the bottom
   border colour: cream 38 cards, cyan 25, pink 177; greys outvoted -> clean backgrounds, few specks; ~57 cards with
   their own art get no template -> use plates).
-- **Next:** phase 8. Resume graphics text
+- **Next (phase 8 done-when):** see each remaining graphics row English in a zoomed cold-boot shot, adding scenes to
+  tools/debug/scenes.lua where needed: battle status words (needs a battle with a status: find the status byte),
+  Congrats banner (HMAP26 maps 306-314), roof INN + wood plate row + SMAP16 plates (town maps), END01 "The End",
+  DARUMA.PAC:6 banner, DMAP03 鬼 plate (not placed yet), AMAP.PAC:9-11 map flag (unread: see the map in ev_amap later
+  frames), 77 REVIEW cards, English battle command grid. Then add those scenes to the tour (warp --all, tour.py,
+  qa_gate init/todo, visual-qa agents). Visual-QA notes worth a look: text still typing in many shots (tune scene
+  `hold` so boxes are complete), "Head West" capital W (enon_world).
+- **Older next notes:** phase 8. Resume graphics text
   (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
@@ -153,10 +172,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   0x8004540C a0 with --debugger); no story-flag array yet (events/NPCs that depend on progress); party is the
   New Game party (1 member, no items: `MONEY=` var exists, inventory RAM unknown); shops/NPCs found only for town 2.
   GOD uses the GameShark HP addresses (not checked per member). CR_PG01-99 not loaded by the ending (card pages?).
-- **Open bugs:** status-summary time has hardcoded Japanese `日目` (not extracted text). Repro: cold-boot
-  `status_summary`; proof `work/qa/warp_review7_fixed/status_summary/scene.png`, state
-  `work/states/review7_fixed_status_summary.sstate`. EXE time renderer draws two direct FONT sprites at
-  0x8003EE80/0x8003EED8 (UV 0x60,0xA8 and 0xA8,0xE4 on texture page 0x1D); array sentinels -2/-3 select them.
-  Fix the primitive renderer or use dedicated English atlas cells without changing shared Japanese day/eye glyphs.
-- **Waiting on the user:** (non-blocking) PCSX-Redux GUI keyboard input not checked by hand (no interactive session
+- **Open bugs:** none known (status-summary 日目 fixed this session: "Day 1 00:00:14").
+- **Waiting on the user:** (non-blocking) battle seal talismans 封 and the circled 技 orb kept Japanese as props
+  (defaults under D5/D6; say if they should be lettered). (non-blocking) PCSX-Redux GUI keyboard input not checked by hand (no interactive session
   in one-shot runs); scripted input verified.

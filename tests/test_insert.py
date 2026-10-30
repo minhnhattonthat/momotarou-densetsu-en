@@ -70,6 +70,14 @@ def allowed():
     bpp, w, _, _ = gfx.indices(gfx.entry(gfx_en.CONGRATS[0]))   # celebration banner frames
     out['0/' + gfx_en.CONGRATS[0]] = [(20 + (y * w + x0) * bpp // 8, 20 + ((y * w + x1) * bpp + 7) // 8)
                                       for x0, y0, x1, y1 in gfx_en.CONGRATS[-1] for y in range(y0, y1)]
+    loc, (x0, y0, x1, y1), *_ = gfx_en.COMPASS           # map-event compass N (8bpp)
+    _, w, _, _ = gfx.indices(gfx.entry(loc))
+    out['0/' + loc] = [(20 + y * w + x0, 20 + y * w + x1) for y in range(y0, y1)]
+    loc, (x0, y0, x1, y1), *_ = gfx_en.OFFERING          # shrine offering box (4bpp)
+    _, w, _, _ = gfx.indices(gfx.entry(loc))
+    out['0/' + loc] = [(20 + (y * w + x0) // 2, 20 + (y * w + x1) // 2) for y in range(y0, y1)]
+    for loc in gfx_en.FUKU_WALL:                     # Fuku-warai wallpaper: pixel data only (8bpp 256x256)
+        out['0/' + loc] = [(20, 20 + 256 * 256)]
     for loc, (_, rects) in gfx_en.plates().items():     # shop-sign plates (4bpp tilesets)
         _, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) // 2, 20 + (y * w + x1) // 2) for x0, y0, x1, y1 in rects
@@ -110,6 +118,11 @@ def test_only_text_and_engine_bytes_change(built):
             if path == insert.FONT and i == engine.FONT_ENTRY:
                 stride = struct.unpack_from('<H', a, 16)[0] * 2
                 bad += [(loc, hex(o)) for o in changed(a, b) if not font_cell_ok(o, stride)]
+            elif path == insert.FONT and i == engine.DAY_ENTRY:   # only the two "Day" cells
+                stride, c = struct.unpack_from('<H', a, 16)[0] * 2, engine.DAY_CELLS
+                bad += [(loc, hex(o)) for o in changed(a, b)
+                        if not (c // 21 * 12 <= (o - 20) // stride < c // 21 * 12 + 12
+                                and c % 21 * 12 <= (o - 20) % stride * 2 < c % 21 * 12 + 24)]
             elif loc not in ok:
                 bad.append((loc, 'changed but holds no text'))
             elif ok[loc] is not None:

@@ -100,7 +100,12 @@ def test_font_cells_were_blank_and_now_hold_glyphs():
     old = font.pages()[3]
     new = font.pages_from(engine.patch_font(font.FONT_PAC.read_bytes()))
     pages = font.pages()
-    assert all((a == b).all() for a, b in zip(pages[:2], new[:2]))
+    assert (pages[1] == new[1]).all()
+    # sheet 0 plane 0: only 日目 (cells 302-303) -> the "Day" sprite
+    ys, xs = (pages[0] != new[0]).nonzero()
+    c = engine.DAY_CELLS
+    assert len(ys) and set(ys) <= set(range(c // 21 * 12, c // 21 * 12 + 12))
+    assert set(xs) <= set(range(c % 21 * 12, c % 21 * 12 + 24))
     # sheet 1 plane 0: only the 8x8 HUD label cells (体 技 段 -> HP SP Lv) are redrawn
     diff = pages[2] != new[2]
     ys, xs = diff.nonzero()

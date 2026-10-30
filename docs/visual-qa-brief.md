@@ -35,7 +35,9 @@ Standing non-bugs, `ok`:
 - card stat labels abbreviated HP / Atk / Def / Spd (decision D9); sign plates in small pixel capitals (INN, TEA,
   DOC, ARMOR, SHOES, ARMS, BANK, SMITH, GROCER, SHOP, SEER);
 - crests and pictures without writing (the purple banners' crest, the 酒 on Shuten-doji's gourd is a picture
-  detail: flag it only if you are sure it is a readable word in the scene).
+  detail: flag it only if you are sure it is a readable word in the scene);
+- props kept by decision: the 封 on the battle seal talismans (ofuda) and the circled 技 orb;
+- the status-summary time reads "Day 1 00:00:14" (smaller "Day" beside the bold digits is intended).
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:

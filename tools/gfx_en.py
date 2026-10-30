@@ -12,6 +12,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 import cards
@@ -77,13 +78,24 @@ BATH_WORDS = [((0, 5, 76, 80), 'Hot', 30), ((82, 5, 144, 80), 'Bath', 24), ((168
 # celebration banner おめでとう in HMAP26.PAC:3: image, word, font px, ink, glyph indices, unrolling frames (x0 y0 x1 y1)
 CONGRATS = ('07HMAP/HMAP26.PAC:3', 'Congrats!', 9, 15, (7, 8, 15),
             [(72, 132, 88, 144), (88, 132, 104, 156), (105, 132, 121, 180), (88, 172, 104, 196)])
+# map-event compass 北 (AMAP.PAC:2, magenta fill 57, outline 63) -> N: image, rect cleared, top-left of the 7x7 fill
+COMPASS = ('04HEX/AMAP.PAC:2', (19, 16, 30, 25), (21, 17), 57, 63,
+           ['##...##', '###..##', '####.##', '##.####', '##..###', '##...##', '##...##'])
+# shrine offering box 賽銭 (map 47): image, rect of the glyphs (on a 2-px dither), word in PIXEL_FONT, ink, x of a clean
+# dither pair left of the rect
+OFFERING = ('07HMAP/HMAP00.PAC:0', (216, 23, 248, 30), 'OFFERING', 5, 210)
+# Fuku-warai wallpaper: 福笑い slanted in pink (fill 26, shadow 40) on yellow (12) between peaches (indices >= 48)
+FUKU_WALL, FUKU_TEXT, FUKU_SIZE, FUKU_BG, FUKU_FILL, FUKU_SHADOW = (
+    ['30EV/FUKU.PAC:3', '30EV/FUKU.PAC:5'], 'Fukuwarai', 19, 12, 26, 40)
+FUKU_ANGLE = 40                                 # the JP words' slant (a whole word's principal axis: 41 deg)
 DARUMA_INK =(96, 97, 99, 100, 103, 105, 108, 110, 113, 115, 116, 117)     # DARUMA.PAC:6 brush greys
 VERT = {'rotate': True, 'ink': 15}# album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
-        # left edges = the JP words' (the cursor peach sits just left of them)
-        ((51, 10, 122, 28), 'New Game', range(47, 32, -1), 14, {'align': 'left'}),
-        ((128, 10, 214, 28), 'Continue', range(47, 32, -1), 14, {'align': 'left'}),
+        # left edges 2 px right of the JP words' (the cursor peach sits just left of them, at the JP edge); the gap
+        # between the two items widened so they read as two options
+        ((51, 10, 122, 28), 'New Game', range(47, 32, -1), 13, {'align': 'left', 'pad': 2}),
+        ((128, 10, 214, 28), 'Continue', range(47, 32, -1), 13, {'align': 'left', 'pad': 6}),
     ]),
     # きろく うつす けす やめる strip; きろく やめる and つづき やめる buttons
     'mecd_menu': ('13BTL/MECD.PAC:3', ('13BTL/MECD.PAC:5', 0), [
@@ -105,7 +117,7 @@ IMAGES = {
         ((40, 176, 144, 198), 'Start!', 'sprite', 22, {}),
         ((40, 198, 222, 222), 'Game Over', 'sprite', 22, {}),
         ((40, 222, 160, 248), "Time's Up!", 'sprite', 18, {}),
-        ((184, 1, 232, 22), 'Miss', 'sprite', 14, {}),          # 失敗; the x after it stays
+        ((184, 1, 234, 22), 'Miss', 'sprite', 14, {}),          # 失敗 (its rim reaches x 233); the x after it stays
         ((184, 22, 242, 40), 'Best', 'sprite', 13, {}),
         ((184, 40, 228, 64), 'Time', 'sprite', 16, {}),
         ((144, 78, 178, 98), 'Score', 'sprite', 10, {}),
@@ -152,6 +164,12 @@ IMAGES = {
         ((58, 150, 160, 190), 'Daruma', 'sprite', 22, {'erase': DARUMA_INK, 'grow': 2}),
         ((0, 200, 100, 236), 'Drop!', 'sprite', 24, {'erase': DARUMA_INK, 'grow': 2}),
     ]),
+    # battle status ailments 病気 混乱 眠り / マヒ どく 封印: one 40x32 sprite each (FONT.PAC:8 sprite records, u 0/40,
+    # v 40/72/104, own CLUT per word), the two kanji set diagonally; English in one or two centred lines
+    'status_words': ('03FONT/FONT.PAC:4', ('03FONT/FONT.PAC:0', 0), [
+        ((x, y, x + 40, y + 32), word, 'sprite', 11, {'ink': 6, **({'ref': 'H\nH'} if '\n' in word else {})})
+        for x, col in ((0, ('Sick', 'Con-\nfused', 'Asleep')), (40, ('Para-\nlyzed', 'Poison', 'Sealed')))
+        for y, word in zip((40, 72, 104), col)]),
     # bathhouse curtains 男湯 / 女湯
     'bath_signs': ('07HMAP3/HMAP8200.PAC:3', ('07HMAP3/HMAP8200.PAC:4', 0), [
         ((8, 3, 56, 25), 'Men', 'sprite', 14, {'erase': (10, 11, 12, 13)}),
@@ -163,7 +181,7 @@ IMAGES = {
 }
 
 
-def coverage(text, size, w, h, align='center', font=ROUND, ref='H'):
+def coverage(text, size, w, h, align='center', font=ROUND, ref='H', pad=0):
     """L image w x h with text centred vertically (align: left or center), 0 = background, 255 = ink.
     ref: the sample centred ('Hg' leaves room for descenders in a tight box)."""
     f = ImageFont.truetype(str(font), size)
@@ -174,8 +192,8 @@ def coverage(text, size, w, h, align='center', font=ROUND, ref='H'):
     x0, y0, x1, y1 = d.textbbox((0, 0), text, font=f)
     _, top, _, base = d.textbbox((0, 0), ref, font=f)        # same sample for every word: one baseline
     y = (h - (base - top)) // 2 - top
-    assert x1 - x0 <= w and y + y0 >= 0 and y + y1 <= h, (text, x1 - x0, y1 - y0, 'does not fit', w, h)
-    d.text(((w - (x1 - x0)) // 2 * (align == 'center') - x0, y), text, font=f, fill=255)
+    assert x1 - x0 + pad <= w and y + y0 >= 0 and y + y1 <= h, (text, x1 - x0, y1 - y0, 'does not fit', w, h)
+    d.text(((w - (x1 - x0)) // 2 * (align == 'center') - x0 + pad, y), text, font=f, fill=255)   # pad: left indent
     return im
 
 
@@ -205,7 +223,9 @@ def sprite(px, new, w, rect, text, size, opt):
         cov = coverage(text, size, y1 - y0 - 2 * e, x1 - x0 - 2 * e, opt.get('align', 'center'))
         cov = cov.rotate(-90, expand=True)
     else:
-        cov = coverage(text, size, x1 - x0 - 2 * e, y1 - y0 - 2 * e, opt.get('align', 'center'))
+        if 'ink' in opt:                        # one solid fill index (the JP rows' fills alternate with the rim)
+            fill = dict.fromkeys(range(y0, y1), opt['ink'])
+        cov = coverage(text, size, x1 - x0 - 2 * e, y1 - y0 - 2 * e, opt.get('align', 'center'), ref=opt.get('ref', 'H'))
     cov = cov.point(lambda v: 255 * (v > 110)).load()
     hw, hh = x1 - x0 - 2 * e, y1 - y0 - 2 * e
     ink = lambda x, y: 0 <= x < hw and 0 <= y < hh and cov[x, y]  # noqa: E731
@@ -237,7 +257,7 @@ def redraw(name):
         if ramp == 'sprite':
             sprite(px, new, w, (x0, y0, x1, y1), text, size, opt)
             continue
-        cov = coverage(text, size, x1 - x0, y1 - y0, opt.get('align', 'center')).load()
+        cov = coverage(text, size, x1 - x0, y1 - y0, opt.get('align', 'center'), pad=opt.get('pad', 0)).load()
         for y in range(y0, y1):
             if isinstance(ramp, int):       # textured background: each row takes the commonest index beside the rect
                 side = [*range(max(0, x0 - 6), x0), *range(x1, min(w, x1 + 6))]
@@ -422,7 +442,105 @@ def entries():
     for loc in BATH_LOCS:
         put(loc, gfx.repack(gfx.entry(loc), new))
     put(CONGRATS[0], gfx.repack(gfx.entry(CONGRATS[0]), banner()))
+    put(COMPASS[0], gfx.repack(gfx.entry(COMPASS[0]), compass()))
+    put(OFFERING[0], gfx.repack(gfx.entry(OFFERING[0]), offering()))
+    for loc, new in fuku().items():
+        put(loc, gfx.repack(gfx.entry(loc), new))
     return out
+
+
+def fuku():
+    """Fuku-warai wallpaper: the FUKU_WALL images side by side (one 512 px canvas, as on screen, so a word across the
+    seam stays one word). Every 福笑い (pink components touching no peach colour) -> background; 'Fukuwarai' at
+    FUKU_ANGLE on each word's bbox centre, written only on bare background (peaches stay on top), clipped at edges."""
+    ims = [gfx.indices(gfx.entry(loc)) for loc in FUKU_WALL]
+    h, w = ims[0][2], sum(im[1] for im in ims)
+    px = bytearray(w * h)
+    for n, (_, iw, _, p) in enumerate(ims):
+        for y in range(h):
+            px[y * w + n * iw:y * w + (n + 1) * iw] = p[y * iw:(y + 1) * iw]
+    new = bytearray(px)
+    pink = lambda v: v < 48 and v not in (0, FUKU_BG) and not 4 <= v <= 11   # noqa: E731
+    seen, comps = set(), []
+    for i, v in enumerate(px):
+        if not pink(v) or i in seen:
+            continue
+        stack, comp = [i], []
+        seen.add(i)
+        while stack:
+            j = stack.pop()
+            comp.append(j)
+            for dy in (-1, 0, 1):
+                for dx in (-1, 0, 1):
+                    y, x = j // w + dy, j % w + dx
+                    k = y * w + x
+                    if 0 <= x < w and 0 <= y < h and k not in seen and pink(px[k]):
+                        seen.add(k)
+                        stack.append(k)
+        if any(px[j] in (FUKU_FILL, FUKU_SHADOW) for j in comp):   # lettering; a peach's rim has neither pink
+            # keep the rim pixels where a word touches a peach (colours 48-97; 98+ = the card frame)
+            comps.append([j for j in comp if not any(48 <= px[k] < 98 for k in (
+                j + dy * w + dx for dy in (-1, 0, 1) for dx in (-1, 0, 1)) if 0 <= k < len(px))])
+    words = []                                  # glyph components -> words: bboxes within 5 px of each other
+    for comp in filter(None, comps):
+        xs, ys = [j % w for j in comp], [j // w for j in comp]
+        box = [min(xs) - 5, min(ys) - 5, max(xs) + 5, max(ys) + 5, comp]
+        for word in [wd for wd in words if wd[0] <= box[2] and box[0] <= wd[2] and wd[1] <= box[3] and box[1] <= wd[3]]:
+            words.remove(word)
+            box = [min(box[0], word[0]), min(box[1], word[1]), max(box[2], word[2]), max(box[3], word[3]),
+                   box[4] + word[4]]
+        words.append(box)
+    for *_, comp in words:
+        for j in comp:
+            new[j] = FUKU_BG
+    f = ImageFont.truetype(str(ROUND), FUKU_SIZE)
+    im = Image.new('L', (160, 60))
+    ImageDraw.Draw(im).text((80, 30), FUKU_TEXT, font=f, fill=255, anchor='mm')
+    im = im.rotate(FUKU_ANGLE, resample=Image.BICUBIC, expand=True)
+    cov = im.load()
+    for x0, y0, x1, y1, comp in words:
+        if len(comp) < 60:                      # a speck left by the edge
+            continue
+        ox, oy = (x0 + x1 - im.width) // 2, (y0 + y1 - im.height) // 2
+        ink = {(ox + x, oy + y) for y in range(im.height) for x in range(im.width) if cov[x, y] > 110}
+        shadow = {(x + d, y + d) for x, y in ink for d in (1, 2)} - ink       # the JP drop shadow: 2 px down-right
+        for (x, y), v in [(p, FUKU_SHADOW) for p in shadow] + [(p, FUKU_FILL) for p in ink]:
+            if 0 <= x < w and 0 <= y < h and new[y * w + x] in (FUKU_BG, FUKU_SHADOW):
+                new[y * w + x] = v
+    out, left = {}, 0
+    for loc, (_, iw, _, _) in zip(FUKU_WALL, ims):
+        out[loc] = bytearray(b for y in range(h) for b in new[y * w + left:y * w + left + iw])
+        left += iw
+    return out
+
+
+def offering():
+    loc, (x0, y0, x1, y1), word, ink_i, ref = OFFERING
+    _, w, h, px = gfx.indices(gfx.entry(loc))
+    new = bytearray(px)
+    for y in range(y0, y1):                     # the row's dither, continued from the clean pair at ref
+        for x in range(x0, x1):
+            new[y * w + x] = px[y * w + ref + (x - ref) % 2]
+    x = x0 + (x1 - x0 - (4 * len(word) - 1)) // 2
+    for ch in word:
+        for r, bits in enumerate(PIXEL_FONT[ch]):
+            for c in range(3):
+                if bits[c] == '#':
+                    new[(y0 + 1 + r) * w + x + c] = ink_i
+        x += 4
+    return new
+
+
+def compass():
+    loc, (x0, y0, x1, y1), (lx, ly), fill, edge, rows = COMPASS
+    _, w, h, px = gfx.indices(gfx.entry(loc))
+    new = bytearray(px)
+    ink = {(lx + x, ly + y) for y, r in enumerate(rows) for x, c in enumerate(r) if c == '#'}
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            near = any((x + dx, y + dy) in ink for dx in (-1, 0, 1) for dy in (-1, 0, 1))
+            new[y * w + x] = fill if (x, y) in ink else edge if near else 0
+    return new
 
 
 def preview(name, zoom=3):

@@ -77,7 +77,29 @@ PATCH = [                        # (address, original, replacement)
 ] + [
     # name entry 0x800DC3D0: cursor starts at column 0 (top-left 'A' of the English page), not 14 (あ, top-right)
     (0x800DC5FC, 'addiu $a0, $zero, 0xe', 'addiu $a0, $zero, 0'),
+] + [
+    # status-summary time (12 slots drawn right to left): "1日目00:00:14" -> "Day 1 00:00:14". The day digits move
+    # into the slots after the hours, slot -3 draws nothing and only leaves a 6 px gap, slot -2 goes last and draws
+    # one 24 px sprite (same right edge) over the 日目 font cells, redrawn as "Day" (DAY_CELLS).
+    (0x8003EDB4, 'sh $v0, 0x22($sp)', 'sh $v0, 0x26($sp)'),
+    (0x8003EDE0, 'sh $a0, 0x24($sp)', 'sh $a0, 0x22($sp)'),
+    (0x8003EDE4, 'sh $v1, 0x26($sp)', 'sh $v1, 0x24($sp)'),
+    (0x8003EE18, 'addiu $v0, $zero, 0xb', 'addiu $v0, $zero, 0xa'),     # zero-suppressed slot = the tens digit
+    (0x8003EE2C, 'addiu $v0, $zero, 0xb', 'addiu $v0, $zero, 0xa'),
+    (0x8003EF38, 'lh $v0, 0x26($sp)', 'lh $v0, 0x24($sp)'),
+    (0x8003EE9C, 'addiu $v1, $v1, -0xa4', 'addiu $v1, $v1, -0xb0'),
+    (0x8003EEA4, 'sh $s3, 8($a2)', 'addiu $v1, $zero, 0x18'),
+    (0x8003EEBC, 'lw $v1, 0x3c8($gp)', 'sh $v1, 8($a2)'),
+    (0x8003EEC4, 'sb $v0, 0xf($v1)', 'sb $v0, 0xf($a2)'),
+    (0x8003EED8, 'move $a0, $s5', 'lhu $v0, 0x3e4($gp)'),
+    (0x8003EEDC, 'move $a1, $s4', 'nop'),
+    (0x8003EEE0, 'lhu $v1, 0x3e4($gp)', 'addiu $v0, $v0, -6'),
+    (0x8003EEE4, 'lw $a2, 0x3c8($gp)', 'j 0x8003efb8'),               # past the draw and its x -= 8
+    (0x8003EEE8, 'addiu $v0, $v1, -4', 'sh $v0, 0x3e4($gp)'),
 ]
+# Sheet 0 plane 0 cells 302-303 (日 目, UV 0x60,0xA8): no English text draws Japanese glyphs (lint), so the pair
+# becomes the 24 px "Day" sprite of the status-summary time.
+DAY_CELLS, DAY_ENTRY, DAY_PLANE, DAY_TEXT = 302, 2, 0, 'Day'
 # Map-overlay layout patches (decompressed PAC entry, offset, original, replacement). Window descriptors start with
 # u16 width, height in 8 px tiles (docs/re/windows.md §Window descriptors).
 OVERLAY_PATCH = [
@@ -225,12 +247,38 @@ def digraphs():
             if chr(c) not in '{[' and chr(a) + chr(c) != '\\s'}
 
 
-def patch_font(font_pac, audit=None):
-    """FONT.PAC with the English glyphs drawn into sheet 1 plane 1 cells 0xA0.. (other planes untouched)."""
+def patch_day(t, audit):
+    """DAY_TEXT over the two cells DAY_CELLS.. of a decompressed sheet (FONT.PAC entry DAY_ENTRY), plane DAY_PLANE."""
+    stride = struct.unpack_from('<H', t, 16)[0] * 2
+    g, w = glyphs(), widths()
+    ink, x0 = set(), 0
+    for ch in DAY_TEXT:
+        ink |= {(x0 + x, TOP + y) for y, r in enumerate(g[ch]) for x, c in enumerate(r) if c == '#'}
+        x0 += w[ord(ch) - FIRST]
+    assert x0 <= 24
+    cx, cy = DAY_CELLS % 21 * 12, DAY_CELLS // 21 * 12
+    for y in range(12):
+        for x in range(24):
+            o = 20 + (cy + y) * stride + (cx + x) // 2
+            bit = 1 << (DAY_PLANE + 4 * ((cx + x) & 1))
+            t[o] = t[o] | bit if (x, y) in ink else t[o] & ~bit
+        start = 20 + (cy + y) * stride + cx // 2
+        audit.put(start, t[start:start + 12], f'font:day:row{y}')
+
+
+def patch_font(font_pac, buffer=None):
+    """FONT.PAC with the English glyphs drawn into sheet 1 plane 1 cells 0xA0.. (other planes untouched), and the
+    "Day" sprite in sheet 0. buffer(entry) -> write-audit Buffer of that decompressed entry (default: fresh ones)."""
     items = pac.unpack(font_pac)
+    typ, blob, extra = items[DAY_ENTRY]
+    t = bytearray(lzss.decompress(blob)[0])
+    audit = buffer(DAY_ENTRY) if buffer else Buffer(t, f'0/03FONT/FONT.PAC:{DAY_ENTRY}')
+    patch_day(t, audit)
+    audit.verify(t)
+    items[DAY_ENTRY] = (typ, lzss.compress(bytes(t)) if typ & 0x10000 else bytes(t), extra)
     typ, blob, extra = items[FONT_ENTRY]
     t = bytearray(lzss.decompress(blob)[0])
-    audit = audit if audit is not None else Buffer(t, f'0/03FONT/FONT.PAC:{FONT_ENTRY}')
+    audit = buffer(FONT_ENTRY) if buffer else Buffer(t, f'0/03FONT/FONT.PAC:{FONT_ENTRY}')
     w16, h = struct.unpack_from('<HH', t, 16)
     stride = w16 * 2
     g = glyphs()
