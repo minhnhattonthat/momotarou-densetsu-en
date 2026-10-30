@@ -80,14 +80,14 @@ STATS = (2, 2, 60, 62)          # 体力 攻撃 守備 速さ rows (monster fami
 STAT_EN = ['HP', 'Atk', 'Def', 'Spd']
 STAT_W = 30
 REVIEW = []                     # cards whose name was lettered over art (check them by eye)
-STAT_FAMILIES = {(224, 240, 240), (248, 216, 216)}      # cyan and pink backgrounds: monster stat labels
 
 
-def inpaint(img, rect):
-    """Replace the greys and dark pixels (glyph residue; the backgrounds are light) in rect by their neighbours."""
+def inpaint(img, rect, todo=None):
+    """Replace the greys and dark pixels (glyph residue; the backgrounds are light) in rect, or the pixels in todo,
+    by their neighbours, growing inwards."""
     x0, y0, x1, y1 = rect
-    todo = {(x, y) for y in range(y0, y1) for x in range(x0, x1)
-            if glyphish(img[y * W + x]) or sum(img[y * W + x]) < 360}
+    todo = set(todo) if todo is not None else {(x, y) for y in range(y0, y1) for x in range(x0, x1)
+                                               if glyphish(img[y * W + x]) or sum(img[y * W + x]) < 360}
     while todo:
         done = {}
         for x, y in todo:
@@ -152,10 +152,59 @@ def fit(text, w, h, sizes, rotate=False):
     raise AssertionError((text, 'does not fit', w, h))
 
 
+def lettering(rgb, rect):
+    """Pixels of the JP lettering in rect: grey-connected groups (black glyph, white outline) holding white."""
+    x0, y0, x1, y1 = rect
+    grey = {(x, y) for x in range(x0, x1) for y in range(y0, y1) if glyphish(rgb[y * W + x])}
+    seen, out = set(), set()
+    for p in sorted(grey):
+        if p in seen:
+            continue
+        comp, stack = [], [p]
+        seen.add(p)
+        while stack:
+            x, y = stack.pop()
+            comp.append((x, y))
+            for q in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                if q in grey and q not in seen:
+                    seen.add(q)
+                    stack.append(q)
+        if sum(min(rgb[y * W + x]) > 230 for x, y in comp) >= 3:
+            out.update(comp)
+    return out
+
+
+@functools.cache
+def label_mask():
+    """Where the stat labels' pixels are grey on a monster card (card 110)."""
+    pal, px = card(110)
+    x0, y0, x1, y1 = STATS
+    return frozenset((x, y) for y in range(y0, y1) for x in range(x0, x1) if glyphish(pal[px[y * W + x]]))
+
+
+def has_stats(rgb):
+    return sum(glyphish(rgb[y * W + x]) for x, y in label_mask()) > 0.85 * len(label_mask())
+
+
+def own_template(rgb):
+    """(background, rows of the JP name) of a card with its own art: JP lettering inpainted from its surroundings."""
+    t = list(rgb)
+    name = lettering(rgb, (COLUMN[0], COLUMN[1], COLUMN[2], COLUMN[3]))
+    inpaint(t, COLUMN, name)
+    if has_stats(rgb):
+        inpaint(t, STATS, lettering(rgb, STATS))
+    ys = sorted(y for _, y in name) or [COLUMN[1]]
+    # a 2-kanji name is shorter than its English: give at least 60 rows (lettering is outlined, art may show)
+    return t, list(range(ys[0], min(COLUMN[3], max(ys[-1] + 1, ys[0] + 60))))
+
+
 def redraw(n, tmpl, name):
-    """New pixel indices of card n (a template family card)."""
+    """New pixel indices of card n; tmpl: its family's background, or None (a card with its own art)."""
     pal, px = card(n)
     rgb = [pal[i] for i in px]
+    own = tmpl is None
+    if own:
+        tmpl, name_rows = own_template(rgb)
     t = tmpl
     out = list(rgb)
     # JP name: components of "differs from the template" pixels lying wholly inside the name column
@@ -185,30 +234,14 @@ def redraw(n, tmpl, name):
             art.update(comp)            # (strays and the left box's text touching the column are not art)
     # name glyphs touching art survive the pass above: they are black with a white outline, so erase each
     # grey-connected group in the column that holds white (art outlines border colours, not white)
-    grey = {(x, y) for x in range(COLUMN[0], COLUMN[2]) for y in range(COLUMN[1], COLUMN[3])
-            if (x, y) in diff and glyphish(out[y * W + x])}
-    seen = set()
-    for p in sorted(grey):
-        if p in seen:
-            continue
-        comp, stack = [], [p]
-        seen.add(p)
-        while stack:
-            x, y = stack.pop()
-            comp.append((x, y))
-            for q in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
-                if q in grey and q not in seen:
-                    seen.add(q)
-                    stack.append(q)
-        if sum(min(out[y * W + x]) > 230 for x, y in comp) >= 3:
-            for x, y in comp:
-                out[y * W + x] = t[y * W + x]
+    for x, y in lettering(out, COLUMN) & diff:
+        out[y * W + x] = t[y * W + x]
     white, black = (248, 248, 248), (8, 8, 8)
-    # name, rotated, from the top of the column down to the first art row
+    # name, rotated, in the longest art-free run of the column (own-art cards: where the JP name was)
     x0, y0, x1, y1 = COLUMN
     rows = [y for y in range(y0, y1) if not any((x, y) in art for x in range(x0, x1))]
-    span = max(gfx._runs(rows, 1) or [[]], key=len)  # longest run of rows with no art in the column
-    if len(span) < 40:                              # art fills the column: letter over it (outlined)
+    span = name_rows if own else max(gfx._runs(rows, 1) or [[]], key=len)
+    if len(span) < 40 and not own:                  # art fills the column: letter over it (outlined)
         REVIEW.append(n)
         span = list(range(y0, y1))
     try:
@@ -220,12 +253,13 @@ def redraw(n, tmpl, name):
     y0 = span[0]
     for (x, y), k in lt.items():
         out[(y0 + y) * W + x0 + x] = black if k == 'fill' else white
-    # stat labels (the cream family has flavour text there instead: todo)
+    # stat labels (cards without them have flavour text there instead: todo)
+    stats = has_stats(rgb)
     x0, y0, x1, y1 = STATS
-    for y in range(y0, y1 if key(pal, px) in STAT_FAMILIES else y0):
+    for y in range(y0, y1 if stats else y0):
         for x in range(x0, x1):
             out[y * W + x] = t[y * W + x]
-    for r, label in enumerate(STAT_EN if key(pal, px) in STAT_FAMILIES else []):
+    for r, label in enumerate(STAT_EN if stats else []):
         for (x, y), k in letters(label, 10, STAT_W, 15, align='left').items():
             out[(y0 + r * 15 + y) * W + x0 + x] = black if k == 'fill' else white
     # initial in the disc: greys -> disc colour, then the letter in white with a black outline
@@ -250,8 +284,7 @@ def entries():
     out = {}
     for n in range(1, 298):
         pal, px = card(n)
-        if key(pal, px) in tm:
-            out[loc(n)] = gfx.repack(gfx.entry(loc(n)), redraw(n, tm[key(pal, px)], nm[n - 1]))
+        out[loc(n)] = gfx.repack(gfx.entry(loc(n)), redraw(n, tm.get(key(pal, px)), nm[n - 1]))
     return out
 
 
@@ -261,11 +294,7 @@ def preview(ns):
     tiles = []
     for n in ns:
         pal, px = card(n)
-        k = key(pal, px)
-        if k not in tm:
-            print(n, 'no template')
-            continue
-        new = redraw(n, tm[k], nm[n - 1])
+        new = redraw(n, tm.get(key(pal, px)), nm[n - 1])
         a, b = Image.new('RGB', (W, H)), Image.new('RGB', (W, H))
         a.putdata([pal[i] for i in px])
         b.putdata([pal[i] for i in new])
