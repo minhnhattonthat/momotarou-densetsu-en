@@ -38,7 +38,7 @@
   {
    "id": "DMAP06_20:006",
    "jp": "「竜の首飾りと 仏のお鉢 以外の{n} 3つについて おしえるからな！」{n}{wait}",
-   "en": "\"I'll tell you about the 3 besides the Dragon Necklace and Buddha's Bowl!\"{wait}"
+   "en": "\"I'll tell you about the three besides the Dragon Necklace and Buddha's Bowl!\"{wait}"
   },
   {
    "id": "DMAP06_20:007",
@@ -73,12 +73,12 @@
   {
    "id": "DMAP06_20:013",
    "jp": "「鬼のつめあとには{n} なんでも 盗む カッパが{n} 出るから 気を つけな！」{wait}",
-   "en": "\"A Kappa that steals anything shows up in the Oni Claw Marks, so watch out!\"{wait}"
+   "en": "\"Kappa that steal anything show up in the Oni Claw Marks, so watch out!\"{wait}"
   },
   {
    "id": "DMAP06_20:014",
    "jp": "「カッパに なにか 盗まれたら{n} いつでも こいよ！{n} いいことを おしえてやるぜ！」{wait}",
-   "en": "\"If the Kappa steals something from you, come see me any time! I'll tell you something useful!\"{wait}"
+   "en": "\"If the Kappa steal something from you, come see me any time! I'll tell you something useful!\"{wait}"
   },
   {
    "id": "DMAP06_20:015",
@@ -88,7 +88,7 @@
   {
    "id": "DMAP06_20:016",
    "jp": "「安心しな！ カッパは{n} 盗んだものを かならず{n} 同じ 場所に 隠すのさ！」{wait}{n}「オレが{n} その 隠し場所を{n} 教えてやるよ！」{wait}",
-   "en": "\"Don't worry! The Kappa always hides what it steals in the same place!\"{wait}\"I'll tell you where that hiding place is!\"{wait}"
+   "en": "\"Don't worry! The Kappa always hide what they steal in the same place!\"{wait}\"I'll tell you where that hiding place is!\"{wait}"
   },
   {
    "id": "DMAP06_20:017",
@@ -103,7 +103,7 @@
   {
    "id": "DMAP06_20:019",
    "jp": "「カッパの 盗んだものの{n} 隠し場所を 知りたいんだろ？」{n}{wait}{n}「よーく 聞きなよ！{n} わざよせ仙人の 庵から{n} まっすぐ 南に 歩くんだ！」{wait}",
-   "en": "\"You want to know where the Kappa hides the stuff it steals, right?\"{wait}\"Listen up! From the SP Drain Hermit's hut, walk straight south!\"{wait}"
+   "en": "\"You want to know where the Kappa hide the stuff they steal, right?\"{wait}\"Listen up! From the SP Drain Hermit's hut, walk straight south!\"{wait}"
   },
   {
    "id": "DMAP06_20:020",

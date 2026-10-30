@@ -13,7 +13,7 @@
   {
    "id": "WMAP08_28:001",
    "jp": "「いだてんの術は{n} ×ボタンを 押しながら 歩くと」{n}{wait}{n}「とんでもなく{n} 早く 歩ける 術ぢゃ！」{n}{wait}{n}「この術を 覚えるのは{n} 桃太郎が ふさわしい！」{n}{wait}",
-   "en": "\"The Idaten art lets you walk while holding the X button\"{wait}\"at an outrageously fast pace!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}"
+   "en": "\"The Idaten art lets you walk while holding the Cross button\"{wait}\"at an outrageously fast pace!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}"
   },
   {
    "id": "WMAP08_28:002",

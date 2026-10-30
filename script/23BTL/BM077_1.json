@@ -133,7 +133,7 @@
   {
    "id": "BM077_1:025",
    "jp": "下がって しまった！{wait}",
-   "en": "Defense went down!{wait}"
+   "en": "Defense fell!{wait}"
   },
   {
    "id": "BM077_1:026",
@@ -223,7 +223,7 @@
   {
    "id": "BM077_1:043",
    "jp": "{str}{str}は{n}足を とられて{n}動けなく なった！{wait}",
-   "en": "{str}{str} got caught by the feet and can't move!{wait}"
+   "en": "{str}{str} got tripped up and can't move!{wait}"
   },
   {
    "id": "BM077_1:044",
@@ -533,7 +533,7 @@
   {
    "id": "BM077_1:105",
    "jp": "{str}{str}は{n}リンプンを{n}あびせかけて きた！{wait}",
-   "en": "{str}{str} showered everyone with wing dust!{wait}"
+   "en": "{str}{str} scattered a shower of wing dust!{wait}"
   },
   {
    "id": "BM077_1:106",
@@ -623,7 +623,7 @@
   {
    "id": "BM077_1:123",
    "jp": "「やめられない とまらない！」{wait}",
-   "en": "\"Bet you can't stop at just one!\"{wait}"
+   "en": "\"Betcha can't stop!\"{wait}"
   },
   {
    "id": "BM077_1:124",
@@ -728,52 +728,52 @@
   {
    "id": "BM077_1:144",
    "jp": "「ふふふふふふっ！{n} 少しも ききませんよ！{n} 桃太郎さん！」{wait}",
-   "en": "\"Heh heh heh! That doesn't hurt one bit, Momotaro-san!\"{wait}"
+   "en": "\"Fufufufufufu! That doesn't hurt one bit, Momotaro-san!\"{wait}"
   },
   {
    "id": "BM077_1:145",
    "jp": "「ふふふふふふっ！ 夜叉姫様！{n} この程度の 者たちに{n} 心変わり なされたか！？」{wait}",
-   "en": "\"Heh heh heh! Yashahime-sama! Have you had a change of heart over such feeble folk?!\"{wait}"
+   "en": "\"Fufufufufufu! Yashahime-sama! Have you had a change of heart over such feeble folk?!\"{wait}"
   },
   {
    "id": "BM077_1:146",
    "jp": "「ふふふふふふっ！ 夜叉姫様！{n} 昔より 弱くなって{n} しまわれたのでは？」{wait}",
-   "en": "\"Heh heh heh! Yashahime-sama! Haven't you grown weaker than you once were?\"{wait}"
+   "en": "\"Fufufufufufu! Yashahime-sama! Haven't you grown weaker than you once were?\"{wait}"
   },
   {
    "id": "BM077_1:147",
    "jp": "「ふふふふふふっ！ 夜叉姫様！{n} こんな かよわい 者と いて{n} なにが 楽しいのですか！？」{wait}",
-   "en": "\"Heh heh heh! Yashahime-sama! What fun is there in keeping company with such weaklings?!\"{wait}"
+   "en": "\"Fufufufufufu! Yashahime-sama! What fun is there in keeping company with such weaklings?!\"{wait}"
   },
   {
    "id": "BM077_1:148",
    "jp": "「ふふふふふふっ！ やりますね！」{n}{n}{wait}{n}「私の 攻撃を 耐えるとは！{n} ここまで 耐えた 人は{n} あなたたちが 初めてですよ！」{wait}",
-   "en": "\"Heh heh heh! Not bad!\"{wait}\"Withstanding my attacks! You're the first ever to hold out this long!\"{wait}"
+   "en": "\"Fufufufufufu! Not bad!\"{wait}\"Withstanding my attacks! You're the first ever to hold out this long!\"{wait}"
   },
   {
    "id": "BM077_1:149",
    "jp": "「ふふふふふふっ！ おしいですよ！」{n}{n}{wait}{n}「桃太郎さん！ これほどの {n} 力が あるなら なぜ{n} 人間を 支配しないのです！」{wait}",
-   "en": "\"Heh heh heh! What a shame!\"{wait}\"Momotaro-san! With power like this, why not rule over the humans?!\"{wait}"
+   "en": "\"Fufufufufufu! What a shame!\"{wait}\"Momotaro-san! With power like this, why not rule over the humans?!\"{wait}"
   },
   {
    "id": "BM077_1:150",
    "jp": "「ふふふふふふっ！ もったいない！」{n}{n}{wait}{n}「夜叉姫様！ この者たちを{n} 地獄に 連れていきたく{n} なりましたよ！ ふふふふふふっ！」{wait}",
-   "en": "\"Heh heh heh! What a waste!\"{wait}\"Yashahime-sama! Now I'd love to take these folks off to Hell! Heh heh heh!\"{wait}"
+   "en": "\"Fufufufufufu! What a waste!\"{wait}\"Yashahime-sama! Now I'd love to take these folks off to Hell! Fufufufufufu!\"{wait}"
   },
   {
    "id": "BM077_1:151",
    "jp": "「ふふふふふふっ！ 今ならまだ！」{n}{n}{wait}{n}「夜叉姫様！ わたしが {n} えんま様に ふふふふふふっ！{n} とりなして さしあげますよ！」{wait}",
-   "en": "\"Heh heh heh! It's not too late!\"{wait}\"Yashahime-sama! I'll put in a good word for you with Enma-sama! Heh heh heh!\"{wait}"
+   "en": "\"Fufufufufufu! It's not too late!\"{wait}\"Yashahime-sama! I'll put in a good word for you with Enma-sama! Fufufufufufu!\"{wait}"
   },
   {
    "id": "BM077_1:152",
    "jp": "「おおおおおおっ！ この 強さ！{n} これが うわさの 桃太郎たちの{n} 力なのですかっ！」{wait}{n}「うむむむむっ！ だが！ まだ！{n} 私は！ 私には！ {n} 勝てん！ 勝てませんぞ！」{wait}",
-   "en": "\"Ohhhhh! Such strength! So this is the famous power of Momotaro and friends!\"{wait}\"Grrr! But! Not yet! Me! You won't! You won't beat me!\"{wait}"
+   "en": "\"Ohhhhh! Such strength! So this is the famous power of Momotaro and friends!\"{wait}\"Grrr! But! Not yet! Me! Against me! You can't win! You cannot win!\"{wait}"
   },
   {
    "id": "BM077_1:153",
    "jp": "「おおおおおおっ！ ま まさか！{n} これが あの ちっぽけな{n} 人間の 力とは 思えん」{wait}{n}「しかし！ まだ！ 足りん！{n} この 阿修羅を 倒すには！{n} 力が！ 足りませぬぞ！」{wait}",
-   "en": "\"Ohhhhh! N-No way! I can't believe this is the power of puny humans!\"{wait}\"But! Still! Not enough! To defeat this Ashura! Your power! Falls short!\"{wait}"
+   "en": "\"Ohhhhh! N-no way! I can't believe this is the power of puny humans!\"{wait}\"But! Still! Not enough! To defeat this Ashura! Your power! Falls short!\"{wait}"
   },
   {
    "id": "BM077_1:154",
@@ -793,7 +793,7 @@
   {
    "id": "BM077_1:157",
    "jp": "「うむむむむむむむむむむむむっ！」{n}{n}{wait}{n}「この 阿修羅！」{n}{n}{wait}{n}「命を かけて！{n} ここで！ お前達を！」{n}{wait}{n}「倒す！」{n}{n}{wait}{n}「阿修羅の 本当の{n} 力を 受けてみよ！」{n}{wait}",
-   "en": "\"Grrrrrrrrrrrrrrr!\"{wait}\"I, Ashura!\"{wait}\"On my life! Here and now! You lot!\"{wait}\"Will fall!\"{wait}\"Feel the true power of Ashura!\"{wait}"
+   "en": "\"Grrrrrrrrrrrrrrr!\"{wait}\"I, Ashura!\"{wait}\"On my life! Here and now! You lot!\"{wait}\"Shall fall by my hand!\"{wait}\"Feel the true power of Ashura!\"{wait}"
   },
   {
    "id": "BM077_1:158",
@@ -908,7 +908,7 @@
   {
    "id": "BM077_1:180",
    "jp": "「わからないわっ！」{n}{n}{wait}{n}「わからないわっ！」{n}{n}{wait}{n}「なぜなのっ！？」{n}{n}{wait}{n}「なぜなのっ！？」{n}{n}{wait}{n}「なぜ お前は{n} そんなに 強いの！？」{n}{wait}{n}「私は わからない…」{n}{n}{wait}{n}「私には…」{n}{n}{wait}{n}「わからない…」{n}{n}{wait}{n}「私… には…」{n}{n}{wait}{n}「わか………… ら…… ない…」{n}{n}{wait}{n}「……………………………ッ！」{n}{n}{wait}{n}桃太郎は{n}ついに！ ついに！{n}{wait}{n}ついに！{n}夜叉姫を こらしめた！{n}{wait}",
-   "en": "\"I don't understand!\"{wait}\"I don't understand!\"{wait}\"Why?!\"{wait}\"Why?!\"{wait}\"Why are you so strong?!\"{wait}\"I don't understand...\"{wait}\"I just...\"{wait}\"don't understand...\"{wait}\"I... just...\"{wait}\"don't............ under...... stand...\"{wait}\"...............................!\"{wait}Momotaro has at last! At last!{wait}At last! He has punished Yashahime!{wait}"
+   "en": "\"I don't understand!\"{wait}\"I don't understand!\"{wait}\"Why?!\"{wait}\"Why?!\"{wait}\"Why are you so strong?!\"{wait}\"I don't understand...\"{wait}\"I just...\"{wait}\"don't understand...\"{wait}\"I... just...\"{wait}\"don't............ under...... stand...\"{wait}\"...............................!\"{wait}At last! At last!{wait}At last! Momotaro has taught Yashahime a lesson!{wait}"
   },
   {
    "id": "BM077_1:181",

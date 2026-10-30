@@ -38,7 +38,7 @@
   {
    "id": "WMAP19_34:006",
    "jp": "「夜叉姫！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「もう一度 チャレンジするか？」{n}{n}",
-   "en": "\"Yashahime! At this rate you'll never punish Enma! Uhyahya...\"{wait}\"Will you try again?\""
+   "en": "\"Yashahime! At this rate, you'll never teach Enma a lesson! Uhyahya...\"{wait}\"Will you try again?\""
   },
   {
    "id": "WMAP19_34:007",
@@ -53,7 +53,7 @@
   {
    "id": "WMAP19_34:009",
    "jp": "「はやての術は 夜叉姫の{n} 段が 上がると{n} ぱわぁあっぷするのぢゃ！」{wait}{n}「夜叉姫！ 頑張って{n} 心の 数を ふやすのぢゃ！」{n}{wait}",
-   "en": "\"The Haste art gets a pow-wer up as Yashahime's level rises!\"{wait}\"Yashahime! Work hard and gather more hearts!\"{wait}"
+   "en": "\"The Haste art gets a powwwer-up as Yashahime's level rises!\"{wait}\"Yashahime! Work hard and gather more hearts!\"{wait}"
   },
   {
    "id": "WMAP19_34:010",
@@ -63,7 +63,7 @@
   {
    "id": "WMAP19_34:011",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「無理が 通れば{n} 道路が へっこむ！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": "A proverb is written here!{wait}\"All roads lead to roadworks!\"{wait}Oh, come on!{wait}"
+   "en": "There's a proverb written here!{wait}\"All roads lead to roadworks!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

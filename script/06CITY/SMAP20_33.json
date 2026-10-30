@@ -119,7 +119,7 @@
   {
    "id": "SMAP20_33:022",
    "jp": "ゴク ゴク ゴクッ！{n}{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": "Gulp gulp gulp! {str}'s SP and HP were fully restored!{wait}"
+   "en": "Gulp gulp gulp! {str} recovered all SP and HP!{wait}"
   },
   {
    "id": "SMAP20_33:023",
@@ -144,12 +144,12 @@
   {
    "id": "SMAP20_33:027",
    "jp": "「わしは この村の{n} 村長 ですじゃ！」{n}{wait}{n}「塩吹き鬼が 塩吹きウスで{n} 村の みんなを{n} 苦しめて いるんです！」{wait}{n}「どうか 塩吹き鬼を{n} こらしめて ください！」{n}",
-   "en": "\"I'm the Chief of this village!\"{wait}\"The Salt Oni is using the Salt Mill to torment everyone in the village!\"{wait}\"Please, teach the Salt Oni a lesson!\""
+   "en": "\"I'm the chief of this village, I am!\"{wait}\"The Salt Oni is using the Salt Mill to torment everyone in the village!\"{wait}\"Please, teach the Salt Oni a lesson!\""
   },
   {
    "id": "SMAP20_33:028",
    "jp": "「うれしゅうございます！」{n}{n}{wait}{n}「塩吹きウスが 止まれば{n} 川を 下る 小舟を{n} さしあげることも できるでしょう」{wait}{n}「塩吹き鬼は この村の{n} おくに います！」{n}{wait}{n}「がんばって ください！」{n}{n}{wait}",
-   "en": "\"I'm so grateful!\"{wait}\"Once the Salt Mill stops, I should be able to give you a little boat to go down the river.\"{wait}\"The Salt Oni is at the far end of this village!\"{wait}\"Good luck!\"{wait}"
+   "en": "\"I'm so grateful!\"{wait}\"Once the Salt Mill stops, I should be able to give you a little boat to go down the river.\"{wait}\"The Salt Oni is in the back of this village!\"{wait}\"Good luck!\"{wait}"
   },
   {
    "id": "SMAP20_33:029",
@@ -169,12 +169,12 @@
   {
    "id": "SMAP20_33:032",
    "jp": "と そのとき{n}村人たちの ねがいが 天に{n}とどいたのか 雨が ふりだした！{wait}",
-   "en": "Just then, as if the villagers' wishes had reached the heavens, it began to rain!{wait}"
+   "en": "Just then, as if the villagers' prayers had reached the heavens, it began to rain!{wait}"
   },
   {
    "id": "SMAP20_33:033",
    "jp": "そして 雨が あがり{n}美しい 虹の 光が{n}村を てらした！{wait}",
-   "en": "And when the rain stopped, the beautiful light of a rainbow shone on the village!{wait}"
+   "en": "And when the rain stopped, the light of a beautiful rainbow shone over the village!{wait}"
   },
   {
    "id": "SMAP20_33:034",
@@ -189,7 +189,7 @@
   {
    "id": "SMAP20_33:036",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「雨が 塩を ながしたように{n} みなさんが 今までの ことを{n} 水に ながして くれたんです！」{wait}{n}「これからは みなさんの ために{n} よい おこないを します！」{n}{wait}",
-   "en": "\"Momotaro-san!\"{wait}\"Just like the rain washed away the salt, everyone has let bygones be bygones!\"{wait}\"From now on, I'll do good deeds for everyone!\"{wait}"
+   "en": "\"Momotaro-san!\"{wait}\"Just like the rain washed away the salt, everyone has let the past wash away!\"{wait}\"From now on, I'll do good deeds for everyone!\"{wait}"
   },
   {
    "id": "SMAP20_33:037",

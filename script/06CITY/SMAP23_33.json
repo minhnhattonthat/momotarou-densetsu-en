@@ -98,7 +98,7 @@
   {
    "id": "SMAP23_33:018",
    "jp": "「桃太郎さん！{n} かぐや姫様が 悪いやつらに{n} つれていかれちゃうよー！」{wait}",
-   "en": "\"Momotaro-san! The bad guys are taking Princess Kaguya away!\"{wait}"
+   "en": "\"Momotaro-san! The bad guys are going to take Princess Kaguya away!\"{wait}"
   },
   {
    "id": "SMAP23_33:019",
@@ -158,7 +158,7 @@
   {
    "id": "SMAP23_33:030",
    "jp": "桃太郎は{n}{col10}かぐやのおじいさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got the {col10}Kaguya's Grandpa Card{col0}!{c19}{wait}"
+   "en": "Momotaro got {col10}Kaguya's Grandpa Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP23_33:031",
@@ -178,7 +178,7 @@
   {
    "id": "SMAP23_33:034",
    "jp": "桃太郎は{n}{col10}かぐやのおばあさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got the {col10}Kaguya's Grandma Card{col0}!{c19}{wait}"
+   "en": "Momotaro got {col10}Kaguya's Grandma Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP23_33:035",

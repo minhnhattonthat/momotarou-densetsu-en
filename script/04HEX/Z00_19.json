@@ -78,7 +78,7 @@
   {
    "id": "Z00_19:014",
    "jp": "「桃太郎！{n} わしの 仲間は{n} 役に 立っとるか？」{wait}{n}「並び地蔵は 旅人の 味方！{n} これを やろう！」{n}{wait}{n}桃太郎は{n}{c19}{col10}地蔵カード{col0}を{n}手に入れた！{wait}",
-   "en": "\"Momotaro! Are my fellow Jizo being of use to you?\"{wait}\"The Jizo Row are friends to all travelers! Take this!\"{wait}Momotaro got the {c19}{col10}Jizo Card{col0}!{wait}"
+   "en": "\"Momotaro! Are my fellow Jizo proving useful to you?\"{wait}\"The Jizo Row are friends to all travelers! Take this!\"{wait}Momotaro got the {c19}{col10}Jizo Card{col0}!{wait}"
   },
   {
    "id": "Z00_19:015",
@@ -113,7 +113,7 @@
   {
    "id": "Z00_19:021",
    "jp": "「わしを つれていくと{n} 攻撃を うけたとき{n} みがわりに なってやるぞ！」{wait}{n}「わしを 仲間にするかね？」{n}{n}",
-   "en": "\"If you take me along, I'll take the blow for you whenever you're attacked!\"{wait}\"Shall I join your Friends?\""
+   "en": "\"If you take me along, I'll take the blow for you whenever you're attacked!\"{wait}\"Shall I join your party?\""
   },
   {
    "id": "Z00_19:022",
@@ -133,7 +133,7 @@
   {
    "id": "Z00_19:025",
    "jp": "「桃太郎よ！{n} 金太郎を 仲間にしたな！」{n}{wait}{n}「後は 旅を 続ければ{n} 浦島を 見つけることが{n} できるだろう！」{wait}",
-   "en": "\"Momotaro! So Kintaro has joined your Friends!\"{wait}\"Just keep on traveling, and you'll be able to find Urashima!\"{wait}"
+   "en": "\"Momotaro! So Kintaro has joined you!\"{wait}\"Just keep on traveling, and you'll be able to find Urashima!\"{wait}"
   },
   {
    "id": "Z00_19:026",
@@ -148,7 +148,7 @@
   {
    "id": "Z00_19:028",
    "jp": "「桃太郎よ！{n} 金太郎を 仲間にしたな！」{n}{wait}{n}「後は 旅を 続ければ{n} 夜叉姫を 見つけることが{n} できるだろう！」{wait}",
-   "en": "\"Momotaro! So Kintaro has joined your Friends!\"{wait}\"Just keep on traveling, and you'll be able to find Yashahime!\"{wait}"
+   "en": "\"Momotaro! So Kintaro has joined you!\"{wait}\"Just keep on traveling, and you'll be able to find Yashahime!\"{wait}"
   },
   {
    "id": "Z00_19:029",
@@ -183,7 +183,7 @@
   {
    "id": "Z00_19:035",
    "jp": "桃太郎は 勇気の剣を{n}海にむかって かざした！{n}{wait}{n}…しかし なにも{n}おこらなかった！{n}{wait}{n}桃太郎の 心の中に{n}悲しげな 声が ひびく！{n}{wait}{n}『桃太郎さん！{n} あなたは 友情を{n} 大切にする かたのはず！』{wait}{n}『どうして お友達を{n} ほうって おくのですか？』{n}{wait}{n}声は さびしげに{n}消えていった！{n}{wait}",
-   "en": "Momotaro held the Sword of Courage up toward the sea!{wait}...But nothing happened!{wait}A sorrowful voice echoed in Momotaro's heart!{wait}'Momotaro-san! You should be someone who treasures friendship!'{wait}'Why have you left your friends behind?'{wait}The voice faded away sadly!{wait}"
+   "en": "Momotaro held the Sword of Courage up toward the sea!{wait}...But nothing happened!{wait}A sorrowful voice echoed in Momotaro's heart!{wait}'Momotaro-san! Surely you are someone who treasures friendship!'{wait}'Why have you left your friends behind?'{wait}The voice faded away sadly!{wait}"
   }
  ]
 }

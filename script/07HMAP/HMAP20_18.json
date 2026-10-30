@@ -13,7 +13,7 @@
   {
    "id": "HMAP20_18:001",
    "jp": "「桃太郎さん！ わしは{n} 都の 長老ですじゃ！」{n}{wait}{n}「みなから ききおよんで{n} おるじゃろうが…」{n}{wait}{n}「阿修羅は 都の 女を{n} よめに さしだせと{n} いって きおっての！」{wait}{n}「どうしたら よいのか{n} まいばん こうして みんなが{n} あつまって おるのじゃが…」{wait}{n}「もはや どんな みょうあんも{n} つきもうした…！」{n}{wait}",
-   "en": "\"Momotaro-san! I am the elder of the Capital!\"{wait}\"You've probably heard it from everyone already...\"{wait}\"Ashura has demanded that we hand over a woman of the Capital to be his bride!\"{wait}\"Every night we all gather like this to think of what to do...\"{wait}\"But we've run out of bright ideas...!\"{wait}"
+   "en": "\"Momotaro-san! I am the Elder of the Capital!\"{wait}\"You've probably heard it from everyone already...\"{wait}\"Ashura has demanded that we hand over a woman of the Capital to be his bride!\"{wait}\"Every night we all gather like this to think of what to do...\"{wait}\"But we've run out of bright ideas...!\"{wait}"
   },
   {
    "id": "HMAP20_18:002",
@@ -28,7 +28,7 @@
   {
    "id": "HMAP20_18:004",
    "jp": "長老は 顔が{n}クシャクシャに なるほど{n}よろこんだ！{wait}{n}「ありがとうございます！」{n}{n}{wait}{n}「ありがとうございます！」{n}{n}{wait}{n}「本当に ありがとうございます！{n} では いそぎ はなよめいしょうと{n} さかだるを よういさせます！」{wait}{n}「じゅんびに 少し 時間が{n} かかりますから しばらくしてから{n} また おいでください！」{wait}",
-   "en": "The elder was so happy his whole face crinkled up!{wait}\"Thank you!\"{wait}\"Thank you!\"{wait}\"Thank you so very much! I'll have a bridal kimono and a sake barrel prepared at once!\"{wait}\"The preparations will take a little while, so please come back a bit later!\"{wait}"
+   "en": "The Elder was so happy his whole face crinkled up!{wait}\"Thank you!\"{wait}\"Thank you!\"{wait}\"Thank you so very much! I'll have a bridal kimono and a sake barrel prepared at once!\"{wait}\"The preparations will take a little while, so please come back a bit later!\"{wait}"
   },
   {
    "id": "HMAP20_18:005",

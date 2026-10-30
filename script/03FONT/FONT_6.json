@@ -2488,7 +2488,7 @@
   {
    "id": "FONT_6:496",
    "jp": "守りと ひきかえに{n}攻撃力が 上がる{n}まさかりです …ずっと",
-   "en": "An axe that raises Attack at the cost of defense. ...Forever"
+   "en": "An axe that raises Attack at the cost of Defense. ...Forever"
   },
   {
    "id": "FONT_6:497",
@@ -3633,7 +3633,7 @@
   {
    "id": "FONT_6:725",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん！ この階には{n} {num}個の{n} つづらが あるぜ！」{wait}",
-   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! Wicker chests on this floor: {num}!\"{wait}"
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! The wicker chest count on this floor is {num}!\"{wait}"
   },
   {
    "id": "FONT_6:726",
@@ -3643,7 +3643,7 @@
   {
    "id": "FONT_6:727",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん！ ここには{n} {num}個の{n} つづらが あるぜ！」{wait}",
-   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! Wicker chests around here: {num}!\"{wait}"
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! The wicker chest count around here is {num}!\"{wait}"
   },
   {
    "id": "FONT_6:728",
@@ -3883,7 +3883,7 @@
   {
    "id": "FONT_6:775",
    "jp": "「今週の 桃太郎さん！{n} の コーナーでーす！」{n}{wait}{n}「今週も 桃太郎さんは{n} 大かつやく！」{n}{wait}{n}「ケータイの鬼を こらしめて{n} ケータイ電話を ゲット！{n} さっすが 桃太郎さん！」{wait}{n}「桃太郎さん！ がんばってね！{n} 今週の 桃太郎さん！{n} の コーナーでした！」{wait}",
-   "en": "\"It's time for our 'Momotaro-san of the Week' corner!\"{wait}\"Momotaro-san was a big hit again this week!\"{wait}\"He punished the Cell Phone Oni and got the Cell Phone! That's our Momotaro-san!\"{wait}\"Go for it, Momotaro-san! That was our 'Momotaro-san of the Week' corner!\"{wait}"
+   "en": "\"It's time for our 'Momotaro-san of the Week' corner!\"{wait}\"Momotaro-san was a real hero again this week!\"{wait}\"He punished the Cell Phone Oni and got the Cell Phone! That's our Momotaro-san!\"{wait}\"Go for it, Momotaro-san! That was our 'Momotaro-san of the Week' corner!\"{wait}"
   },
   {
    "id": "FONT_6:776",

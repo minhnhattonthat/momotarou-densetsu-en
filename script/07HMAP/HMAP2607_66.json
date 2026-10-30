@@ -33,7 +33,7 @@
   {
    "id": "HMAP2607_66:005",
    "jp": "「ここでは 塔内の ご案内を{n} いたしております！」{n}{wait}",
-   "en": "\"We provide guidance for the tower here!\"{wait}"
+   "en": "\"Ask here for a guide to the tower!\"{wait}"
   },
   {
    "id": "HMAP2607_66:006",
@@ -58,7 +58,7 @@
   {
    "id": "HMAP2607_66:010",
    "jp": "「1階には 仙豆専門のお店 最大屋{n} 本専門のお店 こころ書房{n} めずらしい玉の専門店 玉屋」{wait}",
-   "en": "\"On the 1st floor: Saidaiya, the Bean specialist; Heart Books, the book specialist; and Tamaya, the rare orb specialist.\"{wait}"
+   "en": "\"On the 1st floor: the Max Shop, the Bean specialist; Heart Books, the book specialist; and Tamaya, the rare orb specialist.\"{wait}"
   },
   {
    "id": "HMAP2607_66:011",
@@ -193,7 +193,7 @@
   {
    "id": "HMAP2607_66:037",
    "jp": "「仙豆は 体の数や 攻撃力が{n} 上がる ふしぎな 豆です！」{n}{wait}",
-   "en": "\"Beans are mysterious beans that raise your HP and Attack!\"{wait}"
+   "en": "\"Beans are mysterious little things that raise your HP and Attack!\"{wait}"
   },
   {
    "id": "HMAP2607_66:038",

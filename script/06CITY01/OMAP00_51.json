@@ -23,7 +23,7 @@
   {
    "id": "OMAP00_51:003",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「ここへ くるまで 黒ガッパに{n} なやまされ ませんでしたか？」{n}{wait}{n}「八百屋で 売ってる{n} きゅうりを 持っていれば{n} みとれて 動けなく なりますよ」{wait}",
-   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Did the Black Kappa give you any trouble on your way here?\"{wait}\"If you carry one of the cucumbers they sell at the greengrocer's, they'll stare at it and won't be able to move!\"{wait}"
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Did the Black Kappa give you any trouble on your way here?\"{wait}\"If you carry a cucumber from the greengrocer's, the Black Kappa will stare at it and won't be able to move!\"{wait}"
   },
   {
    "id": "OMAP00_51:004",
@@ -58,7 +58,7 @@
   {
    "id": "OMAP00_51:010",
    "jp": "「チュチュン！ チュチュン！」{n}{n}{wait}{n}「いけねえ！ いけねえ！{n} 長いこと ここに いたら{n} くちぐせが うつっちまった！」{wait}{n}「桃太郎さん！{n} 鬼たいじ がんばってください！」{n}{wait}",
-   "en": "\"Chirp chirp! Chirp chirp!\"{wait}\"Oh no! Oh no! I've been here so long, I've picked up their verbal tic!\"{wait}\"Momotaro-san! Good luck with your Oni Slaying!\"{wait}"
+   "en": "\"Chirp chirp! Chirp chirp!\"{wait}\"Oh no! Oh no! I've been here so long, I've picked up their verbal tic!\"{wait}\"Momotaro-san! Good luck with your oni slaying!\"{wait}"
   },
   {
    "id": "OMAP00_51:011",
@@ -88,7 +88,7 @@
   {
    "id": "OMAP00_51:016",
    "jp": "「ところで おぬしは{n} どうぐを カッパに{n} とられたりしとらんかな？」{wait}{n}「とられても あわてることは{n} ないぞ！ カッパは ある場所に{n} どうぐを かくしとるのだ！」{wait}",
-   "en": "\"By the way, have the kappa stolen any of your items?\"{wait}\"Even if they have, there's no need to panic! The kappa hide the items in a certain place!\"{wait}"
+   "en": "\"By the way, have the Kappa stolen any of your items?\"{wait}\"Even if they have, there's no need to panic! The Kappa hide the items in a certain place!\"{wait}"
   },
   {
    "id": "OMAP00_51:017",
@@ -103,7 +103,7 @@
   {
    "id": "OMAP00_51:019",
    "jp": "「なに あったか どうか{n} 見れば わかるはずじゃと？」{n} {wait}{n}「わはははは！ わかっとる！{n} これは たんなる{n} じぇらしーじゃ！」{wait}",
-   "en": "\"What? I ought to see whether you have just by looking?\"{wait}\"Wahahaha! I know, I know! I'm just a little jealous!\"{wait}"
+   "en": "\"What's that? A fortune teller should know that just by looking at you?\"{wait}\"Wahahaha! I know, I know! I'm just a little jealous!\"{wait}"
   },
   {
    "id": "OMAP00_51:020",
@@ -138,7 +138,7 @@
   {
    "id": "OMAP00_51:026",
    "jp": "「桃栗三年 カキは広島に限る！」{n}{n}{wait}",
-   "en": "\"Patience bears fruit... but oysters are best from Hiroshima!\"{wait}"
+   "en": "\"Peaches and chestnuts take three years to bear fruit... but oysters are best from Hiroshima!\"{wait}"
   },
   {
    "id": "OMAP00_51:027",

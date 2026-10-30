@@ -23,7 +23,7 @@
   {
    "id": "SMAP21_33:003",
    "jp": "「ピョピョン！ 桃太郎さん！{n} 行ってしまうんですね！」{n}{wait}{n}「でも 鬼たいじが おわったら{n} きっと この村に{n} たちよって くださいね！」{wait}{n}「もちろん！ みなさんも{n} ごいっしょに！ ピョピョン！」{n}{wait}",
-   "en": "\"Hop hop! Momotaro-san! So you're leaving...\"{wait}\"But once you're done slaying the oni, be sure to drop by this village!\"{wait}\"Everyone else too, of course! Hop hop!\"{wait}"
+   "en": "\"Hop hop! Momotaro-san! So you're leaving...\"{wait}\"But once you're done slaying the oni, be sure to drop by this village!\"{wait}\"And of course, bring everyone along! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP21_33:004",
@@ -173,7 +173,7 @@
   {
    "id": "SMAP21_33:033",
    "jp": "「風が 吹けば OKや！{n} もうかる！ もうかる！」{n}{wait}",
-   "en": "\"It's an ill wind that blows nobody good! And this one blows me profits! Profits!\"{wait}"
+   "en": "\"It's an ill wind that blows nobody good... and it's blowing my way! Profits! Profits!\"{wait}"
   },
   {
    "id": "SMAP21_33:034",

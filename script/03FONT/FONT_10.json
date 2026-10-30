@@ -212,7 +212,7 @@
   {
    "id": "FONT_10:041",
    "jp": "夜叉姫の{n}分身が{n}{num}体 あらわれた！{wait}",
-   "en": "Clones of Yashahime appeared: {num}!{wait}"
+   "en": "Yashahime's clones appeared, {num} in all!{wait}"
   },
   {
    "id": "FONT_10:042",
@@ -287,7 +287,7 @@
   {
    "id": "FONT_10:056",
    "jp": "{str}たちは{n}合体した！{n}{wait}{n}体力 攻撃力{n}守備力が もとの 2匹を{n}合わせた 数に 上がった！{wait}",
-   "en": "The two {str} merged into one!{wait}Their HP, Attack and Defense rose to the two originals' combined totals!{wait}"
+   "en": "The {str} pair merged into one!{wait}Their HP, Attack and Defense rose to the two originals' combined totals!{wait}"
   },
   {
    "id": "FONT_10:057",
@@ -562,7 +562,7 @@
   {
    "id": "FONT_10:111",
    "jp": "「ボンビー！ えのサンが{n} すけだち するのねん！」{n}{wait}{n}おっと！ えのんが{n}{str}{str}の かわりに{n}こうげきを うけてくれたぞ！{wait}{n}「えのッピドゥー！{n} ちょっと いたいのねん！」{n}{wait}",
-   "en": "\"Bombee! Eno-san will lend a hand, bombee!\"{wait}Whoa! Enon took the attack in place of {str}{str}!{wait}\"Eno-ppidoo! That hurt a little, bombee!\"{wait}"
+   "en": "\"Bombee! Eno-san will lend a hand, bombee!\"{wait}Whoa! Enon took the attack in place of {str}{str}!{wait}\"Enoppi-doo! That hurt a little, bombee!\"{wait}"
   },
   {
    "id": "FONT_10:112",

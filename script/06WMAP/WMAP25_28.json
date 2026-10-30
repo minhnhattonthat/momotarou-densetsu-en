@@ -13,7 +13,7 @@
   {
    "id": "WMAP25_28:001",
    "jp": "「まんきんたんの術は{n} 一人の 体力を どこでも{n} かんぜんに 回復 できるぞ！」{wait}{n}「この術を 覚えるのは{n} 桃太郎が ふさわしい！」{n}{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「さあ！ かかってくるのぢゃ！{n} 桃太郎！ ウヒャヒャ…」{n}{wait}",
-   "en": "\"The Kintan Max art fully restores one person's HP, anywhere!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}\"Learn my art quickly and go punish those oni!\"{wait}\"But first, you'll have to go through my rather tough training!\"{wait}\"Now! Come at me, Momotaro! Uhyahya...\"{wait}"
+   "en": "\"The Kintan Max art fully restores one person's HP, anywhere!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now! Come at me, Momotaro! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP25_28:002",
@@ -38,7 +38,7 @@
   {
    "id": "WMAP25_28:006",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「泣きっ面に はちまき！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": "A proverb is written here!{wait}\"When it rains, it ponchos!\"{wait}Oh, come on!{wait}"
+   "en": "There's a proverb written here!{wait}\"When it rains, it ponchos!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

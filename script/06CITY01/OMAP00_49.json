@@ -143,7 +143,7 @@
   {
    "id": "OMAP00_49:027",
    "jp": "「よお！ 桃太郎！{n} 元気そうだな！」{n}{wait}{n}「風神のやつに{n} とばされたときは{n} どうなるかと 思ったぜ！」{wait}{n}「でも 桃太郎に{n} また あえて よかったよ！」{n}{wait}{n}「さあ 旅を つづけようぜ！」{n}{n}{wait}{n}金太郎が 仲間に{n}くわわった！{n}",
-   "en": "\"Hey! Momotaro! You look well!\"{wait}\"When that Fujin blew me away, I didn't know what'd happen!\"{wait}\"But I'm real glad I got to see you again, Momotaro!\"{wait}\"C'mon, let's keep goin'!\"{wait}Kintaro joined the party!"
+   "en": "\"Hey! Momotaro! You look well!\"{wait}\"When that Fujin blew me away, I didn't know what'd happen!\"{wait}\"But I'm real glad I got to see you again, Momotaro!\"{wait}\"C'mon, let's keep goin'!\"{wait}Kintaro rejoined the party!"
   },
   {
    "id": "OMAP00_49:028",
@@ -188,7 +188,7 @@
   {
    "id": "OMAP00_49:036",
    "jp": "「キジも鳴かずば 歌えない！」{n}{n}{wait}",
-   "en": "\"A pheasant that never cries... never gets to sing!\"{wait}"
+   "en": "\"A watched pheasant never sings!\"{wait}"
   },
   {
    "id": "OMAP00_49:037",
@@ -198,7 +198,7 @@
   {
    "id": "OMAP00_49:038",
    "jp": "「聞いて極楽 見てくれだけが{n} 人間じゃない！」{n}{wait}",
-   "en": "\"Heaven to hear, hell to see... but looks aren't everything!\"{wait}"
+   "en": "\"Heaven is in the eye of the beholder... looks aren't everything!\"{wait}"
   }
  ]
 }

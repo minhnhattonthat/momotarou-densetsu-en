@@ -38,7 +38,7 @@
   {
    "id": "SMAP02_33:006",
    "jp": "「これ つまらないものですが{n} 鬼たいじに 役立ててください」{n}{wait}{n}桃太郎は{n}{col4}毒消し{col0}を 手に入れた！{n}{wait}",
-   "en": "\"It's only a small thing, but please use it to fight the oni.\"{wait}Momotaro got {col4}Antidote{col0}!{wait}"
+   "en": "\"It's only a small thing, but please use it to fight the oni.\"{wait}Momotaro got an {col4}Antidote{col0}!{wait}"
   },
   {
    "id": "SMAP02_33:007",
@@ -48,7 +48,7 @@
   {
    "id": "SMAP02_33:008",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「仙人の 庵で 仙人様と{n} 話すと 体と 技が{n} 全回復します！」{wait}{n}「旅の 途中で 体の 数が{n} 少なくなったら {n} 行ってみてください！」{wait}",
-   "en": "\"Hop hop! Hop hop!\"{wait}\"Talk to the hermit in a hermit's hut and your HP and SP will be fully restored!\"{wait}\"If your HP runs low on your journey, go pay one a visit!\"{wait}"
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Talk to the hermit at any hermit's hut to fully restore your HP and SP!\"{wait}\"If your HP gets low on your journey, pay one a visit!\"{wait}"
   },
   {
    "id": "SMAP02_33:009",
@@ -63,7 +63,7 @@
   {
    "id": "SMAP02_33:011",
    "jp": "「聞いてくれて ありがとう！{n} これ お礼です！ どうぞ！」{n}{wait}{n}桃太郎は{n}{col4}おにぎり{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "\"Thanks for listening! This is for you! Take it!\"{wait}Momotaro got {col4}Rice Ball{col0}!{c19}{wait}"
+   "en": "\"Thanks for listening! This is for you! Take it!\"{wait}Momotaro got a {col4}Rice Ball{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:012",
@@ -73,7 +73,7 @@
   {
    "id": "SMAP02_33:013",
    "jp": "「桃太郎さん！ 東にある{n} きんたん仙人の 庵には{n} もう いきましたか？」{wait}{n}「仙人から 一本とれば{n} きんたんの術を{n} 覚えることが できますよ！」{wait}{n}「鬼たいじの 成功を{n} お祈りしてます！ ピョピョン！」{n}{wait}",
-   "en": "\"Momotaro-san! Have you been to the Kintan Hermit's hut to the east yet?\"{wait}\"If you can land a blow on the hermit, he'll teach you the Kintan art!\"{wait}\"I'm praying you beat the oni! Hop hop!\"{wait}"
+   "en": "\"Momotaro-san! Have you been to the Kintan Hermit's hut to the east yet?\"{wait}\"If you can land a blow on the hermit, he'll teach you the Kintan art!\"{wait}\"I'll be praying for your victory over the oni! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:014",
@@ -113,7 +113,7 @@
   {
    "id": "SMAP02_33:021",
    "jp": "「どうか これを{n} 受け取って ください！」{n}{wait}{n}桃太郎は{n}{col4}毒消し{col0}を 手に入れた！{n}{wait}",
-   "en": "\"Please, accept this!\"{wait}Momotaro got {col4}Antidote{col0}!{wait}"
+   "en": "\"Please, accept this!\"{wait}Momotaro got an {col4}Antidote{col0}!{wait}"
   },
   {
    "id": "SMAP02_33:022",
@@ -178,7 +178,7 @@
   {
    "id": "SMAP02_33:034",
    "jp": "「どうか これを{n} 受け取ってください！」{n}{wait}{n}桃太郎は{n}{col4}鬼のなみだ{col0}を 手に入れた！{n}{wait}",
-   "en": "\"Please, accept this!\"{wait}Momotaro got {col4}Oni Tear{col0}!{wait}"
+   "en": "\"Please, accept this!\"{wait}Momotaro got an {col4}Oni Tear{col0}!{wait}"
   },
   {
    "id": "SMAP02_33:035",
@@ -203,7 +203,7 @@
   {
    "id": "SMAP02_33:039",
    "jp": "桃太郎は{n}{col4}元気の玉{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Vigor Orb{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col4}Vigor Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:040",
@@ -268,7 +268,7 @@
   {
    "id": "SMAP02_33:052",
    "jp": "「朱に 交われば{n} 赤上げないで 白下げない！」{n}{wait}",
-   "en": "\"When in Rome... don't raise red, don't lower white!\"{wait}"
+   "en": "\"Lie down with dogs... and get up with flags!\"{wait}"
   },
   {
    "id": "SMAP02_33:053",
@@ -278,7 +278,7 @@
   {
    "id": "SMAP02_33:054",
    "jp": "「このままでは{n} お祭りどころじゃ{n} なさそうだべ！」{wait}",
-   "en": "\"At this rate, there won't be any festival at all!\"{wait}"
+   "en": "\"At this rate, there ain't gonna be no festival at all!\"{wait}"
   },
   {
    "id": "SMAP02_33:055",
@@ -348,7 +348,7 @@
   {
    "id": "SMAP02_33:068",
    "jp": "桃太郎は{n}{col4}根性の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Guts Orb{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:069",
@@ -363,7 +363,7 @@
   {
    "id": "SMAP02_33:071",
    "jp": "桃太郎は{n}{col4}仙人の桃{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Hermit's Peach{col0}!{c19}{wait}"
+   "en": "Momotaro got a {col4}Hermit's Peach{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:072",
@@ -378,12 +378,12 @@
   {
    "id": "SMAP02_33:074",
    "jp": "桃太郎は{n}{col4}きびだんご{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Millet Dumpling{col0}!{c19}{wait}"
+   "en": "Momotaro got a {col4}Millet Dumpling{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:075",
    "jp": "桃太郎は{n}{col4}おにぎり{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Rice Ball{col0}!{c19}{wait}"
+   "en": "Momotaro got a {col4}Rice Ball{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:076",
@@ -398,7 +398,7 @@
   {
    "id": "SMAP02_33:078",
    "jp": "「おいしい ごはんが{n} たけてますね！」{n}{wait}",
-   "en": "\"Smells like some tasty rice is cooking!\"{wait}"
+   "en": "\"Mmm, the rice is cooking up nice and tasty!\"{wait}"
   },
   {
    "id": "SMAP02_33:079",
@@ -438,22 +438,22 @@
   {
    "id": "SMAP02_33:086",
    "jp": "桃太郎は{n}{col10}ウサギ男カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Rabbit Man Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Rabbit Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:087",
    "jp": "桃太郎は{n}{col10}ウサギ女カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Rabbit Woman Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Rabbit Woman Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:088",
    "jp": "桃太郎は{n}{col10}タヌキ男カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Tanuki Man Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Tanuki Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:089",
    "jp": "桃太郎は{n}{col10}タヌキ女カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Tanuki Woman Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Tanuki Woman Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:090",

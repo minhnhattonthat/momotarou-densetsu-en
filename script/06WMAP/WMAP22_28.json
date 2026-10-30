@@ -38,12 +38,12 @@
   {
    "id": "WMAP22_28:006",
    "jp": "「この 術を 覚えるのは{n} 夜叉姫が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}",
-   "en": "\"Yashahime is the one fit to learn this art!\"{wait}\"Learn my art quickly and go punish those oni!\"{wait}"
+   "en": "\"Yashahime is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}"
   },
   {
    "id": "WMAP22_28:007",
    "jp": "「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「夜叉姫よ！ わしに{n} ついてくるのぢゃ！」{n}{wait}",
-   "en": "\"But first, you'll have to go through my rather tough training!\"{wait}\"Yashahime! Follow me!\"{wait}"
+   "en": "\"But first, you must undergo my rather strict training!\"{wait}\"Yashahime! Follow me!\"{wait}"
   },
   {
    "id": "WMAP22_28:008",
@@ -68,7 +68,7 @@
   {
    "id": "WMAP22_28:012",
    "jp": "「夜叉姫！ そんなことでは{n} 友を 助けることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「どうぢゃ？ もう一度{n} ちょうせんするか？{n}",
-   "en": "\"Yashahime! At this rate you'll never save your friends! Uhyahya...\"{wait}\"Well? Will you try again?\""
+   "en": "\"Yashahime! At this rate, you'll never save your friends! Uhyahya...\"{wait}\"Well? Will you try again?\""
   },
   {
    "id": "WMAP22_28:013",

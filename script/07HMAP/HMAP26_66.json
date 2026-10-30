@@ -8,12 +8,12 @@
   {
    "id": "HMAP26_66:000",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「私 阿修羅は{n} まちくたびれましたよ！」{n}{wait}{n}「ふふふふふふっ！」{n}{n}{wait}{n}「私の うつくしい{n} コレクションが{n} あなたで ちょうど…」{wait}{n}「1000にんめ！」{n}{n}{wait}",
-   "en": "\"Fufufufufufu!\"{wait}\"I, Ashura, have grown tired of waiting!\"{wait}\"Fufufufufufu!\"{wait}\"With you, my beautiful collection reaches exactly...\"{wait}\"Number 1000!\"{wait}"
+   "en": "\"Fufufufufufu!\"{wait}\"I, Ashura, have grown tired of waiting!\"{wait}\"Fufufufufufu!\"{wait}\"With you, my beautiful collection reaches exactly...\"{wait}\"Number 1,000!\"{wait}"
   },
   {
    "id": "HMAP26_66:001",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「きねんすべき 1000人目に{n} えらばれたことを… ふふ…」{n}{wait}{n}「ほこりに 思ってください！」{n}{n}{wait}{n}「さっそく その 美しい{n} 顔を 見せて{n} いただきましょうか！」{wait}{n}「ふふふふふふっ！」{n}{n}{wait}",
-   "en": "\"Fufufufufufu!\"{wait}\"Being chosen as my memorable 1000th... fufu...\"{wait}\"Take pride in it!\"{wait}\"Now, shall we have a look at that beautiful face?\"{wait}\"Fufufufufufu!\"{wait}"
+   "en": "\"Fufufufufufu!\"{wait}\"Being chosen as my memorable 1,000th... fufu...\"{wait}\"Take pride in it!\"{wait}\"Now, shall we have a look at that beautiful face?\"{wait}\"Fufufufufufu!\"{wait}"
   },
   {
    "id": "HMAP26_66:002",
@@ -213,7 +213,7 @@
   {
    "id": "HMAP26_66:041",
    "jp": "「ホッホッホッ！{n} ワシは カラクリ人形師じゃ！」{n}{wait}{n}「この 博物館に おいてある{n} あんたたちの カラクリ人形は{n} ワシの じまんの作品 なのじゃ！」{wait}{n}「しかも 人形の となりにある{n} ボタンを しらべれば{n} なんと 人形が 動くのじゃよ！」{wait}{n}「どうじゃ すごいじゃろ？」{n}{n}",
-   "en": "\"Ho ho ho! I am a clockwork doll maker!\"{wait}\"The clockwork dolls of you all on display in this museum are my proudest works!\"{wait}\"What's more, if you examine the button next to each doll, why, the doll will move!\"{wait}\"How about that? Amazing, eh?\""
+   "en": "\"Ho ho ho! I am a clockwork doll maker!\"{wait}\"The clockwork dolls of your party on display in this museum are my proudest works!\"{wait}\"What's more, if you examine the button next to each doll, why, the doll will move!\"{wait}\"How about that? Amazing, eh?\""
   },
   {
    "id": "HMAP26_66:042",
@@ -283,17 +283,17 @@
   {
    "id": "HMAP26_66:055",
    "jp": "「まあ！ 浦島さんが{n} はじめて きた 着物ね！{n} こしみのが カワイイ！」{wait}",
-   "en": "\"Oh my! The first Kimono Urashima-san ever wore! The grass skirt is so cute!\"{wait}"
+   "en": "\"Oh my! The first kimono Urashima-san ever wore! The grass skirt is so cute!\"{wait}"
   },
   {
    "id": "HMAP26_66:056",
    "jp": "「ほほぅ！ 浦島さんの{n} 魚とり用の モリですか！{n} ていれも ピカイチですな！」{wait}",
-   "en": "\"Oho! Urashima-san's fishing Harpoon! And kept in tip-top shape, too!\"{wait}"
+   "en": "\"Oho! Urashima-san's fishing harpoon! And kept in tip-top shape, too!\"{wait}"
   },
   {
    "id": "HMAP26_66:057",
    "jp": "「フーム！ この わらじは{n} 浦島さんの 手作りなのじゃ！{n} きよう じゃのう！」{wait}",
-   "en": "\"Hmm! These straw sandals were handmade by Urashima-san himself! How clever!\"{wait}"
+   "en": "\"Hmm! These straw sandals were handmade by Urashima-san himself! How handy!\"{wait}"
   },
   {
    "id": "HMAP26_66:058",
@@ -308,7 +308,7 @@
   {
    "id": "HMAP26_66:060",
    "jp": "「わあ 夜叉姫さんが{n} はじめて 着た 着物ね！{n} きれいだな～ いいな～」{wait}",
-   "en": "\"Wow, the first Kimono Yashahime-san ever wore! So pretty... I want one...\"{wait}"
+   "en": "\"Wow, the first kimono Yashahime-san ever wore! So pretty... I want one...\"{wait}"
   },
   {
    "id": "HMAP26_66:061",
@@ -833,87 +833,87 @@
   {
    "id": "HMAP26_66:165",
    "jp": "「のれんに 梅干し」{n}{wait}",
-   "en": "\"Like water off a duck's backpack.\"{wait}"
+   "en": "\"Beating a dead horseradish.\"{wait}"
   },
   {
    "id": "HMAP26_66:166",
    "jp": "「目の上の 炭坑節」{n}{wait}",
-   "en": "\"A thorn in my sideburns.\"{wait}"
+   "en": "\"A thorn in my side dish.\"{wait}"
   },
   {
    "id": "HMAP26_66:167",
    "jp": "「猫に こんばんわ！」{n}{wait}",
-   "en": "\"Pearls before swine... good evening, swine!\"{wait}"
+   "en": "\"Let the cat out of the bag... and wish it good evening!\"{wait}"
   },
   {
    "id": "HMAP26_66:168",
    "jp": "「朱に 交われば{n} 赤上げないで 白下げない！」{wait}",
-   "en": "\"You are known by the company you keep... raise the red flag, don't lower the white!\"{wait}"
+   "en": "\"Lie down with dogs... and get up with flags!\"{wait}"
   },
   {
    "id": "HMAP26_66:169",
    "jp": "「出るくそは ふかれる！{n} きたね～～～～～！」{wait}",
-   "en": "\"The poop that sticks out gets wiped! Grooooooss!\"{wait}"
+   "en": "\"The squeaky behind gets wiped! Ewww, grooooooss!\"{wait}"
   },
   {
    "id": "HMAP26_66:170",
    "jp": "「旅の恥は かき食う客だ！」{n}{wait}",
-   "en": "\"When in Rome, eat persimmons!\"{wait}"
+   "en": "\"Travel broadens the mind... and the oyster plate!\"{wait}"
   },
   {
    "id": "HMAP26_66:171",
    "jp": "「のれんに 秀吉！」{n}{wait}",
-   "en": "\"Like water off Hideyoshi's back!\"{wait}"
+   "en": "\"Beating a dead Hideyoshi!\"{wait}"
   },
   {
    "id": "HMAP26_66:172",
    "jp": "「取らぬ タヌキの 皮ジャンパー」{n}{wait}",
-   "en": "\"Don't count your chickens before they're leather jackets.\"{wait}"
+   "en": "\"Don't count your tanuki before they're leather jackets!\"{wait}"
   },
   {
    "id": "HMAP26_66:173",
    "jp": "「能ある タカは{n} つめ将棋を する」{wait}",
-   "en": "\"A clever hawk hides its talons... and solves chess puzzles!\"{wait}"
+   "en": "\"A wise hawk keeps its claws in check... mate!\"{wait}"
   },
   {
    "id": "HMAP26_66:174",
    "jp": "「逃がした 魚は 泳いでる」{n}{wait}",
-   "en": "\"The one that got away is still swimming.\"{wait}"
+   "en": "\"The one that got away... is still swimming!\"{wait}"
   },
   {
    "id": "HMAP26_66:175",
    "jp": "「仏の顔も…{n} サンドイッチいかがっすか～～～！」{wait}",
-   "en": "\"Three strikes and... Sandwiches! Get yer sandwiiiiches!\"{wait}"
+   "en": "\"Even a saint's patience runs out after three... sandwiches! Get yer sandwiiiches!\"{wait}"
   },
   {
    "id": "HMAP26_66:176",
    "jp": "「胃の中の おかず{n} 大海を 知らず」{wait}",
-   "en": "\"Big fish in a small stomach.\"{wait}"
+   "en": "\"A big fish in a small stomach!\"{wait}"
   },
   {
    "id": "HMAP26_66:177",
    "jp": "「年寄りの 鼻水」{n}{wait}",
-   "en": "\"There's no snot like an old snot.\"{wait}"
+   "en": "\"There's no drool like an old drool.\"{wait}"
   },
   {
    "id": "HMAP26_66:178",
    "jp": "「わらをも つかむ いきおい！」{n}{wait}",
-   "en": "\"Grasping at straws with gusto!\"{wait}"
+   "en": "\"Grasping at straws with all my might!\"{wait}"
   },
   {
    "id": "HMAP26_66:179",
    "jp": "「三歩下がって 師の影を{n} ふんだりけったり！」{wait}",
-   "en": "\"Walk three steps behind your teacher... and stomp and kick his shadow!\"{wait}"
+   "en": "\"Walk three steps behind your master... then kick him when he's down!\"{wait}"
   },
   {
    "id": "HMAP26_66:180",
    "jp": "「花より だんごっ鼻！」{n}{wait}",
-   "en": "\"Dumplings over flowers... and a nose like a dumpling!\"{wait}"
+   "en": "\"Stop and smell the roses... with your big potato nose!\"{wait}"
   },
   {
    "id": "HMAP26_66:181",
    "jp": "「秋の日は だるま落とし」{n}{wait}",
-   "en": "\"The autumn sun sets like a game of Jenga.\"{wait}"
+   "en": "\"Time flies like an arrow. Fruit flies like a banana.\"{wait}"
   },
   {
    "id": "HMAP26_66:182",
@@ -928,157 +928,157 @@
   {
    "id": "HMAP26_66:184",
    "jp": "「石橋を たらった たらった{n} ウサギの ダンス！」{wait}",
-   "en": "\"Look before you leap... like a bunny! Hippity hop, hippity hop!\"{wait}"
+   "en": "\"Look before you leap... hippity-hoppity, bunny hop!\"{wait}"
   },
   {
    "id": "HMAP26_66:185",
    "jp": "「痛くもない 腹を さぐられたら{n} くすぐったいじゃないか！」{wait}",
-   "en": "\"Poke around in my belly for nothing, and it tickles!\"{wait}"
+   "en": "\"Go poking a belly with nothing to hide, and all you'll do is tickle it!\"{wait}"
   },
   {
    "id": "HMAP26_66:186",
    "jp": "「急がば タクシーに乗れ！」{n}{wait}",
-   "en": "\"Haste makes waste, so take a taxi!\"{wait}"
+   "en": "\"Haste makes waste, so hail a taxi!\"{wait}"
   },
   {
    "id": "HMAP26_66:187",
    "jp": "「一石 二丁拳銃」{n}{wait}",
-   "en": "\"Kill two birds with two pistols.\"{wait}"
+   "en": "\"Kill two birds with two six-shooters!\"{wait}"
   },
   {
    "id": "HMAP26_66:188",
    "jp": "「負け犬の オーボエ」{n}{wait}",
-   "en": "\"The underdog's oboe.\"{wait}"
+   "en": "\"Barking up the wrong tuba!\"{wait}"
   },
   {
    "id": "HMAP26_66:189",
    "jp": "「犬も 歩けば 暴動に 当たる」{n}{wait}",
-   "en": "\"Every dog has its riot.\"{wait}"
+   "en": "\"Let sleeping dogs riot!\"{wait}"
   },
   {
    "id": "HMAP26_66:190",
    "jp": "「売りことばに かゆいことば」{n}{wait}",
-   "en": "\"Tit for tat, and an itch for that.\"{wait}"
+   "en": "\"You scratch my back, I'll scratch my rash!\"{wait}"
   },
   {
    "id": "HMAP26_66:191",
    "jp": "「海老で 首を吊る」{n}{wait}",
-   "en": "\"Throw a shrimp, catch a cold.\"{wait}"
+   "en": "\"Throw a sprat to catch a cold!\"{wait}"
   },
   {
    "id": "HMAP26_66:192",
    "jp": "「風が 吹けば OKや！{n} もうかる！ もうかる！」{wait}",
-   "en": "\"It's an ill wind that blows... OK by me! Ka-ching! Ka-ching!\"{wait}"
+   "en": "\"It's an ill wind that blows nobody good... and it's blowing my way! Profits! Profits!\"{wait}"
   },
   {
    "id": "HMAP26_66:193",
    "jp": "「飼い犬の 手を{n} かむなっちゅーの！」{wait}",
-   "en": "\"Don't bite the hand that feeds you, I'm tellin' ya!\"{wait}"
+   "en": "\"Don't bite the dog that feeds you, for crying out loud!\"{wait}"
   },
   {
    "id": "HMAP26_66:194",
    "jp": "「カエルの子は カエルじゃなくて{n} おたまじゃくし でしょ！」{wait}",
-   "en": "\"Like frog, like son? No way, a frog's kid is a tadpole!\"{wait}"
+   "en": "\"Like father, like son? Not for frogs... the son's a tadpole!\"{wait}"
   },
   {
    "id": "HMAP26_66:195",
    "jp": "「二階から 目薬さすって{n} どういう場面？」{wait}",
-   "en": "\"Eyedrops from the second floor... when would you even do that?\"{wait}"
+   "en": "\"Like looking for a needle in a haystack? Who drops needles in hay, anyway?\"{wait}"
   },
   {
    "id": "HMAP26_66:196",
    "jp": "「真綿で 首をしめるって{n} 面倒でないかい？」{wait}",
-   "en": "\"Killing with kindness... isn't that kind of a hassle?\"{wait}"
+   "en": "\"Killing with kindness? Sounds like an awful lot of work!\"{wait}"
   },
   {
    "id": "HMAP26_66:197",
    "jp": "「サルも 木から{n} オチを いう！」{wait}",
-   "en": "\"Even monkeys drop... punchlines from trees!\"{wait}"
+   "en": "\"Even monkeys drop... the punchline!\"{wait}"
   },
   {
    "id": "HMAP26_66:198",
    "jp": "「三十六計 逃げるに 叱らず！」{n}{wait}",
-   "en": "\"He who runs away... won't get scolded!\"{wait}"
+   "en": "\"He who runs away lives to... not get scolded!\"{wait}"
   },
   {
    "id": "HMAP26_66:199",
    "jp": "「覆水 盆に帰らにゃ 盆踊り！」{n}{wait}",
-   "en": "\"No use crying over spilled milk... do the Bon dance!\"{wait}"
+   "en": "\"No use crying over spilled milk... just dance in the puddle!\"{wait}"
   },
   {
    "id": "HMAP26_66:200",
    "jp": "「かわいい子には 足袋を履かせろ！」{n}{wait}",
-   "en": "\"Spare the rod, spoil the child... with socks!\"{wait}"
+   "en": "\"If you love your child, send them out into the world... in warm socks!\"{wait}"
   },
   {
    "id": "HMAP26_66:201",
    "jp": "「憎まれっ子 妙に幅がある！」{n}{wait}",
-   "en": "\"Ill weeds grow... strangely wide!\"{wait}"
+   "en": "\"Only the good die young... the bad just grow oddly wide!\"{wait}"
   },
   {
    "id": "HMAP26_66:202",
    "jp": "「犬も歩けば ぼーっとする！」{n}{wait}",
-   "en": "\"Every dog has its daydream!\"{wait}"
+   "en": "\"Every dog has its day... off!\"{wait}"
   },
   {
    "id": "HMAP26_66:203",
    "jp": "「キジも鳴かずば 歌えない！」{n}{wait}",
-   "en": "\"A pheasant that won't squawk can't sing!\"{wait}"
+   "en": "\"A watched pheasant never sings!\"{wait}"
   },
   {
    "id": "HMAP26_66:204",
    "jp": "「馬の耳を 見物！」{n}{wait}",
-   "en": "\"Sightseeing in a horse's ear!\"{wait}"
+   "en": "\"Don't look a gift horse in the ears!\"{wait}"
   },
   {
    "id": "HMAP26_66:205",
    "jp": "「桃栗三年 カキは広島に限る！」{n}{wait}",
-   "en": "\"Peaches and chestnuts take three years, but oysters? Gotta be Hiroshima!\"{wait}"
+   "en": "\"Peaches and chestnuts take three years to bear fruit... but oysters are best from Hiroshima!\"{wait}"
   },
   {
    "id": "HMAP26_66:206",
    "jp": "「百聞は 一軒家に近づく！」{n}{wait}",
-   "en": "\"Seeing is believing... in real estate!\"{wait}"
+   "en": "\"Seeing is be-leasing!\"{wait}"
   },
   {
    "id": "HMAP26_66:207",
    "jp": "「負け犬の 逃亡！」{n}{wait}",
-   "en": "\"The underdog's great escape!\"{wait}"
+   "en": "\"Every underdog has its getaway!\"{wait}"
   },
   {
    "id": "HMAP26_66:208",
    "jp": "「雀百まで 踊るあほうに{n} 見るあほう！」{wait}",
-   "en": "\"Old sparrows never forget their dance... fools who dance, fools who watch!\"{wait}"
+   "en": "\"A sparrow never forgets its dance... and a fool who watches is still a fool!\"{wait}"
   },
   {
    "id": "HMAP26_66:209",
    "jp": "「敵に塩を おごる！」{n}{wait}",
-   "en": "\"Give your enemy salt... and pick up the tab!\"{wait}"
+   "en": "\"Keep your friends close and your enemies... over for dinner!\"{wait}"
   },
   {
    "id": "HMAP26_66:210",
    "jp": "「二度あることは サンダル！」{n}{wait}",
-   "en": "\"Third time's a... shoe-in!\"{wait}"
+   "en": "\"Things come in threes... but sandals come in twos!\"{wait}"
   },
   {
    "id": "HMAP26_66:211",
    "jp": "「枯れ木も 山のような{n} にぎり寿司！」{wait}",
-   "en": "\"Even dead trees make a mountain... of sushi!\"{wait}"
+   "en": "\"The more the merrier... and the bigger the sushi platter!\"{wait}"
   },
   {
    "id": "HMAP26_66:212",
    "jp": "「聞いて極楽 見てくれだけが{n} 人間じゃない！」{wait}",
-   "en": "\"Sounds like heaven... and looks aren't everything!\"{wait}"
+   "en": "\"Heaven is in the eye of the beholder... looks aren't everything!\"{wait}"
   },
   {
    "id": "HMAP26_66:213",
    "jp": "「負けるが カチカチ山！」{n}{wait}",
-   "en": "\"Lose the battle, win Kachikachi Mountain!\"{wait}"
+   "en": "\"He who loses, wins... on Kachikachi Mountain!\"{wait}"
   },
   {
    "id": "HMAP26_66:214",
    "jp": "「鬼に カナブン！」{n}{wait}",
-   "en": "\"An oni with a club... I mean, a beetle!\"{wait}"
+   "en": "\"Like giving an oni a club... I mean, a June bug!\"{wait}"
   },
   {
    "id": "HMAP26_66:215",
@@ -1358,7 +1358,7 @@
   {
    "id": "HMAP26_66:270",
    "jp": "湯けむりの宿",
-   "en": "Hot Spring Inn in the Steam"
+   "en": "Steamy Hot Spring Inn"
   }
  ]
 }

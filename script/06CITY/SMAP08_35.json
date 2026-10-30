@@ -78,7 +78,7 @@
   {
    "id": "SMAP08_35:014",
    "jp": "桃太郎は{n}{col10}浴衣美人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Yukata Beauty Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Yukata Beauty Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP08_35:015",
@@ -258,7 +258,7 @@
   {
    "id": "SMAP08_35:050",
    "jp": "桃太郎は{n}{col4}仙人の桃{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Hermit's Peach{col0}!{c19}{wait}"
+   "en": "Momotaro got a {col4}Hermit's Peach{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP08_35:051",
@@ -278,7 +278,7 @@
   {
    "id": "SMAP08_35:054",
    "jp": "「よーし！ 決めた！{n} オラ お前の 仲間に{n} なってやるよ！」{wait}{n}「オラが 仲間になれば{n} 百人力だ！」{n}{wait}{n}「なかよくしようぜ！{n} 桃太郎！」{n}{wait}",
-   "en": "\"Alright! I've made up my mind! I'm gonna be one of your friends!\"{wait}\"With me as your friend, you're as strong as a hundred men!\"{wait}\"Let's get along, Momotaro!\"{wait}"
+   "en": "\"Alright! I've made up my mind! I'm joinin' up with ya!\"{wait}\"With me on your side, you're as strong as a hundred men!\"{wait}\"Let's be pals, Momotaro!\"{wait}"
   },
   {
    "id": "SMAP08_35:055",
@@ -318,7 +318,7 @@
   {
    "id": "SMAP08_35:062",
    "jp": "「これ あげるよ！{n} 金太郎の あんちゃんと{n} なかよくしてね！」{wait}",
-   "en": "\"Here, have this! Be good friends with big brother Kintaro!\"{wait}"
+   "en": "\"Here, have this! Be good friends with Big Bro Kintaro!\"{wait}"
   },
   {
    "id": "SMAP08_35:063",

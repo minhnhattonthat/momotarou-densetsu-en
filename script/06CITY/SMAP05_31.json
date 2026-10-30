@@ -38,22 +38,22 @@
   {
    "id": "SMAP05_31:006",
    "jp": "「ほーーほっほっほっ！」{n}{n}{wait}{n}「あなたは{n} 私が みこんだとおりの{n} 正直者の ようですね」{wait}{n}「その 正直な あなたに{n} すてきな おくりものを{n} あげましょう！」{wait}{n}「さあ この すばらしい品を{n} 持っていきなさい」{n}{wait}",
-   "en": "\"Ohhh-hohohoho!\"{wait}\"You seem to be an honest one, just as I thought.\"{wait}\"To an honest one like you, I shall give a lovely present!\"{wait}\"Now, take this splendid item with you.\"{wait}"
+   "en": "\"Ohhh-hohohoho!\"{wait}\"You seem to be an honest soul, just as I thought.\"{wait}\"To an honest soul like you, I shall give a lovely present!\"{wait}\"Now, take this splendid item with you.\"{wait}"
   },
   {
    "id": "SMAP05_31:007",
    "jp": "桃太郎は{n}{col4}金のウンチ{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Gold Poop{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col4}Gold Poop{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP05_31:008",
    "jp": "桃太郎は{n}{col4}銀のウンチ{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Silver Poop{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col4}Silver Poop{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP05_31:009",
    "jp": "桃太郎は{n}{col10}ウンチの女神カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Poop Goddess Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Poop Goddess Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP05_31:010",

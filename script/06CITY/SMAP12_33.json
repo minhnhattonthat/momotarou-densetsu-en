@@ -198,7 +198,7 @@
   {
    "id": "SMAP12_33:038",
    "jp": "ゴク ゴク ゴクッ！{n}{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": "Gulp gulp gulp! {str}'s SP and HP were fully restored!{wait}"
+   "en": "Gulp gulp gulp! {str} recovered all SP and HP!{wait}"
   },
   {
    "id": "SMAP12_33:039",
@@ -263,7 +263,7 @@
   {
    "id": "SMAP12_33:051",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな！」{wait}",
-   "en": "\"Momotaro-san gets the map I drew, I reckon.\"{wait}"
+   "en": "\"Here's the map I drew for you, Momotaro-san, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:052",
@@ -273,7 +273,7 @@
   {
    "id": "SMAP12_33:053",
    "jp": "「残りの 地図も 桃太郎さんに{n} あげるから 旅先で ボクを{n} 見つけて ほしいんだな！」{wait}",
-   "en": "\"I'll give Momotaro-san the rest of the map too, so you'd best find me on your travels, I reckon.\"{wait}"
+   "en": "\"I'll give you the rest of the map too, Momotaro-san, so I want you to find me on your travels, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:054",

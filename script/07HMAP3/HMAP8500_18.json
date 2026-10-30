@@ -23,7 +23,7 @@
   {
    "id": "HMAP8500_18:003",
    "jp": "「桃太郎さんの カードと{n} 別のカードを 交換しようと{n} いってくるから」{wait}{n}「交換したければ はい{n} したくなければ いいえを{n} えらぶことじゃ！」{wait}",
-   "en": "\"They'll offer to trade one of your cards, Momotaro-san, for a different card, so...\"{wait}\"if you want to trade, choose Yes, and if not, choose No!\"{wait}"
+   "en": "\"They'll offer to trade one of your cards, Momotaro-san, for a different one.\"{wait}\"If you want to trade, choose Yes. If not, choose No!\"{wait}"
   },
   {
    "id": "HMAP8500_18:004",
@@ -38,12 +38,12 @@
   {
    "id": "HMAP8500_18:006",
    "jp": "「ほかに カードを 売る人や{n} 話を するだけの人も{n} おりますぞ！」{wait}{n}「…といっても だいじな 話を{n} 知ってる人も いるから」{n}{wait}",
-   "en": "\"There are also people who sell cards, and people who just chat!\"{wait}\"...That said, some of them know important things, so...\"{wait}"
+   "en": "\"There are also people who sell cards, and people who just chat!\"{wait}\"...That said, some of them know important things.\"{wait}"
   },
   {
    "id": "HMAP8500_18:007",
    "jp": "「全員と 話すのを{n} わすれないようにな！」{n}{wait}",
-   "en": "\"don't forget to talk to everyone!\"{wait}"
+   "en": "\"So don't forget to talk to everyone!\"{wait}"
   },
   {
    "id": "HMAP8500_18:008",

@@ -13,7 +13,7 @@
   {
    "id": "WMAP02_28:001",
    "jp": "「はやあしの術は{n} ×ボタンを 押しながら 歩くと{n} スピードアップできる 術ぢゃ！」{wait}{n}「わしは のんびり 歩いたほうが{n} ええと 思うのぢゃが」{n}{wait}{n}「お前が せっかちなほうなら{n} この術を 教えてやるぞ！」{n}{wait}{n}「どうぢゃ？ ほしいか？」{n}{n}",
-   "en": "\"The Dash art lets you speed up by walking while holding the X button!\"{wait}\"Myself, I think it's better to stroll along at your leisure,\"{wait}\"but if you're the impatient sort, I'll teach you this art!\"{wait}\"Well? Do you want it?\""
+   "en": "\"The Dash art lets you speed up by walking while holding the Cross button!\"{wait}\"Myself, I think it's better to stroll along at your leisure,\"{wait}\"but if you're the impatient sort, I'll teach you this art!\"{wait}\"Well? Do you want it?\""
   },
   {
    "id": "WMAP02_28:002",

@@ -28,12 +28,12 @@
   {
    "id": "SUIEI_9:004",
    "jp": "「桃太郎サン ヤッタアルネ！{n} スゴイ記録デ 1位アルネ！」{n}{wait}{n}「オメデト！ オメデト！{n} シェーシェー！ オメデト！」{n}{wait}{n}「賞金1000両{n} モッテイクアルネ！」{n}{wait}{n}「マタ クルヨロシ！{n} ショッカーO野(芸名){n} マッテルアルヨ～！」{wait}",
-   "en": "\"Momotaro-san, you do it, yes! Super record, first place, yes!\"{wait}\"Congratulation! Congratulation! Xie xie! Congratulation!\"{wait}\"Prize money 1000 ryo, you take, yes!\"{wait}\"Come again, please! Shocker O-no (stage name) wait for you, yes~!\"{wait}"
+   "en": "\"Momotaro-san, you did it, yes! Super record, first place, yes!\"{wait}\"Congratulations! Congratulations! Xie xie! Congratulations!\"{wait}\"Take your 1,000 ryo prize money, yes!\"{wait}\"Come again, please! Shocker O-no (stage name) waits for you, yes~!\"{wait}"
   },
   {
    "id": "SUIEI_9:005",
    "jp": "「ウ～～～～～ン！{n} 桃太郎サン 惜シイアルネ！{n} モウチョット ダッタヨ！」{wait}{n}「コノママ 帰ルノ{n} サミシイ アルネ！」{n}{wait}{n}「コレ モッテケ！{n} ワタシノ 昼メシアルヨ！」{n}{wait}{n}桃太郎は{n}{col4}{str}{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "\"Uuuuuuun! Momotaro-san, so close, yes! Only little bit more!\"{wait}\"You go home like this, so sad, yes!\"{wait}\"Take this! Is my lunch, yes!\"{wait}Momotaro got {col4}{str}{col0}!{c19}{wait}"
+   "en": "\"Ooooooh! Momotaro-san, so close, yes! Just a little bit more!\"{wait}\"Going home like this is too sad, yes!\"{wait}\"Take this! It's my lunch, yes!\"{wait}Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "SUIEI_9:006",
@@ -93,12 +93,12 @@
   {
    "id": "SUIEI_9:017",
    "jp": "「さいころ2コ ごろごろシタラ{n} ○ぼたん 押スアルネ！」{n}{wait}{n}「桃太郎サン 泳グアルネ！」{n}{n}{wait}{n}「行ッテ 帰ッテ{n} ごーるアルヨ！」{n}{wait}{n}「ミゴト 1位ニナルト{n} 賞金1000両 モラエルアルネ！{n} ガンバルヨロシ！」{wait}{n}「モウスグ ハジマルヨ～！」{n}{n}{wait}",
-   "en": "\"Two dice go roll-roll, then push Circle button, yes!\"{wait}\"Then Momotaro-san swim, yes!\"{wait}\"Go there, come back, that is goal, yes!\"{wait}\"You get first place, you win prize money 1000 ryo, yes! Do best, please!\"{wait}\"Start very soon, yes~!\"{wait}"
+   "en": "\"Roll-roll the two dice, then push the Circle button, yes!\"{wait}\"Then Momotaro-san swims, yes!\"{wait}\"Swim there and back to the goal, yes!\"{wait}\"Take first place and you win 1,000 ryo prize money, yes! Do your best!\"{wait}\"Starting very soon, yes~!\"{wait}"
   },
   {
    "id": "SUIEI_9:018",
    "jp": "「アイヤ～ 桃太郎サン！{n} ゼンゼン ダメアルヨ！」{n}{wait}{n}「コレニ コリズニ モイチド{n} チャレンジ シテホシイノ{n} ココロヨ！」{wait}{n}「マタ クル ヨロシ！」{n}{n}{wait}",
-   "en": "\"Aiyaaa, Momotaro-san! No good at all, yes!\"{wait}\"Don't give up, try one more time, I wish from my heart, yes!\"{wait}\"Come again, please!\"{wait}"
+   "en": "\"Aiyaaa, Momotaro-san! No good at all, yes!\"{wait}\"Don't give up! Try one more time, I hope from my heart, yes!\"{wait}\"Come again, please!\"{wait}"
   }
  ]
 }

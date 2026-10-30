@@ -164,7 +164,7 @@
   {
    "id": "SMAP03_113:031",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「おや 桃太郎さん！{n} どうしました？」{n}{wait}{n}「え！ こめだわらが{n} ご入用なんですか？」{n}{wait}{n}「お安い ごようです！{n} どうぞ これを{n} お持ちください！」{wait}{n}桃太郎は {c19}{col4}こめだわら{col0}を{n}手に 入れた！{n}{wait}",
-   "en": "\"Squeak squeak!\"{wait}\"Oh, Momotaro-san! What's the matter?\"{wait}\"What! You need a Rice Bale?\"{wait}\"No trouble at all! Here, please take this!\"{wait}Momotaro got {c19}{col4}Rice Bale{col0}!{wait}"
+   "en": "\"Squeak squeak!\"{wait}\"Oh, Momotaro-san! What's the matter?\"{wait}\"What! You need a Rice Bale?\"{wait}\"No trouble at all! Here, please take this!\"{wait}Momotaro got a {c19}{col4}Rice Bale{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:032",
@@ -284,7 +284,7 @@
   {
    "id": "SMAP03_113:055",
    "jp": "「チュー チュー！」{n}{n}{wait}{n}「桃太郎さん！{n} いろいろ ごめいわくを{n} おかけしました！」{wait}{n}「これは おわびの{n} しるしです！{n} うけとってください！」{wait}{n}桃太郎は{n}{c19}{col10}長老ネズミカード{col0} を{n}手に 入れた！{wait}",
-   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! We've caused you all sorts of trouble!\"{wait}\"This is a token of our apology! Please accept it!\"{wait}Momotaro got {c19}{col10}Mouse Elder Card{col0}!{wait}"
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! We've caused you all sorts of trouble!\"{wait}\"This is a token of our apology! Please accept it!\"{wait}Momotaro got the {c19}{col10}Mouse Elder Card{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:056",
@@ -314,7 +314,7 @@
   {
    "id": "SMAP03_113:061",
    "jp": "「いつでも ごはんが{n} 食べられるって{n} 幸せですね！ 桃太郎さん！」{wait}",
-   "en": "\"Being able to eat whenever you like is happiness, isn't it, Momotaro-san!\"{wait}"
+   "en": "\"Being able to eat whenever you like... that's real happiness, isn't it, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP03_113:062",
@@ -329,7 +329,7 @@
   {
    "id": "SMAP03_113:064",
    "jp": "「チュー！ チュー！{n} 桃太郎さん！」{n}{wait}{n}「これ 村で とれた お米で{n} 作った おにぎりです！{n} お一つ どうぞ！」{wait}{n}桃太郎は{n}{c19}{col4}おにぎり{col0} を{n}手に入れた！{wait}",
-   "en": "\"Squeak squeak! Momotaro-san!\"{wait}\"This is a rice ball made from rice grown in our village! Please, have one!\"{wait}Momotaro got {c19}{col4}Rice Ball{col0}!{wait}"
+   "en": "\"Squeak squeak! Momotaro-san!\"{wait}\"This is a rice ball made from rice grown in our village! Please, have one!\"{wait}Momotaro got a {c19}{col4}Rice Ball{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:065",
@@ -339,7 +339,7 @@
   {
    "id": "SMAP03_113:066",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さんは{n} 村の おんじんです！{n} これをどうぞ！」{wait}{n}桃太郎は{n}{col4}毒消し{col0} を{n}手に入れた！{wait}",
-   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san, you're our village's savior! Please, take this!\"{wait}Momotaro got {col4}Antidote{col0}!{wait}"
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san, you're our village's savior! Please, take this!\"{wait}Momotaro got an {col4}Antidote{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:067",
@@ -394,12 +394,12 @@
   {
    "id": "SMAP03_113:077",
    "jp": "桃太郎は{n}{col10}ネズミ男カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Mouse Man Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Mouse Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP03_113:078",
    "jp": "桃太郎は{n}{col10}ネズミ女カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Mouse Woman Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Mouse Woman Card{col0}!{c19}{wait}"
   }
  ]
 }

@@ -43,7 +43,7 @@
   {
    "id": "WMAP16_28:007",
    "jp": "「なんぢゃ！ すでに お前たちは{n} なにも 持ち物を{n} もっておらんのか！」{wait}{n}「てまわしが いいと いうか{n} お金の たまらん やつというか{n} まあ！ なんでも よいわい！」{wait}",
-   "en": "\"What's this! You guys have no belongings at all already!\"{wait}\"Either you're well prepared, or you just can't hang on to money... Oh well! Whatever!\"{wait}"
+   "en": "\"What's this! You lot have nothing on you at all!\"{wait}\"Either you're well prepared, or you just can't hang on to money... Oh well! Whatever!\"{wait}"
   },
   {
    "id": "WMAP16_28:008",
@@ -78,7 +78,7 @@
   {
    "id": "WMAP16_28:014",
    "jp": "「当たるも 吐き気！{n} 当たらぬも 吐き気！」{n}{wait}",
-   "en": "\"Hit or miss, either way you'll feel sick!\"{wait}"
+   "en": "\"Fortune-telling: hit or miss... or hurl!\"{wait}"
   }
  ]
 }

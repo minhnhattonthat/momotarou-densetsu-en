@@ -28,12 +28,12 @@
   {
    "id": "WMAP21_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」",
-   "en": "\"I'll be waiting right here for as long as it takes!\"{wait}\"Now go, Momotaro!\""
+   "en": "\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\""
   },
   {
    "id": "WMAP21_28:005",
    "jp": "「わざわけの術は{n} 自分の 技を 仲間に{n} わけあたえることが できるのぢゃ」{wait}{n}「この 術を 覚えるのは{n} 夜叉姫が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}",
-   "en": "\"The SP Share art lets you share your own SP with your friends.\"{wait}\"Yashahime is the one fit to learn this art!\"{wait}\"Learn my art quickly and go punish those oni!\"{wait}\"But first, you'll have to go through my rather tough training!\"{wait}"
+   "en": "\"The SP Share art lets you share your own SP with your friends.\"{wait}\"Yashahime is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}"
   },
   {
    "id": "WMAP21_28:006",

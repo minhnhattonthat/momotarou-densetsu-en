@@ -18,7 +18,7 @@
   {
    "id": "SMAP22_35:002",
    "jp": "「たいへんじゃあ！{n} 鬼が となり村への道に{n} たてこもっちまった！」{wait}{n}「これじゃ おりひめの村に{n} いくことが できねえだよ！」{n}{wait}",
-   "en": "\"It's terrible! Oni have holed up on the road to the next village!\"{wait}\"Now we can't get to Orihime Village!\"{wait}"
+   "en": "\"It's terrible! Oni've gone an' holed up on the road to the next village!\"{wait}\"Now there ain't no way to get to Orihime Village!\"{wait}"
   },
   {
    "id": "SMAP22_35:003",
@@ -28,12 +28,12 @@
   {
    "id": "SMAP22_35:004",
    "jp": "「鬼が となり村への道を{n} 通れなくして しまっただよ！」{n}{wait}{n}「たなばた祭りが{n} 近いと いうのに！」{n}{wait}",
-   "en": "\"The oni have blocked off the road to the next village!\"{wait}\"And with the Tanabata Festival so close!\"{wait}"
+   "en": "\"The oni went an' blocked off the road to the next village!\"{wait}\"And with the Tanabata Festival so close!\"{wait}"
   },
   {
    "id": "SMAP22_35:005",
    "jp": "「これで うかれたら{n} バチが あたるでよ！{n} せっせと はたらくだよ！」{wait}",
-   "en": "\"If we get carried away now, we'll be punished for sure! Back to hard work!\"{wait}"
+   "en": "\"If we go gettin' carried away now, we'll be punished for sure! Back to workin' hard!\"{wait}"
   },
   {
    "id": "SMAP22_35:006",
@@ -43,7 +43,7 @@
   {
    "id": "SMAP22_35:007",
    "jp": "「これから 男の 人と{n} 助けあって すてきな 村に{n} していきますわ 桃太郎さん！」{wait}",
-   "en": "\"From now on we'll help each other with the men and make this a wonderful village, Momotaro-san!\"{wait}"
+   "en": "\"From now on we'll work together with the men to make this a wonderful village, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP22_35:008",
@@ -53,7 +53,7 @@
   {
    "id": "SMAP22_35:009",
    "jp": "「これで うかれたら{n} バチが あたるでよ！{n} せっせと はたらくだよ！」{wait}",
-   "en": "\"If we get carried away now, we'll be punished for sure! Back to hard work!\"{wait}"
+   "en": "\"If we go gettin' carried away now, we'll be punished for sure! Back to workin' hard!\"{wait}"
   },
   {
    "id": "SMAP22_35:010",
@@ -63,7 +63,7 @@
   {
    "id": "SMAP22_35:011",
    "jp": "「これで うかれたら{n} バチが あたるでよ！{n} せっせと はたらくだよ！」{wait}",
-   "en": "\"If we get carried away now, we'll be punished for sure! Back to hard work!\"{wait}"
+   "en": "\"If we go gettin' carried away now, we'll be punished for sure! Back to workin' hard!\"{wait}"
   },
   {
    "id": "SMAP22_35:012",
@@ -278,7 +278,7 @@
   {
    "id": "SMAP22_35:054",
    "jp": "「桃太郎さんたちが{n} 海へ 出て行けるよう{n} ほかけ船を よういしました」{wait}",
-   "en": "\"We have prepared a sailing ship so that you, Momotaro-san, and your friends can set out to sea.\"{wait}"
+   "en": "\"Momotaro-san, we have readied a sailing ship so that you and your friends can set out to sea.\"{wait}"
   },
   {
    "id": "SMAP22_35:055",
@@ -303,7 +303,7 @@
   {
    "id": "SMAP22_35:059",
    "jp": "桃太郎は{n}{col4}おりひめの笛{col0}を{n}手に 入れた！{c19}{wait}",
-   "en": "Momotaro got the {col4}Orihime's Flute{col0}!{c19}{wait}"
+   "en": "Momotaro got {col4}Orihime's Flute{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP22_35:060",
@@ -343,7 +343,7 @@
   {
    "id": "SMAP22_35:067",
    "jp": "「カエルの子は カエルじゃなくて{n} おたまじゃくし でしょ！」{n}{wait}",
-   "en": "\"Like frog, like son? Nope, the son's a tadpole!\"{wait}"
+   "en": "\"Like father, like son? Not for frogs... the son's a tadpole!\"{wait}"
   },
   {
    "id": "SMAP22_35:068",
@@ -353,7 +353,7 @@
   {
    "id": "SMAP22_35:069",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな！」{wait}",
-   "en": "\"Momotaro-san gets the map I drew, I reckon.\"{wait}"
+   "en": "\"Here's the map I drew for you, Momotaro-san, I reckon.\"{wait}"
   },
   {
    "id": "SMAP22_35:070",
@@ -373,7 +373,7 @@
   {
    "id": "SMAP22_35:073",
    "jp": "「鬼も十八 婆ちゃんの出番！」{n}{n}{wait}",
-   "en": "\"Even an oni is pretty at eighteen... and now it's Granny's turn!\"{wait}"
+   "en": "\"Age before beauty... so it's Granny's turn!\"{wait}"
   },
   {
    "id": "SMAP22_35:074",

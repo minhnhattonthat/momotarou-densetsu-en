@@ -59,7 +59,7 @@
   {
    "id": "SMAP06_36:010",
    "jp": "「おっ！ 希望の都の{n} なかまの 芸を{n} 見てくれましたか？」{wait}{n}「そうですか！{n} あいつらも 元気で{n} やってましたか！」{wait}{n}「そうだ！ おとくいさんには{n} サービスしなくっちゃ！{n} さあ！ これを どうぞ！」{wait}{n}桃太郎は{n}{col10}サル回しの男カード{col0}を{n}手に入れた！{wait}",
-   "en": "\"Oh! Did you see my pals' act in the Capital of Hope?\"{wait}\"Is that so! So they're doing well too!\"{wait}\"I know! I've gotta treat a good customer right! Here! This is for you!\"{wait}Momotaro got {col10}Monkey Trainer Card{col0}!{wait}"
+   "en": "\"Oh! Did you see my pals' act in the Capital of Hope?\"{wait}\"Is that so! So they're doing well too!\"{wait}\"I know! I've gotta treat a good customer right! Here! This is for you!\"{wait}Momotaro got the {col10}Monkey Trainer Card{col0}!{wait}"
   },
   {
    "id": "SMAP06_36:011",
@@ -109,7 +109,7 @@
   {
    "id": "SMAP06_36:020",
    "jp": "桃太郎は{n}{col4}ふつうの花の種{col0}を うけとった！{n}{wait}",
-   "en": "Momotaro received {col4}Plain Flower Seeds{col0}!{wait}"
+   "en": "Momotaro received the {col4}Plain Flower Seeds{col0}!{wait}"
   },
   {
    "id": "SMAP06_36:021",
@@ -144,12 +144,12 @@
   {
    "id": "SMAP06_36:027",
    "jp": "{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": "SP and HP were fully restored for {str}!{wait}"
+   "en": "{str} recovered all SP and HP!{wait}"
   },
   {
    "id": "SMAP06_36:028",
    "jp": "「おなか いっぱいなのかモー！」{n}{n}",
-   "en": "\"Are you full already, moo?\""
+   "en": "\"Is your tummy full? Moo!\""
   },
   {
    "id": "SMAP06_36:029",
@@ -159,7 +159,7 @@
   {
    "id": "SMAP06_36:030",
    "jp": "「ゲーーップ！」{n}{n}{wait}{n}「桜もち 食いすぎちまった！」{n}{n}{wait}{n}「こっちの やつは もう{n} 食いきれねえから 桃太郎さん！{n} あんた 持ってってくれ！」{wait}{n}桃太郎は 村人から{n}{col4}きびだんご{col0}を うけとった！{n}{wait}",
-   "en": "\"Buuurp!\"{wait}\"I ate too many cherry blossom mochi!\"{wait}\"I can't finish these, so you take 'em, Momotaro-san!\"{wait}Momotaro received {col4}Millet Dumpling{col0} from the villager!{wait}"
+   "en": "\"Buuurp!\"{wait}\"I ate too many cherry blossom mochi!\"{wait}\"I can't finish these, so you take 'em, Momotaro-san!\"{wait}Momotaro received a {col4}Millet Dumpling{col0} from the villager!{wait}"
   },
   {
    "id": "SMAP06_36:031",
@@ -259,7 +259,7 @@
   {
    "id": "SMAP06_36:050",
    "jp": "「そう そう！」{n}{n}{wait}{n}「うちのポチは それはそれは{n} りこうな イヌです！」{n}{wait}{n}「桃太郎さんの お供に なれば{n} きっと お役に 立つでしょう！」{n}{wait}{n}「どうか お供に{n} してやってください！」{n}{wait}",
-   "en": "\"Oh, yes!\"{wait}\"My Pochi is ever so clever a dog!\"{wait}\"If he became your companion, Momotaro-san, I'm sure he'd be a great help!\"{wait}\"Please, take him on as your companion!\"{wait}"
+   "en": "\"Oh, yes!\"{wait}\"My Pochi is a very, very clever dog!\"{wait}\"If he became your companion, Momotaro-san, I'm sure he'd be a great help!\"{wait}\"Please, take him on as your companion!\"{wait}"
   },
   {
    "id": "SMAP06_36:051",
@@ -424,7 +424,7 @@
   {
    "id": "SMAP06_36:083",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「石の上にも 何やねんっ！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": "There's a proverb written here!{wait}\"Patience is a... so WHAT?!\"{wait}Oh, come on!{wait}"
+   "en": "There's a proverb written here!{wait}\"Patience is a virtue... so WHAT?!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP06_36:084",
@@ -434,7 +434,7 @@
   {
    "id": "SMAP06_36:085",
    "jp": "桃太郎は{n}{col10}花咲かじいさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Old Man Hanasaka Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Old Man Hanasaka Card{col0}!{c19}{wait}"
   }
  ]
 }

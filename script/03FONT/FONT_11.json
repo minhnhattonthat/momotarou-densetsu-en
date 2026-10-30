@@ -483,7 +483,7 @@
   {
    "id": "FONT_11:095",
    "jp": "「夜空に かがやく{n} いく千の 星よ！{n} われに 力を あたえたまえ！」{wait}{n}{str}{str}の 体に{n}流れ星の 力が 加わった！{n}{wait}",
-   "en": "\"O thousands of stars shining in the night sky! Grant me your power!\"{wait}The power of the Shooting Star filled {str}{str}'s body!{wait}"
+   "en": "\"O countless stars shining in the night sky! Grant me your power!\"{wait}The power of the Shooting Star filled {str}{str}'s body!{wait}"
   },
   {
    "id": "FONT_11:096",

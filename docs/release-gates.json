@@ -1,0 +1,11 @@
+{
+  "visual": [
+    ["work/qa/phase8_cardsfix/tour_manifest.tsv", "work/qa/phase8_cardsfix/tour_verdicts"],
+    ["work/qa/graphics_final/manifest.tsv", "work/qa/graphics_final/verdicts"],
+    ["work/qa/boards_final/manifest.tsv", "work/qa/boards_final/verdicts"],
+    ["work/qa/cards_final_pass/assets_manifest.tsv", "work/qa/cards_final_pass/asset_verdicts"],
+    ["work/qa/cards_final_pass/manifest.tsv", "work/qa/cards_final_pass/verdicts"],
+    ["work/qa/release/manifest.tsv", "work/qa/release/verdicts"]
+  ],
+  "story": ["work/qa/story/manifest.tsv", "work/qa/story/verdicts"]
+}

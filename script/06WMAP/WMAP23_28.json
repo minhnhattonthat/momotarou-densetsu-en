@@ -23,12 +23,12 @@
   {
    "id": "WMAP23_28:003",
    "jp": "「わしの 術は 浦島が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「おおっ なんということぢゃ！{n} その 浦島が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}",
-   "en": "\"Urashima is the one fit to learn my art!\"{wait}\"Oh, good heavens! Why, that very Urashima is badly injured!\"{wait}\"Momotaro! You're a child of courage who cares for his friends, aren't you?\"{wait}\"Hurry and take him to a doctor to get him healed!\"{wait}"
+   "en": "\"My art is fit for Urashima to learn!\"{wait}\"Oh! Why, what's this! That Urashima is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take him to a doctor and get him healed!\"{wait}"
   },
   {
    "id": "WMAP23_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」",
-   "en": "\"I'll be waiting right here for as long as it takes!\"{wait}\"Now go, Momotaro!\""
+   "en": "\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\""
   },
   {
    "id": "WMAP23_28:005",
@@ -38,7 +38,7 @@
   {
    "id": "WMAP23_28:006",
    "jp": "「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}",
-   "en": "\"Learn my art quickly and go punish those oni!\"{wait}\"But first, you'll have to go through my rather tough training!\"{wait}"
+   "en": "\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}"
   },
   {
    "id": "WMAP23_28:007",
@@ -68,7 +68,7 @@
   {
    "id": "WMAP23_28:012",
    "jp": "「ばいりきの術は{n} 浦島の 段が 上がると{n} ぱわぁあっぷ するのぢゃ！」{wait}{n}「強い敵と 戦うときは{n} 忘れずに 使うのぢゃ！{n} よいな！」{wait}",
-   "en": "\"The Power art gets a pow-wer up as Urashima's level rises!\"{wait}\"When you fight a strong enemy, don't forget to use it! Understood?\"{wait}"
+   "en": "\"The Power art gets a powwwer-up as Urashima's level rises!\"{wait}\"When you fight a strong enemy, don't forget to use it! Understood?\"{wait}"
   },
   {
    "id": "WMAP23_28:013",

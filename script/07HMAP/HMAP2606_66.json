@@ -83,7 +83,7 @@
   {
    "id": "HMAP2606_66:015",
    "jp": "「じゃあ！ ヒントとして{n} 今回の 文字数を 教えるよ！{n} 今回の 文字数は {num}文字だよ！」{wait}",
-   "en": "\"Okay! As a hint, I'll tell you how many letters there are this time! This time the word has {num} letters!\"{wait}"
+   "en": "\"Okay! As a hint, I'll tell you how many letters there are this time! This time the saying has {num} letters!\"{wait}"
   },
   {
    "id": "HMAP2606_66:016",
@@ -163,7 +163,7 @@
   {
    "id": "HMAP2606_66:031",
    "jp": "「おまかせ！ え～っとね まずは…{n} ことばが できるまでの時間が{n} {num}分 {num}秒 ということは…」{wait}",
-   "en": "\"Leave it to me! Let's see... First of all, the time it took you to make the word was... minutes: {num}, seconds: {num}. So...\"{wait}"
+   "en": "\"Leave it to me! Let's see... First of all, the time it took you to make the word was... {num} min, {num} sec. So...\"{wait}"
   },
   {
    "id": "HMAP2606_66:032",
@@ -188,7 +188,7 @@
   {
    "id": "HMAP2606_66:036",
    "jp": "桃太郎は{n}{col4}仙人の桃{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Hermit's Peach{col0}!{c19}{wait}"
+   "en": "Momotaro got a {col4}Hermit's Peach{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP2606_66:037",
@@ -203,7 +203,7 @@
   {
    "id": "HMAP2606_66:039",
    "jp": "桃太郎は{n}{col4}根性の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Guts Orb{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP2606_66:040",
@@ -233,42 +233,42 @@
   {
    "id": "HMAP2606_66:045",
    "jp": "挨拶より円札",
-   "en": "Better cash than courtesy"
+   "en": "Cash over courtesy"
   },
   {
    "id": "HMAP2606_66:046",
    "jp": "小豆の豆腐",
-   "en": "Tofu from red beans"
+   "en": "Red-bean tofu"
   },
   {
    "id": "HMAP2606_66:047",
    "jp": "始めが大事",
-   "en": "Well begun is half done"
+   "en": "Start strong"
   },
   {
    "id": "HMAP2606_66:048",
    "jp": "雨垂れは三途の川",
-   "en": "Past the eaves lies the River of Death"
+   "en": "Death at your door"
   },
   {
    "id": "HMAP2606_66:049",
    "jp": "上には上がある",
-   "en": "There's always a bigger fish"
+   "en": "Always a bigger fish"
   },
   {
    "id": "HMAP2606_66:050",
    "jp": "石の上にも三年",
-   "en": "Three years on a cold stone"
+   "en": "Three years on a stone"
   },
   {
    "id": "HMAP2606_66:051",
    "jp": "兎に祭文",
-   "en": "Preaching to a rabbit"
+   "en": "Sermon to a rabbit"
   },
   {
    "id": "HMAP2606_66:052",
    "jp": "禍福は糾える縄の如し",
-   "en": "Fortune and misfortune twist like a rope"
+   "en": "Luck has its twists"
   },
   {
    "id": "HMAP2606_66:053",
@@ -278,17 +278,17 @@
   {
    "id": "HMAP2606_66:054",
    "jp": "思い立ったが吉日",
-   "en": "Any day you decide is a lucky day"
+   "en": "Today is a lucky day"
   },
   {
    "id": "HMAP2606_66:055",
    "jp": "手塩にかける",
-   "en": "Raised with loving care"
+   "en": "Raised with care"
   },
   {
    "id": "HMAP2606_66:056",
    "jp": "冬の雪売り",
-   "en": "Selling snow in winter"
+   "en": "Selling winter snow"
   },
   {
    "id": "HMAP2606_66:057",
@@ -298,7 +298,7 @@
   {
    "id": "HMAP2606_66:058",
    "jp": "親の心子知らず",
-   "en": "Kids never know a parent's heart"
+   "en": "Kids don't get parents"
   },
   {
    "id": "HMAP2606_66:059",
@@ -308,17 +308,17 @@
   {
    "id": "HMAP2606_66:060",
    "jp": "果報は寝て待て",
-   "en": "Sleep and wait for good luck"
+   "en": "Sleep, and luck comes"
   },
   {
    "id": "HMAP2606_66:061",
    "jp": "目は口ほどに物を言う",
-   "en": "The eyes say as much as the mouth"
+   "en": "The eyes speak too"
   },
   {
    "id": "HMAP2606_66:062",
    "jp": "可愛い子には旅をさせよ",
-   "en": "Send the child you love on a journey"
+   "en": "Let your child travel"
   },
   {
    "id": "HMAP2606_66:063",
@@ -333,27 +333,27 @@
   {
    "id": "HMAP2606_66:065",
    "jp": "毒を食らわば皿まで",
-   "en": "In for a penny, in for a pound"
+   "en": "In for a penny"
   },
   {
    "id": "HMAP2606_66:066",
    "jp": "鬼の目にも涙",
-   "en": "Even an oni can cry"
+   "en": "Even oni cry"
   },
   {
    "id": "HMAP2606_66:067",
    "jp": "嘘つきは泥棒の始まり",
-   "en": "A liar is a thief in the making"
+   "en": "Liars become thieves"
   },
   {
    "id": "HMAP2606_66:068",
    "jp": "苦あれば楽あり",
-   "en": "After pain comes pleasure"
+   "en": "Pain, then pleasure"
   },
   {
    "id": "HMAP2606_66:069",
    "jp": "高嶺の花",
-   "en": "A flower on a high peak"
+   "en": "Out of reach"
   },
   {
    "id": "HMAP2606_66:070",
@@ -363,32 +363,32 @@
   {
    "id": "HMAP2606_66:071",
    "jp": "立つ鳥後を濁さず",
-   "en": "A departing bird leaves the water clear"
+   "en": "Leave no mess behind"
   },
   {
    "id": "HMAP2606_66:072",
    "jp": "雨降って地固まる",
-   "en": "After rain, the ground grows firm"
+   "en": "Rain firms the ground"
   },
   {
    "id": "HMAP2606_66:073",
    "jp": "天は二物を与えず",
-   "en": "Heaven grants no one two gifts"
+   "en": "No one gets it all"
   },
   {
    "id": "HMAP2606_66:074",
    "jp": "笑う門には福来る",
-   "en": "Luck comes to those who smile"
+   "en": "Luck loves a smile"
   },
   {
    "id": "HMAP2606_66:075",
    "jp": "能ある鷹は爪を隠す",
-   "en": "The clever hawk hides its claws"
+   "en": "Keen hawks hide claws"
   },
   {
    "id": "HMAP2606_66:076",
    "jp": "転ばぬ先の杖",
-   "en": "Better safe than sorry"
+   "en": "Look before you leap"
   },
   {
    "id": "HMAP2606_66:077",
@@ -398,17 +398,17 @@
   {
    "id": "HMAP2606_66:078",
    "jp": "塵も積もれば山となる",
-   "en": "Even dust piles up into a mountain"
+   "en": "Every bit adds up"
   },
   {
    "id": "HMAP2606_66:079",
    "jp": "石橋を叩いて渡る",
-   "en": "Test the stone bridge before you cross"
+   "en": "Test the bridge first"
   },
   {
    "id": "HMAP2606_66:080",
    "jp": "一念岩をも通す",
-   "en": "Where there's a will, there's a way"
+   "en": "Will finds a way"
   },
   {
    "id": "HMAP2606_66:081",
@@ -418,12 +418,12 @@
   {
    "id": "HMAP2606_66:082",
    "jp": "覆水盆に返らず",
-   "en": "No use crying over spilt milk"
+   "en": "What's done is done"
   },
   {
    "id": "HMAP2606_66:083",
    "jp": "下手の横好き",
-   "en": "All zeal and no skill"
+   "en": "All zeal, no skill"
   },
   {
    "id": "HMAP2606_66:084",
@@ -443,12 +443,12 @@
   {
    "id": "HMAP2606_66:087",
    "jp": "「う～ん たしかに{n} あいさつだけじゃあ{n} 生きて いけないよね！」{wait}",
-   "en": "\"Hmm, it's true. You can't live on greetings alone!\"{wait}"
+   "en": "\"Hmm, it's true. You can't live on courtesy alone!\"{wait}"
   },
   {
    "id": "HMAP2606_66:088",
    "jp": "「あいさつ するなら 金をくれ！{n} てへへ ちょっと 古いピョン！」{n}{wait}",
-   "en": "\"Don't greet me, just give me cash! Hee hee, that one's a bit old, hop!\"{wait}"
+   "en": "\"Forget the courtesy, show me the money! Hee hee, that one's a bit dated, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:089",
@@ -463,7 +463,7 @@
   {
    "id": "HMAP2606_66:091",
    "jp": "「ボクは 大豆を おおまめ{n} 小豆を こまめって{n} 読んじゃったピョン！ てへ！」{wait}",
-   "en": "\"I thought red beans were just beans that got embarrassed, hop! Tee-hee!\"{wait}"
+   "en": "\"I always thought soybeans grew in soy sauce, hop! Tee-hee!\"{wait}"
   },
   {
    "id": "HMAP2606_66:092",
@@ -888,7 +888,7 @@
   {
    "id": "HMAP2606_66:176",
    "jp": "「ボク このまえ 自分の家で{n} その 鬼の目にも涙を{n} 見たんだピョン！」{wait}",
-   "en": "\"The other day, I saw an 'oni crying' at my own house, hop!\"{wait}"
+   "en": "\"The other day I saw an oni cry, right in my own house, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:177",
@@ -1148,7 +1148,7 @@
   {
    "id": "HMAP2606_66:228",
    "jp": "「そ…それは 食いいじが{n} はってる だけじゃあ……」{n}{wait}",
-   "en": "\"Th-that's just being a greedy guts...\"{wait}"
+   "en": "\"Th-that's just plain gluttony...\"{wait}"
   },
   {
    "id": "HMAP2606_66:229",

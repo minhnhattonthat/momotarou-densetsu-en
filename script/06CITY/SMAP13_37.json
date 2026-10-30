@@ -633,7 +633,7 @@
   {
    "id": "SMAP13_37:125",
    "jp": "「とちゅうで{n} 帰りたくなったら{n} ×ボタンを 押して下さい！」{wait}{n}「では ごゆっくり！」{n}{n}{wait}",
-   "en": "\"If you want to leave partway through, press the X button!\"{wait}\"Then enjoy!\"{wait}"
+   "en": "\"If you want to leave partway through, press the Cross button!\"{wait}\"Then enjoy!\"{wait}"
   },
   {
    "id": "SMAP13_37:126",

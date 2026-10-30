@@ -8,12 +8,12 @@
   {
    "id": "DMAP18_27:000",
    "jp": "「わしの 修行は この{n} 洞窟の おくまで いってくる{n} かんたんな 修行ぢゃ！」{wait}{n}「そうそう！{n} 一つだけ アドバイス{n} しておいてやろう！」{wait}{n}「どうしても 先に{n} 進めないようなら お供の{n} 手を かりると ええぢゃろう！」{wait}{n}「わしは 先に いって{n} 待って おるから{n} 早くこい！ ウヒャヒャ…」{wait}",
-   "en": "\"My training is a simple one: just make your way to the back of this cave!\"{wait}\"Oh, yes! Let me give you one piece of advice!\"{wait}\"If you just can't get any further, borrow a hand from your companions!\"{wait}\"I'll go on ahead and wait for you, so hurry along! Uhyahya...\"{wait}"
+   "en": "\"My training's a simple one! Just get yourself to the back of this cave!\"{wait}\"Oh, yes! Let an old man give you one piece of advice!\"{wait}\"If you truly can't get any further, borrow a hand from your companions, eh!\"{wait}\"I'll go on ahead and wait. Don't dawdle! Uhyahya...\"{wait}"
   },
   {
    "id": "DMAP18_27:001",
    "jp": "「よくぞ！ ここまで{n} たどりついた ものぢゃ！」{n}{wait}{n}「やくそく どおり{n} ふゆうの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}桃太郎は{n}{col4}ふゆうの術{col0}を 会得した！{n}{wait}",
-   "en": "\"Well done! You made it all the way here!\"{wait}\"As promised, I shall grant you the Float art! Uhyahya...\"{wait}Momotaro mastered the {col4}Float art{col0}!{wait}"
+   "en": "\"Well done! So you made it all the way here, did you!\"{wait}\"As promised, I shall bestow upon you the Float art! Uhyahya...\"{wait}Momotaro mastered the {col4}Float art{col0}!{wait}"
   },
   {
    "id": "DMAP18_27:002",

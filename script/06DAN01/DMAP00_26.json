@@ -13,7 +13,7 @@
   {
    "id": "DMAP00_26:001",
    "jp": "「おこしにつけた きびだんご{n} 一つ わたしに くださいな！」{n}",
-   "en": "\"That millet dumpling hanging at your hip, won't you give one to me, please?\""
+   "en": "\"Those millet dumplings hanging at your waist... won't you give one to me?\""
   },
   {
    "id": "DMAP00_26:002",
@@ -28,12 +28,12 @@
   {
    "id": "DMAP00_26:004",
    "jp": "「ケン ケン 桃太郎さん！{n} きびだんごを{n} お持ちでは ないようです！」{wait}{n}「きびだんごを いただけるまで{n} ここで お待ちしています！{n} ケン ケン！」{wait}",
-   "en": "\"Kek kek, Momotaro-san! It seems you don't have any millet dumplings!\"{wait}\"I shall wait right here until you can give me one! Kek kek!\"{wait}"
+   "en": "\"Kek kek, Momotaro-san! It seems you don't have any millet dumplings!\"{wait}\"I shall wait right here until you give me a millet dumpling! Kek kek!\"{wait}"
   },
   {
    "id": "DMAP00_26:005",
    "jp": "「ケン ケン 桃太郎さん！{n} あんまりです！」{n}{wait}{n}「そんな せっしょうなことを{n} おっしゃらずに…」{n}{wait}{n}「おこしにつけた きびだんご{n} 一つ わたしに くださいな！」{n}{wait}",
-   "en": "\"Kek kek, Momotaro-san! That's too cruel!\"{wait}\"Please don't say such heartless things...\"{wait}\"That millet dumpling hanging at your hip, won't you give one to me, please?\"{wait}"
+   "en": "\"Kek kek, Momotaro-san! That's too much!\"{wait}\"Please don't say such cruel things...\"{wait}\"Those millet dumplings hanging at your waist... won't you give one to me?\"{wait}"
   },
   {
    "id": "DMAP00_26:006",

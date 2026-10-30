@@ -18,7 +18,7 @@
   {
    "id": "OMAP00_45:002",
    "jp": "「えっ！ 竜宮城の カメを{n} 助けたんですか！」{n}{wait}{n}「じゃあ！ 浦島の村は{n} 助かったんですね！{n} よかったあ！ チュチュン！」{wait}",
-   "en": "\"What! You saved the turtle from Ryugu Palace?!\"{wait}\"Then Urashima Village is saved! Thank goodness! Chirp chirp!\"{wait}"
+   "en": "\"What! You saved the Turtle from Ryugu Palace?!\"{wait}\"Then Urashima Village is saved! Thank goodness! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_45:003",

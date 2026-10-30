@@ -174,7 +174,7 @@
   {
    "id": "SMAP04_35:033",
    "jp": "「うれしいのねん！{n} この よろこびの 気持ちを{n} 受け取ってほしいのねん！」{wait}",
-   "en": "\"I'm so happy, bombee! Please accept this as my happy feelings, bombee!\"{wait}"
+   "en": "\"I'm so happy, bombee! Please accept this as a token of my joy, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:034",
@@ -229,17 +229,17 @@
   {
    "id": "SMAP04_35:044",
    "jp": "「桃太郎さん！{n} お役に 立てましたか？{n} これを どうぞ！ ぷりっ！」{wait}{n}桃太郎は{n}{col10}鉄のウンチカード{col0}を{n}手に 入れた！{c19}{wait}",
-   "en": "\"Momotaro-san! Was I any help? Here, take this! Plop!\"{wait}Momotaro got {col10}Iron Poop Card{col0}!{c19}{wait}"
+   "en": "\"Momotaro-san! Was I any help? Here, take this! Plop!\"{wait}Momotaro got the {col10}Iron Poop Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:045",
    "jp": "「わっはっは！ オレ様は{n} 金の鬼だ！ わっはっは！」{n}{wait}{n}「オレ様に 逆らうのは{n} えんま様に 逆らうのも{n} 同じこと！」{wait}{n}「お前なんか ひとひねりだ！」{n}{n}{wait}{n}「いざ 勝負！ 勝負！」{n}{n}{wait}",
-   "en": "\"Wahaha! I am the Gold Oni! Wahaha!\"{wait}\"Defying me is the same as defying Enma-sama!\"{wait}\"I'll crush you with one twist!\"{wait}\"Now, fight! Fight me!\"{wait}"
+   "en": "\"Wahaha! I am the Gold Oni! Wahaha!\"{wait}\"Defying me is the same as defying Enma-sama!\"{wait}\"I'll squash you flat in no time!\"{wait}\"Now, fight! Fight me!\"{wait}"
   },
   {
    "id": "SMAP04_35:046",
    "jp": "「わっはっは！{n} しょうこりもなく{n} やってきたか 桃太郎！」{wait}{n}「この 金の鬼様が かるく{n} ひねりつぶしてくれるわ！」{n}{wait}",
-   "en": "\"Wahaha! Back again, and you never learn, Momotaro!\"{wait}\"I, the great Gold Oni, will twist you to pieces with ease!\"{wait}"
+   "en": "\"Wahaha! Back again, and you never learn, Momotaro!\"{wait}\"I, the great Gold Oni, will squash you like a bug!\"{wait}"
   },
   {
    "id": "SMAP04_35:047",
@@ -284,7 +284,7 @@
   {
    "id": "SMAP04_35:055",
    "jp": "なんと！ 目の前の{n}金の像が 動き出した！{wait}",
-   "en": "What's this! The golden statue in front of you started to move!{wait}"
+   "en": "What's this! The golden statue in front of Momotaro started to move!{wait}"
   },
   {
    "id": "SMAP04_35:056",
@@ -349,7 +349,7 @@
   {
    "id": "SMAP04_35:068",
    "jp": "「みにぼんび！{n} こんな村じゃ{n} いやなのねん！」{wait}",
-   "en": "\"Mini-bombee! I hate this village like this, bombee!\"{wait}"
+   "en": "\"Mini-bombee! I hate the way this village is now, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:069",
@@ -438,17 +438,17 @@
   {
    "id": "SMAP04_35:086",
    "jp": "桃太郎は{n}{col10}ボンビーの村の男カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Bombee Village Man Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Bombee Village Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:087",
    "jp": "桃太郎は{n}{col10}ボンビーの村の女カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col10}Bombee Village Woman Card{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col10}Bombee Village Woman Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:088",
    "jp": "「キーーーングボンビーーーー！」{n}{n}{wait}{n}「この俺様に 話しかけるとは{n} いい どきょうだ！」{n}{wait}{n}「その どきょうに めんじて{n} これを くれてやろう！」{n}{wait}{n}「キーーーングボンビーーー！」{n}{n}{wait}{n}桃太郎は{n}{col10}キングボンビーの像カード{col0}を{n}手に 入れた！{c19}{wait}",
-   "en": "\"Kiiiiing Bombeeeeee!\"{wait}\"You've got some nerve, talking to me!\"{wait}\"In honor of that nerve, I'll give you this!\"{wait}\"Kiiiiing Bombeeeee!\"{wait}Momotaro got {col10}King Bombee Statue Card{col0}!{c19}{wait}"
+   "en": "\"Kiiiiing Bombeeeeee!\"{wait}\"You've got some nerve, talking to me!\"{wait}\"In honor of that nerve, I'll give you this!\"{wait}\"Kiiiiing Bombeeeee!\"{wait}Momotaro got the {col10}King Bombee Statue Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:089",

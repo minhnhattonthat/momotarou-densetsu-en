@@ -29,7 +29,7 @@
   {
    "id": "SMAP16_37:004",
    "jp": "「こう くらくては{n} ぶっそうで かなわんのお！」{n}{wait}",
-   "en": "\"With it this dark, it's too dangerous to bear!\"{wait}"
+   "en": "\"It's so dark out, a body isn't safe!\"{wait}"
   },
   {
    "id": "SMAP16_37:005",
@@ -149,7 +149,7 @@
   {
    "id": "SMAP16_37:028",
    "jp": "「スリの銀次カード だ！」{n}{n}{wait}",
-   "en": "\"It's the Ginji the Pickpocket Card!\"{wait}"
+   "en": "\"It's a Ginji the Pickpocket Card!\"{wait}"
   },
   {
    "id": "SMAP16_37:029",
@@ -174,7 +174,7 @@
   {
    "id": "SMAP16_37:033",
    "jp": "「なんでぃ{n} 金を 持ってないじゃねーか{n} おととい きやがれってんだ！」{wait}",
-   "en": "\"Hey, you ain't got any money! Get outta here and come back never!\"{wait}"
+   "en": "\"Hey, you ain't got any money! Beat it, and don't come back!\"{wait}"
   },
   {
    "id": "SMAP16_37:034",
@@ -484,7 +484,7 @@
   {
    "id": "SMAP16_37:095",
    "jp": "桃太郎は{n}{col4}根性の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "Momotaro got {col4}Guts Orb{col0}!{c19}{wait}"
+   "en": "Momotaro got the {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:096",
@@ -839,7 +839,7 @@
   {
    "id": "SMAP16_37:166",
    "jp": "「桃太郎さんに しつもーん！{n} 鬼たたきで{n} 1000点こえた？」",
-   "en": "\"Question for Momotaro-san! Did you get over 1000 points in Whack-an-Oni?\""
+   "en": "\"Question for Momotaro-san! Did you get over 1,000 points in Whack-an-Oni?\""
   },
   {
    "id": "SMAP16_37:167",
@@ -904,7 +904,7 @@
   {
    "id": "SMAP16_37:179",
    "jp": "「これこれ！{n} いっぱいやるには カニが{n} 一番だぜ！ ひっく！」{wait}{n}「こいつは お代だ！{n} つりは いらねえ とっときな！」{n}{wait}{n}桃太郎は{n}1000両{n}手に入れた！{c19}{wait}",
-   "en": "\"That's the stuff! Nothin' beats crab with a drink! Hic!\"{wait}\"Here's your money! Keep the change!\"{wait}Momotaro got 1000 ryo!{c19}{wait}"
+   "en": "\"That's the stuff! Nothin' beats crab with a drink! Hic!\"{wait}\"Here's your money! Keep the change!\"{wait}Momotaro got 1,000 ryo!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:180",
@@ -1224,7 +1224,7 @@
   {
    "id": "SMAP16_37:243",
    "jp": "「この都が ふたたび やみに{n} とざされることが ないように{n} 人も 鬼も なかよくしなければ！」{wait}{n}「そうですよね 桃太郎さん！」{n}{n}{wait}",
-   "en": "\"To make sure the Capital is never shut in darkness again, humans and oni have to get along!\"{wait}\"Right, Momotaro-san?\"{wait}"
+   "en": "\"So the Capital is never plunged into darkness again, humans and oni have to get along!\"{wait}\"Right, Momotaro-san?\"{wait}"
   },
   {
    "id": "SMAP16_37:244",
@@ -1279,7 +1279,7 @@
   {
    "id": "SMAP16_37:254",
    "jp": "「すめば 都っていうけど{n} この 希望の都は 本当に{n} すばらしい 町だと 思います！」{wait}{n}「桃太郎さんが まもって{n} くれたんですよね！{n} ありがとうございます！」{wait}",
-   "en": "\"They say home is wherever you settle, but the Capital of Hope really is a wonderful town!\"{wait}\"You protected it for us, didn't you, Momotaro-san! Thank you!\"{wait}"
+   "en": "\"They say home is where you make it, but the Capital of Hope truly is a wonderful town!\"{wait}\"You protected it for us, didn't you, Momotaro-san! Thank you!\"{wait}"
   },
   {
    "id": "SMAP16_37:255",
@@ -1289,7 +1289,7 @@
   {
    "id": "SMAP16_37:256",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな！」{wait}",
-   "en": "\"Momotaro-san gets the map I drew, I reckon.\"{wait}"
+   "en": "\"Here's the map I drew for you, Momotaro-san, I reckon.\"{wait}"
   },
   {
    "id": "SMAP16_37:257",

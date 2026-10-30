@@ -33,12 +33,12 @@
   {
    "id": "WMAP00_28:005",
    "jp": "「おお 桃太郎！ 鬼たいじ{n} がんばっているようぢゃな！」{n}{wait}{n}「その ほうびといっては{n} なんだが これを やろう！{n} それ うけとれ！」{wait}{n}桃太郎は{n}{col10}きんたん仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "\"Oh, Momotaro! You seem to be working hard at Oni Slaying!\"{wait}\"It's not much of a reward, but I'll give you this! Here, take it!\"{wait}Momotaro got the {col10}Kintan Hermit Card{col0}!{c19}{wait}"
+   "en": "\"Oh, Momotaro! You seem to be working hard at oni slaying!\"{wait}\"It's not much of a reward, but I'll give you this! Here, take it!\"{wait}Momotaro got the {col10}Kintan Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP00_28:006",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「竜馬は 一日にして成らず」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": "There's a proverb written here!{wait}\"Ryoma wasn't built in a day.\"{wait}Oh, come on!{wait}"
+   "en": "There's a proverb written here!{wait}\"Romeo wasn't built in a day.\"{wait}Oh, come on!{wait}"
   }
  ]
 }

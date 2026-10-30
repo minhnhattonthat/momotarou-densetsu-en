@@ -33,7 +33,7 @@
   {
    "id": "SMAP01_33:005",
    "jp": "「鬼がわらっていう 鬼は{n} かたいから 攻撃が{n} なかなか きかないんだと！」{wait}{n}「戦ってみて 勝てないようなら{n} 逃げたほうが ええだよ！」{n}{wait}",
-   "en": "\"They say the oni called Oni Tile is so hard your attacks barely work!\"{wait}\"If ya fight it and can't win, best run away, I reckon!\"{wait}"
+   "en": "\"They say the oni called Oni Tile is so hard your attacks barely work!\"{wait}\"If ya fight it and can't win, best run away, y'hear!\"{wait}"
   },
   {
    "id": "SMAP01_33:006",
@@ -113,7 +113,7 @@
   {
    "id": "SMAP01_33:021",
    "jp": "ゴク ゴク ゴクッ！{n}{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": "Gulp gulp gulp! {str}'s SP and HP were fully restored!{wait}"
+   "en": "Gulp gulp gulp! {str} recovered all SP and HP!{wait}"
   },
   {
    "id": "SMAP01_33:022",
@@ -238,7 +238,7 @@
   {
    "id": "SMAP01_33:046",
    "jp": "「ふとんが ふっとんだ～！」{n}{n}{wait}{n}「まずは おやくそくの{n} ギャグを おとどけします！」{n}{wait}",
-   "en": "\"The quilt ran off in a hurry! Guess it felt quilty!\"{wait}\"First, I deliver the obligatory gag!\"{wait}"
+   "en": "\"The quilt up and quit on me!\"{wait}\"First, I deliver the obligatory gag!\"{wait}"
   },
   {
    "id": "SMAP01_33:047",

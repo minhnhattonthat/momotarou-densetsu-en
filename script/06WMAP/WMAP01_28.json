@@ -8,7 +8,7 @@
   {
    "id": "WMAP01_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ぬけだし仙人ぢゃ！」{n}{wait}{n}「ぬけだしの術は{n} 洞窟から いっしゅんで{n} 地上に戻る 術ぢゃ！」{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「これから{n} わしの 言うことを{n} 注意して 聞くのぢゃぞ！」{wait}{n}「上！」{c28}{n}「下！」{c28}{n}「左！」{c28}{n}「右！」{c28}{n}「上！」{c28}{n}「下！」{c28}{n}「左！」{c28}{n}「右！」{c28}{n}「…では 今 わしが{n} 言ったとおりの 順番で{n} 方向キーを 押すのぢゃ！」",
-   "en": "\"Uhyahya... I am the Escape Hermit!\"{wait}\"The Escape art takes you out of a Cave and back to the surface in an instant!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now, listen carefully to what I say!\"{wait}\"Up!\"{c28}{n}\"Down!\"{c28}{n}\"Left!\"{c28}{n}\"Right!\"{c28}{n}\"Up!\"{c28}{n}\"Down!\"{c28}{n}\"Left!\"{c28}{n}\"Right!\"{c28}{n}\"...Now press the directional buttons in the same order I just said them!\""
+   "en": "\"Uhyahya... I am the Escape Hermit!\"{wait}\"The Escape art takes you out of a cave and back to the surface in an instant!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now, listen carefully to what I say!\"{wait}\"Up!\"{c28}{n}\"Down!\"{c28}{n}\"Left!\"{c28}{n}\"Right!\"{c28}{n}\"Up!\"{c28}{n}\"Down!\"{c28}{n}\"Left!\"{c28}{n}\"Right!\"{c28}{n}\"...Now press the directional buttons in the same order I just said them!\""
   },
   {
    "id": "WMAP01_28:001",
@@ -23,12 +23,12 @@
   {
    "id": "WMAP01_28:003",
    "jp": "「洞窟の 中で{n} 体力が 少なくなったら{n} 一度 戻ってみるとよい！」{wait}{n}「がむしゃらに{n} 先に 進めば ええと{n} いうものでは ないぞ！」{wait}",
-   "en": "\"If your HP gets low inside a Cave, try going back out once!\"{wait}\"Charging blindly ahead isn't always the answer!\"{wait}"
+   "en": "\"If your HP gets low inside a cave, try going back out once!\"{wait}\"Charging blindly ahead isn't always the answer!\"{wait}"
   },
   {
    "id": "WMAP01_28:004",
    "jp": "「桃太郎か！{n} 洞窟には もう{n} 入ってみたか？」{wait}{n}「これを お前に やろう！{n} 洞窟での お守りがわりぢゃ！」{n}{wait}{n}桃太郎は{n}{col10}ぬけだし仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": "\"Momotaro, is it! Have you been into a Cave yet?\"{wait}\"I'll give you this! Think of it as a good-luck charm for caves!\"{wait}Momotaro got the {col10}Escape Hermit Card{col0}!{c19}{wait}"
+   "en": "\"Momotaro, is it! Have you been into a cave yet?\"{wait}\"I'll give you this! Think of it as a good-luck charm for caves!\"{wait}Momotaro got the {col10}Escape Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP01_28:005",

@@ -13,7 +13,7 @@
   {
    "id": "WMAP24_28:001",
    "jp": "「いなずまの術は{n} 鬼たち 1グループに{n} 打撃を あたえ」{wait}{n}「道に ある 岩を{n} こなごなに くだく 術ぢゃ！」{n}{wait}{n}「この 術を 覚えるのは{n} 桃太郎が ふさわしい！」{n}{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「それ！ そこにある 岩を{n} ○ボタンを 押して」{n}{wait}{n}「できるだけ 早く{n} 108回 たたくのぢゃ！」{n}{wait}{n}「自力で やるのぢゃぞ！{n} 決して ズルを{n} しては ならんぞ！」{wait}",
-   "en": "\"The Lightning art strikes one group of oni,\"{wait}\"and smashes the rocks in your path to pieces!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}\"Learn my art quickly and go punish those oni!\"{wait}\"But first, you'll have to go through my rather tough training!\"{wait}\"There! Press the Circle button to hit that rock\"{wait}\"108 times, as fast as you can!\"{wait}\"Do it with your own strength! No cheating, mind you!\"{wait}"
+   "en": "\"The Lightning art strikes one group of oni,\"{wait}\"and smashes the rocks in your path to pieces!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"There! Press the Circle button to hit that rock\"{wait}\"108 times, as fast as you can!\"{wait}\"Do it with your own strength! No cheating, mind you!\"{wait}"
   },
   {
    "id": "WMAP24_28:002",
@@ -58,7 +58,7 @@
   {
    "id": "WMAP24_28:010",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「遠くて近きは ダンジョンの中！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": "A proverb is written here!{wait}\"Absence makes the heart grow fonder... of the dungeon exit!\"{wait}Oh, come on!{wait}"
+   "en": "There's a proverb written here!{wait}\"Absence makes the heart grow fonder... of the dungeon exit!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

@@ -1503,7 +1503,7 @@
   {
    "id": "SHOP:299",
    "jp": "道具袋を{n}のぞいたが なにも{n}入っていない{wait}",
-   "en": "Looked in the item bag, but there was nothing inside.{wait}"
+   "en": "Momotaro looked in the item bag, but there was nothing inside.{wait}"
   },
   {
    "id": "SHOP:300",
@@ -2028,7 +2028,7 @@
   {
    "id": "SHOP:404",
    "jp": "「なにを 売りますか？」{n}{n}{wait}",
-   "en": "\"What're ya sellin'?\"{wait}"
+   "en": "\"What would you like to sell?\"{wait}"
   },
   {
    "id": "SHOP:405",
@@ -2098,7 +2098,7 @@
   {
    "id": "SHOP:418",
    "jp": "「なにを 売りますか？」{n}{n}{wait}",
-   "en": "\"What're ya sellin'?\"{wait}"
+   "en": "\"What would you like to sell?\"{wait}"
   },
   {
    "id": "SHOP:419",
@@ -2248,7 +2248,7 @@
   {
    "id": "SHOP:448",
    "jp": "「なにを 売りますか？」{n}{n}{wait}",
-   "en": "\"What're ya sellin'?\"{wait}"
+   "en": "\"What would you like to sell?\"{wait}"
   },
   {
    "id": "SHOP:449",
@@ -2318,7 +2318,7 @@
   {
    "id": "SHOP:462",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「お金が 足りないのねん！{n} ボクらと いっしょで{n} ボンビーなのねん！」{wait}",
-   "en": "\"Bombee!\"{wait}\"You don't have enough money, bombee! You're broke as a Bombee, just like us, bombee!\"{wait}"
+   "en": "\"Bombee!\"{wait}\"You don't have enough money, bombee! You're broke, just like us Bombees, bombee!\"{wait}"
   },
   {
    "id": "SHOP:463",
@@ -2423,12 +2423,12 @@
   {
    "id": "SHOP:483",
    "jp": "「記録その{num}に 記録するが{n} よろしいかな？」{n}",
-   "en": "\"I'll save to save slot {num}. Is that all right?\""
+   "en": "\"I'll save to slot {num}. Is that all right?\""
   },
   {
    "id": "SHOP:484",
    "jp": "「ふむ！ 確かに{n} 記録その{num}に{n} 記録しておいたぞ！」{wait}",
-   "en": "\"Hmm! There, I've saved it to save slot {num}!\"{wait}"
+   "en": "\"Hmm! There, I've saved it to slot {num}!\"{wait}"
   },
   {
    "id": "SHOP:485",
@@ -2443,7 +2443,7 @@
   {
    "id": "SHOP:487",
    "jp": "「いつもの 記録その{num}に{n} 記録しても よいかな？」{n}",
-   "en": "\"Shall I save to your usual save slot {num}?\""
+   "en": "\"Shall I save to your usual slot {num}?\""
   },
   {
    "id": "SHOP:488",
@@ -2468,12 +2468,12 @@
   {
    "id": "SHOP:492",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
+   "en": "Writing save data to slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:493",
    "jp": "「メモリーカードが {n} 抜き差しされておるぞ！」{n}{wait}{n}「記録する 場所を{n} えらぶのじゃ！」{n}{wait}",
-   "en": "\"The Memory Card has been removed or inserted!\"{wait}\"Choose where to save!\"{wait}"
+   "en": "\"The Memory Card was taken out or swapped!\"{wait}\"Choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:494",
@@ -2493,12 +2493,12 @@
   {
    "id": "SHOP:497",
    "jp": "「記録その{num}に 記録するけど{n} よかったのねん？」{n}",
-   "en": "\"I'll save to save slot {num}. Is that okay, bombee?\""
+   "en": "\"I'll save to slot {num}. Is that okay, bombee?\""
   },
   {
    "id": "SHOP:498",
    "jp": "「確かに 記録その{num}に{n} 記録しておいたのねん！」{n}{wait}",
-   "en": "\"Saved to save slot {num}, safe and sound, bombee!\"{wait}"
+   "en": "\"Saved to slot {num}, safe and sound, bombee!\"{wait}"
   },
   {
    "id": "SHOP:499",
@@ -2513,7 +2513,7 @@
   {
    "id": "SHOP:501",
    "jp": "「いつもの 記録その{num}に{n} 記録しても いいのねん？」{n}",
-   "en": "\"Can I save to your usual save slot {num}, bombee?\""
+   "en": "\"Can I save to your usual slot {num}, bombee?\""
   },
   {
    "id": "SHOP:502",
@@ -2538,12 +2538,12 @@
   {
    "id": "SHOP:506",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
+   "en": "Writing save data to slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:507",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「メモリーカードが{n} 抜き差しされてるのねん！」{n}{wait}{n}「記録する 場所を{n} えらぶのねん！」{n}{wait}",
-   "en": "\"Bombee!\"{wait}\"The Memory Card has been removed or inserted, bombee!\"{wait}\"Choose where to save, bombee!\"{wait}"
+   "en": "\"Bombee!\"{wait}\"The Memory Card was taken out or swapped, bombee!\"{wait}\"Choose where to save, bombee!\"{wait}"
   },
   {
    "id": "SHOP:508",
@@ -2563,12 +2563,12 @@
   {
    "id": "SHOP:511",
    "jp": "「記録その{num}に 記録しますが{n} いいですか？」{n}",
-   "en": "\"I'll save to save slot {num}. Is that okay?\""
+   "en": "\"I'll save to slot {num}. Is that okay?\""
   },
   {
    "id": "SHOP:512",
    "jp": "「確かに 記録その{num}に{n} 記録しておきました！」{n}",
-   "en": "\"Your journey has been saved to save slot {num}!\""
+   "en": "\"Your journey has been saved to slot {num}!\""
   },
   {
    "id": "SHOP:513",
@@ -2583,7 +2583,7 @@
   {
    "id": "SHOP:515",
    "jp": "「いつもの 記録その{num}に{n} 記録しても いいですか？」{n}",
-   "en": "\"May I save to your usual save slot {num}?\""
+   "en": "\"May I save to your usual slot {num}?\""
   },
   {
    "id": "SHOP:516",
@@ -2608,12 +2608,12 @@
   {
    "id": "SHOP:520",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
+   "en": "Writing save data to slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:521",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「メモリーカードが{n} 抜き差しされています！」{n}{wait}{n}「記録する 場所を{n} えらんでください！」{n}{wait}",
-   "en": "\"Squeak squeak!\"{wait}\"The Memory Card has been removed or inserted!\"{wait}\"Please choose where to save!\"{wait}"
+   "en": "\"Squeak squeak!\"{wait}\"The Memory Card was taken out or swapped!\"{wait}\"Please choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:522",
@@ -2633,12 +2633,12 @@
   {
    "id": "SHOP:525",
    "jp": "「記録その{num}に 記録しますが{n} いいですか？」{n}",
-   "en": "\"I'll save to save slot {num}. Is that okay?\""
+   "en": "\"I'll save to slot {num}. Is that okay?\""
   },
   {
    "id": "SHOP:526",
    "jp": "「確かに 記録その{num}に{n} 記録しておきました！」{n}",
-   "en": "\"Your journey has been saved to save slot {num}!\""
+   "en": "\"Your journey has been saved to slot {num}!\""
   },
   {
    "id": "SHOP:527",
@@ -2653,7 +2653,7 @@
   {
    "id": "SHOP:529",
    "jp": "「いつもの 記録その{num}に{n} 記録しても いいですか？」{n}",
-   "en": "\"May I save to your usual save slot {num}?\""
+   "en": "\"May I save to your usual slot {num}?\""
   },
   {
    "id": "SHOP:530",
@@ -2678,12 +2678,12 @@
   {
    "id": "SHOP:534",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
+   "en": "Writing save data to slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:535",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「メモリーカードが{n} 抜き差しされています！」{n}{wait}{n}「記録する 場所を{n} えらんでください！」{n}{wait}",
-   "en": "\"Hop hop! Hop hop!\"{wait}\"The Memory Card has been removed or inserted!\"{wait}\"Please choose where to save!\"{wait}"
+   "en": "\"Hop hop! Hop hop!\"{wait}\"The Memory Card was taken out or swapped!\"{wait}\"Please choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:536",
@@ -2753,7 +2753,7 @@
   {
    "id": "SHOP:549",
    "jp": "「いらっしゃいませ！{n} ふしぎな 仙豆の{n} お店 最大屋です！」{wait}{n}「1000年に 一つしか{n} とれない きちょうな 仙豆！」{n}{wait}{n}「あなたの 力を{n} 増やすことが できちゃいます！」{n}",
-   "en": "\"Welcome! This is the Max Shop, home of the mysterious Beans!\"{wait}\"Precious Beans, harvested only once every 1000 years!\"{wait}\"They can boost your power!\""
+   "en": "\"Welcome! This is the Max Shop, home of the mysterious Beans!\"{wait}\"Precious Beans, harvested only once every 1,000 years!\"{wait}\"They can boost your power!\""
   },
   {
    "id": "SHOP:550",
@@ -2783,7 +2783,7 @@
   {
    "id": "SHOP:555",
    "jp": "「さすがに お目が 高い！」{n}{n}{wait}{n}「こんな きちょうな もの{n} なかなか てに{n} はいりませんからね！」{wait}",
-   "en": "\"You have a fine eye!\"{wait}\"Something this precious is very hard to come by!\"{wait}"
+   "en": "\"You have a keen eye!\"{wait}\"Something this precious is very hard to come by!\"{wait}"
   },
   {
    "id": "SHOP:556",

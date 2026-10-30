@@ -18,7 +18,7 @@
   {
    "id": "OMAP00_53:002",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「どうか 北の 岬で{n} 勇気の剣を 使ってください！」{n}{wait}{n}「そうすれば 鬼が島へ{n} 渡る 道が 開くはずです！」{n}{wait}",
-   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Please, use the Sword of Courage at the North Cape!\"{wait}\"Then the path across to Onigashima should open!\"{wait}"
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Please, use the Sword of Courage at North Cape!\"{wait}\"Then the path across to Onigashima should open!\"{wait}"
   },
   {
    "id": "OMAP00_53:003",
@@ -88,7 +88,7 @@
   {
    "id": "OMAP00_53:016",
    "jp": "「北の岬には うずを まいた{n} ふしぎな海が あるのじゃ！」{n}{wait}{n}「なに だから どうしたじゃと？」{n}{n}{wait}",
-   "en": "\"At the North Cape there's a mysterious sea that swirls in a whirlpool!\"{wait}\"What? So what, you say?\"{wait}"
+   "en": "\"At North Cape there's a mysterious sea that swirls in a whirlpool!\"{wait}\"What? So what, you say?\"{wait}"
   },
   {
    "id": "OMAP00_53:017",
@@ -103,7 +103,7 @@
   {
    "id": "OMAP00_53:019",
    "jp": "「わはははは！ わかっとる！{n} とくべつ サービスじゃぞ！{n} 海を さがすのじゃ！」{wait}{n}「よしよし！ それでは{n} ひとつ 占うとしようか！」{n}{wait}",
-   "en": "\"Wahahaha! I know, I know! Here's a special bonus! Search the sea!\"{wait}\"Good, good! Now then, let me tell your fortune!\"{wait}"
+   "en": "\"Wahahaha! I know, I know! Here's a special bonus! Search the sea!\"{wait}\"Very well! Then let me tell your fortune!\"{wait}"
   },
   {
    "id": "OMAP00_53:020",
@@ -143,7 +143,7 @@
   {
    "id": "OMAP00_53:027",
    "jp": "「じゃあ 鬼たいじの 旅{n} がんばってほしいんだな！」{n}{wait}",
-   "en": "\"So, I hope you do your best on your Oni Slaying journey, I reckon!\"{wait}"
+   "en": "\"So, I hope you do your best on your oni-slaying journey, I reckon!\"{wait}"
   },
   {
    "id": "OMAP00_53:028",
@@ -158,7 +158,7 @@
   {
    "id": "OMAP00_53:030",
    "jp": "「雀百まで 踊るあほうに{n} 見るあほう！」{n}{wait}",
-   "en": "\"You can't teach an old sparrow to dance like nobody's watching!\"{wait}"
+   "en": "\"A sparrow never forgets its dance... and a fool who watches is still a fool!\"{wait}"
   },
   {
    "id": "OMAP00_53:031",
