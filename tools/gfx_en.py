@@ -43,6 +43,24 @@ IMAGES = {
         ((196, 56, 249, 73), 'Best', 'sprite', 11, {}),
         ((203, 74, 246, 96), 'Time', 'sprite', 16, {}),
     ]),
+    'mogura_words': ('30EV/MOGURA.PAC:10', ('30EV/MOGURA.PAC:11', 0), [
+        ((40, 176, 144, 198), 'Start!', 'sprite', 22, {}),
+        ((40, 198, 222, 222), 'Game Over', 'sprite', 22, {}),
+        ((40, 222, 160, 248), "Time's Up!", 'sprite', 18, {}),
+        ((184, 1, 232, 22), 'Miss', 'sprite', 14, {}),          # 失敗; the x after it stays
+        ((184, 22, 242, 40), 'Best', 'sprite', 13, {}),
+        ((184, 40, 228, 64), 'Time', 'sprite', 16, {}),
+        ((144, 78, 178, 98), 'Score', 'sprite', 10, {}),
+    ]),
+    'yumi_words': ('30EV/YUMI1.PAC:9', ('30EV/YUMI1.PAC:10', 0), [
+        ((0, 152, 104, 176), 'Start!', 'sprite', 22, {}),
+        ((0, 176, 182, 199), 'Game Over', 'sprite', 22, {}),
+        ((0, 199, 116, 224), "Time's Up!", 'sprite', 18, {}),
+        ((0, 80, 46, 103), 'Miss', 'sprite', 14, {}),
+        ((64, 80, 108, 103), 'Time', 'sprite', 16, {}),
+        ((0, 104, 57, 121), 'Best', 'sprite', 13, {}),
+        ((57, 104, 84, 121), 'Score', 'sprite', 8, {}),
+    ]),
     # つづき うつす けす やめる strip (title > Continue)
     'mecd_load': ('13BTL/MECD.PAC:2', ('13BTL/MECD.PAC:5', 0), [
         ((x0, 162, x1, 181), 'Load' if t == 'Save' else t, 1, 14, {}) for x0, x1, t in MECD_STRIP]),
@@ -63,10 +81,12 @@ def coverage(text, size, w, h, align='center', font=ROUND):
 
 
 def sprite(px, new, w, rect, text, size, opt):
-    """Lettering on a transparent (index 0) sprite: outline = the index most found on the JP glyphs' edge, fill per
+    """Lettering on a sprite (background = the rect border's commonest index): outline = the index most found on the JP glyphs' edge, fill per
     row = the commonest inner index of that JP row (keeps vertical gradients); opt 'edge': outline width (1)."""
     x0, y0, x1, y1 = rect
-    at = lambda x, y: px[y * w + x] if x0 <= x < x1 and y0 <= y < y1 else 0  # noqa: E731
+    bg = Counter([px[y * w + x] for x in range(x0, x1) for y in (y0, y1 - 1)] +
+                 [px[y * w + x] for y in range(y0, y1) for x in (x0, x1 - 1)]).most_common(1)[0][0]
+    at = lambda x, y: px[y * w + x] if x0 <= x < x1 and y0 <= y < y1 and px[y * w + x] != bg else 0  # noqa: E731
     edge = Counter(at(x, y) for y in range(y0, y1) for x in range(x0, x1) if at(x, y) and
                    not all(at(x + dx, y + dy) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))).most_common(1)[0][0]
     fills = {y: Counter(at(x, y) for x in range(x0, x1) if at(x, y) not in (0, edge)).most_common(1) for y in
@@ -86,7 +106,7 @@ def sprite(px, new, w, rect, text, size, opt):
             elif any(ink(cx + dx, cy + dy) for dx in range(-e, e + 1) for dy in range(-e, e + 1)):
                 new[y * w + x] = edge
             else:
-                new[y * w + x] = 0
+                new[y * w + x] = bg
 
 
 def redraw(name):

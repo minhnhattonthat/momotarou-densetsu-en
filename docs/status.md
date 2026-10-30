@@ -11,8 +11,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   subset). Done and seen in-game: title menu New Game / Continue (EVTTIT.PAC:9), memory-card menus
   Save/Copy/Erase/Quit + Load (MECD.PAC:2/3; `title_load`), DARUMA.PAC:10 words Start!/Game Over/Time's Up!/Game
   Clear!/Score/Best/Time ('sprite' mode: outline from JP glyph edges, per-row fill; seen via route from
-  work/states/en_mg_daruma.sstate: `30 -;6 up;20 -;6 circle;...` answers Yes). Next in order: MOGURA.PAC:10 and
-  YUMI1.PAC:9 (same words, other layouts; MOGURA bg index is 32 not 0: sprite mode assumes 0), status
+  work/states/en_mg_daruma.sstate: `30 -;6 up;20 -;6 circle;...` answers Yes), MOGURA.PAC:10 + YUMI1.PAC:9
+  (Miss/Time/Best/Score, Start!/Game Over/Time's Up!; seen in mg_mogura / mg_yumi1b routes; YUMI "Score" rect
+  widened past the JP glyphs and still drawn whole, so sprite rects are not clipped to the JP width). Find text
+  rects: `tools/gfx.py words|dump`, or a gridded zoom render. Next: status
   ailments FONT.PAC:4, END01 めでたし, title logo, bath/shop signs, card album + 297 cards (CR_PG*, names from
   HMAP8500_18 card list), then the qa_gate tour.
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
