@@ -135,7 +135,7 @@ def build_table(doc, field='jp', tbl=TBL):
             offs.append(offs[s['same']])
             continue
         offs.append(head + len(body))
-        body += tbl.encode((s.get(field) or s['jp']) + '{end}')
+        body += tbl.encode(s[field] + '{end}') if s.get(field) else TBL.encode(s['jp'] + '{end}')
     return struct.pack(f'<{len(offs)}I', *offs) + bytes.fromhex(doc.get('pad', '')) + bytes(body)
 
 

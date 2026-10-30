@@ -21,7 +21,10 @@ PAGES = ((2, 0), (2, 1), (3, 0), (3, 1))
 
 
 def pages(path=FONT_PAC):
-    data = path.read_bytes()
+    return pages_from(path.read_bytes())
+
+
+def pages_from(data):
     ent = pac.entries(data)
     out = []
     for idx, plane in PAGES:

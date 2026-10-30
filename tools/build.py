@@ -1,6 +1,6 @@
 """Build the disc: unpacked tree + replaced files -> build/momotarou_en.bin/.cue (docs/re/archives.md).
 
-    python -X utf8 tools/build.py
+    python -X utf8 tools/build.py [--marker]    # -> build/momotarou_en.bin (en, else Japanese) or momotarou_marker.bin
 
 The game reads files by MMPS_CD.SFS (800 x {u32 LBA, u32 size}), not ISO9660, so every build regenerates it from
 mkpsxiso's LBA log: lay out once with -noisogen (the SFS keeps its 6400 bytes, so LBAs don't depend on it), write
@@ -110,14 +110,16 @@ def build(replaced, out_bin):
                    cwd=layout.parent, stdout=subprocess.DEVNULL)
 
 
-def main():
+def main(argv):
     check_rom.check()
     unpack()
+    import insert
+    marker = '--marker' in argv
     OUT.mkdir(exist_ok=True)
-    out_bin = OUT / 'momotarou_en.bin'
-    build({}, out_bin)  # replaced files come from the insert step (phase 4+)
+    out_bin = OUT / ('momotarou_marker.bin' if marker else 'momotarou_en.bin')
+    build(insert.files(marker), out_bin)
     print(f'built {out_bin} ({out_bin.stat().st_size} bytes)')
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])

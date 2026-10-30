@@ -5,6 +5,8 @@
     python -X utf8 tools/debug/warp.py --list
     python -X utf8 tools/debug/warp.py map:292:18:13       # any map id (tools/debug/maps.txt) at tile x,y
     python -X utf8 tools/debug/warp.py ROM.cue village     # another build (default: build/momotarou_en.cue, else rom/)
+    python -X utf8 tools/debug/warp.py build/momotarou_marker.cue --tag marker talk_134   # -> work/qa/warp_marker/,
+                                                           # work/states/marker_<scene>.sstate (keeps the JP ones)
 Extra emu.py args after "--", e.g. -- --var GOD=1 --shot-every 60. Exit 1 if any scene was not reached.
 """
 import re
@@ -24,10 +26,10 @@ def scene_names():
     return re.findall(r'^\s+(\w+)\s*=\s*\{', SCENES.read_text(encoding='utf-8'), re.M)
 
 
-def run(rom, scene, extra):
+def run(rom, scene, extra, tag=''):
     safe = scene.replace(':', '_')
-    out = ROOT / 'work/qa/warp' / safe
-    state = ROOT / 'work/states' / f'{safe}.sstate'
+    out = ROOT / f'work/qa/warp{tag and "_" + tag}' / safe
+    state = ROOT / 'work/states' / f'{tag and tag + "_"}{safe}.sstate'
     state.parent.mkdir(parents=True, exist_ok=True)
     cmd = [sys.executable, '-X', 'utf8', str(Path(SKILL) / 'scripts/emu.py'), str(rom), '--out', str(out),
            '--script', str(ROOT / 'tools/debug/warp.lua'), '--var', f"SCENE='{scene}'",
@@ -46,6 +48,9 @@ def main(argv):
     jobs = 1
     if '--jobs' in argv:
         i = argv.index('--jobs'); jobs = int(argv[i + 1]); del argv[i:i + 2]
+    tag = ''
+    if '--tag' in argv:
+        i = argv.index('--tag'); tag = argv[i + 1]; del argv[i:i + 2]
     if '--list' in argv:
         print('\n'.join(scene_names())); return 0
     rom = next((a for a in argv if a.endswith('.cue')), None)
@@ -57,7 +62,7 @@ def main(argv):
     if unknown or not names:
         print(__doc__, 'unknown scenes:', sorted(unknown)); return 2
     with ThreadPoolExecutor(jobs) as ex:
-        results = list(ex.map(lambda s: run(rom, s, extra), names))
+        results = list(ex.map(lambda s: run(rom, s, extra, tag), names))
     return 0 if all(results) else 1
 
 
