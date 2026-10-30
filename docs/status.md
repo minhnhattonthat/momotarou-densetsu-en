@@ -7,7 +7,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   and control-only sources; unauthored ASCII/control-only entries explicitly retain original bytes. The exact
   FONT_6:556 `{sm_ryo}` -> `ryo` substitution is documented in lint. This exposed YUMI2_10:009's untranslated
   comma, now fixed. Control-only/ASCII regression probes pass; `check.py`: 38 passed, lint 0 errors over 6018
-  text/box checks. Remaining Important findings: replace guessed label widths with measurements; add write audit.
+  text/box checks. Write provenance audit now records original/new bytes and owner for table/graphics entries,
+  overlay strings and pointers, EXE patches, font rows and SFS updates; verifies final decompressed entries and
+  final-disc file payloads. Regression probes reject bad originals, overlaps, overwrites and unlogged changes.
+  `check.py`: 42 passed, lint 0 errors; fresh build + `work/qa/review7_smoke` smoke passed.
+  Remaining Important finding: replace guessed label widths with measurements. Phase 7 completion is reopened
+  pending that work; a green legacy width lint is not proof of measured coverage.
 - **Phase 8 progress:** phase 6 review fixes done (d047a7c: glossary names + character honorifics are lint/batch
   ERRORS now, reviewed exceptions in script/glossary_ok.txt; Enma-sama; art-use spacing). Graphics lettering
   pipeline: `tools/gfx.py` (TIM decode/repack, `show`/`dump`/`words` CLI to find text rects), `tools/gfx_en.py`

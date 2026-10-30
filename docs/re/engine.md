@@ -71,3 +71,19 @@
   JP line's pixel width (n = doc number in build/markers.tsv, i = string index); overlay strings cut to `max`.
 - `tools/debug/warp.py ROM.cue --tag marker SCENE..`, `hits.lua` (exec counts + RAM dump), `regs.lua` (registers at
   an address), `boxmeasure.py` (box interior / ink spans from a shot).
+# Write provenance (phase 7 review follow-up)
+
+`tools/write_audit.py` records immutable original bytes, intended bytes, owner, and offset for every logical
+write. `insert.files()` audits whole rebuilt string tables and graphics entries atomically, individual overlay
+strings and repointed pointer words, executable instructions/hooks/name grids, and font-cell rows. Overlapping
+producers fail even when they write identical bytes; graphics producers also reject duplicate entry ownership.
+Font pixels are assembled in scratch rows before a single audited row write, avoiding ambiguous nibble writes.
+Repacked PACs are decompressed again and checked against the records, including detection of unlogged changes.
+
+`build/insert-writes.jsonl` is the durable build log (logical disc path plus optional decompressed entry number).
+`build/sfs-writes.jsonl` records each SFS LBA/size update against the original SFS. `build.build()` reads every
+replaced file back from the final disc at the new layout's LBA and compares it to the audited file. Thus shifted
+compressed bytes do not need a blanket raw-disc permission range. Existing tests still independently validate
+allowed changed ranges, PAC metadata, table contents, identity rebuilds, and SFS relocation. The one-command
+check runs both the audits and probes proving wrong originals, overlaps, overwrites, and unlogged edits fail.
+

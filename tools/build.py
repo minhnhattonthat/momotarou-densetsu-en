@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import check_rom  # noqa: E402
+from write_audit import Audit
 
 CUE = ROOT / 'rom/Momotarou Densetsu (Japan).cue'
 DISC = ROOT / 'work/disc'                      # tree/ + layout.xml from dumpsxiso (never edited)
@@ -50,19 +51,22 @@ def lba_log(layout, work):
     return out
 
 
-def rebuild_sfs(sfs, old, new):
+def rebuild_sfs(sfs, old, new, audit=None):
     """Point each SFS entry at its file's new LBA/size. Entries are matched to files by their original LBA; the
     size keeps its original offset from the file length (MECD.PAC's entry is 9 bytes short of the file)."""
     by_lba = {lba: path for path, (lba, _) in old.items()}
-    out = bytearray(sfs)
+    audit = audit if audit is not None else Audit()
+    buf = audit.buffer(SFS, sfs)
     for i in range(len(sfs) // 8):
         lba, size = struct.unpack_from('<II', sfs, i * 8)
         if lba == size == 0:
             continue
         path = by_lba[lba]
         nlba, nlen = new[path]
-        struct.pack_into('<II', out, i * 8, nlba, size + nlen - old[path][1])
-    return bytes(out)
+        buf.put(i * 8, struct.pack('<II', nlba, size + nlen - old[path][1]), f'SFS:{i}:{path}',
+                expected=struct.pack('<II', lba, size))
+    buf.verify(buf.data)
+    return bytes(buf.data)
 
 
 def write_layout(dst, files):
@@ -106,9 +110,21 @@ def build(replaced, out_bin):
     write_layout(layout, files)
     new = lba_log(layout, work)
     old = lba_log(DISC / 'layout.xml', work)
-    files[SFS].write_bytes(rebuild_sfs((DISC / 'tree' / SFS).read_bytes(), old, new))
+    audit = Audit()
+    files[SFS].write_bytes(rebuild_sfs((DISC / 'tree' / SFS).read_bytes(), old, new, audit))
+    audit.save(out_bin.parent / 'sfs-writes.jsonl')
     subprocess.run([MKPSXISO, '-y', '-q', '-o', out_bin, '-c', out_bin.with_suffix('.cue'), layout], check=True,
                    cwd=layout.parent, stdout=subprocess.DEVNULL)
+    # Logical audit coordinates must survive the ISO/container layout. Read every
+    # replaced Form-1 file back from the produced raw disc, including the SFS.
+    with out_bin.open('rb') as disc:
+        for path, source in files.items():
+            lba, size = new[path]
+            data = bytearray()
+            for sector in range((size + 2047) // 2048):
+                disc.seek((lba + sector) * 2352 + 24)
+                data.extend(disc.read(2048))
+            assert bytes(data[:size]) == source.read_bytes(), (path, 'disc payload differs from audited file')
 
 
 def main(argv):

@@ -408,17 +408,20 @@ def plates():
 def entries():
     """{image location: new TIM bytes} for every image in IMAGES, the album stamp, and the redrawn cards (tools/cards.py)."""
     out = dict(cards.entries())
+    def put(loc, data):
+        assert loc not in out, (loc, 'overlapping graphics producers')
+        out[loc] = data
     for name in IMAGES:
         raw, new = redraw(name)
-        out[IMAGES[name][0]] = gfx.repack(raw, new)
+        put(IMAGES[name][0], gfx.repack(raw, new))
     for loc, new in stamp().items():
-        out[loc] = gfx.repack(gfx.entry(loc), new)
+        put(loc, gfx.repack(gfx.entry(loc), new))
     for loc, (new, _) in plates().items():
-        out[loc] = gfx.repack(gfx.entry(loc), new)
+        put(loc, gfx.repack(gfx.entry(loc), new))
     new = bath()
     for loc in BATH_LOCS:
-        out[loc] = gfx.repack(gfx.entry(loc), new)
-    out[CONGRATS[0]] = gfx.repack(gfx.entry(CONGRATS[0]), banner())
+        put(loc, gfx.repack(gfx.entry(loc), new))
+    put(CONGRATS[0], gfx.repack(gfx.entry(CONGRATS[0]), banner()))
     return out
 
 

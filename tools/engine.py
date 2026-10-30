@@ -15,6 +15,7 @@ import numpy as np
 import lzss
 import pac
 from tbl import Table
+from write_audit import Buffer
 
 ROOT = Path(__file__).resolve().parents[1]
 FONT_TXT = ROOT / 'fonts/en12.txt'
@@ -179,28 +180,30 @@ def asm(lines, addr):
     return bytes(out)
 
 
-def patch_exe(exe):
+def patch_exe(exe, audit=None):
     from capstone import CS_ARCH_MIPS, CS_MODE_LITTLE_ENDIAN, CS_MODE_MIPS32, Cs
     cs = Cs(CS_ARCH_MIPS, CS_MODE_MIPS32 | CS_MODE_LITTLE_ENDIAN)
-    b = bytearray(exe)
+    audit = audit if audit is not None else Buffer(exe, 'SLPS_017.85')
+    b = audit.data
     for addr, old, new in PATCH:
         o = addr - EXE_BASE
         ins = next(cs.disasm(bytes(b[o:o + 4]), addr))
         assert f'{ins.mnemonic} {ins.op_str}'.replace(' ', '') == old.replace(' ', ''), (hex(addr), ins.op_str)
-        b[o:o + 4] = asm([new], addr)
+        audit.put(o, asm([new], addr), f'engine:{addr:08x}', expected=exe[o:o + 4])
     code = asm(hook_asm(), HOOK)
     w = bytes(widths())
     assert len(code) == TABLE - HOOK and TABLE + len(w) <= FREE1_END
     o = HOOK - EXE_BASE
-    b[o:o + len(code) + len(w)] = code + w
+    audit.put(o, code + w, 'engine:vwf-hook-widths')
     code = asm(digraph_asm(), DIGRAPH)
     assert DIGRAPH + len(code) <= FREE2_END
     o = DIGRAPH - EXE_BASE
-    b[o:o + len(code)] = code
+    audit.put(o, code, 'engine:digraph-hook')
     assert len(NAME_GRID) == GRID_CELLS and exe[GRID_ALNUM:GRID_ALNUM + 4] == b'\x00\x00\x00\x80'   # 'Ａ'{end}
-    b[GRID_ALNUM:GRID_ALNUM + 4 * GRID_CELLS] = exe[GRID_FIRST:GRID_FIRST + 4 * GRID_CELLS]
+    audit.put(GRID_ALNUM, exe[GRID_FIRST:GRID_FIRST + 4 * GRID_CELLS], 'engine:kana-grid')
     for i, c in enumerate(NAME_GRID):
-        struct.pack_into('<HH', b, GRID_FIRST + 4 * i, EN_BASE + ord(c) - FIRST, 0x8000)
+        audit.put(GRID_FIRST + 4 * i, struct.pack('<HH', EN_BASE + ord(c) - FIRST, 0x8000), f'engine:latin-grid:{i}')
+    audit.verify(b)
     return bytes(b)
 
 
@@ -211,11 +214,12 @@ def digraphs():
             if chr(c) not in '{[' and chr(a) + chr(c) != '\\s'}
 
 
-def patch_font(font_pac):
+def patch_font(font_pac, audit=None):
     """FONT.PAC with the English glyphs drawn into sheet 1 plane 1 cells 0xA0.. (other planes untouched)."""
     items = pac.unpack(font_pac)
     typ, blob, extra = items[FONT_ENTRY]
     t = bytearray(lzss.decompress(blob)[0])
+    audit = audit if audit is not None else Buffer(t, f'0/03FONT/FONT.PAC:{FONT_ENTRY}')
     w16, h = struct.unpack_from('<HH', t, 16)
     stride = w16 * 2
     g = glyphs()
@@ -229,6 +233,8 @@ def patch_font(font_pac):
                 o = 20 + (cy + y) * stride + (cx + x) // 2
                 bit = 1 << (PLANE + 4 * ((cx + x) & 1))
                 t[o] = t[o] | bit if ink else t[o] & ~bit
+            start = 20 + (cy + y) * stride + cx // 2
+            audit.put(start, t[start:start + 6], f'font:{c:02x}:row{y}')
     for idx, rows in SMALL.items():
         for y in range(8):                  # row 0 blank, letters on rows 1-7 like the small digits
             for x in range(8):
@@ -236,6 +242,9 @@ def patch_font(font_pac):
                 o = 20 + (SMALL_Y + y) * stride + (idx * 8 + x) // 2
                 bit = 1 << (SMALL_PLANE + 4 * ((idx * 8 + x) & 1))
                 t[o] = t[o] | bit if ink else t[o] & ~bit
+            start = 20 + (SMALL_Y + y) * stride + idx * 4
+            audit.put(start, t[start:start + 4], f'font:small{idx}:row{y}')
+    audit.verify(t)
     items[FONT_ENTRY] = (typ, lzss.compress(bytes(t)) if typ & 0x10000 else bytes(t), extra)
     return pac.pack(items)
 

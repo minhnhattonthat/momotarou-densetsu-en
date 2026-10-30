@@ -20,6 +20,7 @@ import gfx_en
 import layout
 import lzss
 import pac
+from write_audit import Audit, Buffer
 
 ROOT = Path(__file__).resolve().parents[1]
 TREE = ROOT / 'work/disc/tree'
@@ -107,20 +108,24 @@ def laid_out(doc):
     return {**doc, 'strings': strs}
 
 
-def repacked(doc, b):
+def repacked(doc, b, audit=None):
     """Overlay strings reached only through pointer words (HMAP2606 proverbs, EXE name-entry labels) share one pool:
     pack them end to end (`en`, else the original bytes) and repoint, so a long line borrows a short one's slack."""
-    ss, orig, at = doc['strings'], bytes(b), int(doc['base'], 16)
+    audit = audit if audit is not None else Buffer(b, doc['id'])
+    b = audit.data
+    ss, orig, at = doc['strings'], audit.original, int(doc['base'], 16)
     assert all(a['off'] + a['max'] == c['off'] for a, c in zip(ss, ss[1:])), doc['id']
     pos, end = ss[0]['off'], ss[-1]['off'] + ss[-1]['max']
     for s in ss:
         enc = EN.encode(s['en'] + '{end}') if s.get('en') else orig[s['off']:s['off'] + 2 * len(extract.string_words(orig, s['off']))]
         assert pos + len(enc) <= end, (doc['id'], s['id'], pos + len(enc) - end, 'bytes over the pool')
-        b[pos:pos + len(enc)] = enc
+        audit.put(pos, enc, s['id'])
         for p in s['ptrs']:
-            struct.pack_into('<I', b, int(p[5:], 16), at + pos)
+            audit.put(int(p[5:], 16), struct.pack('<I', at + pos), f"{s['id']}:{p}")
         pos += len(enc)
-    b[pos:end] = bytes(end - pos)
+    if pos < end:
+        audit.put(pos, bytes(end - pos), f"{doc['id']}:pool-padding")
+    audit.verify(b)
     return bytes(b)
 
 
@@ -135,9 +140,16 @@ def compressed(b):
     return out
 
 
-def files(marker_build=False, qa=None):
+def files(marker_build=False, qa=None, audit=None):
     """{disc path: bytes} for build.build. qa: {string id: text} overrides (stress lines, torture line)."""
     entries, raw = {}, {}          # {pac path: {entry: decompressed bytes}}, {raw file: bytes}
+    audit = audit if audit is not None else Audit()
+
+    def buffer(path, ent):
+        data = (TREE / path).read_bytes()
+        loc = path if ent is None else f'{path}:{ent}'
+        original = data if ent is None else extract.blob(data, *pac.entries(data)[ent])
+        return audit.buffer(loc, original)
 
     def base(path, ent):
         if ent is None:
@@ -168,28 +180,31 @@ def files(marker_build=False, qa=None):
         for loc in doc['copies']:
             path, _, ent = loc.partition(':')
             ent = int(ent) if ent else None
+            buf = buffer(path, ent)
             if doc['kind'] == 'table':
-                put(path, ent, extract.build_table(doc, 'en', EN))
+                buf.put(0, extract.build_table(doc, 'en', EN), doc['id'], replace=True)
+                put(path, ent, bytes(buf.data))
                 continue
             b = bytearray(base(path, ent))
             if all(p.startswith('word@') for s in doc['strings'] for p in s['ptrs']):
-                put(path, ent, repacked(doc, b))
+                put(path, ent, repacked(doc, b, buf))
                 continue
             for s in doc['strings']:
                 if s.get('en'):
                     enc = (EN1 if s['id'] in SINGLE else EN).encode(s['en'] + '{end}')
                     assert len(enc) <= s['max'], (s['id'], len(enc), s['max'])
-                    b[s['off']:s['off'] + s['max']] = enc + bytes(s['max'] - len(enc))
-            put(path, ent, bytes(b))
+                    buf.put(s['off'], enc + bytes(s['max'] - len(enc)), s['id'])
+            put(path, ent, bytes(buf.data))
     if marker_build:
         (ROOT / 'build').mkdir(exist_ok=True)
         (ROOT / 'build/markers.tsv').write_text('\n'.join(tags) + '\n', encoding='utf-8', newline='\n')
     else:
         for loc, b in gfx_en.entries().items():
             path, ent = loc.rsplit(':', 1)
+            buffer('0/' + path, int(ent)).put(0, b, f'graphics:{loc}', replace=True)
             put('0/' + path, int(ent), b)
 
-    raw[EXE] = engine.patch_exe(base(EXE, None))
+    raw[EXE] = engine.patch_exe(base(EXE, None), buffer(EXE, None))
     cache = {}
     for path, ents in entries.items():
         items = pac.unpack((TREE / path).read_bytes())
@@ -203,5 +218,13 @@ def files(marker_build=False, qa=None):
         raw[path] = pac.pack(items)
         assert marker_build or len(raw[path]) < PAC_LIMIT, (path, len(raw[path]), 'bytes, PAC over the load buffer')
     assert marker_build or len(raw.get('0/03FONT/SHOP.MMB', b'')) <= SHOP_LIMIT, 'SHOP.MMB over its buffer'
-    raw[FONT] = engine.patch_font(base(FONT, None))
+    raw[FONT] = engine.patch_font(base(FONT, None), buffer(FONT, engine.FONT_ENTRY))
+    # Validate against the final compressed containers, not merely the work buffers.
+    for loc, buf in audit.buffers.items():
+        path, _, ent = loc.partition(':')
+        final = raw[path]
+        if ent:
+            final = extract.blob(final, *pac.entries(final)[int(ent)])
+        buf.verify(final)
+    audit.save(ROOT / 'build/insert-writes.jsonl')
     return raw
