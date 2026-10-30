@@ -24,11 +24,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   index page (album_index: Contents/Momotaro's Friends/Folk/Hermit/Boss Oni/Oni/Cards; labels are cut at the JP
   length), cover stamp CARD / ALBUM (gfx_en.stamp()). 77 REVIEW cards (name lettered over art) still want an eye
   check. Savestates keep old textures in VRAM: after a rebuild re-warp (cold boot) before judging graphics.
-- **Shop-sign plates (in progress):** SMAPxx.PAC:3 (4bpp 256x256 town tileset) row y80-96 = 16 plates 16x16 (wood
-  indices 9/a, glyph c dark + d highlight, interior x1-14 y81-93): 茶 医 防 足 武 ど つ 易? 銭 借? 易? 薪? 祭 ゆ 笑 刃.
-  Shop names (FONT_6:700-707): Shrine, Weapons 武, Armor 防, Footwear 足 (はきもの屋), Teahouse 茶, Clinic 医,
-  Bank 銭 (といち屋), Inn 宿. Plan: 3-letter caps in a 4-px pixel font; also 宿 plate (x208-240 y48-72) and
-  八百屋 board (x176-248 y168-200). Shared by most SMAP/OMAP tilesets (check identical bytes, one edit per copy).
+- **Graphics done since (all seen in-game unless noted; per-row detail in docs/re/graphics.md):** town sign plates
+  (gfx_en.PLATE_KINDS: byte-identical plate blocks replaced in every tileset copy, 3x5 pixel caps), bath band Hot /
+  Bath (FURO_n), bath curtains Men / Women (map 378), Grand Pun Contest banner (map 18), Shuten-doji cave puzzles
+  (DMAP03: direction/colour panels, kana floor tiles SH u TE N DO U JI + hint line). Still Japanese: status
+  ailments FONT.PAC:4 (battle), seal talismans BM000/BM091, AMAP flag, DARUMA.PAC:6 banner, FUKU title, HMAP26
+  おめでとう banners, 宿 roof boards in OMAP00.PAC:1, DMAP03 鬼 plate; END01 "The End" not seen in-game. Find maps
+  with tools/debug/maps.txt (line = map id, PAC, room) + `warp.py map:<id>:<x>:<y>`.
 - **Card notes:** (CR_PGnn.PAC entries 0/2/4 = 3 cards per PAC, CLUT = next entry; 96x136 8bpp):** circled initial
   top-right (~x62-88 y4-30) -> Latin initial in the circle; vertical name in the right column (~x66-86 y32-128) ->
   English name rotated 90 deg clockwise in that column; top-left box (~x4-56 y4-60) holds either flavour text in
