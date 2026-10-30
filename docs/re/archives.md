@@ -5,8 +5,9 @@
   0x80010000, entry 0x8004F8F4, 980,992 bytes).
 - `0/<dir>/*.PAC` hold everything (fonts, maps, battles, events, sound); `0/97XA/JING.XA` audio; `GAISYU.DAT` is
   36,864,000 zero bytes (outer-ring filler); `MMPS_CD.SFS` (6,400 bytes) = 800 x {u32 LBA, u32 size} file table
-  (entry 0 = itself at LBA 0x17, entry 1 = FONT.PAC, 0x1F66F bytes) — **the game likely reads files by this table,
-  not ISO9660**: a rebuild that moves or resizes a file must rewrite it (guess, check in phase 3).
+  (entry 0 = itself at LBA 0x17, entry 1 = FONT.PAC, 0x1F66F bytes) — **the game reads files by this table,
+  not ISO9660** (verified: `cd_load` 0x8001AC54 indexes it in RAM at 0x8008F710, docs/re/debug.md): a rebuild
+  that moves or resizes a file must rewrite it.
 - Unpack: `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s work/disc/layout.xml rom/<cue>`.
 
 ## Free space (candidates only, none trap-tested)
