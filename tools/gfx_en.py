@@ -6,6 +6,7 @@ insert.files() writes entries() into the build. Each edit clears a rect of the o
 index and draws the English there with an antialiased font mapped onto a ramp of palette indices (background ->
 ink), so only pixels inside the declared rects change (asserted).
 """
+import functools
 import sys
 from collections import Counter
 from pathlib import Path
@@ -50,7 +51,12 @@ PIXEL_FONT = {ch: rows.split('/') for ch, rows in {     # 3x5 caps
     'I': '###/.#./.#./.#./###', 'J': '..#/..#/..#/#.#/.#.', 'K': '#.#/#.#/##./#.#/#.#', 'M': '#.#/###/###/#.#/#.#',
     'N': '##./#.#/#.#/#.#/#.#', 'O': '.#./#.#/#.#/#.#/.#.', 'P': '##./#.#/##./#../#..', 'R': '##./#.#/##./#.#/#.#',
     'S': '.##/#../.#./..#/##.', 'T': '###/.#./.#./.#./.#.', 'W': '#.#/#.#/###/###/#.#'}.items()}
-VERT = {'rotate': True, 'ink': 15}  # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
+# bath-event band: 8bpp 256x256, band y5-80 (ゆ 湯 ゆ + edge) and a 湯 tile below it; rects, word, font px
+BATH_IMAGE, BATH_CLUT, BATH_INK = '30EV/FURO_0.PAC:6', '30EV/FURO_0.PAC:5', (160, 80, 0)
+BATH_LOCS = ['30EV/FURO_%d.PAC:6' % n for n in range(5)]
+BATH_WORDS = [((0, 5, 76, 80), 'Hot', 30), ((82, 5, 144, 80), 'Bath', 24), ((168, 5, 238, 80), 'Hot', 30),
+              ((8, 84, 80, 160), 'Bath', 26)]
+VERT = {'rotate': True, 'ink': 15} # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
         # left edges = the JP words' (the cursor peach sits just left of them)
@@ -239,6 +245,35 @@ def stamp():
     return out
 
 
+def bath():
+    """Bath-event band (FURO_n.PAC:6, same in all five): brush ゆ 湯 burnt into vertical-grain wood -> Hot / Bath.
+    Brush pixels (orange: R-G >= 60 or B <= 24, plus 1 px) take the nearest wood pixel above/below (the grain is
+    vertical), then the word is blended in the brush colour, each pixel the nearest CLUT colour. New pixels."""
+    from PIL import ImageFilter
+    pal = [c[:3] for c in gfx.palette(gfx.entry(BATH_CLUT))]
+    _, w, h, px = gfx.indices(gfx.entry(BATH_IMAGE))
+    new = bytearray(px)
+    near = functools.cache(lambda c: min(range(1, 256), key=lambda i: sum((a - b) ** 2 for a, b in zip(pal[i], c))))
+    for (x0, y0, x1, y1), word, size in BATH_WORDS:
+        brush = Image.new('L', (x1 - x0, y1 - y0))
+        brush.putdata([255 * (pal[px[y * w + x]][0] - pal[px[y * w + x]][1] >= 60 or pal[px[y * w + x]][2] <= 24)
+                       for y in range(y0, y1) for x in range(x0, x1)])
+        gone = brush.filter(ImageFilter.MaxFilter(3)).load()
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                if gone[x - x0, y - y0]:
+                    src = next(sy for d in range(1, h) for sy in (y - d, y + d)
+                               if y0 <= sy < y1 and not gone[x - x0, sy - y0])
+                    new[y * w + x] = px[src * w + x]
+        cov = coverage(word, size, x1 - x0, y1 - y0).load()
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                a = cov[x - x0, y - y0] / 255 * 0.8     # burnt into the wood, not painted on
+                if a:
+                    new[y * w + x] = near(tuple(round(i * a + b * (1 - a)) for i, b in zip(BATH_INK, pal[new[y * w + x]])))
+    return new
+
+
 def plates():
     """Town sign plates (PLATE_KINDS): every block equal to one of the reference row's plates, in the kind's tilesets,
     gets the English word in the 3x5 pixel font (ink, light edge under each stroke) on the glyph rows cleared to the
@@ -295,6 +330,9 @@ def entries():
         out[loc] = gfx.repack(gfx.entry(loc), new)
     for loc, (new, _) in plates().items():
         out[loc] = gfx.repack(gfx.entry(loc), new)
+    new = bath()
+    for loc in BATH_LOCS:
+        out[loc] = gfx.repack(gfx.entry(loc), new)
     return out
 
 
@@ -347,6 +385,17 @@ def preview_plates(zoom=4):
     print(dst)
 
 
+def preview_bath(zoom=2):
+    pal = gfx.palette(gfx.entry(BATH_CLUT))
+    raw = gfx.entry(BATH_IMAGE)
+    out = Image.new('RGBA', (512, 164), (255, 0, 255, 255))
+    out.paste(gfx.image(raw, pal).crop((0, 0, 256, 164)), (0, 0))
+    out.paste(gfx.image(raw, pal, bath()).crop((0, 0, 256, 164)), (256, 0))
+    dst = ROOT / 'work/gfx_en/bath.png'
+    out.resize((out.width * zoom, out.height * zoom), Image.NEAREST).save(dst)
+    print(dst)
+
+
 if __name__ == '__main__':
-    for n in sys.argv[1:] or [*IMAGES, 'stamp', 'plates']:
-        {'stamp': preview_stamp, 'plates': preview_plates}.get(n, lambda: preview(n))()
+    for n in sys.argv[1:] or [*IMAGES, 'stamp', 'plates', 'bath']:
+        {'stamp': preview_stamp, 'plates': preview_plates, 'bath': preview_bath}.get(n, lambda: preview(n))()

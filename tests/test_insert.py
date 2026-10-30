@@ -62,6 +62,9 @@ def allowed():
         a, b = max(x0 - left, 0), min(x1 - left, w)
         out['0/' + loc] = [(20 + y * w + a, 20 + y * w + b) for y in range(y0, y1)] if a < b else []
         left += w
+    for loc in gfx_en.BATH_LOCS:                        # bath-event band (8bpp, 256 wide)
+        out['0/' + loc] = [(20 + y * 256 + x0, 20 + y * 256 + x1) for (x0, y0, x1, y1), *_ in gfx_en.BATH_WORDS
+                           for y in range(y0, y1)]
     for loc, (_, rects) in gfx_en.plates().items():     # shop-sign plates (4bpp tilesets)
         _, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) // 2, 20 + (y * w + x1) // 2) for x0, y0, x1, y1 in rects
