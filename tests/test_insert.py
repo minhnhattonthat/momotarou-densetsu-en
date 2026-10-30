@@ -10,6 +10,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import engine  # noqa: E402
+import cards  # noqa: E402
 import extract  # noqa: E402
 import gfx  # noqa: E402
 import gfx_en  # noqa: E402
@@ -54,6 +55,8 @@ def allowed():
         bpp, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + (y * w + x1) * bpp // 8)
                            for (x0, y0, x1, y1), *_ in edits for y in range(y0, y1)]
+    for n in range(1, 298):                             # redrawn cards: pixel data only, never the TIM header
+        out['0/' + cards.loc(n)] = [(20, 20 + cards.W * cards.H)]
     return out
 
 

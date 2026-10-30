@@ -12,6 +12,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+import cards
 import gfx
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -137,8 +138,8 @@ def redraw(name):
 
 
 def entries():
-    """{image location: new TIM bytes} for every image in IMAGES."""
-    out = {}
+    """{image location: new TIM bytes} for every image in IMAGES, plus the redrawn cards (tools/cards.py)."""
+    out = cards.entries()
     for name in IMAGES:
         raw, new = redraw(name)
         out[IMAGES[name][0]] = gfx.repack(raw, new)

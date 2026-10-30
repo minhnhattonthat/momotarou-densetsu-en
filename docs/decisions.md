@@ -14,3 +14,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-10-30 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints, report at the end. |
 | D7 | 2026-10-30 | Existing saves / memory cards | user supplies, none | None provided; build the debug tool (phase 2) as usual. |
 | D8 | 2026-10-30 | Pushing / releases | ask each time, pre-approved | Commit and push to main at each phase end; never `gh release create`, never change repo visibility. Run ends at a built, verified release zip. |
+| D9 | 2026-10-30 | Card stat labels (agent default under D6, owner may override) | full words (Attack/Defense/Speed) in a tiny font, abbreviate | HP / Atk / Def / Spd: the game draws each value ~29 px after the label's left edge, so full words collide with the numbers (seen in-game); flagged abbreviation per D4. D5 logo: kept Japanese (no official English logo). |
