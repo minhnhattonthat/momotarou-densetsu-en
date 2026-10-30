@@ -31,6 +31,15 @@ EXE_BASE = 0x80010000 - 0x800    # RAM address of EXE file offset 0
 HOOK = 0x8003E260
 TAIL = 0x8003E3FC                # common tail: stores y, tpage, the new x (a0) at gp+0x3E4
 TABLE = HOOK + 48
+FREE1_END = 0x8003E308
+# Digraphs: code 0x8000 | c1 << 7 | c2 (two printable ASCII chars, 0x9000-0xBF7E) is one u16 in the control range
+# draw_string skipped as a no-op. The hook draws it as the two glyphs by calling draw_string on a 3-word string on
+# the stack, as the {str} handler does, so English text costs one byte per letter. It lives in the sheet 1 block of
+# glyph_prim (0x8003F644), freed the same way (that function's sheet 1 path now runs its sheet 0 path).
+DIGRAPH = 0x8003F704
+FREE2_END = 0x8003F790
+NEXT = 0x8003E660                # draw_string: s2 += 2, next code
+DRAW_STRING = 0x8003E128
 REGS = {'$v0': 2, '$t1': 9}
 PATCH = [                        # (address, original, replacement)
     (0x8003E1BC, 'sltiu $v0, $a2, 0x200', 'sltiu $v0, $a2, 0x400'),
@@ -39,7 +48,41 @@ PATCH = [                        # (address, original, replacement)
     (0x8003E1DC, 'nop', 'srl $t5, $a2, 9'),
     (0x8003E258, 'j 0x8003e3fc', f'j {HOOK:#x}'),
     (0x8003E25C, 'addiu $a0, $a0, 0xd', 'addu $v0, $v0, $t5'),
+    (0x8003E430, 'beqz $v0, 0x8003e660', f'beqz $v0, {DIGRAPH:#x}'),   # control code past the jump table
+    # glyph_prim(code a0, dest a1): same merge as above; a1 (a copy of code & 0xFFF) is freed for the sheet bit
+    (0x8003F674, 'andi $a1, $a0, 0xffff', 'srl $t4, $a0, 9'),
+    (0x8003F678, 'sltiu $v0, $a1, 0x200', 'sltiu $v0, $a0, 0x400'),
+    (0x8003F67C, 'beqz $v0, 0x8003f704', 'beqz $v0, 0x8003f790'),
+    (0x8003F684, 'andi $a0, $v1, 0xffff', 'andi $a0, $v1, 0x1ff'),
+    (0x8003F700, 'addiu $v0, $zero, 0x1d', 'addiu $v0, $t4, 0x1d'),
+    (0x8003F808, 'sltiu $v0, $a1, 0x800', 'sltiu $v0, $a0, 0x800'),
 ]
+
+
+def digraph_asm():
+    return [
+        'lhu $t0, 0($s2)',                       # the code
+        'ori $t3, $zero, 0x8000',                # load delay slot; {end}
+        'srl $t1, $t0, 12',
+        'addiu $t1, $t1, -9',
+        'sltiu $t1, $t1, 3',
+        f'beqz $t1, {NEXT:#x}',                  # not 0x9000-0xBFFF: skip it, as the game did
+        'srl $t1, $t0, 7',
+        'andi $t1, $t1, 0x7f',
+        'andi $t0, $t0, 0x7f',
+        f'addiu $t1, $t1, {EN_BASE - FIRST}',
+        f'addiu $t0, $t0, {EN_BASE - FIRST}',
+        'addiu $sp, $sp, -8',
+        'sh $t1, 0($sp)',
+        'sh $t0, 2($sp)',
+        'sh $t3, 4($sp)',
+        'move $a0, $s0',
+        'move $a1, $s1',
+        f'jal {DRAW_STRING:#x}',
+        'move $a2, $sp',
+        f'j {NEXT:#x}',
+        'addiu $sp, $sp, 8',
+    ]
 
 
 def hook_asm():
@@ -79,11 +122,13 @@ def widths(g=None):
     return [SPACE_W if c == FIRST else max(len(r.rstrip('.')) for r in g[chr(c)]) + 1 for c in range(FIRST, LAST + 1)]
 
 
-def table(jp=ROOT / 'tbl/jp.tbl'):
-    """English codec: ASCII at EN_BASE (listed first, so it wins over the Japanese table's full-width A-Z), then the
-    Japanese table for its control codes."""
-    lines = [f'{struct.pack("<H", EN_BASE + c - FIRST).hex().upper()}={chr(c) if c != 0x20 else chr(92) + "s"}'
-             for c in range(FIRST, LAST + 1)]
+def table(jp=ROOT / 'tbl/jp.tbl', pairs=True):
+    """English codec: digraphs (encode pairs greedily, left to right), then ASCII at EN_BASE (both listed before the
+    Japanese table, so they win over its full-width A-Z), then the Japanese table for its control codes.
+    pairs=False: single glyphs only, for text not drawn by draw_string."""
+    key = lambda code: struct.pack('<H', code).hex().upper()
+    lines = [f'{key(code)}={s}' for s, code in digraphs().items()] if pairs else []
+    lines += [f'{key(EN_BASE + c - FIRST)}={chr(c) if c != 0x20 else chr(92) + "s"}' for c in range(FIRST, LAST + 1)]
     return Table(lines + jp.read_text(encoding='utf-8-sig').splitlines())
 
 
@@ -94,9 +139,9 @@ def asm(lines, addr):
     for i, line in enumerate(lines):
         pc = addr + 4 * i
         op, _, args = line.partition(' ')
-        if op in ('j', 'beqz'):                  # keystone pads j with a nop and rejects absolute branch targets
+        if op in ('j', 'jal', 'beqz'):           # keystone pads j with a nop and rejects absolute branch targets
             target = int(args.split()[-1], 16)
-            word = (2 << 26 | target >> 2 & 0x3FFFFFF if op == 'j' else
+            word = ((2 if op == 'j' else 3) << 26 | target >> 2 & 0x3FFFFFF if op != 'beqz' else
                     4 << 26 | REGS[args.split(',')[0]] << 21 | (target - pc - 4) >> 2 & 0xFFFF)
             out += struct.pack('<I', word)
             continue
@@ -117,10 +162,21 @@ def patch_exe(exe):
         b[o:o + 4] = asm([new], addr)
     code = asm(hook_asm(), HOOK)
     w = bytes(widths())
-    assert len(code) == TABLE - HOOK and TABLE + len(w) <= 0x8003E308
+    assert len(code) == TABLE - HOOK and TABLE + len(w) <= FREE1_END
     o = HOOK - EXE_BASE
     b[o:o + len(code) + len(w)] = code + w
+    code = asm(digraph_asm(), DIGRAPH)
+    assert DIGRAPH + len(code) <= FREE2_END
+    o = DIGRAPH - EXE_BASE
+    b[o:o + len(code)] = code
     return bytes(b)
+
+
+def digraphs():
+    """{'ab': code} for every printable pair, except a second char of { or [ (that would eat the start of a
+    {control} or [XX] token when encoding) and the pair \\s (a table line can't hold it)."""
+    return {chr(a) + chr(c): 0x8000 | a << 7 | c for a in range(FIRST, LAST + 1) for c in range(FIRST, LAST + 1)
+            if chr(c) not in '{[' and chr(a) + chr(c) != '\\s'}
 
 
 def patch_font(font_pac):
