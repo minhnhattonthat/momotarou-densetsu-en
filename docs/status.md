@@ -13,9 +13,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   draw_string incl. digraphs, freed-block branch check, load-delay check).
   Table limits (docs/re/engine.md table): PAC < 0x38000; FONT_6 slot 32 KB (marker 38 KB), FONT_10 5.6 KB (7.1 KB),
   SMAP16_37 32 KB (35.5 KB), SHOP.MMB 45 KB (49.8 KB) overflow even with digraphs.
-- **Next (phase 5 rest):** finish the width gate (docs/re/windows.md "Open": HUD name box, equip screen, shop buy
-  list, save slots, card album, minigame boxes, staff roll, name entry; item list count column); glyph torture line
-  in-game; then phase 6. Name-entry grid (EXE 0xD4158..) and glyph_prim's caller (0x80022840, needs single glyphs)
+- **Next (phase 5 rest):** finish the width gate (docs/re/windows.md "Open": item/technique list needs an inventory
+  cheat in the debug tool, shop buy list, battle command menus, card album, minigame boxes, staff roll, name entry);
+  then phase 6. Measured so far: dialogue box 234 px x 3 lines, side message box 134 px, menu commands 52/54 px,
+  HUD name 44 px, HUD stat labels 12 px (layout change needed), equip, status, save slot. Torture line booted ok. Name-entry grid (EXE 0xD4158..) and glyph_prim's caller (0x80022840, needs single glyphs)
   not handled yet. Phase 7 must add the slot size gate + dictionary codes (engine.md "Remedies").
 - **Done (phase 4):** `tools/extract.py` -> `script/` (191 JSON files: 187 unique string tables, SHOP.MMB, 3 code
   overlays, EXE). 23,175 strings, 5,981 unique, ~281k chars. Format and findings in docs/re/text.md §Script.

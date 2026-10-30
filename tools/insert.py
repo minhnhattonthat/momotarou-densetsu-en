@@ -82,8 +82,8 @@ def marked(n, doc):
     return doc
 
 
-def files(marker_build=False):
-    """{disc path: bytes} for build.build."""
+def files(marker_build=False, qa=None):
+    """{disc path: bytes} for build.build. qa: {string id: text} overrides (stress lines, torture line)."""
     entries, raw = {}, {}          # {pac path: {entry: decompressed bytes}}, {raw file: bytes}
 
     def base(path, ent):
@@ -106,6 +106,8 @@ def files(marker_build=False):
         tags.append(f'{n}\t{rel}')
         if marker_build:
             doc = marked(n, doc)
+        if qa and any(s['id'] in qa for s in doc['strings']):
+            doc = {**doc, 'strings': [{**s, 'en': qa[s['id']]} if s['id'] in qa else s for s in doc['strings']]}
         if not any(s.get('en') for s in doc['strings']):
             continue
         for loc in doc['copies']:

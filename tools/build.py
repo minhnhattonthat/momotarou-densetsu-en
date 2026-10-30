@@ -1,6 +1,7 @@
 """Build the disc: unpacked tree + replaced files -> build/momotarou_en.bin/.cue (docs/re/archives.md).
 
     python -X utf8 tools/build.py [--marker]    # -> build/momotarou_en.bin (en, else Japanese) or momotarou_marker.bin
+    python -X utf8 tools/build.py --marker --qa "SHOP:347=text"..   # stress/torture lines (also -> momotarou_marker)
 
 The game reads files by MMPS_CD.SFS (800 x {u32 LBA, u32 size}), not ISO9660, so every build regenerates it from
 mkpsxiso's LBA log: lay out once with -noisogen (the SFS keeps its 6400 bytes, so LBAs don't depend on it), write
@@ -115,9 +116,10 @@ def main(argv):
     unpack()
     import insert
     marker = '--marker' in argv
+    qa = dict(argv[i + 1].split('=', 1) for i, a in enumerate(argv) if a == '--qa')
     OUT.mkdir(exist_ok=True)
-    out_bin = OUT / ('momotarou_marker.bin' if marker else 'momotarou_en.bin')
-    build(insert.files(marker), out_bin)
+    out_bin = OUT / ('momotarou_marker.bin' if marker or qa else 'momotarou_en.bin')
+    build(insert.files(marker, qa), out_bin)
     print(f'built {out_bin} ({out_bin.stat().st_size} bytes)')
 
 
