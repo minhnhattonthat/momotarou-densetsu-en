@@ -50,6 +50,7 @@ return {
   talk_134       = { map = 134, x = 20, y = 18, route = TALK, mash = 40, settle = 240 },
   talk_151       = { map = 151, x = 20, y = 18, route = TALK, mash = 40, settle = 240 },
   talk_36        = { map = 36, route = TALK, mash = 40, settle = 600 },  -- OMAP00 town: NPC north of the start
+  map_36         = { map = 36 },  -- same spot, no talk: base state for name entry (docs/re/debug.md, call.lua)
   -- the other interiors (nobody at 20,18): temple 47, houses
   in2_47         = { map = 47, x = 20, y = 18 },
   in2_116        = { map = 116, x = 20, y = 18 },

@@ -14,7 +14,7 @@
     "word@0xd4518"
    ],
    "jp": "ひらがな",
-   "en": "Hiragana"
+   "en": "ABC"
   },
   {
    "id": "SLPS_017:d4500",
@@ -34,7 +34,7 @@
     "word@0xd4514"
    ],
    "jp": "英数字",
-   "en": "ABC/123"
+   "en": "Hiragana"
   }
  ]
 }

@@ -26,7 +26,7 @@ fits when the sum of its advances minus 1 is at most the budget. Never derive a 
 | Battle messages | FONT_10/11 + {str} monster/party names (FONT_7) | 48 | 281 | 234 px incl. the longest inserted name | 3 | measured: battle (marker `[4.126] The[0.1] The quick brown fox`, `work/qa/battle_cmd/`) |
 | Glyph torture line | SHOP:347 via `--qa` | 48 | - | - | 3 | booted: every printable glyph draws (`@` is a heart in en12.txt), double spaces keep 8 px; `work/qa/torture/f000230.png` |
 | HUD name box (top centre) | party names (FONT_6 :536..) | 148 | interior ~192 | 44 px | 1 | measured: menu_soubi (桃太郎 148..186) |
-| HUD stat labels (体 技 under the name) | FONT_6 :551, :553 | 146 | number at ~158 | 12 px | 1 | measured: menu_soubi; the marker overlaps the numbers. Needs a 1-glyph label or a layout change |
+| HUD stat labels (体 技 under the name) | FONT_6 :551, :553 | 146 | number at ~158 | 12 px | 1 | measured: menu_soubi; done in phase 7: 8x8 cells redrawn as HP / SP / Lv (engine.SMALL) |
 | Equip slot label (武 防 足) | FONT_6 | 168 | item name at 190 | 20 px | 1 | measured: menu_soubi |
 | Equip slot item name | FONT_6 items | 190 | interior ~293 | 103 px | 1 | measured: menu_soubi |
 | Status labels (段 体 技 心 次 状態) | FONT_6 | 24 | numbers from ~66 | 40 px | 1 | measured: menu_tsuyosa |
@@ -35,7 +35,9 @@ fits when the sum of its advances minus 1 is at most the budget. Never derive a 
 | Save slot label (空きファイル) | EXE/title tables | 178 | scroll interior ~290 | ~110 px | 1 | measured: title_load |
 | Gold box | {gold} + unit 両 | 217..292 | - | - | 1 | measured interior; unit glyph after the number |
 
-Width gate complete (phase 5): every variant above is measured. Known layout work for phase 7: HUD stat labels
-(12 px), the ？？？ battle command string, the name-entry grid (English page), staff-roll lines past 250 px. Minigame
+Width gate complete (phase 5): every variant above is measured. Phase 7 layout work done (docs/re/engine.md §Layout
+patches): HUD labels, money unit, name-entry English page, {num} pitch; staff-roll lines fit 250 px (lint). The
+？？？ battle command: its overflow was the marker text; the grid strings (FONT_7:026-034, ？？？ = FONT_10:117 "???")
+are short in English and pass the lint, but the English grid is not shot yet (phase 8, battle_lists route). Minigame
 result/score screens beyond the message box were not reached (HUDs are graphics); treat any new box found in phase 8
 as unmeasured and measure it before fitting.

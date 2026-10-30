@@ -35,18 +35,36 @@
 | 4 | 0x8017D600 | FONT_11 | 6,152 | 0x2A00 (FONT_7) | 8,100 |
 | 5 | 0x8017C000 | FONT_10 | 5,458 | **0x1600** (FONT_11) | 7,154 over |
 | 6 | 0x80160000 | map dialogue | 26,652 | **0x8000** where the map has an overlay at 0x80168000 (SMAP16) | 35,544 over |
-| 7 | 0x80190000 | minigame text | 5,778 | not traced | 7,814 |
+| 7 | 0x80190000 | minigame / event text | 5,778 | 0x8000 (RAM zero up to 0x80198000 in mg_fuku, mg_yumi2, ev_01, ev_furo0) | 7,814 |
 - SHOP.MMB (560 strings: shop and most interior NPC talk) loads raw to 0x80155000; limit 0xB000 (45,056) to the
   dialogue slot. JP 37,282, marker 49,830 over. Battle tables (BMxxx:1, type 0x116, handler 0x800D787C) not traced.
 - FONT_5 / FONT_6 bases are hardcoded (`lui 0x8018`): can't move. FONT_10 / FONT_11 / FONT_7 / map slot are reached
   only through the pointer words at EXE 0xD3AF8-0xD3B24 and 0xEE68C-0xEE6B0 (and 0x800E330C): those can be rebalanced
   (FONT_10 + FONT_11 share 0x4000).
-- Remedies for phase 7, in order: a size gate in the build (fail on any slot over its limit); rebalance FONT_10/11;
-  dictionary codes 0xC000-0xFFFF = extra strings appended to FONT_5's table (slot has ~13 KB spare and is always
-  resident), drawn by the digraph hook calling draw_string on them (~13 more instructions fit in the freed block);
-  concise wording only as the last step.
+- **Size gate (phase 7, `insert.py` SLOT_LIMIT etc.)**: a real build fails on any 0x10D table over its slot
+  (param & 0xFF), a battle table (0x116) over the largest JP one (20,542; its buffer is not traced), SHOP.MMB over
+  0xB000 or a PAC at 0x38000. Marker builds skip it (they overflow by design). The English fits with no rebalance and
+  no dictionary codes: FONT_6 29,754 / 32,768, FONT_10 5,384 / 5,632, SMAP16_37 26,610 / 32,768, SHOP.MMB 36,136 /
+  45,056, slot 7 5,962 (FUKU) / 32,768, battle 19,956, largest PAC SMAP16 224,388 / 229,376. If it ever overflows:
+  rebalance FONT_10/11; dictionary codes 0xC000-0xFFFF appended to FONT_5's table (~13 KB spare, always resident),
+  drawn by the digraph hook calling draw_string on them; concise wording last.
 - RAM after the EXE (0x800FF000-0x80110000) is zero in 12 scenes but is BSS (libraries reference 0x801049D8.. and
   0x80101238): not free. `tools/debug/ramfree.py` intersects zero runs over scene states.
+
+## Layout patches (phase 7, `engine.PATCH`, `engine.SMALL`, verified in-game on warp shots)
+- `{num}` / `{gold}` digits (0x8003E8B8, 8x12 cells at v=228, its only callers are those two handlers) advanced 12 px:
+  now 8 ("took 34 damage", not "3 4").
+- HUD labels are 8x8 glyphs on an 8 px row pitch (12 px letters clip): the 体 技 段 cells (0x080A/0C/0D, sheet 1
+  plane 0, y=240) are redrawn as 3x7 "HP" "SP" "Lv". The field HUD (0x800D87A4) draws 段 at x 0x20 after the level
+  number: now Lv at x 8 (the HP/SP column) and the number right-aligned at 0x30 like HP/SP.
+- 両 -> "ryo" (FONT_6:556, 12 px font): the six money boxes (number right-aligned to x, label at x) move both 8 px left.
+- Name entry 0x800DC3D0: the first page (hiragana grid, EXE 0xD4158) holds A-Z, punctuation, a-z, space, digits
+  (`engine.NAME_GRID`, single English codes); hiragana moves to the 英数字 page (0xD43B8); katakana stays. Mode labels
+  follow the swap (d44f4 "ABC", d450c "Hiragana"). The cursor starts at column 0 (was 14, あ at top right):
+  `0x8003C680(a0 = col, a1 = row)` sets it, called at 0x800DC5FC.
+- glyph_prim's caller is the per-glyph effect 0x80022750, called only from overlays: SMAP16:36 (after name entry
+  mode 4: the entered name, or the shop line SMAP16_36:46c4 when cancelled) and WMAP08:27 (tongue-twister board,
+  kept Japanese). `insert.SINGLE` encodes that shop line without digraphs ("Buy or get out!", 15 glyphs, max 32 bytes).
 
 ## Tools
 - `python -X utf8 tools/build.py --marker` -> build/momotarou_marker.bin/.cue: every string `[n.i] filler` at the

@@ -10,6 +10,7 @@
   and confirmed on おじいさんと おばあさんが. `tools/font.py` renders cells by code.
 - `07xx` = 8x12 glyphs (10 px pitch): `0700-0709` big digits 0-9 (sheet 1 bottom, v=228).
   `08xx` = 8x8 glyphs (8 px pitch): `0800-0809` small digits, `080A-0812` 体 力 技 段 西 両 心 / 次 (v=240).
+  The English build redraws 体 技 段 as HP SP Lv (docs/re/engine.md §Layout patches).
 - Pitch: 13 px per 12x12 glyph (fixed), `8002` = 8 px space, `8003` = 13 px space, `0023` = full-width space glyph.
 - Table: `tbl/jp.tbl`, keys are the little-endian bytes (`2B00=あ`). 0000-00E6 read by eye and checked on in-game
   text; kanji (00E7-01B8, 0200-03B8, 1000-11B8, 1200-12xx) started as OCR guesses (`tools/font_ocr.py`), then in

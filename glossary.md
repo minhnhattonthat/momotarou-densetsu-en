@@ -112,4 +112,6 @@ batch needs into `build/terms_<batch>.txt`.
 - ウンチ (the character) -> Poop, 鉄ウンチ Iron Poop; といち屋 -> Bank; 氷室 / ひむろ -> Icehouse (氷室の削り火 Icehouse
   Fire); 水鬼 Water Oni; 塩吹き鬼 Salt Oni; 竜燈鬼 Ryutoki; 左魂 / 右魂 Left Soul / Right Soul.
 - Flagged abbreviations (phase 7 layout work, not translator choices): equip slot labels 武/防/足 = Wpn/Arm/Ft (20 px
-  slot), directions 北東.. = NE/NW/SE/SW (label width unmeasured).
+  slot), directions 北東.. = NE/NW/SE/SW (label width unmeasured), HUD level label 段 = Lv (8x8 glyph cell beside
+  HP/SP; the status screen spells Level). 両 after a number = "ryo" (money boxes moved 8 px to fit it).
+- Name entry: the first page is English (A-Z a-z digits punctuation); hiragana is on the page labelled Hiragana.

@@ -23,7 +23,7 @@ SCENES = ROOT / 'tools/debug/scenes.lua'
 
 
 def scene_names():
-    return re.findall(r'^\s+(\w+)\s*=\s*\{', SCENES.read_text(encoding='utf-8'), re.M)
+    return re.findall(r'^  (\w+)\s*=\s*\{', SCENES.read_text(encoding='utf-8'), re.M)  # scene keys: 2-space indent
 
 
 def run(rom, scene, extra, tag=''):

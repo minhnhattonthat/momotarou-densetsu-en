@@ -56,7 +56,35 @@ PATCH = [                        # (address, original, replacement)
     (0x8003F684, 'andi $a0, $v1, 0xffff', 'andi $a0, $v1, 0x1ff'),
     (0x8003F700, 'addiu $v0, $zero, 0x1d', 'addiu $v0, $t4, 0x1d'),
     (0x8003F808, 'sltiu $v0, $a1, 0x800', 'sltiu $v0, $a0, 0x800'),
+    # number printer 0x8003E8B8 ({num}/{gold} only): 8 px digit cells advanced 12 px ("took 3 4 da"); 8 = 1 px gap
+    (0x8003EACC, 'addiu $v0, $v0, 0xc', 'addiu $v0, $v0, 8'),
+    # field HUD 0x800D87A4: level label (段 -> tiny Lv) moves from after the number to the HP/SP label column,
+    # the level number right-aligns to the HP/SP numbers' edge: "Lv 1 / HP 25 / SP 0"
+    (0x800D87B0, 'addiu $a2, $zero, 0x20', 'addiu $a2, $zero, 8'),
+    (0x800D8808, 'addiu $a1, $zero, 0x20', 'addiu $a1, $zero, 0x30'),
+] + [
+    # money boxes: the number (right-aligned to x) and the 両 label (FONT_6:556, x) move 8 px left for "ryo"
+    (addr, f'addiu ${reg}, $zero, {x:#x}', f'addiu ${reg}, $zero, {x - 8:#x}')
+    for addr, reg, x in [(0x80021884, 'a1', 0xA8), (0x800218A4, 'a2', 0xA8), (0x800368F0, 'a1', 0x48),
+                         (0x80036914, 'a2', 0x48), (0x800D8BF0, 'a1', 0x48), (0x800D8C14, 'a2', 0x48),
+                         (0x800D9810, 'a1', 0xA8), (0x800D9830, 'a2', 0xA8), (0x800DAD6C, 'a1', 0xA8),
+                         (0x800DAD8C, 'a2', 0xA8), (0x800DB6A0, 'a1', 0x48), (0x800DB6E4, 'a2', 0x48)]
+] + [
+    # name entry 0x800DC3D0: cursor starts at column 0 (top-left 'A' of the English page), not 14 (あ, top-right)
+    (0x800DC5FC, 'addiu $a0, $zero, 0xe', 'addiu $a0, $zero, 0'),
 ]
+# Name-entry grids (docs/re/text.md): 15 x 5 cells, row-major left to right, each {glyph}{end}. The first page shown
+# (hiragana at EXE 0xD4158) becomes English; hiragana moves to the 英数字 page (0xD43B8); katakana stays.
+GRID_FIRST, GRID_ALNUM, GRID_CELLS = 0xD4158, 0xD43B8, 75
+NAME_GRID = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.,'-abcdefghijklmnopqrstuvwxyz!?& 0123456789+/():"
+# 8x8 HUD label glyphs (codes 08xx, sheet 1 plane 0, cells at x = 8 * (code & 0xFF), y = 240; docs/re/text.md):
+# 12 px letters don't fit their 8 px row pitch, so the kanji cells are redrawn as 3x7 letter pairs.
+SMALL_Y, SMALL_PLANE = 240, 0
+SMALL = {
+    0x0A: ['#.#.##.', '#.#.#.#', '#.#.#.#', '###.##.', '#.#.#..', '#.#.#..', '#.#.#..'],   # 体 -> HP
+    0x0C: ['.##.##.', '#...#.#', '#...#.#', '.#..##.', '..#.#..', '..#.#..', '##..#..'],   # 技 -> SP
+    0x0D: ['#......', '#......', '#...#.#', '#...#.#', '#...#.#', '#...#.#', '###..#.'],   # 段 -> Lv
+}
 
 
 def digraph_asm():
@@ -169,6 +197,10 @@ def patch_exe(exe):
     assert DIGRAPH + len(code) <= FREE2_END
     o = DIGRAPH - EXE_BASE
     b[o:o + len(code)] = code
+    assert len(NAME_GRID) == GRID_CELLS and exe[GRID_ALNUM:GRID_ALNUM + 4] == b'\x00\x00\x00\x80'   # 'Ａ'{end}
+    b[GRID_ALNUM:GRID_ALNUM + 4 * GRID_CELLS] = exe[GRID_FIRST:GRID_FIRST + 4 * GRID_CELLS]
+    for i, c in enumerate(NAME_GRID):
+        struct.pack_into('<HH', b, GRID_FIRST + 4 * i, EN_BASE + ord(c) - FIRST, 0x8000)
     return bytes(b)
 
 
@@ -196,6 +228,13 @@ def patch_font(font_pac):
                 ink = TOP <= y < TOP + len(rows) and x < len(rows[y - TOP]) and rows[y - TOP][x] == '#'
                 o = 20 + (cy + y) * stride + (cx + x) // 2
                 bit = 1 << (PLANE + 4 * ((cx + x) & 1))
+                t[o] = t[o] | bit if ink else t[o] & ~bit
+    for idx, rows in SMALL.items():
+        for y in range(8):                  # row 0 blank, letters on rows 1-7 like the small digits
+            for x in range(8):
+                ink = 1 <= y and x < len(rows[y - 1]) and rows[y - 1][x] == '#'
+                o = 20 + (SMALL_Y + y) * stride + (idx * 8 + x) // 2
+                bit = 1 << (SMALL_PLANE + 4 * ((idx * 8 + x) & 1))
                 t[o] = t[o] | bit if ink else t[o] & ~bit
     items[FONT_ENTRY] = (typ, lzss.compress(bytes(t)) if typ & 0x10000 else bytes(t), extra)
     return pac.pack(items)

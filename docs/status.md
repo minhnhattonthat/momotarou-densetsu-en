@@ -2,13 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translate) **done** 2026-10-30. Next: phase 7 (insert + fit).
-- **Next (phase 7):** slot size gate + dictionary codes (engine.md "Remedies": FONT_6/FONT_10/SMAP16_37/SHOP.MMB
-  load buffers overflowed with markers; English now in, measure real sizes), HUD stat labels (12 px; 体/技 still JP),
-  the ？？？ battle-command string, name-entry English grid (EXE 0xD4158.., 英数字 page), glyph_prim's caller
-  (0x80022840, needs single glyphs), battle numbers still full-width JP digits ("took ３４ da..."). Proverb card game
-  (HMAP2606:65) not seen in-game yet. Then a full warp tour of the English build (`warp.py build/momotarou_en.cue
-  --tag en --all`) and visual QA.
+- **Phase:** 7 (insert + fit) **done** 2026-10-30. Next: phase 8 (QA in the emulator).
+- **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
+  はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
+  docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
+  reach on the English build). Not seen in-game yet: proverb card game (HMAP2606:65), SMAP16 name-entry shop
+  ("Buy or get out!" effect line), name-entry English page with a real caller (seen via call.lua only), English
+  battle command grid (battle_long/battle_lists shots land on a message; time the route to the round-2 menu). `{num}` digits
+  are the game's bold 8x12 cells (taller than the 12 px letters): fine at 8 px pitch, redraw only if QA objects.
+  `jp_left.py` not run yet (phase 9 gate; needs a slot list for this u16 table format).
+- **Done (phase 7):** size gate in `insert.py` (slot limits per table param, battle, SHOP.MMB, PAC size; skipped for
+  marker builds): everything fits with no rebalance/dictionary (numbers in docs/re/engine.md). `tools/lint.py`
+  (whole-script: codes, pages, widths/lines per box, ASCII, glossary avoids, same-JP-same-EN, no JP in en, no missing
+  en unless in script/keep_jp.txt; 0 errors, 64 glossary warnings) wired into check.py. `tests/test_insert.py`: the
+  English build changes only table entries, overlay string spans + their pointer words, `engine.PATCH` sites, the
+  hook blocks, name grids and the redrawn font cells (romdiff equivalent), and every table copy holds every string.
+  Layout patches (engine.md §Layout patches): HUD Lv/HP/SP 8x8 cells + Lv moved before the number, money unit "ryo"
+  (6 boxes shifted 8 px), `{num}` pitch 12 -> 8, name entry English first page + cursor at A, SMAP16 effect line in
+  single glyphs. New scene `map_36` (base state for name entry via call.lua). warp.py `--all` no longer picks up the
+  `hold =` continuation line as a scene.
 - **Done (phase 6):** every string has `en` (wave 0 names b001-b005, b006-b070 by translator agents, 13 reviewer
   passes, Important fixes applied; deferred minors in docs/review-minors.md). Tools: `tools/layout.py` (wrap/page
   authored English to the JP page shape and box width; 0 problems over the script), `tools/batches.py`

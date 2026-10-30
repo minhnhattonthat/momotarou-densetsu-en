@@ -99,7 +99,12 @@ def test_glyph_path(exe):
 def test_font_cells_were_blank_and_now_hold_glyphs():
     old = font.pages()[3]
     new = font.pages_from(engine.patch_font(font.FONT_PAC.read_bytes()))
-    assert all((a == b).all() for a, b in zip(font.pages()[:3], new[:3]))
+    pages = font.pages()
+    assert all((a == b).all() for a, b in zip(pages[:2], new[:2]))
+    # sheet 1 plane 0: only the 8x8 HUD label cells (体 技 段 -> HP SP Lv) are redrawn
+    diff = pages[2] != new[2]
+    ys, xs = diff.nonzero()
+    assert set(ys) <= set(range(engine.SMALL_Y, engine.SMALL_Y + 8)) and {x // 8 for x in xs} == set(engine.SMALL)
     lo = (engine.EN_BASE & 0x1FF)
     for i in range(engine.LAST - engine.FIRST + 1):
         c = lo + i

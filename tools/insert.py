@@ -22,10 +22,18 @@ import pac
 ROOT = Path(__file__).resolve().parents[1]
 TREE = ROOT / 'work/disc/tree'
 EN = engine.table()
+# drawn glyph by glyph by the effect 0x80022750 (glyph_prim, no digraph hook): single glyph codes only
+SINGLE = {'SMAP16_36:46c4'}
+EN1 = engine.table(pairs=False)
 FONT = '0/03FONT/FONT.PAC'
 EXE = 'SLPS_017.85'
 FILLER = 'The quick brown fox jumps over the lazy dog. '
 JP_W = {'{sp8}': 8, '{sp13}': 13}     # Japanese spaces: part of the text run they sit in
+# Size gate (docs/re/engine.md §Load buffers): 0x10D table slot by param & 0xFF -> bytes to the next thing in RAM.
+SLOT_LIMIT = {1: 0x4000, 2: 0x8000, 3: 0x4000, 4: 0x2A00, 5: 0x1600, 6: 0x8000, 7: 0x8000}
+BATTLE_LIMIT = 20542                  # type 0x116 load buffer not traced: the largest JP table is the known-safe bound
+SHOP_LIMIT = 0xB000                   # SHOP.MMB at 0x80155000, map dialogue slot at 0x80160000
+PAC_LIMIT = 0x38000                   # whole map PAC at 0x80110000, decompress temp at 0x80148000
 WIDTH = engine.widths()
 
 
@@ -82,7 +90,8 @@ def marked(n, doc):
     doc = {**doc, 'strings': [dict(s) for s in doc['strings']]}
     for i, s in enumerate(doc['strings']):
         if 'jp' in s and 'data' not in s:
-            s['en'] = marker(f'[{n}.{i}]', s['jp'], s['max'] // 2 - 1 if 'max' in s else None)
+            s['en'] = f'[{n}.{i}]' if s['id'] in SINGLE else marker(f'[{n}.{i}]', s['jp'],
+                                                                         s['max'] // 2 - 1 if 'max' in s else None)
     return doc
 
 
@@ -155,7 +164,7 @@ def files(marker_build=False, qa=None):
                 continue
             for s in doc['strings']:
                 if s.get('en'):
-                    enc = EN.encode(s['en'] + '{end}')
+                    enc = (EN1 if s['id'] in SINGLE else EN).encode(s['en'] + '{end}')
                     assert len(enc) <= s['max'], (s['id'], len(enc), s['max'])
                     b[s['off']:s['off'] + s['max']] = enc + bytes(s['max'] - len(enc))
             put(path, ent, bytes(b))
@@ -169,9 +178,13 @@ def files(marker_build=False, qa=None):
         items = pac.unpack((TREE / path).read_bytes())
         for i, b in ents.items():
             typ, _, extra = items[i]
+            lim = {0x10D: SLOT_LIMIT.get(extra[0]), 0x116: BATTLE_LIMIT}.get(typ & 0xFFFF)
+            assert marker_build or lim is None or len(b) <= lim, (f'{path}:{i}', len(b), 'bytes over slot', lim)
             if typ & 0x10000:
                 b = cache[b] if b in cache else cache.setdefault(b, lzss.compress(b))
             items[i] = (typ, b, extra)
         raw[path] = pac.pack(items)
+        assert marker_build or len(raw[path]) < PAC_LIMIT, (path, len(raw[path]), 'bytes, PAC over the load buffer')
+    assert marker_build or len(raw.get('0/03FONT/SHOP.MMB', b'')) <= SHOP_LIMIT, 'SHOP.MMB over its buffer'
     raw[FONT] = engine.patch_font(base(FONT, None))
     return raw
