@@ -18,11 +18,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   only: not seen in-game yet; from work/states/en_epilogue.sstate + mash circle the ending runs to a teaser
   ~f15000 and then the post-game house ~f15600 without showing the plate in 60-frame shots; find when it is
   drawn). FONT.PAC:4 status-ailment kanji (病気 混乱 眠 マヒ どく 封印, vertical 16x20 cells, battle sprites):
-  needs a battle with a status to see how they are placed before redrawing. Next, in order: ev_amap banner (seen
-  はじめて/つづきから there too: find its image), title logo EVTTIT.PAC:6 (+ MECD.PAC:4 stamp, EVTCARD.PAC:1),
-  bath/inn/shop signs, card album EVTCARD.PAC:5 + 297 cards (CR_PG*, 8bpp 96x136 + CLUT in the next entry; names
-  from the HMAP8500_18 card list), status ailments, END01 plate in-game, then the qa_gate tour.
-- **Card plan (CR_PGnn.PAC entries 0/2/4 = 3 cards per PAC, CLUT = next entry; 96x136 8bpp):** circled initial
+  needs a battle with a status to see how they are placed before redrawing.
+- **Card album done (seen in-game, cold boot):** 297 cards (tools/cards.py: names, initials, HP/Atk/Def/Spd (D9),
+  flavour text of cards 1-60 from script/cards.tsv, translated by a translator agent; `cards.py check` = fit),
+  index page (album_index: Contents/Momotaro's Friends/Folk/Hermit/Boss Oni/Oni/Cards; labels are cut at the JP
+  length), cover stamp CARD / ALBUM (gfx_en.stamp()). 77 REVIEW cards (name lettered over art) still want an eye
+  check. Savestates keep old textures in VRAM: after a rebuild re-warp (cold boot) before judging graphics.
+- **Shop-sign plates (in progress):** SMAPxx.PAC:3 (4bpp 256x256 town tileset) row y80-96 = 16 plates 16x16 (wood
+  indices 9/a, glyph c dark + d highlight, interior x1-14 y81-93): 茶 医 防 足 武 ど つ 易? 銭 借? 易? 薪? 祭 ゆ 笑 刃.
+  Shop names (FONT_6:700-707): Shrine, Weapons 武, Armor 防, Footwear 足 (はきもの屋), Teahouse 茶, Clinic 医,
+  Bank 銭 (といち屋), Inn 宿. Plan: 3-letter caps in a 4-px pixel font; also 宿 plate (x208-240 y48-72) and
+  八百屋 board (x176-248 y168-200). Shared by most SMAP/OMAP tilesets (check identical bytes, one edit per copy).
+- **Card notes:** (CR_PGnn.PAC entries 0/2/4 = 3 cards per PAC, CLUT = next entry; 96x136 8bpp):** circled initial
   top-right (~x62-88 y4-30) -> Latin initial in the circle; vertical name in the right column (~x66-86 y32-128) ->
   English name rotated 90 deg clockwise in that column; top-left box (~x4-56 y4-60) holds either flavour text in
   vertical columns (cards 1-60: needs OCR + translation, ~45 chars of en12-size text fit) or the stat labels as 4
@@ -37,11 +44,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   background; JP name glyphs = "differs from template" components lying wholly inside the name column (art
   components reach outside it and are kept). Built: `tools/cards.py templates` (families keyed by the bottom
   border colour: cream 38 cards, cyan 25, pink 177; greys outvoted -> clean backgrounds, few specks; ~57 cards with
-  their own art get no template -> use plates). To do in cards.py: inpaint greys in the stat block and name
-  column of each template; per card map template RGB to the nearest index of the card's own CLUT; erase JP name
-  glyph components inside the column; stat block -> HP/Attack/Defense/Speed (black, white outline like the JP);
-  circle glyph -> Latin initial; English name rotated 90 deg cw in the column above any art; hook into
-  gfx_en.entries() and the test_insert allowed spans (whole entry for cards).
+  their own art get no template -> use plates).
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
