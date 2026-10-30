@@ -22,7 +22,9 @@ ROUND = ROOT / 'fonts/mplus/MPLUSRounded1c-ExtraBold-latin.ttf'
 # ramp: palette indices background..ink (antialiased onto a flat background), or one ink index over a textured
 # background (each row filled with its commonest index). options: align left|center (default).
 MECD_STRIP = [(8, 59, 'Save'), (77, 128, 'Copy'), (141, 188, 'Erase'), (198, 249, 'Quit')]   # memory-card menu
-VERT = {'rotate': True, 'ink': 15}    # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
+COVER, COVER_CLUT = ['30EV/EVTCARD.PAC:1', '30EV/EVTCARD.PAC:2'], '30EV/EVTCARD.PAC:6'   # album cover: left 240 + right 80 px
+STAMP, STAMP_TILT = (208, 6, 287, 86), 22     # its カードアルバム stamp (cover coords) and the stamp's clockwise tilt in degrees
+VERT = {'rotate': True, 'ink': 15}   # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
         # left edges = the JP words' (the cursor peach sits just left of them)
@@ -157,12 +159,68 @@ def redraw(name):
     return raw, new
 
 
+def stamp():
+    """Album-cover stamp カードアルバム -> CARD / ALBUM. The red stamp pixels (and the white rim beside them) become the
+    paper found nearest above/below/beside them, then a new tilted stamp is drawn. {image location: new pixels} for
+    both halves of the cover; only pixels inside STAMP change (asserted)."""
+    from PIL import ImageFilter
+    pal = gfx.palette(gfx.entry(COVER_CLUT))
+    halves = [gfx.indices(gfx.entry(loc))[1:] for loc in COVER]
+    w, h = sum(hw for hw, _, _ in halves), halves[0][1]
+    px = [i for y in range(h) for hw, _, p in halves for i in p[y * hw:(y + 1) * hw]]
+    x0, y0, x1, y1 = STAMP
+    red = lambda i: pal[i][0] > 180 and pal[i][0] - pal[i][2] > 80  # noqa: E731
+    box = [(x, y) for y in range(y0, y1) for x in range(x0, x1)]
+    reds = {(x, y) for x, y in box if red(px[y * w + x])}
+    paper = lambda x, y: pal[px[y * w + x]][2] > pal[px[y * w + x]][0] or max(pal[px[y * w + x]][:3]) < 120  # noqa: E731
+    gone, todo = set(reds), list(reds)          # the stamp: red, plus the light non-bluish pixels touching it (pinks, white rim)
+    while todo:
+        x, y = todo.pop()
+        for q in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+            if x0 <= q[0] < x1 and y0 <= q[1] < y1 and q not in gone and not paper(*q) and not any(   # 説's outline
+                    max(pal[px[(q[1] + dy) * w + q[0] + dx]][:3]) < 120 for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))):
+                gone.add(q)
+                todo.append(q)
+    rim = {(x, y) for x, y in gone if min(pal[px[y * w + x]][:3]) > 200}
+    ink = Counter(px[y * w + x] for x, y in reds).most_common(1)[0][0]
+    white = Counter(px[y * w + x] for x, y in rim).most_common(1)[0][0]
+    new = list(px)
+    for x, y in gone:                           # paper: the nearest pixel outside the stamp, straight up/down/sideways
+        src = next((sx, sy) for d in range(1, 80) for sx, sy in ((x, y - d), (x, y + d), (x - d, y), (x + d, y))
+                   if 0 <= sx < w and 0 <= sy < h and (sx, sy) not in gone)
+        new[y * w + x] = px[src[1] * w + src[0]]
+    size = 76
+    im = Image.new('L', (size, size))
+    d = ImageDraw.Draw(im)
+    s0 = (size - 52) // 2
+    d.rounded_rectangle((s0, s0, s0 + 51, s0 + 51), radius=7, outline=255, width=3)
+    for text, cy in (('CARD', s0 + 16), ('ALBUM', s0 + 34)):
+        f = ImageFont.truetype(str(ROUND), 12)
+        d.text((size // 2, cy), text, font=f, fill=255, anchor='mm')
+    m = im.rotate(-STAMP_TILT, resample=Image.BICUBIC).point(lambda v: 255 * (v > 110))
+    rimm = m.filter(ImageFilter.MaxFilter(3))
+    m, rimm = m.load(), rimm.load()
+    cx, cy = (x0 + x1) // 2 - size // 2, (y0 + y1) // 2 - size // 2
+    for y in range(size):
+        for x in range(size):
+            if m[x, y] or rimm[x, y]:
+                assert x0 <= cx + x < x1 and y0 <= cy + y < y1, 'stamp outside STAMP'
+                new[(cy + y) * w + cx + x] = ink if m[x, y] else white
+    out, left = {}, 0
+    for loc, (hw, _, _) in zip(COVER, halves):
+        out[loc] = [new[y * w + left + x] for y in range(h) for x in range(hw)]
+        left += hw
+    return out
+
+
 def entries():
-    """{image location: new TIM bytes} for every image in IMAGES, plus the redrawn cards (tools/cards.py)."""
+    """{image location: new TIM bytes} for every image in IMAGES, the album stamp, and the redrawn cards (tools/cards.py)."""
     out = dict(cards.entries())
     for name in IMAGES:
         raw, new = redraw(name)
         out[IMAGES[name][0]] = gfx.repack(raw, new)
+    for loc, new in stamp().items():
+        out[loc] = gfx.repack(gfx.entry(loc), new)
     return out
 
 
@@ -185,6 +243,22 @@ def preview(name, zoom=3):
     print(dst)
 
 
+def preview_stamp(zoom=4):
+    pal = gfx.palette(gfx.entry(COVER_CLUT))
+    new = stamp()
+    a = [gfx.image(gfx.entry(loc), pal) for loc in COVER]
+    b = [gfx.image(gfx.entry(loc), pal, new[loc]) for loc in COVER]
+    out = Image.new('RGBA', (320, 176 * 2 + 2), (255, 0, 255, 255))
+    for row, (l, r) in enumerate((a, b)):
+        out.paste(l, (0, row * 178))
+        out.paste(r, (240, row * 178))
+    x0, y0, x1, y1 = STAMP
+    out = out.crop((x0 - 30, 0, x1 + 4, 178 + y1 + 4))
+    dst = ROOT / 'work/gfx_en/stamp.png'
+    out.resize((out.width * zoom, out.height * zoom), Image.NEAREST).save(dst)
+    print(dst)
+
+
 if __name__ == '__main__':
-    for n in sys.argv[1:] or IMAGES:
-        preview(n)
+    for n in sys.argv[1:] or [*IMAGES, 'stamp']:
+        preview_stamp() if n == 'stamp' else preview(n)

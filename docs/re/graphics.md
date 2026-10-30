@@ -14,7 +14,7 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 | Title logo 桃太郎伝説 | EVTTIT.PAC:6 (8bpp, VRAM 832,0; drawn stroke by stroke from EVTTIT.PAC:5 in the intro), also MECD.PAC:4 stamp, EVTCARD.PAC:1 | **kept Japanese**: D5 keeps the original logo when no official English logo exists (none does) |
 | Title menu はじめて / つづきから | EVTTIT.PAC:9 | **English** (tools/gfx_en.py title_menu), seen in-game |
 | Memory-card menu きろく うつす けす やめる / つづき | MECD.PAC:3, MECD.PAC:2 | **English** (mecd_menu, mecd_load), Load menu seen in-game |
-| Card-album cover stamp カードアルバム | EVTCARD.PAC:1 right edge + EVTCARD.PAC:2 (red stamp, vertical) | todo |
+| Card-album cover stamp カードアルバム | EVTCARD.PAC:1 right edge + EVTCARD.PAC:2 (red stamp, tilted; 8bpp halves 240 + 80 px, CLUT EVTCARD.PAC:6) | **English** CARD / ALBUM (gfx_en.stamp(): old stamp -> nearest paper, new stamp drawn), seen in-game |
 | Status-ailment lettering 病気 混乱 眠り マヒ 封印 + effect kanji | FONT.PAC:4 (VRAM 960,0 sprite sheet) | battle |
 | Collectible cards: 297 cards, name + circled initial + flavour text (cards 1-60) or stat labels 体力/攻撃/守備/速さ (61-297) | CR_PG01-99.PAC entries 0/2/4 (8bpp 96x136) | **English** (tools/cards.py: names, initials, HP/Atk/Def/Spd; flavour text of cards 1-60 from script/cards.tsv), cards 1-3 seen in-game; 5 cards carry real people's names (dajare contest winners) |
 | Shop-sign plates 茶 医 防 足 武 ど つ 旅 銭 宿 湯 ... and 八百屋 | SMAPxx.PAC:3/4/6, OMAP00/01 | one shared sign strip per town tileset |

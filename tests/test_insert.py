@@ -55,6 +55,13 @@ def allowed():
         bpp, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) * bpp // 8, 20 + (y * w + x1) * bpp // 8)
                            for (x0, y0, x1, y1), *_ in edits for y in range(y0, y1)]
+    x0, y0, x1, y1 = gfx_en.STAMP                        # album-cover stamp: STAMP across both 8bpp halves of the cover
+    left = 0
+    for loc in gfx_en.COVER:
+        _, w, _, _ = gfx.indices(gfx.entry(loc))
+        a, b = max(x0 - left, 0), min(x1 - left, w)
+        out['0/' + loc] = [(20 + y * w + a, 20 + y * w + b) for y in range(y0, y1)] if a < b else []
+        left += w
     for n in range(1, 298):                             # redrawn cards: pixel data only, never the TIM header
         out['0/' + cards.loc(n)] = [(20, 20 + cards.W * cards.H)]
     return out
