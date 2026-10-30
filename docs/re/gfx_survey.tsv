@@ -1,0 +1,69 @@
+index	source	japanese	kind
+2	FONT.PAC:4	病 / 気 / 混(乱?) / 眠(り) / マ(ヒ) / ヒ / く / 封 / 印 / り / 彼(?) / ZZZ marks (status-ailment lettering, small glyph atlas; exact set ?)	label
+15	AMAP.PAC:9	small flag/sign on map with 3-4 chars, reading ? (アロ朱?/"ア□朱"), UNSURE	sign
+16	AMAP.PAC:10	same map flag as 15 (?)	sign
+17	AMAP.PAC:11	same map flag as 15 (?)	sign
+55	SMAP00.PAC:3	shop-sign row: 茶 医 防 足 武 ど つ 旅? 銭 借? 湯? 祭? ゆ 笑 刀 (about 15 single-kanji shop plates, readings approximate) / 八百屋 sign	sign
+56	SMAP00.PAC:4	八百屋 (sign at right)	sign
+58	SMAP00.PAC:6	八百屋 (sign at lower left)	sign
+60	SMAP01.PAC:3	八百屋 sign	sign
+65	SMAP02.PAC:3	八百屋 sign	sign
+72	SMAP03.PAC:3	sign plate near lower-left, text ? (shop sign, small), UNSURE	sign
+76	SMAP04.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx)	sign
+88	SMAP06.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx)	sign
+91	SMAP06.PAC:6	八百屋 sign	sign
+97	SMAP08.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx) / 八百屋	sign
+100	SMAP08.PAC:6	八百屋 sign	sign
+103	SMAP09.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx)	sign
+106	SMAP09.PAC:6	八百屋 sign	sign
+116	SMAP12.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx) / 宿 (inn plate at right)	sign
+119	SMAP12.PAC:6	八百屋 sign	sign
+121	SMAP13.PAC:3	shop-sign row 茶 医 防 足 武 ど つ (approx)	sign
+123	SMAP13.PAC:5	天下一だいぶ(?)大会 banner at top (天下一…大会, middle chars ?) / small text on signboards at right ?	banner
+139	SMAP16.PAC:3	shop-sign row 茶 医 防 足 ... plus extra plates incl. 麺? 衣? 湯? (approx, UNSURE)	sign
+142	SMAP16.PAC:6	カート道場?/カート遊技場? (katakana カート + kanji ?) / 湯 onsen mark (hot-spring symbol) / 八百屋? plates; UNSURE	sign
+157	SMAP20.PAC:3	shop-sign row 茶 医 防 足 武 ど つ (approx)	sign
+160	SMAP20.PAC:6	八百屋 sign	sign
+162	SMAP21.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 (approx)	sign
+166	SMAP22.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 (approx)	sign
+171	SMAP23.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx)	sign
+185	SMAP27.PAC:3	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx) / 八百屋	sign
+210	OMAP00.PAC:4	八百屋 (variants incl. a middle plate "八百屋"/"つ"/"屋" ?)	sign
+213	OMAP01.PAC:5	shop-sign row 茶 医 防 足 武 ど つ 旅 銭 ... (approx) / 八百屋	sign
+214	OMAP01.PAC:6	八百屋? (sign small, UNSURE)	sign
+233	DMAP03.PAC:0	vertical hiragana column (several kana, e.g. じ/や/く/ち/ん? ; UNSURE)	sign
+235	DMAP03.PAC:2	東 西 南 北 鬼 (stone plates, direction + oni) / second row 4 plates, 赤? 青? 黄? 黒? (UNSURE) / 鬼 (large, lower right)	sign
+417	HMAP8200.PAC:3	男湯 / 女湯 (men's bath / women's bath) signs	sign
+426	HMAP8600.PAC:3	four small kanji plaques bottom-left, one reads 宿 (inn); others ? (likely shop-type kanji)	sign
+423	HMAP8500.PAC:0	white board signs with small kanji lines (shop/price boards), UNSURE text	sign
+424	HMAP8500.PAC:3	long board with several columns of tiny kanji (menu/price list?), UNSURE text	sign
+416	HMAP8200.PAC:0	white square signs with dotted pattern (maybe kanji, UNSURE)	sign
+353	HMAP26.PAC:3	vertical banner/nobori style signs with vertical kanji around the centre/right, UNSURE text	sign
+495	BB241.PAC:2	three hanging scrolls with cursive calligraphy, ? (unreadable)	other
+501	MECD.PAC:3	きろく　うつす　けす　やめる (record / copy / delete / quit) / きろく　やめる ? / うつす　やめる ?	menu
+500	MECD.PAC:2	faint text strip under the wooden bar at bottom, UNSURE (probably the same memory-card menu words)	menu
+502	MECD.PAC:4	桃太郎伝説 (stamped logo, shown twice)	logo
+509	BM000.PAC:12	封 (seal) on four talisman papers	sfx
+511	BM000.PAC:16	single kanji in a white circle (彼? UNSURE)	other
+503	MECD.PAC:8	UNSURE (nearly blank tile, faint line at top)	other
+622	BM081.PAC:28	UNSURE: tiny kanji pairs (炎炎? 衆炎?) bottom-left	other
+598	BM058.PAC:28	UNSURE: tiny kanji pairs (炎炎?) top-left	other
+629	BM091.PAC:24	技 (in a circle)	label
+677-736	CR_PG01-20.PAC:0/2/4	cards: vertical name + circled first char + small flavour text (桃太郎 金太郎 浦島太郎 夜叉姫 イヌ サル キジ じんぱち えのん ウンチ ... 都踊りガールズ 板前 ひこぼし おりひめ かぐや姫 すずめ 易者 きっちょむさん; 719-723 are だじゃれ大会 prize-winner cards with real people's names)	card
+737-761	CR_PG21-29.PAC	cards: <name>仙人 (きんたん ぬけだし はやあし カード ぴえん ろっかく ふゆう いだてん きゅうどう オートバトル せんきん いなずま まんきん めざまし まもり ふういん おによけ ふにゃ? ばいりき りょうり まいたん はやて わざよせ わざわけ やまびこ) + stat labels 体力/攻撃/守備/速さ	card
+762-791	CR_PG29-39.PAC	monster cards: oni names (酒呑童子 夜叉姫 ましら フルーツモンキーズ 阿修羅 山姥 風神 雷神 牛頭 馬頭 水鬼 羅生門の鬼 えんま大王 赤鬼 青鬼 黄鬼 鬼がわら どくろ鬼 地獄がわら ...) + stat labels	card
+792-973	CR_PG39-99.PAC:0/2/4	monster cards: vertical name + circled first char + stat labels 体力/攻撃/守備/速さ (緑鬼 コウモリ 血吸いコウモリ ケータイの鬼 グルメの鬼 ビジュアル系の鬼 福の神 あまのじゃく 漢字の鬼 ... 火炎羅刹 いなずま羅刹 おろち 鬼面魚 人魚 火牛 追っかけの鬼 へんぷく ...; ~20 faded/UNSURE readings)	card
+975	DARUMA.PAC:6	ダルマ?(banner) / おとし! (Daruma-otoshi banner)	minigame
+977	DARUMA.PAC:10	すたーと / げーむおーばー / そこまで! / げーむくりあー / 得点 / 最高得点?	minigame
+980	END01.PAC:2	めでたし? (faint, on bottom banner)	ending
+1008	EVTCARD.PAC:1	桃太郎伝説 (+ ornamental seal/graphic at top right)	logo
+1009	EVTCARD.PAC:2	UNSURE (narrow strip, possible card-frame or stamp lettering)	other
+1012	EVTCARD.PAC:5	国?/ 一二三四五六七八九 (numeral column) / 桃太郎の仲間? / 鬼? / 人? / 仙? (dark, mostly unreadable)	label
+1025	EVTTIT.PAC:5	UNSURE (large dark kanji fragments, likely title-screen glyphs)	other
+1026	EVTTIT.PAC:6	桃太郎伝 / 説 / (HUDSON + (C)1996 HUDSON SOFT in Latin)	logo
+1029	EVTTIT.PAC:9	はじめて / つづきから	menu
+1032	FUKU.PAC:3	福笑い? (faint repeated pattern at right)	title
+1033	FUKU.PAC:5	福笑い? (faint vertical lettering at left)	title
+1041	FURO_4.PAC:4	UNSURE (garbled, text-like strip at bottom)	other
+1045	MOGURA.PAC:10	?数× / 最高得点 / 得点 / すたーと / げーむおーばー / そこまで!	minigame
+1051	YUMI1.PAC:9	?数× / 最高得点 / 得点 / すたーと / げーむおーばー / そこまで!	minigame

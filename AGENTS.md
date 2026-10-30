@@ -12,7 +12,9 @@ Skill: translate-retro-game; `python tools/skill.py` prints its folder (`$SKILL`
 
 ## Paths
 - Original disc: `rom/Momotarou Densetsu (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: PCSX-Redux in `tools/pcsx/` (nightly 29954.20261029.10 x64, via `$SKILL/scripts/fetch_emu.py pcsx` from distrib.app; gitignored). BIOS: `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`, picked up by emu.py). Savestates: `work/states/`.
-- Text: `script/` (format TBD in phase 4). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Disc tools: `tools/mkpsxiso/` (mkpsxiso 2.30 win64 from github.com/Lameguy64/mkpsxiso releases; gitignored). Unpacked disc: `work/disc/tree` + `layout.xml` (`dumpsxiso -x work/disc/tree -s work/disc/layout.xml rom/<cue>`).
+- Format tools: `tools/pac.py` (PAC archives), `lzss.py`, `tim.py`, `font.py` (glyph code -> cell), `text.py` (decode string tables), `gfxdump.py` (image sweep).
+- Text: `script/` (format TBD in phase 4). Tables: `tbl/jp.tbl` (u16 LE keys; kanji = OCR draft). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.
