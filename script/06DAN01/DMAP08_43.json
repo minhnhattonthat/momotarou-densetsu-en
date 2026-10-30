@@ -8,22 +8,22 @@
   {
    "id": "DMAP08_43:000",
    "jp": "「桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}"
   },
   {
    "id": "DMAP08_43:001",
    "jp": "「わたしです！ 浦島です！{n} また 会えて よかった！」{n}{wait}",
-   "en": ""
+   "en": "\"It's me! Urashima! I'm so glad to see you again!\"{wait}"
   },
   {
    "id": "DMAP08_43:002",
    "jp": "「もう 会えないかと 思いました！{n} また いっしょに{n} 旅を 続けさせてください！」{wait}",
-   "en": ""
+   "en": "\"I thought I'd never see you again! Please, let me continue the journey with you!\"{wait}"
   },
   {
    "id": "DMAP08_43:003",
    "jp": "浦島が 仲間に{n}くわわった！{n}",
-   "en": ""
+   "en": "Urashima rejoined your friends!"
   }
  ]
 }

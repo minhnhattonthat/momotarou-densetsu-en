@@ -9,107 +9,107 @@
   {
    "id": "SMAP10_36:000",
    "jp": "「まさか 乙姫様が{n} さらわれていたなんて！」{n}{wait}{n}「桃太郎さん！ 乙姫様を{n} 助けてくださって{n} ありがとうございます！」{wait}",
-   "en": ""
+   "en": "\"Who'd have thought Otohime-sama had been kidnapped!\"{wait}\"Momotaro-san! Thank you for saving Otohime-sama!\"{wait}"
   },
   {
    "id": "SMAP10_36:001",
    "jp": "「これは ほんの お礼です！{n} どうぞ おおさめくださいな！」{n}{wait}{n}桃太郎は{n}{col10}竜宮の女官カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"This is just a small token of thanks! Please accept it!\"{wait}Momotaro got the {col10}Ryugu Lady-in-Waiting Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP10_36:002",
    "jp": "「カメを 助けてくださって{n} ありがとうございました{n} 桃太郎さん！」{wait}{n}「私は 乙姫様に{n} おつかえする 女官たちの{n} 長で ございます！」{wait}{n}「桃太郎さんの{n} 鬼たいじの うわさは」{n}{wait}{n}「この 竜宮城にも{n} 届いておりますわ！」{n}{wait}{n}「本当なら 乙姫様が{n} 桃太郎さんに{n} 会うはずだったのですが」{wait}{n}「おすがたが{n} 見えないのです！」{n}{wait}{n}「どこに{n} おいでなのかしら…」{n}{wait}{n}「そうそう！ 竜宮城から{n} 浦島の村に 帰るときは{n} カメに 乗ってくださいね！」{wait}",
-   "en": ""
+   "en": "\"Thank you for saving the Turtle, Momotaro-san!\"{wait}\"I am head of the ladies-in-waiting who serve Otohime-sama!\"{wait}\"Word of your oni slaying, Momotaro-san,\"{wait}\"has reached even here in Ryugu Palace!\"{wait}\"Otohime-sama was meant to meet you herself, Momotaro-san, but\"{wait}\"she is nowhere to be seen!\"{wait}\"Wherever could she be...\"{wait}\"Oh, yes! When you go back from Ryugu Palace to Urashima Village, please ride the Turtle!\"{wait}"
   },
   {
    "id": "SMAP10_36:003",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「竜宮城から 浦島の村に{n} 帰るときは カメに{n} 乗ってくださいね！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"When you go back from Ryugu Palace to Urashima Village, please ride the Turtle!\"{wait}"
   },
   {
    "id": "SMAP10_36:004",
    "jp": "「浦島の村に 戻りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Will you go back to Urashima Village?\""
   },
   {
    "id": "SMAP10_36:005",
    "jp": "「それでは 村に{n} 戻りましょう！」{n}{wait}",
-   "en": ""
+   "en": "\"Then let us go back to the village!\"{wait}"
   },
   {
    "id": "SMAP10_36:006",
    "jp": "「では ごゆっくり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then please, take your time!\"{wait}"
   },
   {
    "id": "SMAP10_36:007",
    "jp": "「桃太郎さん！{n} 心ゆくまで{n} おくつろぎください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please relax to your heart's content!\"{wait}"
   },
   {
    "id": "SMAP10_36:008",
    "jp": "「乙姫様の おすがたが{n} 見えないなんて…」{n}{wait}{n}「いったい どこに{n} いらっしゃるのかしら？」{n}{wait}",
-   "en": ""
+   "en": "\"Otohime-sama is nowhere to be seen...\"{wait}\"Where could she be?\"{wait}"
   },
   {
    "id": "SMAP10_36:009",
    "jp": "「竜宮城の 踊りは{n} 見るものの 心を{n} なごませます！」{wait}{n}「どうぞ ゆっくり{n} 見ていって くださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"The dances of Ryugu Palace soothe the hearts of all who watch!\"{wait}\"Please, take your time and enjoy them!\"{wait}"
   },
   {
    "id": "SMAP10_36:010",
    "jp": "「この竜宮城にも{n} 鬼が せめてくるなら{n} むかえうつ かくごです！」{wait}",
-   "en": ""
+   "en": "\"If the oni attack Ryugu Palace too, I'm ready to fight them off!\"{wait}"
   },
   {
    "id": "SMAP10_36:011",
    "jp": "「鬼が はいれないように{n} 竜宮城の 守りを{n} かためなければ！」{wait}",
-   "en": ""
+   "en": "\"We must strengthen Ryugu Palace's defenses so no oni can get in!\"{wait}"
   },
   {
    "id": "SMAP10_36:012",
    "jp": "「海の底だからと いって{n} 安心しては いられませんね！」{n}{wait}{n}「桃太郎さん！{n} がんばってくださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Just because we're at the bottom of the sea doesn't mean we can relax!\"{wait}\"Momotaro-san! Do your best!\"{wait}"
   },
   {
    "id": "SMAP10_36:013",
    "jp": "「竜宮城に 鬼が{n} 入りこんでいたんですね！{n} うかつでした！」{wait}{n}「これからは{n} 一匹たりとも{n} 鬼は いれません！」{wait}",
-   "en": ""
+   "en": "\"So oni had crept into Ryugu Palace! How careless of us!\"{wait}\"From now on, we won't let a single oni in!\"{wait}"
   },
   {
    "id": "SMAP10_36:014",
    "jp": "「鬼は 竜宮城にまで{n} せめてくるでしょうか？」{n}{wait}{n}「それを 思うと{n} こわくて こわくて！」{n}{wait}",
-   "en": ""
+   "en": "\"Will the oni attack even Ryugu Palace?\"{wait}\"Just thinking about it scares me so!\"{wait}"
   },
   {
    "id": "SMAP10_36:015",
    "jp": "「もう こわがってなんか{n} いられません！」{n}{wait}{n}「今度 鬼が きたら{n} 全力で 戦います！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't afford to be scared anymore!\"{wait}\"Next time the oni come, I'll fight with all my might!\"{wait}"
   },
   {
    "id": "SMAP10_36:016",
    "jp": "「カメを 助けてくれて{n} ありがとう！{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Thank you for saving the Turtle, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP10_36:017",
    "jp": "「乙姫様を 助けてくれて{n} ありがとう！ 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you for saving Otohime-sama, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP10_36:018",
    "jp": "「これ お礼です！{n} しんせんな お魚を どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"This is to thank you! Please have some fresh fish!\"{wait}"
   },
   {
    "id": "SMAP10_36:019",
    "jp": "桃太郎は{n}{col4}{str}{col0} を{n}手に入れた！{c19}{wait}{n}「あんまり 魚を{n} 長く 持っていると」{n}{wait}{n}「くさっちゃうから{n} 気を つけてくださいね！」{n}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}{str}{col0}!{c19}{wait}\"If you hold on to fish too long,\"{wait}\"it'll go bad, so be careful!\"{wait}"
   },
   {
    "id": "SMAP10_36:020",
    "jp": "「しんせんな お魚を{n} よういしておきますので{n} また きてくださいね！」{wait}",
-   "en": ""
+   "en": "\"We'll have fresh fish ready for you, so come again!\"{wait}"
   },
   {
    "id": "SMAP10_36:021",
@@ -149,117 +149,117 @@
   {
    "id": "SMAP10_36:028",
    "jp": "「乙姫様が この竜宮城を{n} 離れるなんて{n} 考えられません！」{wait}{n}「桃太郎さん！{n} 浦島の村に 戻ったら{n} 乙姫様を 探してください！」{wait}",
-   "en": ""
+   "en": "\"Otohime-sama leaving Ryugu Palace? Unthinkable!\"{wait}\"Momotaro-san! When you go back to Urashima Village, please look for Otohime-sama!\"{wait}"
   },
   {
    "id": "SMAP10_36:029",
    "jp": "「乙姫様を 助けていただき{n} ありがとうございました！」{n}{wait}{n}「桃太郎さん！{n} がんばってくださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you for saving Otohime-sama!\"{wait}\"Momotaro-san! Do your best!\"{wait}"
   },
   {
    "id": "SMAP10_36:030",
    "jp": "「助けてくださって{n} ありがとうございました{n} 桃太郎さん！」{wait}{n}「桃太郎さんこそ{n} まことの 勇気の子！」{n}{wait}{n}「どうぞ これを{n} お持ちください！」{n}{wait}{n}なんと！{n}桃太郎は{n}5つの 宝物の 1つ{wait}{n}{col4}竜の首飾り{col0}を 手に 入れた！{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you so much for saving me, Momotaro-san!\"{wait}\"Truly, Momotaro-san, you are a child of courage!\"{wait}\"Please, take this!\"{wait}Amazing! Momotaro got one of the five treasures,{wait}the {col4}Dragon Necklace{col0}!{wait}"
   },
   {
    "id": "SMAP10_36:031",
    "jp": "「それでは 竜宮城に{n} いらした 記念に」{n}{wait}{n}「じまんの 踊りを{n} ごらんになってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Then, to remember your visit to Ryugu Palace,\"{wait}\"please enjoy our famous dance!\"{wait}"
   },
   {
    "id": "SMAP10_36:032",
    "jp": "「もう一度 踊りを{n} ごらんに なりますか？」{n}",
-   "en": ""
+   "en": "\"Would you like to see the dance again?\""
   },
   {
    "id": "SMAP10_36:033",
    "jp": "「では ごゆっくり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then please, take your time!\"{wait}"
   },
   {
    "id": "SMAP10_36:034",
    "jp": "「そうですか！{n} それでは 鬼たいじ{n} がんばってくださいね！」{wait}",
-   "en": ""
+   "en": "\"I see! Then good luck with your oni slaying!\"{wait}"
   },
   {
    "id": "SMAP10_36:035",
    "jp": "「どうぞ ゆっくり{n} 見ていって くださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Please, take your time and enjoy it!\"{wait}"
   },
   {
    "id": "SMAP10_36:036",
    "jp": "「まあ！ 桃太郎さん{n} すてきな お花を{n} お持ちですね！」{wait}{n}「いかがでしょう？{n} その花を わたしに{n} いただけませんか？」",
-   "en": ""
+   "en": "\"Oh my! Momotaro-san, what a lovely flower you have!\"{wait}\"I wonder... might you give that flower to me?\""
   },
   {
    "id": "SMAP10_36:037",
    "jp": "「ありがとう 桃太郎さん！」{n}{n}{wait}{n}「お礼といっては{n} はずかしいのですが これを{n} お持ちになってください！」{wait}{n}桃太郎は{n}{col10}乙姫カード{col0}を{n}手に入れた！{c19}{wait}{n}「ときどきは それを 見て{n} 竜宮城の ことを{n} 思い出してくださいね！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"It's a humble way to say thanks, but please take this!\"{wait}Momotaro got the {col10}Otohime Card{col0}!{c19}{wait}\"Look at it now and then, and remember Ryugu Palace!\"{wait}"
   },
   {
    "id": "SMAP10_36:038",
    "jp": "「そうですか…{n} それは ざんねんです…」{n}{wait}{n}桃太郎の心が{n}ちくちくと いたんだ！{n}{wait}",
-   "en": ""
+   "en": "\"I see... What a shame...\"{wait}Momotaro's heart stung with guilt!{wait}"
   },
   {
    "id": "SMAP10_36:039",
    "jp": "「タイや ヒラメの 舞い踊り！{n} 美しい あたしは もちろん{n} タイよ！ ヒラメじゃないわ！」{wait}",
-   "en": ""
+   "en": "\"Sea Bream and Flounder dancing away! And lovely me is a Sea Bream, of course! Not a Flounder!\"{wait}"
   },
   {
    "id": "SMAP10_36:040",
    "jp": "「桃太郎さん！ わたしたちと{n} いっしょに 踊らない？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Won't you dance with us?\"{wait}"
   },
   {
    "id": "SMAP10_36:041",
    "jp": "「一人 調子っぱずれの{n} 踊り子がいるのよね～！」{n}{wait}",
-   "en": ""
+   "en": "\"There's one dancer who's always off the beaaat!\"{wait}"
   },
   {
    "id": "SMAP10_36:042",
    "jp": "「どう？{n} 竜宮城の 踊り{n} すてきでしょ！」{wait}{n}「ゆっくり{n} 見ていってね！」{n}{wait}",
-   "en": ""
+   "en": "\"Well? Isn't the Ryugu Palace dance lovely?\"{wait}\"Take your time and watch!\"{wait}"
   },
   {
    "id": "SMAP10_36:043",
    "jp": "「地上の 人間で{n} この踊りを 見るのは{n} あなたで 2人目です！」{wait}{n}「1人目は もちろん{n} 浦島さんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"You're only the second human from the surface to see this dance!\"{wait}\"The first, of course, was Urashima-san!\"{wait}"
   },
   {
    "id": "SMAP10_36:044",
    "jp": "「こうして 踊っていると{n} 世の中の 暗さを{n} 少し 忘れられます！」{wait}",
-   "en": ""
+   "en": "\"Dancing like this, I can forget the gloom of the world for a little while!\"{wait}"
   },
   {
    "id": "SMAP10_36:045",
    "jp": "「あーん！ あぶくで{n} あたしの 顔が{n} かくれちゃう！」{wait}",
-   "en": ""
+   "en": "\"Oh nooo! The bubbles are hiding my face!\"{wait}"
   },
   {
    "id": "SMAP10_36:046",
    "jp": "「乙姫様を 助けてくれて{n} ありがとう！ 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you for saving Otohime-sama, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP10_36:047",
    "jp": "「乙姫様に 踊って と{n} 言われるまで ここで{n} 待ってるのよ！」{wait}",
-   "en": ""
+   "en": "\"I'm waiting here until Otohime-sama tells me to dance!\"{wait}"
   },
   {
    "id": "SMAP10_36:048",
    "jp": "「信じられなーい！{n} 全員 タイミングを{n} まちがえてるわ！」{wait}",
-   "en": ""
+   "en": "\"Unbelievable! Every single one of them got the timing wrong!\"{wait}"
   },
   {
    "id": "SMAP10_36:049",
    "jp": "「あら？ あなた{n} わたしの ファンなの？{n} じゃあ これを あげるね！」{wait}{n}桃太郎は{n}{col10}竜宮の踊り子カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Oh? Are you a fan of mine? Then I'll give you this!\"{wait}Momotaro got the {col10}Ryugu Dancer Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP10_36:050",
    "jp": "「もう！ みんな{n} どうして そんなに{n} へたなのかしら！」{wait}",
-   "en": ""
+   "en": "\"Honestly! Why is everyone so bad at this?!\"{wait}"
   }
  ]
 }

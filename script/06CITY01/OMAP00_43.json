@@ -8,302 +8,302 @@
   {
    "id": "OMAP00_43:000",
    "jp": "「桃太郎さん！ 南東にある{n} いなずま仙人の 庵には{n} もう いきましたか？」{wait}{n}「仙人の 修行をうければ{n} いなずまの 術を{n} 覚えることが できますよ！」{wait}{n}「鬼たいじの 成功を{n} おいのりしてます！ チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Have you been to the Lightning Hermit's hut to the southeast yet?\"{wait}\"If you take the hermit's training, you can learn the Lightning art!\"{wait}\"I'm praying your oni slaying goes well! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_43:001",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「並び洞窟の 血吸いコウモリは{n} こっちの 守備力を 下げる{n} 攻撃を してくるそうです」{wait}{n}「おそろしいですね！ チュチュン！」{n}{n}{wait}{n}「桃太郎さんも じゅうぶんに{n} 気を つけてください！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"They say the Vampire Bats in Row Cave use an attack that lowers your Defense.\"{wait}\"How frightening! Chirp chirp!\"{wait}\"Please be very careful too, Momotaro-san!\"{wait}"
   },
   {
    "id": "OMAP00_43:002",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}"
   },
   {
    "id": "OMAP00_43:003",
    "jp": "「ぬけだし仙人様からの{n} ことづてです！」{n}{wait}",
-   "en": ""
+   "en": "\"I have a message for you from Escape Hermit-sama!\"{wait}"
   },
   {
    "id": "OMAP00_43:004",
    "jp": "「並び洞窟の 鬼たちは{n} 今までで 一番 てごわい！」{n}{wait}",
-   "en": ""
+   "en": "\"'The oni of Row Cave are the toughest yet!'\"{wait}"
   },
   {
    "id": "OMAP00_43:005",
    "jp": "「むりせず ピンチになったら{n} すぐ ぬけだしの術ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"'Don't push yourself! If you get in a pinch, use the Escape art right away, I say!'\"{wait}"
   },
   {
    "id": "OMAP00_43:006",
    "jp": "「そう おっしゃっていました！{n} 役立てて くださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"That's what he said! Put it to good use!\"{wait}"
   },
   {
    "id": "OMAP00_43:007",
    "jp": "「チュチュン！ 桃太郎さん！{n} このお宿から 東へ いくと{n} カード仙人」{wait}{n}「南西に いくと{n} ぬけだし仙人の{n} 庵です！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san! East of this inn is the Card Hermit,\"{wait}\"and southwest is the Escape Hermit's hut!\"{wait}"
   },
   {
    "id": "OMAP00_43:008",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}"
   },
   {
    "id": "OMAP00_43:009",
    "jp": "「並び洞窟で ケンケン！という{n} 鳴き声が きこえたそうです！」{n}{wait}",
-   "en": ""
+   "en": "\"They say someone heard a 'Kek kek!' cry in Row Cave!\"{wait}"
   },
   {
    "id": "OMAP00_43:010",
    "jp": "「ひょっとして キジさんかしら？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Could it be Pheasant-san?\"{wait}"
   },
   {
    "id": "OMAP00_43:011",
    "jp": "「桃太郎か！ もう{n} 並び洞窟には 行ったか？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it! Have you been to Row Cave yet?\"{wait}"
   },
   {
    "id": "OMAP00_43:012",
    "jp": "「おそらく いままでの中で{n} いちばん 大変な 場所じゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"It's likely the toughest place you've faced so far!\"{wait}"
   },
   {
    "id": "OMAP00_43:013",
    "jp": "「10段でも つらいやもしれぬ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Even at level 10, it may be hard going!\"{wait}"
   },
   {
    "id": "OMAP00_43:014",
    "jp": "「むちゃを せず{n} すこしずつ 進むことじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Don't be reckless. Advance a little at a time!\"{wait}"
   },
   {
    "id": "OMAP00_43:015",
    "jp": "「かぐや姫と{n} 勇気の剣について{n} 知っていますか？」",
-   "en": ""
+   "en": "\"Do you know about Princess Kaguya and the Sword of Courage?\""
   },
   {
    "id": "OMAP00_43:016",
    "jp": "「そうですか！ 鬼たいじ{n} がんばってくださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"I see! Good luck with your oni slaying!\"{wait}"
   },
   {
    "id": "OMAP00_43:017",
    "jp": "「えんまを こらしめるには{n} 勇気の剣が 必要です！」{n}{wait}{n}「竹取りの村に いる{n} かぐや姫が 勇気の剣を{n} 持っている そうです！」{wait}{n}「本当に 勇気のある者にだけ{n} 勇気の剣を{n} くれると いわれていますが…」{wait}{n}「桃太郎さんなら きっと{n} 勇気の剣を{n} もらうことが できますよ！」{wait}",
-   "en": ""
+   "en": "\"To punish Enma, you need the Sword of Courage!\"{wait}\"They say Princess Kaguya in Taketori Village has the Sword of Courage!\"{wait}\"It's said she gives the Sword of Courage only to those with true courage...\"{wait}\"But I'm sure you can get the Sword of Courage, Momotaro-san!\"{wait}"
   },
   {
    "id": "OMAP00_43:018",
    "jp": "「世界の あちこちに 5つの{n} ふしぎな 宝物が あります！」{n}{wait}",
-   "en": ""
+   "en": "\"There are five mysterious treasures scattered around the world!\"{wait}"
   },
   {
    "id": "OMAP00_43:019",
    "jp": "「その宝物とは…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Those treasures are...\"{wait}"
   },
   {
    "id": "OMAP00_43:020",
    "jp": "「仏のお鉢！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Buddha's Bowl!\"{wait}"
   },
   {
    "id": "OMAP00_43:021",
    "jp": "「竜の首飾り！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Dragon Necklace!\"{wait}"
   },
   {
    "id": "OMAP00_43:022",
    "jp": "「金色の毛皮！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Golden Fur!\"{wait}"
   },
   {
    "id": "OMAP00_43:023",
    "jp": "「ほうらいの玉！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Horai Jewel!\"{wait}"
   },
   {
    "id": "OMAP00_43:024",
    "jp": "「ツバメの子安貝！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Swallow's Cowry!\"{wait}"
   },
   {
    "id": "OMAP00_43:025",
    "jp": "「…の5つです！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"...those five!\"{wait}"
   },
   {
    "id": "OMAP00_43:026",
    "jp": "「この5つの 宝物を{n} 集められたら まさに{n} 勇気ある者と いえるでしょう！」{wait}",
-   "en": ""
+   "en": "\"Whoever can gather these five treasures can truly be called a person of courage!\"{wait}"
   },
   {
    "id": "OMAP00_43:027",
    "jp": "「うむむむむむ！{n} 見ればその場でピタリと当たる！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm! One look, and I read you spot on!\"{wait}"
   },
   {
    "id": "OMAP00_43:028",
    "jp": "「よいよい！ なにもいわずとも{n} おぬしが 何をききたいかは{n} よく わかっとる！」{wait}{n}「来年の セ・リーグの{n} ペナントレースの{n} ゆくえじゃな？」{wait}",
-   "en": ""
+   "en": "\"Fine, fine! You needn't say a word, I know exactly what you want to ask!\"{wait}\"Who'll win next year's baseball pennant race, eh?\"{wait}"
   },
   {
    "id": "OMAP00_43:029",
    "jp": "「そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{n}{wait}{n}「なに ちがう？{n} わはははは！ わかっとる！{n} まずは つかみのギャグじゃよ！」{wait}",
-   "en": ""
+   "en": "\"Thought so! Thought so! I knew it all along!\"{wait}\"What, that's not it? Wahahaha! I know, I know! That was just my opening gag!\"{wait}"
   },
   {
    "id": "OMAP00_43:030",
    "jp": "「ところで おぬしは{n} 鉄の ウンチを{n} つれておるのかな？」{wait}{n}「この先 鉄のウンチを{n} つれていると ちょっと{n} いいことがあるぞ！」{wait}",
-   "en": ""
+   "en": "\"By the way, do you have Iron Poop with you?\"{wait}\"Having Iron Poop along from here on will bring you a little luck!\"{wait}"
   },
   {
    "id": "OMAP00_43:031",
    "jp": "「なに つれているかいないか{n} 見れば わかるだろうとな？」{n}{wait}{n}「わはははは！ わかっとる！{n} ちょっとした おちゃめじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"What's that? I should be able to tell just by looking?\"{wait}\"Wahahaha! I know, I know! Just a bit of playfulness!\"{wait}"
   },
   {
    "id": "OMAP00_43:032",
    "jp": "「ところで おぬしは{n} ぬけだし仙人の庵には{n} もう いったのか？」{wait}{n}「ぬけだしの術が ないと{n} この先 洞窟で{n} 苦労するぞ！」{wait}",
-   "en": ""
+   "en": "\"By the way, have you been to the Escape Hermit's hut yet?\"{wait}\"Without the Escape art, you'll have a rough time in the caves ahead!\"{wait}"
   },
   {
    "id": "OMAP00_43:033",
    "jp": "「なに そんなことは{n} どうでもいいから{n} 早く 占え？」{wait}{n}「わはははは！ わかっとる！{n} ちょっとした しんせつじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"What's that? Never mind all that, just tell your fortune?\"{wait}\"Wahahaha! I know, I know! Just a bit of kindness!\"{wait}"
   },
   {
    "id": "OMAP00_43:034",
    "jp": "「よしよし！ それでは{n} ひとつ 占うとしようか！」{n}{wait}",
-   "en": ""
+   "en": "\"Very well! Then let me tell your fortune!\"{wait}"
   },
   {
    "id": "OMAP00_43:035",
    "jp": "「まずは おぬしの 名前を{n} おしえてもらおうか！」{n}{wait}",
-   "en": ""
+   "en": "\"First, tell me your name!\"{wait}"
   },
   {
    "id": "OMAP00_43:036",
    "jp": "「おぬしの 名前を{n} おしえてもらおうか！」{n}{wait}",
-   "en": ""
+   "en": "\"Tell me your name!\"{wait}"
   },
   {
    "id": "OMAP00_43:037",
    "jp": "「{str}か！{n} そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{wait}{n}「おぬしは 鬼たいじの{n} 旅を しておるのじゃな？」{n}",
-   "en": ""
+   "en": "\"{str}, is it! Thought so! Thought so! I knew it all along!\"{wait}\"You're on a journey to slay the oni, aren't you?\""
   },
   {
    "id": "OMAP00_43:038",
    "jp": "「そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{n}{wait}{n}「ところで{n} おぬしは 5つの宝物を{n} さがしておるのじゃな？」",
-   "en": ""
+   "en": "\"Thought so! Thought so! I knew it all along!\"{wait}\"By the way, you're searching for the five treasures, aren't you?\""
   },
   {
    "id": "OMAP00_43:039",
    "jp": "「そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Thought so! Thought so! I knew it all along!\"{wait}"
   },
   {
    "id": "OMAP00_43:040",
    "jp": "「それでは ここで おぬしの{n} ちかごろ 気になる あいての{n} 名前を おしえてもらおうか！」{wait}",
-   "en": ""
+   "en": "\"Now then, tell me the name of someone you've had your eye on lately!\"{wait}"
   },
   {
    "id": "OMAP00_43:041",
    "jp": "「おぬしの ちかごろ{n} 気になる あいての 名前を{n} おしえてもらおうか！」{wait}",
-   "en": ""
+   "en": "\"Tell me the name of someone you've had your eye on lately!\"{wait}"
   },
   {
    "id": "OMAP00_43:042",
    "jp": "「{str}か！{n} そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{wait}{n}「さて 桃太郎！{n} おぬしは 愛と 正義の子！」{n}{wait}{n}「友情の たいせつさを{n} 知っておるはずじゃ！」{n}{wait}{n}「どんなことが あっても{n} 友情の たいせつさを{n} わすれてはいかんぞ！」{wait}",
-   "en": ""
+   "en": "\"{str}, is it! Thought so! Thought so! I knew it all along!\"{wait}\"Now then, Momotaro! You are a child of love and justice!\"{wait}\"You must know how precious friendship is!\"{wait}\"Whatever happens, never forget how precious friendship is!\"{wait}"
   },
   {
    "id": "OMAP00_43:043",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「どんなことが あっても{n} 友情の たいせつさを{n} わすれてはいかんぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Whatever happens, never forget how precious friendship is!\"{wait}"
   },
   {
    "id": "OMAP00_43:044",
    "jp": "「うむむむむむ！{n} 見ればその場でピタリと当たる！」{n}{wait}{n}「…と いいたいとこじゃが{n} わしは 引退したんじゃ！」{n}{wait}{n}「もう ここに来ても{n} なにも おきんぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm! One look, and I read you spot on!\"{wait}\"...is what I'd like to say, but I've retired!\"{wait}\"Nothing will happen if you come here anymore!\"{wait}"
   },
   {
    "id": "OMAP00_43:045",
    "jp": "「これ！{n} 名前を 教えてくれねば{n} 占いが できんじゃろうが！」{wait}",
-   "en": ""
+   "en": "\"Hey! If you won't tell me a name, how am I supposed to tell your fortune?!\"{wait}"
   },
   {
    "id": "OMAP00_43:046",
    "jp": "「おぬしの 名前は{n} {str} で{n} よろしいかな？」",
-   "en": ""
+   "en": "\"Your name is {str}, correct?\""
   },
   {
    "id": "OMAP00_43:047",
    "jp": "「気になる あいての 名前は{n} {str} で{n} よろしいかな？」",
-   "en": ""
+   "en": "\"And the name of the one you've had your eye on is {str}, correct?\""
   },
   {
    "id": "OMAP00_43:048",
    "jp": "「北の 並び洞窟に キジが{n} 迷いこんだそうです！」{n}{wait}{n}「鬼に つかまってなければ{n} いいんですけどね！」{n}{wait}",
-   "en": ""
+   "en": "\"They say a pheasant wandered into Row Cave to the north!\"{wait}\"I hope the oni haven't caught it!\"{wait}"
   },
   {
    "id": "OMAP00_43:049",
    "jp": "「あっ！ 桃太郎さん！」{n}{n}{wait}{n}「へんな おじいさんから{n} 桃太郎さんに」{n}{wait}",
-   "en": ""
+   "en": "\"Ah! Momotaro-san!\"{wait}\"A strange old man asked me, for Momotaro-san...\"{wait}"
   },
   {
    "id": "OMAP00_43:050",
    "jp": "「これを わたしてくれ と{n} たのまれていたんです！」{n}{wait}",
-   "en": ""
+   "en": "\"...to hand you this!\"{wait}"
   },
   {
    "id": "OMAP00_43:051",
    "jp": "桃太郎は{n}{col4}ひえんの巻き物{col0}を{n}てにいれた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Warp Scroll{col0}!{c19}{wait}"
   },
   {
    "id": "OMAP00_43:052",
    "jp": "「あの おじいさんって{n} 仙人さまだったんですか！{n} へーっ！」{wait}",
-   "en": ""
+   "en": "\"So that old man was a hermit! Wow!\"{wait}"
   },
   {
    "id": "OMAP00_43:053",
    "jp": "「えーっと…{n} この巻き物を 誰に{n} 渡せば いいんだっけ？」{wait}{n}「うーん… うーん…{n} 思い出せないなあ…{n} …なに太郎だったっけ？」{wait}",
-   "en": ""
+   "en": "\"Umm... who was I supposed to give this scroll to again?\"{wait}\"Hmm... hmm... I can't remember... ...Something-taro, was it?\"{wait}"
   },
   {
    "id": "OMAP00_43:054",
    "jp": "「並び洞窟の コウモリたちに{n} いなずまの術が{n} きくって いったってよー！」{wait}",
-   "en": ""
+   "en": "\"Somebody said the Lightning art works on the bats in Row Cave!\"{wait}"
   },
   {
    "id": "OMAP00_43:055",
    "jp": "「オレたちゃ そんな術{n} できっこねーだよー！」{n}{wait}",
-   "en": ""
+   "en": "\"Us folks could never do an art like that!\"{wait}"
   },
   {
    "id": "OMAP00_43:056",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「敵に塩を おごる！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Keep your friends close and your enemies... over for dinner!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "OMAP00_43:057",
    "jp": "「サルも 木から{n} オチを いう！」{n}{wait}",
-   "en": ""
+   "en": "\"Even monkeys drop... the punchline!\"{wait}"
   },
   {
    "id": "OMAP00_43:058",
    "jp": "「三十六計 逃げるに 叱らず！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"He who runs away lives to... not get scolded!\"{wait}"
   },
   {
    "id": "OMAP00_43:059",
    "jp": "「やわらかそうな ごはんです！{n} すずめさんたちは おかゆが{n} 好みなんでしょうかね？」{wait}",
-   "en": ""
+   "en": "\"What soft-looking rice! I wonder if sparrows prefer rice porridge?\"{wait}"
   }
  ]
 }

@@ -8,42 +8,42 @@
   {
    "id": "SMAP07_23:000",
    "jp": "「森の中に ある{n} ふしぎな もようの{n} 上に 乗ると」{wait}{n}「たちどころに{n} 別の 場所に{n} 運ばれるのだ！」{wait}",
-   "en": ""
+   "en": "\"Step onto a mysterious pattern in the forest,\"{wait}\"and you'll be carried off to another place in an instant!\"{wait}"
   },
   {
    "id": "SMAP07_23:001",
    "jp": "「キャッ！ キャッ！{n} この森に 人がくるなんて{n} ひさしぶりです！」{wait}{n}「おや？ あなたは{n} 桃太郎さんですね？」{n}{wait}{n}「私は きびだんごが{n} 大好物 なんです！」{n}{wait}{n}「きびだんごを いただけたら{n} 旅の お供を{n} いたしましょう！」{wait}{n}「おこしにつけた きびだんご{n} 一つ 私に くださいな！」{n}",
-   "en": ""
+   "en": "\"Ook ook! It's been a long time since a human came to this forest!\"{wait}\"Oh? Are you Momotaro-san?\"{wait}\"I just love millet dumplings!\"{wait}\"If you give me a millet dumpling, I'll be your traveling companion!\"{wait}\"Those millet dumplings hanging at your waist... won't you give one to me?\""
   },
   {
    "id": "SMAP07_23:002",
    "jp": "「キャッ！ キャッ！{n} ありがとうございます！」{n}{wait}{n}サルが お供に{n}くわわった！{n}{wait}",
-   "en": ""
+   "en": "\"Ook ook! Thank you so much!\"{wait}Monkey joined as a companion!{wait}"
   },
   {
    "id": "SMAP07_23:003",
    "jp": "サルが くわわったので{n}桃太郎の 攻撃力が{n}10上がった！{wait}{n}守備力が{n}10上がった！{n}{wait}",
-   "en": ""
+   "en": "With Monkey along, Momotaro's Attack rose by 10!{wait}Defense rose by 10!{wait}"
   },
   {
    "id": "SMAP07_23:004",
    "jp": "「キャッ！ キャッ！ 桃太郎さん！{n} きびだんごを{n} お持ちでは ないようです！」{wait}{n}「きびだんごを いただけるまで{n} ここで お待ちしています！{n} キャッ！ キャッ！」{wait}",
-   "en": ""
+   "en": "\"Ook ook, Momotaro-san! It seems you don't have any millet dumplings!\"{wait}\"I'll wait right here until you give me a millet dumpling! Ook ook!\"{wait}"
   },
   {
    "id": "SMAP07_23:005",
    "jp": "「キャッ！ キャッ！ 桃太郎さん！{n} あんまりです！」{n}{wait}{n}「そんな せっしょうなことを{n} おっしゃらずに…」{n}{wait}{n}「おこしにつけた きびだんご{n} 一つ 私に くださいな！」{n}{wait}",
-   "en": ""
+   "en": "\"Ook ook, Momotaro-san! That's too much!\"{wait}\"Please don't say such cruel things...\"{wait}\"Those millet dumplings hanging at your waist... won't you give one to me?\"{wait}"
   },
   {
    "id": "SMAP07_23:006",
    "jp": "「きびだんごを いただけるまで{n} ここで お待ちしています！{n} キャッ！ キャッ！」{wait}",
-   "en": ""
+   "en": "\"I'll wait right here until you give me a millet dumpling! Ook ook!\"{wait}"
   },
   {
    "id": "SMAP07_23:007",
    "jp": "「おこしにつけた きびだんご{n} 一つ 私に くださいな！」{n}",
-   "en": ""
+   "en": "\"Those millet dumplings hanging at your waist... won't you give one to me?\""
   }
  ]
 }

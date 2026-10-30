@@ -12,37 +12,37 @@
   {
    "id": "FURO_0_7:000",
    "jp": "そろそろ戻りますか？{n}{n}",
-   "en": ""
+   "en": "Shall we head back soon?"
   },
   {
    "id": "FURO_0_7:001",
    "jp": "では 戻りましょう！{n}{n}{wait}",
-   "en": ""
+   "en": "Then let's go back!{wait}"
   },
   {
    "id": "FURO_0_7:002",
    "jp": "鬼たいじのことを{n}忘れちゃだめですよ！{n}桃太郎さん！{wait}",
-   "en": ""
+   "en": "Don't forget about defeating the oni, Momotaro-san!{wait}"
   },
   {
    "id": "FURO_0_7:003",
    "jp": "え？ まだ ここに{n}いるんですか？{n}桃太郎さん！{wait}",
-   "en": ""
+   "en": "Huh? You're staying here even longer, Momotaro-san?{wait}"
   },
   {
    "id": "FURO_0_7:004",
    "jp": "「あー いい 湯だなあ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ahhh, what a nice bath!\"{wait}"
   },
   {
    "id": "FURO_0_7:005",
    "jp": "桃太郎達の{n}体と 技は{n}全回復した！{wait}",
-   "en": ""
+   "en": "Momotaro and company had their HP and SP fully restored!{wait}"
   },
   {
    "id": "FURO_0_7:006",
    "jp": "では 急いで 戻りましょう！{n}{n}{wait}",
-   "en": ""
+   "en": "Then let's hurry back!{wait}"
   }
  ]
 }

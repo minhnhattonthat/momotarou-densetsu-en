@@ -10,6 +10,21 @@ import layout  # noqa: E402
 SHOP0 = '「いらっしゃーい！{n} 茶店へようこそ！」{n}{wait}{n}「どんなご用ですか？」{n}{n}'
 
 
+def test_repacked_pool_borrows_slack():
+    import struct
+    import insert
+    jp = insert.EN.encode('a{end}')
+    b = bytearray(jp + bytes(10) + jp + bytes(2) + bytes(8))          # slots of 12 and 4 at 0, 12; pointers at 16, 20
+    doc = {'id': 't', 'base': '0x80000000', 'strings': [
+        {'id': 't:0', 'off': 0, 'max': 12, 'ptrs': ['word@0x10'], 'en': 'Hi'},
+        {'id': 't:c', 'off': 12, 'max': 4, 'ptrs': ['word@0x14'], 'en': 'Long one'}]}
+    out = insert.repacked(doc, b)
+    p0, p1 = struct.unpack_from('<II', out, 16)
+    hi = insert.EN.encode('Hi{end}')
+    assert p0 == 0x80000000 and p1 == 0x80000000 + len(hi)
+    assert out[len(hi):len(hi) + len(insert.EN.encode('Long one{end}'))] == insert.EN.encode('Long one{end}')
+
+
 def test_pages_padded_like_the_japanese():
     out, probs = layout.layout('"Welcome!"{wait}"What can I do for you?"', SHOP0)
     assert probs == []
@@ -34,6 +49,11 @@ def test_string_ending_in_wait_and_battle_names():
     assert (out, probs) == ('{str}{str} attacks!{n}{n}{wait}', [])
 
 
+def test_joining_spaces_kept():
+    assert layout.layout(' used the Kintan art!', 'きんたんの術を 使った！')[0] == ' used the Kintan art!'
+    assert layout.layout('Momotaro ', '桃太郎は')[0] == 'Momotaro '
+
+
 def test_overflow_and_too_many_lines_reported():
     assert layout.layout('A very long item name indeed', 'はりせん', 'item')[1]
     assert layout.layout(' '.join(['word'] * 120), '一{n}二{n}三')[1]
@@ -49,4 +69,5 @@ def test_check_problems():
     assert any('avoided' in e for e in errs)
     assert batches.problems('桃太郎は 走った', 'He ran.', 'dlg', gl)[1]
     assert batches.problems('桃太郎は 走った', 'Momotaro ran.', 'dlg', gl) == ([], [])
+    assert batches.problems('{str}の 攻撃！{n}{n}{wait}', '{str} attacks!{wait}', 'dlg', gl) == ([], [])
     assert batches.has_term('桃太郎さん', '桃太郎') and not batches.has_term('タイミング', 'ミン')

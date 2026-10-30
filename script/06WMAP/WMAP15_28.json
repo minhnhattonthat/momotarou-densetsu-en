@@ -8,77 +8,77 @@
   {
    "id": "WMAP15_28:000",
    "jp": "「ウヒャヒャ… わしは{n} まいたん仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Regenerate Hermit!\"{wait}"
   },
   {
    "id": "WMAP15_28:001",
    "jp": "「わしの 術は 夜叉姫が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 夜叉姫を つれてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"My art is one that Yashahime would be fit to learn!\"{wait}\"Bring me Yashahime, who is fit to undergo my training!\"{wait}"
   },
   {
    "id": "WMAP15_28:002",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP15_28:003",
    "jp": "「わしの 術は 夜叉姫が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 夜叉姫が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}",
-   "en": ""
+   "en": "\"My art is fit for Yashahime to learn!\"{wait}\"Oh! Why, what's this! That Yashahime is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take her to a doctor and get her healed!\"{wait}"
   },
   {
    "id": "WMAP15_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP15_28:005",
    "jp": "「まいたんの術は{n} 戦闘中 1ターンごとに{n} 体力を 回復させるのぢゃ」{wait}{n}「この 術を 覚えるのは{n} 夜叉姫が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「ところで 夜叉姫よ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Regenerate art restores HP every turn during battle.\"{wait}\"Yashahime is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"By the way, Yashahime!\"{wait}"
   },
   {
    "id": "WMAP15_28:006",
    "jp": "「まいたんの術は 多くの{n} 術の中でも 一番{n} 覚えづらいと いわれておる」{wait}{n}「それは なぜかと いうと…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Regenerate art is said to be the hardest of all the arts to learn.\"{wait}\"And why is that, you ask...\"{wait}"
   },
   {
    "id": "WMAP15_28:007",
    "jp": "「お前が エッチだと 思う文章を{n} 10文字以上 18文字以下で{n} 書かなくてはならんからぢゃ！」{wait}{n}「ウヒャヒャ…{n} よいな！ 夜叉姫！」{n}{wait}",
-   "en": ""
+   "en": "\"Because you must write a sentence you think is naughty, from 10 to 18 characters long!\"{wait}\"Uhyahya... Ready, Yashahime?\"{wait}"
   },
   {
    "id": "WMAP15_28:008",
    "jp": "「さあ！ 修行 開始ぢゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Now! Let the training begin!\"{wait}"
   },
   {
    "id": "WMAP15_28:009",
    "jp": "「でかした！ 夜叉姫！{n} けっこう お前 エッチぢゃな！」{n}{wait}{n}「よいでは ないか！{n} すこしぐらい エッチで なきゃ{n} 大きな しごとは できんぞ！」{wait}{n}「されば！ 夜叉姫よ！{n} まいたんの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}夜叉姫は{n}{col4}まいたんの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Yashahime! You're quite the naughty one!\"{wait}\"Nothing wrong with that! You can't do great things without being a little naughty!\"{wait}\"And so, Yashahime! I shall grant you the Regenerate art! Uhyahya...\"{wait}Yashahime mastered the {col4}Regenerate art{col0}!"
   },
   {
    "id": "WMAP15_28:010",
    "jp": "「こりゃ！ 夜叉姫！{n} なにを てれておる！{n} ちっとも やらしさが 足らんぞ！」{wait}{n}「もっと エッチな{n} 文章を 考えい！」{n}{wait}{n}「もう一度 チャレンジするか？」{n}{n}",
-   "en": ""
+   "en": "\"Hey! Yashahime! What are you being so shy for? That's not nearly naughty enough!\"{wait}\"Think up a naughtier sentence!\"{wait}\"Want to try again?\""
   },
   {
    "id": "WMAP15_28:011",
    "jp": "「すこしは エッチな 本でも 見て{n} けんきゅう してくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Go read a naughty book or two and do some research!\"{wait}"
   },
   {
    "id": "WMAP15_28:012",
    "jp": "「強い 敵と 戦うときは{n} まず まいたんの術を{n} かけておくのぢゃ！」{wait}{n}「さすれば ゆうりに{n} 戦いを すすめることが{n} できるぢゃろう！」{wait}",
-   "en": ""
+   "en": "\"When you fight a strong enemy, cast the Regenerate art first!\"{wait}\"That way, you can fight with the upper hand!\"{wait}"
   },
   {
    "id": "WMAP15_28:013",
    "jp": "「桃太郎！ ちょっと{n} エッチな 夜叉姫に{n} プレゼントぢゃ！」{wait}{n}桃太郎は{n}{col10}まいたん仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! A present for that slightly naughty Yashahime!\"{wait}Momotaro got the {col10}Regenerate Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP15_28:014",
    "jp": "「立つ鳥 後で 二毛作！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Leave nothing behind but footprints... and a second harvest!\"{wait}"
   }
  ]
 }

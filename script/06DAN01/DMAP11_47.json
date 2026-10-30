@@ -8,62 +8,62 @@
   {
    "id": "DMAP11_47:000",
    "jp": "「はっはっはっ！{n} ついに ここまで きたか！{n} 桃太郎よ！」{wait}{n}「そんなに 人のために{n} 命を なげだすのが{n} 好きなのか！ はっはっはっ！」{wait}{n}「人間は おんを うけても{n} すぐに わすれる 動物だぞ！」{n}{wait}{n}「つごうが 悪ければ すぐに{n} 逃げ出す 動物だぞ！」{n}{wait}{n}「みずからを よごすことを いやがり{n} すぐに なまける 動物だぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hahaha! So you've finally come this far, Momotaro!\"{wait}\"Do you love throwing your life away for others that much? Hahaha!\"{wait}\"Humans are creatures who forget a kindness the moment they receive it!\"{wait}\"Creatures who run away the moment things go badly!\"{wait}\"Creatures who hate to dirty their own hands and are quick to slack off!\"{wait}"
   },
   {
    "id": "DMAP11_47:001",
    "jp": "「それも これも みんな{n} びょうどうだから いけないのだ！」{n}{wait}{n}「鬼は 力あるものが{n} えらくなり 力なきものは{n} 一生 はたらきとおす！」{wait}{n}「やくわりが きまっているから{n} もめごともなく 友情など{n} ふりかざす ひつようもない！」{wait}{n}「桃太郎！ お前は 鬼の{n} すばらしい とりきめを みだす{n} じゃまものなのだ！」{wait}{n}「ウシや ウマが お前たち{n} 人間に はむかうか？」{n}{wait}",
-   "en": ""
+   "en": "\"And it's all because of this 'equality' nonsense!\"{wait}\"Among oni, the strong rise up, and the weak work their whole lives through!\"{wait}\"Everyone's role is fixed, so there's no quarrelling and no need to go waving 'friendship' around!\"{wait}\"Momotaro! You're a nuisance who disrupts the splendid order of the oni!\"{wait}\"Do cows or horses rise up against you humans?\"{wait}"
   },
   {
    "id": "DMAP11_47:002",
    "jp": "「サカナや トリが お前たち{n} 人間に はむかうか？」{n}{wait}{n}「おなじように 人間が{n} 鬼に したがうのが{n} 平和と いうものなのだ！」{wait}{n}「そのことを この 雷神！{n} お前に ほねのずいまで{n} わからせてやる！ はっはっはっ！」{wait}",
-   "en": ""
+   "en": "\"Do fish or birds rise up against you humans?\"{wait}\"In the same way, humans obeying oni is what we call peace!\"{wait}\"I, Raijin, will drive that into you right down to the marrow of your bones! Hahaha!\"{wait}"
   },
   {
    "id": "DMAP11_47:003",
    "jp": "「すまなかった！ 桃太郎よ！{n} 雷神と あろうものが{n} まちがっていたようだ！」{wait}{n}「たしかに お前たちは 強い！{n} しかも 強さの 中に{n} やさしさが あふれていた！」{wait}{n}「このような 強さというものを{n} わしは はじめて みた！」{n}{wait}",
-   "en": ""
+   "en": "\"Forgive me, Momotaro! It seems that I, the mighty Raijin, was wrong!\"{wait}\"You truly are strong! And within your strength, kindness overflowed!\"{wait}\"This is the first time I have ever seen strength like this!\"{wait}"
   },
   {
    "id": "DMAP11_47:004",
    "jp": "「わしには えんま様の{n} おっしゃることが 全てだったから{n} えんま様に したがった！」{wait}{n}「しかし いま わしは{n} えんま様を いさめなければ{n} ならないことを さとった！」{wait}{n}「酒呑童子が！ 阿修羅が！」{n}{n}{wait}{n}「鬼が島で えんま様を{n} せっとくしている！」{n}{wait}",
-   "en": ""
+   "en": "\"To me, Enma-sama's word was everything, so I obeyed Enma-sama!\"{wait}\"But now I realise that I must reason with Enma-sama!\"{wait}\"Shuten-doji! Ashura!\"{wait}\"They are on Onigashima, trying to persuade Enma-sama!\"{wait}"
   },
   {
    "id": "DMAP11_47:005",
    "jp": "「だが えんま様は まだ{n} おきづきに ならぬようだ！」{n}{wait}{n}「わしも 鬼が島に もどり{n} 阿修羅たちと こうどうを{n} ともにする つもりだ！」{wait}{n}「桃太郎！」{n}{n}{wait}{n}「わしは お前に{n} すばらしい ことばを{n} おそわった！」{wait}{n}「鬼が島で もう一度 あおう！{n} 友情の ために！」{n}{wait}",
-   "en": ""
+   "en": "\"But Enma-sama does not yet seem to see it!\"{wait}\"I too will return to Onigashima and stand with Ashura and the others!\"{wait}\"Momotaro!\"{wait}\"You have taught me a wonderful word!\"{wait}\"Let us meet again on Onigashima! For friendship!\"{wait}"
   },
   {
    "id": "DMAP11_47:006",
    "jp": "「また きたのか{n} 桃太郎！」{n}{wait}{n}「さすがに 阿修羅たちを{n} 感心させる だけの{n} ことはあるようだな！」{wait}{n}「だが！ わしも{n} 人間に やぶれるわけには{n} いかないのだ！」{wait}{n}「いくぞ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Back again, Momotaro?\"{wait}\"You certainly seem worthy of having impressed Ashura and the others!\"{wait}\"But! I cannot lose to a human either!\"{wait}\"Here I come, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP11_47:007",
    "jp": "「ふむ！{n} とうとう ここまで{n} きたか！ 桃太郎！」{wait}{n}「オレの名は 羅生門！{n} 黄泉の塔を 守る{n} 鬼の 将軍よ！」{wait}{n}「さて！ 桃太郎！{n} オレは お前に{n} 聞きたいことが ある！」{wait}{n}「桃太郎！{n} お前の 力の{n} ひみつは なんだ？」{wait}",
-   "en": ""
+   "en": "\"Hmph! So you've finally come this far, Momotaro!\"{wait}\"My name is Rashomon! The oni general who guards the Yomi Tower!\"{wait}\"Now then, Momotaro! There's something I want to ask you!\"{wait}\"Momotaro! What is the secret of your power?\"{wait}"
   },
   {
    "id": "DMAP11_47:008",
    "jp": "「夜叉姫様を{n} 仲間に したばかりか」{n}{wait}{n}「阿修羅や 雷神たちすら{n} えんま様に 人間との 戦いを{n} 考え直させようと している！」{wait}{n}「そこまで{n} 鬼の 心を 動かすものとは{n} なんなのか オレは 知りたい！」{wait}{n}「桃太郎よ！ オレと 戦え！」{n}{n}{wait}{n}「そして お前の{n} 本当の すがたを{n} オレに 見せるがいい！」{wait}",
-   "en": ""
+   "en": "\"Not only did you make Yashahime-sama one of your friends,\"{wait}\"but even Ashura and Raijin are trying to get Enma-sama to reconsider the war with humans!\"{wait}\"I want to know what it is that can move the hearts of oni that much!\"{wait}\"Momotaro! Fight me!\"{wait}\"And show me your true self!\"{wait}"
   },
   {
    "id": "DMAP11_47:009",
    "jp": "「ふむ！ ふむ！ ふーむ！」{n}{n}{wait}{n}「桃太郎よ！{n} 正直に いおう！」{n}{wait}{n}「オレは 負けるつもりなど{n} これっぽっちも なかったのだ！」{n}{wait}{n}「お前の 弱さを あばいて{n} 鬼たちの 目を さまして{n} やるつもりだった！」{wait}{n}「ところが どうだ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hmph! Hmph! Hmmmph!\"{wait}\"Momotaro! I'll be honest with you!\"{wait}\"I didn't have the slightest intention of losing!\"{wait}\"I meant to expose your weakness and open the eyes of the oni!\"{wait}\"But look at this!\"{wait}"
   },
   {
    "id": "DMAP11_47:010",
    "jp": "「目を{n} さまさせられたのは{n} オレの ほうだ！」{wait}{n}「負けたというのに{n} こんな さっぱりした{n} きもちに なるとはな！」{wait}{n}「オレは 鬼が島に もどる！{n} えんま様に 戦いを やめるよう{n} たのんでみる つもりだ！」{wait}{n}「桃太郎！{n} 鬼が島で 会おう！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm the one whose eyes were opened!\"{wait}\"Who'd have thought losing could leave me feeling so refreshed!\"{wait}\"I'm going back to Onigashima! I mean to ask Enma-sama to stop the war!\"{wait}\"Momotaro! We'll meet on Onigashima!\"{wait}"
   },
   {
    "id": "DMAP11_47:011",
    "jp": "「桃太郎よ！」{n}{n}{wait}{n}「時には 負けを みとめる{n} いさぎよさも 必要だぞ！」{n}{wait}{n}「勝ち目のない 戦いを{n} 挑むのは おろかものだけだ！」{n}{wait}{n}「そのことを お前に{n} 教えてやろう！ 」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Sometimes you need the grace to admit defeat!\"{wait}\"Only fools pick a fight they can't win!\"{wait}\"Let me teach you that lesson!\"{wait}"
   }
  ]
 }

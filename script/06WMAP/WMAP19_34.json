@@ -8,62 +8,62 @@
   {
    "id": "WMAP19_34:000",
    "jp": "「ウヒャヒャ… わしは{n} はやて仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Haste Hermit!\"{wait}"
   },
   {
    "id": "WMAP19_34:001",
    "jp": "「わしの 術は 夜叉姫が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 夜叉姫を つれてくるのぢゃ！」{n}{wait}{n}「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"My art is one that Yashahime would be fit to learn!\"{wait}\"Bring me Yashahime, who is fit to undergo my training!\"{wait}\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP19_34:002",
    "jp": "「わしの 術は 夜叉姫が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 夜叉姫が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}{n}「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"My art is fit for Yashahime to learn!\"{wait}\"Oh! Why, what's this! That Yashahime is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take her to a doctor and get her healed!\"{wait}\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP19_34:003",
    "jp": "「はやての術は{n} 味方の すばやさを{n} 上げることが できるのぢゃ！」{wait}{n}「この 術を 覚えるのは{n} 夜叉姫が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼達を こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「さあ！ ついてくるのぢゃ{n} 夜叉姫！」{n}{wait}",
-   "en": ""
+   "en": "\"The Haste art can raise your allies' Speed!\"{wait}\"Yashahime is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now! Follow me, Yashahime!\"{wait}"
   },
   {
    "id": "WMAP19_34:004",
    "jp": "「修行は かんたんぢゃ！{n} 夜叉姫が わしのところまで{n} 鬼に 会わずに くれば よい！」{wait}{n}「地面の しゅるいに よって{n} 鬼の でやすさが{n} ちがうからな！」{wait}{n}「気を つけて{n} 歩いてくるのぢゃ！」{n}{wait}{n}「わしは 先に行って おるからな」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The training is easy! Yashahime just has to reach me without running into any oni!\"{wait}\"How often oni show up depends on the kind of ground you walk on!\"{wait}\"Watch your step on the way!\"{wait}\"I'll go on ahead.\"{wait}"
   },
   {
    "id": "WMAP19_34:005",
    "jp": "「でかした！ 夜叉姫！{n} はやての術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}夜叉姫は{n}{col4}はやての術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Yashahime! I shall grant you the Haste art! Uhyahya...\"{wait}Yashahime mastered the {col4}Haste art{col0}!"
   },
   {
    "id": "WMAP19_34:006",
    "jp": "「夜叉姫！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「もう一度 チャレンジするか？」{n}{n}",
-   "en": ""
+   "en": "\"Yashahime! At this rate you'll never punish Enma! Uhyahya...\"{wait}\"Will you try again?\""
   },
   {
    "id": "WMAP19_34:007",
    "jp": "「そうか！{n} では わしは 先に行って{n} おるからな」{wait}",
-   "en": ""
+   "en": "\"I see! Then I'll go on ahead of you.\"{wait}"
   },
   {
    "id": "WMAP19_34:008",
    "jp": "「そうか！{n} では 日を あらためて{n} また くるが よい！」{wait}",
-   "en": ""
+   "en": "\"I see! Then come back another day!\"{wait}"
   },
   {
    "id": "WMAP19_34:009",
    "jp": "「はやての術は 夜叉姫の{n} 段が 上がると{n} ぱわぁあっぷするのぢゃ！」{wait}{n}「夜叉姫！ 頑張って{n} 心の 数を ふやすのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"The Haste art gets a pow-wer up as Yashahime's level rises!\"{wait}\"Yashahime! Work hard and gather more hearts!\"{wait}"
   },
   {
    "id": "WMAP19_34:010",
    "jp": "「桃太郎！ すばやい敵に{n} てこずっとらんだろうな？」{n}{wait}{n}「これを やるから{n} はやての術を {n} 忘れるでないぞ！」{wait}{n}桃太郎は{n}{col10}はやて仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! I trust fast enemies aren't giving you trouble?\"{wait}\"I'll give you this, so don't you forget the Haste art!\"{wait}Momotaro got the {col10}Haste Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP19_34:011",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「無理が 通れば{n} 道路が へっこむ！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "A proverb is written here!{wait}\"All roads lead to roadworks!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

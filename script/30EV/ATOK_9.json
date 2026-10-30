@@ -8,77 +8,77 @@
   {
    "id": "ATOK_9:000",
    "jp": "「ボクたち アリ卞〇キリギリス！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"We're Ari to Kirigirisu!\"{wait}"
   },
   {
    "id": "ATOK_9:001",
    "jp": "「だじゃれ大会の 今年のお題は{n} 動物だって{n} いうじゃないッスかー！」{wait}",
-   "en": ""
+   "en": "\"They say this year's Pun Contest theme is animals, right?!\"{wait}"
   },
   {
    "id": "ATOK_9:002",
    "jp": "「動物ネタなら ボクたち{n} アリ卞〇キリギリスの{n} 出番ですよー！」{wait}",
-   "en": ""
+   "en": "\"If it's animal gags, then it's time for us, Ari to Kirigirisu, to shine!\"{wait}"
   },
   {
    "id": "ATOK_9:003",
    "jp": "「動物ネタの だじゃれ{n} 作ってきたッスよー！」{n}{wait}",
-   "en": ""
+   "en": "\"We came up with some animal puns!\"{wait}"
   },
   {
    "id": "ATOK_9:004",
    "jp": "「聞いてくださいよー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"C'mon, listen to us!\"{wait}"
   },
   {
    "id": "ATOK_9:005",
    "jp": "「行きますよー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Here we go!\"{wait}"
   },
   {
    "id": "ATOK_9:006",
    "jp": "「シカの しかばね！」{n}{n}{wait}{n}「どうです？ いいでしょう？」{n}{n}{wait}{n}「もっと もっと{n} 言いますよー！」{n}",
-   "en": ""
+   "en": "\"A deer's dearly departed!\"{wait}\"Well? Pretty good, huh?\"{wait}\"We've got lots, lots more!\""
   },
   {
    "id": "ATOK_9:007",
    "jp": "「そんなこと言わないで{n} くださいよー！」{n}{wait}",
-   "en": ""
+   "en": "\"Aw, don't say that!\"{wait}"
   },
   {
    "id": "ATOK_9:008",
    "jp": "「イヤだと 言っても{n} 言いますよー！ ボクたち」{n}{wait}",
-   "en": ""
+   "en": "\"Even if you say no, we're telling you anyway!\"{wait}"
   },
   {
    "id": "ATOK_9:009",
    "jp": "「やっぱり ボクたちの{n} 天才的な ギャグを{n} 聞きたいんですねー！」{wait}",
-   "en": ""
+   "en": "\"So you really do want to hear our genius gags!\"{wait}"
   },
   {
    "id": "ATOK_9:010",
    "jp": "「行きますよー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Here we go!\"{wait}"
   },
   {
    "id": "ATOK_9:011",
    "jp": "「シカの 歯科医が 結婚式の司会を{n} しかたなくしたが{n} 客に シカトされたので…」{wait}{n}「シカめっ面で しかったら{n} たしかに しずかになったので…」{n}{wait}{n}「ちょっとは マシかと思い{n} カクカクシカジカと 話をした！」{n}{wait}{n}「ふう！ すっきりしたー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Oh deer! A deer dentist had to emcee a wedding, but the guests gave him the cold shoulder, so...\"{wait}\"he went buck wild and scolded them, and doe you know, they went quiet, so...\"{wait}\"feeling fawn-tastic, he told them the whole deer-tailed story!\"{wait}\"Phew! That feels great!\"{wait}"
   },
   {
    "id": "ATOK_9:012",
    "jp": "「石塚くん！ やったねー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ishizuka-kun! We did it!\"{wait}"
   },
   {
    "id": "ATOK_9:013",
    "jp": "「やりましたねー！ 石井先輩！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"We sure did! Ishii-senpai!\"{wait}"
   },
   {
    "id": "ATOK_9:014",
    "jp": "「みなさん！ アリ卞〇キリギリスの{n} ラジオ番組も よろしくねー！」{n}{wait}",
-   "en": ""
+   "en": "\"Everybody! Please check out Ari to Kirigirisu's radio show too!\"{wait}"
   }
  ]
 }

@@ -8,387 +8,387 @@
   {
    "id": "SMAP22_35:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この 村が 鬼に おそわれ{n} 村人が くるしめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?!\"{wait}\"Oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP22_35:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 36段くらいは{n} ないと つらいであろう！」{wait}{n}「36段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni from here on are much, much stronger!\"{wait}\"If you mean to press on past this village, without about level 36 you'll have a hard time of it!\"{wait}\"If you haven't reached level 36, keep up your training around here and build up your experience!\"{wait}"
   },
   {
    "id": "SMAP22_35:002",
    "jp": "「たいへんじゃあ！{n} 鬼が となり村への道に{n} たてこもっちまった！」{wait}{n}「これじゃ おりひめの村に{n} いくことが できねえだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"It's terrible! Oni have holed up on the road to the next village!\"{wait}\"Now we can't get to Orihime Village!\"{wait}"
   },
   {
    "id": "SMAP22_35:003",
    "jp": "「これから ずっと いつでも{n} となりの村へ 行けるんですね！{n} ありがとう！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"From now on we can go to the next village anytime we like! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP22_35:004",
    "jp": "「鬼が となり村への道を{n} 通れなくして しまっただよ！」{n}{wait}{n}「たなばた祭りが{n} 近いと いうのに！」{n}{wait}",
-   "en": ""
+   "en": "\"The oni have blocked off the road to the next village!\"{wait}\"And with the Tanabata Festival so close!\"{wait}"
   },
   {
    "id": "SMAP22_35:005",
    "jp": "「これで うかれたら{n} バチが あたるでよ！{n} せっせと はたらくだよ！」{wait}",
-   "en": ""
+   "en": "\"If we get carried away now, we'll be punished for sure! Back to hard work!\"{wait}"
   },
   {
    "id": "SMAP22_35:006",
    "jp": "「年に 一度の{n} たなばた祭りが みんなの{n} いきがいなのじゃ！」{wait}{n}「鬼には いきがいは{n} ないのかのォ！{n} さみしいことじゃ」{wait}",
-   "en": ""
+   "en": "\"The Tanabata Festival, once a year, is what we all live for!\"{wait}\"Don't oni have anything to live for? How sad.\"{wait}"
   },
   {
    "id": "SMAP22_35:007",
    "jp": "「これから 男の 人と{n} 助けあって すてきな 村に{n} していきますわ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"From now on we'll help each other with the men and make this a wonderful village, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP22_35:008",
    "jp": "「今年から 自由に{n} おりひめの村に{n} いけるはず だったんじゃあ！」{wait}",
-   "en": ""
+   "en": "\"From this year on we were supposed to be free to visit Orihime Village!\"{wait}"
   },
   {
    "id": "SMAP22_35:009",
    "jp": "「これで うかれたら{n} バチが あたるでよ！{n} せっせと はたらくだよ！」{wait}",
-   "en": ""
+   "en": "\"If we get carried away now, we'll be punished for sure! Back to hard work!\"{wait}"
   },
   {
    "id": "SMAP22_35:010",
    "jp": "「せっかく 今年から 神様が{n} 2つの 村を いききしても{n} よいと おっしゃったのに！」{wait}",
-   "en": ""
+   "en": "\"And this was the very year the gods said we could come and go between the two villages!\"{wait}"
   },
   {
    "id": "SMAP22_35:011",
    "jp": "「これで うかれたら{n} バチが あたるでよ！{n} せっせと はたらくだよ！」{wait}",
-   "en": ""
+   "en": "\"If we get carried away now, we'll be punished for sure! Back to hard work!\"{wait}"
   },
   {
    "id": "SMAP22_35:012",
    "jp": "「となり村への道に たてこもった{n} 鬼は ごずと めず という{n} 兄弟だ そうだ！」{wait}",
-   "en": ""
+   "en": "\"They say the oni holed up on the road to the next village are brothers called Gozu and Mezu!\"{wait}"
   },
   {
    "id": "SMAP22_35:013",
    "jp": "「鬼一人でも こわいのに{n} 二人も おっては{n} なんの 手出しも できんよ！」{wait}",
-   "en": ""
+   "en": "\"One oni is scary enough, but with two of them there, there's nothing we can do!\"{wait}"
   },
   {
    "id": "SMAP22_35:014",
    "jp": "「すずめのお宿6から{n} 北へ いくと{n} 竹取りの村です！」{wait}",
-   "en": ""
+   "en": "\"Go north from Sparrow Inn 6 and you'll reach Taketori Village!\"{wait}"
   },
   {
    "id": "SMAP22_35:015",
    "jp": "「じつは わたしは おりひめ様に{n} あこがれていたんです！」{n}{wait}{n}「でも おりひめ様は ひこぼし様と{n} 幸せそうに しておられます！」{n}{wait}",
-   "en": ""
+   "en": "\"The truth is, I was sweet on Orihime-sama!\"{wait}\"But Orihime-sama looks so happy with Hikoboshi-sama!\"{wait}"
   },
   {
    "id": "SMAP22_35:016",
    "jp": "「桃太郎さん！{n} どうか この カードを{n} 受け取ってください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please accept this card!\"{wait}"
   },
   {
    "id": "SMAP22_35:017",
    "jp": "桃太郎は{n}{col10}おりひめカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Orihime Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP22_35:018",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「今年の たなばた祭りから{n} 自由に おりひめの村に{n} 行っていいことに なってたんです」{wait}{n}「なのに 鬼の ごずと めずが！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Starting with this year's Tanabata Festival, we were going to be free to visit Orihime Village!\"{wait}\"But then the oni Gozu and Mezu...!\"{wait}"
   },
   {
    "id": "SMAP22_35:019",
    "jp": "「これで この村も{n} もっともっと{n} ひらけていきます！」{wait}{n}「桃太郎さん！{n} どうも ありがとう！」{n}{wait}",
-   "en": ""
+   "en": "\"Now this village will open up more and more!\"{wait}\"Momotaro-san! Thank you so much!\"{wait}"
   },
   {
    "id": "SMAP22_35:020",
    "jp": "「これから この村は いつでも{n} 好きなときに これるのネ！{n} なんて すばらしいことなの！」{wait}{n}「ありがとうございます！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"From now on we can come to this village whenever we like! How wonderful!\"{wait}\"Thank you so much, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP22_35:021",
    "jp": "「わたしは 都から はるばる{n} たなばた祭りを 見にきたのですが{n} 鬼の ために 見れないとは！」{wait}{n}「なんて ついてないんだ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I came all the way from the Capital to see the Tanabata Festival, and now I can't because of the oni!\"{wait}\"What rotten luck!\"{wait}"
   },
   {
    "id": "SMAP22_35:022",
    "jp": "「いやあ！ 見ましたよ！{n} たなばた祭り！ わざわざ{n} 都から きたかいが あった！」{wait}",
-   "en": ""
+   "en": "\"Wow! I saw it! The Tanabata Festival! It was worth coming all the way from the Capital!\"{wait}"
   },
   {
    "id": "SMAP22_35:023",
    "jp": "「桃太郎さん！{n} 今年の たなばた祭りは{n} オラたちには とくべつなんだ！」{wait}{n}「となり村へ 年に 一度しか{n} いけなかったのが ついに 今年{n} おゆるしが 出たんじゃあ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! This year's Tanabata Festival is special for us!\"{wait}\"We could only go to the next village once a year, but this year we finally got permission!\"{wait}"
   },
   {
    "id": "SMAP22_35:024",
    "jp": "「いつでも となり村に{n} 行けると 思うと{n} ウキウキするだよ！」{wait}",
-   "en": ""
+   "en": "\"Just thinkin' I can go to the next village anytime gets me all excited!\"{wait}"
   },
   {
    "id": "SMAP22_35:025",
    "jp": "「オラたちは 今年の たなばた祭りを{n} どれだけ たのしみにして{n} はたらいて きたことか！」{wait}{n}「オラたちは なんのために{n} いっしょうけんめい{n} はたらいて きたんじゃあ！」{wait}",
-   "en": ""
+   "en": "\"We worked so hard, lookin' forward to this year's Tanabata Festival!\"{wait}\"What did we work our hearts out for?!\"{wait}"
   },
   {
    "id": "SMAP22_35:026",
    "jp": "「これで やっと{n} ふつうの 村に{n} 戻れたなあ！」{wait}{n}「いっしょうけんめい{n} はたらいた かいが{n} あっただよ！」{wait}",
-   "en": ""
+   "en": "\"Now at last we can go back to bein' a normal village!\"{wait}\"All that hard work was worth it!\"{wait}"
   },
   {
    "id": "SMAP22_35:027",
    "jp": "「オラたちは 本当に{n} 心を いれかえて{n} はたらいてきたんじゃあ！」{wait}{n}「やっと 今年 神様が{n} おゆるしに なるというのに{n} 鬼が じゃまするなんて！」{wait}",
-   "en": ""
+   "en": "\"We really turned over a new leaf and worked hard!\"{wait}\"This year the gods were finally gonna forgive us, and the oni get in the way!\"{wait}"
   },
   {
    "id": "SMAP22_35:028",
    "jp": "「神様の おゆるしを{n} いただけた といっても{n} なまけちゃ いけねえだよ！」{wait}",
-   "en": ""
+   "en": "\"Just 'cause the gods forgave us don't mean we can slack off!\"{wait}"
   },
   {
    "id": "SMAP22_35:029",
    "jp": "「桃太郎さん！{n} 私は ひこぼしです」{n}{wait}{n}「この村の 人たちは 今から{n} 100年ほど前 はたらかずに{n} なまけてばかり いたのです」{wait}{n}「そこで 神様が 怒り{n} 村を 2つに{n} わけておしまいに なったのです」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I am Hikoboshi.\"{wait}\"About 100 years ago, the people of this village did no work and did nothing but laze about.\"{wait}\"So the gods grew angry and split the village in two.\"{wait}"
   },
   {
    "id": "SMAP22_35:030",
    "jp": "「男は この村に{n} 女は おりひめの村へと」{n}{wait}",
-   "en": ""
+   "en": "\"The men in this village, and the women in Orihime Village.\"{wait}"
   },
   {
    "id": "SMAP22_35:031",
    "jp": "「年に 一度の{n} たなばた祭りの 日には{n} 会うことが できるのですが」{wait}{n}「村の みんなは 神様から{n} おゆるしが 出るようにと{n} それは はたらいたのです」{wait}",
-   "en": ""
+   "en": "\"We can meet once a year, on the day of the Tanabata Festival...\"{wait}\"So everyone in the village worked as hard as they could, hoping the gods would forgive us.\"{wait}"
   },
   {
    "id": "SMAP22_35:032",
    "jp": "「そして とうとう 今年{n} 神様が 私たちを{n} おゆるしに なったのです！」{wait}{n}「100年ぶりに{n} おゆるし くださるのです！」{n}{wait}{n}「なのに！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"And at last, this year, the gods forgave us!\"{wait}\"Forgiveness, for the first time in 100 years!\"{wait}\"And yet!\"{wait}"
   },
   {
    "id": "SMAP22_35:033",
    "jp": "「鬼が！」{n}{n}{wait}{n}「たなばた祭りの{n} じゃまを しにきたのです！」{n}{wait}{n}「私たちは はたらくことに{n} いっしょうけんめいで{n} 戦うことを 知りません！」{wait}",
-   "en": ""
+   "en": "\"The oni!\"{wait}\"They've come to ruin the Tanabata Festival!\"{wait}\"We've been so busy working that we don't know how to fight!\"{wait}"
   },
   {
    "id": "SMAP22_35:034",
    "jp": "「どうか 桃太郎さん！{n} おねがいです！」{n}{wait}{n}「たなばた祭りが できるよう{n} お助け ください！」{n}{wait}",
-   "en": ""
+   "en": "\"Please, Momotaro-san! I beg you!\"{wait}\"Help us, so we can hold the Tanabata Festival!\"{wait}"
   },
   {
    "id": "SMAP22_35:035",
    "jp": "「桃太郎さん！{n} ひこぼしです！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! It's me, Hikoboshi!\"{wait}"
   },
   {
    "id": "SMAP22_35:036",
    "jp": "「ありがとうございます！{n} これで！ これで！{n} たなばた祭りが！」{wait}",
-   "en": ""
+   "en": "\"Thank you so much! Now! Now the Tanabata Festival can go on!\"{wait}"
   },
   {
    "id": "SMAP22_35:037",
    "jp": "「村の みんなも 自由に{n} おりひめの村と{n} いききすることが できます！」{wait}",
-   "en": ""
+   "en": "\"Everyone in the village can come and go freely to Orihime Village!\"{wait}"
   },
   {
    "id": "SMAP22_35:038",
    "jp": "「本当に 本当に{n} ありがとうございます！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, truly, truly!\"{wait}"
   },
   {
    "id": "SMAP22_35:039",
    "jp": "「どうか たなばた祭りを{n} みていってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Please stay and see the Tanabata Festival!\"{wait}"
   },
   {
    "id": "SMAP22_35:040",
    "jp": "「ありがとう！{n} 桃太郎さん！」{n}{wait}{n}「いつまでも みんなが たのしく{n} まじめに はたらく 人ばかりの{n} 村に していきます！」{wait}{n}「いつでも この村に{n} おたちより ください！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"We'll make this a village where everyone is happy and works honestly, forever!\"{wait}\"Drop by this village anytime!\"{wait}"
   },
   {
    "id": "SMAP22_35:041",
    "jp": "「おや 桃太郎さん！{n} {col0}おりひめカード{col0}を{n} おもちですね！」{wait}{n}「わたしの カードも{n} さしあげますから ならべて{n} 持っていてください！」{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro-san! You have the {col0}Orihime Card{col0}!\"{wait}\"I'll give you my card too, so keep them side by side!\"{wait}"
   },
   {
    "id": "SMAP22_35:042",
    "jp": "桃太郎は{n}{col10}ひこぼしカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Hikoboshi Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP22_35:043",
    "jp": "「われら 地獄の！」{n}「われら 地獄の！」{n}{wait}{n}「兄弟！」{n}「兄弟！」{n}{wait}{n}「えんま様の！」{n}「えんま様の！」{n}{wait}{n}「めいれいにより！」{n}「めいれいにより！」{n}{wait}{n}「お前を！」{n}「お前を！」{n}{wait}{n}「たおす！」{n}「たおす！」{n}{wait}",
-   "en": ""
+   "en": "\"We of Hell...!\"{n}\"We of Hell...!\"{wait}\"...the Brothers!\"{n}\"...the Brothers!\"{wait}\"By Enma-sama's...!\"{n}\"By Enma-sama's...!\"{wait}\"...orders!\"{n}\"...orders!\"{wait}\"You...!\"{n}\"You...!\"{wait}\"...are going down!\"{n}\"...are going down!\"{wait}"
   },
   {
    "id": "SMAP22_35:044",
    "jp": "「ここに こうしているのは もう{n} 今日かぎり じゃないんだ！{n} ありがとう！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Being together like this isn't just for today anymore! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP22_35:045",
    "jp": "「いつでも この村に{n} 男の 人が これるなら{n} 力しごと たのんじゃいましょ」{wait}",
-   "en": ""
+   "en": "\"If the men can come to this village anytime, let's have them do the heavy lifting!\"{wait}"
   },
   {
    "id": "SMAP22_35:046",
    "jp": "「ひこぼしの村の 人かしら？{n} あら やだ！ 桃太郎さん！{n} おせわになりました！」{wait}",
-   "en": ""
+   "en": "\"Is that someone from Hikoboshi Village? Oh my! It's Momotaro-san! Thank you for everything!\"{wait}"
   },
   {
    "id": "SMAP22_35:047",
    "jp": "「ひこぼし様は これからも{n} たなばた祭りは 年に 一度に{n} すると きめたそうです！」{wait}{n}「うかれて 毎日 やったら{n} また 神様に{n} おこられますからね！」{wait}",
-   "en": ""
+   "en": "\"Hikoboshi-sama decided we'll keep holding the Tanabata Festival just once a year!\"{wait}\"If we got carried away and held it every day, the gods would get angry again!\"{wait}"
   },
   {
    "id": "SMAP22_35:048",
    "jp": "「海を 出て 西に むかうと{n} すずめのお宿6に{n} たどりつきます」{wait}",
-   "en": ""
+   "en": "\"Leave the sea and head west, and you'll reach Sparrow Inn 6.\"{wait}"
   },
   {
    "id": "SMAP22_35:049",
    "jp": "「ありがとう 桃太郎さん！{n} これで この村も すっかり{n} 平和に なりました！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san! Now this village is completely at peace!\"{wait}"
   },
   {
    "id": "SMAP22_35:050",
    "jp": "「桃太郎さん！ おりひめの笛は{n} 海に むかって ふくと{n} 船が あらわれますよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Play Orihime's Flute facing the sea and a ship will appear!\"{wait}"
   },
   {
    "id": "SMAP22_35:051",
    "jp": "「いつでも この村に{n} これるように なったで{n} 嫁さんでも 探すかな！」{wait}",
-   "en": ""
+   "en": "\"Now that I can come to this village anytime, maybe I'll find myself a wife!\"{wait}"
   },
   {
    "id": "SMAP22_35:052",
    "jp": "「桃太郎さん！ おりひめです」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I am Orihime.\"{wait}"
   },
   {
    "id": "SMAP22_35:053",
    "jp": "「いいつくせないほど{n} あなたに かんしゃしています」{n}{wait}",
-   "en": ""
+   "en": "\"I am more grateful to you than words can say.\"{wait}"
   },
   {
    "id": "SMAP22_35:054",
    "jp": "「桃太郎さんたちが{n} 海へ 出て行けるよう{n} ほかけ船を よういしました」{wait}",
-   "en": ""
+   "en": "\"We have prepared a sailing ship so that you, Momotaro-san, and your friends can set out to sea.\"{wait}"
   },
   {
    "id": "SMAP22_35:055",
    "jp": "「この ほかけ船は{n} おりひめの村に 伝わる{n} 特別な 船 なのです！」{wait}",
-   "en": ""
+   "en": "\"This sailing ship is a special ship handed down in Orihime Village!\"{wait}"
   },
   {
    "id": "SMAP22_35:056",
    "jp": "「うみべで 笛を ふけば{n} どこからともなく あらわれる{n} ふしぎな 船 なのです！」{wait}",
-   "en": ""
+   "en": "\"It is a magical ship that appears out of nowhere when you play the flute on the shore!\"{wait}"
   },
   {
    "id": "SMAP22_35:057",
    "jp": "「どうぞ おおさめ くださいまし！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Please accept it!\"{wait}"
   },
   {
    "id": "SMAP22_35:058",
    "jp": "「そして 鬼たいじの 旅の{n} ごぶじを おいのりもうしあげます」{n}{wait}",
-   "en": ""
+   "en": "\"And I shall pray for your safety on your journey to slay the oni.\"{wait}"
   },
   {
    "id": "SMAP22_35:059",
    "jp": "桃太郎は{n}{col4}おりひめの笛{col0}を{n}手に 入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Orihime's Flute{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP22_35:060",
    "jp": "「船さえ あれば 西にある{n} 竹取りの村へ{n} いくことが できます」{wait}",
-   "en": ""
+   "en": "\"With a ship, you can reach Taketori Village to the west.\"{wait}"
   },
   {
    "id": "SMAP22_35:061",
    "jp": "「桃太郎さん！ 竹取りの村も{n} いつ 鬼が おそってくるか{n} わかりません！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! There's no telling when the oni will attack Taketori Village too!\"{wait}"
   },
   {
    "id": "SMAP22_35:062",
    "jp": "「どうか いっこくも 早く{n} 竹取りの村へ{n} いそいでください！」{wait}",
-   "en": ""
+   "en": "\"Please hurry to Taketori Village without a moment's delay!\"{wait}"
   },
   {
    "id": "SMAP22_35:063",
    "jp": "「おりひめの笛は うみべに 立ち{n} 海に むかって 使わないと{n} 船は あらわれません！」{wait}",
-   "en": ""
+   "en": "\"The ship won't appear unless you stand on the shore and use Orihime's Flute facing the sea!\"{wait}"
   },
   {
    "id": "SMAP22_35:064",
    "jp": "「いつまでも みんなが たのしく{n} まじめに はたらく 人ばかりの{n} 村に していきます！」{wait}",
-   "en": ""
+   "en": "\"We'll make this a village where everyone is happy and works honestly, forever!\"{wait}"
   },
   {
    "id": "SMAP22_35:065",
    "jp": "「いつでも この村に{n} おたちより ください！」{n}{wait}",
-   "en": ""
+   "en": "\"Drop by this village anytime!\"{wait}"
   },
   {
    "id": "SMAP22_35:066",
    "jp": "「飼い犬の 手を{n} かむなっちゅーの！」{n}{wait}",
-   "en": ""
+   "en": "\"Don't bite the dog that feeds you, for crying out loud!\"{wait}"
   },
   {
    "id": "SMAP22_35:067",
    "jp": "「カエルの子は カエルじゃなくて{n} おたまじゃくし でしょ！」{n}{wait}",
-   "en": ""
+   "en": "\"Like frog, like son? Nope, the son's a tadpole!\"{wait}"
   },
   {
    "id": "SMAP22_35:068",
    "jp": "「桃太郎さん！ 続きの 地図が{n} できたんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The next part of the map is done, I reckon.\"{wait}"
   },
   {
    "id": "SMAP22_35:069",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san gets the map I drew, I reckon.\"{wait}"
   },
   {
    "id": "SMAP22_35:070",
    "jp": "桃太郎は{n}{col4}地図{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Map{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP22_35:071",
    "jp": "「残りの 地図も 桃太郎さんに{n} あげるから 旅先で ボクを{n} 見つけてほしいんだな！」{wait}",
-   "en": ""
+   "en": "\"I'll give you the rest of the map too, Momotaro-san, so I want you to find me on your travels, I reckon.\"{wait}"
   },
   {
    "id": "SMAP22_35:072",
    "jp": "「続きの 地図は まだ{n} かいてないんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"I haven't drawn the next part of the map yet, I reckon.\"{wait}"
   },
   {
    "id": "SMAP22_35:073",
    "jp": "「鬼も十八 婆ちゃんの出番！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Even an oni is pretty at eighteen... and now it's Granny's turn!\"{wait}"
   },
   {
    "id": "SMAP22_35:074",
    "jp": "「鴨がネギを しょっつる鍋！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Don't count your chickens before they're in the hotpot!\"{wait}"
   },
   {
    "id": "SMAP22_35:075",
    "jp": "「貧乏 肥満無し」{n}{n}{wait}",
-   "en": ""
+   "en": "\"No rest for the wicked, and no flab for the broke!\"{wait}"
   },
   {
    "id": "SMAP22_35:076",
    "jp": "「知らぬが ホットケーキには{n} ハチミツを！」{n}{wait}",
-   "en": ""
+   "en": "\"Ignorance is bliss... and so are pancakes with honey!\"{wait}"
   }
  ]
 }

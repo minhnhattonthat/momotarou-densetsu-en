@@ -9,397 +9,397 @@
   {
    "id": "SMAP03_113:000",
    "jp": "「チュー！ チュー！{n} おなかが へって 動けません！{n} チュー！ チュー！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! I'm so hungry I can't move! Squeak squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:001",
    "jp": "「チュー！ チュー！{n} ありがとう 桃太郎さん！」{n}{wait}{n}「これで 村を つくることが{n} できます！チュー！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Thank you, Momotaro-san!\"{wait}\"Now we can build our village! Squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:002",
    "jp": "「チュー！ チュー！{n} ここは おむすび村 です！{n} チュー！ チュー！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! This is Omusubi Village! Squeak squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:003",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「おむすび村へ ようこそ！{n} …って あれ？ なーんだ！{n} 桃太郎さんじゃないですか！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Welcome to Omusubi Village! ...Huh? Oh, it's only you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP03_113:004",
    "jp": "「チュー！ チュー！{n} せっかく ここに 村を{n} つくろうと おもったのに」{wait}{n}「食べ物が なくては{n} はたらけません！{n} チュー！ チュー！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! We finally decided to build a village here, but...\"{wait}\"we can't work without food! Squeak squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:005",
    "jp": "「桃太郎さんの おかげで{n} 村づくりを はじめることが{n} できます！ ありがとう！」{wait}",
-   "en": ""
+   "en": "\"Thanks to you, Momotaro-san, we can start building our village! Thank you!\"{wait}"
   },
   {
    "id": "SMAP03_113:006",
    "jp": "「村を 作るのに{n} いっぱい はたらいたから{n} おなかが すきました！」{wait}",
-   "en": ""
+   "en": "\"I worked so hard building the village that I'm starving!\"{wait}"
   },
   {
    "id": "SMAP03_113:007",
    "jp": "「わっ！ だれかと思ったら{n} 桃太郎さんじゃないですか！{n} ぜんぜん わかりませんでした！」{wait}",
-   "en": ""
+   "en": "\"Whoa! I wondered who that was, and it's Momotaro-san! I didn't recognize you at all!\"{wait}"
   },
   {
    "id": "SMAP03_113:008",
    "jp": "「チュー！ チュー！{n} この洞窟に{n} 村を つくろうとしたのですが」{wait}{n}「鬼が じゃましているのです！{n} 助けてください！{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! We tried to build a village in this cave, but...\"{wait}\"the oni are getting in our way! Help us, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP03_113:009",
    "jp": "「北へ 進むと{n} 貧乏神 だけが 住む{n} ボンビーの村が あります！」{wait}",
-   "en": ""
+   "en": "\"Go north and you'll find Bombee Village, where only poverty gods live!\"{wait}"
   },
   {
    "id": "SMAP03_113:010",
    "jp": "「どうですか！ 桃太郎さん！{n} りっぱな 村が できましたよ！{n} ゆっくりしていってください！」{wait}",
-   "en": ""
+   "en": "\"How about that, Momotaro-san! We built a fine village! Please, make yourself at home!\"{wait}"
   },
   {
    "id": "SMAP03_113:011",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「村長の ごちそうは{n} とても おいしいから{n} つい 食べすぎちゃいます！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"The Chief's feasts are so tasty, I always end up eating too much!\"{wait}"
   },
   {
    "id": "SMAP03_113:012",
    "jp": "「チュー！ チュー！{n} おなかがへって{n} はたらくことが できないんです！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! I'm too hungry to work!\"{wait}"
   },
   {
    "id": "SMAP03_113:013",
    "jp": "「チュー！ チュー！{n} ごはんを食べて 元気いっぱい！{n} さあ 村づくりを 始めるぞ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! A good meal and I'm full of beans! Now, let's get building this village!\"{wait}"
   },
   {
    "id": "SMAP03_113:014",
    "jp": "「この村が できてから{n} 北への 旅が 楽になったと」{n}{wait}{n}「みんなが よろこんでくれます！{n} うれしいな チュー！ チュー！」{n}{wait}",
-   "en": ""
+   "en": "\"Since this village was built, everyone says the trip north is easier,\"{wait}\"and they're all so happy! That makes me glad! Squeak squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:015",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん！{n} その からだの 大きさじゃ{n} お店にも 入れませんよ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! At that size, you won't even fit into the shops!\"{wait}"
   },
   {
    "id": "SMAP03_113:016",
    "jp": "「チュー！ チュー！{n} 鬼の 両鉄 が{n} わるさを しているのです！」{wait}{n}「助けてください{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! The oni Ryotetsu is up to no good!\"{wait}\"Help us, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP03_113:017",
    "jp": "「ボンビーの村の 南西に{n} ぬけだし仙人の 庵が{n} あります！」{wait}",
-   "en": ""
+   "en": "\"Southwest of Bombee Village is the Escape Hermit's hut!\"{wait}"
   },
   {
    "id": "SMAP03_113:018",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「この村は{n} ネズミと 人と 鬼が{n} 協力して つくりました！」{wait}{n}「こんな 村が どんどん{n} ふえると すてきですね！{n} チュー！ チュー！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Mice, humans and oni worked together to build this village!\"{wait}\"Wouldn't it be wonderful if there were more and more villages like this? Squeak squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:019",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さんが 歩くと{n} 地面が ゆれてますよ！{n} すごいなあ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"When you walk, Momotaro-san, the ground shakes! Amazing!\"{wait}"
   },
   {
    "id": "SMAP03_113:020",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「だめだ…！ もう、動けない！{n} 食べ物さえ あったらなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"It's no good...! I can't move anymore! If only I had some food!\"{wait}"
   },
   {
    "id": "SMAP03_113:021",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「はらごしらえが 済んだら{n} また 村作りの 仕事に{n} もどらなくちゃ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Once I've filled my belly, I have to get back to building the village!\"{wait}"
   },
   {
    "id": "SMAP03_113:022",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「はたらいた あとは{n} きもちが いいなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"It feels great after a hard day's work!\"{wait}"
   },
   {
    "id": "SMAP03_113:023",
    "jp": "「チュー！ チュー！{n} ボクも 食べすぎには{n} 気を つけなくちゃ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! I'd better watch out not to eat too much myself!\"{wait}"
   },
   {
    "id": "SMAP03_113:024",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「鬼の 両鉄が{n} ボクらの 食べ物を ぜんぶ{n} 奪っていったんです！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"The oni Ryotetsu took all our food!\"{wait}"
   },
   {
    "id": "SMAP03_113:025",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん ありがとう！{n} おなかが すいて{n} たおれる ところでした！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Thank you, Momotaro-san! I was about to collapse from hunger!\"{wait}"
   },
   {
    "id": "SMAP03_113:026",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「この村では{n} おいしい お米を{n} たくさん 作っています！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"In this village, we grow lots of delicious rice!\"{wait}"
   },
   {
    "id": "SMAP03_113:027",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん！{n} そのままじゃ きっと{n} 階段が 通れませんよ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! Like that, you'll never fit down the stairs!\"{wait}"
   },
   {
    "id": "SMAP03_113:028",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「両鉄め！{n} 食べ物を うばうなんて{n} 鬼のような やつだ！」{wait}{n}「あれ？ そういえば{n} 両鉄って 鬼でしたっけ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"That Ryotetsu! Stealing our food! That's the kind of thing an oni would do!\"{wait}\"Huh? Come to think of it, Ryotetsu IS an oni!\"{wait}"
   },
   {
    "id": "SMAP03_113:029",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「さあ！ これからは{n} はらが へらないように{n} ガンガン 米を作るぞ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"All right! From now on, we'll grow rice like crazy so we never go hungry!\"{wait}"
   },
   {
    "id": "SMAP03_113:030",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「ここに たくさん{n} お米を ためるぞー！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"We're gonna store lots of rice in here!\"{wait}"
   },
   {
    "id": "SMAP03_113:031",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「おや 桃太郎さん！{n} どうしました？」{n}{wait}{n}「え！ こめだわらが{n} ご入用なんですか？」{n}{wait}{n}「お安い ごようです！{n} どうぞ これを{n} お持ちください！」{wait}{n}桃太郎は {c19}{col4}こめだわら{col0}を{n}手に 入れた！{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Oh, Momotaro-san! What's the matter?\"{wait}\"What! You need a Rice Bale?\"{wait}\"No trouble at all! Here, please take this!\"{wait}Momotaro got {c19}{col4}Rice Bale{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:032",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん！{n} 食べすぎには{n} 気を つけないと！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! You've got to watch out for overeating!\"{wait}"
   },
   {
    "id": "SMAP03_113:033",
    "jp": "「ネズミが{n} こんな りっぱな{n} 村を つくるとは！」{wait}{n}「生き物どうしが{n} 力を 合わせれば」{n}{wait}{n}「すばらしい 世の中に{n} なるかも しれませんね！{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Who'd have thought mice could build such a fine village!\"{wait}\"If living things join forces,\"{wait}\"maybe the world could become a wonderful place! Don't you think, Momotaro-san?\"{wait}"
   },
   {
    "id": "SMAP03_113:034",
    "jp": "「あれえ！ 桃太郎さん{n} しばらくぶりに 会ったけど{n} カンロク ついたねえ！」{wait}",
-   "en": ""
+   "en": "\"Whoa! Momotaro-san, I haven't seen you in a while, but you've really filled out!\"{wait}"
   },
   {
    "id": "SMAP03_113:035",
    "jp": "「北への 道が{n} できると きいていたのに」{n}{wait}{n}「これでは{n} 先に 進めないぞ！{n} 困ったなあ」{wait}",
-   "en": ""
+   "en": "\"I heard there was a road to the north now, but...\"{wait}\"I can't go any further like this! What a fix.\"{wait}"
   },
   {
    "id": "SMAP03_113:036",
    "jp": "「これで 北へ{n} ぬけることが できます！」{n}{wait}{n}「ありがとう！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Now we can get through to the north!\"{wait}\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP03_113:037",
    "jp": "「ひさしぶりに 来てみたら{n} ずいぶん りっぱな{n} 村に なったなあ！」{wait}",
-   "en": ""
+   "en": "\"I came back after a long time, and it's turned into quite a fine village!\"{wait}"
   },
   {
    "id": "SMAP03_113:038",
    "jp": "「おやおや！ 桃太郎さん{n} おすもうさんみたいな{n} はくりょくですね！」{wait}",
-   "en": ""
+   "en": "\"My my! Momotaro-san, you're as imposing as a sumo wrestler!\"{wait}"
   },
   {
    "id": "SMAP03_113:039",
    "jp": "「チュー！ チュー！{n} 桃太郎さん！」{n}{wait}{n}「オレだよ！ じんぱちだ！{n} おにぎり ごちそうさん！」{n}{wait}{n}「あれから ここに {n} ネズミの村を 作ろうと{n} したんだけど」{wait}{n}「鬼の せいで{n} 大変なことに{n} なっちまったんだ！」{wait}{n}「村長の 話を{n} 聞いてやってくれよ！」{n}{wait}{n}「もう 桃太郎さんだけが{n} たよりなんだよ！ チュー！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Momotaro-san!\"{wait}\"It's me! Jinpachi! Thanks for the rice ball!\"{wait}\"After that, we tried to build a mouse village here,\"{wait}\"but the oni made a real mess of things!\"{wait}\"Go hear what the Chief has to say!\"{wait}\"You're the only one we can count on now, Momotaro-san! Squeak!\"{wait}"
   },
   {
    "id": "SMAP03_113:040",
    "jp": "「チュー！ チュー！{n} オレだよ！ じんぱちだ！」{n}{wait}{n}「ありがとう！{n} 桃太郎さん！」{n}{wait}{n}「村が できあがったら{n} また きてくれよな！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! It's me! Jinpachi!\"{wait}\"Thank you, Momotaro-san!\"{wait}\"Come back once the village is finished, okay?\"{wait}"
   },
   {
    "id": "SMAP03_113:041",
    "jp": "「チュー！ チュー！{n} オレだよ！ じんぱちだ！」{n}{wait}{n}「桃太郎さん！{n} 村を 救ってくれた お礼に」{n}{wait}{n}「旅の 手伝いを{n} させてくれ！ チュー！」{n}{wait}{n}「オレが いれば つづらを{n} とり忘れることは{n} ないぜ！」{wait}{n}「オレを いっしょに{n} 連れて行ってくれよ！」{n}",
-   "en": ""
+   "en": "\"Squeak squeak! It's me! Jinpachi!\"{wait}\"Momotaro-san! To thank you for saving our village,\"{wait}\"let me help you on your journey! Squeak!\"{wait}\"With me around, you'll never forget to grab a chest!\"{wait}\"Take me with you!\""
   },
   {
    "id": "SMAP03_113:042",
    "jp": "「チュー！ チュー！{n} じゃあ いっしょに{n} 行こうぜ！」{wait}{n}じんぱちがくわわったので{n}桃太郎の 攻撃力が{n}{num}上がった！{wait}{n}素早さが{n}{num}上がった！{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Then let's go together!\"{wait}With Jinpachi along, Momotaro's Attack rose by {num}!{wait}Speed rose by {num}!{wait}"
   },
   {
    "id": "SMAP03_113:043",
    "jp": "「チュー！ チュー！{n} じゃあ 用が あったら{n} また 声を かけてくれ！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Then call me again if you need me!\"{wait}"
   },
   {
    "id": "SMAP03_113:044",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さん！{n} 旅の 手伝いを{n} しようか？」",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! Want me to help you on your journey?\""
   },
   {
    "id": "SMAP03_113:045",
    "jp": "「わしが この洞窟の ネズミを{n} まとめる 村長ですじゃ！」{n}{wait}{n}「わしらは{n} ここに 北への 通り道になる{n} 村を つくろうとしたのですが」{wait}{n}「鬼の 両鉄 が あらわれて{n} わしらの 食べ物を{n} ひとりじめして しまったんです！」{wait}{n}「食べ物が なければ{n} わしらは はたらけません！」{n}{wait}{n}「お願いです！{n} どうか 両鉄を{n} こらしめてください！」{wait}",
-   "en": ""
+   "en": "\"I am the Chief, who leads the mice of this cave!\"{wait}\"We tried to build a village here to serve as a passage to the north,\"{wait}\"but the oni Ryotetsu showed up and took all our food for himself!\"{wait}\"Without food, we can't work!\"{wait}\"I beg you! Please, teach Ryotetsu a lesson!\"{wait}"
   },
   {
    "id": "SMAP03_113:046",
    "jp": "「ありがとう！ 桃太郎さん！」{n}{n}{wait}{n}「これで{n} ここに 村を つくれます！」{n}{wait}{n}「りっぱな 村を{n} つくってみせますから{n} ぜひ あそびにきてください！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"Now we can build our village here!\"{wait}\"We'll build a fine one, so be sure to come and visit!\"{wait}"
   },
   {
    "id": "SMAP03_113:047",
    "jp": "「桃太郎さん！{n} ようこそ{n} いらっしゃいました！」{wait}{n}「いかがですか！{n} りっぱな 村が{n} できたでしょう！」{wait}{n}「今 ささやかですが{n} もてなしの 用意を{n} させております！」{wait}{n}「どうぞ{n} ゆっくりしていってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Welcome, welcome!\"{wait}\"What do you think! We've built a fine village, haven't we!\"{wait}\"I've had a modest feast prepared for you!\"{wait}\"Please, make yourself at home!\"{wait}"
   },
   {
    "id": "SMAP03_113:048",
    "jp": "「さあ 桃太郎さん！{n} お好きなものを{n} めしあがってください！」{wait}",
-   "en": ""
+   "en": "\"Now, Momotaro-san! Help yourself to whatever you like!\"{wait}"
   },
   {
    "id": "SMAP03_113:049",
    "jp": "「チュー！ チュー！{n} 料理は まだまだ{n} ありますから」{wait}{n}「どんどん{n} めしあがってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! There's plenty more food,\"{wait}\"so eat up!\"{wait}"
   },
   {
    "id": "SMAP03_113:050",
    "jp": "モグ モグ モグッ！{n}…と なんと 桃太郎は{n}まるまると 太ってしまった！{wait}",
-   "en": ""
+   "en": "Munch munch munch! ...And what do you know, Momotaro got as round as a ball!{wait}"
   },
   {
    "id": "SMAP03_113:051",
    "jp": "「桃太郎さん！{n} すみません！」{n}{wait}{n}「つい ちょうしにのって{n} ごちそうしすぎました！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I'm so sorry!\"{wait}\"We got carried away and fed you far too much!\"{wait}"
   },
   {
    "id": "SMAP03_113:052",
    "jp": "「そんな えんりょ なさらずに！{n} ささ どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, don't be shy! Go on, eat up!\"{wait}"
   },
   {
    "id": "SMAP03_113:053",
    "jp": "「おや 桃太郎さん！{n} ごちそうを{n} 食べていかれますか？」",
-   "en": ""
+   "en": "\"Oh, Momotaro-san! Will you stay for a feast?\""
   },
   {
    "id": "SMAP03_113:054",
    "jp": "「おなかが すきましたら{n} いつでも おっしゃって{n} ください！」{wait}",
-   "en": ""
+   "en": "\"Whenever you're hungry, just say the word!\"{wait}"
   },
   {
    "id": "SMAP03_113:055",
    "jp": "「チュー チュー！」{n}{n}{wait}{n}「桃太郎さん！{n} いろいろ ごめいわくを{n} おかけしました！」{wait}{n}「これは おわびの{n} しるしです！{n} うけとってください！」{wait}{n}桃太郎は{n}{c19}{col10}長老ネズミカード{col0} を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san! We've caused you all sorts of trouble!\"{wait}\"This is a token of our apology! Please accept it!\"{wait}Momotaro got {c19}{col10}Mouse Elder Card{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:056",
    "jp": "「チュー チュー！」{n}{n}{wait}{n}「どうぞ{n} ゆっくりしていってください」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Please, make yourself at home.\"{wait}"
   },
   {
    "id": "SMAP03_113:057",
    "jp": "「ワッハッハッハッハ！」{n}{n}{wait}{n}「はらがへっては{n} いくさは できぬ！」{n}{wait}{n}「ネズミどもも{n} 村づくりを{n} あきらめたようだな！」{wait}{n}「むっ？」{n}{n}{wait}{n}「お前が… 桃太郎か！」{n}{n}{wait}{n}「えんまサマに{n} さからう おろかものが！」{n}{wait}{n}「この 両鉄 が{n} いためつけてくれるわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Wahahahaha!\"{wait}\"You can't fight a war on an empty stomach!\"{wait}\"Looks like the mice have given up on building their village!\"{wait}\"Hm?\"{wait}\"You... you're Momotaro!\"{wait}\"You fool, defying Lord Enma!\"{wait}\"I, Ryotetsu, will give you a beating!\"{wait}"
   },
   {
    "id": "SMAP03_113:058",
    "jp": "「また きたか！{n} 今度も この 両鉄が{n} かえりうちに してやろう！」{wait}",
-   "en": ""
+   "en": "\"Back again?! Then I, Ryotetsu, will send you packing once more!\"{wait}"
   },
   {
    "id": "SMAP03_113:059",
    "jp": "「おなかが すいたよー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm so hungryyy!\"{wait}"
   },
   {
    "id": "SMAP03_113:060",
    "jp": "「ありがとう！{n} これで ごはんが{n} 食べられます！」{wait}",
-   "en": ""
+   "en": "\"Thank you! Now I can have some food!\"{wait}"
   },
   {
    "id": "SMAP03_113:061",
    "jp": "「いつでも ごはんが{n} 食べられるって{n} 幸せですね！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Being able to eat whenever you like is happiness, isn't it, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP03_113:062",
    "jp": "「桃太郎さん！{n} 食べすぎは{n} よくありませんよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Overeating is bad for you!\"{wait}"
   },
   {
    "id": "SMAP03_113:063",
    "jp": "「ここに{n} 村が できたおかげで{n} 長旅も へっちゃらです！」{wait}",
-   "en": ""
+   "en": "\"Thanks to this village being here, long trips are a breeze!\"{wait}"
   },
   {
    "id": "SMAP03_113:064",
    "jp": "「チュー！ チュー！{n} 桃太郎さん！」{n}{wait}{n}「これ 村で とれた お米で{n} 作った おにぎりです！{n} お一つ どうぞ！」{wait}{n}桃太郎は{n}{c19}{col4}おにぎり{col0} を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Momotaro-san!\"{wait}\"This is a rice ball made from rice grown in our village! Please, have one!\"{wait}Momotaro got {c19}{col4}Rice Ball{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:065",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「ボンビーの村から{n} さらに 北に 進むと{n} 並び洞窟です！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Go further north from Bombee Village and you'll reach Row Cave!\"{wait}"
   },
   {
    "id": "SMAP03_113:066",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「桃太郎さんは{n} 村の おんじんです！{n} これをどうぞ！」{wait}{n}桃太郎は{n}{col4}毒消し{col0} を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Momotaro-san, you're our village's savior! Please, take this!\"{wait}Momotaro got {col4}Antidote{col0}!{wait}"
   },
   {
    "id": "SMAP03_113:067",
    "jp": "「すずめのお宿1の 南東に{n} いなずま仙人の 庵が{n} あります！」{wait}",
-   "en": ""
+   "en": "\"Southeast of Sparrow Inn 1 is the Lightning Hermit's hut!\"{wait}"
   },
   {
    "id": "SMAP03_113:068",
    "jp": "「北の ほうでは{n} まだ 鬼が{n} 暴れているのかな？」{wait}",
-   "en": ""
+   "en": "\"I wonder if the oni are still running wild up north?\"{wait}"
   },
   {
    "id": "SMAP03_113:069",
    "jp": "桃太郎は元の姿にもどった。{n}{n}{wait}",
-   "en": ""
+   "en": "Momotaro went back to his normal shape.{wait}"
   },
   {
    "id": "SMAP03_113:070",
    "jp": "「出るくそは ふかれる！{n} きたね～～～～～！」{n}{wait}",
-   "en": ""
+   "en": "\"The squeaky behind gets wiped! Ewww, grooooooss!\"{wait}"
   },
   {
    "id": "SMAP03_113:071",
    "jp": "「旅の恥は かき食う客だ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Travel broadens the mind... and the oyster plate!\"{wait}"
   },
   {
    "id": "SMAP03_113:072",
    "jp": "「おいしそうな ごちそうが{n} やまもりです！」{n}{wait}{n}「桃太郎さん！ おなかが{n} すいてませんか？」{n}{wait}",
-   "en": ""
+   "en": "\"There's a mountain of delicious-looking food!\"{wait}\"Momotaro-san! Aren't you hungry?\"{wait}"
   },
   {
    "id": "SMAP03_113:073",
    "jp": "「お米の おいしい{n} 村ですから ごはんも{n} きっと おいしいですよ！」{wait}",
-   "en": ""
+   "en": "\"This village has delicious rice, so I bet the meals are delicious too!\"{wait}"
   },
   {
    "id": "SMAP03_113:074",
    "jp": "「今日の おかずは{n} おつけもの でしょうか？」{n}{wait}",
-   "en": ""
+   "en": "\"I wonder if today's side dish is pickles?\"{wait}"
   },
   {
    "id": "SMAP03_113:075",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「薮から ぼた餅！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Out of the blue fell a pie in the sky!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP03_113:076",
    "jp": "つぼの中に{n}なにか 書いてある！{n}{wait}{n}「こんなとこまで{n} しっかり 読むな！」{n}{wait}{n}…と 書かれていた！{n}{n}{wait}",
-   "en": ""
+   "en": "Something is written inside the jar!{wait}\"Don't go reading every little thing this closely!\"{wait}...is what it said!{wait}"
   },
   {
    "id": "SMAP03_113:077",
    "jp": "桃太郎は{n}{col10}ネズミ男カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Mouse Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP03_113:078",
    "jp": "桃太郎は{n}{col10}ネズミ女カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Mouse Woman Card{col0}!{c19}{wait}"
   }
  ]
 }

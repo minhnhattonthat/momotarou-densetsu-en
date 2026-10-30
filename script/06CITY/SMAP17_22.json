@@ -8,87 +8,87 @@
   {
    "id": "SMAP17_22:000",
    "jp": "「ふわっはっはっは！{n} わが 名は 風神！」{n}{wait}{n}「桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fwahahaha! My name is Fujin!\"{wait}\"Momotaro!\"{wait}"
   },
   {
    "id": "SMAP17_22:001",
    "jp": "「ここを 風神の谷と{n} 知った上で やってきた{n} 勇気！ ほめてやろう！」{wait}{n}「しかし！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"You came here knowing full well this is Fujin's Valley! I'll praise you for your courage!\"{wait}\"However!\"{wait}"
   },
   {
    "id": "SMAP17_22:002",
    "jp": "「お前の 旅も ここまでだ！」{n}{n}{wait}{n}「なぜなら！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Your journey ends here!\"{wait}\"And why?!\"{wait}"
   },
   {
    "id": "SMAP17_22:003",
    "jp": "「えんま様の めいれいで{n} わしは お前の 力の{n} みなもとを しらべあげた！」{wait}{n}「そして わかったのだ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"On Enma-sama's orders, I have looked into the source of your power!\"{wait}\"And now I know!\"{wait}"
   },
   {
    "id": "SMAP17_22:004",
    "jp": "「お前は 友情を{n} 力に かえているのだ！」{n}{wait}{n}「ふわっはっはっは！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"You turn friendship into power!\"{wait}\"Fwahahaha!\"{wait}"
   },
   {
    "id": "SMAP17_22:005",
    "jp": "「どうだ！ ずぼしだろう！」{n}{n}{wait}{n}「ふわっはっはっは！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Well?! Hit the nail on the head, didn't I?\"{wait}\"Fwahahaha!\"{wait}"
   },
   {
    "id": "SMAP17_22:006",
    "jp": "「友情！」{n}{n}{wait}{n}「この わしの 風の 力で{n} お前たちの 友情を{n} ちりぢりに してくれる！」{wait}",
-   "en": ""
+   "en": "\"Friendship!\"{wait}\"With the power of my wind, I shall scatter your friendship to the four winds!\"{wait}"
   },
   {
    "id": "SMAP17_22:007",
    "jp": "「見よっ！」{n}{n}{wait}{n}「わが 風の 力を！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Behold!\"{wait}\"The power of my wind!\"{wait}"
   },
   {
    "id": "SMAP17_22:008",
    "jp": "「ふわっはっはっは！」{n}{n}{wait}{n}「どうだ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fwahahaha!\"{wait}\"How do you like that, Momotaro?!\"{wait}"
   },
   {
    "id": "SMAP17_22:009",
    "jp": "「友情を 失った{n} 今の 気持ちは！」{n}{wait}{n}「ふわっはっはっは！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"How does it feel to lose your friendship?!\"{wait}\"Fwahahaha!\"{wait}"
   },
   {
    "id": "SMAP17_22:010",
    "jp": "「なさけない かおを してるぞ！{n} ふわっはっはっは！」{n}{wait}{n}「せいぜい これから ゆっくり{n} 友情の かけらでも{n} さがしあるくことだな！」{wait}",
-   "en": ""
+   "en": "\"What a pathetic face you're making! Fwahahaha!\"{wait}\"Now take your sweet time searching for the scraps of your friendship!\"{wait}"
   },
   {
    "id": "SMAP17_22:011",
    "jp": "「それより 旅立ちの村で{n} のんびり くらせば 友を さがす{n} てまも はぶけて いいぞ！」{wait}{n}「ふわっはっはっは！{n} さらばだ！ 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"Or better yet, live a lazy life in Tabidachi Village and save yourself the trouble of finding your friends!\"{wait}\"Fwahahaha! Farewell, Momotaro!\"{wait}"
   },
   {
    "id": "SMAP17_22:012",
    "jp": "「わが 名は 風神！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"My name is Fujin!\"{wait}"
   },
   {
    "id": "SMAP17_22:013",
    "jp": "「桃太郎！ 人間は 友情を{n} たいせつに するそうだな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! I hear humans treasure friendship!\"{wait}"
   },
   {
    "id": "SMAP17_22:014",
    "jp": "「そこで わしも 人間の まねを{n} してみようと 思う！」{n}{wait}",
-   "en": ""
+   "en": "\"So I thought I'd try imitating humans!\"{wait}"
   },
   {
    "id": "SMAP17_22:015",
    "jp": "「お前を たおす てがらは{n} 仲間の 阿修羅に{n} ゆずってやることにしたのだ！」{wait}",
-   "en": ""
+   "en": "\"I've decided to leave the glory of defeating you to my friend Ashura!\"{wait}"
   },
   {
    "id": "SMAP17_22:016",
    "jp": "「ふわっはっはっは！ 桃太郎！{n} どうだ わしの 友情は？」{n}{wait}{n}「お前が もし 阿修羅を{n} たおしたなら そのときこそ{n} わしが 相手に なってやろう！」{wait}",
-   "en": ""
+   "en": "\"Fwahahaha! Momotaro! How's that for friendship?\"{wait}\"If you do somehow defeat Ashura, then I'll take you on myself!\"{wait}"
   }
  ]
 }

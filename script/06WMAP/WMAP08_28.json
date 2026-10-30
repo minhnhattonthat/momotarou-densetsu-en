@@ -8,82 +8,82 @@
   {
    "id": "WMAP08_28:000",
    "jp": "「ウヒャヒャ… わしは{n} いだてん仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Idaten Hermit!\"{wait}"
   },
   {
    "id": "WMAP08_28:001",
    "jp": "「いだてんの術は{n} ×ボタンを 押しながら 歩くと」{n}{wait}{n}「とんでもなく{n} 早く 歩ける 術ぢゃ！」{n}{wait}{n}「この術を 覚えるのは{n} 桃太郎が ふさわしい！」{n}{wait}",
-   "en": ""
+   "en": "\"The Idaten art lets you walk while holding the X button\"{wait}\"at an outrageously fast pace!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}"
   },
   {
    "id": "WMAP08_28:002",
    "jp": "「…とはいえ{n} これで 歩くと{n} ちと 早すぎるからのう」{wait}{n}「わしは あまり 使わんほうが{n} ええと 思うのぢゃが」{n}{wait}{n}「お前が{n} どうしても ほしいのなら{n} この術を 教えてやるぞ！」{wait}{n}「どうぢゃ？ ほしいか？」{n}{n}",
-   "en": ""
+   "en": "\"...That said, walking with it is a bit too fast.\"{wait}\"Myself, I think it's better not to use it much,\"{wait}\"but if you really want it, I'll teach you this art!\"{wait}\"Well? Do you want it?\""
   },
   {
    "id": "WMAP08_28:003",
    "jp": "「ふむ… 桃太郎{n} お前が ほしいと いうのなら{n} くれてやろう！」{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「さあ！ いくぞ！{n} 桃太郎！ ウヒャヒャ…」{n}{wait}",
-   "en": ""
+   "en": "\"Hmm... Momotaro, if you say you want it, then it's yours!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now! Here we go, Momotaro! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP08_28:004",
    "jp": "「ウヒャヒャ… 桃太郎よ！{n} わしが いまなんと いったか{n} 答えてみるがよい！」{wait}",
-   "en": ""
+   "en": "\"Uhyahya... Momotaro! Tell me what I just said!\"{wait}"
   },
   {
    "id": "WMAP08_28:005",
    "jp": "「桃太郎！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「力を つけて{n} でなおしてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! At this rate, you'll never teach Enma a lesson! Uhyahya...\"{wait}\"Go get stronger and come back!\"{wait}"
   },
   {
    "id": "WMAP08_28:006",
    "jp": "「でかした！ 桃太郎！{n} いだてんの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}桃太郎は{n}{col4}いだてんの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Momotaro! I shall grant you the Idaten art! Uhyahya...\"{wait}Momotaro mastered the {col4}Idaten art{col0}!"
   },
   {
    "id": "WMAP08_28:007",
    "jp": "「ぢゃが のんびり 歩くのが{n} 旅の だいごみだというのを{n} 忘れては いかんぞ！」{wait}",
-   "en": ""
+   "en": "\"But never forget that a leisurely stroll is the true joy of travel!\"{wait}"
   },
   {
    "id": "WMAP08_28:008",
    "jp": "「ふむ！ 若いのに{n} 旅の たのしみかたを{n} こころえとるな！」{wait}{n}「気をつけて いくがええぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hmm! So young, and yet you know how to enjoy a journey!\"{wait}\"Take care on your way!\"{wait}"
   },
   {
    "id": "WMAP08_28:009",
    "jp": "「あんまり 早く 歩いて{n} 目を まわすで ないぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"Don't walk so fast you make yourself dizzy! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP08_28:010",
    "jp": "「ウヒャヒャ… 桃太郎！{n} 先を いそいでばかりでは{n} いかんぞ！」{wait}{n}「たまには これでも{n} ながめて のんびりせい！」{n}{wait}{n}桃太郎は{n}{col10}いだてん仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... Momotaro! You mustn't always be in such a hurry!\"{wait}\"Every now and then, look at this and take it easy!\"{wait}Momotaro got the {col10}Idaten Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP08_28:011",
    "jp": "「…と いいたいところぢゃが{n} お前 まだ はやあしの術を{n} おぼえとらんな？」{wait}",
-   "en": ""
+   "en": "\"...is what I'd like to say, but you haven't learned the Dash art yet, have you?\"{wait}"
   },
   {
    "id": "WMAP08_28:012",
    "jp": "「なにごとにも きほんが{n} だいじなのぢゃ！{n} あせっては いかんぞ！」{wait}",
-   "en": ""
+   "en": "\"In all things, the basics come first! Don't rush!\"{wait}"
   },
   {
    "id": "WMAP08_28:013",
    "jp": "「めんどうぢゃろうが{n} はやあしの術を おぼえて{n} でなおしてくるのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"I know it's a bother, but learn the Dash art and then come back!\"{wait}"
   },
   {
    "id": "WMAP08_28:014",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP08_28:015",
    "jp": "「猫の手も 借り物競走！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Many hands make a three-legged race!\"{wait}"
   }
  ]
 }

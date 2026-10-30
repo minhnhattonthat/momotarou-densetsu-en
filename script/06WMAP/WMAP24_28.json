@@ -8,57 +8,57 @@
   {
    "id": "WMAP24_28:000",
    "jp": "「ウヒャヒャ… わしは{n} いなずま仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Lightning Hermit!\"{wait}"
   },
   {
    "id": "WMAP24_28:001",
    "jp": "「いなずまの術は{n} 鬼たち 1グループに{n} 打撃を あたえ」{wait}{n}「道に ある 岩を{n} こなごなに くだく 術ぢゃ！」{n}{wait}{n}「この 術を 覚えるのは{n} 桃太郎が ふさわしい！」{n}{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「それ！ そこにある 岩を{n} ○ボタンを 押して」{n}{wait}{n}「できるだけ 早く{n} 108回 たたくのぢゃ！」{n}{wait}{n}「自力で やるのぢゃぞ！{n} 決して ズルを{n} しては ならんぞ！」{wait}",
-   "en": ""
+   "en": "\"The Lightning art strikes one group of oni,\"{wait}\"and smashes the rocks in your path to pieces!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}\"Learn my art quickly and go punish those oni!\"{wait}\"But first, you'll have to go through my rather tough training!\"{wait}\"There! Press the Circle button to hit that rock\"{wait}\"108 times, as fast as you can!\"{wait}\"Do it with your own strength! No cheating, mind you!\"{wait}"
   },
   {
    "id": "WMAP24_28:002",
    "jp": "「準備は いいか？」{n}{n}",
-   "en": ""
+   "en": "\"Are you ready?\""
   },
   {
    "id": "WMAP24_28:003",
    "jp": "「修行 開始ぢゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Let the training begin!\"{wait}"
   },
   {
    "id": "WMAP24_28:004",
    "jp": "「いつでも 修行に{n} くるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Come back for training any time!\"{wait}"
   },
   {
    "id": "WMAP24_28:005",
    "jp": "「でかした！ 桃太郎！{n} いなずまの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}桃太郎は{n}{col4}いなずまの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Momotaro! I shall grant you the Lightning art! Uhyahya...\"{wait}Momotaro mastered the {col4}Lightning art{col0}!"
   },
   {
    "id": "WMAP24_28:006",
    "jp": "「でかした！ 桃太郎！{n} いなずまの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}「…と いいたい ところぢゃが{n} お前 いま ズルしたな！」{n}{wait}{n}「ズルするやつが いると{n} いかんから タイミングを{n} はかっておったのぢゃよ！」{wait}{n}「まったく せこいやつぢゃのう！」{n}{n}{wait}{n}「男なら ぢぶんの 力で{n} チャレンヂしてみるのぢゃ！{n} それが 青春ぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro! I shall grant you the Lightning art! Uhyahya...\"{wait}\"...Is what I'd like to say, but you just cheated, didn't you!\"{wait}\"I was timing you, in case some cheater came along!\"{wait}\"What a sneaky little rascal you are!\"{wait}\"A real man takes on the challenge with his own strength! That's what youth is for!\"{wait}"
   },
   {
    "id": "WMAP24_28:007",
    "jp": "「桃太郎！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「力を つけて{n} でなおしてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! At this rate, you'll never teach Enma a lesson! Uhyahya...\"{wait}\"Go get stronger and come back!\"{wait}"
   },
   {
    "id": "WMAP24_28:008",
    "jp": "「いなずまの術は{n} 鬼たち 1グループに{n} 打撃を 与える 術ぢゃ！」{wait}{n}「群れで おそってくる{n} コウモリなんかには{n} きっと 役に 立つぞ！」{wait}",
-   "en": ""
+   "en": "\"The Lightning art strikes one group of oni!\"{wait}\"It's sure to come in handy against things like Bats that attack in swarms!\"{wait}"
   },
   {
    "id": "WMAP24_28:009",
    "jp": "「ふむ！ 桃太郎か！{n} いなずまの術を うまく{n} 使いこなしておるか？」{wait}{n}「これを お前に やろう！{n} これを見て 修行に はげめよ！」{n}{wait}{n}桃太郎は{n}{col10}いなずま仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Hmm! Momotaro, is it! Have you mastered the Lightning art?\"{wait}\"I'll give you this! Look at it and keep up your training!\"{wait}Momotaro got the {col10}Lightning Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP24_28:010",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「遠くて近きは ダンジョンの中！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "A proverb is written here!{wait}\"Absence makes the heart grow fonder... of the dungeon exit!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

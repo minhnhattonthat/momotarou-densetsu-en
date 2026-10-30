@@ -8,162 +8,162 @@
   {
    "id": "DMAP02_42:000",
    "jp": "「おお！ お前が{n} 鬼たいじの 旅をしている{n} 桃太郎かあ！」{wait}",
-   "en": ""
+   "en": "\"Whoa! So you're Momotaro, the one on the journey to beat the oni!\"{wait}"
   },
   {
    "id": "DMAP02_42:001",
    "jp": "「オラの 名前は 金太郎！{n} 村一番の 力持ちだ！」{n}{wait}",
-   "en": ""
+   "en": "\"The name's Kintaro! Strongest guy in the village!\"{wait}"
   },
   {
    "id": "DMAP02_42:002",
    "jp": "「竜燈鬼が 村の子供たち{n} さらって たてこもったんで{n} 助けにきたのさ！」{wait}",
-   "en": ""
+   "en": "\"Ryutoki kidnapped the village kids and holed up in here, so I came to rescue 'em!\"{wait}"
   },
   {
    "id": "DMAP02_42:003",
    "jp": "「桃太郎！{n} 村の子供たちを 助けるのを{n} てつだってくれよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Help me save the village kids, will ya!\"{wait}"
   },
   {
    "id": "DMAP02_42:004",
    "jp": "金太郎が いっしょに{n}いくことに なった！{n}{wait}",
-   "en": ""
+   "en": "Kintaro is coming along!{wait}"
   },
   {
    "id": "DMAP02_42:005",
    "jp": "「おっ！ 戻ってきたな！」{n}{n}{wait}{n}「桃太郎！{n} 早く 竜燈鬼を{n} こらしめようぜ！」",
-   "en": ""
+   "en": "\"Oh! You're back!\"{wait}\"Momotaro! Let's hurry up and teach Ryutoki a lesson!\""
   },
   {
    "id": "DMAP02_42:006",
    "jp": "「なんだ こんな 岩！{n} うりゃりゃりゃりゃ！{n} どっせーーーーい！」{wait}",
-   "en": ""
+   "en": "\"What, this puny rock?! Hrraaaaaagh! Hup-HOOOOOOO!\"{wait}"
   },
   {
    "id": "DMAP02_42:007",
    "jp": "「さあ いこうぜ！{n} 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"C'mon, let's go! Momotaro!\"{wait}"
   },
   {
    "id": "DMAP02_42:008",
    "jp": "{n}{wait}{n}大きな 岩が ある！{n}桃太郎の 力では {n}動かせそうにない！{wait}",
-   "en": ""
+   "en": "{wait}There's a big rock here! Momotaro doesn't look strong enough to move it!{wait}"
   },
   {
    "id": "DMAP02_42:009",
    "jp": "{n}{wait}{n}金太郎が さけんだ！{n}{n}{wait}{n}「この岩が ジャマなのか？{n} よおっし！ オラが{n} どけてやらあ！ 見てな！」{wait}",
-   "en": ""
+   "en": "{wait}Kintaro shouted!{wait}\"This rock in the way? All right! I'll shift it for ya! Watch this!\"{wait}"
   },
   {
    "id": "DMAP02_42:010",
    "jp": "しかし 岩は{n}びくとも しなかった！{n}{wait}",
-   "en": ""
+   "en": "But the rock didn't budge an inch!{wait}"
   },
   {
    "id": "DMAP02_42:011",
    "jp": "「やはり きたな{n} 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"So you came after all, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP02_42:012",
    "jp": "「子供を さらえば{n} お前が 助けにくると{n} 思っていたぞ！」{wait}",
-   "en": ""
+   "en": "\"I knew that if I took the children, you'd come to save them!\"{wait}"
   },
   {
    "id": "DMAP02_42:013",
    "jp": "「えんま様に さからう{n} おろかものが！」{n}{wait}",
-   "en": ""
+   "en": "\"You fool, defying Enma-sama!\"{wait}"
   },
   {
    "id": "DMAP02_42:014",
    "jp": "「この 竜燈鬼様が{n} いためつけてくれるわ！」{n}{wait}",
-   "en": ""
+   "en": "\"I, the great Ryutoki, shall teach you some pain!\"{wait}"
   },
   {
    "id": "DMAP02_42:015",
    "jp": "金太郎が さけんだ！{n}{n}{wait}{n}「おう おう！{n} なに 勝手なこと{n} いってんだよー！」{wait}",
-   "en": ""
+   "en": "Kintaro shouted!{wait}\"Hey, hey! What kinda selfish garbage are you spoutin'?!\"{wait}"
   },
   {
    "id": "DMAP02_42:016",
    "jp": "「お前みたいな{n} ひきょうなやつは ぜったい{n} ゆるさねえからな！」{wait}",
-   "en": ""
+   "en": "\"I ain't ever gonna forgive a dirty coward like you!\"{wait}"
   },
   {
    "id": "DMAP02_42:017",
    "jp": "「桃太郎！{n} こんなやつ さっさと{n} やっつけちまおうぜ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Let's hurry up and flatten this guy!\"{wait}"
   },
   {
    "id": "DMAP02_42:018",
    "jp": "竜燈鬼が たおされたので{n}子供たちの ろうやの{n}とびらが ひらいた！{wait}",
-   "en": ""
+   "en": "With Ryutoki defeated, the door of the children's cell opened!{wait}"
   },
   {
    "id": "DMAP02_42:019",
    "jp": "「金太郎の あんちゃん！{n} それに 桃太郎さん！{n} たすけてくれて ありがとう！」{wait}",
-   "en": ""
+   "en": "\"Big Bro Kintaro! And Momotaro-san! Thanks for saving us!\"{wait}"
   },
   {
    "id": "DMAP02_42:020",
    "jp": "「わーい わーい！{n} かあちゃんに あえるんだ！{n} わーい！」{wait}",
-   "en": ""
+   "en": "\"Yay, yay! We get to see Mom again! Yaaay!\"{wait}"
   },
   {
    "id": "DMAP02_42:021",
    "jp": "「金太郎の あんちゃん！{n} 早く いこうよ！」{n}{wait}{n}「あんちゃんが いないと{n} 村祭りが はじまらないよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Big Bro Kintaro! Hurry, let's go!\"{wait}\"The village festival can't start without you!\"{wait}"
   },
   {
    "id": "DMAP02_42:022",
    "jp": "「おっと いけねえ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Whoops, that's no good!\"{wait}"
   },
   {
    "id": "DMAP02_42:023",
    "jp": "「村祭りのことを{n} すっかり わすれてた！」{n}{wait}",
-   "en": ""
+   "en": "\"I clean forgot all about the village festival!\"{wait}"
   },
   {
    "id": "DMAP02_42:024",
    "jp": "「桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}"
   },
   {
    "id": "DMAP02_42:025",
    "jp": "「子供たちを 助けてくれて{n} ありがとうよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks for saving the kids!\"{wait}"
   },
   {
    "id": "DMAP02_42:026",
    "jp": "「お礼の かわりに{n} 名物の 村祭りを{n} たのしんでいってくれよ！」{wait}",
-   "en": ""
+   "en": "\"As thanks, go enjoy our famous village festival!\"{wait}"
   },
   {
    "id": "DMAP02_42:027",
    "jp": "「じゃあ オラは{n} ここで 待ってるからな！」{n}{wait}",
-   "en": ""
+   "en": "\"Well then, I'll wait for ya right here!\"{wait}"
   },
   {
    "id": "DMAP02_42:028",
    "jp": "「早く 戻ってこいよ！{n} いっしょに 竜燈鬼を{n} やっつけようぜ！」{wait}",
-   "en": ""
+   "en": "\"Hurry back! Let's beat Ryutoki together!\"{wait}"
   },
   {
    "id": "DMAP02_42:029",
    "jp": "「またしても{n} 子供を 助けにきたな！{n} 桃太郎！」{wait}",
-   "en": ""
+   "en": "\"So you've come to save the children yet again, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP02_42:030",
    "jp": "「だが きさまには{n} この 竜燈鬼を{n} 倒すことは できん！」{wait}",
-   "en": ""
+   "en": "\"But you can never defeat me, Ryutoki!\"{wait}"
   },
   {
    "id": "DMAP02_42:031",
    "jp": "「それを もう一度{n} 教えてやろう！」{n}{wait}",
-   "en": ""
+   "en": "\"Allow me to teach you that once more!\"{wait}"
   }
  ]
 }

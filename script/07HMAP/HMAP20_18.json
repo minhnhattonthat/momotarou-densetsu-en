@@ -8,152 +8,152 @@
   {
    "id": "HMAP20_18:000",
    "jp": "「あなたは 桃太郎さん！」{n}{n}{wait}{n}「都が たいへんなのじゃ！」{n}{n}{wait}{n}「鬼の 阿修羅が やってきて{n} 都を くらやみに{n} かえてしまったのじゃ！」{wait}",
-   "en": ""
+   "en": "\"You're Momotaro-san!\"{wait}\"The Capital is in terrible trouble!\"{wait}\"The oni Ashura came and plunged the Capital into darkness!\"{wait}"
   },
   {
    "id": "HMAP20_18:001",
    "jp": "「桃太郎さん！ わしは{n} 都の 長老ですじゃ！」{n}{wait}{n}「みなから ききおよんで{n} おるじゃろうが…」{n}{wait}{n}「阿修羅は 都の 女を{n} よめに さしだせと{n} いって きおっての！」{wait}{n}「どうしたら よいのか{n} まいばん こうして みんなが{n} あつまって おるのじゃが…」{wait}{n}「もはや どんな みょうあんも{n} つきもうした…！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I am the elder of the Capital!\"{wait}\"You've probably heard it from everyone already...\"{wait}\"Ashura has demanded that we hand over a woman of the Capital to be his bride!\"{wait}\"Every night we all gather like this to think of what to do...\"{wait}\"But we've run out of bright ideas...!\"{wait}"
   },
   {
    "id": "HMAP20_18:002",
    "jp": "そのとき 夜叉姫が さけんだ！{n}{n}{wait}",
-   "en": ""
+   "en": "Just then, Yashahime cried out!{wait}"
   },
   {
    "id": "HMAP20_18:003",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「私たちが いきましょう！」{n}{n}{wait}{n}「私が はなよめいしょうを きて{n} 桃太郎さんたちが いわいざけの{n} たるのなかに ひそめば！」{wait}{n}「阿修羅は 鬼のなかでも{n} まやかしを 使う とくべつな{n} 強さを もった 鬼です！」{wait}{n}「私たちが いきましょう！{n} 桃太郎さん！」{n}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Let's go!\"{wait}\"If I wear the bridal kimono, and you all hide inside the celebration sake barrel...!\"{wait}\"Even among oni, Ashura is special: his strength lies in trickery!\"{wait}\"Let's go, Momotaro-san!\""
   },
   {
    "id": "HMAP20_18:004",
    "jp": "長老は 顔が{n}クシャクシャに なるほど{n}よろこんだ！{wait}{n}「ありがとうございます！」{n}{n}{wait}{n}「ありがとうございます！」{n}{n}{wait}{n}「本当に ありがとうございます！{n} では いそぎ はなよめいしょうと{n} さかだるを よういさせます！」{wait}{n}「じゅんびに 少し 時間が{n} かかりますから しばらくしてから{n} また おいでください！」{wait}",
-   "en": ""
+   "en": "The elder was so happy his whole face crinkled up!{wait}\"Thank you!\"{wait}\"Thank you!\"{wait}\"Thank you so very much! I'll have a bridal kimono and a sake barrel prepared at once!\"{wait}\"The preparations will take a little while, so please come back a bit later!\"{wait}"
   },
   {
    "id": "HMAP20_18:005",
    "jp": "夜叉姫が さけんだ！{n}{n}{wait}",
-   "en": ""
+   "en": "Yashahime cried out!{wait}"
   },
   {
    "id": "HMAP20_18:006",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「桃太郎さんが{n} そんな 冷たい人なら…」{n}{wait}{n}「私… 私…  悲しくて{n} 泣いてしまいます！」{n}{wait}{n}「そんなことを いわずに{n} 助けてあげましょう！」{n}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"If you're that cold a person, Momotaro-san...\"{wait}\"I... I'll be so sad, I'll cry!\"{wait}\"Don't say that! Let's help them!\""
   },
   {
    "id": "HMAP20_18:007",
    "jp": "「もうしばらく おまちください{n} どうか 体力を ととのえ{n} 戦いに そなえてください！」{wait}",
-   "en": ""
+   "en": "\"Please wait a little longer. Restore your HP and prepare for battle!\"{wait}"
   },
   {
    "id": "HMAP20_18:008",
    "jp": "「ああ！ 桃太郎さん！{n} ちょうど じゅんびが{n} できた ところです！」{wait}{n}「でも 阿修羅は{n} とても 強いと ききます」{n}{wait}{n}「それでも 行って{n} くださるのですね！」{n}",
-   "en": ""
+   "en": "\"Ah! Momotaro-san! We've only just finished the preparations!\"{wait}\"But I hear Ashura is very strong.\"{wait}\"Will you still go for us?\""
   },
   {
    "id": "HMAP20_18:009",
    "jp": "「桃太郎さん らしくないですね{n} でも 阿修羅は 強いと{n} ききますから しかたないですね…」{wait}",
-   "en": ""
+   "en": "\"That's not like you, Momotaro-san. But I hear Ashura is strong, so I suppose it can't be helped...\"{wait}"
   },
   {
    "id": "HMAP20_18:010",
    "jp": "「さすがは 桃太郎さん！{n} おれいの ことばも{n} ございません！」{wait}{n}「では さっそく！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"That's Momotaro-san for you! I can't thank you enough!\"{wait}\"Then let's begin at once!\"{wait}"
   },
   {
    "id": "HMAP20_18:011",
    "jp": "「阿修羅は 五重塔の{n} 5階に おります！」{n}{wait}{n}「桃太郎さん！{n} がんばってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Ashura is on the 5th floor of the pagoda!\"{wait}\"Momotaro-san! Good luck!\"{wait}"
   },
   {
    "id": "HMAP20_18:012",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「鬼の 阿修羅は わしらに{n} 美しい 女を 今夜までに{n} さしだせと いってきてるのです！」{wait}{n}「わしらは なんの 力もないが{n} むすめを さしだすような まねは{n} ぜったいに したかねえです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"The oni Ashura is demanding we hand over a beautiful woman by tonight!\"{wait}\"We've got no power at all, but we'd never stoop to handing over our daughters!\"{wait}"
   },
   {
    "id": "HMAP20_18:013",
    "jp": "「阿修羅の やつめ！」{n}{n}{wait}{n}「すきかってに よめサンを{n} さしだせとは なんてこったい！{n} むしが よすぎるぜ！」{wait}",
-   "en": ""
+   "en": "\"That rotten Ashura!\"{wait}\"Demanding we hand over brides just as he pleases, what's with that?! He's got some nerve!\"{wait}"
   },
   {
    "id": "HMAP20_18:014",
    "jp": "「阿修羅の やつめ！」{n}{n}{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「オラ ほんとに{n} あんた みたいな{n} 勇気と 力が ほしいよー！」{wait}",
-   "en": ""
+   "en": "\"That rotten Ashura!\"{wait}\"Momotaro-san!\"{wait}\"I sure wish I had courage and strength like yours!\"{wait}"
   },
   {
    "id": "HMAP20_18:015",
    "jp": "「あたしが もうすこし{n} わかかったらねえ！」{n}{wait}{n}「阿修羅の よめに なるふりして{n} 阿修羅の よこっつらを{n} ひっぱたいて やるんだけどねえ！」{wait}",
-   "en": ""
+   "en": "\"If only I were a little younger!\"{wait}\"I'd pretend to be Ashura's bride and slap him right across the face!\"{wait}"
   },
   {
    "id": "HMAP20_18:016",
    "jp": "「このような むりなんだいを{n} おしつけるとは まこと 鬼とは{n} おそろしいものじゃのお！」{wait}",
-   "en": ""
+   "en": "\"Forcing such an outrageous demand on us... Oni truly are fearsome!\"{wait}"
   },
   {
    "id": "HMAP20_18:017",
    "jp": "「あああああっ！ 都は{n} どうなってしまうんじゃ！{n} 希望なんて もう どこにも…」{wait}{n}「イヤ！ 桃太郎さん！{n} あなたこそ{n} さいごの 希望じゃ！」{wait}{n}「どうか どうか{n} 力を おかしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Ahhhhh! What will become of the Capital?! There's no hope left anywhere...\"{wait}\"No! Momotaro-san! You are our last hope!\"{wait}\"Please, please lend us your strength!\"{wait}"
   },
   {
    "id": "HMAP20_18:018",
    "jp": "「このように くらく{n} とざされた まちを{n} 都とは よべますまい！」{wait}{n}「とほうにくれるばかりじゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"A town shut away in such darkness can hardly be called a capital!\"{wait}\"We're at our wits' end!\"{wait}"
   },
   {
    "id": "HMAP20_18:019",
    "jp": "「阿修羅は みょうちきりんな{n} かっこうしてるくせに{n} えらく つよいんですよ！」{wait}{n}「あたしらじゃ{n} 手も 足も 出ません！」{n}{wait}",
-   "en": ""
+   "en": "\"Ashura dresses all weird, but he's awfully strong!\"{wait}\"We can't lay a finger on him!\"{wait}"
   },
   {
    "id": "HMAP20_18:020",
    "jp": "「こまった こまった！{n} なにか よい てだては{n} ないものかいなあ！」{wait}",
-   "en": ""
+   "en": "\"What a fix, what a fix! Isn't there some good way out?!\"{wait}"
   },
   {
    "id": "HMAP20_18:021",
    "jp": "「桃太郎さん！{n} わたしらも 桃太郎さんくらい{n} 勇気が あったればなあ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! If only we had as much courage as you!\"{wait}"
   },
   {
    "id": "HMAP20_18:022",
    "jp": "「みんなで 都踊りの{n} れんしゅうを してるのよ！」{n}{wait}",
-   "en": ""
+   "en": "\"We're all practicing the Capital Dance!\"{wait}"
   },
   {
    "id": "HMAP20_18:023",
    "jp": "「この 右手の ふりつけ が{n} むずかしいの！」{n}{wait}",
-   "en": ""
+   "en": "\"The moves for this right hand are hard!\"{wait}"
   },
   {
    "id": "HMAP20_18:024",
    "jp": "「よかったら ごいっしょに{n} おけいこしましょうよ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you like, let's practice together!\"{wait}"
   },
   {
    "id": "HMAP20_18:025",
    "jp": "「となりの ねえさんの まねして{n} おどればいいのよ！{n} カンタン！ カンタン！」{wait}",
-   "en": ""
+   "en": "\"Just copy the girl next to you! Easy! Easy!\"{wait}"
   },
   {
    "id": "HMAP20_18:026",
    "jp": "「都 よいとこ{n} いちどは おいでぇ！」{n}{wait}",
-   "en": ""
+   "en": "\"The Capital's a lovely place, come visit at least once!\"{wait}"
   },
   {
    "id": "HMAP20_18:027",
    "jp": "「ホラ！{n} はなしかけるから{n} まちがえちゃったじゃない！」{wait}",
-   "en": ""
+   "en": "\"See?! You talked to me and made me mess up!\"{wait}"
   },
   {
    "id": "HMAP20_18:028",
    "jp": "「希望の都では{n} 都踊りを おどれなけりゃ{n} いっぱしの むすめとは いえん！」{wait}{n}「そりゃ フリが{n} ちごうとるぞえ！」{n}{wait}",
-   "en": ""
+   "en": "\"In the Capital of Hope, a girl who can't dance the Capital Dance isn't a proper young lady!\"{wait}\"That move's all wrong, I say!\"{wait}"
   },
   {
    "id": "HMAP20_18:029",
    "jp": "「まだまだ ヒヨッコじゃが{n} みこみは ありそうじゃ！」{n}{wait}{n}「桃太郎さん！ これを{n} やるから こやつらを{n} おうえんしておくれ！」{wait}{n}桃太郎は{n}{col10}都踊りガールズカード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"They're still just chicks, but they show promise!\"{wait}\"Momotaro-san! Take this, and cheer these girls on!\"{wait}Momotaro got the {col10}Capital Dance Girls Card{col0}!{c19}{wait}"
   }
  ]
 }

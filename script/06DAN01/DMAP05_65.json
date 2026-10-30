@@ -8,17 +8,17 @@
   {
    "id": "DMAP05_65:000",
    "jp": "「よく ここまで おいでだねえ{n} 桃太郎！」{n}{wait}{n}「酒呑童子ばかりか 夜叉姫まで{n} たぶらかすとは{n} わるがしこい 子供だよ！」{wait}{n}「なんだって？{n} {col0}氷室の削り火{col0}が{n} ほしいだって？」{wait}{n}「それなら{n} わたしの 後ろにあるから{n} 好きに 持っていくと いいさ！」{wait}",
-   "en": ""
+   "en": "\"Well, well, so you've come all this way, Momotaro!\"{wait}\"Sweet-talking not just Shuten-doji but Yashahime too... what a crafty little brat you are!\"{wait}\"What's that? You want the {col0}Icehouse Fire{col0}?\"{wait}\"Well then, it's right behind me, so take it if you like!\"{wait}"
   },
   {
    "id": "DMAP05_65:001",
    "jp": "「ただし！」{n}{n}{wait}{n}「この わたしに{n} 勝てたらね！」{n}{wait}{n}「これでも くらえ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Only...\"{wait}\"if you can beat me!\"{wait}\"Take this!\"{wait}"
   },
   {
    "id": "DMAP05_65:002",
    "jp": "「おやおや！{n} もう一度 いたいめに{n} あいたいのかえ？」{wait}{n}「いいだろう！{n} この醜女の 恐ろしさ{n} 思い知らせてやる！」{wait}",
-   "en": ""
+   "en": "\"Oh my, oh my! Came back for another beating, did you?\"{wait}\"Very well! I'll show you just how terrifying Shikome can be!\"{wait}"
   }
  ]
 }

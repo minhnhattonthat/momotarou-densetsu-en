@@ -9,342 +9,342 @@
   {
    "id": "SMAP20_33:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この村が 鬼に おそわれ{n} 村人が 苦しめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?\"{wait}\"The oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP20_33:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 30段くらいは{n} ないと つらいであろう！」{wait}{n}「30段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni ahead are much, much stronger!\"{wait}\"If you're going on past this village, without about level 30, you'll have a hard time of it!\"{wait}\"If you haven't reached level 30, do your training around here and gain experience!\"{wait}"
   },
   {
    "id": "SMAP20_33:002",
    "jp": "「うわあああああっ！ 村中{n} 塩だらけに なっちまって{n} 歩けねーだ！」{wait}",
-   "en": ""
+   "en": "\"Waaaaah! The whole village is covered in salt, and I can't walk!\"{wait}"
   },
   {
    "id": "SMAP20_33:003",
    "jp": "「歩けることが こんなに{n} うれしいとは 思わなかった！」{n}{wait}{n}「ありがとう！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"I never thought bein' able to walk could make me this happy!\"{wait}\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:004",
    "jp": "「助けてください！{n} 桃太郎さん！」{n}{wait}{n}「村の たいせつな{n} 塩吹きウスが 塩吹き鬼に！」{n}{wait}{n}「ああっ！ なにいってるのか{n} わたしにも わからない！」{n}{wait}{n}「だじゃれ いってんじゃ ないのよ！{n} 塩吹き鬼が 塩吹きウスで{n} みんなを 苦しめてるの！」{wait}",
-   "en": ""
+   "en": "\"Please help us, Momotaro-san!\"{wait}\"The Salt Oni's got our precious salt-spewing Salt Mill spewing salt for the Salt Oni!\"{wait}\"Oh! Even I don't know what I'm saying!\"{wait}\"I'm not making puns here! The Salt Oni is using the Salt Mill to make everyone suffer!\"{wait}"
   },
   {
    "id": "SMAP20_33:005",
    "jp": "「ありがとうございます！{n} 桃太郎さん！」{n}{wait}{n}「これから 鬼のつめあとに{n} むかうんでしょ！」{n}{wait}{n}「鬼のつめあとに 出てくる{n} 黒ガッパには 気をつけてね！」{n}{wait}{n}「早く たおさないと{n} お金も 物も{n} みんな ぬすまれちゃうわよ！」{wait}",
-   "en": ""
+   "en": "\"Thank you so much, Momotaro-san!\"{wait}\"You're heading for the Oni Claw Marks next, right?\"{wait}\"Watch out for the Black Kappa that show up in the Oni Claw Marks!\"{wait}\"If you don't beat them fast, they'll steal all your money and items!\"{wait}"
   },
   {
    "id": "SMAP20_33:006",
    "jp": "「たいへんだ！ たいへんだ！」{n}{n}{wait}{n}「このまま 塩吹きウスから{n} 塩が あふれつづけたら{n} 村が しずんじまうだ！」{wait}",
-   "en": ""
+   "en": "\"This is terrible! This is terrible!\"{wait}\"If salt keeps pourin' out of the Salt Mill like this, the village is gonna sink!\"{wait}"
   },
   {
    "id": "SMAP20_33:007",
    "jp": "「ありがとう！{n} 桃太郎さん！」{n}{wait}{n}「小舟は ひえんの術を 使うと{n} 鬼のつめあと 近くの{n} 村や 宿に もどりますよ！」{wait}{n}「なんか へんだけど{n} 次の 村に いけなくなると{n} ゲームおわっちゃうからね！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"If you use the Warp art, the little boat goes back to a village or inn near the Oni Claw Marks!\"{wait}\"Kinda weird, I know, but if you couldn't get to the next village, the game would be over!\"{wait}"
   },
   {
    "id": "SMAP20_33:008",
    "jp": "「ぺっ！ ぺっ！ ぺっ！」{n}{n}{wait}{n}「さっき ころんで{n} 塩が 口の中に{n} 入っちゃったの！」{wait}",
-   "en": ""
+   "en": "\"Ptoo! Ptoo! Ptoo!\"{wait}\"I fell down just now, and I got salt in my mouth!\"{wait}"
   },
   {
    "id": "SMAP20_33:009",
    "jp": "「ぺっ！ ぺっ！ ぺっ！」{n}{n}{wait}{n}「天気が いいんで お空を{n} 見上げていたら とりのフンが{n} 口に 入っちゃったよ！」{wait}{n}「かっちょわりー！{n} ぺっ！ ぺっ！ ぺっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Ptoo! Ptoo! Ptoo!\"{wait}\"It was such nice weather, so I was looking up at the sky, and a bird pooped right in my mouth!\"{wait}\"So uncool! Ptoo! Ptoo! Ptoo!\"{wait}"
   },
   {
    "id": "SMAP20_33:010",
    "jp": "「塩吹きウスを 止めてくだされ！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Please stop the Salt Mill, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:011",
    "jp": "「ありがとうございます！{n} 桃太郎さん！」{n}{wait}{n}「鬼のつめあとを ぬければ{n} ウサカメの村です！」{n}{wait}{n}「ウサカメの村に 鬼の{n} 風神が あらわれたという{n} うわさを ききました！」{wait}{n}「気をつけて 行ってください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you so much, Momotaro-san!\"{wait}\"Past the Oni Claw Marks is Usakame Village!\"{wait}\"I heard a rumor that the oni Fujin showed up in Usakame Village!\"{wait}\"Please be careful on your way!\"{wait}"
   },
   {
    "id": "SMAP20_33:012",
    "jp": "「歩けないー！{n} 塩が 重くて 歩けないー！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't walk! The salt's too heavy, I can't walk!\"{wait}"
   },
   {
    "id": "SMAP20_33:013",
    "jp": "「やっぱり 自由に{n} どこでも 歩けるって{n} うれしいわね！」{wait}{n}「ありがとう！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Being able to walk anywhere I like really is wonderful!\"{wait}\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:014",
    "jp": "「ひーこら！ としよりの 足には{n} この 塩だらけの 地面は{n} つらすぎますわい！ ひーこら！」{wait}",
-   "en": ""
+   "en": "\"Huff, puff! This salty ground is too much for an old man's legs! Huff, puff!\"{wait}"
   },
   {
    "id": "SMAP20_33:015",
    "jp": "「わしらの 村は 少し{n} 塩吹きウスの 力に{n} たよりすぎて いたかもしれん」{wait}{n}「鬼の 悪さを とやかく いわず{n} もう一度 村の ことを{n} 考えたい ものじゃのォ！」{wait}{n}「桃太郎さん！{n} あなたを みていると{n} そんな 気に なってきたわい！」{wait}{n}「はっはっはっ！ としよりが また{n} せっきょうくさい ことを{n} いって しもうたわい！」{wait}",
-   "en": ""
+   "en": "\"Perhaps our village leaned on the Salt Mill's power a little too much.\"{wait}\"Instead of grumbling about the oni's mischief, I'd like to give our village some fresh thought!\"{wait}\"Momotaro-san! Watching you has made me feel that way!\"{wait}\"Hahaha! Here I go again, an old man preaching away!\"{wait}"
   },
   {
    "id": "SMAP20_33:016",
    "jp": "「桃太郎さん！{n} ボク 見たんだよ！」{n}{wait}{n}「空を 人が{n} とんでったんだ！」{n}{wait}{n}「着物を 着た 女の人が{n} この先の 鬼のつめあとの{n} ほうへ とんでったんだ！」{wait}{n}「あれは きっと{n} 夜叉姫さんだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I saw it!\"{wait}\"Somebody flew across the sky!\"{wait}\"A lady in a kimono flew off toward the Oni Claw Marks up ahead!\"{wait}\"I bet that was Yashahime-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:017",
    "jp": "「わーい！ わーい！ うれしいな！{n} 思わず おどりたく なっちゃった{n} ダンシング！ ダンシング！」{wait}{n}グキッ！{n}{n}{wait}{n}「う！{n} ギックリごしが！」{n}{wait}{n}「えへへへへっ！{n} ダンシングじいさんの{n} マネだよーーーーん！」{wait}",
-   "en": ""
+   "en": "\"Yay! Yay! I'm so happy! I just gotta dance! Dancing! Dancing!\"{wait}Crick!{wait}\"Ugh! My back!\"{wait}\"Heh heh heh! That's my Dancing Grandpa impression!\"{wait}"
   },
   {
    "id": "SMAP20_33:018",
    "jp": "「桃太郎さん！{n} たすけてくでー！」{n}{wait}{n}「塩吹き鬼の せいで{n} ウシの お乳まで{n} しょっぱく なっちまった！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Help me out!\"{wait}\"'Cause of the Salt Oni, even my cow's milk has gone salty!\"{wait}"
   },
   {
    "id": "SMAP20_33:019",
    "jp": "「ありがとう！{n} 桃太郎さん！」{n}{wait}{n}「オラの 牛も{n} おいしい お乳が{n} でるように なりました！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"My cow's givin' tasty milk again!\"{wait}"
   },
   {
    "id": "SMAP20_33:020",
    "jp": "「モー！ こんな 生活{n} かんべんして ほしいモー！」{n}{wait}",
-   "en": ""
+   "en": "\"Moo! I can't stand livin' like this, moo!\"{wait}"
   },
   {
    "id": "SMAP20_33:021",
    "jp": "「モー！ さいこうなんだモー！」{n}{n}{wait}{n}「桃太郎さん！{n} お乳 のんでくかモー！」{n}",
-   "en": ""
+   "en": "\"Moo! It's the best, moo!\"{wait}\"Momotaro-san! Wanna drink my milk? Moo!\""
   },
   {
    "id": "SMAP20_33:022",
    "jp": "ゴク ゴク ゴクッ！{n}{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": ""
+   "en": "Gulp gulp gulp! {str}'s SP and HP were fully restored!{wait}"
   },
   {
    "id": "SMAP20_33:023",
    "jp": "「おなか いっぱいなのかモー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Is your tummy full? Moo!\"{wait}"
   },
   {
    "id": "SMAP20_33:024",
    "jp": "「ありがとう 桃太郎さん！{n} おかげで 村も{n} 平和に なりました！{wait}{n}「桃太郎さん！ ここで{n} いっしょに 海を{n} 見ていきませんか？」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san! Thanks to you, the village is at peace!\"{wait}\"Momotaro-san! Won't you stay and watch the sea with me?\"{wait}"
   },
   {
    "id": "SMAP20_33:025",
    "jp": "「あっ！！！」{n}{n}{wait}{n}「桃太郎さん！{n} 見てください！{n} きれいな 虹です！」{wait}",
-   "en": ""
+   "en": "\"Oh!!!\"{wait}\"Momotaro-san! Look! A beautiful rainbow!\"{wait}"
   },
   {
    "id": "SMAP20_33:026",
    "jp": "「虹が 見たくなったら{n} いつでも 声を{n} かけてください！」{wait}",
-   "en": ""
+   "en": "\"Whenever you want to see a rainbow, just call me anytime!\"{wait}"
   },
   {
    "id": "SMAP20_33:027",
    "jp": "「わしは この村の{n} 村長 ですじゃ！」{n}{wait}{n}「塩吹き鬼が 塩吹きウスで{n} 村の みんなを{n} 苦しめて いるんです！」{wait}{n}「どうか 塩吹き鬼を{n} こらしめて ください！」{n}",
-   "en": ""
+   "en": "\"I'm the Chief of this village!\"{wait}\"The Salt Oni is using the Salt Mill to torment everyone in the village!\"{wait}\"Please, teach the Salt Oni a lesson!\""
   },
   {
    "id": "SMAP20_33:028",
    "jp": "「うれしゅうございます！」{n}{n}{wait}{n}「塩吹きウスが 止まれば{n} 川を 下る 小舟を{n} さしあげることも できるでしょう」{wait}{n}「塩吹き鬼は この村の{n} おくに います！」{n}{wait}{n}「がんばって ください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm so grateful!\"{wait}\"Once the Salt Mill stops, I should be able to give you a little boat to go down the river.\"{wait}\"The Salt Oni is at the far end of this village!\"{wait}\"Good luck!\"{wait}"
   },
   {
    "id": "SMAP20_33:029",
    "jp": "「桃太郎さんたちも なにかと{n} じゅんびが いることでしょう」{n}{wait}{n}「お待ちして おります！{n} 村の者は みんな{n} 桃太郎さんを！」{wait}",
-   "en": ""
+   "en": "\"You must have all sorts of preparations to make, Momotaro-san.\"{wait}\"We'll be waiting! All of us in the village, for you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:030",
    "jp": "「ありがとうございます！{n} 桃太郎さん！」{n}{wait}{n}「これで 村人は{n} 安心して くらせます！」{n}{wait}{n}「さあ！ 桃太郎さん！{n} 川を 下る 小舟の{n} 用意を いたしましょう！」{wait}{n}「どうぞ！ ついてきてくだされ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you so much, Momotaro-san!\"{wait}\"Now the villagers can live in peace!\"{wait}\"Now then, Momotaro-san! Let's get the little boat ready to go down the river!\"{wait}\"Please, follow me!\"{wait}"
   },
   {
    "id": "SMAP20_33:031",
    "jp": "「桃太郎さん！ まだ 小舟は{n} 塩に うまったままの ようじゃ」{n}{wait}{n}「困りましたのォ！」{n}{n}{wait}{n}「ひと雨 ザッと くれば{n} 塩も ながれて{n} くれるの じゃろうが」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! It seems the little boat is still buried in salt.\"{wait}\"What a fix!\"{wait}\"If only we got a good downpour, the salt would wash away...\"{wait}"
   },
   {
    "id": "SMAP20_33:032",
    "jp": "と そのとき{n}村人たちの ねがいが 天に{n}とどいたのか 雨が ふりだした！{wait}",
-   "en": ""
+   "en": "Just then, as if the villagers' wishes had reached the heavens, it began to rain!{wait}"
   },
   {
    "id": "SMAP20_33:033",
    "jp": "そして 雨が あがり{n}美しい 虹の 光が{n}村を てらした！{wait}",
-   "en": ""
+   "en": "And when the rain stopped, the beautiful light of a rainbow shone on the village!{wait}"
   },
   {
    "id": "SMAP20_33:034",
    "jp": "「やあ！ 桃太郎さん！」{n}{n}{wait}{n}「あなたの よい おこないが{n} 天に とどいたようじゃ！」{n}{wait}{n}「これで 小舟も 動きます！」{n}{n}{wait}{n}「村の 外に 出しておきます{n} 旅の したくが できたら{n} いつでも 使ってくだされ！」{wait}{n}「そう そう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ah! Momotaro-san!\"{wait}\"It seems your good deeds reached the heavens!\"{wait}\"Now the little boat can move!\"{wait}\"I'll leave it just outside the village. Use it whenever you're ready to travel!\"{wait}\"Oh, yes!\"{wait}"
   },
   {
    "id": "SMAP20_33:035",
    "jp": "「ふにゃら仙人の 庵が{n} 村の 南西に ありますじゃ！」{n}{wait}{n}「浦島さんが ふにゃらの術を{n} 覚えてから 鬼のつめあとへ{n} いったほうが いいですぞ！」{wait}",
-   "en": ""
+   "en": "\"The Soften Hermit's hut is southwest of the village!\"{wait}\"You'd best go to the Oni Claw Marks after Urashima-san learns the Soften art!\"{wait}"
   },
   {
    "id": "SMAP20_33:036",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「雨が 塩を ながしたように{n} みなさんが 今までの ことを{n} 水に ながして くれたんです！」{wait}{n}「これからは みなさんの ために{n} よい おこないを します！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Just like the rain washed away the salt, everyone has let bygones be bygones!\"{wait}\"From now on, I'll do good deeds for everyone!\"{wait}"
   },
   {
    "id": "SMAP20_33:037",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「あの きれいな 虹を 見て{n} 心が あらわれました」{n}{wait}{n}「これからは 心を いれかえ{n} 村の ために つくしていきます」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Seeing that beautiful rainbow washed my heart clean.\"{wait}\"From now on, I'll turn over a new leaf and devote myself to the village.\"{wait}"
   },
   {
    "id": "SMAP20_33:038",
    "jp": "「もう 二度と あんな{n} 悪さは いたしません！」{n}{wait}{n}「ところで 桃太郎さん！」{n}{n}{wait}{n}「ボクは 魚つりが{n} とくいです！」{n}{wait}{n}「とった 魚を{n} 塩づけに すれば{n} 長持ち するそうですね！」{wait}{n}「よーし！」{n}{n}{wait}{n}「これからは どんどん{n} さかなを つって 塩吹きウスで{n} あらまきジャケを つくるぞー！」{wait}",
-   "en": ""
+   "en": "\"I'll never do anything that bad again!\"{wait}\"By the way, Momotaro-san!\"{wait}\"I'm good at fishing!\"{wait}\"I hear fish keep a long time if you salt them!\"{wait}\"All right!\"{wait}\"From now on, I'll catch tons of fish and make salted salmon with the Salt Mill!\"{wait}"
   },
   {
    "id": "SMAP20_33:039",
    "jp": "「しお！ しお！ しお！{n} よくきたな 桃太郎！」{n}{wait}{n}「えんま様の めいれいで{n} 思うぞんぶん 塩を{n} 村中に ぶちまいてやった！」{wait}{n}「しお！ しお！ しお！」{n}{n}{wait}{n}「えんま様は 村人を{n} いじめれば かならず お前が{n} あらわれると おっしゃって いた」{wait}{n}「しお！ しお！ しお！」{n}{n}{wait}{n}「まんまと あらわれたな！{n} 桃太郎！」{n}{wait}{n}「夜叉姫様は{n} どうした！ 桃太郎！」{n}{wait}{n}「友情の 力が 少ない{n} 桃太郎など 塩吹き鬼様が{n} ひとひねりに してくれる！」{wait}",
-   "en": ""
+   "en": "\"Salt! Salt! Salt! So you've come, Momotaro!\"{wait}\"On Enma-sama's orders, I've scattered salt all over the village to my heart's content!\"{wait}\"Salt! Salt! Salt!\"{wait}\"Enma-sama said that if we picked on the villagers, you'd be sure to show up.\"{wait}\"Salt! Salt! Salt!\"{wait}\"And show up you did, Momotaro!\"{wait}\"Where's Yashahime-sama, Momotaro?!\"{wait}\"A Momotaro short on the power of friendship is no match for the great Salt Oni! I'll crush you with one twist!\"{wait}"
   },
   {
    "id": "SMAP20_33:040",
    "jp": "「しお！ しお！ しお！」{n}{n}{wait}{n}「また こりもせず{n} やってきたのか！ 桃太郎！」{n}{wait}{n}「その こんじょうは{n} みあげたもんだが！」{n}{wait}{n}「こんじょうだけでは{n} どうにも ならないことが{n} あることを おしえてやる！」{wait}{n}「しお！ しお！ しお！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Salt! Salt! Salt!\"{wait}\"Back again without learning your lesson, Momotaro?!\"{wait}\"I'll admit your guts are impressive!\"{wait}\"But I'll teach you that some things can't be done with guts alone!\"{wait}\"Salt! Salt! Salt!\"{wait}"
   },
   {
    "id": "SMAP20_33:041",
    "jp": "「ま ま まいった！{n} しお！ しお！ しお！」{n}{wait}{n}「なんて つよいんだ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I-I-I give up! Salt! Salt! Salt!\"{wait}\"You're so strong!\"{wait}"
   },
   {
    "id": "SMAP20_33:042",
    "jp": "「ウスの出す 塩を使って{n} つけもの屋を はじめたんですが{n} なかなか うれないんです！」{wait}{n}「しんせんな やさいが{n} 手に はいればなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"I started a pickle shop with salt from the mill, but it's just not selling!\"{wait}\"If only I could get my hands on some fresh vegetables!\"{wait}"
   },
   {
    "id": "SMAP20_33:043",
    "jp": "「桃太郎さん！{n} しんせんな はくさいを{n} おもちですね！」{wait}{n}「その はくさい を{n} いただけませんか？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You have some fresh napa cabbage!\"{wait}\"Could I have that napa cabbage?\"{wait}"
   },
   {
    "id": "SMAP20_33:044",
    "jp": "「ありがとうございます！{n} よーし これで うまい{n} つけものを つくるぞ！」{wait}",
-   "en": ""
+   "en": "\"Thank you so much! All right, now I'll make some tasty pickles!\"{wait}"
   },
   {
    "id": "SMAP20_33:045",
    "jp": "「そうですね！{n} なんとか 自分の 力で{n} がんばってみます！」{wait}",
-   "en": ""
+   "en": "\"I see! I'll try to manage on my own somehow!\"{wait}"
   },
   {
    "id": "SMAP20_33:046",
    "jp": "「桃太郎さん！ おかげで{n} うちの つけもの屋は{n} だいはんじょうです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thanks to you, my pickle shop is booming!\"{wait}"
   },
   {
    "id": "SMAP20_33:047",
    "jp": "「そのかわり おむかいの{n} つけもの屋さんは お客が{n} へってしまったようで…」{wait}",
-   "en": ""
+   "en": "\"But the pickle shop across the street seems to have lost customers...\"{wait}"
   },
   {
    "id": "SMAP20_33:048",
    "jp": "「わたしの つける つけものは{n} とっても おいしいのよ！」{n}{wait}{n}「むかいの 家には{n} 負けないわ！」{n}{wait}",
-   "en": ""
+   "en": "\"The pickles I make are super delicious!\"{wait}\"I won't lose to the shop across the street!\"{wait}"
   },
   {
    "id": "SMAP20_33:049",
    "jp": "「むかいの お店から{n} お客さんを{n} 取り返さなきゃ！」{wait}",
-   "en": ""
+   "en": "\"I have to win my customers back from the shop across the street!\"{wait}"
   },
   {
    "id": "SMAP20_33:050",
    "jp": "「なにか{n} いい ざいりょうは{n} ないかしら…」{wait}",
-   "en": ""
+   "en": "\"Isn't there some good ingredient around...\"{wait}"
   },
   {
    "id": "SMAP20_33:051",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「その おいしそうな{n} かぶ を ゆずってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Please let me have that tasty-looking turnip!\"{wait}"
   },
   {
    "id": "SMAP20_33:052",
    "jp": "「ありがとうございます！{n} これなら むかいの{n} お店に 勝てるわ！」{wait}",
-   "en": ""
+   "en": "\"Thank you so much! With this, I can beat the shop across the street!\"{wait}"
   },
   {
    "id": "SMAP20_33:053",
    "jp": "「そうですよね！{n} 材料ぐらい 自分で{n} さがさないと！」{wait}",
-   "en": ""
+   "en": "\"You're right! I should find my own ingredients!\"{wait}"
   },
   {
    "id": "SMAP20_33:054",
    "jp": "「桃太郎さん！{n} おどろきましたか？」{n}{wait}{n}「むかいの お店の人と{n} けっこんすることに{n} なったんです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Surprised?\"{wait}\"I'm marrying the owner of the shop across the street!\"{wait}"
   },
   {
    "id": "SMAP20_33:055",
    "jp": "「おたがい しんけんに{n} つけものを つくってるのが{n} わかったんで」{wait}{n}「いっぺんに なかよく{n} なってしまいました！」{n}{wait}",
-   "en": ""
+   "en": "\"We each saw how serious the other was about making pickles,\"{wait}\"and we hit it off right away!\"{wait}"
   },
   {
    "id": "SMAP20_33:056",
    "jp": "「これも 桃太郎さんの{n} しんせんな ざいりょうの{n} おかげです！」{wait}{n}「お礼にも ならないかも{n} しれませんが これを{n} 受け取ってください！」{wait}",
-   "en": ""
+   "en": "\"It's all thanks to your fresh ingredients, Momotaro-san!\"{wait}\"It may not be much of a thank-you, but please accept this!\"{wait}"
   },
   {
    "id": "SMAP20_33:057",
    "jp": "桃太郎は{n}{col4}天下御免の札{col0} を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Untouchable Pass{col0}!{wait}"
   },
   {
    "id": "SMAP20_33:058",
    "jp": "「桃太郎さん！{n} いつでも 遊びに{n} きてください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Come visit us anytime!\"{wait}"
   },
   {
    "id": "SMAP20_33:059",
    "jp": "「まさか しょうばいがたきと{n} けっこんするとは{n} 思いませんでした！」{wait}",
-   "en": ""
+   "en": "\"I never thought I'd marry my business rival!\"{wait}"
   },
   {
    "id": "SMAP20_33:060",
    "jp": "「まいにち はりあって{n} つけものを つけてるうちに」{n}{wait}",
-   "en": ""
+   "en": "\"As we competed every day making pickles,\"{wait}"
   },
   {
    "id": "SMAP20_33:061",
    "jp": "「この人が 本当に{n} まじめな人だって{n} わかったんです！」{wait}",
-   "en": ""
+   "en": "\"I realized he's a truly earnest man!\"{wait}"
   },
   {
    "id": "SMAP20_33:062",
    "jp": "「わたし いま とっても{n} 幸せです！{n} ありがとう 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"I'm so happy now! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:063",
    "jp": "「わたし いま とっても{n} 幸せです！{n} ありがとう 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"I'm so happy now! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP20_33:064",
    "jp": "「犬も 歩けば 暴動に 当たる」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Let sleeping dogs riot!\"{wait}"
   },
   {
    "id": "SMAP20_33:065",
    "jp": "「売りことばに かゆいことば」{n}{n}{wait}",
-   "en": ""
+   "en": "\"You scratch my back, I'll scratch my rash!\"{wait}"
   },
   {
    "id": "SMAP20_33:066",
    "jp": "まわる ウスから{n}いきおいよく 塩が{n}吹き出している！{wait}",
-   "en": ""
+   "en": "Salt is gushing out of the spinning mill!{wait}"
   },
   {
    "id": "SMAP20_33:067",
    "jp": "桃太郎は{n}{col10}牛カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Cow Card{col0}!{c19}{wait}"
   }
  ]
 }

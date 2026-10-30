@@ -8,262 +8,262 @@
   {
    "id": "SMAP23_33:000",
    "jp": "「かぐや姫の 家は{n} 村の 真ん中にある{n} 大きな 家じゃ！」{wait}",
-   "en": ""
+   "en": "\"Princess Kaguya's house is the big house in the middle of the village!\"{wait}"
   },
   {
    "id": "SMAP23_33:001",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「かぐや姫に 会うからには{n} 宝物は 全て{n} そろっておるのだな？」{wait}{n}「宝物とは{n} 竜の首飾り{n} 仏のお鉢」{wait}{n}「金色の毛皮{n} ほうらいの玉{n} つばめの子安貝」{wait}{n}「この 5つ じゃぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"If you're going to meet Princess Kaguya, you've gathered all the treasures, I take it?\"{wait}\"The treasures are the Dragon Necklace, Buddha's Bowl,\"{wait}\"Golden Fur, Horai Jewel and Swallow's Cowry.\"{wait}\"These five!\"{wait}"
   },
   {
    "id": "SMAP23_33:002",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「大変じゃ！ かぐや姫が{n} えんまの 手の ものに{n} さらわれた！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"This is terrible! Princess Kaguya has been kidnapped by Enma's minions!\"{wait}"
   },
   {
    "id": "SMAP23_33:003",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「つばめの子安貝 は{n} 黄泉の塔に{n} あると いわれておる！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"They say the Swallow's Cowry is in Yomi Tower!\"{wait}"
   },
   {
    "id": "SMAP23_33:004",
    "jp": "「鬼が島に 渡るには{n} 北の岬に{n} いくのじゃ！」{wait}",
-   "en": ""
+   "en": "\"To cross over to Onigashima, go to North Cape!\"{wait}"
   },
   {
    "id": "SMAP23_33:005",
    "jp": "「とうとう この村まで{n} きてくれたんですね！{n} 桃太郎さん！」{wait}{n}「あと 少しです！{n} がんばってください！」{n}{wait}",
-   "en": ""
+   "en": "\"You've finally made it all the way to this village, Momotaro-san!\"{wait}\"Just a little further! Keep it up!\"{wait}"
   },
   {
    "id": "SMAP23_33:006",
    "jp": "「桃太郎さんたち だけが{n} 最後の たよりなんです！{n} どうか！ かぐや姫様を！」{wait}",
-   "en": ""
+   "en": "\"You and your friends are our last hope, Momotaro-san! Please! Save Princess Kaguya!\"{wait}"
   },
   {
    "id": "SMAP23_33:007",
    "jp": "「桃太郎さん！{n} あと 少しですね！{n} どの村も 平和に なるのは！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Just a little more and every village will be at peace!\"{wait}"
   },
   {
    "id": "SMAP23_33:008",
    "jp": "「たいへんじゃあ！{n} 桃太郎さん！」{n}{wait}{n}「かぐや姫様が{n} えんまの 手下の 鬼に！」{n}{wait}",
-   "en": ""
+   "en": "\"This is terrible, Momotaro-san!\"{wait}\"Princess Kaguya has been taken by Enma's oni henchmen!\"{wait}"
   },
   {
    "id": "SMAP23_33:009",
    "jp": "「桃太郎さんたちに ばかり{n} ごくろうを おかけして{n} 本当に すみません！」{wait}",
-   "en": ""
+   "en": "\"We're so sorry for putting you and your friends through all this trouble, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP23_33:010",
    "jp": "「ああ！ 竹取りの村までが{n} 鬼に おそわれるなんて！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Now even Taketori Village is under attack by oni!\"{wait}"
   },
   {
    "id": "SMAP23_33:011",
    "jp": "「たくさんの村を すくった{n} 桃太郎さんですから{n} えんまも きっと！」{wait}",
-   "en": ""
+   "en": "\"You've saved so many villages, Momotaro-san, so surely even Enma...!\"{wait}"
   },
   {
    "id": "SMAP23_33:012",
    "jp": "「桃太郎さん！{n} どうか かぐや姫様を{n} 助けてください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please save Princess Kaguya!\"{wait}"
   },
   {
    "id": "SMAP23_33:013",
    "jp": "「桃太郎さん！{n} あと 少しですね！{n} どの村も 平和に なるのは！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Just a little more and every village will be at peace!\"{wait}"
   },
   {
    "id": "SMAP23_33:014",
    "jp": "「かぐや姫様が{n} 鬼に さらわれるなんて！」{n}{wait}{n}「この世の おわりじゃあ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Princess Kaguya, kidnapped by oni!\"{wait}\"It's the end of the world!\"{wait}"
   },
   {
    "id": "SMAP23_33:015",
    "jp": "「桃太郎さん！{n} あと 少しですね！{n} どの村も 平和に なるのは！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Just a little more and every village will be at peace!\"{wait}"
   },
   {
    "id": "SMAP23_33:016",
    "jp": "「かぐや姫様は 鬼が島に{n} つれさられたようです！」{n}{wait}{n}「桃太郎さん！{n} どうか 鬼が島へ 行って{n} かぐや姫様を！」W",
-   "en": ""
+   "en": "\"It seems Princess Kaguya was carried off to Onigashima!\"{wait}\"Momotaro-san! Please go to Onigashima and save Princess Kaguya...!\""
   },
   {
    "id": "SMAP23_33:017",
    "jp": "「へぇーっ！ 本物の{n} 桃太郎さんたち なんだあ！{n} かっちょいいーっ！」{wait}",
-   "en": ""
+   "en": "\"Whoa! It's the real Momotaro-san and friends! So cool!\"{wait}"
   },
   {
    "id": "SMAP23_33:018",
    "jp": "「桃太郎さん！{n} かぐや姫様が 悪いやつらに{n} つれていかれちゃうよー！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The bad guys are taking Princess Kaguya away!\"{wait}"
   },
   {
    "id": "SMAP23_33:019",
    "jp": "「おや おや！ みなさん{n} りっぱな いでたちで！{n} よく にあいますぞ！」{wait}",
-   "en": ""
+   "en": "\"My, my! Such splendid outfits, everyone! They suit you well!\"{wait}"
   },
   {
    "id": "SMAP23_33:020",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「鬼たちは かぐや姫様から{n} 勇気の剣の ありかを{n} 聞き出そうと してるようじゃ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"The oni seem to be trying to make Princess Kaguya tell them where the Sword of Courage is!\"{wait}"
   },
   {
    "id": "SMAP23_33:021",
    "jp": "「みなさん 光かがやくような{n} いでたちが まぶしいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Your outfits are so dazzling, everyone, they practically shine!\"{wait}"
   },
   {
    "id": "SMAP23_33:022",
    "jp": "「ああ！ かぐや姫様！{n} どうか ごぶじで！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Princess Kaguya! Please be safe!\"{wait}"
   },
   {
    "id": "SMAP23_33:023",
    "jp": "「みなさん きれいな{n} すんだ 目を しておりますのォ！」{n}{wait}{n}「きっと えんまを こらしめ{n} 平和を もたらして くれるじゃろ{n} わしは 信じてますぞ！」{wait}",
-   "en": ""
+   "en": "\"You all have such clear, pure eyes!\"{wait}\"Surely you'll punish Enma and bring us peace. I believe in you!\"{wait}"
   },
   {
    "id": "SMAP23_33:024",
    "jp": "「このよの おわりじゃ！{n} なんまんだぶ！ なんまんだぶ！」{n}{wait}",
-   "en": ""
+   "en": "\"It's the end of the world! Namu amida butsu! Namu amida butsu!\"{wait}"
   },
   {
    "id": "SMAP23_33:025",
    "jp": "「おお！ 桃太郎さん！」{n}{n}{wait}{n}「かぐや が あなたに{n} とても 会いたがって{n} おりました！」{wait}",
-   "en": ""
+   "en": "\"Oh! Momotaro-san!\"{wait}\"Kaguya has been longing to meet you!\"{wait}"
   },
   {
    "id": "SMAP23_33:026",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「えんまが かぐや を{n} さらったのは」{n}{wait}{n}「勇気の剣を{n} 桃太郎さんに わたすまいと{n} 思ったのでしょう！」{wait}{n}「ですが！」{n}{n}{wait}{n}「勇気の剣は{n} 実は ある場所に{n} 隠してあるのです！」{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「この村の南{n} すずめのお宿6の 北にある{n} 光る竹を 調べてください！」{wait}{n}「そして どうか 鬼が島へ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"I suppose Enma kidnapped Kaguya...\"{wait}\"...so the Sword of Courage wouldn't reach you, Momotaro-san!\"{wait}\"However!\"{wait}\"The Sword of Courage is in fact hidden in a certain place!\"{wait}\"Momotaro-san!\"{wait}\"Search the glowing bamboo south of this village, north of Sparrow Inn 6!\"{wait}\"And please, go to Onigashima!\"{wait}"
   },
   {
    "id": "SMAP23_33:027",
    "jp": "「勇気の剣を{n} 北の岬で かざすと{n} 鬼が島への 道が 開きます！」{wait}{n}「どうか どうか！{n} かぐやを 助けてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hold up the Sword of Courage at North Cape and the path to Onigashima will open!\"{wait}\"Please, I beg you! Save Kaguya!\"{wait}"
   },
   {
    "id": "SMAP23_33:028",
    "jp": "「桃太郎さん！{n} かぐやは 鬼が島へ{n} つれていかれました！」{wait}{n}「勇気の剣を{n} 北の岬で かざすと{n} 鬼が島への 道が 開きます！」{wait}{n}「どうか どうか！{n} かぐやを 助けてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Kaguya was taken to Onigashima!\"{wait}\"Hold up the Sword of Courage at North Cape and the path to Onigashima will open!\"{wait}\"Please, I beg you! Save Kaguya!\"{wait}"
   },
   {
    "id": "SMAP23_33:029",
    "jp": "「おお！ かぐやのカードを{n} お持ちですか！ では{n} わしの カードも どうぞ！」{wait}",
-   "en": ""
+   "en": "\"Oh! You have Kaguya's card! Then please take mine too!\"{wait}"
   },
   {
    "id": "SMAP23_33:030",
    "jp": "桃太郎は{n}{col10}かぐやのおじいさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Kaguya's Grandpa Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP23_33:031",
    "jp": "「かぐやは あなたが{n} くるのを まちわびて{n} おりました！」{wait}",
-   "en": ""
+   "en": "\"Kaguya has been waiting so eagerly for you to come!\"{wait}"
   },
   {
    "id": "SMAP23_33:032",
    "jp": "「桃太郎さん！ どうか{n} かぐやを 助けてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please, save Kaguya!\"{wait}"
   },
   {
    "id": "SMAP23_33:033",
    "jp": "「かぐやのカードの そばに{n} わたしのカードも {n} ならべてくだされ！」{wait}",
-   "en": ""
+   "en": "\"Please put my card right next to Kaguya's card!\"{wait}"
   },
   {
    "id": "SMAP23_33:034",
    "jp": "桃太郎は{n}{col10}かぐやのおばあさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Kaguya's Grandma Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP23_33:035",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「お待ちしておりました！{n} わたしが かぐやで ございます！」{n}{wait}{n}「この世を すくう まことの{n} 勇気ある者に わたすべく{n} 勇気の剣を 守っておりました！」{wait}{n}「桃太郎さんこそ{n} この剣を 持つに{n} ふさわしい おかたです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"I have been waiting for you! I am Kaguya!\"{wait}\"I have been guarding the Sword of Courage, to hand it to one with true courage who will save this world!\"{wait}\"You, Momotaro-san, are the one worthy of this sword!\"{wait}"
   },
   {
    "id": "SMAP23_33:036",
    "jp": "「ああ！ すでに{n} 5つの 宝物を そろえて{n} いらっしゃるのですね！」{wait}",
-   "en": ""
+   "en": "\"Ah! You have already gathered the five treasures!\"{wait}"
   },
   {
    "id": "SMAP23_33:037",
    "jp": "「それでは{n} 勇気の剣の 隠し場所を{n} お教えいたしましょう！」{wait}",
-   "en": ""
+   "en": "\"Then I shall tell you where the Sword of Courage is hidden!\"{wait}"
   },
   {
    "id": "SMAP23_33:038",
    "jp": "「この村の 南{n} すずめのお宿6の 北に{n} 光る竹が あるはずです！」{wait}",
-   "en": ""
+   "en": "\"South of this village, north of Sparrow Inn 6, there should be a glowing bamboo!\"{wait}"
   },
   {
    "id": "SMAP23_33:039",
    "jp": "「その竹を 調べれば{n} 勇気の剣が {n} 見つかる はずです！」{wait}",
-   "en": ""
+   "en": "\"Search that bamboo and you should find the Sword of Courage!\"{wait}"
   },
   {
    "id": "SMAP23_33:040",
    "jp": "「桃太郎さん！{n} 人々を 救えるのは{n} あなただけです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You alone can save the people!\"{wait}"
   },
   {
    "id": "SMAP23_33:041",
    "jp": "「どうか がんばってください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Please do your very best!\"{wait}"
   },
   {
    "id": "SMAP23_33:042",
    "jp": "「ですが あかしとなる{n} 5つの 宝物を そろえては{n} おられない ごようすですね」{wait}",
-   "en": ""
+   "en": "\"But it seems you have not yet gathered the five treasures that serve as proof.\"{wait}"
   },
   {
    "id": "SMAP23_33:043",
    "jp": "「かぐやは いつまでも{n} ここで お待ちしております！」{n}{wait}{n}「どうか 5つの 宝物を{n} そろえて いらしてください！」{n}{wait}",
-   "en": ""
+   "en": "\"I, Kaguya, will wait for you here for as long as it takes!\"{wait}\"Please come back once you have gathered the five treasures!\"{wait}"
   },
   {
    "id": "SMAP23_33:044",
    "jp": "「ああ！ とうとう{n} 5つの 宝物を そろえて{n} くださったのですね！」{wait}",
-   "en": ""
+   "en": "\"Ah! At last you have gathered the five treasures!\"{wait}"
   },
   {
    "id": "SMAP23_33:045",
    "jp": "「やはり 桃太郎さんこそ{n} まことの 勇気の子でした！」{n}{wait}",
-   "en": ""
+   "en": "\"Just as I thought, Momotaro-san, you are the true child of courage!\"{wait}"
   },
   {
    "id": "SMAP23_33:046",
    "jp": "「まずは これを{n} お受け取りくださいませ！」{n}{wait}",
-   "en": ""
+   "en": "\"First of all, please accept this!\"{wait}"
   },
   {
    "id": "SMAP23_33:047",
    "jp": "桃太郎は{n}{col10}かぐや姫カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Princess Kaguya Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP23_33:048",
    "jp": "「二階から 目薬さすって{n} どういう場面？」{n}{wait}",
-   "en": ""
+   "en": "\"Like looking for a needle in a haystack? Who drops needles in hay, anyway?\"{wait}"
   },
   {
    "id": "SMAP23_33:049",
    "jp": "「真綿で 首をしめるって{n} 面倒でないかい？」{n}{wait}",
-   "en": ""
+   "en": "\"Killing with kindness? Sounds like an awful lot of work!\"{wait}"
   },
   {
    "id": "SMAP23_33:050",
    "jp": "「骨折り損の{n} くびれたラインが素敵！」{n}{wait}",
-   "en": ""
+   "en": "\"No pain, no... gorgeous hourglass figure!\"{wait}"
   },
   {
    "id": "SMAP23_33:051",
    "jp": "あれれれれれ！{n}{n}{wait}",
-   "en": ""
+   "en": "Wha-wha-wha-wha-whaaat?!{wait}"
   }
  ]
 }

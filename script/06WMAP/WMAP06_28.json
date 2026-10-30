@@ -8,37 +8,37 @@
   {
    "id": "WMAP06_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ふゆう仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Float Hermit!\"{wait}"
   },
   {
    "id": "WMAP06_28:001",
    "jp": "「ふゆうの術は からだが{n} ちゅうに うき 毒のぬまちや{n} 落とし穴も へのカッパぢゃ！」{wait}{n}「この 術を 覚えるのは{n} 桃太郎が ふさわしい！」{n}{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「わしに ついてくるのぢゃ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Float art lifts your body into the air, so poison swamps and pitfalls are a piece of cake!\"{wait}\"Momotaro is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"Follow me.\"{wait}"
   },
   {
    "id": "WMAP06_28:002",
    "jp": "「桃太郎！ たまには{n} わざと 落とし穴に{n} 落ちてみろ！」{wait}{n}「思わぬ ひろいものを{n} するかもしれんぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Every now and then, fall into a pitfall on purpose!\"{wait}\"You might find something unexpected! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP06_28:003",
    "jp": "「わしの 修行は この{n} 洞窟の おくまで 行ってくる{n} かんたんな 修行ぢゃ！」{wait}{n}「わしは 先に 行って{n} 待って おるから{n} 早くこい！ ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"My training is simple: just go to the very back of this Cave!\"{wait}\"I'll go on ahead and wait for you, so hurry up! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP06_28:004",
    "jp": "「よくぞ！ ここまで{n} たどりついた ものぢゃ！」{n}{wait}{n}「やくそく どおり{n} ふゆうの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}桃太郎は{n}{col4}ふゆうの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done! You made it all the way here!\"{wait}\"As promised, I shall grant you the Float art! Uhyahya...\"{wait}Momotaro mastered the {col4}Float art{col0}!"
   },
   {
    "id": "WMAP06_28:005",
    "jp": "「おお！ 桃太郎か！ {n} ちょうどよい！ お前に{n} これを くれてやろう！」{wait}{n}桃太郎は{n}{col10}ふゆう仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Oh! Momotaro, is it! Perfect timing! I'll give you this!\"{wait}Momotaro got the {col10}Float Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP06_28:006",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「石橋を たたいて渡れば {n} 怖くない！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Look before you leap, and leap with the whole crowd!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

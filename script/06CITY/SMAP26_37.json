@@ -8,127 +8,127 @@
   {
    "id": "SMAP26_37:000",
    "jp": "「桃太郎さん！{n} ありがとうございました！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you so much!\"{wait}"
   },
   {
    "id": "SMAP26_37:001",
    "jp": "「かぐやは あなたなら 必ず{n} やりとげてくださると{n} 信じておりました！」{wait}",
-   "en": ""
+   "en": "\"I, Kaguya, believed that you would surely see it through!\"{wait}"
   },
   {
    "id": "SMAP26_37:002",
    "jp": "「やはり あなたは まことの{n} 勇気の子 でしたね！」{n}{wait}",
-   "en": ""
+   "en": "\"Just as I thought, you are the true child of courage!\"{wait}"
   },
   {
    "id": "SMAP26_37:003",
    "jp": "「この 旅で{n} あなたたちが しめしてくれた{n} 勇気 希望 正義 愛が」{wait}",
-   "en": ""
+   "en": "\"The courage, hope, justice and love you showed us on this journey...\"{wait}"
   },
   {
    "id": "SMAP26_37:004",
    "jp": "「人だけでなく 鬼の世界をも{n} すくってくれました！」{n}{wait}",
-   "en": ""
+   "en": "\"...saved not only people, but the world of the oni as well!\"{wait}"
   },
   {
    "id": "SMAP26_37:005",
    "jp": "「これからは 人も 鬼も{n} なかよく 一つの 世界を{n} つくって いくことでしょう！」{wait}",
-   "en": ""
+   "en": "\"From now on, people and oni will surely live in harmony and build one world together!\"{wait}"
   },
   {
    "id": "SMAP26_37:006",
    "jp": "村を 出ようとしたとき{n}夜叉姫が 口を ひらいた！{n}{wait}",
-   "en": ""
+   "en": "Just as they were leaving the village, Yashahime spoke up!{wait}"
   },
   {
    "id": "SMAP26_37:007",
    "jp": "「桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP26_37:008",
    "jp": "「お別れの 時が{n} きたようです！」{n}{wait}",
-   "en": ""
+   "en": "\"It seems the time has come to say goodbye!\"{wait}"
   },
   {
    "id": "SMAP26_37:009",
    "jp": "「みなさんと お別れするのが{n} さみしくて ここまで{n} ついてきましたが…」{wait}",
-   "en": ""
+   "en": "\"I was so sad to part from all of you that I came along this far...\"{wait}"
   },
   {
    "id": "SMAP26_37:010",
    "jp": "「えんま様が{n} かいしんした 今！」{n}{wait}",
-   "en": ""
+   "en": "\"But now that Enma-sama has mended his ways...\"{wait}"
   },
   {
    "id": "SMAP26_37:011",
    "jp": "「わたしも 地獄に 戻り{n} 鬼の 王族としての つとめを{n} はたさなくては なりません！」{wait}",
-   "en": ""
+   "en": "\"I too must return to Hell and fulfill my duties as oni royalty!\"{wait}"
   },
   {
    "id": "SMAP26_37:012",
    "jp": "「つらく ながい 旅でしたが{n} 今は やりとげた うれしさで{n} いっぱいです！」{wait}",
-   "en": ""
+   "en": "\"It was a long, hard journey, but now I'm filled with the joy of having seen it through!\"{wait}"
   },
   {
    "id": "SMAP26_37:013",
    "jp": "「それも みな{n} くじけそうに なったとき{n} 桃太郎さんたちの…」{wait}",
-   "en": ""
+   "en": "\"And that's all because, whenever I was about to lose heart, Momotaro-san, all of your...\"{wait}"
   },
   {
    "id": "SMAP26_37:014",
    "jp": "「笑顔が いつも{n} そばに あったからです！」{n}{wait}",
-   "en": ""
+   "en": "\"...smiles were always right there beside me!\"{wait}"
   },
   {
    "id": "SMAP26_37:015",
    "jp": "「桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP26_37:016",
    "jp": "「金太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Kintaro-san!\"{wait}"
   },
   {
    "id": "SMAP26_37:017",
    "jp": "「浦島さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Urashima-san!\"{wait}"
   },
   {
    "id": "SMAP26_37:018",
    "jp": "「ありがとうございます！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you so much!\"{wait}"
   },
   {
    "id": "SMAP26_37:019",
    "jp": "「そして ちょっとだけ{n} サヨウナラです！」{n}{wait}",
-   "en": ""
+   "en": "\"And so, just for a little while... farewell!\"{wait}"
   },
   {
    "id": "SMAP26_37:020",
    "jp": "「また いつでも{n} あえますよね！」{n}{wait}",
-   "en": ""
+   "en": "\"We can meet again anytime, can't we?\"{wait}"
   },
   {
    "id": "SMAP26_37:021",
    "jp": "「だから ちょっとだけ{n} さ よ な ら 」{n}{wait}",
-   "en": ""
+   "en": "\"So, just for a little while... good... bye...\"{wait}"
   },
   {
    "id": "SMAP26_37:022",
    "jp": "めに いっぱい 涙を{n}ためていた 金太郎が{n}さけんだ！{wait}",
-   "en": ""
+   "en": "His eyes brimming with tears, Kintaro shouted!{wait}"
   },
   {
    "id": "SMAP26_37:023",
    "jp": "「さあ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"C'mon, Momotaro!\"{wait}"
   },
   {
    "id": "SMAP26_37:024",
    "jp": "「いこうぜ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Let's go!\"{wait}"
   }
  ]
 }

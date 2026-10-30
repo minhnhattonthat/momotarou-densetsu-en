@@ -8,32 +8,32 @@
   {
    "id": "DMAP09_29:000",
    "jp": "「おお！ お客さんなんて{n} 何年ぶりの ことじゃろうか！」{n}{wait}{n}「よく こんな へんぴな 島を{n} たずねて きてくれたのう！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Visitors! Why, how many years has it been?\"{wait}\"Thank you for coming all the way to this remote island!\"{wait}"
   },
   {
    "id": "DMAP09_29:001",
    "jp": "「よし！ よし！{n} これは わしからの{n} ごほうびじゃ！」{wait}{n}「おサルさんや！{n} どうか これを{n} うけとってくだされ！」{wait}{n}サルが 新しい{n}特技を 覚えた！{n}{wait}",
-   "en": ""
+   "en": "\"Good, good! This is a reward from me!\"{wait}\"Monkey, my friend! Please accept this!\"{wait}Monkey learned a new special skill!{wait}"
   },
   {
    "id": "DMAP09_29:002",
    "jp": "サルは きんとうんを{n}よぶことが{n}できるように なった！{wait}{n}もちろん{n}洞窟や 村には{n}こないけどね！{wait}{n}「きんとうんは{n} 外に 出しておいたからの！{n} 好きに 使ってくだされや」{wait}",
-   "en": ""
+   "en": "Monkey can now summon the Nimbus!{wait}Of course, it won't come into caves or villages!{wait}\"I've left the Nimbus outside! Use it as you please.\"{wait}"
   },
   {
    "id": "DMAP09_29:003",
    "jp": "「そう！ そう！」{n}{n}{wait}{n}「だいじな ことを いうのを{n} わすれとった！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, right! Right!\"{wait}\"I forgot to tell you something important!\"{wait}"
   },
   {
    "id": "DMAP09_29:004",
    "jp": "「きんとうんは{n} ゲームクリアに かんけいない{n} おあそびアイテムじゃ！」{wait}{n}「えんまを こらしめるという{n} 大きな 目的を{n} わすれんようにな！」{wait}",
-   "en": ""
+   "en": "\"The Nimbus is just a fun bonus item that has nothing to do with clearing the game!\"{wait}\"Don't forget your great goal of punishing Enma!\"{wait}"
   },
   {
    "id": "DMAP09_29:005",
    "jp": "「きんとうんは{n} ゲームクリアに かんけいない{n} おあそびアイテムじゃ！」{wait}{n}「えんまを こらしめるという{n} 大きな 目的を{n} わすれんようにな！」{wait}",
-   "en": ""
+   "en": "\"The Nimbus is just a fun bonus item that has nothing to do with clearing the game!\"{wait}\"Don't forget your great goal of punishing Enma!\"{wait}"
   }
  ]
 }

@@ -9,252 +9,252 @@
   {
    "id": "SMAP16_37:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「都が 鬼に おそわれ{n} みなが 苦しめられておる！」{n}{wait}{n}「都の 人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?\"{wait}\"The oni have attacked the Capital and everyone is suffering!\"{wait}\"Won't you help the people of the Capital?\"{wait}"
   },
   {
    "id": "SMAP16_37:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと つよいぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 27段くらいは{n} ないと つらいであろう！」{wait}{n}「27段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni ahead are much, much stronger!\"{wait}\"If you're going on past this village, without about level 27, you'll have a hard time of it!\"{wait}\"If you haven't reached level 27, do your training around here and gain experience!\"{wait}"
   },
   {
    "id": "SMAP16_37:002",
    "jp": "「桃太郎！ 南西のほうの 家に{n} みなが 集まっておるのじゃ！」{n}{wait}{n}「ぜひ そうだんに のって{n} やっておくれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Everyone's gathered at the house to the southwest!\"{wait}\"Please go and lend them your counsel!\"{wait}"
   },
   {
    "id": "SMAP16_37:003",
    "jp": "「ここから はるか 北へ ゆくと{n} びろーんの森が ある！」{n}{wait}{n}「そこに 出てくる{n} びろーんには」{n}{wait}{n}「しゃくねつの弓が{n} よく きくのじゃ！」{n}{wait}{n}「よいな？{n} わすれるで ないぞ！{n} 桃太郎！」{wait}",
-   "en": ""
+   "en": "\"Go far to the north from here, and you'll find the Stretchy Forest!\"{wait}\"The Stretchies that appear there\"{wait}\"are weak to the Scorching Bow!\"{wait}\"Got that? Don't you forget it, Momotaro!\"{wait}"
   },
   {
    "id": "SMAP16_37:004",
    "jp": "「こう くらくては{n} ぶっそうで かなわんのお！」{n}{wait}",
-   "en": ""
+   "en": "\"With it this dark, it's too dangerous to bear!\"{wait}"
   },
   {
    "id": "SMAP16_37:005",
    "jp": "「ひとたび 都を でれば{n} 敵も いままで 以上に{n} お前たちを くるしめよう！」{wait}{n}「北へ むかうなら 道中{n} 仙人の庵を たずねるのを{n} わすれんようにな！」{wait}",
-   "en": ""
+   "en": "\"Once you leave the Capital, the enemies will give you more trouble than ever!\"{wait}\"If you're heading north, don't forget to visit the hermit's hut along the way!\"{wait}"
   },
   {
    "id": "SMAP16_37:006",
    "jp": "「阿修羅は まことに{n} おそろしい 鬼でな！」{n}{wait}{n}「えんまの 手下の 中でも{n} きわだって つよいらしい！」{n}{wait}{n}「桃太郎！{n} ムリは きんもつじゃぞ！{n} みなと ちからを あわせてな！」{wait}",
-   "en": ""
+   "en": "\"Ashura is a truly fearsome oni!\"{wait}\"They say he's by far the strongest of Enma's underlings!\"{wait}\"Momotaro! Don't push yourself too hard! Join forces with everyone!\"{wait}"
   },
   {
    "id": "SMAP16_37:007",
    "jp": "「北の 雪原には{n} わしらの 仲間が{n} ならんでいるはず！」{wait}{n}「ぜひ たずねてやっておくれ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Our friends should be standing in a row on the snowfield to the north!\"{wait}\"Be sure to pay them a visit!\"{wait}"
   },
   {
    "id": "SMAP16_37:008",
    "jp": "「はるばる 都まで きて{n} このありさまで さぞ{n} おどろいたことじゃろう！」{wait}{n}「しかし 桃太郎なら{n} 都を すくうことが{n} できるはず！」{wait}{n}「一つ がんばっておくれ！{n} この とおりじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"You came all the way to the Capital only to find it like this. You must be shocked!\"{wait}\"But you, Momotaro, can surely save the Capital!\"{wait}\"Please, do your very best! I'm begging you!\"{wait}"
   },
   {
    "id": "SMAP16_37:009",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「よくやった！{n} わしは お前たちを{n} 信じていたぞ！」{wait}{n}「これからの 旅も{n} がんばってくれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Well done! I believed in you all along!\"{wait}\"Keep it up on the journey ahead!\"{wait}"
   },
   {
    "id": "SMAP16_37:010",
    "jp": "「都が くらやみに おおわれ{n} 都から 活気が うせたのじゃ！」{n}{wait}{n}「桃太郎！ お前の力で{n} 阿修羅を こらしめ{n} 都に 活気を 取り戻してくれ！」{wait}",
-   "en": ""
+   "en": "\"Darkness has covered the Capital, and all its spirit has drained away!\"{wait}\"Momotaro! Use your strength to punish Ashura and bring the Capital's spirit back!\"{wait}"
   },
   {
    "id": "SMAP16_37:011",
    "jp": "「都ならではの 店も{n} 多いから{n} みのがさんようにな！」{wait}{n}「とくに 都の 真ん中にある{n} 桃太郎博物館は{n} 一度 行ってみるといいぞ！」{wait}",
-   "en": ""
+   "en": "\"There are lots of shops you'll only find in the Capital, so don't miss them!\"{wait}\"Above all, you should visit the Momotaro Museum in the middle of the Capital at least once!\"{wait}"
   },
   {
    "id": "SMAP16_37:012",
    "jp": "「いやァ さっぱりしたゼィ！{n} あさぶろは{n} こたえられませんなあ！」{wait}",
-   "en": ""
+   "en": "\"Ahh, that was refreshing! Nothing beats a morning bath!\"{wait}"
   },
   {
    "id": "SMAP16_37:013",
    "jp": "「おや！ 桃太郎さん！{n} みなさんも おそろいで{n} 都見物ですか！」{wait}{n}「おかげさんで 都も{n} もとどおりですわ！{n} ゆっくりしていってくださいな！」{wait}",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! Out seeing the sights of the Capital with everyone?\"{wait}\"Thanks to you, the Capital's back to normal! Take your time and enjoy yourselves!\"{wait}"
   },
   {
    "id": "SMAP16_37:014",
    "jp": "「さっき これ ひろったの！{n} 桃太郎さんに あげるわ！」{n}{wait}{n}桃太郎は{n}{col10}阿修羅隊カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"I just found this! You can have it, Momotaro-san!\"{wait}Momotaro got the {col10}Ashura Squad Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:015",
    "jp": "「都を出て ずうっと 北に{n} 並び地蔵様の とうげが{n} あるそうです！」{wait}{n}「並び地蔵様たちは{n} 旅人の 強い お味方！{n} たずねてみると よろしいですよ！」{wait}",
-   "en": ""
+   "en": "\"They say if you leave the Capital and go way up north, you'll reach a pass with the Jizo Row!\"{wait}\"The Jizo Row are great friends to travelers! You'd do well to pay them a visit!\"{wait}"
   },
   {
    "id": "SMAP16_37:016",
    "jp": "「北の 谷は{n} つよい 鬼の とおりみちに{n} なっとるそうです！」{wait}{n}「桃太郎さんたちは お強いが{n} 道中は じゅうぶん{n} お気をつけ なすって！」{wait}",
-   "en": ""
+   "en": "\"They say the valley to the north has become a road for strong oni!\"{wait}\"You're all strong, Momotaro-san, but do take good care on the road!\"{wait}"
   },
   {
    "id": "SMAP16_37:017",
    "jp": "「貸衣装屋には{n} 行きましたか？」{n}{wait}{n}「たくさんの{n} 面白い 衣装が{n} あるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"Have you been to the costume rental shop?\"{wait}\"They say it has lots of funny costumes!\"{wait}"
   },
   {
    "id": "SMAP16_37:018",
    "jp": "「都から 先へは{n} 人も よう とおらん！」{n}{wait}{n}「とおまわりでも まず{n} 山ぞいに 北へ ゆき{n} 並び地蔵を めざしなされ！」{wait}{n}「それから 東の{n} 海岸に そって{n} 南へと ゆくが ええ！」{wait}{n}「さすれば やがて{n} 塩吹きの村に{n} つくはずじゃて！」{wait}",
-   "en": ""
+   "en": "\"Hardly anyone travels on past the Capital!\"{wait}\"It's the long way round, but first head north along the mountains toward the Jizo Row!\"{wait}\"Then follow the eastern coast south!\"{wait}\"Do that, and you'll reach Shiobuki Village in time!\"{wait}"
   },
   {
    "id": "SMAP16_37:019",
    "jp": "「桃太郎博物館を{n} 見ないことには しごとも{n} 手につきませんわ！」{wait}{n}「はやいとこ{n} 見物せにゃあ！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't even focus on my work until I've seen the Momotaro Museum!\"{wait}\"Gotta hurry up and go see it!\"{wait}"
   },
   {
    "id": "SMAP16_37:020",
    "jp": "「ホラ ホラ！{n} れつを みだしては{n} いけませんよ！」{wait}",
-   "en": ""
+   "en": "\"Come on, come on! Don't break the line!\"{wait}"
   },
   {
    "id": "SMAP16_37:021",
    "jp": "「ボクたち 都に{n} えんそくに きたんだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"We came to the Capital on a school trip!\"{wait}"
   },
   {
    "id": "SMAP16_37:022",
    "jp": "「これから{n} 桃太郎博物館を{n} 見学するんだ！」{wait}",
-   "en": ""
+   "en": "\"Now we're going to tour the Momotaro Museum!\"{wait}"
   },
   {
    "id": "SMAP16_37:023",
    "jp": "「うわあっ！{n} ほんものの 桃太郎さんだ！{n} ぬいぐるみじゃないよね！」{wait}",
-   "en": ""
+   "en": "\"Whoa! It's the real Momotaro-san! You're not a mascot costume, right?\"{wait}"
   },
   {
    "id": "SMAP16_37:024",
    "jp": "「おやつは 30両までだから{n} ボクは きびだんごを{n} もってきたんだ！」{wait}",
-   "en": ""
+   "en": "\"We're only allowed 30 ryo of snacks, so I brought millet dumplings!\"{wait}"
   },
   {
    "id": "SMAP16_37:025",
    "jp": "「おお 桃太郎！{n} フグに あたって{n} 死んでしまうとは 情けない！」{wait}{n}「鬼と 戦うときは{n} 神様も 注意していたが{n} まさか フグに あたるとは！」{wait}{n}「しっかりせい！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro! Dead from eating bad blowfish? How pitiful!\"{wait}\"The gods warned you to be careful when fighting oni, but who'd have thought blowfish would do you in!\"{wait}\"Pull yourself together, Momotaro!\"{wait}"
   },
   {
    "id": "SMAP16_37:026",
    "jp": "「ところで 桃太郎！{n} 料亭の 主人が おわびにと{n} これを 持ってきた！」{wait}",
-   "en": ""
+   "en": "\"By the way, Momotaro! The owner of the restaurant brought this by as an apology!\"{wait}"
   },
   {
    "id": "SMAP16_37:027",
    "jp": "「打ち出のこづち だ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"It's the Lucky Mallet!\"{wait}"
   },
   {
    "id": "SMAP16_37:028",
    "jp": "「スリの銀次カード だ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"It's the Ginji the Pickpocket Card!\"{wait}"
   },
   {
    "id": "SMAP16_37:029",
    "jp": "桃太郎は{n}{col4}打ち出の小づち{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Lucky Mallet{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:030",
    "jp": "桃太郎は{n}{col10}スリの銀次カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Ginji the Pickpocket Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:031",
    "jp": "「ここは 銭湯だよ！{n} 10両で 汗を{n} 流して 行くかい？」",
-   "en": ""
+   "en": "\"This here's the bathhouse! Wanna wash off your sweat for 10 ryo?\""
   },
   {
    "id": "SMAP16_37:032",
    "jp": "「おう！ ゆっくり{n} あったまって くんな！」{n}{wait}",
-   "en": ""
+   "en": "\"Right! Take your time and warm up good!\"{wait}"
   },
   {
    "id": "SMAP16_37:033",
    "jp": "「なんでぃ{n} 金を 持ってないじゃねーか{n} おととい きやがれってんだ！」{wait}",
-   "en": ""
+   "en": "\"Hey, you ain't got any money! Get outta here and come back never!\"{wait}"
   },
   {
    "id": "SMAP16_37:034",
    "jp": "「だめ だめ！{n} そっちは 女湯だ！{n} 男は 入れないよ！」{wait}{n}「さっき もらった{n} 10両は なかったことに{n} してもらうからね！」{wait}",
-   "en": ""
+   "en": "\"No, no! That's the women's bath! Men can't go in!\"{wait}\"And that 10 ryo you just paid? Let's just say it never happened!\"{wait}"
   },
   {
    "id": "SMAP16_37:035",
    "jp": "「いつも 清潔に してないと{n} 女の子に 嫌われるぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you don't keep yourself clean, the girls won't like you!\"{wait}"
   },
   {
    "id": "SMAP16_37:036",
    "jp": "「兄ちゃん 兄ちゃん！{n} ちゃんと お金を{n} 払ってよ！」{wait}",
-   "en": ""
+   "en": "\"Hey, mister! Hey, mister! You've gotta pay properly!\"{wait}"
   },
   {
    "id": "SMAP16_37:037",
    "jp": "「お代は いただいてるよ！{n} ゆっくり{n} あったまって くんな！」{wait}",
-   "en": ""
+   "en": "\"You've already paid! Take your time and warm up good!\"{wait}"
   },
   {
    "id": "SMAP16_37:038",
    "jp": "うわっ！{n}{n}{wait}",
-   "en": ""
+   "en": "Whoa!{wait}"
   },
   {
    "id": "SMAP16_37:039",
    "jp": "おおーーーーっ！{n}{n}{wait}",
-   "en": ""
+   "en": "Ooooooh!{wait}"
   },
   {
    "id": "SMAP16_37:040",
    "jp": "「ウキキ！ ウキキ！」{n}{n}{wait}{n}「おいらの 芸を{n} 見ておくれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Ooh ooh! Ooh ooh!\"{wait}\"Come and watch my tricks!\"{wait}"
   },
   {
    "id": "SMAP16_37:041",
    "jp": "「キャッ！ キャッ！」{n}{n}{wait}{n}「さあさ！ 楽しい{n} ショーの はじまりだ！」{n}{wait}",
-   "en": ""
+   "en": "\"Ook! Ook!\"{wait}\"Step right up! The fun show's about to begin!\"{wait}"
   },
   {
    "id": "SMAP16_37:042",
    "jp": "「キー！ キー！」{n}{n}{wait}{n}「希望の都に きたら{n} けっこうサル軍団！{n} 見なきゃ そんだよ！」{wait}",
-   "en": ""
+   "en": "\"Eek! Eek!\"{wait}\"Come to the Capital of Hope and see the Splendid Monkey Troupe! Miss it and you'll be sorry!\"{wait}"
   },
   {
    "id": "SMAP16_37:043",
    "jp": "「キャッ！ キャッ！」{n}{n}{wait}{n}「おいらの 芸は{n} 都で 一番！」{n}{wait}",
-   "en": ""
+   "en": "\"Ook! Ook!\"{wait}\"My tricks are the best in the Capital!\"{wait}"
   },
   {
    "id": "SMAP16_37:044",
    "jp": "「ウキキ！ ウキキ！」{n}{n}{wait}{n}「おいらの 仲間が{n} 花咲かの村に{n} いるんだけど」{wait}{n}「そいつの 芸も{n} おもしろいよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Ooh ooh! Ooh ooh!\"{wait}\"I've got a friend over in Hanasaka Village,\"{wait}\"and his tricks are fun too!\"{wait}"
   },
   {
    "id": "SMAP16_37:045",
    "jp": "「キー！ キー！」{n}{n}{wait}{n}「けっこうサル軍団！{n} お代は 見ての{n} おかえりだあ！」{wait}",
-   "en": ""
+   "en": "\"Eek! Eek!\"{wait}\"The Splendid Monkey Troupe! Watch first, pay on your way out!\"{wait}"
   },
   {
    "id": "SMAP16_37:046",
    "jp": "「さあ さあ！{n} よってらっしゃい{n} 見てらっしゃい！」{wait}{n}「希望の都 名物{n} けっこうサル軍団だ！」{n}{wait}",
-   "en": ""
+   "en": "\"Roll up, roll up! Come one, come all!\"{wait}\"It's the pride of the Capital of Hope, the Splendid Monkey Troupe!\"{wait}"
   },
   {
    "id": "SMAP16_37:047",
    "jp": "「あれ？ おっかしいなあ{n} なんだか サルが 1匹{n} 増えてるみたいだぞ」{wait}",
-   "en": ""
+   "en": "\"Huh? That's weird... Looks like there's one more monkey than before.\"{wait}"
   },
   {
    "id": "SMAP16_37:048",
    "jp": "「キャッ！ キャッ！」{n}{n}{wait}{n}「桃太郎さん！{n} お会いしとうございました！」{n}{wait}{n}「風神に 飛ばされた{n} 先が この 希望の都」{n}{wait}{n}「さいわい 仲間が{n} おおぜい いたので{n} おせわに なってました！」{wait}{n}「でも こうして 桃太郎さんが{n} 迎えにきてくれたからには{n} また 勇気 ひゃくばいです！」{wait}{n}「キャッ！ キャッ！」{n}{n}{wait}{n}「桃太郎さん！{n} また 旅のお供を{n} させてください！」{wait}",
-   "en": ""
+   "en": "\"Ook ook!\"{wait}\"Momotaro-san! How I've longed to see you!\"{wait}\"Fujin blew me all the way here to the Capital of Hope.\"{wait}\"Luckily, I had plenty of friends here, and they looked after me!\"{wait}\"But now that you've come for me, Momotaro-san, my courage is a hundred times stronger!\"{wait}\"Ook ook!\"{wait}\"Momotaro-san! Please let me travel with you as your companion again!\"{wait}"
   },
   {
    "id": "SMAP16_37:049",
    "jp": "サルが お供に{n}くわわった！{n}{wait}{n}サルが くわわったので{n}桃太郎の 攻撃力が{n}10上がった！{wait}{n}守備力が{n}10上がった！{n}{wait}",
-   "en": ""
+   "en": "Monkey joined as a companion!{wait}With Monkey joining, Momotaro's Attack rose by 10!{wait}His Defense rose by 10!{wait}"
   },
   {
    "id": "SMAP16_37:050",
@@ -264,397 +264,397 @@
   {
    "id": "SMAP16_37:051",
    "jp": "「いま ダイエットしてるのよ！{n} そういえば やきいもが{n} ダイエットには いいそうね！」{wait}",
-   "en": ""
+   "en": "\"I'm on a diet right now! Come to think of it, they say sweet potatoes are good for dieting!\"{wait}"
   },
   {
    "id": "SMAP16_37:052",
    "jp": "「あら その やきいも{n} わたしに くれないかしら？」{n}",
-   "en": ""
+   "en": "\"Oh my, would you give me that sweet potato?\""
   },
   {
    "id": "SMAP16_37:053",
    "jp": "「ありがとう 桃太郎さん！」{n}{n}{wait}{n}「そういえば となりの{n} おじいさんは 甘いものが{n} 大好物 なんですって！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"Come to think of it, I hear the old man next door just loves sweets!\"{wait}"
   },
   {
    "id": "SMAP16_37:054",
    "jp": "「あら ざんねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Oh, what a shame!\"{wait}"
   },
   {
    "id": "SMAP16_37:055",
    "jp": "「やっぱり ダイエットには{n} やきいもが 一番ね！」{n}{wait}{n}「そういえば となりの{n} おじいさんは 甘いものが{n} 大好物 なんですって！」{wait}",
-   "en": ""
+   "en": "\"Sweet potatoes really are the best for dieting!\"{wait}\"Come to think of it, I hear the old man next door just loves sweets!\"{wait}"
   },
   {
    "id": "SMAP16_37:056",
    "jp": "「のどが かわいたのう！{n} お茶でも のむと しようか！」{n}{wait}",
-   "en": ""
+   "en": "\"My, I'm thirsty! Think I'll have some tea!\"{wait}"
   },
   {
    "id": "SMAP16_37:057",
    "jp": "「やっぱり お茶うけには{n} あまいものが ほしいのう！」{n}{wait}",
-   "en": ""
+   "en": "\"Tea really calls for something sweet on the side!\"{wait}"
   },
   {
    "id": "SMAP16_37:058",
    "jp": "「おおっ 桃太郎さん！{n} その おまんじゅうを {n} わしに くれんかね？」",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! Would you give me that steamed bun?\""
   },
   {
    "id": "SMAP16_37:059",
    "jp": "「わしは おまんじゅうには{n} 目が ないんじゃよ！{n} あんたも そうじゃろ？」{wait}{n}「ところが 武器屋の となりの{n} ばあさんは おまんじゅうより{n} すきなものが あるそうじゃ！」{wait}",
-   "en": ""
+   "en": "\"I just can't resist a steamed bun! You're the same, aren't you?\"{wait}\"But I hear the old lady next to the weapon shop likes something even more than steamed buns!\"{wait}"
   },
   {
    "id": "SMAP16_37:060",
    "jp": "「ああ おまんじゅうが{n} 食べたいのお…」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, how I'd love a steamed bun...\"{wait}"
   },
   {
    "id": "SMAP16_37:061",
    "jp": "「ああ！ おまんじゅうがあると{n} お茶の 味が ひきたつ のう！」{n}{wait}{n}「そういえば 武器屋の となりの{n} ばあさんは おまんじゅうより{n} すきなものが あるそうじゃ！」{wait}",
-   "en": ""
+   "en": "\"Ah! A steamed bun really brings out the flavor of the tea!\"{wait}\"Come to think of it, I hear the old lady next to the weapon shop likes something even more than steamed buns!\"{wait}"
   },
   {
    "id": "SMAP16_37:062",
    "jp": "「そろそろ{n} おやつの 時間かねえ」{n}{wait}",
-   "en": ""
+   "en": "\"Is it about time for a snack, I wonder...\"{wait}"
   },
   {
    "id": "SMAP16_37:063",
    "jp": "「わたしゃ あんまり{n} 甘い おやつは{n} 好きじゃないんじゃ！」{wait}{n}「ほどほどに 甘いおやつが{n} ちょうど ええんじゃよ！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm not too fond of very sweet snacks!\"{wait}\"A snack that's just a little sweet is just right!\"{wait}"
   },
   {
    "id": "SMAP16_37:064",
    "jp": "「おや 桃太郎さん！{n} きびだんごを お持ちかね？」{n}{wait}{n}「それを わたしに{n} くださらんか？」{n}",
-   "en": ""
+   "en": "\"Oh, Momotaro-san! Do you have a millet dumpling?\"{wait}\"Would you give it to me?\""
   },
   {
    "id": "SMAP16_37:065",
    "jp": "「ああ ありがとう！{n} おやつには きびだんごが{n} 一番じゃ！」{wait}{n}「そういえば はきもの屋の{n} となりの 人が 花を{n} 探しておったのう！」{wait}",
-   "en": ""
+   "en": "\"Oh, thank you! A millet dumpling is the best snack there is!\"{wait}\"Come to think of it, the person next to the footwear shop was looking for flowers!\"{wait}"
   },
   {
    "id": "SMAP16_37:066",
    "jp": "「それは ざんねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What a shame!\"{wait}"
   },
   {
    "id": "SMAP16_37:067",
    "jp": "「ふう！ {n} もう おなか いっぱい じゃよ！」{n}{wait}{n}「そういえば はきもの屋の{n} となりの 人が 花を{n} 探しておったのう！」{wait}",
-   "en": ""
+   "en": "\"Whew! I'm full now!\"{wait}\"Come to think of it, the person next to the footwear shop was looking for flowers!\"{wait}"
   },
   {
    "id": "SMAP16_37:068",
    "jp": "「うーん！ どうも{n} 部屋が さびしいなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmm! This room feels so bare!\"{wait}"
   },
   {
    "id": "SMAP16_37:069",
    "jp": "「そうだ！ 花を いけたら{n} 部屋が ひきたつぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"I know! If I put flowers in a vase, the room would really come alive!\"{wait}"
   },
   {
    "id": "SMAP16_37:070",
    "jp": "「ああっ！ 桃太郎さん！{n} そのすいせん わたしに{n} ゆずってください！」",
-   "en": ""
+   "en": "\"Ah! Momotaro-san! Please let me have that daffodil!\""
   },
   {
    "id": "SMAP16_37:071",
    "jp": "「ありがとう！ これで{n} 部屋が ぐっと{n} ひきたちます！」{wait}{n}「おやしきの ほうで{n} 海の幸を さがしてる{n} 人が いるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"Thank you! Now the room really comes alive!\"{wait}\"I hear someone over at the mansion is looking for seafood!\"{wait}"
   },
   {
    "id": "SMAP16_37:072",
    "jp": "「そうですか！{n} それは ざんねん！」{n}{wait}",
-   "en": ""
+   "en": "\"I see! What a shame!\"{wait}"
   },
   {
    "id": "SMAP16_37:073",
    "jp": "「うーん！ いつみても{n} みごとな 部屋だ！」{n}{wait}{n}「そういえば おやしきの ほうで{n} 海の幸を さがしてる{n} 人が いるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"Mmm! This room looks splendid every time I see it!\"{wait}\"Come to think of it, I hear someone over at the mansion is looking for seafood!\"{wait}"
   },
   {
    "id": "SMAP16_37:074",
    "jp": "「たまには めずらしい{n} ものを 食べたいなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"I'd like to eat something unusual for once!\"{wait}"
   },
   {
    "id": "SMAP16_37:075",
    "jp": "「めずらしいもの…{n} ホタテ… サザエ… いや！{n} もっと 高級なものに しよう！」{wait}",
-   "en": ""
+   "en": "\"Something unusual... Scallops... Turban shells... No! Something even fancier!\"{wait}"
   },
   {
    "id": "SMAP16_37:076",
    "jp": "「おや！ 桃太郎さん！{n} お持ちの アワビを{n} ゆずってくださらんか！」",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! Would you let me have that abalone of yours?\""
   },
   {
    "id": "SMAP16_37:077",
    "jp": "「ありがとう！ これで ばんごはんが{n} おいしく 食べられそうです！」{n}{wait}{n}「そういえば となりの 家の{n} こどもが 桃太郎さんに{n} あこがれているそうですよ！」{wait}",
-   "en": ""
+   "en": "\"Thank you! This'll make dinner delicious!\"{wait}\"Come to think of it, I hear the child next door looks up to you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:078",
    "jp": "「それは ざんねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What a shame!\"{wait}"
   },
   {
    "id": "SMAP16_37:079",
    "jp": "「おいしい アワビを{n} ありがとう！{n} 桃太郎さん！」{wait}{n}「そういえば となりの 家の{n} こどもが 桃太郎さんに{n} あこがれているそうですよ！」{wait}",
-   "en": ""
+   "en": "\"Thank you for the delicious abalone, Momotaro-san!\"{wait}\"Come to think of it, I hear the child next door looks up to you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:080",
    "jp": "「おや！ 桃太郎さん！{n} おいしそうな アワビ……？」{n}{wait}{n}「そのアワビ くさってますよ！{n} 活きのいい アワビを{n} 持ってきてください！」{wait}",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! A tasty-looking abalone...?\"{wait}\"That abalone's gone bad! Please bring me a fresh one!\"{wait}"
   },
   {
    "id": "SMAP16_37:081",
    "jp": "「さいきん うちの 子供は{n} 桃太郎さんの 話ばかり{n} するんですよ！」{wait}",
-   "en": ""
+   "en": "\"Lately, all my kid talks about is you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:082",
    "jp": "「桃太郎さんの マネを{n} するのに 刀がほしい{n} とか いいだすし！」{wait}{n}「あぶないから 刀は{n} 持たせませんけどね！」{n}{wait}",
-   "en": ""
+   "en": "\"He even says he wants a sword so he can be like Momotaro-san!\"{wait}\"It's too dangerous, so I won't let him have one!\"{wait}"
   },
   {
    "id": "SMAP16_37:083",
    "jp": "「竹刀を いただいたそうで{n} ありがとうございます！」{n}{wait}{n}「さっそく 外に{n} 遊びに 行くって{n} はりきってますよ！」{wait}{n}「いつもなら 神社の むかいの{n} 女の子が 遊び相手 だったのですが{n} さいきん みかけませんね！」{wait}",
-   "en": ""
+   "en": "\"I hear you gave him a bamboo sword. Thank you!\"{wait}\"He's all fired up to go play outside right away!\"{wait}\"He usually plays with the girl across from the shrine, but I haven't seen her lately!\"{wait}"
   },
   {
    "id": "SMAP16_37:084",
    "jp": "「あっ！ 桃太郎さんだ！」{n}{n}{wait}{n}「かっちょいいなー！{n} ボクも 桃太郎さん{n} みたいに なりたいなー！」{wait}",
-   "en": ""
+   "en": "\"Ah! It's Momotaro-san!\"{wait}\"So cool! I wanna be just like you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:085",
    "jp": "「わーっ！ ねえねえ！{n} その 竹刀 ボクに ちょうだい！{n} ねぇ いいでしょ！」",
-   "en": ""
+   "en": "\"Wow! Hey, hey! Give me that bamboo sword! Pleeease?\""
   },
   {
    "id": "SMAP16_37:086",
    "jp": "「わーい わーい！{n} ありがとう 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Yay, yay! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:087",
    "jp": "「ちぇっ！ ざんねんだなあ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Aw, man! No fair!\"{wait}"
   },
   {
    "id": "SMAP16_37:088",
    "jp": "「ボクも 桃太郎さんみたいな{n} 強い 男に なるんだ！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm gonna be a strong man just like you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:089",
    "jp": "「コホ… コホ…{n} さいきん ちょうしが{n} よくないわ…」{wait}{n}「仙人様の 術には{n} からだに よくきく術が{n} あるそうだけど…」{wait}",
-   "en": ""
+   "en": "\"Cough... cough... I haven't been feeling well lately...\"{wait}\"They say the hermits teach an art that's good for the body...\"{wait}"
   },
   {
    "id": "SMAP16_37:090",
    "jp": "「ああ！ なんだか とても{n} きぶんが スッキリしたわ！」{n}{wait}{n}「ありがとう 桃太郎さん！」{n}{n}{wait}{n}「これは 代々 家に伝わる{n} 宝物です！ どうか{n} うけとってください！」{wait}",
-   "en": ""
+   "en": "\"Oh! All of a sudden I feel so refreshed!\"{wait}\"Thank you, Momotaro-san!\"{wait}\"This is a treasure handed down in my family for generations! Please accept it!\"{wait}"
   },
   {
    "id": "SMAP16_37:091",
    "jp": "桃太郎は{n}{col4}打ち出のこづち{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Lucky Mallet{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:092",
    "jp": "「ありがとう 桃太郎さん！」{n}{n}{wait}{n}「おかげで きぶんが{n} すっきりしました！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"Thanks to you, I feel refreshed!\"{wait}"
   },
   {
    "id": "SMAP16_37:093",
    "jp": "「わしは 絵かきじゃ！」{n}{n}{wait}{n}「さいきん 鬼の 絵を{n} たのまれたんじゃが」{n}{wait}{n}「わしは 見たことないものは{n} かけないのじゃ！」{n}{wait}{n}「こわくて 都の外には{n} 出られんし…{n} こまった こまった！」{wait}",
-   "en": ""
+   "en": "\"I'm a painter!\"{wait}\"Recently someone asked me to paint an oni,\"{wait}\"but I can't paint what I've never seen!\"{wait}\"And I'm too scared to leave the Capital... What a fix, what a fix!\"{wait}"
   },
   {
    "id": "SMAP16_37:094",
    "jp": "「わーっ！ 助けてくれ！」{n}{n}{wait}{n}「…え？」{n}{n}{wait}{n}「なんじゃ{n} 桃太郎さんたちだったのかね！」{n}{wait}{n}「ほう！{n} これが 鬼と{n} いうものか！」{wait}{n}「ありがとう 桃太郎さん！{n} おかげで いい絵が{n} かけそうじゃ！」{wait}{n}「これは{n} ほんの お礼じゃ！{n} 受け取ってくれ！」{wait}",
-   "en": ""
+   "en": "\"Waaah! Help me!\"{wait}\"...Huh?\"{wait}\"Why, it's just you, Momotaro-san, and your friends!\"{wait}\"Well now! So this is what an oni looks like!\"{wait}\"Thank you, Momotaro-san! Thanks to you, I can paint a fine picture!\"{wait}\"This is just a small token of thanks! Please take it!\"{wait}"
   },
   {
    "id": "SMAP16_37:095",
    "jp": "桃太郎は{n}{col4}根性の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:096",
    "jp": "「むむむむむ！{n} けっさくが できそうな{n} よかんが するぞい！」{wait}",
-   "en": ""
+   "en": "\"Hmmmmm! I've got a feeling a masterpiece is coming on!\"{wait}"
   },
   {
    "id": "SMAP16_37:097",
    "jp": "「ああ… かっこいい人に{n} 会ってみたいわ…」{n}{wait}",
-   "en": ""
+   "en": "\"Ahh... I'd love to meet a handsome man...\"{wait}"
   },
   {
    "id": "SMAP16_37:098",
    "jp": "「きゃーっ！ すごい！{n} かっこいい！ すてきー！」{n}{wait}{n}「…え？」{n}{n}{wait}{n}「なんだ{n} 桃太郎さんだったの？」{n}{wait}{n}「うふふ！ でも{n} かっこいい人に{n} 会えて よかったわ！」{wait}{n}「桃太郎さん！{n} どうも ありがとう！」{n}{wait}",
-   "en": ""
+   "en": "\"Eeek! Amazing! So handsome! So dreamy!\"{wait}\"...Huh?\"{wait}\"Oh, it's just you, Momotaro-san?\"{wait}\"Tee hee! Well, I still got to meet a handsome man, so I'm happy!\"{wait}\"Momotaro-san! Thank you so much!\"{wait}"
   },
   {
    "id": "SMAP16_37:099",
    "jp": "桃太郎は{n}{col4}元気の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Vigor Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:100",
    "jp": "「こんどは おむこさんを{n} 探さなきゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Next I have to find myself a husband!\"{wait}"
   },
   {
    "id": "SMAP16_37:101",
    "jp": "「都が 闇に 閉ざされたときは{n} どうなることかと 思いました！」{n}{wait}",
-   "en": ""
+   "en": "\"When the Capital was shut in darkness, I didn't know what would become of us!\"{wait}"
   },
   {
    "id": "SMAP16_37:102",
    "jp": "「都に 光を 取り戻してくれて{n} ありがとう！ 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you for bringing light back to the Capital, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:103",
    "jp": "「わーい わーい！{n} 都が 明るくなったよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Yay, yay! The Capital's bright again!\"{wait}"
   },
   {
    "id": "SMAP16_37:104",
    "jp": "「鬼も いっしょに{n} くらしてみりゃあ{n} いいやつじゃねえか！」{wait}{n}「桃太郎さんも{n} そう 思うでしょ？」{n}{wait}",
-   "en": ""
+   "en": "\"Once you live with 'em, oni turn out to be pretty good guys!\"{wait}\"Don't you think so too, Momotaro-san?\"{wait}"
   },
   {
    "id": "SMAP16_37:105",
    "jp": "「こんどから 都に{n} 住むことに なりました！」{n}{wait}{n}「人間の みなさんと{n} なかよく くらしてます！」{n}{wait}",
-   "en": ""
+   "en": "\"From now on, we'll be living in the Capital!\"{wait}\"We're getting along nicely with all the humans!\"{wait}"
   },
   {
    "id": "SMAP16_37:106",
    "jp": "「かあさん おそいなあ！{n} 道に 迷ってないと{n} いいんだが」{wait}",
-   "en": ""
+   "en": "\"Mom's so late! I hope she hasn't gotten lost...\"{wait}"
   },
   {
    "id": "SMAP16_37:107",
    "jp": "「かあさん！ あんまり{n} おそいんで 心配したよ！」{n}{wait}{n}「桃太郎さん！ かあさんを{n} つれてきてくれて{n} ありがとうございました！」{wait}",
-   "en": ""
+   "en": "\"Mom! You were so late, I was worried!\"{wait}\"Momotaro-san! Thank you for bringing my mother here!\"{wait}"
   },
   {
    "id": "SMAP16_37:108",
    "jp": "「これは ほんの お礼です！」{n}{n}{wait}{n}桃太郎は{n}{col4}こうがしゃの玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"This is just a small token of thanks!\"{wait}Momotaro got the {col4}Myriad Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:109",
    "jp": "「桃太郎さん ありがとう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:110",
    "jp": "「息子を たずねて 都に{n} きましたが 広くて{n} 家が わかりません！」{wait}{n}「井戸の ある 家なんじゃが{n} つれて行って くださらんか？」{n}{wait}",
-   "en": ""
+   "en": "\"I came to the Capital to visit my son, but it's so big I can't find his house!\"{wait}\"It's a house with a well. Would you take me there?\"{wait}"
   },
   {
    "id": "SMAP16_37:111",
    "jp": "「ありがとう ありがとう！{n} では どうか よろしく{n} おねがいします！」{wait}",
-   "en": ""
+   "en": "\"Thank you, thank you! Then I'm in your hands!\"{wait}"
   },
   {
    "id": "SMAP16_37:112",
    "jp": "「ああ こまったのう！{n} 息子が 待ってるだろうに！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, what a fix! My son must be waiting for me!\"{wait}"
   },
   {
    "id": "SMAP16_37:113",
    "jp": "「桃太郎さん ありがとう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:114",
    "jp": "「すみませんが よろしく{n} おねがいします！」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry to trouble you, but I'm counting on you!\"{wait}"
   },
   {
    "id": "SMAP16_37:115",
    "jp": "「ここは 花畑に{n} しようかと 思ってます！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm thinking of making this spot into a flower bed!\"{wait}"
   },
   {
    "id": "SMAP16_37:116",
    "jp": "「花の種を お持ちですね！{n} どうぞ 自由に{n} まいてください！」{wait}",
-   "en": ""
+   "en": "\"You have flower seeds! Go ahead and plant them as you like!\"{wait}"
   },
   {
    "id": "SMAP16_37:117",
    "jp": "「きれいな 花が 咲くと{n} いいですね 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"I hope pretty flowers bloom, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:118",
    "jp": "花畑の中から{n}金創丹を{n}見つけた！{wait}",
-   "en": ""
+   "en": "Found a Wound Pill among the flowers!{wait}"
   },
   {
    "id": "SMAP16_37:119",
    "jp": "桃太郎は{n}{col4}金創丹{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Wound Pill{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:120",
    "jp": "花畑の中から{n}野生の薬草を{n}見つけた！{wait}",
-   "en": ""
+   "en": "Found a Wild Herb among the flowers!{wait}"
   },
   {
    "id": "SMAP16_37:121",
    "jp": "桃太郎は{n}{col4}野生の薬草{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Wild Herb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:122",
    "jp": "花畑の中から{n}へんな 匂いが{n}漂っている！{wait}",
-   "en": ""
+   "en": "A strange smell is drifting up from the flowers!{wait}"
   },
   {
    "id": "SMAP16_37:123",
    "jp": "桃太郎に{n}へんな匂いが{n}しみついた！{c19}{wait}",
-   "en": ""
+   "en": "The strange smell clung to Momotaro!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:124",
    "jp": "「いらっしゃーい！{n} 貸衣装屋に ようこそ！」{n}{wait}{n}「たったの 10両で あなたを{n} すてきに ドレスアップ！」{n}{wait}{n}「どの 衣装を{n} お貸ししましょうか？」{n}",
-   "en": ""
+   "en": "\"Welcooome! Welcome to the costume rental shop!\"{wait}\"For just 10 ryo, we'll dress you up in style!\"{wait}\"Which costume would you like to rent?\""
   },
   {
    "id": "SMAP16_37:125",
    "jp": "「{str} ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SMAP16_37:126",
    "jp": "「それでは{n} 楽しんでくださいね！」{n}{wait}{n}「希望の都から 出ると{n} もとに 戻っちゃうから{n} 気を つけてね！」{wait}",
-   "en": ""
+   "en": "\"Well then, have fun!\"{wait}\"If you leave the Capital of Hope, you'll change back to normal, so be careful!\"{wait}"
   },
   {
    "id": "SMAP16_37:127",
    "jp": "「あらあら！{n} すみませんが お金が{n} たりないようですわ！」{wait}",
-   "en": ""
+   "en": "\"Oh dear! I'm sorry, but you don't seem to have enough money!\"{wait}"
   },
   {
    "id": "SMAP16_37:128",
    "jp": "「どの 衣装を{n} お貸ししましょうか？」{n}",
-   "en": ""
+   "en": "\"Which costume would you like to rent?\""
   },
   {
    "id": "SMAP16_37:129",
    "jp": "「また どうぞー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Come again!\"{wait}"
   },
   {
    "id": "SMAP16_37:130",
@@ -669,7 +669,7 @@
   {
    "id": "SMAP16_37:132",
    "jp": "にわとり",
-   "en": ""
+   "en": "Chicken"
   },
   {
    "id": "SMAP16_37:133",
@@ -694,687 +694,687 @@
   {
    "id": "SMAP16_37:137",
    "jp": "桃鉄電車",
-   "en": ""
+   "en": "Momotetsu Train"
   },
   {
    "id": "SMAP16_37:138",
    "jp": "「ここは かんばん屋 だよ！{n} 桃太郎さんに 特別{n} なんか かいてあげようか？」",
-   "en": ""
+   "en": "\"This here's the sign shop! Want me to paint you something special, Momotaro-san?\""
   },
   {
    "id": "SMAP16_37:139",
    "jp": "「どうだい 気にいって{n} もらえたかな！」{n}{wait}」",
-   "en": ""
+   "en": "\"How's that? Do you like it?\"{wait}\""
   },
   {
    "id": "SMAP16_37:140",
    "jp": "「いつでも あそびに{n} きてくんな！」{n}{wait}",
-   "en": ""
+   "en": "\"Come by and have fun anytime!\"{wait}"
   },
   {
    "id": "SMAP16_37:141",
    "jp": "「お！ 桃太郎さん{n} いらっしゃい！」{n}{wait}{n}「ここでは 鬼のまと当てが{n} 楽しめるよ！{n} やってみるかい？」",
-   "en": ""
+   "en": "\"Oh! Momotaro-san, welcome!\"{wait}\"Here you can enjoy Oni Target Practice! Wanna give it a try?\""
   },
   {
    "id": "SMAP16_37:142",
    "jp": "「お！ さすが 桃太郎さんだ！{n} いっちょ うでを みせてくれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! That's Momotaro-san for you! Show me what you've got!\"{wait}"
   },
   {
    "id": "SMAP16_37:143",
    "jp": "「ありがとさん！{n} また いつでも きてくれよな！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks a bunch! Come back anytime!\"{wait}"
   },
   {
    "id": "SMAP16_37:144",
    "jp": "「じゃあ また きてくれよな！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Well, come again sometime!\"{wait}"
   },
   {
    "id": "SMAP16_37:145",
    "jp": "「ここでは 桃まと当てが{n} 楽しめるよ！{n} やってみるかい？」",
-   "en": ""
+   "en": "\"Here you can enjoy Peach Target Practice! Wanna give it a try?\""
   },
   {
    "id": "SMAP16_37:146",
    "jp": "「お！ さすが 桃太郎さんだ！{n} いっちょ うでを みせてくれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! That's Momotaro-san for you! Show me what you've got!\"{wait}"
   },
   {
    "id": "SMAP16_37:147",
    "jp": "「ありがとうよ！{n} また きてくれよな！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks a lot! Come again!\"{wait}"
   },
   {
    "id": "SMAP16_37:148",
    "jp": "「じゃあ また きてくれよな！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Well, come again sometime!\"{wait}"
   },
   {
    "id": "SMAP16_37:149",
    "jp": "「いらっしゃい！{n} ここでは みんな 大笑いの{n} 福笑いが 楽しめるよ！」{wait}{n}「さあさあ！ 希望の都の{n} 思い出に 一つ{n} やってみないかい？」",
-   "en": ""
+   "en": "\"Welcome! Here you can enjoy Fukuwarai, the game that cracks everybody up!\"{wait}\"Come on! Why not have a go, as a souvenir of the Capital of Hope?\""
   },
   {
    "id": "SMAP16_37:150",
    "jp": "「よっしゃ！ ここは 一つ{n} 大爆笑モンのを たのむよ！」{n}{wait}",
-   "en": ""
+   "en": "\"All right! Make it a real side-splitter!\"{wait}"
   },
   {
    "id": "SMAP16_37:151",
    "jp": "「ありがとう！{n} あんたなら いつでも{n} 大歡迎だよ！」{wait}",
-   "en": ""
+   "en": "\"Thanks! You're welcome here anytime!\"{wait}"
   },
   {
    "id": "SMAP16_37:152",
    "jp": "「また 気がむいたら{n} きてくれよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Come back whenever you feel like it!\"{wait}"
   },
   {
    "id": "SMAP16_37:153",
    "jp": "「いらっしゃい！{n} スリル満点の ダルマ落としが{n} 楽しめるのは うちだけだよ！」{wait}{n}「さあさあ 大将！{n} もう やるしかないよね？」{n}",
-   "en": ""
+   "en": "\"Welcome! We're the only place where you can enjoy the thrills of Daruma Drop!\"{wait}\"Come on, boss! You've just gotta play, right?\""
   },
   {
    "id": "SMAP16_37:154",
    "jp": "「よっしゃ！{n} 手に ツバを付けて 気合いを{n} いれとくれよ！」{wait}",
-   "en": ""
+   "en": "\"All right! Spit on your hands and get yourself pumped!\"{wait}"
   },
   {
    "id": "SMAP16_37:155",
    "jp": "「どうだい スリル満点{n} だっただろ？{n} また いつでも きてくれよ！」{wait}",
-   "en": ""
+   "en": "\"How was that? Thrilling, right? Come back anytime!\"{wait}"
   },
   {
    "id": "SMAP16_37:156",
    "jp": "「そうかい 残念だねぇ！{n} ま いいや！{n} また いつでも きてくれよ！」{wait}",
-   "en": ""
+   "en": "\"Is that so? Too bad! Oh well! Come back anytime!\"{wait}"
   },
   {
    "id": "SMAP16_37:157",
    "jp": "「お！ 桃太郎さん{n} いらっしゃい！」{n}{wait}{n}「ストレス解消に 一番の{n} 鬼たたき屋とは{n} 何をかくそう ウチのことさ！」{wait}{n}「ここに きたからには{n} もう やるしかないね？」{n}",
-   "en": ""
+   "en": "\"Oh! Momotaro-san, welcome!\"{wait}\"The best stress relief around is Whack-an-Oni, and I'll let you in on a secret: this is the place!\"{wait}\"Now that you're here, you've gotta play, right?\""
   },
   {
    "id": "SMAP16_37:158",
    "jp": "「おっし！ じゃあ{n} この きづちを持って{n} こっちに きてくんな！」{wait}",
-   "en": ""
+   "en": "\"All right! Then grab this mallet and come over here!\"{wait}"
   },
   {
    "id": "SMAP16_37:159",
    "jp": "「どうだい ストレス解消には{n} なったかい？{n} また きてくれよ！」{wait}",
-   "en": ""
+   "en": "\"How was that? Feeling less stressed? Come again!\"{wait}"
   },
   {
    "id": "SMAP16_37:160",
    "jp": "「じゃあ また きてくれよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Well, come again!\"{wait}"
   },
   {
    "id": "SMAP16_37:161",
    "jp": "「ボクは まと当ての 名人を{n} めざすんだ！{n} 桃太郎さんとは ライバルだね！」{wait}",
-   "en": ""
+   "en": "\"I'm gonna be a target practice master! That makes us rivals, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:162",
    "jp": "「ふぉ ふぉ ふぉ！{n} まと当ては いがいと{n} おもしろいのう！」{wait}",
-   "en": ""
+   "en": "\"Ho ho ho! Target practice is more fun than you'd think!\"{wait}"
   },
   {
    "id": "SMAP16_37:163",
    "jp": "「うちの じいさまは{n} 年がいもなく まと当てに{n} 夢中なのじゃ！」{wait}{n}「…………じつは{n} ワシも 夢中なの じゃがね！」{n}{wait}",
-   "en": ""
+   "en": "\"My old man's gone crazy for target practice, at his age!\"{wait}\"............Truth is, so have I!\"{wait}"
   },
   {
    "id": "SMAP16_37:164",
    "jp": "「希望の都って いろんな 遊技場が{n} あるけど わたしの イチオシは{n} ダントツ ダルマ落としね！」{wait}{n}「ちょっと むずかしいけど{n} あのドキドキする スリルが{n} たまらないわぁ～！」{wait}",
-   "en": ""
+   "en": "\"The Capital of Hope has all sorts of game halls, but my top pick is Daruma Drop, hands down!\"{wait}\"It's a little hard, but that heart-pounding thrill is just irresistible!\"{wait}"
   },
   {
    "id": "SMAP16_37:165",
    "jp": "「わたしねぇ 福笑いの{n} 貧乏神が すき～！」{n}{wait}{n}「だってね うまくできても{n} できなくても{n} おもしろいかおに なるから！」{wait}",
-   "en": ""
+   "en": "\"Y'know, I love the poverty god in Fukuwarai!\"{wait}\"'Cause whether you do it right or not, it always ends up a funny face!\"{wait}"
   },
   {
    "id": "SMAP16_37:166",
    "jp": "「桃太郎さんに しつもーん！{n} 鬼たたきで{n} 1000点こえた？」",
-   "en": ""
+   "en": "\"Question for Momotaro-san! Did you get over 1000 points in Whack-an-Oni?\""
   },
   {
    "id": "SMAP16_37:167",
    "jp": "「うわー！ スゴーイ！{n} ボクより うまいや！{n} 名人って よばせて！」{wait}",
-   "en": ""
+   "en": "\"Whoa! Amazing! You're better than me! Can I call you master?\"{wait}"
   },
   {
    "id": "SMAP16_37:168",
    "jp": "「ボクと いっしょだね！{n} 残り時間が 10秒をきると{n} 一気に むずかしくなるよね！」{wait}",
-   "en": ""
+   "en": "\"Same as me! Once there's under 10 seconds left, it gets way harder all of a sudden, right?\"{wait}"
   },
   {
    "id": "SMAP16_37:169",
    "jp": "「鬼たたきの コツは{n} 何だと 思う？{n} それは ズバリ！ リズムさ！」{wait}{n}「とくに 後半の鬼の ラッシュは{n} リズミカルに 対応しないと{n} あっという間に 終わりだね！」{wait}",
-   "en": ""
+   "en": "\"What do you think the trick to Whack-an-Oni is? I'll tell you straight! It's rhythm!\"{wait}\"Especially the oni rush near the end. If you don't keep up a steady rhythm, it's over in no time!\"{wait}"
   },
   {
    "id": "SMAP16_37:170",
    "jp": "「一石 二丁拳銃」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Kill two birds with two six-shooters!\"{wait}"
   },
   {
    "id": "SMAP16_37:171",
    "jp": "「負け犬の オーボエ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Barking up the wrong tuba!\"{wait}"
   },
   {
    "id": "SMAP16_37:172",
    "jp": "「おおおおおおおっ！{n} ここが 希望の都かああっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Whoooooa! So this is the Capital of Hope!\"{wait}"
   },
   {
    "id": "SMAP16_37:173",
    "jp": "「ようこそ 希望の都へ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Welcome to the Capital of Hope!\"{wait}"
   },
   {
    "id": "SMAP16_37:174",
    "jp": "「この 希望の都の 広さには{n} おどろく ばかりです！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm just amazed by how big the Capital of Hope is!\"{wait}"
   },
   {
    "id": "SMAP16_37:175",
    "jp": "「これが 希望の都 名物{n} 五重塔 ですか！{n} りっぱな もんですのぉ！」{wait}",
-   "en": ""
+   "en": "\"So this is the pagoda the Capital of Hope is famous for! Mighty impressive!\"{wait}"
   },
   {
    "id": "SMAP16_37:176",
    "jp": "「希望の都が 活気を{n} とりもどした お礼です！{n} うけとってくだされ！」{wait}{n}桃太郎は{n}{col10}くぐつ鬼カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"This is my thanks for bringing the Capital of Hope back to life! Please take it!\"{wait}Momotaro got the {col10}Puppet Oni Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:177",
    "jp": "「うーい！{n} よっぱらっちゃたよー！{n} 酒の つまみが ほしいぜ！」{wait}",
-   "en": ""
+   "en": "\"Hic! I'm plastered! I need somethin' to snack on with my sake!\"{wait}"
   },
   {
    "id": "SMAP16_37:178",
    "jp": "「おっ！ おねえちゃん！{n} 酒の つまみに カニを{n} 売ってくれよ！」",
-   "en": ""
+   "en": "\"Hey! Little lady! Sell me a crab to go with my sake!\""
   },
   {
    "id": "SMAP16_37:179",
    "jp": "「これこれ！{n} いっぱいやるには カニが{n} 一番だぜ！ ひっく！」{wait}{n}「こいつは お代だ！{n} つりは いらねえ とっときな！」{n}{wait}{n}桃太郎は{n}1000両{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"That's the stuff! Nothin' beats crab with a drink! Hic!\"{wait}\"Here's your money! Keep the change!\"{wait}Momotaro got 1000 ryo!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:180",
    "jp": "「ちぇっ！ このつぎは{n} ちゃんと 売ってくれよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Tch! Next time, sell me one, will ya!\"{wait}"
   },
   {
    "id": "SMAP16_37:181",
    "jp": "「あー！ カニが うめえや！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ahh! This crab is delicious!\"{wait}"
   },
   {
    "id": "SMAP16_37:182",
    "jp": "「えーっと！ カード道場は{n} どっちだったっけ？」{n}{wait}{n}「たしか 都の 西のほう{n} だったよなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Umm! Which way was the Card Dojo again?\"{wait}\"Pretty sure it was on the west side of the Capital!\"{wait}"
   },
   {
    "id": "SMAP16_37:183",
    "jp": "「今日は 遊技場で{n} いっぱい 遊ぶんだい！」{n}{wait}",
-   "en": ""
+   "en": "\"Today I'm gonna play loads at the game halls!\"{wait}"
   },
   {
    "id": "SMAP16_37:184",
    "jp": "「西には カード道場や{n} ふろ屋が」{n}{wait}{n}「東には 遊技場が{n} ありますよ！」{n}{wait}",
-   "en": ""
+   "en": "\"To the west are the Card Dojo and the bathhouse,\"{wait}\"and to the east are the game halls!\"{wait}"
   },
   {
    "id": "SMAP16_37:185",
    "jp": "「わしは めずらしい 刀を{n} 集めております！」{n}{wait}{n}「この世の どこかに 勇気の剣{n} という 刀があると きいて{n} 探しているのです！」{wait}{n}「勇気の剣が 手に 入るのなら{n} わしの 宝と ひきかえにしても{n} いいのじゃが…」{wait}",
-   "en": ""
+   "en": "\"I collect rare swords!\"{wait}\"I heard there's a sword somewhere in this world called the Sword of Courage, so I'm searching for it!\"{wait}\"If I could get the Sword of Courage, I'd even trade my own treasure for it...\"{wait}"
   },
   {
    "id": "SMAP16_37:186",
    "jp": "「おお！ おお！ それは{n} まさしく 勇気の剣！」{n}{wait}{n}「も も 桃太郎さん！{n} ぜひ その 勇気の剣を{n} わしに ゆずってくだされ！」{wait}{n}「ああ！じゃが 桃太郎さんの{n} 鬼退治の じゃまをするわけには{n} まいりません！」{wait}{n}「ゆずるのは むりでしょうから{n} せめて 一目{n} 見せてくださらんか？」",
-   "en": ""
+   "en": "\"Oh! Oh! That is surely the Sword of Courage!\"{wait}\"M-M-Momotaro-san! Please, let me have that Sword of Courage!\"{wait}\"Ah! But I mustn't get in the way of your oni slaying, Momotaro-san!\"{wait}\"I know you can't give it up, so won't you at least let me have a look at it?\""
   },
   {
    "id": "SMAP16_37:187",
    "jp": "「おお！ 桃太郎さん！{n} ほ 本当ですか？」{n}{wait}{n}おじいさんは {col0}勇気の剣{col0}を{n}じっくり ながめている！{n}{wait}{n}「…むりを もうしあげました！{n} 勇気の剣が この世に 一つの{n} 宝なのは しっております！」{wait}{n}「きちょうな ものを{n} 見せていただき{n} ありがとうございました！」{wait}{n}「お礼に これを さしあげます！{n} どうぞ うけとってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! R-really?\"{wait}The old man is gazing intently at the {col0}Sword of Courage{col0}!{wait}\"...I asked too much of you! I know the Sword of Courage is a one-of-a-kind treasure!\"{wait}\"Thank you for letting me see something so precious!\"{wait}\"Please accept this as thanks!\"{wait}"
   },
   {
    "id": "SMAP16_37:188",
    "jp": "桃太郎は{n}{col4}こんろんの連珠{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Kunlun Beads{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:189",
    "jp": "「そうですか！ せめて{n} 一目でも いいから{n} 勇気の剣が 見たかった！」{wait}{n}「ざんねんです！ もしも{n} 気が かわったときは{n} よろしく おねがいします！」{wait}",
-   "en": ""
+   "en": "\"I see! I wanted to see the Sword of Courage, even just once!\"{wait}\"What a pity! If you ever change your mind, please let me know!\"{wait}"
   },
   {
    "id": "SMAP16_37:190",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「きちょうな ものを {n} 見せていただき{n} ありがとうございました！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Thank you for letting me see something so precious!\"{wait}"
   },
   {
    "id": "SMAP16_37:191",
    "jp": "「ねえ ねえ！{n} といち屋って お金が{n} いっぱい あるんでしょ？」{wait}{n}「鬼が ドロボーに{n} 入ったり しないのかな？」{n}{wait}",
-   "en": ""
+   "en": "\"Hey, hey! The Bank has lots of money, right?\"{wait}\"Don't oni ever break in and rob it?\"{wait}"
   },
   {
    "id": "SMAP16_37:192",
    "jp": "「あっ！ カッパだ！{n} といち屋の お金を{n} ぬすみに きたの？」",
-   "en": ""
+   "en": "\"Ah! A Kappa! Did you come to steal the Bank's money?\""
   },
   {
    "id": "SMAP16_37:193",
    "jp": "「あーっ！ 悪いんだ！{n} 桃太郎さんに{n} いいつけよーっと！」{wait}",
-   "en": ""
+   "en": "\"Ooh! You're bad! I'm telling Momotaro-san on you!\"{wait}"
   },
   {
    "id": "SMAP16_37:194",
    "jp": "「へーっ！ いいカッパさん{n} なんだね！ じゃあ{n} これ あげる！」{wait}",
-   "en": ""
+   "en": "\"Huh! So you're a nice Kappa! Then here, you can have this!\"{wait}"
   },
   {
    "id": "SMAP16_37:195",
    "jp": "桃太郎は{n}{col4}やきいも{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Sweet Potato{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:196",
    "jp": "「悪いことしちゃ だめだよ{n} カッパさん！」{n}{wait}",
-   "en": ""
+   "en": "\"Don't do anything bad, Kappa-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:197",
    "jp": "「さいきん 心に{n} ひびくような 歌手が{n} いなくなったわねえ！」{wait}",
-   "en": ""
+   "en": "\"These days there just aren't any singers who really touch your heart, are there?\"{wait}"
   },
   {
    "id": "SMAP16_37:198",
    "jp": "「ひええええっ！{n} あ あなたは ましら！」{n}{wait}{n}「ま まさか この 希望の都で{n} コンサートを ひらくとか？」{n}",
-   "en": ""
+   "en": "\"Eeeeek! Y-you're Mashira!\"{wait}\"D-don't tell me you're holding a concert here in the Capital of Hope?\""
   },
   {
    "id": "SMAP16_37:199",
    "jp": "「あわわわわ！ ましらさんの{n} 歌が 心に ひびくのは{n} しょうちしてます！」{wait}{n}「だから コンサートだけは{n} かんべんしてえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Ahhh! I know full well your songs touch the heart, Mashira-san!\"{wait}\"So please, anything but a concert!\"{wait}"
   },
   {
    "id": "SMAP16_37:200",
    "jp": "「よかったあ！」{n}{n}{wait}{n}「あ！ べつに 歌を きくのが{n} いやってわけじゃ{n} ないんですよ！」{wait}{n}「あ あの これ あげます！{n} だから おこらないでね？」{n}{wait}",
-   "en": ""
+   "en": "\"Phew!\"{wait}\"Oh! It's not like I don't want to hear your songs or anything!\"{wait}\"U-um, you can have this! So please don't be mad, okay?\"{wait}"
   },
   {
    "id": "SMAP16_37:201",
    "jp": "桃太郎は{n}{col4}金のなる木{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Money Tree{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:202",
    "jp": "「ざ ざんねんだなあ！{n} ましらさんの 歌が{n} きけないなんて！」{wait}",
-   "en": ""
+   "en": "\"Wh-what a shame! No songs from Mashira-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:203",
    "jp": "「あーあ！ あるくの{n} つかれちゃったなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Aww! I'm tired of walking!\"{wait}"
   },
   {
    "id": "SMAP16_37:204",
    "jp": "「わあ！ 電車だ！{n} 乗せて 乗せて！」{n}{wait}{n}「なーんだ 桃太郎さんか！{n} 桃太郎さんも 電車ごっこ{n} 好きなの？」{wait}",
-   "en": ""
+   "en": "\"Wow! A train! Let me ride, let me ride!\"{wait}\"Aw, it's just you, Momotaro-san! Do you like playing train too?\"{wait}"
   },
   {
    "id": "SMAP16_37:205",
    "jp": "「希望の都を この目で{n} 見られたなんて！{n} いい みやげ話が できました！」{wait}",
-   "en": ""
+   "en": "\"To think I got to see the Capital of Hope with my own eyes! Now I've got a great story to tell back home!\"{wait}"
   },
   {
    "id": "SMAP16_37:206",
    "jp": "「これだけ 広いと{n} どこから 見てまわるか{n} まよってしまいますよ！」{wait}",
-   "en": ""
+   "en": "\"With a place this big, I can't decide where to start looking around!\"{wait}"
   },
   {
    "id": "SMAP16_37:207",
    "jp": "「さーて！ 次は 五重塔で{n} ショッピングよ！」{n}{wait}",
-   "en": ""
+   "en": "\"All right! Next, shopping at the pagoda!\"{wait}"
   },
   {
    "id": "SMAP16_37:208",
    "jp": "「桃太郎さん！{n} いつも おせわになってるから{n} これ あげるわね！」{wait}{n}桃太郎は{n}{col10}まだらチョウカード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You always look out for us, so here, have this!\"{wait}Momotaro got the {col10}Spotted Butterfly Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:209",
    "jp": "「都の 遊技場に 行くなら{n} ここから ちょっと{n} とおまわりせにゃ ならんぞい！」{wait}",
-   "en": ""
+   "en": "\"If you're going to the Capital's game halls, you'll have to take a bit of a detour from here!\"{wait}"
   },
   {
    "id": "SMAP16_37:210",
    "jp": "「ふう ふう！ この都は{n} 一日じゃ とても{n} まわりきれねーだよ！」{wait}",
-   "en": ""
+   "en": "\"Huff, puff! There ain't no way to see this whole Capital in one day!\"{wait}"
   },
   {
    "id": "SMAP16_37:211",
    "jp": "「この都から はるか北東に{n} すずめのお宿4が あります！」{n}{wait}{n}「きびしい 道のりですから{n} しっかり 力を つけて{n} いったほうが いいですよ！」{wait}",
-   "en": ""
+   "en": "\"Far to the northeast of the Capital is Sparrow Inn 4!\"{wait}\"It's a tough road, so you'd better build up your strength before you go!\"{wait}"
   },
   {
    "id": "SMAP16_37:212",
    "jp": "「北に 向かう とちゅうに{n} まいたん仙人の庵が あります！」{n}{wait}",
-   "en": ""
+   "en": "\"On the way north, there's the Regenerate Hermit's hut!\"{wait}"
   },
   {
    "id": "SMAP16_37:213",
    "jp": "「貸衣装屋さんに 行ってみた？{n} とっても おもしろいわよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Have you been to the costume rental shop? It's so much fun!\"{wait}"
   },
   {
    "id": "SMAP16_37:214",
    "jp": "「ほっほっほ！」{n}{n}{wait}{n}「きょうの ばんごはんは{n} 料亭 いしい で{n} 食べるとしますかな！」{wait}",
-   "en": ""
+   "en": "\"Ho ho ho!\"{wait}\"I think I'll have dinner tonight at the Ishii restaurant!\"{wait}"
   },
   {
    "id": "SMAP16_37:215",
    "jp": "「えーと カード道場は{n} どっちだったっけ？{n} わかんなくなっちゃったよー！」{wait}",
-   "en": ""
+   "en": "\"Umm, which way was the Card Dojo again? I can't remember!\"{wait}"
   },
   {
    "id": "SMAP16_37:216",
    "jp": "「ここから はるか 北に{n} おによけ仙人の庵が{n} あるという うわさです！」{wait}",
-   "en": ""
+   "en": "\"Rumor has it that far to the north of here is the Oni Ward Hermit's hut!\"{wait}"
   },
   {
    "id": "SMAP16_37:217",
    "jp": "「さっき こんなものを{n} ひろったんです！{n} 桃太郎さん どうぞ！」{wait}{n}桃太郎は{n}{col10}くじゃくカード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"I found this a little while ago! Here you go, Momotaro-san!\"{wait}Momotaro got the {col10}Peacock Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:218",
    "jp": "「東の 塩吹きの村に 行くには{n} たいそうな とおまわりを{n} せねば ならんのじゃよ！」{wait}{n}「とちゅうの すずめのお宿4で{n} 長旅の つかれを とると{n} ええじゃろう！」{wait}",
-   "en": ""
+   "en": "\"To get to Shiobuki Village in the east, you have to take quite a long way round!\"{wait}\"You'd do well to rest up from the long journey at Sparrow Inn 4 along the way!\"{wait}"
   },
   {
    "id": "SMAP16_37:219",
    "jp": "「桃太郎さん！ 鬼たいじ{n} ごくろうさまです！{n} これを どうぞ！」{wait}{n}桃太郎は{n}{col10}火の玉カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you for all your oni slaying! Here, take this!\"{wait}Momotaro got the {col10}Will-o'-Wisp Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:220",
    "jp": "「ふむ ふむ ふーむ！」{n}{n}{wait}{n}「この本に よると 5つの{n} 宝物を 集めたものだけが{n} かぐや姫に あえるらしい！」{wait}{n}「ところで 桃太郎さんは {n} いくつ 宝物を{n} おもちですかな？」{wait}",
-   "en": ""
+   "en": "\"Hmm, hmm, hmmm!\"{wait}\"According to this book, only those who gather the five treasures can meet Princess Kaguya!\"{wait}\"By the way, Momotaro-san, how many treasures do you have?\"{wait}"
   },
   {
    "id": "SMAP16_37:221",
    "jp": "「まだまだですな！{n} がんばってくださいよ{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Still a long way to go! Keep at it, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:222",
    "jp": "「ほう 3個も 集めるとは{n} さすが 桃太郎さん！」{n}{wait}{n}「これを さしあげます！{n} 旅の たすけにしてください！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, three already! That's Momotaro-san for you!\"{wait}\"I'll give you this! Let it help you on your journey!\"{wait}"
   },
   {
    "id": "SMAP16_37:223",
    "jp": "桃太郎は{n}{col4}書物{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Tome{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:224",
    "jp": "「宝物を 3個も 集めるとは{n} さすが 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Three treasures gathered already! That's Momotaro-san for you!\"{wait}"
   },
   {
    "id": "SMAP16_37:225",
    "jp": "「なんと もう 4個も{n} 集めなさったか！」{n}{wait}{n}「これを どうぞ！{n} 桃太郎さんの 旅の ぶじを{n} いのっておりますぞ！」{wait}",
-   "en": ""
+   "en": "\"My word, you've gathered four already!\"{wait}\"Here, take this! I'm praying for your safe journey, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:226",
    "jp": "桃太郎は{n}{col4}秘伝書{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Secret Tome{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:227",
    "jp": "「もう 4個の 宝物を{n} 集めなさるとは…」{n}{wait}",
-   "en": ""
+   "en": "\"To think you've gathered four treasures already...\"{wait}"
   },
   {
    "id": "SMAP16_37:228",
    "jp": "「信じられん！ 宝物を{n} ぜんぶ 集めるとは！」{n}{wait}{n}「桃太郎さんこそ まこと{n} 勇気の子に ふさわしい{n} おかたじゃ！」{wait}{n}「桃太郎さん どうか これで{n} 力を つけてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Unbelievable! You've gathered all the treasures!\"{wait}\"You truly are worthy of being called the child of courage, Momotaro-san!\"{wait}\"Momotaro-san, please use this to grow stronger!\"{wait}"
   },
   {
    "id": "SMAP16_37:229",
    "jp": "桃太郎は{n}{col4}極意書{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Master Tome{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:230",
    "jp": "「桃太郎さんこそ まこと{n} 勇気の子に ふさわしい{n} おかたじゃ！」{wait}",
-   "en": ""
+   "en": "\"You truly are worthy of being called the child of courage, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:231",
    "jp": "「うちの おじいちゃんったら{n} まいにち 本を読んで 宝物が{n} どうしたとか ばっかり！」{wait}",
-   "en": ""
+   "en": "\"My grandpa reads books every day and talks about nothing but treasures this and treasures that!\"{wait}"
   },
   {
    "id": "SMAP16_37:232",
    "jp": "「あの人ったら ぜいたく！{n} ハマグリや ホタテじゃ{n} いやだとか いうのよ！」{wait}",
-   "en": ""
+   "en": "\"That man is so picky! He says clams or scallops just won't do!\"{wait}"
   },
   {
    "id": "SMAP16_37:233",
    "jp": "「きょうの ばんごはんは{n} 何に しようかな？」{n}{wait}",
-   "en": ""
+   "en": "\"What should I make for dinner today?\"{wait}"
   },
   {
    "id": "SMAP16_37:234",
    "jp": "「おっ！ きょうの おかずは{n} トリの まるやきだあ！」{n}{wait}{n}「…あっはっは！{n} 桃太郎さん おどろいたかい？{n} おどかして ごめんよ！」{wait}{n}「これを あげるから{n} かんべんしてくださいよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Tonight's dinner is roast chicken!\"{wait}\"...Ahahaha! Did I scare you, Momotaro-san? Sorry for spooking you!\"{wait}\"I'll give you this, so please forgive me!\"{wait}"
   },
   {
    "id": "SMAP16_37:235",
    "jp": "桃太郎は{n}{col4}やきいも{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Sweet Potato{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:236",
    "jp": "「でも ほんとに きょうの{n} おかず 何に しよう？」{n}{wait}",
-   "en": ""
+   "en": "\"But seriously, what should I make for dinner today?\"{wait}"
   },
   {
    "id": "SMAP16_37:237",
    "jp": "「桃太郎さん！ せっかくじゃから{n} 都を すみずみまで 見物して{n} いきなされよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Since you're here, see every corner of the Capital before you go!\"{wait}"
   },
   {
    "id": "SMAP16_37:238",
    "jp": "「おそうじ おそうじ！{n} おへやは いつも きれいに{n} しておかなくちゃ！」{wait}",
-   "en": ""
+   "en": "\"Cleaning, cleaning! I've got to keep my room tidy at all times!\"{wait}"
   },
   {
    "id": "SMAP16_37:239",
    "jp": "「きゃーっ！ だめだめ！{n} はいってきちゃ だめーっ！」{n}{wait}{n}「って… え？ 桃太郎さん？{n} ひっどーい！ そんなかっこで{n} おどかすなんて しゅみわるーい！」{wait}",
-   "en": ""
+   "en": "\"Eeek! No, no! You can't come in here!\"{wait}\"Wait... huh? Momotaro-san? How mean! Scaring me dressed like that is in really bad taste!\"{wait}"
   },
   {
    "id": "SMAP16_37:240",
    "jp": "「オレ 今度 赤鬼の{n} かっこうで みんなを{n} おどろかせるんだ！」{wait}{n}「え？ なんの 話だって？{n} すぐ 北に 貸衣装屋が{n} あるんだよ！ おもしろいぜ！」{wait}",
-   "en": ""
+   "en": "\"Next time I'm gonna dress up as a Red Oni and scare everybody!\"{wait}\"Huh? What am I talking about? There's a costume rental shop just north of here! It's a blast!\"{wait}"
   },
   {
    "id": "SMAP16_37:241",
    "jp": "「サルの声が うるさくて{n} ねむれないよー！」{n}{wait}",
-   "en": ""
+   "en": "\"The monkeys are so noisy I can't sleep!\"{wait}"
   },
   {
    "id": "SMAP16_37:242",
    "jp": "「五重塔には 行きましたか？{n} いろいろな お店が あって{n} 楽しいですよ！」{wait}",
-   "en": ""
+   "en": "\"Have you been to the pagoda? It's got all kinds of shops and it's lots of fun!\"{wait}"
   },
   {
    "id": "SMAP16_37:243",
    "jp": "「この都が ふたたび やみに{n} とざされることが ないように{n} 人も 鬼も なかよくしなければ！」{wait}{n}「そうですよね 桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"To make sure the Capital is never shut in darkness again, humans and oni have to get along!\"{wait}\"Right, Momotaro-san?\"{wait}"
   },
   {
    "id": "SMAP16_37:244",
    "jp": "「子供が{n} 桃太郎博物館に 連れてけって{n} うるさいんですよ！」{wait}",
-   "en": ""
+   "en": "\"My kid keeps pestering me to go to the Momotaro Museum!\"{wait}"
   },
   {
    "id": "SMAP16_37:245",
    "jp": "「桃太郎博物館に 行ったら{n} 桃太郎さんの 人形を{n} うごかして 遊ぶんだ！」{wait}",
-   "en": ""
+   "en": "\"When I go to the Momotaro Museum, I'm gonna play with the Momotaro-san doll and make it move!\"{wait}"
   },
   {
    "id": "SMAP16_37:246",
    "jp": "「おお！ 桃太郎さん！{n} わしです！ 都の長老です！」{n}{wait}{n}「このたびは 都を{n} すくっていただき 本当に{n} ありがとうございました！」{wait}{n}「これからは 人と 鬼とが{n} なかよく くらせる 都に{n} していきます！」{wait}{n}「桃太郎さんも{n} おうえんしてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! It's me! The Capital's Elder!\"{wait}\"Thank you so very much for saving the Capital!\"{wait}\"From now on, I'll make this a Capital where humans and oni can live together in harmony!\"{wait}\"Please cheer us on, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:247",
    "jp": "「これからは 人と 鬼とが{n} なかよく くらせる 都に{n} していきます！」{wait}{n}「桃太郎さんも{n} おうえんしてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"From now on, I'll make this a Capital where humans and oni can live together in harmony!\"{wait}\"Please cheer us on, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP16_37:248",
    "jp": "「長老さんと いっしょに{n} 人と 鬼が くらすための{n} そうだんを してるんです！」{wait}",
-   "en": ""
+   "en": "\"We're working with the Elder on how humans and oni can live together!\"{wait}"
   },
   {
    "id": "SMAP16_37:249",
    "jp": "「鬼とも なかよく{n} くらせるなんて{n} 長生きは するもんじゃ！」{wait}",
-   "en": ""
+   "en": "\"Getting along with oni, of all things! It pays to live a long life!\"{wait}"
   },
   {
    "id": "SMAP16_37:250",
    "jp": "「一日中 見物してたら{n} つかれて ふらふらですよ！{n} なんて 広い 町なんだ！」{wait}",
-   "en": ""
+   "en": "\"I've been sightseeing all day, and now I'm worn out! What a huge town!\"{wait}"
   },
   {
    "id": "SMAP16_37:251",
    "jp": "「今日は 都名物{n} 桃太郎博物館に{n} 行こうと 思ってます！」{wait}",
-   "en": ""
+   "en": "\"Today I'm thinking of going to the Capital's famous Momotaro Museum!\"{wait}"
   },
   {
    "id": "SMAP16_37:252",
    "jp": "「茶店で 一休みしたら{n} また 都見物よ！」{n}{wait}",
-   "en": ""
+   "en": "\"After a break at the teahouse, it's back to sightseeing!\"{wait}"
   },
   {
    "id": "SMAP16_37:253",
    "jp": "「うー！ つかれたー！{n} もう 一歩も{n} うごきたくねーっ！」{wait}",
-   "en": ""
+   "en": "\"Ugh! I'm beat! I don't wanna move another step!\"{wait}"
   },
   {
    "id": "SMAP16_37:254",
    "jp": "「すめば 都っていうけど{n} この 希望の都は 本当に{n} すばらしい 町だと 思います！」{wait}{n}「桃太郎さんが まもって{n} くれたんですよね！{n} ありがとうございます！」{wait}",
-   "en": ""
+   "en": "\"They say home is wherever you settle, but the Capital of Hope really is a wonderful town!\"{wait}\"You protected it for us, didn't you, Momotaro-san! Thank you!\"{wait}"
   },
   {
    "id": "SMAP16_37:255",
    "jp": "「桃太郎さん！ 続きの 地図が{n} できたんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The next part of the map is done, I reckon.\"{wait}"
   },
   {
    "id": "SMAP16_37:256",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san gets the map I drew, I reckon.\"{wait}"
   },
   {
    "id": "SMAP16_37:257",
    "jp": "桃太郎は{n}{col4}地図{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Map{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP16_37:258",
    "jp": "「残りの 地図も 桃太郎さんに{n} あげるから 旅先で ボクを{n} 見つけてほしいんだな！」{wait}",
-   "en": ""
+   "en": "\"I'll give you the rest of the map too, Momotaro-san, so I want you to find me on your travels, I reckon.\"{wait}"
   },
   {
    "id": "SMAP16_37:259",
    "jp": "「続きの 地図は まだ{n} かいてないんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"I haven't drawn the next part of the map yet, I reckon.\"{wait}"
   },
   {
    "id": "SMAP16_37:260",
    "jp": "「たまには しんせんな{n} やさいを 食べなくちゃ！」{n}{wait}{n}「でも はらが へって{n} うごけない…」{n}{wait}",
-   "en": ""
+   "en": "\"Gotta eat some fresh vegetables once in a while!\"{wait}\"But I'm so hungry I can't move...\"{wait}"
   },
   {
    "id": "SMAP16_37:261",
    "jp": "「おっ！ その {str}を{n} オレに くれるのかい？」{n}",
-   "en": ""
+   "en": "\"Oh! Are you giving me that {str}?\""
   },
   {
    "id": "SMAP16_37:262",
    "jp": "「もぐもぐ… ごっくん！{n} ふう！ 一息 ついたよ！{n} ありがとう 桃太郎さん！」{wait}{n}「あ！ でも なんだか{n} また はらが へってきた…」{n}{wait}",
-   "en": ""
+   "en": "\"Munch munch... gulp! Whew! That hit the spot! Thank you, Momotaro-san!\"{wait}\"Ah! But somehow I'm getting hungry again...\"{wait}"
   },
   {
    "id": "SMAP16_37:263",
    "jp": "「ああ… おなかが すいて{n} めまいが しそうだ…」{n}{wait}",
-   "en": ""
+   "en": "\"Ahh... I'm so hungry I feel dizzy...\"{wait}"
   },
   {
    "id": "SMAP16_37:264",
    "jp": "「おおっ！ その なすびを{n} オレに くれるのかい？」{n}",
-   "en": ""
+   "en": "\"Whoa! Are you giving me that eggplant?\""
   },
   {
    "id": "SMAP16_37:265",
    "jp": "「もぐもぐもぐ… もぐもぐもぐ…{n} オレは この なすびが{n} 大好きなんだよ！」{wait}{n}「ふう！ やっぱり{n} なすびは おいしいや！{n} ありがとう 桃太郎さん！」{wait}{n}「お礼に これ あげるよ！」{n}{n}{wait}{n}桃太郎は{n}{col4}応募はがき{col0}を{n}手に入れた！{c19}{wait}{n}「桃太郎さん！{n} また はらが へったら{n} なすびを くれるかい？」{wait}",
-   "en": ""
+   "en": "\"Munch munch munch... munch munch munch... I just love eggplant!\"{wait}\"Whew! Eggplant sure is tasty! Thank you, Momotaro-san!\"{wait}\"Here, have this as thanks!\"{wait}Momotaro got the {col4}Entry Postcard{col0}!{c19}{wait}\"Momotaro-san! If I get hungry again, will you give me more eggplant?\"{wait}"
   },
   {
    "id": "SMAP16_37:266",
    "jp": "「ああ… おなかが すいて{n} めまいが しそうだ…」{n}{wait}",
-   "en": ""
+   "en": "\"Ahh... I'm so hungry I feel dizzy...\"{wait}"
   },
   {
    "id": "SMAP16_37:267",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「シチューに カツを求める！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Every cloud has a cutlet lining!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP16_37:268",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「柔よく 合成写真！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"A picture is worth a thousand fakes!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP16_37:269",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「背に腹は カエルぴょこぴょこ{n} みぴょこぴょこ！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Beggars can't be Peter Piper picked a peck of pickled peppers!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP16_37:270",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「そで振りあうも 立ち小便！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Ships that pass water in the night!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP16_37:271",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「灯台 モトクロスバイク！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Can't see the forest for the motocross bikes!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP16_37:272",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「ルイは トムを呼ぶ！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Birds of a feather flock to Heather!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP16_37:273",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「火のないところに {n} 湯けむり温泉紀行！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Where there's smoke, there's a hot spring travel special!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

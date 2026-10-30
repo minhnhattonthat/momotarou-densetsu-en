@@ -8,77 +8,77 @@
   {
    "id": "WMAP23_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ばいりき仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Power Hermit!\"{wait}"
   },
   {
    "id": "WMAP23_28:001",
    "jp": "「わしの 術は 浦島が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 浦島を つれてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"My art is one that Urashima would be fit to learn!\"{wait}\"Bring me Urashima, who is fit to undergo my training!\"{wait}"
   },
   {
    "id": "WMAP23_28:002",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP23_28:003",
    "jp": "「わしの 術は 浦島が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「おおっ なんということぢゃ！{n} その 浦島が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}",
-   "en": ""
+   "en": "\"Urashima is the one fit to learn my art!\"{wait}\"Oh, good heavens! Why, that very Urashima is badly injured!\"{wait}\"Momotaro! You're a child of courage who cares for his friends, aren't you?\"{wait}\"Hurry and take him to a doctor to get him healed!\"{wait}"
   },
   {
    "id": "WMAP23_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」",
-   "en": ""
+   "en": "\"I'll be waiting right here for as long as it takes!\"{wait}\"Now go, Momotaro!\""
   },
   {
    "id": "WMAP23_28:005",
    "jp": "「ばいりきの術は{n} 味方の 攻撃力が{n} 戦闘中に ふえるのぢゃ！」{wait}{n}「この 術を 覚えるのは{n} 浦島が ふさわしい！」{n}{wait}",
-   "en": ""
+   "en": "\"The Power art raises your allies' Attack during battle!\"{wait}\"Urashima is the one fit to learn this art!\"{wait}"
   },
   {
    "id": "WMAP23_28:006",
    "jp": "「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}",
-   "en": ""
+   "en": "\"Learn my art quickly and go punish those oni!\"{wait}\"But first, you'll have to go through my rather tough training!\"{wait}"
   },
   {
    "id": "WMAP23_28:007",
    "jp": "「わしの術は ちと{n} 覚えるのが めんどーでな！{n} だれも 覚えようとせん！」{wait}{n}「なんかいか わしを たずねれば{n} いいだけなんぢゃが…」{n}{wait}",
-   "en": ""
+   "en": "\"My art is a bit of a bother to learn! Nobody ever wants to learn it!\"{wait}\"All you have to do is come and see me a few times, though...\"{wait}"
   },
   {
    "id": "WMAP23_28:008",
    "jp": "「これから お前たちを{n} どこか遠くに 飛ばすから{n} ここまで 戻ってくるのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Now I'm going to send you flying somewhere far away, and you must make your way back here!\"{wait}"
   },
   {
    "id": "WMAP23_28:009",
    "jp": "「よしよし！{n} ちゃんと 戻ってきたか！」{n}{wait}{n}「それでは もう一度ぢゃ！{n} そーれ！ 行ってこい！」{n}{wait}",
-   "en": ""
+   "en": "\"Good, good! You made it back!\"{wait}\"Then once more! Heave-ho! Off you go!\"{wait}"
   },
   {
    "id": "WMAP23_28:010",
    "jp": "「ウヒャヒャ… よくぞ{n} この 修行に たえたのォ！」{n}{wait}{n}「浦島よ！{n} ばいりきの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"Uhyahya... You endured my training very well!\"{wait}\"Urashima! I shall grant you the Power art! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP23_28:011",
    "jp": "浦島は{n}{col4}ばいりきの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "Urashima mastered the {col4}Power art{col0}!"
   },
   {
    "id": "WMAP23_28:012",
    "jp": "「ばいりきの術は{n} 浦島の 段が 上がると{n} ぱわぁあっぷ するのぢゃ！」{wait}{n}「強い敵と 戦うときは{n} 忘れずに 使うのぢゃ！{n} よいな！」{wait}",
-   "en": ""
+   "en": "\"The Power art gets a pow-wer up as Urashima's level rises!\"{wait}\"When you fight a strong enemy, don't forget to use it! Understood?\"{wait}"
   },
   {
    "id": "WMAP23_28:013",
    "jp": "「よく きたな！{n} じょうずに 戦えとるか？」{n}{wait}{n}「よく がんばっとる{n} ようぢゃからな！{n} これを やろう！」{wait}{n}桃太郎は{n}{col10}ばいりき仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Good of you to come! Are you fighting well?\"{wait}\"Seems you're working hard, so here, take this!\"{wait}Momotaro got the {col10}Power Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP23_28:014",
    "jp": "「海老で 逮捕する！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Throw a sprat to catch a mugger!\"{wait}"
   }
  ]
 }

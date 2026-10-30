@@ -8,47 +8,47 @@
   {
    "id": "YUMI2_10:000",
    "jp": "「よ～し 準備はいいかい？{n} {num}回目 はじめるよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Okaaay, ready? Starting round {num}!\"{wait}"
   },
   {
    "id": "YUMI2_10:001",
    "jp": "「では 最後です！」",
-   "en": ""
+   "en": "\"Now, the final round!\""
   },
   {
    "id": "YUMI2_10:002",
    "jp": "点",
-   "en": ""
+   "en": "points"
   },
   {
    "id": "YUMI2_10:003",
    "jp": "点",
-   "en": ""
+   "en": "points"
   },
   {
    "id": "YUMI2_10:004",
    "jp": "点",
-   "en": ""
+   "en": "points"
   },
   {
    "id": "YUMI2_10:005",
    "jp": "「桃太郎さん！{n} そんな へっぴりごしで 鬼たいじは{n} 本当に だいじょうぶなのかい？」{wait}{n}「今の 桃太郎さんの 実力で{n} わたせる 景品は これだね！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! With a wobbly stance like that, can you really defeat the oni?\"{wait}\"With your skills as they are now, this is the prize I can give you!\"{wait}"
   },
   {
    "id": "YUMI2_10:006",
    "jp": "「なかなかの うでまえ！{n} 武勇の 人だねえ！{n} よし これを 受け取ってくれ！」{wait}",
-   "en": ""
+   "en": "\"Pretty good skills! A true warrior! All right, take this!\"{wait}"
   },
   {
    "id": "YUMI2_10:007",
    "jp": "「おしい！ おしいね！{n} あと 少しで{n} オリンピックに でられるよ！」{wait}{n}「よし けいきづけに{n} これを あげるよ！」{n}{wait}",
-   "en": ""
+   "en": "\"So close! So close! A little more and you could go to the Olympics!\"{wait}\"All right, take this for encouragement!\"{wait}"
   },
   {
    "id": "YUMI2_10:008",
    "jp": "「やったぞ 桃太郎さん！{n} 満点！ 満点じゃないか！」{n}{wait}{n}「なすの よいちか{n} ウイリアム・テルか！{n} まさに 当代一の 弓つかいだ！」{wait}{n}「ねらいをつける あんたの目に{n} ゾクッときたぜ！」{n}{wait}{n}「最高のものを 見せてもらった{n} お礼でい これを {n} 受け取ってくんな！」{wait}",
-   "en": ""
+   "en": "\"You did it, Momotaro-san! A perfect score! That's a perfect score!\"{wait}\"Are you Nasu no Yoichi or William Tell?! You're the finest archer of the age!\"{wait}\"The look in your eye when you took aim gave me chills!\"{wait}\"You showed me something incredible, so here's my thanks! Take this!\"{wait}"
   },
   {
    "id": "YUMI2_10:009",
@@ -58,77 +58,77 @@
   {
    "id": "YUMI2_10:010",
    "jp": "計",
-   "en": ""
+   "en": "Total"
   },
   {
    "id": "YUMI2_10:011",
    "jp": "－",
-   "en": ""
+   "en": "-"
   },
   {
    "id": "YUMI2_10:012",
    "jp": "桃太郎は{n}{col4}{str}{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "YUMI2_10:013",
    "jp": "桃太郎は {col4}極意書{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Master Tome{col0}!{wait}"
   },
   {
    "id": "YUMI2_10:014",
    "jp": "桃太郎は {col4}天下御免の札{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got an {col4}Untouchable Pass{col0}!{wait}"
   },
   {
    "id": "YUMI2_10:015",
    "jp": "桃太郎は {col4}ユキのきびだんご{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Snow Millet Dumpling{col0}!{wait}"
   },
   {
    "id": "YUMI2_10:016",
    "jp": "桃太郎は {col4}きびだんご{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Millet Dumpling{col0}!{wait}"
   },
   {
    "id": "YUMI2_10:017",
    "jp": "「桃まと当ては{n} はじめてかい？」{n}",
-   "en": ""
+   "en": "\"First time at Peach Target Practice?\""
   },
   {
    "id": "YUMI2_10:018",
    "jp": "「よしよし！{n} わかりやすく 教えて やるよ！{n} オレは 説明も 得意だからね！」{wait}",
-   "en": ""
+   "en": "\"Good, good! I'll explain it nice and easy! I'm great at explaining, too!\"{wait}"
   },
   {
    "id": "YUMI2_10:019",
    "jp": "「この ゲームは{n} 8つのまとに 矢を 当てて{n} 点数を 競うものだ！」{wait}{n}「ゲームが 始まると{n} スポットライトが まとを{n} てらしていくから…」{wait}",
-   "en": ""
+   "en": "\"In this game, you shoot arrows at 8 targets and compete for points!\"{wait}\"Once the game starts, a spotlight will light up the targets, so...\"{wait}"
   },
   {
    "id": "YUMI2_10:020",
    "jp": "「スポットライトの 真ん中と{n} まとの真ん中が 重なったら{n} ○ボタンを押して 矢をはなて！」{wait}{n}「矢のささった いちが{n} まとの真ん中に{n} 近いほど 点数は高いよ！」{wait}",
-   "en": ""
+   "en": "\"When the center of the spotlight lines up with the center of a target, press the Circle button and shoot!\"{wait}\"The closer your arrow lands to the center of the target, the higher your score!\"{wait}"
   },
   {
    "id": "YUMI2_10:021",
    "jp": "「ただし！{n} 矢を 当てていいのは{n} 鬼のまとだけ だからね！」{wait}{n}「村人や 地蔵に 当てちゃうと{n} 点数が さがっちゃうよ！」{n}{wait}{n}「てなわけで 説明は 終わりだよ！{n} どうだい よく わかったろ？」{n}",
-   "en": ""
+   "en": "\"But! You're only allowed to hit the oni targets!\"{wait}\"If you hit a villager or a Jizo, your score goes down!\"{wait}\"And that's the end of the explanation! Well? Got it?\""
   },
   {
    "id": "YUMI2_10:022",
    "jp": "「ハハハッ！ ねていたろ？{n} しょうがないなぁ もう一度{n} わかりやすく 説明するよ！」{wait}",
-   "en": ""
+   "en": "\"Hahaha! You were asleep, weren't you? Oh, all right, I'll explain it again, nice and easy!\"{wait}"
   },
   {
    "id": "YUMI2_10:023",
    "jp": "「よっしゃ！{n} 本気で 遊んでくれよ！」{n}{wait}",
-   "en": ""
+   "en": "\"All right! Play for real now!\"{wait}"
   },
   {
    "id": "YUMI2_10:024",
    "jp": "「じゃあ 今回の まとの配置を{n} チラッと 見せるよ！{n} よ～く 目をこらしてくれよ！」{wait}",
-   "en": ""
+   "en": "\"Now I'll give you a quick peek at this round's target layout! Keep your eyes peeled!\"{wait}"
   }
  ]
 }

@@ -9,407 +9,407 @@
   {
    "id": "SMAP15_37:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この村が 鬼に おそわれ{n} 村人が 苦しめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?\"{wait}\"The oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP15_37:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 26段くらいは{n} ないと つらいであろう！」{wait}{n}「26段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni ahead are much, much stronger!\"{wait}\"If you go on past this village, without about level 26, you'll have a hard time of it!\"{wait}\"If you're not level 26 yet, do your training around here and build up experience!\"{wait}"
   },
   {
    "id": "SMAP15_37:002",
    "jp": "「あついよー！ 桃太郎さん！{n} のどが かわいたよー！」{n}{wait}",
-   "en": ""
+   "en": "\"It's hot! Momotaro-san! I'm so thirsty!\"{wait}"
   },
   {
    "id": "SMAP15_37:003",
    "jp": "「わーい わーい！{n} 桃太郎さん ありがとう！」{n}{wait}",
-   "en": ""
+   "en": "\"Yay, yay! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP15_37:004",
    "jp": "「桃太郎さん！{n} 水が みんな{n} ひあがっちまったよー！」{wait}{n}「なんとかしてくれー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! All the water's dried up!\"{wait}\"Do something!\"{wait}"
   },
   {
    "id": "SMAP15_37:005",
    "jp": "「ここから 北東に いくと{n} 希望の都です！」{n}{wait}",
-   "en": ""
+   "en": "\"Go northeast from here and you'll reach the Capital of Hope!\"{wait}"
   },
   {
    "id": "SMAP15_37:006",
    "jp": "「プールで およごうと 思って{n} きわどい 水着を{n} よういして いたんじゃが」{wait}",
-   "en": ""
+   "en": "\"I was planning to swim in the pool, so I got myself a daring little swimsuit, but...\"{wait}"
   },
   {
    "id": "SMAP15_37:007",
    "jp": "「桃太郎さんや！{n} わしと いっしょに{n} プールで およがんかえ？」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Won't you go for a swim in the pool with me?\"{wait}"
   },
   {
    "id": "SMAP15_37:008",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「水鬼という 鬼が{n} 村の水を 残らず{n} ひあがらせて しまいました！」{wait}{n}「この村は 水遊びが たのしめる{n} 水の ゆたかな 村だったのに！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"An oni called the Water Oni dried up every last drop of the village's water!\"{wait}\"This used to be a village rich in water, where you could enjoy splashing around!\"{wait}"
   },
   {
    "id": "SMAP15_37:009",
    "jp": "「桃太郎さん！ どうぞ{n} この村 じまんの プールで{n} ひとおよぎ してください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please, take a dip in our village's pride and joy, the pool!\"{wait}"
   },
   {
    "id": "SMAP15_37:010",
    "jp": "「おはだが カサカサ！{n} わたしの びぼうが{n} だいなしだわ！」{wait}",
-   "en": ""
+   "en": "\"My skin's all dry and flaky! My beauty is ruined!\"{wait}"
   },
   {
    "id": "SMAP15_37:011",
    "jp": "「みて みて！{n} この ピチピチの おはだ！」{n}{wait}",
-   "en": ""
+   "en": "\"Look, look! My skin's so fresh and dewy!\"{wait}"
   },
   {
    "id": "SMAP15_37:012",
    "jp": "「村の 外を 流れる 川が{n} 水鬼に せきとめられて{n} 村は こんな ありさまです！」{wait}",
-   "en": ""
+   "en": "\"The river outside the village was dammed up by the Water Oni, and now look at the state of the village!\"{wait}"
   },
   {
    "id": "SMAP15_37:013",
    "jp": "「桃太郎さん！{n} 水が あるって{n} すばらしいですね！」{wait}{n}「これからも 水を{n} 大切にしていきます！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Having water is wonderful, isn't it!\"{wait}\"From now on, we'll take good care of our water!\"{wait}"
   },
   {
    "id": "SMAP15_37:014",
    "jp": "「ひあがった 川の{n} 西に 洞窟が あります！」{n}{wait}{n}「洞窟の 中に ある{n} 命の泉を 水鬼が{n} ひあがらせたんです！」{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「どうか 水鬼を こらしめて{n} 水を とりもどしてください！」{n}{wait}",
-   "en": ""
+   "en": "\"There's a cave west of the dried-up river!\"{wait}\"The Water Oni dried up the Spring of Life inside that cave!\"{wait}\"Momotaro-san!\"{wait}\"Please teach the Water Oni a lesson and bring back our water!\"{wait}"
   },
   {
    "id": "SMAP15_37:015",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「希望の都が{n} 阿修羅という 鬼に{n} おそわれたそうです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"I hear the Capital of Hope was attacked by an oni called Ashura!\"{wait}"
   },
   {
    "id": "SMAP15_37:016",
    "jp": "「命の泉の 水が{n} 枯れてしもうた…{n} もう おしまいじゃあ！」{wait}",
-   "en": ""
+   "en": "\"The water of the Spring of Life has dried up... It's all over!\"{wait}"
   },
   {
    "id": "SMAP15_37:017",
    "jp": "「命の泉の{n} 水が この村を{n} ゆたかに してくれるんじゃ！」{wait}{n}「これからは わしらで{n} 水を 守っていかにゃあ！」{n}{wait}{n}「桃太郎さん！ ありがとう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The Spring of Life's water is what makes this village rich!\"{wait}\"From now on, we've got to protect the water ourselves!\"{wait}\"Momotaro-san! Thank you!\"{wait}"
   },
   {
    "id": "SMAP15_37:018",
    "jp": "「とこなつの村で{n} バカンスを{n} たのしもうと 思ったのに」{wait}{n}「それどころでは{n} ないようですね！」{n}{wait}",
-   "en": ""
+   "en": "\"I came to enjoy a vacation in Tokonatsu Village,\"{wait}\"but it looks like that's out of the question!\"{wait}"
   },
   {
    "id": "SMAP15_37:019",
    "jp": "「水あそびが できるなんて{n} この村に きた{n} かいが ありました！」{wait}",
-   "en": ""
+   "en": "\"Getting to play in the water made coming to this village worth it!\"{wait}"
   },
   {
    "id": "SMAP15_37:020",
    "jp": "「水が なくっちゃ{n} おふろにも はいれないわ！{n} プン プン！」{wait}",
-   "en": ""
+   "en": "\"Without water, I can't even take a bath! Hmph, hmph!\"{wait}"
   },
   {
    "id": "SMAP15_37:021",
    "jp": "「希望の都は{n} 今 闇に{n} とざされているんですって！」{wait}{n}「いったい{n} なにが おきたのかしら？」{n}{wait}",
-   "en": ""
+   "en": "\"They say the Capital of Hope is shrouded in darkness right now!\"{wait}\"Whatever could have happened?\"{wait}"
   },
   {
    "id": "SMAP15_37:022",
    "jp": "「とこなつの村の{n} 水が かれるなんて{n} どうしちまったんだあ！」{wait}{n}「おらの べこも{n} びっくり しちまってるだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Tokonatsu Village's water drying up? What in the world happened?!\"{wait}\"Even my cow's had a fright!\"{wait}"
   },
   {
    "id": "SMAP15_37:023",
    "jp": "「ありがとうございます！{n} 桃太郎さん！」{n}{wait}{n}「おらの べこも{n} 水が のめて{n} よろこんでるだよ！」{wait}",
-   "en": ""
+   "en": "\"Thank you kindly, Momotaro-san!\"{wait}\"My cow can drink water again, and she's right happy!\"{wait}"
   },
   {
    "id": "SMAP15_37:024",
    "jp": "「モー！ のどが{n} カラカラだなモー！」{n}{wait}",
-   "en": ""
+   "en": "\"Moo! My throat's bone dry, moo!\"{wait}"
   },
   {
    "id": "SMAP15_37:025",
    "jp": "「私の夫は{n} この村の 村長です！」{n}{wait}{n}「村の 水が 枯れたので{n} 水源の 命の泉を 調べに{n} 行ったのですが…」{wait}{n}「戻ってこないので{n} 心配していたのです！」{n}{wait}{n}「桃太郎さん！ 命の泉は{n} 村の西です！ ようすを{n} 見てきてくれませんか？」{wait}",
-   "en": ""
+   "en": "\"My husband is the Chief of this village!\"{wait}\"The village's water dried up, so he went to look into the Spring of Life, where it comes from, but...\"{wait}\"He hasn't come back, and I'm so worried!\"{wait}\"Momotaro-san! The Spring of Life is west of the village! Won't you go and see what's happening?\"{wait}"
   },
   {
    "id": "SMAP15_37:026",
    "jp": "「桃太郎さん！ 命の泉は{n} 村の西です！ ようすを{n} 見てきてくれませんか？」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The Spring of Life is west of the village! Won't you go and see what's happening?\"{wait}"
   },
   {
    "id": "SMAP15_37:027",
    "jp": "「桃太郎さん！{n} 夫から 話を 聞きました！{n} あなたは 村の 恩人です！」{wait}{n}「これを どうぞ{n} おうけとりくださいな！」{n}{wait}{n}桃太郎は{n}{col10}とこなつの村長カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! My husband told me everything! You're the village's savior!\"{wait}\"Here, please accept this!\"{wait}Momotaro got the {col10}Tokonatsu Chief Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP15_37:028",
    "jp": "「桃太郎さん！{n} あなたは 村の 恩人です！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You're the village's savior!\"{wait}"
   },
   {
    "id": "SMAP15_37:029",
    "jp": "「桃太郎さん！ 夫を{n} よろしく お願いします！」{n}{wait}{n}「あなた！ しっかりね！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please look after my husband!\"{wait}\"Darling! Hang in there!\"{wait}"
   },
   {
    "id": "SMAP15_37:030",
    "jp": "「桃太郎さん！{n} 夫は 無事でしたか？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Is my husband all right?\"{wait}"
   },
   {
    "id": "SMAP15_37:031",
    "jp": "「桃太郎さん！ どうも{n} ありがとうございました！」{n}{wait}{n}「この とこなつの村で{n} ゆっくり{n} くつろいでください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you so much!\"{wait}\"Please relax and take it easy here in Tokonatsu Village!\"{wait}"
   },
   {
    "id": "SMAP15_37:032",
    "jp": "「ちょっと 桃太郎さん！」{n}{n}{wait}{n}「わたしの 彼氏ったら{n} 日焼け止めを たのんだのに{n} ぜんぜん もどってこないの！」{wait}{n}「ひどいと 思わない？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hey, Momotaro-san!\"{wait}\"I asked my boyfriend to get me sunscreen, and he STILL hasn't come back!\"{wait}\"Isn't that awful?\"{wait}"
   },
   {
    "id": "SMAP15_37:033",
    "jp": "「あの人 日焼け止め{n} もってくるのに{n} 何時間 かけてるのかしら！」{wait}{n}「もう！ のどが {n} かわいちゃったじゃない！」{n}{wait}{n}「かき氷は いつになったら{n} くるのかしら？」{n}{wait}",
-   "en": ""
+   "en": "\"How many hours does it take him to bring some sunscreen?!\"{wait}\"Ugh! Now I'm all thirsty!\"{wait}\"When is my shaved ice getting here?\"{wait}"
   },
   {
    "id": "SMAP15_37:034",
    "jp": "「しんじらんなーい！{n} かき氷なんて{n} とけちゃってるのよー！」{wait}{n}「待ってる あいだに{n} おなか へっちゃったわよ！」{n}{wait}{n}「やきそばくらいは さっさと{n} 持ってきてほしいわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Unbelievable! The shaved ice has all melted!\"{wait}\"I got hungry just waiting!\"{wait}\"He could at least hurry up with the fried noodles!\"{wait}"
   },
   {
    "id": "SMAP15_37:035",
    "jp": "「さいってー！{n} さめている やきそばなんて{n} たべらんないわよ！」{wait}{n}「あの人ったら{n} いわれたものしか{n} 持ってこないんだから！」{wait}{n}「たまには{n} 気をきかせて ばらでも{n} 持ってくればいいのに！」{wait}",
-   "en": ""
+   "en": "\"The worst! I can't eat cold fried noodles!\"{wait}\"That guy only ever brings what he's told to!\"{wait}\"Just once he could be thoughtful and bring me a rose or something!\"{wait}"
   },
   {
    "id": "SMAP15_37:036",
    "jp": "「わたしも ちょっと{n} わがままだったわ！{n} ごめんなさい！」{wait}",
-   "en": ""
+   "en": "\"I was being a little selfish too! I'm sorry!\"{wait}"
   },
   {
    "id": "SMAP15_37:037",
    "jp": "「うわああああああっ！{n} 日焼け止めは どこだあっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Waaaaaah! Where's the sunscreen?!\"{wait}"
   },
   {
    "id": "SMAP15_37:038",
    "jp": "「ひえええええええっ！{n} かき氷は どこだああっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Eeeeeek! Where's the shaved ice?!\"{wait}"
   },
   {
    "id": "SMAP15_37:039",
    "jp": "「ぎゃああああああっ！{n} やきそばは どこだあああっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Aaaaargh! Where are the fried noodles?!\"{wait}"
   },
   {
    "id": "SMAP15_37:040",
    "jp": "「はっ！ なんだか 急に{n} ばらが ほしくなったぞ！」{n}{wait}{n}「うおおおおおおおっ！{n} ばらは どこだあああああっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Huh! All of a sudden I really want a rose!\"{wait}\"Whoooooa! Where can I find a rose?!\"{wait}"
   },
   {
    "id": "SMAP15_37:041",
    "jp": "「ああっ！{n} 桃太郎さん その ばら{n} ゆずってください！」",
-   "en": ""
+   "en": "\"Ah! Momotaro-san, please let me have that rose!\""
   },
   {
    "id": "SMAP15_37:042",
    "jp": "「ありがとう！ 桃太郎さん」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP15_37:043",
    "jp": "「そうですか…」{n}{n}{wait}{n}「うおおおおおおおっ！{n} ばらは どこだあああああっ！」{n}{wait}",
-   "en": ""
+   "en": "\"I see...\"{wait}\"Whoooooa! Where can I find a rose?!\"{wait}"
   },
   {
    "id": "SMAP15_37:044",
    "jp": "「桃太郎さん！ さきほどは{n} ばらを ありがとうございます！」{n}{wait}{n}「これは{n} ほんの お礼です！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you for the rose earlier!\"{wait}\"This is just a small token of thanks!\"{wait}"
   },
   {
    "id": "SMAP15_37:045",
    "jp": "桃太郎は{n}{col4}絶好丹{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Peak Pill{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP15_37:046",
    "jp": "「ぼかあ 幸せだなあ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Gosh, I'm just so happy!\"{wait}"
   },
   {
    "id": "SMAP15_37:047",
    "jp": "「のどが カラカラ！{n} このままじゃ ミイラに{n} なっちゃうわ！」{wait}",
-   "en": ""
+   "en": "\"My throat's bone-dry! At this rate, I'll turn into a mummy!\"{wait}"
   },
   {
    "id": "SMAP15_37:048",
    "jp": "「えへへ！{n} 水を のみすぎて{n} ふとっちゃったあ！」{wait}",
-   "en": ""
+   "en": "\"Hee hee! I drank so much water I got fat!\"{wait}"
   },
   {
    "id": "SMAP15_37:049",
    "jp": "「あんなに 緑の 豊かな{n} 村だったのに！{n} ひどい ありさまです！」{wait}",
-   "en": ""
+   "en": "\"This used to be such a lush, green village! Now it's in a terrible state!\"{wait}"
   },
   {
    "id": "SMAP15_37:050",
    "jp": "「緑が 戻ってきました！{n} ありがとう 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"The green has come back! Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP15_37:051",
    "jp": "「もう！ こんなんじゃ{n} おニューの 水着が{n} きれないじゃない！」{wait}",
-   "en": ""
+   "en": "\"Ugh! Like this, I can't even wear my brand-new swimsuit!\"{wait}"
   },
   {
    "id": "SMAP15_37:052",
    "jp": "「わたしの ナイスバディに{n} みんなの しせんは{n} くぎづけよ！」{wait}",
-   "en": ""
+   "en": "\"Everyone's eyes are glued to my nice bod!\"{wait}"
   },
   {
    "id": "SMAP15_37:053",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「ボクらは けがわだから{n} あつさも ひとしおです！{n} 桃太郎さん 助けてー！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"We've got fur coats, so the heat hits us twice as hard! Momotaro-san, help!\"{wait}"
   },
   {
    "id": "SMAP15_37:054",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「桃太郎さん！{n} あついときに 泳ぐって{n} 気持ちが いいもんですね！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Momotaro-san! A swim sure feels great when it's hot!\"{wait}"
   },
   {
    "id": "SMAP15_37:055",
    "jp": "「ポンポコポン！」{n}{n}{wait}{n}「プールで すずもうと{n} 思ったのに！ あつくて{n} たおれそうです！」{wait}",
-   "en": ""
+   "en": "\"Ponpoko-pon!\"{wait}\"I came to cool off in the pool! But it's so hot I'm about to keel over!\"{wait}"
   },
   {
    "id": "SMAP15_37:056",
    "jp": "「ポンポコポン！」{n}{n}{wait}{n}「このつぎは 彼女を{n} つれて くるぞー！」{n}{wait}",
-   "en": ""
+   "en": "\"Ponpoko-pon!\"{wait}\"Next time, I'm bringing my girlfriend!\"{wait}"
   },
   {
    "id": "SMAP15_37:057",
    "jp": "「カメ！ カメ！」{n}{n}{wait}{n}「水の ない ところでは{n} 元気が でません！{n} ぷしゅ～！」{wait}",
-   "en": ""
+   "en": "\"Kame kame!\"{wait}\"I've got no pep where there's no water! Pshhhh...\"{wait}"
   },
   {
    "id": "SMAP15_37:058",
    "jp": "「カメ！ カメ！」{n}{n}{wait}{n}「水を あびたら{n} 元気に なりました！{n} どれ もうひとおよぎ！」{wait}",
-   "en": ""
+   "en": "\"Kame kame!\"{wait}\"A splash of water and I'm full of pep again! Time for another swim!\"{wait}"
   },
   {
    "id": "SMAP15_37:059",
    "jp": "「水遊びをしに 都から{n} きたのですが 飲み水にも{n} こまるしまつです！」{wait}",
-   "en": ""
+   "en": "\"I came from the Capital to play in the water, but there isn't even any water to drink!\"{wait}"
   },
   {
    "id": "SMAP15_37:060",
    "jp": "「水遊びをしようと 思ったのに{n} 水着を 忘れてしまいました！{n} とほほ…」{wait}",
-   "en": ""
+   "en": "\"I came to play in the water, but I forgot my swimsuit! Boo hoo...\"{wait}"
   },
   {
    "id": "SMAP15_37:061",
    "jp": "「あーん！{n} 茶店にも なんにも{n} 飲み物が ないよー！」{wait}",
-   "en": ""
+   "en": "\"Waaah! Even the teahouse has nothing to drink!\"{wait}"
   },
   {
    "id": "SMAP15_37:062",
    "jp": "「この島の 西に{n} 黄泉の塔 という{n} 塔が 立っています！」{wait}{n}「その 塔には 宝物を 守る{n} ものすごく 強い 鬼が{n} いるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"West of this island stands a tower called the Yomi Tower!\"{wait}\"They say a terribly strong oni guards a treasure in that tower!\"{wait}"
   },
   {
    "id": "SMAP15_37:063",
    "jp": "「水遊びって とっても{n} 楽しいですね！{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Playing in the water is so much fun, isn't it, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP15_37:064",
    "jp": "「水を ひあがらせて{n} ごめんなさい！」{n}{wait}{n}「もう 悪さは しませんから{n} ボクらも 泳がせてください！」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry for drying up the water!\"{wait}\"We won't make any more trouble, so please let us swim too!\"{wait}"
   },
   {
    "id": "SMAP15_37:065",
    "jp": "「村長さんが 命の泉を{n} しらべに 行ったけど{n} ぶじかしら？」{wait}",
-   "en": ""
+   "en": "\"The Chief went to look into the Spring of Life... I hope he's safe.\"{wait}"
   },
   {
    "id": "SMAP15_37:066",
    "jp": "「北東に ある 希望の都は{n} それは それは 大きな町よ！」{n}{wait}{n}「迷子にならないでね{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"The Capital of Hope to the northeast is a really, really big town!\"{wait}\"Don't get lost, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP15_37:067",
    "jp": "「水が 飲めないのは{n} たいそう つらいものです！」{n}{wait}{n}「命の泉は どうなって{n} しまったんじゃろ？」{n}{wait}",
-   "en": ""
+   "en": "\"Having no water to drink is a hard thing indeed!\"{wait}\"Whatever has become of the Spring of Life?\"{wait}"
   },
   {
    "id": "SMAP15_37:068",
    "jp": "「阿修羅という 鬼は{n} 鬼の中でも 知恵者と{n} ききます！」{wait}{n}「桃太郎さん！{n} お気を つけて！」{n}{wait}",
-   "en": ""
+   "en": "\"They say the oni called Ashura is the cleverest of all the oni!\"{wait}\"Momotaro-san! Do be careful!\"{wait}"
   },
   {
    "id": "SMAP15_37:069",
    "jp": "「うひょ～！{n} とびこみは きもちいいねぇ！」{n}{wait}",
-   "en": ""
+   "en": "\"Woo-hoo! Diving feels so good!\"{wait}"
   },
   {
    "id": "SMAP15_37:070",
    "jp": "「とびこみは{n} やめられない～ とまらない～」{n}{wait}",
-   "en": ""
+   "en": "\"Diving! Once you pop, you just can't stooop!\"{wait}"
   },
   {
    "id": "SMAP15_37:071",
    "jp": "「オラは とびこみの 名人を{n} めざしているだ！{n} それ！ ドボーン！！」{wait}",
-   "en": ""
+   "en": "\"I'm aimin' to be a master diver, I am! Here goes! Ka-sploosh!!\"{wait}"
   },
   {
    "id": "SMAP15_37:072",
    "jp": "「とびこみって{n} スリルが あって いいわあ！{n} クセに なりそう！」{wait} ",
-   "en": ""
+   "en": "\"Diving is such a thrill! I think I'm getting hooked!\"{wait}"
   },
   {
    "id": "SMAP15_37:073",
    "jp": "「桃太郎さんの おかげで{n} こうして 楽しむことができます！{n} 本当に かんしゃしています！」{wait}",
-   "en": ""
+   "en": "\"Thanks to you, Momotaro-san, we can have fun like this! We're truly grateful!\"{wait}"
   },
   {
    "id": "SMAP15_37:074",
    "jp": "「ふふ 私の かれいな とびこみに{n} みんなの しせんは くぎづけよ！{n} あなたも そうでしょう？」",
-   "en": ""
+   "en": "\"Fufu, everyone's eyes are glued to my graceful dives! Yours too, right?\""
   },
   {
    "id": "SMAP15_37:075",
    "jp": "「ふふふ そう！ わたしは{n} かれいなる とびこみの 女神！{n} あ サインは だめよ！」{wait}",
-   "en": ""
+   "en": "\"Fufufu, that's right! I am the goddess of graceful diving! Oh, but no autographs!\"{wait}"
   },
   {
    "id": "SMAP15_37:076",
    "jp": "「…まあ あなたのような{n} お子様には わたしの{n} みりょくは わからないのね！」{wait}",
-   "en": ""
+   "en": "\"...Well, a child like you couldn't possibly understand my charms!\"{wait}"
   },
   {
    "id": "SMAP15_37:077",
    "jp": "「痛くもない 腹を さぐられたら{n} くすぐったいじゃないか！」{n}{wait}",
-   "en": ""
+   "en": "\"Poke around a man with nothing to hide, and all you'll do is tickle his belly!\"{wait}"
   },
   {
    "id": "SMAP15_37:078",
    "jp": "「急がば タクシーに乗れ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Haste makes waste, so hail a taxi!\"{wait}"
   },
   {
    "id": "SMAP15_37:079",
    "jp": "桃太郎は{n}{col10}とこなつの村の男カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Tokonatsu Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP15_37:080",
    "jp": "桃太郎は{n}{col10}とこなつの村の女カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Tokonatsu Woman Card{col0}!{c19}{wait}"
   }
  ]
 }

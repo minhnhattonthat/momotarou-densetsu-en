@@ -4,11 +4,13 @@
 
 Authored `en` is word-wrapped and paged by tools/layout.py first (qa overrides and markers go in as written).
 A table with any `en` is rebuilt from its doc (`en`, else the original `jp` bytes) and written to every `copies`
-location; overlay strings are written in place (`max` bytes). The EXE always gets the engine hook and FONT.PAC the
+location; overlay strings are written in place (`max` bytes), or packed into a shared pool and repointed when only
+pointer words reach them (repacked). The EXE always gets the engine hook and FONT.PAC the
 English glyphs. marker_build=True gives every non-data string `[n.i]` + filler of the Japanese line's pixel width
 (phase 5 marker build): n = the doc's number in docs() order, i = the string index; build/markers.tsv maps n back.
 """
 import re
+import struct
 from pathlib import Path
 
 import engine
@@ -94,6 +96,23 @@ def laid_out(doc):
     return {**doc, 'strings': strs}
 
 
+def repacked(doc, b):
+    """Overlay strings reached only through pointer words (HMAP2606 proverbs, EXE name-entry labels) share one pool:
+    pack them end to end (`en`, else the original bytes) and repoint, so a long line borrows a short one's slack."""
+    ss, orig, at = doc['strings'], bytes(b), int(doc['base'], 16)
+    assert all(a['off'] + a['max'] == c['off'] for a, c in zip(ss, ss[1:])), doc['id']
+    pos, end = ss[0]['off'], ss[-1]['off'] + ss[-1]['max']
+    for s in ss:
+        enc = EN.encode(s['en'] + '{end}') if s.get('en') else orig[s['off']:s['off'] + 2 * len(extract.string_words(orig, s['off']))]
+        assert pos + len(enc) <= end, (doc['id'], s['id'], pos + len(enc) - end, 'bytes over the pool')
+        b[pos:pos + len(enc)] = enc
+        for p in s['ptrs']:
+            struct.pack_into('<I', b, int(p[5:], 16), at + pos)
+        pos += len(enc)
+    b[pos:end] = bytes(end - pos)
+    return bytes(b)
+
+
 def files(marker_build=False, qa=None):
     """{disc path: bytes} for build.build. qa: {string id: text} overrides (stress lines, torture line)."""
     entries, raw = {}, {}          # {pac path: {entry: decompressed bytes}}, {raw file: bytes}
@@ -131,6 +150,9 @@ def files(marker_build=False, qa=None):
                 put(path, ent, extract.build_table(doc, 'en', EN))
                 continue
             b = bytearray(base(path, ent))
+            if all(p.startswith('word@') for s in doc['strings'] for p in s['ptrs']):
+                put(path, ent, repacked(doc, b))
+                continue
             for s in doc['strings']:
                 if s.get('en'):
                     enc = EN.encode(s['en'] + '{end}')

@@ -8,62 +8,62 @@
   {
    "id": "SMAP05_31:000",
    "jp": "「おお 桃太郎！{n} 鉄のウンチを{n} 連れているな！」{wait}{n}「泉の ほとりで 鉄のウンチに{n} めいれいして 特技を{n} つかわせるのじゃ！」{wait}",
-   "en": ""
+   "en": "\"Oho, Momotaro! You've got Iron Poop with you!\"{wait}\"Go to the edge of the spring and order Iron Poop to use his special skill!\"{wait}"
   },
   {
    "id": "SMAP05_31:001",
    "jp": "「桃太郎！{n} この泉には ふしぎなことが{n} おこるのじゃ！」{wait}{n}「いろいろな なかまと{n} くるが よいぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Mysterious things happen at this spring!\"{wait}\"Try coming here with all sorts of companions!\"{wait}"
   },
   {
    "id": "SMAP05_31:002",
    "jp": "「ほうひの術を 覚えたら{n} 村人に 使ってみると{n} いいぞ！」{wait}",
-   "en": ""
+   "en": "\"Once you learn the Fart art, try using it on villagers!\"{wait}"
   },
   {
    "id": "SMAP05_31:003",
    "jp": "「やあ 桃太郎さん！{n} オラの べこの 乳でも{n} のんでいってくりゃあ！」{wait}{n}「そうそう ここから{n} 西へ いくと{n} ひえん仙人が おるだ！」{wait}{n}「一度 よってみるべ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hey, Momotaro-san! Have yerself a drink of my cow's milk!\"{wait}\"Oh yeah, go west from here and you'll find the Warp Hermit!\"{wait}\"Drop in on him sometime!\"{wait}"
   },
   {
    "id": "SMAP05_31:004",
    "jp": "「ほーーほっほっほっ！」{n}{n}{wait}{n}「私が 世界で いちばん{n} うつくしいと いわれる{n} ウンチの女神！」{wait}{n}「今 あなたのために 泉に{n} とびこんだ ウンチは{n} 次のうちの どれですか？」",
-   "en": ""
+   "en": "\"Ohhh-hohohoho!\"{wait}\"I am the Poop Goddess, said to be the most beautiful in all the world!\"{wait}\"Now, which of these is the poop that just jumped into the spring for you?\""
   },
   {
    "id": "SMAP05_31:005",
    "jp": "「ほーーほっほっほっ！」{n}{n}{wait}{n}「私は みにくいものと{n} ウソが だいきらい{n} なのです！」{wait}{n}「あなたの 技を へらしたうえに{n} おそろしい てんばつを{n} あたえて あげましょう！」{wait}{n}「てーーんーーばーーつーーっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ohhh-hohohoho!\"{wait}\"I simply loathe ugly things and lies!\"{wait}\"I shall drain your SP and bring a terrible divine punishment down upon you!\"{wait}\"Diviiine... puuunish... meeeent!\"{wait}"
   },
   {
    "id": "SMAP05_31:006",
    "jp": "「ほーーほっほっほっ！」{n}{n}{wait}{n}「あなたは{n} 私が みこんだとおりの{n} 正直者の ようですね」{wait}{n}「その 正直な あなたに{n} すてきな おくりものを{n} あげましょう！」{wait}{n}「さあ この すばらしい品を{n} 持っていきなさい」{n}{wait}",
-   "en": ""
+   "en": "\"Ohhh-hohohoho!\"{wait}\"You seem to be an honest one, just as I thought.\"{wait}\"To an honest one like you, I shall give a lovely present!\"{wait}\"Now, take this splendid item with you.\"{wait}"
   },
   {
    "id": "SMAP05_31:007",
    "jp": "桃太郎は{n}{col4}金のウンチ{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Gold Poop{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP05_31:008",
    "jp": "桃太郎は{n}{col4}銀のウンチ{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Silver Poop{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP05_31:009",
    "jp": "桃太郎は{n}{col10}ウンチの女神カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Poop Goddess Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP05_31:010",
    "jp": "「さらに！」{n}{n}{wait}{n}「正直な あなたに{n} 私から すてきな 術を{n} さずけましょう！」{wait}{n}「この 術は あくまで{n} ゆうがで きひんのある{n} 術なのです」{wait}{n}「そのため きよく 正しく{n} うつくしい 人にしか{n} 使いこなせません！」{wait}{n}「そう！{n} この 私の ように！」{n}{wait}{n}「さあ！」{n}{n}{wait}{n}「その 術を{n} さずけましょう！」{n}{wait}{n}「世界で いちばん うつくしい{n} この 私も かげながら{n} おうえんして います！」{wait}{n}「ほーーほっほっほっ！」{n}{n}{wait}{n}桃太郎は ウンチの女神から{n}{col4}ほうひの術{col0}を さずかった！{n}{wait}",
-   "en": ""
+   "en": "\"And what's more!\"{wait}\"To an honest one like you, I shall grant a lovely art!\"{wait}\"This art is, above all, an elegant and refined art.\"{wait}\"That is why only the pure, the righteous and the beautiful can master it!\"{wait}\"Yes! Just like me!\"{wait}\"Now!\"{wait}\"I grant you this art!\"{wait}\"I, the most beautiful in all the world, will be cheering you on from afar!\"{wait}\"Ohhh-hohohoho!\"{wait}Momotaro was granted the {col4}Fart{col0} art by the Poop Goddess!{wait}"
   },
   {
    "id": "SMAP05_31:011",
    "jp": "この 術は 村人を{n}どかすことが できるという{n}ちょっとだけ べんりな 術だ！{wait}",
-   "en": ""
+   "en": "This art lets you move villagers out of the way. It's just a teeny bit handy!{wait}"
   }
  ]
 }

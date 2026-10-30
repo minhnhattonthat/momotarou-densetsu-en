@@ -8,32 +8,32 @@
   {
    "id": "WMAP10_28:000",
    "jp": "「わしは ながらく{n} このあたりに すんでいる{n} きっちょむ と もうします！」{wait}{n}「旅人で にぎやかだった{n} このへんも 鬼のせいで{n} すっかり さびれてしまって！」{wait}{n}「おかげで 南から とりよせる{n} 食べ物も さっぱり とどかない{n} しまつです！」{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「どうか {col0}タマゴ{col0}を{n} 一つ ごちそうして{n} くれませんか？」{wait}{n}「お礼は{n} かならず いたします！」{n}{wait}",
-   "en": ""
+   "en": "\"I am called Kitchomu, and I have lived around here for a long time!\"{wait}\"This area used to bustle with travelers, but thanks to the oni it's become completely deserted!\"{wait}\"Because of that, the food we order from the south doesn't get here at all!\"{wait}\"Momotaro-san!\"{wait}\"Would you please treat me to just one {col0}Egg{col0}?\"{wait}\"I'll be sure to repay you!\"{wait}"
   },
   {
    "id": "WMAP10_28:001",
    "jp": "「どうか {col0}タマゴ{col0}を{n} 一つ ごちそうして{n} くれませんか？」{wait}{n}「お礼は{n} かならず いたします！」{n}{wait}",
-   "en": ""
+   "en": "\"Would you please treat me to just one {col0}Egg{col0}?\"{wait}\"I'll be sure to repay you!\"{wait}"
   },
   {
    "id": "WMAP10_28:002",
    "jp": "「あっ！」{n}{n}{wait}{n}「タマゴを 持ってきて{n} くれたんですね！{n} 桃太郎さん！」{wait}{n}「ありがとう！ ありがとう！」{n}{n}{wait}{n}「さっそく{n} お礼の品を{n} さし上げます！」{wait}{n}「きっと 桃太郎さんの{n} お役に 立つと 思いますよ！」{n}{wait}{n}桃太郎は{n}{col4}かぎなわ{col0} を{n}手に 入れた！{c19}{wait}{n}「この かぎなわ が あれば{n} 氷の塔 を{n} 上ることが できます！」{wait}{n}「ですが 氷の塔の 一階は{n} 鍵が かかっていて{n} 入れません！」{wait}{n}「うわさでは 塔の 近くにある{n} 氷の洞窟 が 塔の 地下に{n} 通じているそうです！」{wait}{n}「氷の塔 や 氷の洞窟 は{n} 強い 鬼が いるらしいので{n} 気を つけてください！」{wait}",
-   "en": ""
+   "en": "\"Ah!\"{wait}\"You brought me an Egg, Momotaro-san!\"{wait}\"Thank you! Thank you!\"{wait}\"Let me give you a token of my thanks right away!\"{wait}\"I'm sure it'll be useful to you, Momotaro-san!\"{wait}Momotaro got the {col4}Grappling Hook{col0}!{c19}{wait}\"With this Grappling Hook, you can climb the Ice Tower!\"{wait}\"But the first floor of the Ice Tower is locked, so you can't get in!\"{wait}\"Rumor has it the Ice Cave near the tower leads to the tower's basement!\"{wait}\"They say there are strong oni in the Ice Tower and the Ice Cave, so please be careful!\"{wait}"
   },
   {
    "id": "WMAP10_28:003",
    "jp": "「桃太郎さん！{n} かぎなわ は お役に{n} 立っていますか？」{wait}{n}「氷の塔に いくときは{n} かならず{n} 持って行ってくださいね！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Is the Grappling Hook proving useful?\"{wait}\"Be sure to take it with you when you go to the Ice Tower!\"{wait}"
   },
   {
    "id": "WMAP10_28:004",
    "jp": "「桃太郎さん！{n} かぎなわ は お役に{n} 立っていますか？」{wait}{n}「これ つまらないものですが{n} どうぞ おうけとりください！」{n}{wait}{n}桃太郎は{n}{col10}きっちょむさんカード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Is the Grappling Hook proving useful?\"{wait}\"This is only a small thing, but please accept it!\"{wait}Momotaro got the {col10}Kitchomu-san Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP10_28:005",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「九死に 一生を終える」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Saved by the bell... the funeral bell.\"{wait}Oh, come on!{wait}"
   }
  ]
 }

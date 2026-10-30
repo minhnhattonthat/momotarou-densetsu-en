@@ -8,32 +8,32 @@
   {
    "id": "WMAP14_28:000",
    "jp": "「ウヒャヒャ… わしは{n} オートバトル仙人ぢゃ！」{n}{wait}{n}「オートバトルを 使えば{n} 自分の 頭を 使わずに{n} 敵と 戦えるのぢゃ！」{wait}{n}「ぢゃが わしは{n} こんな らくちんな やりかたは{n} いかんと 考えておる！」{wait}{n}「おのれの 頭で 考え{n} おのれの 力で 戦うから{n} おもしろいのでは ないか！？」{wait}{n}「だから わしは{n} オートバトル仙人の くせに{n} オートバトルが きらいなのぢゃ！」{wait}{n}「桃太郎{n} だから お前が ほしいなら{n} ただで くれてやるぞ！」{wait}{n}「どうぢゃ？ ほしいか？」{n}{n}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Auto Battle Hermit!\"{wait}\"With Auto Battle, you can fight enemies without using your own head!\"{wait}\"But I believe such a lazy way of doing things is wrong!\"{wait}\"Thinking with your own head and fighting with your own strength is what makes it fun, isn't it?!\"{wait}\"That's why, even though I'm the Auto Battle Hermit, I hate Auto Battle!\"{wait}\"So, Momotaro, if you want it, I'll give it to you for free!\"{wait}\"Well? Do you want it?\""
   },
   {
    "id": "WMAP14_28:001",
    "jp": "「ふむ… 桃太郎{n} お前が ほしいと いうのなら{n} くれてやろう！」{wait}{n}「ぢゃが オートバトルで らくを{n} していては 本当の 旅の{n} たのしみは あじわえんぞ！」{wait}{n}「そのことを よく{n} きもに めいじておけよ！」{n}{wait}{n}「ほうれ！ オートバトルを{n} さずけてやろう！」{n}{wait}{n}桃太郎は オートバトルが{n}できるように なった！{n}{wait}",
-   "en": ""
+   "en": "\"Hmm... Momotaro, if you say you want it, then it's yours!\"{wait}\"But if you take it easy with Auto Battle, you'll never taste the true joys of the journey!\"{wait}\"Take that to heart!\"{wait}\"There you go! I grant you Auto Battle!\"{wait}Momotaro can now use Auto Battle!{wait}"
   },
   {
    "id": "WMAP14_28:002",
    "jp": "「ふむ！ いまどき{n} すなおで よい子ぢゃ！」{n}{wait}{n}「先は 長いが{n} がんばるのぢゃ！ 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmm! An honest, good child, and these days, too!\"{wait}\"The road ahead is long, but do your best, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP14_28:003",
    "jp": "「オートバトルに ばかり{n} たよっていては 戦いの{n} カンが にぶってしまうぞ！」{wait}{n}「自分の 力で 戦うことを{n} 忘れては ならんのぢゃ！{n} わかったな 桃太郎！」{wait}",
-   "en": ""
+   "en": "\"If you rely on Auto Battle all the time, your battle instincts will get dull!\"{wait}\"Never forget to fight with your own strength! Understood, Momotaro?\"{wait}"
   },
   {
    "id": "WMAP14_28:004",
    "jp": "「桃太郎！ 自分の 力で{n} がんばっておるか？」{n}{wait}{n}「ほれ！ お前に{n} いいものを さずけよう！{n} だいじにするのぢゃぞ！」{wait}{n}桃太郎は{n}{col10}オートバトル仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are you working hard with your own strength?\"{wait}\"Here! I grant you something nice! Take good care of it!\"{wait}Momotaro got the {col10}Auto Battle Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP14_28:005",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「善は いそべ揚げ！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Strike while the tempura is hot!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

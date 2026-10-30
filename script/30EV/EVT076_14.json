@@ -8,27 +8,27 @@
   {
    "id": "EVT076_14:000",
    "jp": "桃太郎は 勇気の剣を{n}海にむかって かざした！{n}{wait}",
-   "en": ""
+   "en": "Momotaro held the Sword of Courage up toward the sea!{wait}"
   },
   {
    "id": "EVT076_14:001",
    "jp": "勇気の剣が 輝きはじめた！{n}{n}{wait}",
-   "en": ""
+   "en": "The Sword of Courage began to shine!{wait}"
   },
   {
    "id": "EVT076_14:002",
    "jp": "金色の 光が{n}一条の 帯となって{n}海に すいこまれていく…",
-   "en": ""
+   "en": "The golden light became a single ribbon and was drawn into the sea..."
   },
   {
    "id": "EVT076_14:003",
    "jp": "みるみるうちに{n}海が ひらけ{n}道が できあがった！{wait}",
-   "en": ""
+   "en": "Before their very eyes, the sea parted and a path appeared!{wait}"
   },
   {
    "id": "EVT076_14:004",
    "jp": "道は 鬼が島へと{n}続いている…{n}",
-   "en": ""
+   "en": "The path leads all the way to Onigashima..."
   }
  ]
 }

@@ -468,7 +468,7 @@
   {
    "id": "FONT_5:092",
    "jp": "あたりを ふしぎな光が{n}てらしている！{n}{wait}{n}なんと！{n}{n}{wait}{n}桃太郎は 伝説の{n}勇気の剣を 見つけた！{n}{wait}{n}桃太郎は {col4}勇気の剣{col0}を{n}手に入れた！{n}{c2c}{wait}",
-   "en": ""
+   "en": "A strange light is shining all around!{wait}What's this?!{wait}Momotaro found the legendary Sword of Courage!{wait}Momotaro got the {col4}Sword of Courage{col0}! {c2c}{wait}"
   },
   {
    "id": "FONT_5:093",
@@ -503,17 +503,17 @@
   {
    "id": "FONT_5:099",
    "jp": "ことわざが 書いてある！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}"
   },
   {
    "id": "FONT_5:100",
    "jp": "そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "Oh, come on!{wait}"
   },
   {
    "id": "FONT_5:101",
    "jp": "「サルも 木から{n} オチを いう！」{n}{wait}",
-   "en": ""
+   "en": "\"Even monkeys drop... the punchline!\"{wait}"
   }
  ]
 }

@@ -19,6 +19,7 @@ exclamation marks where the JP has them, no archaic "thee/thou", no modern slang
 | Hermits, elders | ～じゃ / ぢゃ / おるぞ | old-man voice: "I am the Escape Hermit! Heh heh!", "Off with you, Momotaro!" |
 | Oni, villains | rough / ふふふ | rough or menacing; "Heh heh heh!" for ふふふ |
 | Kansai shopkeeper | でっか / へい | folksy: "Hey there, welcome! Whaddya need?" |
+| Mapmaker (～なんだな, slow and simple) | なんだな | ends a line with ", I reckon." ("I want you to find me on your travels, I reckon.") |
 | Chinese-accent elevator | アル / ツァイチェン | pidgin kept light: "Welcome-a, yes!" / "Zaijian!" |
 
 ## Paired examples

@@ -8,97 +8,97 @@
   {
    "id": "WMAP12_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ふういん仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Seal Hermit!\"{wait}"
   },
   {
    "id": "WMAP12_28:001",
    "jp": "「わしの 術は 浦島が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 浦島を つれてくるのぢゃ！」{n}{wait}{n}「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"My art is one that Urashima would be fit to learn!\"{wait}\"Bring me Urashima, who is fit to undergo my training!\"{wait}\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP12_28:002",
    "jp": "「わしの 術は 浦島が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 浦島が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}{n}「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"My art is fit for Urashima to learn!\"{wait}\"Oh! Why, what's this! That Urashima is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take him to a doctor and get him healed!\"{wait}\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP12_28:003",
    "jp": "「ふういんの術は{n} 鬼が 術を 使えないように{n} させることが できるのぢゃ！」{wait}{n}「この 術を 覚えるのは{n} 浦島が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"The Seal art can stop the oni from using arts!\"{wait}\"Urashima is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}"
   },
   {
    "id": "WMAP12_28:004",
    "jp": "「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「ところで 浦島よ！{n} こんな 話を{n} 知っておるかな？」{wait}{n}「あるとき 三人の 旅人が{n} ひろーい さばくを{n} 歩いていた そうぢゃ！」{wait}",
-   "en": ""
+   "en": "\"But first, you must undergo my rather strict training!\"{wait}\"By the way, Urashima! Have you heard this story?\"{wait}\"Once upon a time, three travelers were walking across a vaaast desert!\"{wait}"
   },
   {
    "id": "WMAP12_28:005",
    "jp": "「すると とつぜん 高くて長ーい{n} かべが あらわれて 三人の{n} ゆくてを さえぎった そうぢゃ！」{wait}{n}「三人は 思わず 立ち止まり{n} かおを みあわせた！」{n}{wait}{n}「太陽は カンカンと てりつけ{n} きおんは どんどん{n} じょうしょうして きおった！」{wait}",
-   "en": ""
+   "en": "\"All of a sudden, a tall, looong wall appeared and blocked the three men's way!\"{wait}\"The three stopped in their tracks and looked at each other!\"{wait}\"The sun beat down mercilessly, and the temperature kept rising and rising!\"{wait}"
   },
   {
    "id": "WMAP12_28:006",
    "jp": "「たきのような あせを ながしながら{n} 三人は そのばに{n} 立ちつくしておった！」{wait}{n}「やがて そのうちの 一人が{n} だれに いうともなく{n} こう つぶやいたそうぢゃ！」{wait}{n}「あー ションベンが してえ…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Sweating buckets, the three stood rooted to the spot!\"{wait}\"Eventually, one of them muttered to no one in particular:\"{wait}\"Man, I really gotta pee...\"{wait}"
   },
   {
    "id": "WMAP12_28:007",
    "jp": "「そういうと その男は{n} いきなり かべに むかって{n} タチションを はじめたのぢゃ！」{wait}{n}「すると それを 見ていた{n} のこりの 二人も{n} タチションを はじめおった！」{wait}{n}「三人の ションベンは{n} かわききった すなに{n} みるみる すいこまれていった！」{wait}",
-   "en": ""
+   "en": "\"With that, the man suddenly turned to the wall and started peeing against it!\"{wait}\"Seeing that, the other two started peeing too!\"{wait}\"The three men's pee soaked straight into the bone-dry sand!\"{wait}"
   },
   {
    "id": "WMAP12_28:008",
    "jp": "「すると そのあとから 小さな{n} 木が はえて きたのぢゃ！」{n}{wait}{n}「そして おどろく 三人の{n} 目の まえで 木は どんどんと{n} せいちょうして いきおった！」{wait}{n}「やがて その木は てっぺんが{n} 見えなくなるぐらいに ふとく{n} 大きく なったのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Then a little tree sprouted up from the spot!\"{wait}\"And before the astonished eyes of the three, the tree grew and grew!\"{wait}\"Before long, the tree became so thick and huge that you couldn't even see the top!\"{wait}"
   },
   {
    "id": "WMAP12_28:009",
    "jp": "「そのとき 三人の あたまに{n} ある 考えが{n} ひらめいたのぢゃな！」{wait}{n}「三人は 目のまえの{n} 大きな 木に のぼりはじめた！」{n}{wait}{n}「ずうっと ずっと のぼっていくと{n} やがて かべの ちょうじょうが{n} みえてきたのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"At that moment, an idea struck all three of them!\"{wait}\"The three began to climb the great tree before them!\"{wait}\"They climbed and climbed and climbed, until at last the top of the wall came into view!\"{wait}"
   },
   {
    "id": "WMAP12_28:010",
    "jp": "「三人は てぢかな えだから{n} かべの ちょうじょうに{n} のりうつった！」{wait}{n}「すると かべの むこうがわに{n} あおあおとした オアシスが{n} ひろがっているのが みえた！」{wait}{n}「なんと あしもとには{n} 下に おりる 階段まで{n} あるではないか！」{wait}",
-   "en": ""
+   "en": "\"The three hopped from a nearby branch onto the top of the wall!\"{wait}\"And on the far side of the wall, they saw a lush green oasis spread out before them!\"{wait}\"What's more, right at their feet was a staircase leading down!\"{wait}"
   },
   {
    "id": "WMAP12_28:011",
    "jp": "「三人は その階段を{n} おりて オアシスに おりたった！」{n}{wait}{n}「タチションが 三人の ききを{n} すくった わけぢゃな！」{n}{wait}{n}「きゅうしに いっしょうべんという{n} ことわざは ここから{n} うまれたのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"The three went down the stairs and set foot in the oasis!\"{wait}\"So peeing saved the three of them from a desperate fix!\"{wait}\"And that is where the proverb 'Where there's a wee, there's a way' comes from!\"{wait}"
   },
   {
    "id": "WMAP12_28:012",
    "jp": "「どうぢゃ？ ためになる{n} 話ぢゃったろ？」{n}{wait}{n}「ところで 浦島よ！{n} わしは 本物の{n} ふういん仙人だと 思うか？」",
-   "en": ""
+   "en": "\"Well? Wasn't that an educational story?\"{wait}\"By the way, Urashima! Do you think I'm the real Seal Hermit?\""
   },
   {
    "id": "WMAP12_28:013",
    "jp": "「わしの ことが{n} 信じられんと いうのか！」{n}{wait}{n}「そんな やつに{n} 術を 教えるわけには{n} いかんな！」{wait}{n}「かおを あらって{n} でなおして くるんぢゃな！」{n}{wait}",
-   "en": ""
+   "en": "\"You mean you don't believe me?!\"{wait}\"I can't teach my art to someone like that!\"{wait}\"Go wash your face and come back!\"{wait}"
   },
   {
    "id": "WMAP12_28:014",
    "jp": "「本当か？」{n}{n}{wait}{n}「しかし 実は わしは{n} 鬼が 化けているのでは ないかと{n} うたぐって いるのぢゃろう？」",
-   "en": ""
+   "en": "\"Really?\"{wait}\"But secretly, you suspect I might be an oni in disguise, don't you?\""
   },
   {
    "id": "WMAP12_28:015",
    "jp": "「そこまで 信じてくれているなら{n} 術を さずけないわけには{n} いかないのう！」{wait}{n}「うむ！ 浦島よ！{n} ふういんの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}浦島は{n}{col4}ふういんの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"If you trust me that much, I have no choice but to grant you my art!\"{wait}\"Very well, Urashima! I shall grant you the Seal art! Uhyahya...\"{wait}Urashima mastered the {col4}Seal art{col0}!"
   },
   {
    "id": "WMAP12_28:016",
    "jp": "「これから先 術を使う{n} 鬼も 多くなる！」{n}{wait}{n}「ふういんの術を うまく{n} 使って 戦うのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"From here on, more and more oni will use arts!\"{wait}\"Make good use of the Seal art in battle!\"{wait}"
   },
   {
    "id": "WMAP12_28:017",
    "jp": "「おお 桃太郎！{n} もう 希望の都へは{n} いったのか？」{wait}{n}「せっかく きたんぢゃ！{n} これを くれてやろう！」{n}{wait}{n}桃太郎は{n}{col10}ふういん仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro! Have you been to the Capital of Hope yet?\"{wait}\"Since you came all this way, I'll give you this!\"{wait}Momotaro got the {col10}Seal Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP12_28:018",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「人を見たら ブラボー！と思え！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Never trust a stranger... always cheer one! Bravo!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

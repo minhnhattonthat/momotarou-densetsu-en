@@ -8,67 +8,67 @@
   {
    "id": "WMAP13_28:000",
    "jp": "「ウヒャヒャ… わしは{n} りょうり仙人ぢゃ！」{n}{wait}{n}「りょうりの術は{n} いつでも どこでも{n} りょうりが 作れるのぢゃ！」{wait}{n}「さいしょは おにぎり{n} そのうち きびだんご{n} こいつは べんりぢゃろ！」{wait}{n}「この 術を 覚えるのは{n} やっぱり 夜叉姫 ぢゃろな！{n} おんなのこ ぢゃからのォ！」{wait}{n}「さて！ わしの 修行は{n} かんたんぢゃ！」{n}{wait}{n}「そろそろ{n} はらが へったので{n} ごはんに したいのぢゃが」{wait}{n}「夜叉姫には わしの{n} ごはんの ざいりょうを{n} そろえてきて ほしいのぢゃ！」{wait}{n}「ウヒャヒャ…{n} かんたんぢゃろ？」{n}{wait}{n}「まずは あっさりと{n} だいこんおろし が{n} 食べたいのォ！」{wait}{n}「夜叉姫よ！{n} だいこんを{n} 持ってくるのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Cooking Hermit!\"{wait}\"The Cooking art lets you cook anytime, anywhere!\"{wait}\"First Rice Balls, and later on Millet Dumplings! Handy, isn't it?\"{wait}\"The one to learn this art is Yashahime, of course! She's a girl, after all!\"{wait}\"Now then! My training is easy!\"{wait}\"I'm getting hungry, so I'd like to have a meal,\"{wait}\"and I want Yashahime to gather the ingredients for it!\"{wait}\"Uhyahya... Easy, isn't it?\"{wait}\"First, I'd like something light, like grated daikon!\"{wait}\"Yashahime! Bring me a daikon!\"{wait}"
   },
   {
    "id": "WMAP13_28:001",
    "jp": "「夜叉姫よ！{n} だいこんを{n} 持ってくるのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Yashahime! Bring me a daikon!\"{wait}"
   },
   {
    "id": "WMAP13_28:002",
    "jp": "「ウヒャヒャ…{n} でかしたぞ 夜叉姫！」{n}{wait}{n}「これで だいこんおろし は{n} バッチリぢゃ！」{n}{wait}{n}「おお うっかりしとったわい！」{n}{n}{wait}{n}「だいこんおろし と くれば{n} サンマの しおやき を{n} わすれては いかんのォ！」{wait}{n}「夜叉姫よ！ つぎは{n} サンマを 持ってくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... Well done, Yashahime!\"{wait}\"Now the grated daikon is all set!\"{wait}\"Oh, how careless of me!\"{wait}\"With grated daikon, you can't forget salt-grilled Saury!\"{wait}\"Yashahime! Next, bring me a Saury!\"{wait}"
   },
   {
    "id": "WMAP13_28:003",
    "jp": "「夜叉姫よ！{n} サンマを 持ってくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Yashahime! Bring me a Saury!\"{wait}"
   },
   {
    "id": "WMAP13_28:004",
    "jp": "「ウヒャヒャ…{n} でかしたぞ 夜叉姫！」{n}{wait}{n}「あぶらの のった{n} サンマは うまそうぢゃのォ！」{n}{wait}{n}「しかし どうにも{n} テーブルが{n} さっぷうけい で いかん！」{wait}{n}「いろどりに{n} 花の 一つでも{n} かざると しよう！」{wait}{n}「夜叉姫よ！ 花を{n} 持ってきてくれんか？{n} きれいな やつを たのむぞ！」{wait}",
-   "en": ""
+   "en": "\"Uhyahya... Well done, Yashahime!\"{wait}\"A nice fatty Saury! Looks delicious!\"{wait}\"But the table looks so bare and dreary, it won't do!\"{wait}\"Let's decorate it with a flower for a touch of color!\"{wait}\"Yashahime! Will you bring me a flower? A pretty one, please!\"{wait}"
   },
   {
    "id": "WMAP13_28:005",
    "jp": "「夜叉姫よ！{n} きれいな花を 持ってくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Yashahime! Bring me a pretty flower!\"{wait}"
   },
   {
    "id": "WMAP13_28:006",
    "jp": "「ウヒャヒャ…{n} でかしたぞ 夜叉姫！」{n}{wait}{n}「食卓に いちりんの花！{n} ふうりゅうぢゃのォ！」{n}{wait}{n}「そうそう！{n} おかずが そろったのに{n} ごはんが まだぢゃった！」{wait}{n}「夜叉姫よ！{n} これが さいごぢゃ！」{n}{wait}{n}「こめだわらを 持ってくるのぢゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... Well done, Yashahime!\"{wait}\"A single flower on the dinner table! How elegant!\"{wait}\"Oh, right! The side dishes are ready, but I still don't have any rice!\"{wait}\"Yashahime! This is the last one!\"{wait}\"Bring me a bale of rice!\"{wait}"
   },
   {
    "id": "WMAP13_28:007",
    "jp": "「こめだわらを 持ってくるのぢゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bring me a bale of rice!\"{wait}"
   },
   {
    "id": "WMAP13_28:008",
    "jp": "「ウヒャヒャ…{n} でかした！ 夜叉姫！」{n}{wait}{n}「ほかほかの ごはんに{n} あつあつの サンマ！{n} しんせんな だいこんおろし！」{wait}{n}「うむ！ かんぺきな{n} ごはんじたく ぢゃ！」{n}{wait}{n}「それでは りょうりの術を{n} さずけようぞ！ ウヒャヒャ…」{n}{wait}{n}夜叉姫は{n}{col4}りょうりの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Uhyahya... Well done, Yashahime!\"{wait}\"Steaming hot rice! Sizzling Saury! Freshly grated daikon!\"{wait}\"Yes! A perfect meal!\"{wait}\"And so, I shall grant you the Cooking art! Uhyahya...\"{wait}Yashahime mastered the {col4}Cooking art{col0}!"
   },
   {
    "id": "WMAP13_28:009",
    "jp": "「ウヒャヒャ… わしは{n} りょうり仙人ぢゃ！」{n}{wait}{n}「わしの 術は 夜叉姫が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 夜叉姫が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} たいせつにする 勇気の子だな？」{n}{wait}{n}「早く 医者に みせて{n} からだを なおしてくるがよい！」{n}{wait}{n}「わしは いつまでも{n} ここで まっておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Cooking Hermit!\"{wait}\"My art is fit for Yashahime to learn!\"{wait}\"Oh! Why, what's this! That Yashahime is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take her to a doctor and get her healed!\"{wait}\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP13_28:010",
    "jp": "「ウヒャヒャ… わしは{n} りょうり仙人ぢゃ！」{n}{wait}{n}「わしの 術は 夜叉姫が{n} 覚えるに ふさわしいぢゃろう！」{n}{wait}{n}「修行を うけるに ふさわしい{n} 夜叉姫を つれてくるのぢゃ！」{n}{wait}{n}「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Cooking Hermit!\"{wait}\"My art is one that Yashahime would be fit to learn!\"{wait}\"Bring me Yashahime, who is fit to undergo my training!\"{wait}\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP13_28:011",
    "jp": "「戦いになってから あわてて{n} りょうりを つくろうとしても{n} まにあわんぞ！」{wait}{n}「技に よゆうの あるときに{n} こまめに りょうりを{n} つくっておくのぢゃ！」{wait}{n}「いざというときに{n} 役に 立つぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you panic and try to cook once a battle has started, it'll be too late!\"{wait}\"Cook often, while you have SP to spare!\"{wait}\"It'll come in handy in a pinch!\"{wait}"
   },
   {
    "id": "WMAP13_28:012",
    "jp": "「桃太郎！{n} 夜叉姫の りょうりの{n} あじは どうぢゃ？」{wait}{n}「なかよく やってる{n} お前たちに プレゼントぢゃ！」{n}{wait}{n}桃太郎は{n}{col10}りょうり仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! How does Yashahime's cooking taste?\"{wait}\"A present for all of you, getting along so well!\"{wait}Momotaro got the {col10}Cooking Hermit Card{col0}!{c19}{wait}"
   }
  ]
 }

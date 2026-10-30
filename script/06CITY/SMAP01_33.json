@@ -8,152 +8,152 @@
   {
    "id": "SMAP01_33:000",
    "jp": "「えんまは 人間を{n} 虫けらと 同じだと{n} 思ってる」{wait}{n}「とんでもない{n} やつだそうだ！」{n}{wait}{n}「えんまと 戦うのなら{n} かぐや姫様の 力が{n} 必要に なるだろう！」{wait}",
-   "en": ""
+   "en": "\"Enma thinks humans are no better than bugs.\"{wait}\"He's a terrible one, they say!\"{wait}\"If you're going to fight Enma, you'll need Princess Kaguya's power!\"{wait}"
   },
   {
    "id": "SMAP01_33:001",
    "jp": "「どうぐぶくろの 中の{n} どうぐを えらぶと どうぐの{n} 効果が わかるんじゃと！」{wait}{n}「一度 使うと{n} なくなるものは{n} {col6}1回{col0}」{wait}{n}「何度か 使っているうちに{n} こわれたりするものは{n} {col6}？回{col0}」{wait}{n}「何度 使っても{n} へいきなものは{n} {col6}ずっと{col0}」{wait}{n}「こんなふうに 表示されるから{n} はじめての 道具を 使うときは{n} かくにんしておくと ええぞよ！」{wait}",
-   "en": ""
+   "en": "\"They say if you pick an item in your item bag, you can see what it does!\"{wait}\"Items that are gone after one use show {col6}1 use{col0}.\"{wait}\"Items that may break after a few uses show {col6}? uses{col0}.\"{wait}\"Items you can use as often as you like show {col6}Forever{col0}.\"{wait}\"That's how it's shown, so check before you use a new item, eh!\"{wait}"
   },
   {
    "id": "SMAP01_33:002",
    "jp": "「桃太郎さん！{n} 鬼たいじに いくんだって？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I hear you're going oni slaying?\"{wait}"
   },
   {
    "id": "SMAP01_33:003",
    "jp": "「じゃあ これを あげるよ！{n} 鬼たいじ がんばって！」{n}{wait}",
-   "en": ""
+   "en": "\"Then I'll give you this! Good luck with the oni slaying!\"{wait}"
   },
   {
    "id": "SMAP01_33:004",
    "jp": "桃太郎は {col4}竹刀{col0} を{n}手に 入れた！{n}{c19}{wait}{n}「北にある{n} カチカチの村が 鬼に{n} おそわれたって 話だけど」{wait}{n}「だいじょうぶかな？」{n}{n}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Bamboo Sword{col0}!{c19}{wait}\"I heard Kachikachi Village up north was attacked by oni...\"{wait}\"I wonder if they're all right?\"{wait}"
   },
   {
    "id": "SMAP01_33:005",
    "jp": "「鬼がわらっていう 鬼は{n} かたいから 攻撃が{n} なかなか きかないんだと！」{wait}{n}「戦ってみて 勝てないようなら{n} 逃げたほうが ええだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"They say the oni called Oni Tile is so hard your attacks barely work!\"{wait}\"If ya fight it and can't win, best run away, I reckon!\"{wait}"
   },
   {
    "id": "SMAP01_33:006",
    "jp": "「桃太郎さん！ ずいぶん{n} 歩く速度が おそいですねえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You sure walk slowly!\"{wait}"
   },
   {
    "id": "SMAP01_33:007",
    "jp": "「この村の 北に{n} はやあし仙人が すんでいます」{n}{wait}",
-   "en": ""
+   "en": "\"The Dash Hermit lives north of this village.\"{wait}"
   },
   {
    "id": "SMAP01_33:008",
    "jp": "「仙人に たのむと{n} 村の中を 早く歩くことが{n} できるように なりますよ！」{wait}",
-   "en": ""
+   "en": "\"If you ask the hermit, you'll be able to walk fast inside villages!\"{wait}"
   },
   {
    "id": "SMAP01_33:009",
    "jp": "「それどころか 村の外まで{n} 早く歩けるように なります！{n} べんりですねえ！」{wait}",
-   "en": ""
+   "en": "\"And not just that, you'll walk fast outside villages too! How handy!\"{wait}"
   },
   {
    "id": "SMAP01_33:010",
    "jp": "「早く 覚えに{n} 行ったほうが いいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"You'd better go learn it soon!\"{wait}"
   },
   {
    "id": "SMAP01_33:011",
    "jp": "「桃太郎さん！ あしどりが{n} かろやかですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You've got a spring in your step!\"{wait}"
   },
   {
    "id": "SMAP01_33:012",
    "jp": "「これなら カチカチの村に{n} 行くのも あっというまですね！」{n}{wait}",
-   "en": ""
+   "en": "\"At this rate, you'll be at Kachikachi Village in no time!\"{wait}"
   },
   {
    "id": "SMAP01_33:013",
    "jp": "「ここから 北へ いくと{n} カチカチの村が あります！」{n}{wait}{n}「カチカチの村は」{n}{n}{wait}{n}「ウサギと タヌキが{n} なかよくなって{n} 作った 村なんです！」{wait}",
-   "en": ""
+   "en": "\"Head north from here and you'll reach Kachikachi Village!\"{wait}\"Kachikachi Village...\"{wait}\"is a village the rabbits and tanuki built after they made friends!\"{wait}"
   },
   {
    "id": "SMAP01_33:014",
    "jp": "「お地蔵さんに 話しかけると{n} ためになる 話を{n} してくださいます！」{wait}{n}「忘れずに{n} 話しかけて くださいね」{n}{wait}",
-   "en": ""
+   "en": "\"If you talk to the Jizo statues, they'll tell you useful things!\"{wait}\"Don't forget to talk to them!\"{wait}"
   },
   {
    "id": "SMAP01_33:015",
    "jp": "「桃太郎さん！ 鬼たいじ{n} 村の みんなで{n} おうえんしてますよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The whole village is cheering on your oni slaying!\"{wait}"
   },
   {
    "id": "SMAP01_33:016",
    "jp": "「これは ほんの きもちです！{n} もって行ってください！」{n}{wait}",
-   "en": ""
+   "en": "\"This is just a small token! Please take it with you!\"{wait}"
   },
   {
    "id": "SMAP01_33:017",
    "jp": "桃太郎は {col4}板の胴{col0} を{n}手に 入れた！{n}{c19}{wait}{n}「カチカチの村を おそった{n} 鬼は 銀の鬼 という{n} 鬼だそうですよ！」{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Plank Cuirass{col0}!{c19}{wait}\"They say the oni that attacked Kachikachi Village is called the Silver Oni!\"{wait}"
   },
   {
    "id": "SMAP01_33:018",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「たまには 家に 戻って{n} おじいさんと おばあさんを{n} 安心させて おあげ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Go home now and then, and put Grandpa and Grandma's minds at ease!\"{wait}"
   },
   {
    "id": "SMAP01_33:019",
    "jp": "「桃太郎！ オラたちが{n} 応援するだ！ 鬼たいじ{n} がんばってけれ！」{wait}{n}「オラの 牛の お乳を{n} 飲んで 元気 出してけれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! We're all a-rootin' for ya! Good luck with the oni slaying!\"{wait}\"Drink my cow's milk an' perk yourself up!\"{wait}"
   },
   {
    "id": "SMAP01_33:020",
    "jp": "「モー！ オラの お乳{n} 飲んでくかモー！」{n}",
-   "en": ""
+   "en": "\"Moo! Wanna drink my milk? Moo!\""
   },
   {
    "id": "SMAP01_33:021",
    "jp": "ゴク ゴク ゴクッ！{n}{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": ""
+   "en": "Gulp gulp gulp! {str}'s SP and HP were fully restored!{wait}"
   },
   {
    "id": "SMAP01_33:022",
    "jp": "「おなか いっぱいなのかモー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Is your tummy full? Moo!\"{wait}"
   },
   {
    "id": "SMAP01_33:023",
    "jp": "「これから 先{n} 村を 訪れたら{n} 地蔵に 話しかけるのじゃ！」{wait}{n}「どのくらいの 段数だと{n} 旅が つらくないか{n} 教えてくれるはずじゃ！」{wait}",
-   "en": ""
+   "en": "\"From now on, when you visit a village, talk to the Jizo!\"{wait}\"It should tell you what level you need for the journey not to be too hard!\"{wait}"
   },
   {
    "id": "SMAP01_33:024",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「えんまを 倒すには{n} 伝説の 勇気の剣 が{n} 必要に なるぞ！」{wait}{n}「かぐや姫を 探すのじゃ！」{n}{n}{wait}{n}「きっと 力に{n} なってくれるじゃろう！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"To defeat Enma, you will need the legendary Sword of Courage!\"{wait}\"Seek out Princess Kaguya!\"{wait}\"She will surely help you!\"{wait}"
   },
   {
    "id": "SMAP01_33:025",
    "jp": "「ボクはウンチだよー！ ぷり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm Poop! Plop!\"{wait}"
   },
   {
    "id": "SMAP01_33:026",
    "jp": "「ボクはウンチだよー！ ぷり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm Poop! Plop!\"{wait}"
   },
   {
    "id": "SMAP01_33:027",
    "jp": "「ボクはウンチだよー！ ぷり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm Poop! Plop!\"{wait}"
   },
   {
    "id": "SMAP01_33:028",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「ボクに 桃太郎さんの{n} 鬼たいじの お手伝いを{n} させてください！」{wait}{n}「きっと お役に{n} 立ってみせます！ ぷりっ！」{n}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Please let me help you with your oni slaying!\"{wait}\"I'll be useful, I promise! Plop!\""
   },
   {
    "id": "SMAP01_33:029",
    "jp": "「では いっしょに{n} 行きましょう！ ぷりっ！」{n}{wait}{n}ウンチがくわわったので{n}桃太郎の 守備力が{n}2上がった！{wait}",
-   "en": ""
+   "en": "\"Then let's go together! Plop!\"{wait}With Poop along, Momotaro's Defense rose by 2!{wait}"
   },
   {
    "id": "SMAP01_33:030",
@@ -163,52 +163,52 @@
   {
    "id": "SMAP01_33:031",
    "jp": "「わかりました！{n} では また 声を{n} かけてくださいね ぷりっ！」{wait}",
-   "en": ""
+   "en": "\"Okay! Call on me again sometime, plop!\"{wait}"
   },
   {
    "id": "SMAP01_33:032",
    "jp": "「ボクに 桃太郎さんの{n} 旅の お手伝いを{n} させてください！ ぷり！」",
-   "en": ""
+   "en": "\"Please let me help you on your journey, Momotaro-san! Plop!\""
   },
   {
    "id": "SMAP01_33:033",
    "jp": "「桃太郎さん！ ここは武器だけを{n} 売っている お店です！」{n}{wait}{n}「防具や はきものがほしいときは{n} 別の お店に 行ってくださいね」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! This shop only sells weapons!\"{wait}\"If you want armor or footwear, please go to the other shops!\"{wait}"
   },
   {
    "id": "SMAP01_33:034",
    "jp": "「桃太郎さん！ 鬼と 戦うときは{n} 体力に 注意しなされ！」{n}{wait}{n}「おまんじゅうや おにぎりで{n} 体力を 回復できるぞい！{n} 忘れずに 買っておくことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Watch your HP when you fight the oni!\"{wait}\"Steamed Buns and Rice Balls restore HP! Don't forget to buy some!\"{wait}"
   },
   {
    "id": "SMAP01_33:035",
    "jp": "「えんまは{n} 100万の 鬼を{n} 手下に しているそうです！」{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「旅の 途中で{n} 頼りになる 仲間を{n} 見つけてください！」{wait}",
-   "en": ""
+   "en": "\"They say Enma has a million oni under his command!\"{wait}\"Momotaro-san!\"{wait}\"Find some friends you can count on during your journey!\"{wait}"
   },
   {
    "id": "SMAP01_33:036",
    "jp": "「鬼たいじの旅を{n} 一休みしたいときは{n} 神社に いくんですよ！」{wait}",
-   "en": ""
+   "en": "\"When you want a break from your oni slaying journey, go to a shrine!\"{wait}"
   },
   {
    "id": "SMAP01_33:037",
    "jp": "「へいらっしゃい！{n} うちは 桃福笑いが 楽しめるよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hey there, welcome! Here you can play Momo Fukuwarai!\"{wait}"
   },
   {
    "id": "SMAP01_33:038",
    "jp": "「どうだい？ 100両だよ！{n} やってみるかい？ 面白いよ！」{n}{wait}",
-   "en": ""
+   "en": "\"How 'bout it? Just 100 ryo! Wanna try? It's fun!\"{wait}"
   },
   {
    "id": "SMAP01_33:039",
    "jp": "「いいかい？{n} みみの穴 かっぽじって{n} よーく 聞きなよ！」{wait}{n}「………っと 言っても{n} 説明する事も ないし{n} とにかく やってみてよ」{wait}",
-   "en": ""
+   "en": "\"Ready? Clean out your ears and listen up good!\"{wait}\"......Well, there's nothin' to explain really, so just give it a go!\"{wait}"
   },
   {
    "id": "SMAP01_33:040",
    "jp": "「もったいない！{n} あんたなら きっと うまく出来る{n} と思ったのに…」{wait}",
-   "en": ""
+   "en": "\"What a waste! I was sure someone like you would be great at it...\"{wait}"
   },
   {
    "id": "SMAP01_33:041",
@@ -223,97 +223,97 @@
   {
    "id": "SMAP01_33:043",
    "jp": "やめる",
-   "en": ""
+   "en": "Quit"
   },
   {
    "id": "SMAP01_33:044",
    "jp": "「鬼が島の 鬼たいじが 終わったら{n} ここのお金を{n} 持って行って いいですよ！」{wait}{n}「え？」{n}{n}{wait}{n}「うそに 決まってるでしょ？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Once you're done with your oni slaying on Onigashima, you can take all the money here!\"{wait}\"Huh?\"{wait}\"I'm joking, obviously!\"{wait}"
   },
   {
    "id": "SMAP01_33:045",
    "jp": "「お湯がチンチン いってるのに{n} だれも 気にしないんですかね？」{n}{wait}",
-   "en": ""
+   "en": "\"The kettle's whistling away and nobody minds it?\"{wait}"
   },
   {
    "id": "SMAP01_33:046",
    "jp": "「ふとんが ふっとんだ～！」{n}{n}{wait}{n}「まずは おやくそくの{n} ギャグを おとどけします！」{n}{wait}",
-   "en": ""
+   "en": "\"The quilt ran off in a hurry! Guess it felt quilty!\"{wait}\"First, I deliver the obligatory gag!\"{wait}"
   },
   {
    "id": "SMAP01_33:047",
    "jp": "「あぶないですねえ！{n} 火のつけっぱなしは！」{n}{wait}",
-   "en": ""
+   "en": "\"How dangerous! Leaving the fire burning like that!\"{wait}"
   },
   {
    "id": "SMAP01_33:048",
    "jp": "「人もいないのに 釜が{n} ぐつぐつ ぐつぐつ…」{n}{wait}{n}「ぐつぐつ… ぐつぐつ…」{n}{n}{wait}{n}「だーーれかーー このへんにーー{n} いるのーかなーー ひゅう～っ！」{n}{wait}{n}「ちょっとは こわかった？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The pot's bubbling away with no one around...\"{wait}\"Bubble... bubble...\"{wait}\"Is aaanyone... arouuund heeere...? Whoooo!\"{wait}\"Scared you a little?\"{wait}"
   },
   {
    "id": "SMAP01_33:049",
    "jp": "「ところで…」{n}{n}{wait}{n}「ここの おじさん ざぶとんの上で{n} 足ぶみしてるなんて{n} 変な人だと 思いません？」{wait}",
-   "en": ""
+   "en": "\"By the way...\"{wait}\"Don't you think the man here is weird, stomping his feet on a floor cushion?\"{wait}"
   },
   {
    "id": "SMAP01_33:050",
    "jp": "なかに 紙切れが 入っていた！{n}{n}{wait}{n}「鬼がわらは 固い！{n} でも体力少ないから 最初に{n} たたくと いいぞ！」{wait}{n}…と 書いてあった！{n}{n}{wait}",
-   "en": ""
+   "en": "There was a scrap of paper inside!{wait}\"Oni Tiles are tough! But they don't have much HP, so hit them first!\"{wait}...it said!{wait}"
   },
   {
    "id": "SMAP01_33:051",
    "jp": "「のれんに 梅干し」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Beating a dead horseradish.\"{wait}"
   },
   {
    "id": "SMAP01_33:052",
    "jp": "「目の上の 炭坑節」{n}{n}{wait}",
-   "en": ""
+   "en": "\"A thorn in my side dish.\"{wait}"
   },
   {
    "id": "SMAP01_33:053",
    "jp": "福笑い",
-   "en": ""
+   "en": "Fukuwarai"
   },
   {
    "id": "SMAP01_33:054",
    "jp": "弓仙人",
-   "en": ""
+   "en": "Archery Hermit"
   },
   {
    "id": "SMAP01_33:055",
    "jp": "的当1",
-   "en": ""
+   "en": "Target Game 1"
   },
   {
    "id": "SMAP01_33:056",
    "jp": "的当2",
-   "en": ""
+   "en": "Target Game 2"
   },
   {
    "id": "SMAP01_33:057",
    "jp": "水泳",
-   "en": ""
+   "en": "Swimming"
   },
   {
    "id": "SMAP01_33:058",
    "jp": "カチ村",
-   "en": ""
+   "en": "Kachikachi"
   },
   {
    "id": "SMAP01_33:059",
    "jp": "ボンビ",
-   "en": ""
+   "en": "Bombee"
   },
   {
    "id": "SMAP01_33:060",
    "jp": "花咲村",
-   "en": ""
+   "en": "Hanasaka"
   },
   {
    "id": "SMAP01_33:061",
    "jp": "塩吹村",
-   "en": ""
+   "en": "Shiobuki"
   },
   {
    "id": "SMAP01_33:062",
@@ -323,7 +323,7 @@
   {
    "id": "SMAP01_33:063",
    "jp": "ひこぼし村",
-   "en": ""
+   "en": "Hikoboshi"
   },
   {
    "id": "SMAP01_33:064",
@@ -338,112 +338,112 @@
   {
    "id": "SMAP01_33:066",
    "jp": "女湯(当たりその1)",
-   "en": ""
+   "en": "Women's Bath (Hit 1)"
   },
   {
    "id": "SMAP01_33:067",
    "jp": "女湯(当たりその2)",
-   "en": ""
+   "en": "Women's Bath (Hit 2)"
   },
   {
    "id": "SMAP01_33:068",
    "jp": "女湯(当たりその3)",
-   "en": ""
+   "en": "Women's Bath (Hit 3)"
   },
   {
    "id": "SMAP01_33:069",
    "jp": "女湯(はずれ)",
-   "en": ""
+   "en": "Women's Bath (Miss)"
   },
   {
    "id": "SMAP01_33:070",
    "jp": "男湯",
-   "en": ""
+   "en": "Men's Bath"
   },
   {
    "id": "SMAP01_33:071",
    "jp": "「桃太郎さん！{n} 鬼たいじの 旅{n} ごくろうさまです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you for all your hard work on your oni slaying journey!\"{wait}"
   },
   {
    "id": "SMAP01_33:072",
    "jp": "「おやまあ！{n} ウンチも 桃太郎さんの{n} お手伝いですか！」{wait}",
-   "en": ""
+   "en": "\"Oh my! Poop is helping you too, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP01_33:073",
    "jp": "「かしこそうな{n} ネズミさんですねえ！」{n}{wait}",
-   "en": ""
+   "en": "\"What a clever-looking mouse!\"{wait}"
   },
   {
    "id": "SMAP01_33:074",
    "jp": "「あら あら！{n} ボンビーの村の 人とも{n} お友達に なったんですね！」{wait}",
-   "en": ""
+   "en": "\"Oh my, oh my! You've made friends with the folks from Bombee Village too!\"{wait}"
   },
   {
    "id": "SMAP01_33:075",
    "jp": "「ありがたや！{n} お地蔵さまが 桃太郎さんの{n} お手伝いとは！」{wait}",
-   "en": ""
+   "en": "\"Bless us! The Jizo is helping Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP01_33:076",
    "jp": "「どうぞ これを{n} おおさめくださいまし！」{n}{wait}",
-   "en": ""
+   "en": "\"Please accept this!\"{wait}"
   },
   {
    "id": "SMAP01_33:077",
    "jp": "桃太郎は{n}{col4}根性の玉{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP01_33:078",
    "jp": "「ありがたや！{n} お地蔵さまが 桃太郎さんの{n} お手伝いとは！」{wait}",
-   "en": ""
+   "en": "\"Bless us! The Jizo is helping Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP01_33:079",
    "jp": "「とこなつの村ですか！{n} ずいぶん 遠くから{n} いらっしゃったのねえ！」{wait}",
-   "en": ""
+   "en": "\"Tokonatsu Village, you say! You've come a long way!\"{wait}"
   },
   {
    "id": "SMAP01_33:080",
    "jp": "「桃太郎さん！{n} これ くって 鬼たいじ{n} がんばっておくれ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Eat this and do your best at oni slaying!\"{wait}"
   },
   {
    "id": "SMAP01_33:081",
    "jp": "桃太郎は{n}{col4}おまんじゅう{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Steamed Bun{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP01_33:082",
    "jp": "「みんなが 桃太郎さんを{n} おうえんしてるだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Everyone's rootin' for ya, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP01_33:083",
    "jp": "「ゲームを してると{n} カードっちゅうもんが{n} たまっていくけど」{wait}",
-   "en": ""
+   "en": "\"As ya play the game, these things called cards pile up...\"{wait}"
   },
   {
    "id": "SMAP01_33:084",
    "jp": "「ゲームクリアには{n} なーんも かんけいないから{n} 気にせず 集めてちょ！」{wait}",
-   "en": ""
+   "en": "\"They ain't got nothin' to do with clearin' the game, so just collect 'em without worryin'!\"{wait}"
   },
   {
    "id": "SMAP01_33:085",
    "jp": "「カードは{n} 敵を こらしめたりすると{n} 手に はいるのじゃが」{wait}",
-   "en": ""
+   "en": "\"You get cards by punishing enemies and such...\"{wait}"
   },
   {
    "id": "SMAP01_33:086",
    "jp": "「そこらに おちてるものも{n} あるから 時間が あったら{n} さがしてみることじゃ！」{wait}",
-   "en": ""
+   "en": "\"But some are just lying around, so if you have time, go look for them!\"{wait}"
   },
   {
    "id": "SMAP01_33:087",
    "jp": "「ゲームクリアには{n} かんけいないから むりに{n} さがす ひつようは ないぞ！」{wait}",
-   "en": ""
+   "en": "\"They've nothing to do with clearing the game, so there's no need to force yourself to search!\"{wait}"
   }
  ]
 }

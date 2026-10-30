@@ -8,77 +8,77 @@
   {
    "id": "WMAP17_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ふにゃら仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Soften Hermit!\"{wait}"
   },
   {
    "id": "WMAP17_28:001",
    "jp": "「わしの 術は 浦島が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 浦島を つれてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"My art is one that Urashima would be fit to learn!\"{wait}\"Bring me Urashima, who is fit to undergo my training!\"{wait}"
   },
   {
    "id": "WMAP17_28:002",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP17_28:003",
    "jp": "「わしの 術は 浦島が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 浦島が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}",
-   "en": ""
+   "en": "\"My art is fit for Urashima to learn!\"{wait}\"Oh! Why, what's this! That Urashima is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take him to a doctor and get him healed!\"{wait}"
   },
   {
    "id": "WMAP17_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP17_28:005",
    "jp": "「ふにゃらの術は{n} 鬼たちの 守備力を{n} 下げることが できるのぢゃ！」{wait}{n}「この 術を 覚えるのは{n} 浦島が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}",
-   "en": ""
+   "en": "\"The Soften art can lower the oni's Defense!\"{wait}\"Urashima is the one fit to learn this art!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}"
   },
   {
    "id": "WMAP17_28:006",
    "jp": "「浦島よ！わしに{n} ついてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Urashima! Follow me!\"{wait}"
   },
   {
    "id": "WMAP17_28:007",
    "jp": "「これから{n} お前の 目の前を{n} 仙人が 何人も よこぎる！」{wait}{n}「その中で わしが{n} とおったと 思ったら{n} ○ボタンを おすのぢゃ！」{wait}{n}「みごと わしを{n} 見つけられたら{n} ふにゃらの術を さずけよう！」{wait}",
-   "en": ""
+   "en": "\"In a moment, a whole bunch of hermits will cross right in front of you!\"{wait}\"When you think I've gone by, press the Circle button!\"{wait}\"If you can spot me, I shall grant you the Soften art!\"{wait}"
   },
   {
    "id": "WMAP17_28:008",
    "jp": "「それでは{n} 修行 開始ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Well then, let the training begin!\"{wait}"
   },
   {
    "id": "WMAP17_28:009",
    "jp": "「うむ！ 浦島よ！{n} ふにゃらの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}浦島は{n}{col4}ふにゃらの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Very well, Urashima! I shall grant you the Soften art! Uhyahya...\"{wait}Urashima mastered the {col4}Soften art{col0}!"
   },
   {
    "id": "WMAP17_28:010",
    "jp": "「浦島！ そんなことでは{n} 友を 助けることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「どうぢゃ？ もう一度{n} ちょうせんするか？」{n}",
-   "en": ""
+   "en": "\"Urashima! At this rate, you'll never be able to help your friends! Uhyahya...\"{wait}\"Well? Want to try again?\""
   },
   {
    "id": "WMAP17_28:011",
    "jp": "「どうたいしりょくを きたえて{n} でなおしてこい！ ウヒャヒャ…」{n}{wait}",
-   "en": ""
+   "en": "\"Sharpen your eye for moving things and come back! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP17_28:012",
    "jp": "「ふにゃらの術は 強敵と{n} 戦うときには ぜったい{n} ひつような 術ぢゃ！」{wait}{n}「戦っているときに こうかが{n} きれたら すかさず{n} かけなおすのぢゃぞ！」{wait}",
-   "en": ""
+   "en": "\"The Soften art is an absolute must when you fight strong foes!\"{wait}\"If it wears off during a battle, cast it again right away!\"{wait}"
   },
   {
    "id": "WMAP17_28:013",
    "jp": "「よくきたな 桃太郎！{n} そら これを お前に{n} わたしておこう！」{wait}{n}桃太郎は{n}{col10}ふにゃら仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Good of you to come, Momotaro! Here, let me hand you this!\"{wait}Momotaro got the {col10}Soften Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP17_28:014",
    "jp": "「馬の耳に えんぴつ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"You can lead a horse to water, but you can't make it write!\"{wait}"
   }
  ]
 }

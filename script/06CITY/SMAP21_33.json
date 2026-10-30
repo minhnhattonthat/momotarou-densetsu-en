@@ -8,197 +8,197 @@
   {
    "id": "SMAP21_33:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この 村が 鬼に おそわれ{n} 村人が くるしめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?!\"{wait}\"Oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP21_33:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 34段くらいは{n} ないと つらいであろう！」{wait}{n}「34段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni from here on are much, much stronger!\"{wait}\"If you mean to press on past this village, without about level 34 you'll have a hard time of it!\"{wait}\"If you haven't reached level 34, keep up your training around here and build up your experience!\"{wait}"
   },
   {
    "id": "SMAP21_33:002",
    "jp": "「ピョピョン！ 桃太郎さん！{n} 助けてください！」{n}{wait}{n}「風神の まきおこす 風で{n} ふきとばされそうです！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Momotaro-san! Please help us!\"{wait}\"Fujin's winds are about to blow us away!\"{wait}"
   },
   {
    "id": "SMAP21_33:003",
    "jp": "「ピョピョン！ 桃太郎さん！{n} 行ってしまうんですね！」{n}{wait}{n}「でも 鬼たいじが おわったら{n} きっと この村に{n} たちよって くださいね！」{wait}{n}「もちろん！ みなさんも{n} ごいっしょに！ ピョピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Momotaro-san! So you're leaving...\"{wait}\"But once you're done slaying the oni, be sure to drop by this village!\"{wait}\"Everyone else too, of course! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP21_33:004",
    "jp": "「ピョピョン！ 桃太郎さん！{n} 風が 強すぎて{n} まっすぐ 歩けません！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Momotaro-san! The wind's so strong I can't walk straight!\"{wait}"
   },
   {
    "id": "SMAP21_33:005",
    "jp": "「桃太郎さん！ この村の{n} まわりには 仙人の 庵が{n} 5つも あるんです！」{wait}{n}「ぜんぶの 庵で 術を{n} 覚えてから ひこぼしの村に{n} いったほうが いいですよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! There are five hermits' huts around this village!\"{wait}\"You'd better learn the arts at every hut before you head to Hikoboshi Village!\"{wait}"
   },
   {
    "id": "SMAP21_33:006",
    "jp": "「ピョピョン！ ピョピョン！」{n}{wait}{n}「風神は 村の 北にある{n} 家に たてこもっています！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Fujin is holed up in the house at the north end of the village!\"{wait}"
   },
   {
    "id": "SMAP21_33:007",
    "jp": "「ピョピョン！ これからも{n} 桃太郎さんの おしえどおり{n} 友情を たいせつに します！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! From now on we'll treasure friendship, just like you taught us, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP21_33:008",
    "jp": "「ピョピョン！ 桃太郎さん！{n} カメ石 を 持っていれば{n} 風の 中でも 歩けるのに！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Momotaro-san! If only we had the Turtle Stone, we could walk even in this wind!\"{wait}"
   },
   {
    "id": "SMAP21_33:009",
    "jp": "「ピョピョン！ みなさん！{n} あなたたちの ことは 一生{n} わすれません！ ピョピョン！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Everyone! We'll never forget you as long as we live! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP21_33:010",
    "jp": "「カメ カメ！{n} カメ石が あれば こんな{n} 風も へいきなのに！」{wait}{n}「カメ石は この村の どこかに{n} 埋められています！」{n}{wait}",
-   "en": ""
+   "en": "\"Kame kame! If only we had the Turtle Stone, this wind wouldn't bother us at all!\"{wait}\"The Turtle Stone is buried somewhere in this village!\"{wait}"
   },
   {
    "id": "SMAP21_33:011",
    "jp": "「カメ カメ！ この村の{n} 南東にある つづら洞窟を{n} ぬけると ひこぼしの村です！」{wait}{n}「ひこぼしの村には{n} 大きな船が あると ききます！{n} わたしも のってみたいです！」{wait}",
-   "en": ""
+   "en": "\"Kame kame! Go through Tsuzura Cave, southeast of this village, and you'll reach Hikoboshi Village!\"{wait}\"They say there's a big ship in Hikoboshi Village! I'd love to ride it too!\"{wait}"
   },
   {
    "id": "SMAP21_33:012",
    "jp": "「カメ カメ！{n} こんな ひどい 風は{n} はじめてです！」{wait}",
-   "en": ""
+   "en": "\"Kame kame! I've never seen a wind this awful!\"{wait}"
   },
   {
    "id": "SMAP21_33:013",
    "jp": "「カメ カメ！ カメ カメ！{n} ごはんは よく カメ カメ！」{n}{wait}{n}「桃太郎さんたちの おかげで{n} やっと こんな 冗談も{n} いえるように なりました！」{wait}",
-   "en": ""
+   "en": "\"Kame kame! Kame kame! Always chew your food well... it's turtle-y important!\"{wait}\"Thanks to you, Momotaro-san, I can finally crack jokes like that again!\"{wait}"
   },
   {
    "id": "SMAP21_33:014",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「桃太郎さん！{n} どうか カメ石を{n} 見つけてください！」{wait}{n}「そうすれば{n} ふきとばされることは{n} ありません！ ピョピョン！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Momotaro-san! Please find the Turtle Stone!\"{wait}\"Then we won't get blown away! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP21_33:015",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「桃太郎さん！{n} どうも ありがとう！」{n}{wait}{n}「お礼といっては なんですが{n} 一つ いいことを お教えします！」{n}{wait}{n}「この村の 近くの 川岸に{n} カッパが 盗んだものを{n} 隠しているそうですよ！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Momotaro-san! Thank you so much!\"{wait}\"It's not much of a thank-you, but let me tell you something useful!\"{wait}\"They say the Kappa hide the things they steal on a riverbank near this village!\"{wait}"
   },
   {
    "id": "SMAP21_33:016",
    "jp": "「カメ カメ！」{n}{n}{wait}{n}「こうらの 中に{n} かくれても 風で{n} 飛ばされそうです！」{wait}",
-   "en": ""
+   "en": "\"Kame kame!\"{wait}\"Even hiding in my shell, I feel like the wind will carry me off!\"{wait}"
   },
   {
    "id": "SMAP21_33:017",
    "jp": "「カメ カメ！」{n}{n}{wait}{n}「ああ！ やっと{n} ふつうに 歩けます！{n} ありがとう 桃太郎さん！」{wait}{n}「ところで 桃太郎さん！」{n}{n}{wait}{n}「この村に くるとき{n} カッパに ものを{n} 盗まれましたか？」{wait}{n}「なんでも カッパは{n} 盗んだものを まとめて{n} 隠しているそうです！」{wait}",
-   "en": ""
+   "en": "\"Kame kame!\"{wait}\"Ah! At last I can walk normally! Thank you, Momotaro-san!\"{wait}\"By the way, Momotaro-san!\"{wait}\"On your way to this village, did the Kappa steal anything from you?\"{wait}\"They say the Kappa hide everything they steal all in one place!\"{wait}"
   },
   {
    "id": "SMAP21_33:018",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「うっかり ジャンプしたら{n} 空に 舞い上がって{n} しまうところでした！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"I hopped without thinking and nearly went flying up into the sky!\"{wait}"
   },
   {
    "id": "SMAP21_33:019",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「村の 外まで{n} ふきとばされるかと{n} 思いました！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"I thought I'd get blown right out of the village!\"{wait}"
   },
   {
    "id": "SMAP21_33:020",
    "jp": "「カメ カメ！{n} 神社の うらの 森を{n} 調べてみてください！」{wait}",
-   "en": ""
+   "en": "\"Kame kame! Try searching the woods behind the shrine!\"{wait}"
   },
   {
    "id": "SMAP21_33:021",
    "jp": "「カメ カメ！」{n}{n}{wait}{n}「カメ石は お役に{n} 立ちましたか？」{n}{wait}",
-   "en": ""
+   "en": "\"Kame kame!\"{wait}\"Did the Turtle Stone come in handy?\"{wait}"
   },
   {
    "id": "SMAP21_33:022",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「風神は この村に{n} 伝わる 宝物を{n} 狙っているのかも！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Maybe Fujin is after the treasure handed down in this village!\"{wait}"
   },
   {
    "id": "SMAP21_33:023",
    "jp": "「ピョピョン！ 桃太郎さん！」{n}{n}{wait}{n}「村を すくっていただき{n} ありがとうございました！」{n}{wait}{n}「お礼に この村に{n} つたわる 宝物を{n} うけとってくださいな！」{wait}{n}なんと！{n}桃太郎は{n}5つの 宝物の 1つ{wait}{n}{col4}ほうらいの玉{col0} を{n}手に 入れた！{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Momotaro-san!\"{wait}\"Thank you so much for saving our village!\"{wait}\"As thanks, please accept the treasure handed down in this village!\"{wait}Whoa! Momotaro got one of the five treasures:{wait}the {col4}Horai Jewel{col0}!{wait}"
   },
   {
    "id": "SMAP21_33:024",
    "jp": "「ピョピョン！ 桃太郎さん！」{n}{n}{wait}{n}「村を すくっていただき{n} ありがとうございました！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Momotaro-san!\"{wait}\"Thank you so much for saving our village!\"{wait}"
   },
   {
    "id": "SMAP21_33:025",
    "jp": "「わが 名は 風神！」{n}{n}{wait}{n}「わしに 仲間を とばされ{n} 一人になり 旅を あきらめると{n} 思ったが…」{wait}{n}「くじけず あきらめず{n} とうとう ここまで{n} たどりついたのか！」{wait}{n}「その 勇気！」{n}{n}{wait}{n}「その 友情！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"My name is Fujin!\"{wait}\"I blew your friends away and left you all alone. I thought you'd give up your journey...\"{wait}\"Yet you never lost heart, never gave up, and made it all the way here!\"{wait}\"Such courage!\"{wait}\"Such friendship!\"{wait}"
   },
   {
    "id": "SMAP21_33:026",
    "jp": "「みごとなものだ！{n} 桃太郎よ！」{n}{wait}{n}「この 風神{n} ほめて やろう！」{n}{wait}{n}「ふっふふ！{n} この 風神！」{n}{wait}{n}「お前たちの いう 愛と{n} 勇気と 友情とやらを{n} 信じたくなってきたぞ！」{wait}{n}「だが！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Splendid, Momotaro!\"{wait}\"I, Fujin, shall give you my praise!\"{wait}\"Heh heh! Even I, Fujin...\"{wait}\"...am starting to want to believe in this love, courage and friendship of yours!\"{wait}\"But!\"{wait}"
   },
   {
    "id": "SMAP21_33:027",
    "jp": "「それは お前たちが{n} このわしに 勝てたらという{n} じょうけんつきだ！！」{wait}{n}「愛と 勇気と 友情の{n} ために 命を すてる{n} かくごが あるのなら！」{wait}{n}「かかってこい！ 桃太郎！」{n}{n}{wait}{n}「そして お前の 力を{n} この わしに 見せてみろ！」{n}{wait}",
-   "en": ""
+   "en": "\"Only on the condition that you can beat me!!\"{wait}\"If you're ready to lay down your lives for love, courage and friendship...\"{wait}\"Then come at me, Momotaro!\"{wait}\"And show me your power!\"{wait}"
   },
   {
    "id": "SMAP21_33:028",
    "jp": "「桃太郎よ！{n} わしの 負けだ！」{n}{wait}{n}「これが{n} 友情の 力 なのか！」{n}{wait}{n}「ふわっはっはっは！」{n}{n}{wait}{n}「ふしぎな ものだな！ なぜか{n} 今の わしは すがすがしい{n} きもちで いっぱいだ！」{wait}{n}「負けても くやしくない{n} 戦いなど 生まれて{n} はじめてだ！」{wait}{n}「桃太郎よ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! I am beaten!\"{wait}\"So this is the power of friendship!\"{wait}\"Fwahahaha!\"{wait}\"How strange! For some reason, I feel completely refreshed!\"{wait}\"Never in my life have I had a fight where losing didn't sting!\"{wait}\"Momotaro!\"{wait}"
   },
   {
    "id": "SMAP21_33:029",
    "jp": "「わしは えんま様に{n} 人間とは くだらぬ{n} 生き物だと 教えられてきた！」{wait}{n}「しかし どうやら{n} ちがったようだ！」{n}{wait}{n}「人間には{n} 友情という すばらしいものが{n} あるではないか！」{wait}{n}「桃太郎よ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Enma-sama taught me that humans are worthless creatures!\"{wait}\"But it seems he was wrong!\"{wait}\"Humans have a wonderful thing called friendship!\"{wait}\"Momotaro!\"{wait}"
   },
   {
    "id": "SMAP21_33:030",
    "jp": "「わしは 一足先に{n} 鬼が島へ もどり えんま様を{n} せっとくしようと 思う！」{wait}{n}「さらばだ！ 桃太郎！」{n}{n}{wait}{n}「ふわっはっはっは！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'll go back to Onigashima ahead of you and try to talk Enma-sama around!\"{wait}\"Farewell, Momotaro!\"{wait}\"Fwahahaha!\"{wait}"
   },
   {
    "id": "SMAP21_33:031",
    "jp": "「ふうむ！ 負けて{n} あきらめるかと 思ったが」{n}{wait}{n}「まだ 勇気の 心は{n} 失われては{n} おらんようだな！」{wait}{n}「おもしろい！」{n}{n}{wait}{n}「わしの 風の力と{n} お前の 勇気！{n} どちらが 勝つか 勝負だ！」{wait}",
-   "en": ""
+   "en": "\"Hmm! I thought you'd lose and give up, but...\"{wait}\"...it seems your heart of courage isn't lost yet!\"{wait}\"Interesting!\"{wait}\"My power of wind against your courage! Let's see which one wins!\"{wait}"
   },
   {
    "id": "SMAP21_33:032",
    "jp": "「海老で 首を吊る」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Throw a sprat to catch a cold!\"{wait}"
   },
   {
    "id": "SMAP21_33:033",
    "jp": "「風が 吹けば OKや！{n} もうかる！ もうかる！」{n}{wait}",
-   "en": ""
+   "en": "\"It's an ill wind that blows nobody good! And this one blows me profits! Profits!\"{wait}"
   },
   {
    "id": "SMAP21_33:034",
    "jp": "「こんな ひどい風じゃ{n} とても 外に 出られません！」{n}{wait}",
-   "en": ""
+   "en": "\"With wind this awful, there's no way I can go outside!\"{wait}"
   },
   {
    "id": "SMAP21_33:035",
    "jp": "「いやー ひどい 風でした！」{n}{n}{wait}{n}「でも 桃太郎さんの{n} おかげで やっと{n} しゅっぱつ できそうです！」{wait}{n}「これ うけとってください！{n} ほんの お礼です！」{n}{wait}{n}桃太郎は{n}{c19}{col4}野生の薬草{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Whew, what an awful wind that was!\"{wait}\"But thanks to you, Momotaro-san, I can finally set off!\"{wait}\"Please take this! Just a small thank-you!\"{wait}Momotaro got the {c19}{col4}Wild Herb{col0}!{wait}"
   },
   {
    "id": "SMAP21_33:036",
    "jp": "「いやー ひどい 風でした！」{n}{n}{wait}{n}「でも 桃太郎さんの{n} おかげで やっと{n} しゅっぱつ できそうです！」{wait}",
-   "en": ""
+   "en": "\"Whew, what an awful wind that was!\"{wait}\"But thanks to you, Momotaro-san, I can finally set off!\"{wait}"
   },
   {
    "id": "SMAP21_33:037",
    "jp": "「この村の 人たちを{n} みならって 友情を{n} たいせつに します！」{wait}{n}「だから ボクたち 鬼とも{n} なかよくしてください{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"I'll follow the example of the people of this village and treasure friendship!\"{wait}\"So please be friends with us oni too, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP21_33:038",
    "jp": "「トンビが 画家を生む！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The apple doesn't fall far from the easel!\"{wait}"
   }
  ]
 }

@@ -8,37 +8,37 @@
   {
    "id": "WMAP00_28:000",
    "jp": "「ウヒャヒャ… わしは{n} きんたん仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Kintan Hermit!\"{wait}"
   },
   {
    "id": "WMAP00_28:001",
    "jp": "「きんたんの術は{n} 一人の 体力を どこでも{n} 40回復 できるぞ！」{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「さあ！ かかってくるのぢゃ！{n} 桃太郎！ ウヒャヒャ…」{n}{wait}",
-   "en": ""
+   "en": "\"The Kintan art restores 40 HP to one person, anywhere!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now! Come at me, Momotaro! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP00_28:002",
    "jp": "「桃太郎！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「力を つけて{n} でなおしてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! At this rate, you'll never teach Enma a lesson! Uhyahya...\"{wait}\"Go get stronger and come back!\"{wait}"
   },
   {
    "id": "WMAP00_28:003",
    "jp": "「でかした！ 桃太郎！{n} きんたんの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}桃太郎は{n}{col4}きんたんの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Momotaro! I shall grant you the Kintan art! Uhyahya...\"{wait}Momotaro mastered the {col4}Kintan art{col0}!"
   },
   {
    "id": "WMAP00_28:004",
    "jp": "「鬼と 戦っておるときに{n} 体力が 少ないなと{n} 思ったら」{wait}{n}「きんたんの術で 体力を{n} 回復するのぢゃ！ 技を{n} ケチっては いかんぞ！」{wait}",
-   "en": ""
+   "en": "\"When you're fighting oni and you think your HP is getting low,\"{wait}\"restore it with the Kintan art! Don't be stingy with your SP!\"{wait}"
   },
   {
    "id": "WMAP00_28:005",
    "jp": "「おお 桃太郎！ 鬼たいじ{n} がんばっているようぢゃな！」{n}{wait}{n}「その ほうびといっては{n} なんだが これを やろう！{n} それ うけとれ！」{wait}{n}桃太郎は{n}{col10}きんたん仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro! You seem to be working hard at Oni Slaying!\"{wait}\"It's not much of a reward, but I'll give you this! Here, take it!\"{wait}Momotaro got the {col10}Kintan Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP00_28:006",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「竜馬は 一日にして成らず」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Ryoma wasn't built in a day.\"{wait}Oh, come on!{wait}"
   }
  ]
 }

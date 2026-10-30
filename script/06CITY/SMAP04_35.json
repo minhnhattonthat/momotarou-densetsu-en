@@ -9,412 +9,412 @@
   {
    "id": "SMAP04_35:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この村が 鬼に おそわれ{n} 貧乏神たちが{n} 苦しめられておる！」{wait}{n}「貧乏神たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?\"{wait}\"The oni have attacked this village and the poverty gods are suffering!\"{wait}\"Won't you help the poverty gods?\"{wait}"
   },
   {
    "id": "SMAP04_35:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 8段くらいは{n} ないと つらいであろう！」{wait}{n}「8段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を 積むことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni further on are much, much stronger!\"{wait}\"If you mean to go on past this village, you'll have a hard time of it without about level 8!\"{wait}\"If you haven't reached level 8, keep training around here and build up experience!\"{wait}"
   },
   {
    "id": "SMAP04_35:002",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「ボクが{n} この村の 村長{n} えのん なのねん！」{wait}{n}「みんなで なかよく{n} ボンビー 暮らしを してたら」{n}{wait}{n}「とつぜん 金の鬼が{n} 村を こんなに{n} してしまったのねん！」{wait}{n}「ボンビー！」{n}{n}{wait}{n}「こんな{n} 金ピカの 村は{n} ボクらの 村じゃ ないのねん！」{wait}{n}「金の鬼は{n} 村の まんなかの{n} 像の 中に いるのねん！」{wait}{n}「金の鬼を こらしめて{n} 村を 元通りにして{n} ほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I'm Enon, the Chief of this village, bombee!\"{wait}\"We were all living our happy, poor little Bombee lives,\"{wait}\"when all of a sudden the Gold Oni did this to our village, bombee!\"{wait}\"Bombee!\"{wait}\"This glittery golden village isn't our village, bombee!\"{wait}\"The Gold Oni is inside the statue in the middle of the village, bombee!\"{wait}\"Please teach the Gold Oni a lesson and put our village back the way it was, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:003",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「うれしいのねん！{n} やっぱり ボクらの 村は{n} こうじゃなきゃ だめなのねん！」{wait}{n}「桃太郎さん！{n} ありがとうなのねん！」{n}{wait}{n}「お礼のしるしに{n} ボクが 仲間に{n} なってあげるのねん！」{wait}{n}「ボクを 連れて行けば{n} なにかと 役に立つのねん！」{n}{wait}{n}「ボクを いっしょに{n} 連れて行って{n} ほしいのねん！」",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I'm so happy, bombee! Our village just has to be like this, bombee!\"{wait}\"Momotaro-san! Thank you, bombee!\"{wait}\"As a token of thanks, I'll be your friend and come along, bombee!\"{wait}\"Take me with you and I'll come in handy in all sorts of ways, bombee!\"{wait}\"Please, take me along with you, bombee!\""
   },
   {
    "id": "SMAP04_35:004",
    "jp": "「えのっぴドゥー！」{n}{n}{wait}{n}「やったのねん！{n} きっと きっと{n} お役に 立てるのねん！」{wait}{n}えのんがくわわったので{n}桃太郎の 守備力が{n}5上がった！{wait}",
-   "en": ""
+   "en": "\"Enoppi-doo!\"{wait}\"Hooray, bombee! I'll be a big, big help, bombee!\"{wait}With Enon along, Momotaro's Defense rose by 5!{wait}"
   },
   {
    "id": "SMAP04_35:005",
    "jp": "「シク シク シク！」{n}{n}{wait}{n}「いつまでも{n} 待っているから この次は{n} 連れて行って ほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"Sniff sniff sniff!\"{wait}\"I'll wait for you forever, so take me with you next time, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:006",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:007",
    "jp": "「こんな 村は{n} いごこちが 悪いのねん！」 {n}{wait}",
-   "en": ""
+   "en": "\"A village like this is so uncomfortable, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:008",
    "jp": "「火炎がわらという 鬼は{n} 火を はくのねん！{n} とっても あぶないのねん！」{wait}",
-   "en": ""
+   "en": "\"The oni called the Flame Tile breathes fire! It's really dangerous, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:009",
    "jp": "「村の 広場にある 石像を{n} 見てたら 変な 気分に{n} なったのねん！」{wait}{n}「…キーングボンビー！{n} グエッヘッヘッへッ！」{n}{wait}{n}「…はっ！{n} ボクは いったい{n} どうしてしまったのねん！」{wait}",
-   "en": ""
+   "en": "\"I was looking at the stone statue in the village square, and I started feeling funny, bombee!\"{wait}\"...Kiiing Bombee! Gweh-heh-heh-heh!\"{wait}\"...Huh! What on earth came over me, bombee?!\"{wait}"
   },
   {
    "id": "SMAP04_35:010",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:011",
    "jp": "「金の鬼が{n} ボクらの 村を{n} こんなに しちゃったのねん！」{wait}{n}「こんな ピカピカの{n} 村では おちついて{n} 暮らせないのねん！」{wait}",
-   "en": ""
+   "en": "\"The Gold Oni did this to our village, bombee!\"{wait}\"We can't live in peace in such a shiny village, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:012",
    "jp": "「ここから 北へ 向かうと{n} 並び洞窟 なのねん！」{n}{wait}{n}「でも そのまえに{n} すずめのお宿1に{n} たちよったほうが いいのねん！」{wait}",
-   "en": ""
+   "en": "\"Head north from here and you'll reach Row Cave, bombee!\"{wait}\"But before that, you'd better stop by Sparrow Inn 1, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:013",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:014",
    "jp": "「こんな キンキラキンの{n} 村は いやなのねん！」{n}{wait}{n}「誰か 金の鬼を{n} こらしめて ほしいのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"I hate this blingy, glitzy village, bombee!\"{wait}\"Somebody, please teach the Gold Oni a lesson, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:015",
    "jp": "「すずめのお宿1には{n} 占いが よく 当たる{n} 易者さんが いるのねん！」{wait}{n}「桃太郎さんも{n} 一度 見てもらうと{n} いいのねん！」{wait}",
-   "en": ""
+   "en": "\"At Sparrow Inn 1 there's a fortune teller whose fortunes always come true, bombee!\"{wait}\"You should get your fortune told once too, Momotaro-san, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:016",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:017",
    "jp": "「村の 大事な 石像も{n} 金ピカに{n} されちゃったのねん！」{wait}{n}「悲しいのねん！{n} すみごこちが{n} 悪すぎるのねん！」{wait}",
-   "en": ""
+   "en": "\"Even the village's precious stone statue got turned glittery golden, bombee!\"{wait}\"It's so sad, bombee! This place is just too unpleasant to live in, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:018",
    "jp": "「これから先には{n} 術で 攻撃してくる{n} 鬼も いるのねん！」{wait}{n}「いつでも きんたん を{n} かけられるように 技を{n} 残しておくと いいのねん！」{wait}",
-   "en": ""
+   "en": "\"Further on, there are oni that attack with arts too, bombee!\"{wait}\"Keep some SP in reserve so you can cast Kintan any time, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:019",
    "jp": "「貧乏神の 石像が{n} なんだか すごいことに{n} なったのねん！」{wait}{n}「でも あの石像を 見てると{n} 力が わいてくるのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Something amazing has happened to the poverty god statue, bombee!\"{wait}\"But when I look at that statue, I feel strength welling up, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:020",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:021",
    "jp": "「この村 名物の{n} 鉄のウンチも 金のウンチに{n} されちゃったのねん！」{wait}",
-   "en": ""
+   "en": "\"Even our village's famous Iron Poop got turned into a Gold Poop, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:022",
    "jp": "「桃太郎さん！{n} 鉄のウンチに{n} 話しかけたら」{wait}{n}「いいことが{n} あるかもしれないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! If you talk to the Iron Poop,\"{wait}\"something good might happen, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:023",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:024",
    "jp": "「悲しいのねん！{n} ボクらの わびしい村を{n} 返してほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"It's so sad, bombee! Give us back our dreary little village, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:025",
    "jp": "「この みすぼらしさが{n} わびさびの{n} きょうちなのねん！」{wait}",
-   "en": ""
+   "en": "\"This shabbiness is the very essence of wabi-sabi, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:026",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:027",
    "jp": "「こんな 村になった おかげで{n} みんな 元気が{n} なくなってきたのねん！」{wait}",
-   "en": ""
+   "en": "\"Ever since the village turned like this, everybody's lost their pep, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:028",
    "jp": "「桃太郎さん！{n} どうも ありがとうなのねん！」{n}{wait}{n}「これは ほんの{n} お礼の しるしなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you so much, bombee!\"{wait}\"This is just a small token of thanks, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:029",
    "jp": "桃太郎は {col4}{str}{col0} を{n}手に 入れた！{n}{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:030",
    "jp": "「桃太郎さん！{n} どうも ありがとうなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you so much, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:031",
    "jp": "「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:032",
    "jp": "「もう こんなところ は{n} うんざりなのねん！」{n}{wait}{n}「だれか ボクらを{n} 助けてほしいのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm sick and tired of this place, bombee!\"{wait}\"Somebody, please help us, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:033",
    "jp": "「うれしいのねん！{n} この よろこびの 気持ちを{n} 受け取ってほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"I'm so happy, bombee! Please accept this as my happy feelings, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:034",
    "jp": "「桃太郎は{n} {col4}{str}{col0} を{n} 手に 入れた！」{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:035",
    "jp": "「うれしいのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm so happy, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:036",
    "jp": "「ボンビーの村 という{n} 名前からは 信じられないほど{n} ごうかな 村だなあ！」{wait}{n}「でも すんでいる{n} 貧乏神たちは なんだか{n} 元気が ありませんね！」{wait}",
-   "en": ""
+   "en": "\"What a luxurious village! You'd never believe it from the name Bombee Village!\"{wait}\"But the poverty gods living here look kind of down in the dumps!\"{wait}"
   },
   {
    "id": "SMAP04_35:037",
    "jp": "「すっかり みすぼらしい{n} 村に なってしまいましたね！」{n}{wait}{n}「でも{n} 貧乏神たちは ずっと{n} いきいきして 見えます！」{wait}{n}「本当の 幸せってのは{n} 金や 宝石では{n} 得られないんでしょうね！」{wait}",
-   "en": ""
+   "en": "\"The village has turned completely shabby!\"{wait}\"But the poverty gods look so much livelier now!\"{wait}\"I guess true happiness can't be had with riches and jewels!\"{wait}"
   },
   {
    "id": "SMAP04_35:038",
    "jp": "「ボクは{n} 鉄のウンチだよー ぷりっ！」{n}{wait}{n}「でも 金の鬼に{n} こんな すがたに{n} されちゃったんだ！」{wait}",
-   "en": ""
+   "en": "\"I'm Iron Poop! Plop!\"{wait}\"But the Gold Oni turned me into this!\"{wait}"
   },
   {
    "id": "SMAP04_35:039",
    "jp": "「ボクは{n} 鉄のウンチだよー ぷりっ！」{n}{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「ボクを ウンチの穴に{n} 連れて行くと{n} いいことが ありますよ！」{wait}{n}「ボクを いっしょに{n} 連れて行って ください！」{n}",
-   "en": ""
+   "en": "\"I'm Iron Poop! Plop!\"{wait}\"Momotaro-san!\"{wait}\"If you take me to the Poop Hole, something good will happen!\"{wait}\"Please, take me with you!\""
   },
   {
    "id": "SMAP04_35:040",
    "jp": "「では いっしょに{n} 行きましょう！ ぷりっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Then let's go together! Plop!\"{wait}"
   },
   {
    "id": "SMAP04_35:041",
    "jp": "鉄のウンチがくわわったので{n}桃太郎の 守備力が{n}2上がった！{wait}",
-   "en": ""
+   "en": "With Iron Poop along, Momotaro's Defense rose by 2!{wait}"
   },
   {
    "id": "SMAP04_35:042",
    "jp": "「わかりました！{n} では また 声を{n} かけてくださいね ぷりっ！」{wait}",
-   "en": ""
+   "en": "\"Okay! Call on me again sometime, plop!\"{wait}"
   },
   {
    "id": "SMAP04_35:043",
    "jp": "「ボクは鉄のウンチだよー！ ぷり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm Iron Poop! Plop!\"{wait}"
   },
   {
    "id": "SMAP04_35:044",
    "jp": "「桃太郎さん！{n} お役に 立てましたか？{n} これを どうぞ！ ぷりっ！」{wait}{n}桃太郎は{n}{col10}鉄のウンチカード{col0}を{n}手に 入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Was I any help? Here, take this! Plop!\"{wait}Momotaro got {col10}Iron Poop Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:045",
    "jp": "「わっはっは！ オレ様は{n} 金の鬼だ！ わっはっは！」{n}{wait}{n}「オレ様に 逆らうのは{n} えんま様に 逆らうのも{n} 同じこと！」{wait}{n}「お前なんか ひとひねりだ！」{n}{n}{wait}{n}「いざ 勝負！ 勝負！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Wahaha! I am the Gold Oni! Wahaha!\"{wait}\"Defying me is the same as defying Lord Enma!\"{wait}\"I'll crush you with one twist!\"{wait}\"Now, fight! Fight me!\"{wait}"
   },
   {
    "id": "SMAP04_35:046",
    "jp": "「わっはっは！{n} しょうこりもなく{n} やってきたか 桃太郎！」{wait}{n}「この 金の鬼様が かるく{n} ひねりつぶしてくれるわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Wahaha! Back again, and you never learn, Momotaro!\"{wait}\"I, the great Gold Oni, will twist you to pieces with ease!\"{wait}"
   },
   {
    "id": "SMAP04_35:047",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「こんな ごうかな 家では{n} くつろげないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I can't relax in such a fancy house, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:048",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「やっぱり あばら家が{n} 一番 おちつくのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"A run-down shack really is the most relaxing, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:049",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「せんべいぶとんが{n} 恋しいのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I miss my paper-thin futon, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:050",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「せんべいぶとんで{n} グッスリ なのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Sound asleep on my paper-thin futon, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:051",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「歩くと きしむ 床が{n} 好きだったのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I loved the floors that creaked when you walked, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:052",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「ミシミシいう 床が{n} ふぜいが あるのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Creaky floors have such charm, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:053",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「いごこちが よすぎて{n} ムズムズするのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"It's so comfy here, it makes me itchy, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:054",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「この村から 南西のほうに{n} 行くと ぬけだし仙人の{n} 庵が あるのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Go southwest from this village and you'll find the Escape Hermit's hut, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:055",
    "jp": "なんと！ 目の前の{n}金の像が 動き出した！{wait}",
-   "en": ""
+   "en": "What's this! The golden statue in front of you started to move!{wait}"
   },
   {
    "id": "SMAP04_35:056",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「このままじゃ 村の 名前が{n} 金の村とかに{n} 変わってしまうのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"At this rate, the village's name will change to Gold Village or something, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:057",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「金の村なんて{n} 名前に ならなくて{n} よかったのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I'm so glad we didn't end up called Gold Village, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:058",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「いくら お金が あっても{n} ボンビー暮らしは{n} 楽しめないのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"No matter how much money you have, you can't enjoy the Bombee life, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:059",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「やっぱり ボクらは{n} ボンビー暮らしが{n} あってるのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"The Bombee life suits us best after all, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:060",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「このまま 金ピカの{n} 村で 暮らすのは{n} たえられないのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I can't stand living in this glittery golden village any longer, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:061",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「この おちついた{n} たたずまい！{n} これが 大事なのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"This quiet, humble look! That's what matters, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:062",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「金の鬼は{n} 金ピカが 好きだなんて{n} しゅみが わるいのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Liking glittery golden stuff... the Gold Oni has such bad taste, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:063",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「この 村の わびしさが{n} くろうとごのみと{n} いうものなのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"The bleakness of this village is a taste for true connoisseurs, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:064",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「いつになったら{n} あの わびしい 村が{n} 戻ってくるのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"When will our dreary old village come back, bombee?\"{wait}"
   },
   {
    "id": "SMAP04_35:065",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「これからは みんなで{n} 村の わびしさを{n} 守っていくのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"From now on, we'll all protect our village's dreariness together, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:066",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「こんな 村では{n} のいろーぜに{n} なりそうなのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"A village like this is gonna give me a nervous breakdown, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:067",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「この村に いると{n} 心が やすらぐのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Being in this village puts my heart at ease, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:068",
    "jp": "「みにぼんび！{n} こんな村じゃ{n} いやなのねん！」{wait}",
-   "en": ""
+   "en": "\"Mini-bombee! I hate this village like this, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:069",
    "jp": "「みにぼんび！{n} おこづかい{n} ほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"Mini-bombee! I want some pocket money, bombee!\"{wait}"
   },
   {
    "id": "SMAP04_35:070",
    "jp": "「北に進んで行くと{n} 並び洞窟が あります！」{n}{wait}{n}「洞窟から 出るときのために{n} ぬけだしの術を 覚えたほうが{n} いいですよ！」{wait}",
-   "en": ""
+   "en": "\"Go north and you'll reach Row Cave!\"{wait}\"You'd better learn the Escape art so you can get out of the cave!\"{wait}"
   },
   {
    "id": "SMAP04_35:071",
    "jp": "「のれんに 秀吉！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Beating a dead Hideyoshi!\"{wait}"
   },
   {
    "id": "SMAP04_35:072",
    "jp": "「取らぬ タヌキの 皮ジャンパー」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Don't count your tanuki before they're leather jackets!\"{wait}"
   },
   {
    "id": "SMAP04_35:073",
    "jp": "「わっ！ まぶしい！」{n}{n}{wait}{n}「キンキラキンの{n} 貧乏神の 像です！」{n}{wait}",
-   "en": ""
+   "en": "\"Whoa! So bright!\"{wait}\"It's a blingy, glitzy statue of a poverty god!\"{wait}"
   },
   {
    "id": "SMAP04_35:074",
    "jp": "「こうしてみると{n} 貧乏神の顔も なかなか{n} あじわいが ありますね！」{wait}",
-   "en": ""
+   "en": "\"Seeing it like this, a poverty god's face has a certain charm!\"{wait}"
   },
   {
    "id": "SMAP04_35:075",
    "jp": "「あっ！ なにか{n} ありますよ 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! There's something here, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP04_35:076",
    "jp": "桃太郎は{n}{col4}{str}{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:077",
    "jp": "「この よろい{n} 顔が こわいですね！」{n}{wait}",
-   "en": ""
+   "en": "\"This armor has a scary face!\"{wait}"
   },
   {
    "id": "SMAP04_35:078",
    "jp": "「がんじょうそうな{n} よろいです！」{n}{wait}",
-   "en": ""
+   "en": "\"It's sturdy-looking armor!\"{wait}"
   },
   {
    "id": "SMAP04_35:079",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「牛にひかれて 絶好調！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Till the cows come home... feeling fantastic!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP04_35:080",
    "jp": "「すっきりした{n} 床の間ですねえ！{n} なにも ありません！」{wait}",
-   "en": ""
+   "en": "\"What a tidy alcove! There's nothing in it at all!\"{wait}"
   },
   {
    "id": "SMAP04_35:081",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「急がば 何じゃワレ！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"More haste, less... what're YOU lookin' at?!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP04_35:082",
@@ -423,42 +423,42 @@
   {
    "id": "SMAP04_35:083",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「出る杭は ぶーたれる！」{n}{n}{wait}{n}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"The nail that sticks out gets... all sulky!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP04_35:084",
    "jp": "「この花は…！」{n}{n}{wait}{n}「そのへんに 咲いてる{n} ぺんぺん草かな？」{n}{wait}",
-   "en": ""
+   "en": "\"This flower is...!\"{wait}\"Just some shepherd's purse growing wild around here?\"{wait}"
   },
   {
    "id": "SMAP04_35:085",
    "jp": "「うーむ！」{n}{n}{wait}{n}「みごとな{n} せんべいぶとん です！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmm!\"{wait}\"A magnificent paper-thin futon!\"{wait}"
   },
   {
    "id": "SMAP04_35:086",
    "jp": "桃太郎は{n}{col10}ボンビーの村の男カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Bombee Village Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:087",
    "jp": "桃太郎は{n}{col10}ボンビーの村の女カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Bombee Village Woman Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:088",
    "jp": "「キーーーングボンビーーーー！」{n}{n}{wait}{n}「この俺様に 話しかけるとは{n} いい どきょうだ！」{n}{wait}{n}「その どきょうに めんじて{n} これを くれてやろう！」{n}{wait}{n}「キーーーングボンビーーー！」{n}{n}{wait}{n}桃太郎は{n}{col10}キングボンビーの像カード{col0}を{n}手に 入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Kiiiiing Bombeeeeee!\"{wait}\"You've got some nerve, talking to me!\"{wait}\"In honor of that nerve, I'll give you this!\"{wait}\"Kiiiiing Bombeeeee!\"{wait}Momotaro got {col10}King Bombee Statue Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP04_35:089",
    "jp": "「キーーーングボンビーーーー！」{n}{n}{wait}{n}「俺様は 何度も{n} 話しかけられるのは{n} きらいなのだ！」{wait}{n}「もう 話しかけるなよ！{n} さもないと おそろしい{n} めに あってもらうぞ！」{wait}{n}「キーーーングボンビーーーー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Kiiiiing Bombeeeeee!\"{wait}\"I hate being talked to over and over!\"{wait}\"Don't talk to me again! Or else something terrible will happen to you!\"{wait}\"Kiiiiing Bombeeeeee!\"{wait}"
   },
   {
    "id": "SMAP04_35:090",
    "jp": "「キーーーングボンビーーーー！」{n}{n}{wait}{n}「警告は したはずだな！{n} それでは お前に 悪夢を{n} 見せてやろう！」{wait}{n}「キーーーングボンビーーーー！」{n}{n}{wait}{n}桃太郎は{n}{num}両 うばわれた！{n}{c19}{wait}",
-   "en": ""
+   "en": "\"Kiiiiing Bombeeeeee!\"{wait}\"I believe I warned you! Now I'll show you a nightmare!\"{wait}\"Kiiiiing Bombeeeeee!\"{wait}Momotaro was robbed of {num} ryo!{c19}{wait}"
   }
  ]
 }

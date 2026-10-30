@@ -128,12 +128,12 @@
   {
    "id": "FONT_7:024",
    "jp": "{str}が おそってきた！",
-   "en": ""
+   "en": "{str} sprang out to attack!"
   },
   {
    "id": "FONT_7:025",
    "jp": "{str}の こうげき！",
-   "en": ""
+   "en": "{str} attacks!"
   },
   {
    "id": "FONT_7:026",

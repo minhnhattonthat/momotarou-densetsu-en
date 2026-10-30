@@ -8,12 +8,12 @@
   {
    "id": "DMAP12_47:000",
    "jp": "「グルルルルル！」{n}{n}{wait}{n}「われは 右魂鬼！」{n}{n}{wait}{n}「地獄の 門を 守る{n} われの 力を おもいしれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Grrrrrrr!\"{wait}\"I am the Right Soul Oni!\"{wait}\"Feel the might of the one who guards the gate of Hell!\"{wait}"
   },
   {
    "id": "DMAP12_47:001",
    "jp": "「グルルルルル！」{n}{n}{wait}{n}「この 右魂鬼が いるかぎり{n} 地獄の 門は 決して{n} 開くことは ないのだ！」{wait}",
-   "en": ""
+   "en": "\"Grrrrrrr!\"{wait}\"As long as I, the Right Soul Oni, stand here, the gate of Hell will never open!\"{wait}"
   }
  ]
 }

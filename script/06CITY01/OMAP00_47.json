@@ -8,142 +8,142 @@
   {
    "id": "OMAP00_47:000",
    "jp": "「おお 桃太郎！」{n}{n}{wait}{n}「お前が ここから 先へ{n} 進むのなら 24段くらいは{n} ないと つらいであろう！」{wait}{n}「24段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を 積むことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro!\"{wait}\"If you mean to press on from here, without about level 24 you'll have a hard time of it!\"{wait}\"If you haven't reached level 24, keep up your training around here and build up your experience!\"{wait}"
   },
   {
    "id": "OMAP00_47:001",
    "jp": "「チュチュン！ 桃太郎さん！{n} 氷の塔には 鍵が かかっていて{n} 入れません！ チュチュン！」{wait}{n}「塔の となりに ある{n} 洞窟から 氷の塔に{n} 入れるそうです！ チュチュン！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san! The Ice Tower is locked, so you can't get in! Chirp chirp!\"{wait}\"They say you can get into the Ice Tower from the cave next to the tower! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_47:002",
    "jp": "「夜叉姫さんが 仲間に{n} なったそうですね！」{n}{wait}{n}「よかったですね 桃太郎さん！{n} チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"I hear Yashahime-san joined the party!\"{wait}\"How wonderful, Momotaro-san! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_47:003",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「氷の塔の{n} となりの 洞窟には」{n}{wait}{n}「それは きれいな 鬼が{n} いるそうです！ チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"In the cave next to the Ice Tower...\"{wait}\"...they say there's an oni who's ever so beautiful! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_47:004",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「氷の塔には{n} 醜女 という 鬼が いて」{n}{wait}{n}「{col0}氷室の削り火{col0}を{n} 守っているそうです！{n} チュチュン！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"They say an oni called Shikome is in the Ice Tower...\"{wait}\"...guarding the {col0}Icehouse Fire{col0}! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_47:005",
    "jp": "「チュチュン！ 桃太郎さん！{n} このお宿から 南西に いくと」{n}{wait}{n}「まもり仙人の 庵が{n} あります！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san! Go southwest from this inn...\"{wait}\"...and you'll find the Shield Hermit's hut!\"{wait}"
   },
   {
    "id": "OMAP00_47:006",
    "jp": "「チュチュン！ 桃太郎さん！{n} 氷の塔に いくのなら」{n}{wait}{n}「{col0}かぎなわ{col0}が 必要に{n} なりますよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san! If you're going to the Ice Tower...\"{wait}\"...you'll need the {col0}Grappling Hook{col0}!\"{wait}"
   },
   {
    "id": "OMAP00_47:007",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「鬼たいじの 成功を{n} おいのりしています{n} チュチュン！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"I'm praying your oni slaying goes well! Chirp chirp!\"{wait}"
   },
   {
    "id": "OMAP00_47:008",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「このお宿から 南に いくと{n} 迷路のように なっている{n} ふしぎな 森が あります！」{wait}{n}「その森は{n} もっとふしぎな森とよばれる{n} すごい 迷路だそうです！」{wait}{n}「森の中には すごい 宝が{n} あるという うわさですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Go south from this inn and there's a mysterious forest laid out like a maze!\"{wait}\"They say it's an amazing maze called the Mysterier Forest!\"{wait}\"Rumor has it there's an amazing treasure somewhere in that forest!\"{wait}"
   },
   {
    "id": "OMAP00_47:009",
    "jp": "「いらっしゃーい！ ここは{n} すずめのつづら屋 でーす！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcooome! This is the Sparrow Basket Shop!\"{wait}"
   },
   {
    "id": "OMAP00_47:010",
    "jp": "「{num}両 払って つづらを{n} あけると いろんな 賞品が{n} 当たります！ チュチュン！」{wait}{n}「{num}両払って あそんで{n} いきますか？ チュチュン！」{n}{wait}{n}「さあ どれにしますか？」{n}{n}{n}「{str} が 当たりました{n} チュチュン！」{n}{wait}{n}「チュチュン！ もう一度{n} {num}両払って{n} ちょうせんしますか？」{n}「チュチュン！{n} お金が たりません！」{n}{wait}{n}「どの 説明を{n} 見ますか？{n} チュチュン！」{n}「他の 説明も{n} 見ますか？{n} チュチュン！」{n}「チュチュン！ また{n} おこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Pay {num} ryo to open a basket and win all sorts of prizes! Chirp chirp!\"{wait}\"Will you pay {num} ryo and play? Chirp chirp!\"{wait}\"Now, which one will it be?\"{n}{n}{n}\"You won {str}! Chirp chirp!\"{wait}\"Chirp chirp! Pay {num} ryo and try again?\"{n}\"Chirp chirp! You don't have enough money!\"{wait}\"Which explanation would you like to see? Chirp chirp!\"{n}\"Would you like to see another explanation? Chirp chirp!\"{n}\"Chirp chirp! Please come again!\"{wait}"
   },
   {
    "id": "OMAP00_47:011",
    "jp": "「うむむむむむ！{n} 見ればその場でピタリと当たる！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm! One look, and I read you spot on!\"{wait}"
   },
   {
    "id": "OMAP00_47:012",
    "jp": "「よいよい！ なにもいわずとも{n} おぬしが 何をききたいかは{n} よく わかっとる！」{wait}{n}「一番 値上がりしそうな{n} かぶ券の めいがらを{n} 知りたいんじゃろ？」{wait}",
-   "en": ""
+   "en": "\"Fine, fine! You needn't say a word, I know exactly what you want to ask!\"{wait}\"You want to know which stock will go up the most, right?\"{wait}"
   },
   {
    "id": "OMAP00_47:013",
    "jp": "「そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{n}{wait}{n}「なに ちがう？{n} わはははは！ わかっとる！{n} おとなの ジョークじゃよ！」{wait}",
-   "en": ""
+   "en": "\"Thought so! Thought so! I knew it all along!\"{wait}\"What, that's not it? Wahahaha! I know, I know! Just a grown-up joke!\"{wait}"
   },
   {
    "id": "OMAP00_47:014",
    "jp": "「ところで おぬしは{n} {col0}氷室の削り火{col0}を{n} 知っておるのかな？」{wait}{n}「もし 知らないのなら{n} 寝太郎の村で 話を{n} よく 聞くがええ！」{wait}",
-   "en": ""
+   "en": "\"By the way, do you know about the {col0}Icehouse Fire{col0}?\"{wait}\"If you don't, listen carefully to the folks in Netaro Village!\"{wait}"
   },
   {
    "id": "OMAP00_47:015",
    "jp": "「なに そこまで知ってるなら{n} 氷室の削り火の 場所を{n} 教えろとな？」{wait}{n}「わはははは！ わかっとる！{n} ほんの しゃれっけじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"What's that? If I know that much, I should tell you where the Icehouse Fire is?\"{wait}\"Wahahaha! I know, I know! Just a bit of wit!\"{wait}"
   },
   {
    "id": "OMAP00_47:016",
    "jp": "「ところで おぬしは{n} もっとふしぎな森を{n} 知っておるかな？」{wait}{n}「かくされた 道があったり{n} ちがう場所に とばされたりの{n} すごい 迷路だそうじゃ！」{wait}",
-   "en": ""
+   "en": "\"By the way, do you know of the Mysterier Forest?\"{wait}\"They say it's an amazing maze, full of hidden paths and spots that whisk you off somewhere else!\"{wait}"
   },
   {
    "id": "OMAP00_47:017",
    "jp": "「なに そんなことは{n} どうでもいいから{n} 早く 占え？」{wait}{n}「わはははは！ わかっとる！{n} うれしい サービスじゃろ！」{n}{wait}",
-   "en": ""
+   "en": "\"What's that? Never mind all that, just tell your fortune?\"{wait}\"Wahahaha! I know, I know! A nice bit of bonus service, eh?\"{wait}"
   },
   {
    "id": "OMAP00_47:018",
    "jp": "「よしよし！ それでは{n} ひとつ 占うとしようか！」{n}{wait}",
-   "en": ""
+   "en": "\"Very well! Then let me tell your fortune!\"{wait}"
   },
   {
    "id": "OMAP00_47:019",
    "jp": "「なにを 占えば よいのかな？」{n}{n}",
-   "en": ""
+   "en": "\"What shall I tell your fortune about?\""
   },
   {
    "id": "OMAP00_47:020",
    "jp": "「うむむむむむ！」{n}{n}{wait}{n}「まもりの術を 会得するには{n} 忍耐力が{n} 大事 と でた！」{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm!\"{wait}\"To master the Shield art, patience is the key... so say the stars!\"{wait}"
   },
   {
    "id": "OMAP00_47:021",
    "jp": "「うむむむむむ！」{n}{n}{wait}{n}「氷の塔に 向かうなら{n} 3人では きけん と でた！」{n}{wait}{n}「4人目の 仲間が ふえてから{n} いけ と でた！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm!\"{wait}\"If you're heading to the Ice Tower, three is dangerous... so say the stars!\"{wait}\"Wait until a fourth friend joins you, then go... so say the stars!\"{wait}"
   },
   {
    "id": "OMAP00_47:022",
    "jp": "「うむむむむむ！」{n}{n}{wait}{n}「もし おぬしが{n} 宝物を 1つしか{n} 持っていないのなら」{wait}{n}「南を さがせ{n} と でた！」{n}{wait}{n}「森の 中を 歩き回れ{n} と でた！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm!\"{wait}\"If you hold only one treasure...\"{wait}\"...search to the south, so say the stars!\"{wait}\"Walk all over the forest... so say the stars!\"{wait}"
   },
   {
    "id": "OMAP00_47:023",
    "jp": "「このお宿の 南にある{n} もっとふしぎな森は{n} とんでもない 迷路です！」{wait}{n}「行き止まりが 実は 通れたり{n} いろんなところに とばされたり{n} ひどい目に あいましたよ！」{wait}",
-   "en": ""
+   "en": "\"The Mysterier Forest south of this inn is an outrageous maze!\"{wait}\"Dead ends you can actually walk through, getting whisked off all over the place... I had an awful time!\"{wait}"
   },
   {
    "id": "OMAP00_47:024",
    "jp": "「南の もっとふしぎな森には{n} すごい宝物が かくされて{n} いるそうです！」{wait}{n}「でも すごい 迷路に{n} なってるそうなので」{n}{wait}{n}「だれも 見つけた人は{n} いないという うわさです！」{n}{wait}",
-   "en": ""
+   "en": "\"They say an amazing treasure is hidden in the Mysterier Forest to the south!\"{wait}\"But since it's such an amazing maze...\"{wait}\"...rumor has it nobody has ever found it!\"{wait}"
   },
   {
    "id": "OMAP00_47:025",
    "jp": "「憎まれっ子 妙に幅がある！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Only the good die young... the bad just grow oddly wide!\"{wait}"
   },
   {
    "id": "OMAP00_47:026",
    "jp": "「犬も歩けば ぼーっとする！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Every dog has its day... off!\"{wait}"
   },
   {
    "id": "OMAP00_47:027",
    "jp": "「枯れ木も 山のような{n} にぎり寿司！」{n}{wait}",
-   "en": ""
+   "en": "\"The more the merrier... and the bigger the sushi platter!\"{wait}"
   }
  ]
 }

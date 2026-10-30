@@ -8,52 +8,52 @@
   {
    "id": "WMAP09_28:000",
    "jp": "「ウヒャヒャ… わしは{n} きゅうどう仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Archery Hermit!\"{wait}"
   },
   {
    "id": "WMAP09_28:001",
    "jp": "「わしの もっている{n} しゃくねつの弓は」{n}{wait}{n}「寒いところに いる{n} 敵に 大打撃を{n} あたえるのぢゃ！」{wait}{n}「どうぢゃ？ ほしいか？」{n}{n}",
-   "en": ""
+   "en": "\"This Scorching Bow of mine\"{wait}\"deals heavy damage to enemies that live in cold places!\"{wait}\"Well? Do you want it?\""
   },
   {
    "id": "WMAP09_28:002",
    "jp": "「ふむ… 桃太郎{n} お前が ほしいと いうのなら{n} くれてやろう！」{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「さあ！ いくぞ！{n} 桃太郎！ ウヒャヒャ…」{n}{wait}",
-   "en": ""
+   "en": "\"Hmm... Momotaro, if you say you want it, then it's yours!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now! Here we go, Momotaro! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP09_28:003",
    "jp": "「でかした！ 桃太郎！{n} しゃくねつの弓を{n} さずけようぞ！ ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro! I shall grant you the Scorching Bow! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP09_28:004",
    "jp": "桃太郎は{n}{col4}しゃくねつの弓{col0}を{n}手に 入れた！{c19}{wait}{n}「桃太郎！ だいじに{n} つかうのぢゃぞ！ ええな！」{n}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Scorching Bow{col0}!{c19}{wait}\"Momotaro! Use it with care! Understood?\"{wait}"
   },
   {
    "id": "WMAP09_28:005",
    "jp": "「桃太郎！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「力を つけて{n} でなおしてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! At this rate, you'll never teach Enma a lesson! Uhyahya...\"{wait}\"Go get stronger and come back!\"{wait}"
   },
   {
    "id": "WMAP09_28:006",
    "jp": "「そうか！{n} 無理は せんようにな！」{n}{wait}",
-   "en": ""
+   "en": "\"I see! Don't push yourself too hard!\"{wait}"
   },
   {
    "id": "WMAP09_28:007",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「しゃくねつの弓は{n} 東に 行ってからも{n} 必要になるぢゃろう！」{wait}{n}「大事に 持っておくのぢゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"You'll need the Scorching Bow even after you head east!\"{wait}\"Keep it safe!\"{wait}"
   },
   {
    "id": "WMAP09_28:008",
    "jp": "「桃太郎よ！{n} しゃくねつの弓は{n} 役に立っているのか？」{wait}{n}「まあ ようきた！{n} ほれ これを やろう！{n} だいじにするのぢゃぞ！」{wait}{n}桃太郎は{n}{col10}きゅうどう仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Is the Scorching Bow proving useful?\"{wait}\"Well, good of you to come! Here, I'll give you this! Take good care of it!\"{wait}Momotaro got the {col10}Archery Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP09_28:009",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「年寄りの{n} 冷し中華 大盛一人前！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"There's no fool like an old fool... and no food like cold noodles, one extra large!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

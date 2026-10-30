@@ -8,487 +8,487 @@
   {
    "id": "SMAP02_33:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この村が 鬼に おそわれ{n} 村人が 苦しめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?\"{wait}\"The oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP02_33:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 6段くらいは{n} ないと つらいであろう！」{wait}{n}「6段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni further on are much, much stronger!\"{wait}\"If you mean to go on past this village, you'll have a hard time of it without about level 6!\"{wait}\"If you haven't reached level 6, keep training around here and build up experience!\"{wait}"
   },
   {
    "id": "SMAP02_33:002",
    "jp": "「ここは ウサギと タヌキが{n} なかよく 暮らす{n} カチカチ山です ピョピョン！」{wait}{n}「え？ カチカチ山だから{n} タヌキと ウサギが ケンカを{n} してると 思ったんですか？」{wait}{n}「今では すっかり 仲直りして{n} なかよく 暮らしているんですよ！{n} ピョピョン！ ピョピョン！」{wait}",
-   "en": ""
+   "en": "\"This is Kachikachi Mountain, where rabbits and tanuki live in harmony! Hop hop!\"{wait}\"Huh? You thought tanuki and rabbits fight because this is Kachikachi Mountain?\"{wait}\"We made up ages ago, and now we all get along just fine! Hop hop! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:003",
    "jp": "「桃太郎さんの おかげで{n} 今年も 大文字焼きを{n} おがむことが できました」{wait}{n}「本当に 本当に{n} ありがとうございます！{n} ピョピョン！ ピョピョン！」{wait}",
-   "en": ""
+   "en": "\"Thanks to you, Momotaro-san, we got to see the Daimonji Bonfire again this year.\"{wait}\"Thank you, really, truly! Hop hop! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:004",
    "jp": "「桃太郎さん！ 桃太郎さん！{n} 鬼のせいで 大文字焼きが{n} できないんです！ ポンポコポン！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Momotaro-san! We can't hold the Daimonji Bonfire because of the oni! Ponpoko-pon!\"{wait}"
   },
   {
    "id": "SMAP02_33:005",
    "jp": "「ありがとうございます！{n} 桃太郎さん！ ポンポコポン！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you so much, Momotaro-san! Ponpoko-pon!\"{wait}"
   },
   {
    "id": "SMAP02_33:006",
    "jp": "「これ つまらないものですが{n} 鬼たいじに 役立ててください」{n}{wait}{n}桃太郎は{n}{col4}毒消し{col0}を 手に入れた！{n}{wait}",
-   "en": ""
+   "en": "\"It's only a small thing, but please use it to fight the oni.\"{wait}Momotaro got {col4}Antidote{col0}!{wait}"
   },
   {
    "id": "SMAP02_33:007",
    "jp": "「ピョピョン！ 銀の鬼が{n} カチカチ山に いるので{n} 大文字焼きが できません！」{wait}{n}「桃太郎さん！ どうか{n} 銀の鬼を{n} こらしめてください！」{wait}{n}「お願いします！ ピョピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! The Silver Oni is on Kachikachi Mountain, so we can't hold the Daimonji Bonfire!\"{wait}\"Momotaro-san! Please, teach the Silver Oni a lesson!\"{wait}\"We're counting on you! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:008",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「仙人の 庵で 仙人様と{n} 話すと 体と 技が{n} 全回復します！」{wait}{n}「旅の 途中で 体の 数が{n} 少なくなったら {n} 行ってみてください！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Talk to the hermit in a hermit's hut and your HP and SP will be fully restored!\"{wait}\"If your HP runs low on your journey, go pay one a visit!\"{wait}"
   },
   {
    "id": "SMAP02_33:009",
    "jp": "「毎年 毎年 祭りで{n} はらつづみを 打つのが{n} いきがいだったのに！」{wait}",
-   "en": ""
+   "en": "\"Every year, drumming on my belly at the festival was what I lived for!\"{wait}"
   },
   {
    "id": "SMAP02_33:010",
    "jp": "「桃太郎さん！ オイラの{n} 自慢の はらつづみを{n} 聞いてくれ！ それ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Listen to my belly drum, the pride of my life! Here goes!\"{wait}"
   },
   {
    "id": "SMAP02_33:011",
    "jp": "「聞いてくれて ありがとう！{n} これ お礼です！ どうぞ！」{n}{wait}{n}桃太郎は{n}{col4}おにぎり{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Thanks for listening! This is for you! Take it!\"{wait}Momotaro got {col4}Rice Ball{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:012",
    "jp": "「ピョピョン！ ピョピョン！{n} 桃太郎さんが 銀の鬼を{n} こらしめて くださるそうですね」{wait}{n}「カチカチ山への 道は{n} 長くて 鬼も いるので」{n}{wait}{n}「きびだんごを{n} 持っていくと いいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! I hear you're going to teach the Silver Oni a lesson, Momotaro-san.\"{wait}\"The road to Kachikachi Mountain is long, and there are oni on it,\"{wait}\"so you'd better take some millet dumplings along!\"{wait}"
   },
   {
    "id": "SMAP02_33:013",
    "jp": "「桃太郎さん！ 東にある{n} きんたん仙人の 庵には{n} もう いきましたか？」{wait}{n}「仙人から 一本とれば{n} きんたんの術を{n} 覚えることが できますよ！」{wait}{n}「鬼たいじの 成功を{n} お祈りしてます！ ピョピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Have you been to the Kintan Hermit's hut to the east yet?\"{wait}\"If you can land a blow on the hermit, he'll teach you the Kintan art!\"{wait}\"I'm praying you beat the oni! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:014",
    "jp": "「はるばる 都から{n} 大文字焼き 見物に{n} やってきたのになあ！」{wait}{n}「鬼のせいで{n} 見物どころでは{n} なくなって しまいましたよ！」{wait}",
-   "en": ""
+   "en": "\"I came all the way from the Capital to see the Daimonji Bonfire!\"{wait}\"But thanks to the oni, there's no seeing anything now!\"{wait}"
   },
   {
    "id": "SMAP02_33:015",
    "jp": "「はるばる 都から{n} 来た かいが{n} ありましたよ！」{wait}{n}「こういう お祭りを{n} 大切に したいですね」{n}{wait}",
-   "en": ""
+   "en": "\"It was worth coming all the way from the Capital!\"{wait}\"Festivals like this should be treasured.\"{wait}"
   },
   {
    "id": "SMAP02_33:016",
    "jp": "「えんまの 手下 銀の鬼が{n} カチカチ山に たてこもって{n} 悪さを しているのです！」{wait}{n}「桃太郎さん！ どうか{n} 鬼を こらしめてください！」{n}{wait}",
-   "en": ""
+   "en": "\"The Silver Oni, a henchman of Enma, has holed up on Kachikachi Mountain and is up to no good!\"{wait}\"Momotaro-san! Please, teach that oni a lesson!\"{wait}"
   },
   {
    "id": "SMAP02_33:017",
    "jp": "「タヌキさんたちが いっせいに{n} 同じものに ばけると{n} いいことが あるみたいですよ！」{wait}{n}「なんでしょうね？ ピョピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I hear something good happens when all the tanuki turn into the same thing at once!\"{wait}\"I wonder what it is? Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:018",
    "jp": "「地獄がわらは{n} 鬼がわらよりも{n} 固いそうです！」{wait}{n}「戦うときは 気をつけて{n} くださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"They say a Hell Tile is even harder than an Oni Tile!\"{wait}\"Be careful when you fight them!\"{wait}"
   },
   {
    "id": "SMAP02_33:019",
    "jp": "「大文字焼きの お祭りは{n} ボクたち ウサギと タヌキの{n} 仲直りの 記念なんです！」{wait}{n}「年に 一度 もう300年も{n} 欠かさず 続けているのに！」{n}{wait}{n}「今年は 鬼のせいで{n} お祭りが できそうにないんです！{n} 助けてください ポンポコポン！」{wait}",
-   "en": ""
+   "en": "\"The Daimonji Bonfire festival celebrates the day we rabbits and tanuki made up!\"{wait}\"We've held it once a year for 300 years without missing one!\"{wait}\"But this year, because of the oni, it looks like there won't be a festival! Help us! Ponpoko-pon!\"{wait}"
   },
   {
    "id": "SMAP02_33:020",
    "jp": "「大文字焼きは{n} ウサギと タヌキの{n} 仲直りの しるし」{wait}{n}「桃太郎さんの おかげで{n} 守り通すことが できました！{n} ありがとうございます！」{wait}",
-   "en": ""
+   "en": "\"The Daimonji Bonfire is the sign that the rabbits and tanuki made peace.\"{wait}\"Thanks to you, Momotaro-san, we were able to keep it going! Thank you so much!\"{wait}"
   },
   {
    "id": "SMAP02_33:021",
    "jp": "「どうか これを{n} 受け取って ください！」{n}{wait}{n}桃太郎は{n}{col4}毒消し{col0}を 手に入れた！{n}{wait}",
-   "en": ""
+   "en": "\"Please, accept this!\"{wait}Momotaro got {col4}Antidote{col0}!{wait}"
   },
   {
    "id": "SMAP02_33:022",
    "jp": "「桃太郎！ この道は{n} カチカチ山へと 通じておる」{n}{wait}{n}「しかし 道の 途中で{n} 鬼が 出てくるのじゃ！」{n}{wait}{n}「体力が 十分でないなら{n} 宿屋で 休んでから{n} 先へ 進んだほうが いいぞ」{wait}",
-   "en": ""
+   "en": "\"Momotaro! This road leads to Kachikachi Mountain.\"{wait}\"But oni come out along the way!\"{wait}\"If your HP isn't full, you'd best rest at the inn before you go on.\"{wait}"
   },
   {
    "id": "SMAP02_33:023",
    "jp": "「桃太郎！{n} きんたんの術は{n} もう 覚えたか？」{wait}{n}「きんたん仙人の 庵は{n} この カチカチの村の{n} 東に あるぞ！」{wait}{n}「もし まだ きんたん仙人に{n} 会っていないのなら 早く{n} 行って 修行するのじゃ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Have you learned the Kintan art yet?\"{wait}\"The Kintan Hermit's hut is east of this Kachikachi Village!\"{wait}\"If you haven't met the Kintan Hermit yet, hurry over there for some training!\"{wait}"
   },
   {
    "id": "SMAP02_33:024",
    "jp": "「ファイトーッ！{n} いっぱーーーーーーーっ！」{n}{wait}{n}「石段 上るには{n} この かけ声が ないとな！」{n}{wait}",
-   "en": ""
+   "en": "\"Fiiight! One more puuuuuuuush!\"{wait}\"Can't climb stone steps without that chant!\"{wait}"
   },
   {
    "id": "SMAP02_33:025",
    "jp": "「頂上まで{n} あと もう少しじゃ{n} がんばれ！ がんばれ！」{wait}",
-   "en": ""
+   "en": "\"Just a little more to the top! Keep going! Keep going!\"{wait}"
   },
   {
    "id": "SMAP02_33:026",
    "jp": "「頂上まで{n} あと もう少しじゃ{n} がんばれ！ がんばれ！」{wait}",
-   "en": ""
+   "en": "\"Just a little more to the top! Keep going! Keep going!\"{wait}"
   },
   {
    "id": "SMAP02_33:027",
    "jp": "「はっはっは！{n} よく 来たな！ 桃太郎！」{n}{wait}{n}「オレ様は{n} えんま様の 命により」{n}{wait}{n}「この 村を 支配する{n} 銀の鬼だ！」{n}{wait}{n}「えんま様に{n} 逆らうやつは{n} こうしてくれる！」{wait}",
-   "en": ""
+   "en": "\"Hahaha! So you came, Momotaro!\"{wait}\"By order of Lord Enma,\"{wait}\"I, the Silver Oni, rule this village!\"{wait}\"And this is what I do to anyone who defies Lord Enma!\"{wait}"
   },
   {
    "id": "SMAP02_33:028",
    "jp": "「何度 きても{n} おなじことだ！」{n}{wait}{n}「この 銀の鬼に{n} 勝てるはずが ないわ！」{n}{wait}",
-   "en": ""
+   "en": "\"No matter how many times you come, it's the same!\"{wait}\"There's no way you can beat the Silver Oni!\"{wait}"
   },
   {
    "id": "SMAP02_33:029",
    "jp": "「この村の 北で ネズミが{n} 腹を すかせていたが{n} あれは なんだったのかなあ？」{wait}",
-   "en": ""
+   "en": "\"There were some mice north of this village with empty bellies. What was that all about?\"{wait}"
   },
   {
    "id": "SMAP02_33:030",
    "jp": "「黄鬼という 鬼は{n} 毒を はいて{n} 攻撃してきます！」{wait}{n}「毒消しを 忘れずに{n} 持っていったほうが{n} いいですよ！」{wait}",
-   "en": ""
+   "en": "\"The oni called the Yellow Oni attacks by spitting poison!\"{wait}\"Don't forget to take an Antidote with you!\"{wait}"
   },
   {
    "id": "SMAP02_33:031",
    "jp": "「だいじな 大文字の お祭りを{n} じゃましちゃって ごめんなさい」{n}{wait}{n}「桃太郎さんの おかげで{n} 友情の 大切さを{n} 教えられました」{wait}{n}「どうか ボクたち 鬼とも{n} なかよくして ください」{n}{wait}",
-   "en": ""
+   "en": "\"I'm sorry I got in the way of your precious Daimonji festival.\"{wait}\"Momotaro-san taught me how important friendship is.\"{wait}\"Please, be friends with us oni too.\"{wait}"
   },
   {
    "id": "SMAP02_33:032",
    "jp": "「だいじな 大文字の お祭りを{n} じゃましちゃって ごめんなさい」{n}{wait}",
-   "en": ""
+   "en": "\"I'm sorry I got in the way of your precious Daimonji festival.\"{wait}"
   },
   {
    "id": "SMAP02_33:033",
    "jp": "「桃太郎さんに{n} 友情の 大切さを{n} 教えて いただきました」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san taught me how important friendship is.\"{wait}"
   },
   {
    "id": "SMAP02_33:034",
    "jp": "「どうか これを{n} 受け取ってください！」{n}{wait}{n}桃太郎は{n}{col4}鬼のなみだ{col0}を 手に入れた！{n}{wait}",
-   "en": ""
+   "en": "\"Please, accept this!\"{wait}Momotaro got {col4}Oni Tear{col0}!{wait}"
   },
   {
    "id": "SMAP02_33:035",
    "jp": "「やっぱり この村は{n} 大文字焼きが{n} なくっちゃ！」{wait}{n}「ありがとう 桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"This village just isn't the same without the Daimonji Bonfire!\"{wait}\"Thank you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP02_33:036",
    "jp": "「おや！ ウンチも{n} 大文字焼き 見物{n} ですかな！」{wait}",
-   "en": ""
+   "en": "\"Oh my! Has Poop come to see the Daimonji Bonfire too?\"{wait}"
   },
   {
    "id": "SMAP02_33:037",
    "jp": "「おや！ 桃太郎さんは{n} おむすび村の ネズミさんと{n} お友達ですか！」{wait}",
-   "en": ""
+   "en": "\"Oh my! Momotaro-san, you're friends with the mice of Omusubi Village!\"{wait}"
   },
   {
    "id": "SMAP02_33:038",
    "jp": "「ネズミたちの おかげで{n} 北への 道ができました！{n} これは ほんの お礼です！」{wait}",
-   "en": ""
+   "en": "\"Thanks to the mice, there's a road to the north now! This is just a small thank-you!\"{wait}"
   },
   {
    "id": "SMAP02_33:039",
    "jp": "桃太郎は{n}{col4}元気の玉{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Vigor Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:040",
    "jp": "「おや！ ボンビーの村の{n} かたと ごいっしょですか？」{n}{wait}{n}「北に わたれるようになって{n} よく みかけますが{n} おもしろい人たちですな！」{wait}",
-   "en": ""
+   "en": "\"Oh my! You're traveling with someone from Bombee Village?\"{wait}\"Now that we can cross to the north, I see them a lot. Funny folks, aren't they!\"{wait}"
   },
   {
    "id": "SMAP02_33:041",
    "jp": "「おや！ お地蔵さまも{n} ごいっしょですか！{n} ありがたいことです！」{wait}",
-   "en": ""
+   "en": "\"Oh my! The Jizo is with you too! What a blessing!\"{wait}"
   },
   {
    "id": "SMAP02_33:042",
    "jp": "「おや！ とこなつの村の{n} かたですかな！{n} これは めずらしい！」{wait}{n}「あの 村の 人と{n} おあいするのは{n} はじめてですわい！」{wait}",
-   "en": ""
+   "en": "\"Oh my! Is that someone from Tokonatsu Village? How rare!\"{wait}\"This is the first time I've ever met anyone from that village!\"{wait}"
   },
   {
    "id": "SMAP02_33:043",
    "jp": "「ピョピョン！{n} 桃太郎さん ありがとう！」{n}{wait}{n}「これで 今年も{n} 大文字焼きの お祭りが{n} 開けます！ ピョピョン！」{wait}{n}「ぜひ！ 今年の{n} 大文字焼きは 桃太郎さんが{n} 火を つけてください！」{wait}{n}「お願いします！ ピョピョン！」{n}{n}",
-   "en": ""
+   "en": "\"Hop hop! Thank you, Momotaro-san!\"{wait}\"Now we can hold the Daimonji Bonfire festival this year too! Hop hop!\"{wait}\"Please, Momotaro-san! Will you light this year's Daimonji Bonfire?\"{wait}\"Pretty please! Hop hop!\""
   },
   {
    "id": "SMAP02_33:044",
    "jp": "「もう一度{n} 大文字焼きを 見ますか？」{n}",
-   "en": ""
+   "en": "\"Would you like to watch the Daimonji Bonfire again?\""
   },
   {
    "id": "SMAP02_33:045",
    "jp": "「ありがとうございます！」{n}{n}{wait}{n}「今年の 大文字焼き は{n} みんなの 心の 火も{n} 灯すことでしょう ピョピョン！」{wait}",
-   "en": ""
+   "en": "\"Thank you so much!\"{wait}\"This year's Daimonji Bonfire will light the fire in everyone's hearts too! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:046",
    "jp": "「ピョピョン！ ピョピョン！…」{n}{n}{wait}{n}「悲しすぎます… ピョピョン！」{n}{n}{wait}{n}「今のは まちがいですよね！{n} 火を つけてくれますよね！{n} 桃太郎さん！ ピョピョン！」",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!...\"{wait}\"That's too sad... Hop hop!\"{wait}\"You didn't mean that, right?! You'll light it for us, won't you, Momotaro-san?! Hop hop!\""
   },
   {
    "id": "SMAP02_33:047",
    "jp": "「ピョピョン！{n} では ごゆっくり」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Then enjoy yourself.\"{wait}"
   },
   {
    "id": "SMAP02_33:048",
    "jp": "「大文字焼きを 見たくなったら{n} いつでも 話しかけて ください{n} ピョピョン！」{wait}",
-   "en": ""
+   "en": "\"Talk to me any time you want to watch the Daimonji Bonfire! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:049",
    "jp": "「鬼の せいで{n} 今年は お祭りが{n} できないです！ ピョピョン！」{wait}{n}「桃太郎さん！ どうか{n} 鬼を こらしめてください！」{n}{wait}",
-   "en": ""
+   "en": "\"Because of the oni, we can't have the festival this year! Hop hop!\"{wait}\"Momotaro-san! Please, teach the oni a lesson!\"{wait}"
   },
   {
    "id": "SMAP02_33:050",
    "jp": "「ピョピョン！ ピョピョン！{n} 大文字の 火を{n} ありがとう！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Thank you for the Daimonji fire, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP02_33:051",
    "jp": "「猫に こんばんわ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Let the cat out of the bag... and wish it good evening!\"{wait}"
   },
   {
    "id": "SMAP02_33:052",
    "jp": "「朱に 交われば{n} 赤上げないで 白下げない！」{n}{wait}",
-   "en": ""
+   "en": "\"When in Rome... don't raise red, don't lower white!\"{wait}"
   },
   {
    "id": "SMAP02_33:053",
    "jp": "「大文字焼きを 見たら{n} 北へ いこうと{n} 思ってたんだけど」{wait}",
-   "en": ""
+   "en": "\"I was thinking of heading north after seeing the Daimonji Bonfire, but...\"{wait}"
   },
   {
    "id": "SMAP02_33:054",
    "jp": "「このままでは{n} お祭りどころじゃ{n} なさそうだべ！」{wait}",
-   "en": ""
+   "en": "\"At this rate, there won't be any festival at all!\"{wait}"
   },
   {
    "id": "SMAP02_33:055",
    "jp": "「ネズミが{n} 北に わたる 穴を{n} 作ろうと してるそうだ！」{wait}",
-   "en": ""
+   "en": "\"I hear the mice are trying to dig a tunnel through to the north!\"{wait}"
   },
   {
    "id": "SMAP02_33:056",
    "jp": "「だけど 鬼に 作業を{n} じゃまされとるんだと！」{n}{wait}",
-   "en": ""
+   "en": "\"But the oni keep getting in the way of their work!\"{wait}"
   },
   {
    "id": "SMAP02_33:057",
    "jp": "「ポンポコポン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ponpoko-pon!\"{wait}"
   },
   {
    "id": "SMAP02_33:058",
    "jp": "「鬼の おかげで せっかくの{n} 大文字焼きの お祭りが{n} できないなんて！」{wait}",
-   "en": ""
+   "en": "\"Thanks to the oni, we can't even hold our Daimonji Bonfire festival!\"{wait}"
   },
   {
    "id": "SMAP02_33:059",
    "jp": "「ポンポコポン！{n} ありがとう 桃太郎さん！」{n}{wait}{n}「北へ むかうと{n} ボンビーの村です！」{n}{wait}",
-   "en": ""
+   "en": "\"Ponpoko-pon! Thank you, Momotaro-san!\"{wait}\"Head north and you'll reach Bombee Village!\"{wait}"
   },
   {
    "id": "SMAP02_33:060",
    "jp": "「北への 道は まだ{n} できてないんですが」{n}{wait}",
-   "en": ""
+   "en": "\"The road north isn't finished yet, but...\"{wait}"
   },
   {
    "id": "SMAP02_33:061",
    "jp": "「ネズミたちが 北に ぬける{n} 穴を 作っているそうですよ！{n} 行ってみてください！」{wait}",
-   "en": ""
+   "en": "\"I hear the mice are digging a tunnel through to the north! Go take a look!\"{wait}"
   },
   {
    "id": "SMAP02_33:062",
    "jp": "「ポンポコポン！」{n}{n}{c19}{wait}",
-   "en": ""
+   "en": "\"Ponpoko-pon!\"{c19}{wait}"
   },
   {
    "id": "SMAP02_33:063",
    "jp": "「桃太郎さん！ ボクたちは{n} みんなで 同じものに ばける{n} れんしゅうを してるんです！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! We're practicing turning into the same thing all together!\"{wait}"
   },
   {
    "id": "SMAP02_33:064",
    "jp": "「れんしゅうを みていって{n} くれますか？」{n}",
-   "en": ""
+   "en": "\"Will you watch us practice?\""
   },
   {
    "id": "SMAP02_33:065",
    "jp": "「やった！ お地蔵さんのすがたに{n} そろって ばけれたぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"We did it! We all turned into Jizo statues together!\"{wait}"
   },
   {
    "id": "SMAP02_33:066",
    "jp": "「やっぱり 桃太郎さんに{n} 見てもらうと きあいが{n} とても はいります！」{wait}",
-   "en": ""
+   "en": "\"Having you watch us really gets us fired up, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP02_33:067",
    "jp": "「これ{n} うまくいった 記念に{n} もっていって ください！」{wait}",
-   "en": ""
+   "en": "\"Here, take this to remember our success!\"{wait}"
   },
   {
    "id": "SMAP02_33:068",
    "jp": "桃太郎は{n}{col4}根性の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:069",
    "jp": "「おしい！{n} もう少しで お地蔵さんのすがたで{n} そろったのに！」{wait}",
-   "en": ""
+   "en": "\"So close! We almost all turned into Jizo statues!\"{wait}"
   },
   {
    "id": "SMAP02_33:070",
    "jp": "「これ つきあってくれた{n} おれいです！」{n}{wait}",
-   "en": ""
+   "en": "\"This is to thank you for keeping us company!\"{wait}"
   },
   {
    "id": "SMAP02_33:071",
    "jp": "桃太郎は{n}{col4}仙人の桃{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Hermit's Peach{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:072",
    "jp": "「桃太郎さんに 見てもらうと{n} きあいが はいります！」{n}{wait}",
-   "en": ""
+   "en": "\"Having you watch really gets us fired up, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP02_33:073",
    "jp": "「これ{n} うまくいった 記念に{n} もっていって ください！」{wait}",
-   "en": ""
+   "en": "\"Here, take this to remember our success!\"{wait}"
   },
   {
    "id": "SMAP02_33:074",
    "jp": "桃太郎は{n}{col4}きびだんご{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Millet Dumpling{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:075",
    "jp": "桃太郎は{n}{col4}おにぎり{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Rice Ball{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:076",
    "jp": "「えへへ…{n} しっぱい しちゃいました！」{n}{wait}{n}「また みてくださいね！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hehe... We messed up!\"{wait}\"Come watch us again, okay?\"{wait}"
   },
   {
    "id": "SMAP02_33:077",
    "jp": "「いつでも れんしゅうを{n} みにきて くださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Come watch us practice any time!\"{wait}"
   },
   {
    "id": "SMAP02_33:078",
    "jp": "「おいしい ごはんが{n} たけてますね！」{n}{wait}",
-   "en": ""
+   "en": "\"Smells like some tasty rice is cooking!\"{wait}"
   },
   {
    "id": "SMAP02_33:079",
    "jp": "「でも つまみ食いしちゃ{n} だめですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"But no sneaking a bite!\"{wait}"
   },
   {
    "id": "SMAP02_33:080",
    "jp": "「ごはんは お店では{n} 売らないんですかねえ？」{n}{wait}",
-   "en": ""
+   "en": "\"I wonder why the shops don't sell rice?\"{wait}"
   },
   {
    "id": "SMAP02_33:081",
    "jp": "「とっても{n} おいしそうなのに！」{n}{wait}",
-   "en": ""
+   "en": "\"It looks so delicious!\"{wait}"
   },
   {
    "id": "SMAP02_33:082",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「いっそ おわびの 片思い！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"Apologies make the heart grow fonder!\"{wait}Oh, come on!{wait}"
   },
   {
    "id": "SMAP02_33:083",
    "jp": "「もう一つの ふとんは{n} 出しっぱなし ですね！{n} そうじの とちゅうかな？」{wait}",
-   "en": ""
+   "en": "\"The other futon's been left out! Maybe someone's in the middle of cleaning?\"{wait}"
   },
   {
    "id": "SMAP02_33:084",
    "jp": "「あんまり のりだして{n} おっこちないように{n} してくださいよ！」{wait}",
-   "en": ""
+   "en": "\"Don't lean out too far, or you'll fall!\"{wait}"
   },
   {
    "id": "SMAP02_33:085",
    "jp": "「おーい！」{n}{n}{wait}{n}「へんじは ありません！{n} 中には 誰も いないようです！」{n}{wait}",
-   "en": ""
+   "en": "\"Hellooo!\"{wait}\"No answer! Looks like nobody's inside!\"{wait}"
   },
   {
    "id": "SMAP02_33:086",
    "jp": "桃太郎は{n}{col10}ウサギ男カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Rabbit Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:087",
    "jp": "桃太郎は{n}{col10}ウサギ女カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Rabbit Woman Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:088",
    "jp": "桃太郎は{n}{col10}タヌキ男カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Tanuki Man Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:089",
    "jp": "桃太郎は{n}{col10}タヌキ女カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col10}Tanuki Woman Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP02_33:090",
    "jp": "「ポンポコポン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ponpoko-pon!\"{wait}"
   },
   {
    "id": "SMAP02_33:091",
    "jp": "「北への 道の とちゅうに{n} カード仙人という 仙人が{n} 庵を ひらいているそうです！」{wait}",
-   "en": ""
+   "en": "\"I hear a hermit called the Card Hermit has opened a hut along the road north!\"{wait}"
   },
   {
    "id": "SMAP02_33:092",
    "jp": "「桃太郎さんが カードを{n} 集めているのなら 一度{n} 会ってみては どうでしょう？」{wait}",
-   "en": ""
+   "en": "\"If you're collecting cards, Momotaro-san, why not go meet him once?\"{wait}"
   },
   {
    "id": "SMAP02_33:093",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}"
   },
   {
    "id": "SMAP02_33:094",
    "jp": "「桃太郎さんは カードを{n} 集めてるかしら！」{n}{wait}",
-   "en": ""
+   "en": "\"I wonder if Momotaro-san is collecting cards!\"{wait}"
   },
   {
    "id": "SMAP02_33:095",
    "jp": "「カード集めに むちゅうで{n} ゲームを すすめるのを{n} わすれないでね！」{wait}",
-   "en": ""
+   "en": "\"Don't get so hooked on collecting cards that you forget to move the game along!\"{wait}"
   },
   {
    "id": "SMAP02_33:096",
    "jp": "「ウソから出た かまとと！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Many a coy word is spoken in jest!\"{wait}"
   }
  ]
 }

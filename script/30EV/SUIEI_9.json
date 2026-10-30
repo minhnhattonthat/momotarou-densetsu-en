@@ -8,97 +8,97 @@
   {
    "id": "SUIEI_9:000",
    "jp": "「ソレジャ ヨーーーーーイ{n} すたーとアルネ～～～～～！」{n}",
-   "en": ""
+   "en": "\"Now get reaaaady... staaaaart, yes~~~!\""
   },
   {
    "id": "SUIEI_9:001",
    "jp": "「桃太郎サン！{n} さいころ フルアルネ！」{n}",
-   "en": ""
+   "en": "\"Momotaro-san! Roll dice, yes!\""
   },
   {
    "id": "SUIEI_9:002",
    "jp": "「オット！ 桃太郎サン！{n} すぱーと スルアルネ！」{n}",
-   "en": ""
+   "en": "\"Oh-ho! Momotaro-san! Make big spurt, yes!\""
   },
   {
    "id": "SUIEI_9:003",
    "jp": "サイコロの数が 3個になった！{n}",
-   "en": ""
+   "en": "Now rolling 3 dice!"
   },
   {
    "id": "SUIEI_9:004",
    "jp": "「桃太郎サン ヤッタアルネ！{n} スゴイ記録デ 1位アルネ！」{n}{wait}{n}「オメデト！ オメデト！{n} シェーシェー！ オメデト！」{n}{wait}{n}「賞金1000両{n} モッテイクアルネ！」{n}{wait}{n}「マタ クルヨロシ！{n} ショッカーO野(芸名){n} マッテルアルヨ～！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san, you do it, yes! Super record, first place, yes!\"{wait}\"Congratulation! Congratulation! Xie xie! Congratulation!\"{wait}\"Prize money 1000 ryo, you take, yes!\"{wait}\"Come again, please! Shocker O-no (stage name) wait for you, yes~!\"{wait}"
   },
   {
    "id": "SUIEI_9:005",
    "jp": "「ウ～～～～～ン！{n} 桃太郎サン 惜シイアルネ！{n} モウチョット ダッタヨ！」{wait}{n}「コノママ 帰ルノ{n} サミシイ アルネ！」{n}{wait}{n}「コレ モッテケ！{n} ワタシノ 昼メシアルヨ！」{n}{wait}{n}桃太郎は{n}{col4}{str}{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Uuuuuuun! Momotaro-san, so close, yes! Only little bit more!\"{wait}\"You go home like this, so sad, yes!\"{wait}\"Take this! Is my lunch, yes!\"{wait}Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "SUIEI_9:006",
    "jp": "「赤鬼サン！{n} さいころ フルアルネ！」{n}",
-   "en": ""
+   "en": "\"Red Oni-san! Roll dice, yes!\""
   },
   {
    "id": "SUIEI_9:007",
    "jp": "「オット！ 赤鬼サン！{n} すぱーと スルアルネ！」{n}",
-   "en": ""
+   "en": "\"Oh-ho! Red Oni-san! Make big spurt, yes!\""
   },
   {
    "id": "SUIEI_9:008",
    "jp": "「乙姫様！{n} さいころ フルアルネ！」{n}",
-   "en": ""
+   "en": "\"Otohime-sama! Roll dice, yes!\""
   },
   {
    "id": "SUIEI_9:009",
    "jp": "「オット！ 乙姫様！{n} すぱーと スルアルネ！」{n}",
-   "en": ""
+   "en": "\"Oh-ho! Otohime-sama! Make big spurt, yes!\""
   },
   {
    "id": "SUIEI_9:010",
    "jp": "「カッパサン！{n} さいころ フルアルネ！」{n}",
-   "en": ""
+   "en": "\"Kappa-san! Roll dice, yes!\""
   },
   {
    "id": "SUIEI_9:011",
    "jp": "「オット！ カッパサン！{n} すぱーと スルアルネ！」{n}",
-   "en": ""
+   "en": "\"Oh-ho! Kappa-san! Make big spurt, yes!\""
   },
   {
    "id": "SUIEI_9:012",
    "jp": "「桃太郎サン！{n} {num}個進みます」{n}",
-   "en": ""
+   "en": "\"Momotaro-san! {num} spaces forward.\""
   },
   {
    "id": "SUIEI_9:013",
    "jp": "「赤鬼サン！{n} {num}個進みます」{n}",
-   "en": ""
+   "en": "\"Red Oni-san! {num} spaces forward.\""
   },
   {
    "id": "SUIEI_9:014",
    "jp": "「乙姫様！{n} {num}個進みます」{n}",
-   "en": ""
+   "en": "\"Otohime-sama! {num} spaces forward.\""
   },
   {
    "id": "SUIEI_9:015",
    "jp": "「カッパサン！{n} {num}個進みます」{n}",
-   "en": ""
+   "en": "\"Kappa-san! {num} spaces forward.\""
   },
   {
    "id": "SUIEI_9:016",
    "jp": "「水泳大会 今カラ{n} ハジマルアルヨ！」{n}{wait}{n}「実況ハ 謎ノ中国人{n} ショッカーO野(芸名)アルネ」{n}{wait}{n}「自分デ 謎ノ中国人{n} 言ッテタラ 世話ナイネ！」{n}{wait}{n}「るーるヲ 教エタホウガ{n} イイアルカ？」{n}",
-   "en": ""
+   "en": "\"Swim meet start now, yes!\"{wait}\"Commentary by mysterious Chinese man, Shocker O-no (stage name), yes.\"{wait}\"Call yourself mysterious Chinese man, no mystery left, yes!\"{wait}\"I teach you rules, yes?\""
   },
   {
    "id": "SUIEI_9:017",
    "jp": "「さいころ2コ ごろごろシタラ{n} ○ぼたん 押スアルネ！」{n}{wait}{n}「桃太郎サン 泳グアルネ！」{n}{n}{wait}{n}「行ッテ 帰ッテ{n} ごーるアルヨ！」{n}{wait}{n}「ミゴト 1位ニナルト{n} 賞金1000両 モラエルアルネ！{n} ガンバルヨロシ！」{wait}{n}「モウスグ ハジマルヨ～！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Two dice go roll-roll, then push Circle button, yes!\"{wait}\"Then Momotaro-san swim, yes!\"{wait}\"Go there, come back, that is goal, yes!\"{wait}\"You get first place, you win prize money 1000 ryo, yes! Do best, please!\"{wait}\"Start very soon, yes~!\"{wait}"
   },
   {
    "id": "SUIEI_9:018",
    "jp": "「アイヤ～ 桃太郎サン！{n} ゼンゼン ダメアルヨ！」{n}{wait}{n}「コレニ コリズニ モイチド{n} チャレンジ シテホシイノ{n} ココロヨ！」{wait}{n}「マタ クル ヨロシ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Aiyaaa, Momotaro-san! No good at all, yes!\"{wait}\"Don't give up, try one more time, I wish from my heart, yes!\"{wait}\"Come again, please!\"{wait}"
   }
  ]
 }

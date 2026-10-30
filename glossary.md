@@ -55,6 +55,7 @@ batch needs into `build/terms_<batch>.txt`.
 | ましら | Mashira | | oni rock star | |
 | 醜女 | Shikome | | oni | |
 | 羅生門の鬼 | Rashomon Oni | | | |
+| 門臨 忍 | Shinobu Kadorin | | pun-contest winner (SMAP13_37, card HMAP8500_18) | Monrin |
 
 ## Places
 | JP | EN | max | notes | Avoid |

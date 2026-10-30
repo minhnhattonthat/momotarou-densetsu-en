@@ -8,137 +8,137 @@
   {
    "id": "SMAP00_28:000",
    "jp": "「桃太郎や！」{n}{n}{wait}{n}「これを 持って おいき！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, dear!\"{wait}\"Take this with you!\"{wait}"
   },
   {
    "id": "SMAP00_28:001",
    "jp": "おばあさんは{n}100両と {col4}きびだんご{col0} を{n}桃太郎に てわたした！{c19}{wait}",
-   "en": ""
+   "en": "Grandma handed Momotaro 100 ryo and some {col4}Millet Dumplings{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP00_28:002",
    "jp": "おばあさんは{n}{col4}きびだんご{col0} を{n}桃太郎に てわたした！{c19}{wait}",
-   "en": ""
+   "en": "Grandma handed Momotaro some {col4}Millet Dumplings{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP00_28:003",
    "jp": "「くれぐれも からだには{n} 気を つけるんですよ！」{n}{wait}{n}「つらくなったら{n} いつでも{n} 帰っておいで！」{wait}",
-   "en": ""
+   "en": "\"Do take good care of yourself!\"{wait}\"If things get hard, you can always come home!\"{wait}"
   },
   {
    "id": "SMAP00_28:004",
    "jp": "「おかえり 桃太郎！」{n}{n}{wait}{n}「今日は{n} ゆっくり 休んで おいき！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcome home, Momotaro!\"{wait}\"Get some good rest today!\"{wait}"
   },
   {
    "id": "SMAP00_28:005",
    "jp": "「つらくなったら{n} いつでも{n} 帰っておいで！」{wait}{n}「くれぐれも からだには{n} 気を つけるんですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"If things get hard, you can always come home!\"{wait}\"Do take good care of yourself!\"{wait}"
   },
   {
    "id": "SMAP00_28:006",
    "jp": "ポコン！{n}{n}{c19}{wait}",
-   "en": ""
+   "en": "Pop! {c19}{wait}"
   },
   {
    "id": "SMAP00_28:007",
    "jp": "にわとりは タマゴ を{n}うんだ！{n}{wait}",
-   "en": ""
+   "en": "The chicken laid an Egg!{wait}"
   },
   {
    "id": "SMAP00_28:008",
    "jp": "桃太郎は {col4}タマゴ{col0} を{n}手に 入れた！{n}{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got an {col4}Egg{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP00_28:009",
    "jp": "コケコッコー{n}{n}{wait}",
-   "en": ""
+   "en": "Cock-a-doodle-doo!{wait}"
   },
   {
    "id": "SMAP00_28:010",
    "jp": "「そうか そうか！{n} 桃太郎！」{n}{wait}{n}「鬼たいじの 旅に{n} でかけるのか！」{n}{wait}",
-   "en": ""
+   "en": "\"I see, I see! Momotaro!\"{wait}\"So you're heading off to do some oni slaying!\"{wait}"
   },
   {
    "id": "SMAP00_28:011",
    "jp": "「ゆうかんな お前のことじゃ！{n} とめても きかんじゃろうなあ」{n}{wait}{n}「わしと ばあさんは{n} さみしくなって しまうが」{n}{wait}",
-   "en": ""
+   "en": "\"Brave as you are, you won't listen even if I try to stop you.\"{wait}\"Grandma and I will be lonely, though.\"{wait}"
   },
   {
    "id": "SMAP00_28:012",
    "jp": "「世のため 人のため{n} はたらくことは よいことじゃ」{n}{wait}{n}「うん うん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Working for the good of the world and its people is a fine thing.\"{wait}\"Yes, yes!\"{wait}"
   },
   {
    "id": "SMAP00_28:013",
    "jp": "「鬼に 苦しめられている{n} 村の 人たちは お前を{n} 待ちわびて いるじゃろうて！」{wait}{n}「桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"The villagers suffering at the hands of the oni must be waiting eagerly for you!\"{wait}\"Momotaro!\"{wait}"
   },
   {
    "id": "SMAP00_28:014",
    "jp": "「行って おあげ！」{n}{n}{wait}{n}「でも そのまえに」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Go and help them!\"{wait}\"But before that...\"{wait}"
   },
   {
    "id": "SMAP00_28:015",
    "jp": "「ばあさんに{n} ちゃんと あいさつしてから{n} 行くのじゃよ！」{wait}",
-   "en": ""
+   "en": "\"Make sure you say a proper goodbye to Grandma before you go!\"{wait}"
   },
   {
    "id": "SMAP00_28:016",
    "jp": "「そう そう！」{n}{n}{wait}{n}「これは わしからの{n} せんべつじゃ！」{n}{wait}{n}桃太郎は{n}{col4}わらじ{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Oh, that's right!\"{wait}\"This is a farewell gift from me!\"{wait}Momotaro got the {col4}Straw Sandals{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP00_28:017",
    "jp": "「わらじを はくときは{n} そうびコマンドを{n} 使うんだよ！」{wait}{n}「武器や 防具も{n} そうびコマンドで{n} そうびできるからな！」{wait}",
-   "en": ""
+   "en": "\"When you put on the sandals, use the Equip command!\"{wait}\"You can equip weapons and armor with the Equip command too!\"{wait}"
   },
   {
    "id": "SMAP00_28:018",
    "jp": "「いつまでも{n} わしと ばあさんは{n} お前の 帰りを 待っているよ」{wait}",
-   "en": ""
+   "en": "\"Grandma and I will always be waiting for you to come home.\"{wait}"
   },
   {
    "id": "SMAP00_28:019",
    "jp": "「おや 桃太郎！{n} カードアルバムを{n} 持っているのかい？」{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro! Do you have a Card Album?\"{wait}"
   },
   {
    "id": "SMAP00_28:020",
    "jp": "「なら わしらの カードを{n} あげるから アルバムに{n} 入れておくれ！」{wait}",
-   "en": ""
+   "en": "\"Then we'll give you our cards, so put them in your album!\"{wait}"
   },
   {
    "id": "SMAP00_28:021",
    "jp": "桃太郎は{n}{col10}おじいさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Grandpa Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP00_28:022",
    "jp": "桃太郎は{n}{col10}おばあさんカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Grandma Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP00_28:023",
    "jp": "「たまには カードを 見て{n} わしらの ことを{n} 思い出しておくれよ！」{wait}",
-   "en": ""
+   "en": "\"Look at the cards once in a while and remember us!\"{wait}"
   },
   {
    "id": "SMAP00_28:024",
    "jp": "「桃太郎さん！ 何か{n} 忘れ物でも しましたか？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Did you forget something?\"{wait}"
   },
   {
    "id": "SMAP00_28:025",
    "jp": "「おばあさんが ごはんを{n} たいているようです！」{n}{wait}{n}「おいしそうですね！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Looks like Grandma is cooking rice!\"{wait}\"Smells delicious!\"{wait}"
   },
   {
    "id": "SMAP00_28:026",
    "jp": "桃太郎は{n}{col10}ニワトリカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Chicken Card{col0}!{c19}{wait}"
   }
  ]
 }

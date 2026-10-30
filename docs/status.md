@@ -2,13 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (engine spike + marker build) **done** 2026-10-30. Next: phase 6 (translate).
-- **Next (phase 6):** give translators the per-table pixel budgets from docs/re/windows.md (item names 103 px,
-  techniques 85 px, monster names 114 px, commands 52/54 px, dialogue 234 px x 3 lines, side box 134 px, staff roll
-  250 px, shop menu 58 px, name-entry commands 56 px); `max` bytes on EXE/overlay strings still cap those first.
-  Glossary first (names per D1/D2). Phase 7 carry-overs: slot size gate + dictionary codes (engine.md "Remedies"),
-  HUD stat labels (12 px), the ？？？ battle-command string (its marker overflows into col 2), name-entry English
-  grid (EXE 0xD4158.., use the 英数字 page), glyph_prim's caller (0x80022840, needs single glyphs).
+- **Phase:** 6 (translate) **done** 2026-10-30. Next: phase 7 (insert + fit).
+- **Next (phase 7):** slot size gate + dictionary codes (engine.md "Remedies": FONT_6/FONT_10/SMAP16_37/SHOP.MMB
+  load buffers overflowed with markers; English now in, measure real sizes), HUD stat labels (12 px; 体/技 still JP),
+  the ？？？ battle-command string, name-entry English grid (EXE 0xD4158.., 英数字 page), glyph_prim's caller
+  (0x80022840, needs single glyphs), battle numbers still full-width JP digits ("took ３４ da..."). Proverb card game
+  (HMAP2606:65) not seen in-game yet. Then a full warp tour of the English build (`warp.py build/momotarou_en.cue
+  --tag en --all`) and visual QA.
+- **Done (phase 6):** every string has `en` (wave 0 names b001-b005, b006-b070 by translator agents, 13 reviewer
+  passes, Important fixes applied; deferred minors in docs/review-minors.md). Tools: `tools/layout.py` (wrap/page
+  authored English to the JP page shape and box width; 0 problems over the script), `tools/batches.py`
+  (split/check/merge, work/tl/), `tools/pairs.py` (reviewer pairs files). Docs: glossary.md, docs/style-reference.md,
+  docs/synopsis.md, docs/translator-brief.md, docs/reviewer-brief.md. 22 more OCR kanji fixed in tbl. `insert.py`
+  repacks overlay strings reached only by pointer words into one pool (HMAP2606 proverbs, EXE name-entry labels);
+  proverbs shortened to fit (928-byte pool). English build boots (smoke ok); talk_36, shop_65_buy, menu_items,
+  battle_long show English. `tests/test_engine.py::test_glyph_path` crashed once in unicorn (Windows access
+  violation), passed on rerun: flaky.
 - **Done (phase 5, width gate, this session):** every box variant measured (windows.md table). Debug tool additions:
   scenes `shop_65_buy` (buy list; timed for marker/English text), `menu_items` (inventory poke), `menu_techs`
   (learned-technique bits), `battle_long` / `battle_lists` (command menu on round 2, god mode), `ev_card_all`,

@@ -8,137 +8,137 @@
   {
    "id": "DMAP03_92:000",
    "jp": "「オレの 名は 酒呑童子だ！{n} お前が えんま様に 逆らう{n} 桃太郎か！」{wait}{n}「オレの 力を もってすれば{n} お前ごとき ひとひねりだが{n} それでは 興が なさすぎる！」{wait}{n}「そこで ここは 一つ{n} お前と 知恵くらべを{n} することにした！」{wait}{n}「この 謎解き山の{n} 洞窟 一階につき{n} 一つの 謎を 解いてもらおう！」{wait}{n}「謎を 解くごとに{n} 次の 階への{n} 階段が あらわれる！」{wait}",
-   "en": ""
+   "en": "\"My name is Shuten-doji! So you're Momotaro, the one who defies Enma-sama!\"{wait}\"With my power I could crush the likes of you with one hand, but that would be far too boring!\"{wait}\"So instead, I've decided to have a battle of wits with you!\"{wait}\"On each floor of the caves of this Riddle Mountain, you must solve one riddle!\"{wait}\"Each time you solve a riddle, the stairs to the next floor will appear!\"{wait}"
   },
   {
    "id": "DMAP03_92:001",
    "jp": "「まずは 小手調べだ！」{n}{n}{wait}{n}「下の階に いくには{n} この先に ある」{n}{wait}{n}「7枚の タイルを{n} 同時に ふみ あることばを{n} つくるのだ！」{wait}{n}「わかるか？ ふんだ 7枚の{n} タイルが ことばに なるように{n} 同時に ふむのだ！ いいな！」{wait}{n}「おれの 名は 酒呑童子！{n} しゅてんどうじ だ！{n} わすれるな！」{wait}",
-   "en": ""
+   "en": "\"First, a little warm-up!\"{wait}\"To go down to the next floor, you must use what lies ahead:\"{wait}\"step on 7 tiles at the same time to make a certain word!\"{wait}\"Get it? Step on 7 tiles at once so that the tiles you stand on form a word! Understood?\"{wait}\"My name is Shuten-doji! Shu-ten-do-ji! Don't you forget it!\"{wait}"
   },
   {
    "id": "DMAP03_92:002",
    "jp": "「下の階に いくには{n} この先に ある」{n}{wait}{n}「7枚の タイルを{n} 同時に ふみ あることばを{n} つくるのだ！」{wait}{n}「わかるか？ ふんだ 7枚の{n} タイルが ことばに なるように{n} 同時に ふむのだ！ いいな！」{wait}{n}「オレの 名は 酒呑童子！{n} しゅてんどうじ だ！{n} わすれるな！」{wait}",
-   "en": ""
+   "en": "\"To go down to the next floor, you must use what lies ahead:\"{wait}\"step on 7 tiles at the same time to make a certain word!\"{wait}\"Get it? Step on 7 tiles at once so that the tiles you stand on form a word! Understood?\"{wait}\"My name is Shuten-doji! Shu-ten-do-ji! Don't you forget it!\"{wait}"
   },
   {
    "id": "DMAP03_92:003",
    "jp": "「なかなか やるな！{n} これから 先も せいぜい{n} 頭を 使うことだな！」{wait}{n}「では オレは 洞窟の 出口で{n} お前たちを 待っているぞ！{n} また 会おう！」{wait}{n}「オレの 名は 酒呑童子！{n} わすれるな！」{n}{wait}",
-   "en": ""
+   "en": "\"Not bad at all! From here on, you'd better use your head!\"{wait}\"I'll be waiting for you at the cave exit! Until we meet again!\"{wait}\"My name is Shuten-doji! Don't you forget it!\"{wait}"
   },
   {
    "id": "DMAP03_92:004",
    "jp": "「酒呑童子様の{n} ごめいれいにより」{n}{wait}{n}「お前たちに{n} 次の 謎を 出す！」{n}{wait}{n}「次の 謎は 絵合わせだ！」{n}{n}{wait}{n}「ここに 8枚の{n} 石板が ある！」{n}{wait}{n}「石板を 2枚めくり うらに{n} 同じ 鬼の絵が 書かれていたら{n} その2枚の 石板は 消える！」{wait}{n}「全ての 石板を 消したら{n} 次の 階への{n} 階段が あらわれるのだ！」{wait}{n}「石板を めくるときは{n} 石板の となりに 立って{n} 内側に 押すのだ！ いいな！」{wait}",
-   "en": ""
+   "en": "\"By order of Shuten-doji-sama,\"{wait}\"I shall give you the next riddle!\"{wait}\"The next riddle is a matching game!\"{wait}\"Here are 8 stone tablets!\"{wait}\"Flip 2 tablets, and if the same oni picture is drawn on the back of both, those 2 tablets vanish!\"{wait}\"Make every tablet vanish, and the stairs to the next floor will appear!\"{wait}\"To flip a tablet, stand next to it and push it inward! Understood?\"{wait}"
   },
   {
    "id": "DMAP03_92:005",
    "jp": "「ここに 8枚の{n} 石板が ある！」{n}{wait}{n}「石板を 2枚めくり うらに{n} 同じ 鬼の絵が 書かれていたら{n} その2枚の 石板は 消える！」{wait}{n}「全ての 石板を 消したら{n} 次の 階への{n} 階段が あらわれるのだ！」{wait}{n}「石板を めくるときは{n} 石板の となりに 立って{n} 内側に 押すのだ！ いいな！」{wait}",
-   "en": ""
+   "en": "\"Here are 8 stone tablets!\"{wait}\"Flip 2 tablets, and if the same oni picture is drawn on the back of both, those 2 tablets vanish!\"{wait}\"Make every tablet vanish, and the stairs to the next floor will appear!\"{wait}\"To flip a tablet, stand next to it and push it inward! Understood?\"{wait}"
   },
   {
    "id": "DMAP03_92:006",
    "jp": "「なかなか やるな！{n} だが 先の 階に{n} 進んでも むだだ！」{wait}{n}「お前ごときでは{n} 酒呑童子様には{n} とうてい かなうまい！」{wait}",
-   "en": ""
+   "en": "\"Not bad at all! But going on to the next floors is useless!\"{wait}\"The likes of you could never hope to match Shuten-doji-sama!\"{wait}"
   },
   {
    "id": "DMAP03_92:007",
    "jp": "「酒呑童子様の{n} ごめいれいにより」{n}{wait}{n}「お前たちに{n} 次の 謎を 出す！」{n}{wait}{n}「次の 謎は{n} 仲間はずれ さがしだ！」{n}{wait}{n}「上の 9人の 鬼に{n} 話しかけると どうぶつの{n} 名前を いうぞ！」{wait}{n}「その どうぶつの 中に{n} 1匹だけ 仲間はずれが いる！」{n}{wait}{n}「仲間はずれが わかったら{n} もう一度 わしのところに{n} くるのだ！」{wait}{n}「正解すると{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}{n}「さあ！{n} 仲間はずれは だれだ？」{n}{wait}",
-   "en": ""
+   "en": "\"By order of Shuten-doji-sama,\"{wait}\"I shall give you the next riddle!\"{wait}\"The next riddle is: find the odd one out!\"{wait}\"Talk to the 9 oni up there, and each will say the name of an animal!\"{wait}\"Among those animals, just 1 is the odd one out!\"{wait}\"Once you know which one doesn't belong, come back to me!\"{wait}\"Answer correctly, and the stairs to the next floor will appear!\"{wait}\"Now! Which one is the odd one out?\"{wait}"
   },
   {
    "id": "DMAP03_92:008",
    "jp": "「だれが 仲間はずれ か{n} わかったか？」{n}",
-   "en": ""
+   "en": "\"Have you worked out which one is the odd one out?\""
   },
   {
    "id": "DMAP03_92:009",
    "jp": "「そうか！{n} この中から 選ぶのだ！」{n}",
-   "en": ""
+   "en": "\"I see! Then choose from these!\""
   },
   {
    "id": "DMAP03_92:010",
    "jp": "「まだ わからないのか！{n} しかたない！ わかるまで{n} まってやるか！」{wait}",
-   "en": ""
+   "en": "\"You still don't know?! Oh, very well! I'll wait until you do!\"{wait}"
   },
   {
    "id": "DMAP03_92:011",
    "jp": "「まちがえたな 桃太郎！」{n}{n}{wait}{n}「ここを{n} 通すわけには いかん！」{n}{wait}",
-   "en": ""
+   "en": "\"Wrong, Momotaro!\"{wait}\"I can't let you pass!\"{wait}"
   },
   {
    "id": "DMAP03_92:012",
    "jp": "「よく わかったな！{n} そのとおり！ しりとりが{n} ヒントだったのだ！」{wait}",
-   "en": ""
+   "en": "\"Well spotted! That's right! The word chain was the hint!\"{wait}"
   },
   {
    "id": "DMAP03_92:013",
    "jp": "「なぜ わかったのだ？」{n}{n}{wait}{n}「まさか ずるをしたのでは{n} ないだろうな？」{n}{wait}{n}「まあ よしとしよう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"How did you figure it out?\"{wait}\"You didn't cheat, did you?\"{wait}\"Well, I'll let it slide!\"{wait}"
   },
   {
    "id": "DMAP03_92:014",
    "jp": "「なかなか やるな！{n} だが 先の 階に{n} 進んでも むだだ！」{wait}{n}「お前ごときでは{n} 酒呑童子様には{n} とうてい かなうまい！」{wait}",
-   "en": ""
+   "en": "\"Not bad at all! But going on to the next floors is useless!\"{wait}\"The likes of you could never hope to match Shuten-doji-sama!\"{wait}"
   },
   {
    "id": "DMAP03_92:015",
    "jp": "「キツネ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fox\"{wait}"
   },
   {
    "id": "DMAP03_92:016",
    "jp": "「すずめ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Sparrow\"{wait}"
   },
   {
    "id": "DMAP03_92:017",
    "jp": "「ネズミ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Mouse\"{wait}"
   },
   {
    "id": "DMAP03_92:018",
    "jp": "「ネコ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Lioness\"{wait}"
   },
   {
    "id": "DMAP03_92:019",
    "jp": "「リス」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Squirrel\"{wait}"
   },
   {
    "id": "DMAP03_92:020",
    "jp": "「コウモリ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bat\"{wait}"
   },
   {
    "id": "DMAP03_92:021",
    "jp": "「コアラ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Wolf\"{wait}"
   },
   {
    "id": "DMAP03_92:022",
    "jp": "「タヌキ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Tanuki\"{wait}"
   },
   {
    "id": "DMAP03_92:023",
    "jp": "「ラッコ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ibis\"{wait}"
   },
   {
    "id": "DMAP03_92:024",
    "jp": "「？？？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"???\"{wait}"
   },
   {
    "id": "DMAP03_92:025",
    "jp": "「しりとりは 楽しいよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Word chains are fun!\"{wait}"
   },
   {
    "id": "DMAP03_92:026",
    "jp": "「わしも しりとり仲間に{n} いれてくれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Let me join in the word chain too!\"{wait}"
   },
   {
    "id": "DMAP03_92:027",
@@ -148,22 +148,22 @@
   {
    "id": "DMAP03_92:028",
    "jp": "すずめ",
-   "en": ""
+   "en": "Sparrow"
   },
   {
    "id": "DMAP03_92:029",
    "jp": "ネズミ",
-   "en": ""
+   "en": "Mouse"
   },
   {
    "id": "DMAP03_92:030",
    "jp": "ネコ",
-   "en": ""
+   "en": "Lioness"
   },
   {
    "id": "DMAP03_92:031",
    "jp": "リス",
-   "en": ""
+   "en": "Squirrel"
   },
   {
    "id": "DMAP03_92:032",
@@ -173,172 +173,172 @@
   {
    "id": "DMAP03_92:033",
    "jp": "コアラ",
-   "en": ""
+   "en": "Wolf"
   },
   {
    "id": "DMAP03_92:034",
    "jp": "タヌキ",
-   "en": ""
+   "en": "Tanuki"
   },
   {
    "id": "DMAP03_92:035",
    "jp": "ラッコ",
-   "en": ""
+   "en": "Ibis"
   },
   {
    "id": "DMAP03_92:036",
    "jp": "{col2}？？？{col0}",
-   "en": ""
+   "en": "{col2}???{col0}"
   },
   {
    "id": "DMAP03_92:037",
    "jp": "「酒呑童子様の{n} ごめいれいにより」{n}{wait}{n}「お前たちに{n} 次の 謎を 出す！」{n}{wait}{n}「次の 謎は 問題を 聞いて {n} ゆかの パネルから 答を{n} えらぶのだ！」{wait}{n}「これから 一問ずつ 全部で{n} 5つの 問題を 出す！」{n}{wait}{n}「すべて 間違えずに 答えたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}{n}「問題は 一度しか{n} いわないからな！{n} よく 聞けよ！」{wait}",
-   "en": ""
+   "en": "\"By order of Shuten-doji-sama,\"{wait}\"I shall give you the next riddle!\"{wait}\"The next riddle: listen to each question and choose the answer from the panels on the floor!\"{wait}\"I'll ask 5 questions in all, one at a time!\"{wait}\"Answer them all without a single mistake, and the stairs to the next floor will appear!\"{wait}\"I'll only say each question once! So listen carefully!\"{wait}"
   },
   {
    "id": "DMAP03_92:038",
    "jp": "「さあ 正解だと思うパネルの{n} 真ん中に 立つのだ！」{n}{wait}{n}「答が 合っていたら{n} 次の問題を 聞きにこい！」{n}{wait}",
-   "en": ""
+   "en": "\"Now, stand in the middle of the panel you think is right!\"{wait}\"If your answer is correct, come and hear the next question!\"{wait}"
   },
   {
    "id": "DMAP03_92:039",
    "jp": "「さあ 正解だと思うパネルの{n} 真ん中に 立つのだ！」{n}{wait}{n}「答が 合っていたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}",
-   "en": ""
+   "en": "\"Now, stand in the middle of the panel you think is right!\"{wait}\"If your answer is correct, the stairs to the next floor will appear!\"{wait}"
   },
   {
    "id": "DMAP03_92:040",
    "jp": "「問題は 一度しか{n} いわないと いっただろ！」{n}{wait}",
-   "en": ""
+   "en": "\"I told you I'd only say each question once!\"{wait}"
   },
   {
    "id": "DMAP03_92:041",
    "jp": "「これから 一問ずつ 全部で{n} 5つの 問題を 出す！」{n}{wait}{n}「すべて 間違えずに 答えたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}{n}「問題は 一度しか{n} いわないからな！{n} よく 聞けよ！」{wait}",
-   "en": ""
+   "en": "\"I'll ask 5 questions in all, one at a time!\"{wait}\"Answer them all without a single mistake, and the stairs to the next floor will appear!\"{wait}\"I'll only say each question once! So listen carefully!\"{wait}"
   },
   {
    "id": "DMAP03_92:042",
    "jp": "「まちがえたな 桃太郎！」{n}{n}{wait}{n}「ここを{n} 通すわけには いかん！」{n}{wait}",
-   "en": ""
+   "en": "\"Wrong, Momotaro!\"{wait}\"I can't let you pass!\"{wait}"
   },
   {
    "id": "DMAP03_92:043",
    "jp": "「なかなか やるな！{n} だが 先の 階に{n} 進んでも むだだ！」{wait}{n}「お前ごときでは{n} 酒呑童子様には{n} とうてい かなうまい！」{wait}",
-   "en": ""
+   "en": "\"Not bad at all! But going on to the next floors is useless!\"{wait}\"The likes of you could never hope to match Shuten-doji-sama!\"{wait}"
   },
   {
    "id": "DMAP03_92:044",
    "jp": "「1つめの 問題だ！{n} 太陽が のぼるのは{n} どの方角だ？」{wait}",
-   "en": ""
+   "en": "\"Question 1! In which direction does the sun rise?\"{wait}"
   },
   {
    "id": "DMAP03_92:045",
    "jp": "「2つめの 問題だ！{n} 逃げる 負ける という{n} 意味を持つ方角は？」{wait}",
-   "en": ""
+   "en": "\"Question 2! In which direction does a compass needle point?\"{wait}"
   },
   {
    "id": "DMAP03_92:046",
    "jp": "「3つめの 問題だ！{n} おおくま座の ？斗七星{n} ？に入る方角は？」{wait}",
-   "en": ""
+   "en": "\"Question 3! Santa Claus lives at the ? Pole. Which direction goes in the ?\"{wait}"
   },
   {
    "id": "DMAP03_92:047",
    "jp": "「4つめの 問題だ！{n} カボチャを漢字で書くと ？瓜{n} ？に入る方角は？」{wait}",
-   "en": ""
+   "en": "\"Question 4! When things go wrong, we say they 'went ?'. Which direction goes in the ?\"{wait}"
   },
   {
    "id": "DMAP03_92:048",
    "jp": "「これが最後の 問題だ！{n} 2つめの問題の 答は{n} どれだったかな？」{wait}",
-   "en": ""
+   "en": "\"This is the last question! What was the answer to question 2 again?\"{wait}"
   },
   {
    "id": "DMAP03_92:049",
    "jp": "「酒呑童子様の{n} ごめいれいにより」{n}{wait}{n}「お前たちに{n} 次の 謎を 出す！」{n}{wait}{n}「次の 謎は{n} パネルを 動かして{n} 階段への 道を 作るのだ！」{wait}{n}「この パネルは{n} ジャンケンの 手の{n} かたちに なっている！」{wait}",
-   "en": ""
+   "en": "\"By order of Shuten-doji-sama,\"{wait}\"I shall give you the next riddle!\"{wait}\"The next riddle: move the panels to make a path to the stairs!\"{wait}\"These panels are shaped like rock-paper-scissors hands!\"{wait}"
   },
   {
    "id": "DMAP03_92:050",
    "jp": "「たとえば{n} グー のパネルは」{n}{wait}{n}「チョキ のパネルに{n} 重ねることが できる！」{n}{wait}{n}「こうして{n} パネルを 動かして」{n}{wait}{n}「階段まで たどりつけば{n} 次の 階へ いけるのだ！」{n}{wait}{n}「とちゅうで やりなおすときは{n} 一度 上の階に 戻ればよい！{n} わかったな！」{wait}",
-   "en": ""
+   "en": "\"For example, a Rock panel\"{wait}\"can be stacked on top of a Scissors panel!\"{wait}\"Move the panels like that,\"{wait}\"and once you reach the stairs, you can go on to the next floor!\"{wait}\"If you want to start over partway, just go back up to the floor above! Got it?\"{wait}"
   },
   {
    "id": "DMAP03_92:051",
    "jp": "「この パネルは{n} ジャンケンの 手の{n} かたちに なっている！」{wait}{n}「たとえば{n} グー のパネルは」{n}{wait}{n}「チョキ のパネルに{n} 重ねることが できる！」{n}{wait}{n}「こうして{n} パネルを 動かして」{n}{wait}{n}「階段まで たどりつけば{n} 次の 階へ いけるのだ！」{n}{wait}{n}「とちゅうで やりなおすときは{n} 一度 上の階に 戻ればよい！{n} わかったな！」{wait}",
-   "en": ""
+   "en": "\"These panels are shaped like rock-paper-scissors hands!\"{wait}\"For example, a Rock panel\"{wait}\"can be stacked on top of a Scissors panel!\"{wait}\"Move the panels like that,\"{wait}\"and once you reach the stairs, you can go on to the next floor!\"{wait}\"If you want to start over partway, just go back up to the floor above! Got it?\"{wait}"
   },
   {
    "id": "DMAP03_92:052",
    "jp": "「なかなか やるな！{n} だが 先の 階に{n} 進んでも むだだ！」{wait}{n}「お前ごときでは{n} 酒呑童子様には{n} とうてい かなうまい！」{wait}",
-   "en": ""
+   "en": "\"Not bad at all! But going on to the next floors is useless!\"{wait}\"The likes of you could never hope to match Shuten-doji-sama!\"{wait}"
   },
   {
    "id": "DMAP03_92:053",
    "jp": "「酒呑童子様の{n} ごめいれいにより」{n}{wait}{n}「お前たちに{n} 次の 謎を 出す！」{n}{wait}{n}「次の 謎は{n} ゆかの パネルを」{n}{wait}{n}「これから いう{n} 暗号の じゅんばんどおりに{n} 踏むのだ！」{wait}{n}「では 暗号を いうぞ！{n} よく 聞けよ！」{n}{wait}",
-   "en": ""
+   "en": "\"By order of Shuten-doji-sama,\"{wait}\"I shall give you the next riddle!\"{wait}\"The next riddle: step on the floor panels\"{wait}\"in the order of the code I'm about to tell you!\"{wait}\"Now, here's the code! Listen carefully!\"{wait}"
   },
   {
    "id": "DMAP03_92:054",
    "jp": "さいらお{n}あああお{n}{wait}{n}かいあいらお{n}ああかあ{n}{wait}{n}「さあ！{n} パネルを 踏むがいい！」{n}{wait}{n}「答が 合っていたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}",
-   "en": ""
+   "en": "XIJUF{n}CMVF{wait}ZFMMPX{n}SFE{wait}\"Now! Step on the panels!\"{wait}\"If your answer is correct, the stairs to the next floor will appear!\"{wait}"
   },
   {
    "id": "DMAP03_92:055",
    "jp": "「では 暗号を いうぞ！{n} よく 聞けよ！」{n}{wait}{n}さいらお{n}あああお{n}{wait}{n}かいあいらお{n}ああかあ{n}{wait}{n}「さあ！{n} パネルを 踏むがいい！」{n}{wait}{n}「答が 合っていたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}",
-   "en": ""
+   "en": "\"Now, here's the code! Listen carefully!\"{wait}XIJUF{n}CMVF{wait}ZFMMPX{n}SFE{wait}\"Now! Step on the panels!\"{wait}\"If your answer is correct, the stairs to the next floor will appear!\"{wait}"
   },
   {
    "id": "DMAP03_92:056",
    "jp": "「なかなか やるな！{n} だが 先の 階に{n} 進んでも むだだ！」{wait}{n}「お前ごときでは{n} 酒呑童子様には{n} とうてい かなうまい！」{wait}",
-   "en": ""
+   "en": "\"Not bad at all! But going on to the next floors is useless!\"{wait}\"The likes of you could never hope to match Shuten-doji-sama!\"{wait}"
   },
   {
    "id": "DMAP03_92:057",
    "jp": "「酒呑童子様の{n} ごめいれいにより」{n}{wait}{n}「お前たちに{n} 次の 謎を 出す！」{n}{wait}{n}「次の 謎は{n} まちがいさがし だ！」{n}{wait}{n}「この 絵に{n} 見覚えが あるだろう？」{n}{wait}{n}「この 洞窟の 一階に{n} あった 絵だ！」{n}{wait}",
-   "en": ""
+   "en": "\"By order of Shuten-doji-sama,\"{wait}\"I shall give you the next riddle!\"{wait}\"The next riddle is spot the difference!\"{wait}\"You remember this picture, don't you?\"{wait}\"It's the picture from the first floor of this cave!\"{wait}"
   },
   {
    "id": "DMAP03_92:058",
    "jp": "「しかし！{n} この 絵には 一つだけ{n} ちがっている ところが ある！」{wait}{n}「その ちがう パネルの{n} 真ん中に 立つがいい！」{n}{wait}{n}「答が 合っていたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}{n}「ただし！ その他のパネルの{n} 真ん中に 立つと 落とし穴に{n} 落ちてしまうぞ！」{wait}",
-   "en": ""
+   "en": "\"But! Just one part of this picture is different!\"{wait}\"Stand in the middle of the panel that's different!\"{wait}\"If your answer is correct, the stairs to the next floor will appear!\"{wait}\"But beware! Stand in the middle of any other panel, and you'll fall into a pit!\"{wait}"
   },
   {
    "id": "DMAP03_92:059",
    "jp": "「この 絵に{n} 見覚えが あるだろう？」{n}{wait}{n}「この 洞窟の 一階に{n} あった 絵だ！」{n}{wait}{n}「しかし！{n} この 絵には 一つだけ{n} ちがっている ところが ある！」{wait}{n}「その ちがう パネルの{n} 真ん中に 立つがいい！」{n}{wait}{n}「答が 合っていたら{n} 次の 階への 階段が{n} あらわれるのだ！」{wait}{n}「ただし！ その他のパネルの{n} 真ん中に 立つと 落とし穴に{n} 落ちてしまうぞ！」{wait}",
-   "en": ""
+   "en": "\"You remember this picture, don't you?\"{wait}\"It's the picture from the first floor of this cave!\"{wait}\"But! Just one part of this picture is different!\"{wait}\"Stand in the middle of the panel that's different!\"{wait}\"If your answer is correct, the stairs to the next floor will appear!\"{wait}\"But beware! Stand in the middle of any other panel, and you'll fall into a pit!\"{wait}"
   },
   {
    "id": "DMAP03_92:060",
    "jp": "「なかなか やるな！{n} だが 先の 階に{n} 進んでも むだだ！」{wait}{n}「お前ごときでは{n} 酒呑童子様には{n} とうてい かなうまい！」{wait}",
-   "en": ""
+   "en": "\"Not bad at all! But going on to the next floors is useless!\"{wait}\"The likes of you could never hope to match Shuten-doji-sama!\"{wait}"
   },
   {
    "id": "DMAP03_92:061",
    "jp": "「ついに{n} ここまで やってきたか{n} 桃太郎！」{wait}{n}「人間に しておくには{n} おしい 男よ！」{n}{wait}{n}「だが お前の 道は{n} ここまでだ！」{n}{wait}{n}「この 酒呑童子様が{n} お前を たおす！」{n}{wait}",
-   "en": ""
+   "en": "\"So you've finally made it this far, Momotaro!\"{wait}\"Too good a man to waste on being human!\"{wait}\"But your road ends here!\"{wait}\"I, the great Shuten-doji, shall defeat you!\"{wait}"
   },
   {
    "id": "DMAP03_92:062",
    "jp": "「ほほう！{n} また やってきたか！{n} 桃太郎！」{wait}{n}「一度 負けた 相手に{n} 戦いを いどむ！{n} その 勇気は みとめよう！」{wait}{n}「だが お前が{n} オレに 勝つことは{n} ありえんのだ！ くらえ！」{wait}",
-   "en": ""
+   "en": "\"Well, well! Back again, Momotaro!\"{wait}\"Challenging a foe who already beat you once! I'll grant you that courage!\"{wait}\"But there's no way you can ever beat me! Take this!\"{wait}"
   },
   {
    "id": "DMAP03_92:063",
    "jp": "「ばかな… 信じられん！」{n}{n}{wait}{n}「お前の… その力は…」{n}{n}{wait}{n}「…それに このような{n} すがすがしい 戦いは{n} はじめてだ！」{wait}{n}「勇気？{n} これが 勇気の{n} 力だと いうのか？」{wait}{n}「桃太郎！」{n}{n}{wait}{n}「オレは これまで{n} めいれいされる ままに{n} えんま様のため 戦ってきた」{wait}{n}「こわいものしらずに{n} 戦うことを 勇気だと{n} 考えていた！」{wait}",
-   "en": ""
+   "en": "\"Impossible... I can't believe it!\"{wait}\"Your... that power of yours...\"{wait}\"...And I've never had such a refreshing fight before!\"{wait}\"Courage? You're saying this is the power of courage?\"{wait}\"Momotaro!\"{wait}\"Until now, I've fought for Enma-sama, just doing as I was ordered.\"{wait}\"I thought fighting without fear was what courage meant!\"{wait}"
   },
   {
    "id": "DMAP03_92:064",
    "jp": "「しかし…{n} その鬼の 勇気は{n} 本物の 勇気では ないのだな？」{wait}{n}「桃太郎！」{n}{n}{wait}{n}「お前の 持つ{n} 本物の 勇気が」{n}{wait}{n}「われら 鬼の 目を{n} 覚まして くれそうだ！」{n}{wait}{n}「いくがいい！ 桃太郎よ！」{n}{n}{wait}{n}「そして お前の 勇気を{n} 世界中の 鬼に{n} みせてやれ！」{wait}",
-   "en": ""
+   "en": "\"But... the courage of us oni isn't real courage, is it?\"{wait}\"Momotaro!\"{wait}\"The real courage that you have\"{wait}\"might just open the eyes of us oni!\"{wait}\"Go on, Momotaro!\"{wait}\"And show your courage to every oni in the world!\"{wait}"
   },
   {
    "id": "DMAP03_92:065",
    "jp": "{c19}ゴク{c28} {c19}ゴク{c28} {c19}ゴクッ！{n}桃太郎は 泉の水を 飲んだ！{wait}",
-   "en": ""
+   "en": "{c19}Gulp{c28} {c19}gulp{c28} {c19}gulp! Momotaro drank the spring water!{wait}"
   },
   {
    "id": "DMAP03_92:066",
    "jp": "{str} の技と 体力は 全回復した！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} recovered all SP and HP!{wait}"
   }
  ]
 }

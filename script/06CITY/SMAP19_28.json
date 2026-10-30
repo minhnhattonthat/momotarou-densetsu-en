@@ -8,17 +8,17 @@
   {
    "id": "SMAP19_28:000",
    "jp": "「この木が じゃまで{n} とおれねんだな？」{n}{wait}{n}「よーっし！{n} オラが いっぱつ{n} 道を あけてやらあ！」{wait}",
-   "en": ""
+   "en": "\"This tree's blockin' the way, huh?\"{wait}\"All right! I'll clear the road in one go!\"{wait}"
   },
   {
    "id": "SMAP19_28:001",
    "jp": "「うりゃうりゃうりゃうりゃ！」{n}{n}",
-   "en": ""
+   "en": "\"Hyah hyah hyah hyah!\""
   },
   {
    "id": "SMAP19_28:002",
    "jp": "「どっせーーーーい！」{n}{n}{wait}{n}「さあ！ 先に{n} 進もうぜ！」{n}{wait}",
-   "en": ""
+   "en": "\"Heave-hooooo!\"{wait}\"Come on! Let's get movin'!\"{wait}"
   }
  ]
 }

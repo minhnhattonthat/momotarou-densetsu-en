@@ -8,77 +8,77 @@
   {
    "id": "YUMI1_11:000",
    "jp": "「この矢を あの的に{n} 当てるのぢゃ！」{n}{wait}{n}「じゃが この吹雪では{n} そうそう 当たるものではないぞ」{n}{wait}{n}「風は 気まぐれぢゃ…{n} 強く 吹くときも あれば{n} やむときも ある…」{wait}{n}「よいか 桃太郎！{n} 自然の流れを 心で感じて{n} 矢を 放つのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Hit that target with this arrow!\"{wait}\"But in this blizzard, hitting it will be no easy feat.\"{wait}\"The wind is fickle... Sometimes it blows hard, and sometimes it stops...\"{wait}\"Listen well, Momotaro! Feel the flow of nature with your heart, and loose the arrow!\"{wait}"
   },
   {
    "id": "YUMI1_11:001",
    "jp": "「桃太郎さん！{n} 鬼のまと当ては はじめてかい？」{n}",
-   "en": ""
+   "en": "\"Momotaro-san! First time at Oni Target Practice?\""
   },
   {
    "id": "YUMI1_11:002",
    "jp": "「よし！ じゃあ{n} 説明 するよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Okay! Then I'll explain!\"{wait}"
   },
   {
    "id": "YUMI1_11:003",
    "jp": "「この ゲームは 一定の時間内に{n} 鬼のまとに 矢を 当てて{n} 点数を 競うものなのさ！」{wait}{n}「方向キーの左右で 桃太郎さんが{n} 左右に動き ○ボタンで{n} 矢を はなつことが できるよ！」{wait}",
-   "en": ""
+   "en": "\"In this game, you hit oni targets with arrows within a time limit, and compete for points!\"{wait}\"Left and right on the directional buttons move you left and right, Momotaro-san, and the Circle button shoots an arrow!\"{wait}"
   },
   {
    "id": "YUMI1_11:004",
    "jp": "「また 矢を はなつときに{n} ○ボタンを 押し続けると{n} 矢の早さが かわるんだぜ！」{wait}{n}「それから 鬼のまとを 逃がしたり{n} 村人や 地蔵のまとに 矢を{n} 命中させると 失敗となるぞ！」{wait}",
-   "en": ""
+   "en": "\"Also, if you hold down the Circle button when you shoot, the arrow's speed changes!\"{wait}\"And if you let an oni target get away, or hit a villager or Jizo target, that counts as a miss!\"{wait}"
   },
   {
    "id": "YUMI1_11:005",
    "jp": "「そうそう！ 地蔵のまとに 矢を{n} 当てると 失敗が いっきに{n} 3回になるから 注意しろよ！」{wait}{n}「失敗を5回するか 時間切れで{n} ゲーム終了と なるからね！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh yeah! Hitting a Jizo target counts as 3 misses all at once, so be careful!\"{wait}\"The game ends when you miss 5 times, or when time runs out!\"{wait}"
   },
   {
    "id": "YUMI1_11:006",
    "jp": "「これで 説明は 終わりだけど{n} わかってもらえたかい？」{n}",
-   "en": ""
+   "en": "\"That's the end of the explanation, but did you get all that?\""
   },
   {
    "id": "YUMI1_11:007",
    "jp": "「おっし！{n} なんどでも 教えてやるよ！」{n}{wait}",
-   "en": ""
+   "en": "\"All right! I'll teach you as many times as it takes!\"{wait}"
   },
   {
    "id": "YUMI1_11:008",
    "jp": "「よし！ 弓矢は かまえたかい？{n} じゃあ まと当て はじめるよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Okay! Got your bow and arrow ready? Then let's start the target practice!\"{wait}"
   },
   {
    "id": "YUMI1_11:009",
    "jp": "「…う～ん！{n} 桃太郎さん！ 今日は たまたま{n} 調子が わるかった だけだよ！」{wait}{n}「これを あげるから{n} 元気を だすんだぜ！」{n}{wait}",
-   "en": ""
+   "en": "\"...Hmmm! Momotaro-san! You were just a little off today, that's all!\"{wait}\"Take this and cheer up!\"{wait}"
   },
   {
    "id": "YUMI1_11:010",
    "jp": "「ん～！{n} まあまあって とこかな！{n} 景品は これだよ！」{wait}",
-   "en": ""
+   "en": "\"Hmmm! So-so, I'd say! Here's your prize!\"{wait}"
   },
   {
    "id": "YUMI1_11:011",
    "jp": "「おっ！ かなりの うでまえだね！{n} 見ていて 気持ちが よかったよ！{n} さあ これを うけとってくれ！」{wait}",
-   "en": ""
+   "en": "\"Oh! You're pretty good! That was a pleasure to watch! Here, take this!\"{wait}"
   },
   {
    "id": "YUMI1_11:012",
    "jp": "「おしい！ おしい！ おしい！{n} って！ おもわず{n} 3回も さけんじゃったよ！」{wait}{n}「とにかく おしいよ 桃太郎さん！{n} よし！ これで 体力をつけて{n} また ちょうせんしてくれよ！」{wait}",
-   "en": ""
+   "en": "\"So close! So close! So close! Whoops! I shouted it 3 times without thinking!\"{wait}\"Anyway, so close, Momotaro-san! Okay! Build your HP up with this and try again!\"{wait}"
   },
   {
    "id": "YUMI1_11:013",
    "jp": "「す…すごい！{n} …………桃太郎さん！{n} オレを 弟子にしてくれ！！」{wait}{n}「って いうのは じょうだんだけど{n} 桃太郎さんの{n} うでまえは 本物だねえ！」{wait}{n}「おっし！ そんな すごうでの{n} 桃太郎さんに ふさわしい{n} これを うけとってくれよ！」{wait}",
-   "en": ""
+   "en": "\"A-amazing! ............Momotaro-san! Make me your apprentice!!\"{wait}\"Just kidding, but your skills are the real deal, Momotaro-san!\"{wait}\"All right! Here's something worthy of a crack shot like you, Momotaro-san! Take it!\"{wait}"
   },
   {
    "id": "YUMI1_11:014",
    "jp": "桃太郎は{n}{col4}{str}{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}{str}{col0}!{c19}{wait}"
   }
  ]
 }

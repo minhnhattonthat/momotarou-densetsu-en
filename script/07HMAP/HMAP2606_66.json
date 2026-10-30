@@ -8,1342 +8,1342 @@
   {
    "id": "HMAP2606_66:000",
    "jp": "「ボクは ウサ丸って いうピョン！{n} 今日も おねえさんと いっしょに{n} ことばの 勉強をするピョン！」{wait}",
-   "en": ""
+   "en": "\"I'm Usamaru, hop! Today I'm studying words with Big Sis again, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:001",
    "jp": "「あっちこっち いかないと{n} 文字が つながらないピョン！」{n}{wait}{n}「でも ことばが わかれば{n} ぜんぶの文字を 探さなくても{n} いいピョン！」{wait}{n}「文字を もってるひとが{n} どこにいるのか 探すのが{n} けっこう もえるピョン！」{wait}",
-   "en": ""
+   "en": "\"If you don't go here and there, the letters won't connect, hop!\"{wait}\"But if you know the word, you don't have to find every letter, hop!\"{wait}\"Hunting for where the people with letters are is pretty exciting, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:002",
    "jp": "「ボクも ボクも{n} はりきっちゃう ピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Me too, me too! I'm all fired up, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:003",
    "jp": "「ボクも ボクも{n} びっくりピョン！{n} すごいピョン！」{wait}",
-   "en": ""
+   "en": "\"Me too, me too! What a surprise, hop! Amazing, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:004",
    "jp": "「つづいては お待ちかねの{n} ごほうび タ～イムだピョン！！{n} おねえさん よろしくだピョン！」{wait}",
-   "en": ""
+   "en": "\"And next, the moment you've been waiting for: reward tiiime, hop!! Over to you, Big Sis, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:005",
    "jp": "「ボクも ボクも{n} いつでも まっているピョン！{n} じゃあ バイバイピョ～ン！」{wait}",
-   "en": ""
+   "en": "\"Me too, me too! I'll always be waiting, hop! Well, bye-bye, hooop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:006",
    "jp": "「…元気だすピョン 桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"...Cheer up, Momotaro-san, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:007",
    "jp": "「ボクも ボクも{n} いっしょに 説明するピョン！{n} がんばるピョン！」{wait}",
-   "en": ""
+   "en": "\"Me too, me too! I'll explain along with you, hop! I'll do my best, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:008",
    "jp": "「ボクも ボクも{n} メモなんかを とるのを{n} すすめるピョン！」{wait}",
-   "en": ""
+   "en": "\"Me too, me too! I recommend taking notes and stuff, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:009",
    "jp": "「ボクも ボクも{n} ごほうび ほしいピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Me too, me too! I want a reward, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:010",
    "jp": "「ガピョ～ン！！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ga-hooop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:011",
    "jp": "「こんにちわ～！ ここは{n} 楽しみながら ことばが 学べる{n} ことばの 迷路ですよ～！」{wait}",
-   "en": ""
+   "en": "\"Hellooo! This is the Word Maze, where you can learn words while having fun!\"{wait}"
   },
   {
    "id": "HMAP2606_66:012",
    "jp": "「剣技を みがくのも 大事だけど{n} ことばから 学ぶものも{n} た～っくさん あるわよ～！」{wait}",
-   "en": ""
+   "en": "\"Polishing your sword skills is important, but there's sooo much you can learn from words too!\"{wait}"
   },
   {
    "id": "HMAP2606_66:013",
    "jp": "「どうかな～？ 桃太郎さん{n} ちょうせん してみない？」{n}",
-   "en": ""
+   "en": "\"How about it, Momotaro-san? Want to give it a try?\""
   },
   {
    "id": "HMAP2606_66:014",
    "jp": "「よ～し！ おねえさん{n} はりきっちゃうぞ～！」{n}{wait}",
-   "en": ""
+   "en": "\"Allll right! Big Sis is all fired up!\"{wait}"
   },
   {
    "id": "HMAP2606_66:015",
    "jp": "「じゃあ！ ヒントとして{n} 今回の 文字数を 教えるよ！{n} 今回の 文字数は {num}文字だよ！」{wait}",
-   "en": ""
+   "en": "\"Okay! As a hint, I'll tell you how many letters there are this time! This time the word has {num} letters!\"{wait}"
   },
   {
    "id": "HMAP2606_66:016",
    "jp": "「それじゃあ わかったら{n} わたしに はなしかけてね！」{n}{wait}",
-   "en": ""
+   "en": "\"So once you've figured it out, come and talk to me!\"{wait}"
   },
   {
    "id": "HMAP2606_66:017",
    "jp": "「途中で やめたく なったら{n} 階段や エレベーター なんかで{n} 階を変えると すぐに終わるよ！」{wait}",
-   "en": ""
+   "en": "\"If you want to quit partway, just change floors by the stairs or the elevator and it ends right away!\"{wait}"
   },
   {
    "id": "HMAP2606_66:018",
    "jp": "「よ～し！ おねえさん がんばって{n} ルールの説明を しちゃうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Allll right! Big Sis will do her best to explain the rules!\"{wait}"
   },
   {
    "id": "HMAP2606_66:019",
    "jp": "「まずは この 迷路に いる{n} 人達から 1文字ずつ 文字を{n} 聞いて まわるのよ」{wait}",
-   "en": ""
+   "en": "\"First, go around and ask the people in this maze for one letter each.\"{wait}"
   },
   {
    "id": "HMAP2606_66:020",
    "jp": "「そして その 文字から できる{n} ことばを 当ててね！」{n}{wait}",
-   "en": ""
+   "en": "\"Then guess the word those letters make!\"{wait}"
   },
   {
    "id": "HMAP2606_66:021",
    "jp": "「そして どんな ことばが{n} できるのか わかったら わたしに{n} 話しかけて 教えてね！」{wait}",
-   "en": ""
+   "en": "\"And once you've figured out what word they make, come talk to me and tell me!\"{wait}"
   },
   {
    "id": "HMAP2606_66:022",
    "jp": "「もし その ことばが 正解なら{n} そこまで かかった時間によって{n} ごほうびを あげちゃうね！」{wait}",
-   "en": ""
+   "en": "\"If the word is right, I'll give you a reward based on how long it took you to get there!\"{wait}"
   },
   {
    "id": "HMAP2606_66:023",
    "jp": "「ウサ丸クン{n} …かんけいしゃは だめなのよ{n} ごほうびは もらえないの…」{wait}",
-   "en": ""
+   "en": "\"Usamaru-kun... Staff members aren't allowed... You can't get a reward...\"{wait}"
   },
   {
    "id": "HMAP2606_66:024",
    "jp": "「はい 説明は これでおしまい！{n} わかって くれたかな？」{n}{wait}",
-   "en": ""
+   "en": "\"Okay, that's the end of the explanation! Did you get all that?\"{wait}"
   },
   {
    "id": "HMAP2606_66:025",
    "jp": "「まあ！ どんな ことばか{n} わかったのね！{n} じゃあ おねえさんに 教えて！」{wait}",
-   "en": ""
+   "en": "\"Oh! You figured out the word! Then tell Big Sis!\"{wait}"
   },
   {
    "id": "HMAP2606_66:026",
    "jp": "「ことばは{n} 『{str}』{n} で いいのかな？」",
-   "en": ""
+   "en": "\"So the word is '{str}', right?\""
   },
   {
    "id": "HMAP2606_66:027",
    "jp": "「まちがいは 誰にでも あるよね！{n} めげずに また教えてね！」{n}{wait}",
-   "en": ""
+   "en": "\"Everybody makes mistakes! Don't give up, and tell me again!\"{wait}"
   },
   {
    "id": "HMAP2606_66:028",
    "jp": "「…………………………………………{n} …………………………………………」{n}{wait}",
-   "en": ""
+   "en": "\"................................................................................\"{wait}"
   },
   {
    "id": "HMAP2606_66:029",
    "jp": "{c19}「すご～い 正解よ！！」{n}{n}{wait}",
-   "en": ""
+   "en": "{c19}\"Amaaazing, that's right!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:030",
    "jp": "「この ことばは 漢字にすると{n} 『{str}』{n} となるのよ！ そして 意味は」{wait}",
-   "en": ""
+   "en": "\"Written out in full, the saying is '{str}'! And what it means is...\"{wait}"
   },
   {
    "id": "HMAP2606_66:031",
    "jp": "「おまかせ！ え～っとね まずは…{n} ことばが できるまでの時間が{n} {num}分 {num}秒 ということは…」{wait}",
-   "en": ""
+   "en": "\"Leave it to me! Let's see... First of all, the time it took you to make the word was... minutes: {num}, seconds: {num}. So...\"{wait}"
   },
   {
    "id": "HMAP2606_66:032",
    "jp": "「わあ！ すごい！ すごい！{n} とっても 早く答えられたのね！{n} おねえさん とても うれしい！」{wait}",
-   "en": ""
+   "en": "\"Wow! Amazing! Amazing! You answered super fast! Big Sis is so happy!\"{wait}"
   },
   {
    "id": "HMAP2606_66:033",
    "jp": "「とても がんばった 桃太郎さんに{n} とても ステキな ごほうびよ！{n} さあ 両手を前に 出してね！」{wait}",
-   "en": ""
+   "en": "\"For Momotaro-san, who tried so very hard, a very lovely reward! Now, hold out both hands!\"{wait}"
   },
   {
    "id": "HMAP2606_66:034",
    "jp": "桃太郎は{n}{col4}ユキのきびだんご{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Snow Millet Dumpling{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP2606_66:035",
    "jp": "「まあ！ よく がんばったわね！{n} そんな がんばりやさんな{n} 桃太郎さんに この ごほうび！」{wait}",
-   "en": ""
+   "en": "\"My! You did really well! For hard-working Momotaro-san, this reward!\"{wait}"
   },
   {
    "id": "HMAP2606_66:036",
    "jp": "桃太郎は{n}{col4}仙人の桃{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Hermit's Peach{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP2606_66:037",
    "jp": "「う～ん！ ちょっと おそいかな…{n} でも このくやしさを{n} バネに 次は がんばってね！」{wait}",
-   "en": ""
+   "en": "\"Hmmm! A little slow, maybe... But use that frustration as a springboard and do better next time!\"{wait}"
   },
   {
    "id": "HMAP2606_66:038",
    "jp": "「えっと かかった 時間が{n} 1時間以上！ だから …はにゃ？{n}{c19} それは おそすぎるわよ～」{wait}{n}「でも！ それだけ 時間を かけた{n} 根性に おねえさん おどろき！{n} 特別ごほうびよ 大事にしてね！」{wait}",
-   "en": ""
+   "en": "\"Let's see, the time it took was over 1 hour! So... Huh? {c19}That's waaay too slow!\"{wait}\"But! Big Sis is amazed at the guts it took to stick at it that long! It's a special reward, so take good care of it!\"{wait}"
   },
   {
    "id": "HMAP2606_66:039",
    "jp": "桃太郎は{n}{col4}根性の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}Guts Orb{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP2606_66:040",
    "jp": "「また いつでも 遊びに来てね！{n} おねえさんは まっているからね！{n} じゃあ またね～！」{wait}",
-   "en": ""
+   "en": "\"Come and play again anytime! Big Sis will be waiting! Well, see you laaater!\"{wait}"
   },
   {
    "id": "HMAP2606_66:041",
    "jp": "{c19}「グッスン！ まちがいなの…」{n}{n}{wait}{n}「でもでも これに めげずに{n} また 遊びにきてね！ 約朿よ！{n} じゃあ またね～！」{wait}",
-   "en": ""
+   "en": "{c19}\"Sniff! That's wrong...\"{wait}\"But don't let it get you down, and come play again! Promise! Well, see you laaater!\"{wait}"
   },
   {
    "id": "HMAP2606_66:042",
    "jp": "「桃太郎さん！{n} わたしの 知っている 文字は{n} {num}文字目の {str} ですよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The letter I know is letter No. {num}: {str}!\"{wait}"
   },
   {
    "id": "HMAP2606_66:043",
    "jp": "「桃太郎さん！{n} わたしは 知っている 文字が{n} ないんです ごめんなさい！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I don't know any letters. I'm sorry!\"{wait}"
   },
   {
    "id": "HMAP2606_66:044",
    "jp": "「はしらの ところにいる{n} おねーさんに{n} 話しかけて くださいね！」{wait}",
-   "en": ""
+   "en": "\"Please talk to the big sister by the pillar!\"{wait}"
   },
   {
    "id": "HMAP2606_66:045",
    "jp": "挨拶より円札",
-   "en": ""
+   "en": "Better cash than courtesy"
   },
   {
    "id": "HMAP2606_66:046",
    "jp": "小豆の豆腐",
-   "en": ""
+   "en": "Tofu from red beans"
   },
   {
    "id": "HMAP2606_66:047",
    "jp": "始めが大事",
-   "en": ""
+   "en": "Well begun is half done"
   },
   {
    "id": "HMAP2606_66:048",
    "jp": "雨垂れは三途の川",
-   "en": ""
+   "en": "Past the eaves lies the River of Death"
   },
   {
    "id": "HMAP2606_66:049",
    "jp": "上には上がある",
-   "en": ""
+   "en": "There's always a bigger fish"
   },
   {
    "id": "HMAP2606_66:050",
    "jp": "石の上にも三年",
-   "en": ""
+   "en": "Three years on a cold stone"
   },
   {
    "id": "HMAP2606_66:051",
    "jp": "兎に祭文",
-   "en": ""
+   "en": "Preaching to a rabbit"
   },
   {
    "id": "HMAP2606_66:052",
    "jp": "禍福は糾える縄の如し",
-   "en": ""
+   "en": "Fortune and misfortune twist like a rope"
   },
   {
    "id": "HMAP2606_66:053",
    "jp": "貧乏暇なし",
-   "en": ""
+   "en": "No rest for the poor"
   },
   {
    "id": "HMAP2606_66:054",
    "jp": "思い立ったが吉日",
-   "en": ""
+   "en": "Any day you decide is a lucky day"
   },
   {
    "id": "HMAP2606_66:055",
    "jp": "手塩にかける",
-   "en": ""
+   "en": "Raised with loving care"
   },
   {
    "id": "HMAP2606_66:056",
    "jp": "冬の雪売り",
-   "en": ""
+   "en": "Selling snow in winter"
   },
   {
    "id": "HMAP2606_66:057",
    "jp": "三度目の正直",
-   "en": ""
+   "en": "Third time's the charm"
   },
   {
    "id": "HMAP2606_66:058",
    "jp": "親の心子知らず",
-   "en": ""
+   "en": "Kids never know a parent's heart"
   },
   {
    "id": "HMAP2606_66:059",
    "jp": "知らぬが仏",
-   "en": ""
+   "en": "Ignorance is bliss"
   },
   {
    "id": "HMAP2606_66:060",
    "jp": "果報は寝て待て",
-   "en": ""
+   "en": "Sleep and wait for good luck"
   },
   {
    "id": "HMAP2606_66:061",
    "jp": "目は口ほどに物を言う",
-   "en": ""
+   "en": "The eyes say as much as the mouth"
   },
   {
    "id": "HMAP2606_66:062",
    "jp": "可愛い子には旅をさせよ",
-   "en": ""
+   "en": "Send the child you love on a journey"
   },
   {
    "id": "HMAP2606_66:063",
    "jp": "蛙の子は蛙",
-   "en": ""
+   "en": "Like father, like son"
   },
   {
    "id": "HMAP2606_66:064",
    "jp": "言わぬが花",
-   "en": ""
+   "en": "Better left unsaid"
   },
   {
    "id": "HMAP2606_66:065",
    "jp": "毒を食らわば皿まで",
-   "en": ""
+   "en": "In for a penny, in for a pound"
   },
   {
    "id": "HMAP2606_66:066",
    "jp": "鬼の目にも涙",
-   "en": ""
+   "en": "Even an oni can cry"
   },
   {
    "id": "HMAP2606_66:067",
    "jp": "嘘つきは泥棒の始まり",
-   "en": ""
+   "en": "A liar is a thief in the making"
   },
   {
    "id": "HMAP2606_66:068",
    "jp": "苦あれば楽あり",
-   "en": ""
+   "en": "After pain comes pleasure"
   },
   {
    "id": "HMAP2606_66:069",
    "jp": "高嶺の花",
-   "en": ""
+   "en": "A flower on a high peak"
   },
   {
    "id": "HMAP2606_66:070",
    "jp": "寝耳に水",
-   "en": ""
+   "en": "A bolt from the blue"
   },
   {
    "id": "HMAP2606_66:071",
    "jp": "立つ鳥後を濁さず",
-   "en": ""
+   "en": "A departing bird leaves the water clear"
   },
   {
    "id": "HMAP2606_66:072",
    "jp": "雨降って地固まる",
-   "en": ""
+   "en": "After rain, the ground grows firm"
   },
   {
    "id": "HMAP2606_66:073",
    "jp": "天は二物を与えず",
-   "en": ""
+   "en": "Heaven grants no one two gifts"
   },
   {
    "id": "HMAP2606_66:074",
    "jp": "笑う門には福来る",
-   "en": ""
+   "en": "Luck comes to those who smile"
   },
   {
    "id": "HMAP2606_66:075",
    "jp": "能ある鷹は爪を隠す",
-   "en": ""
+   "en": "The clever hawk hides its claws"
   },
   {
    "id": "HMAP2606_66:076",
    "jp": "転ばぬ先の杖",
-   "en": ""
+   "en": "Better safe than sorry"
   },
   {
    "id": "HMAP2606_66:077",
    "jp": "触らぬ神にたたりなし",
-   "en": ""
+   "en": "Let sleeping dogs lie"
   },
   {
    "id": "HMAP2606_66:078",
    "jp": "塵も積もれば山となる",
-   "en": ""
+   "en": "Even dust piles up into a mountain"
   },
   {
    "id": "HMAP2606_66:079",
    "jp": "石橋を叩いて渡る",
-   "en": ""
+   "en": "Test the stone bridge before you cross"
   },
   {
    "id": "HMAP2606_66:080",
    "jp": "一念岩をも通す",
-   "en": ""
+   "en": "Where there's a will, there's a way"
   },
   {
    "id": "HMAP2606_66:081",
    "jp": "棚から牡丹餅",
-   "en": ""
+   "en": "Pennies from heaven"
   },
   {
    "id": "HMAP2606_66:082",
    "jp": "覆水盆に返らず",
-   "en": ""
+   "en": "No use crying over spilt milk"
   },
   {
    "id": "HMAP2606_66:083",
    "jp": "下手の横好き",
-   "en": ""
+   "en": "All zeal and no skill"
   },
   {
    "id": "HMAP2606_66:084",
    "jp": "弁慶の泣き所",
-   "en": ""
+   "en": "Achilles' heel"
   },
   {
    "id": "HMAP2606_66:085",
    "jp": "骨折り損のくたびれもうけ",
-   "en": ""
+   "en": "All pain and no gain"
   },
   {
    "id": "HMAP2606_66:086",
    "jp": "『口先のお礼だけでは 腹はいっぱいに{n} ならない 実益をともなうのが大切{n} ということ』{wait}",
-   "en": ""
+   "en": "'Words of thanks alone won't fill your belly. What matters is something of real benefit.'{wait}"
   },
   {
    "id": "HMAP2606_66:087",
    "jp": "「う～ん たしかに{n} あいさつだけじゃあ{n} 生きて いけないよね！」{wait}",
-   "en": ""
+   "en": "\"Hmm, it's true. You can't live on greetings alone!\"{wait}"
   },
   {
    "id": "HMAP2606_66:088",
    "jp": "「あいさつ するなら 金をくれ！{n} てへへ ちょっと 古いピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Don't greet me, just give me cash! Hee hee, that one's a bit old, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:089",
    "jp": "『豆腐は 大豆から作るのであり{n} 小豆からは できない{n} あり得ないということ』{wait}",
-   "en": ""
+   "en": "'Tofu is made from soybeans and can't be made from red beans. It means something impossible.'{wait}"
   },
   {
    "id": "HMAP2606_66:090",
    "jp": "「へえ～ そうなんだ～{n} わたしの 大好きな 豆腐って{n} 大豆から できるんだね！」{wait}",
-   "en": ""
+   "en": "\"Ohh, I see! So my favorite food, tofu, is made from soybeans!\"{wait}"
   },
   {
    "id": "HMAP2606_66:091",
    "jp": "「ボクは 大豆を おおまめ{n} 小豆を こまめって{n} 読んじゃったピョン！ てへ！」{wait}",
-   "en": ""
+   "en": "\"I thought red beans were just beans that got embarrassed, hop! Tee-hee!\"{wait}"
   },
   {
    "id": "HMAP2606_66:092",
    "jp": "『何事も 始めが かんじんである{n} 物事に 取り組み 始めるときの{n} 心がまえをいう』{wait}",
-   "en": ""
+   "en": "'Whatever you do, the start is what counts. It's about your attitude when you begin something.'{wait}"
   },
   {
    "id": "HMAP2606_66:093",
    "jp": "「そうピョン！{n} 始めで 失敗しちゃうと{n} もう そこで 終わりピョン！」{wait}",
-   "en": ""
+   "en": "\"That's right, hop! If you fail at the start, it's all over right there, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:094",
    "jp": "「それ 言いすぎよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"That's going too far!\"{wait}"
   },
   {
    "id": "HMAP2606_66:095",
    "jp": "『一歩 家を出れば どんな 危険が{n} 待っているのか わからない{n} ということ』{wait}",
-   "en": ""
+   "en": "'Once you step out of your house, there's no telling what dangers are waiting for you.'{wait}"
   },
   {
    "id": "HMAP2606_66:096",
    "jp": "「桃太郎さん！{n} 村から出ると 危険な事{n} ばかりだから 気を付けてね！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Outside the village it's nothing but danger, so be careful!\"{wait}"
   },
   {
    "id": "HMAP2606_66:097",
    "jp": "「ブルブル こわいピョン！{n} ボクも 気を付けるピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Brrr, scary, hop! I'll be careful too, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:098",
    "jp": "『これが 一番だと 思っても{n} まだ その上が あるということ』{n}{wait}",
-   "en": ""
+   "en": "'Even when you think something is the best, there's still something better.'{wait}"
   },
   {
    "id": "HMAP2606_66:099",
    "jp": "「うえの うえにも うえが あって{n} そのまた うえにも うえが ある…{n} ピョプ～ン こんらんするピョン！」{wait}",
-   "en": ""
+   "en": "\"Bigger than the bigger fish is a bigger fish, and bigger than that is a bigger fish... Hop-whoa, I'm all mixed up, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:100",
    "jp": "「ああ！ ウサ丸クンしっかりして！{n} そんなに むずかしく{n} 考えこんじゃ ダメよ！」{wait}",
-   "en": ""
+   "en": "\"Oh! Usamaru-kun, pull yourself together! Don't think so hard about it!\"{wait}"
   },
   {
    "id": "HMAP2606_66:101",
    "jp": "『つらくても 辛抱することが{n} 大切ということ』{n}{wait}",
-   "en": ""
+   "en": "'Even when things are hard, it's important to endure.'{wait}"
   },
   {
    "id": "HMAP2606_66:102",
    "jp": "「そうよね！ 時にはガマン{n} することも 大事よね！」{n}{wait}",
-   "en": ""
+   "en": "\"That's right! Sometimes you have to grin and bear it!\"{wait}"
   },
   {
    "id": "HMAP2606_66:103",
    "jp": "「でも 石の上に 3年も いたら{n} 足が 痛くなって しまうピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"But if you sat on a stone for 3 years, your legs would hurt, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:104",
    "jp": "『何を言っても いっこうに{n} 耳を かさないこと』{n}{wait}",
-   "en": ""
+   "en": "'Not lending an ear, no matter what anyone says.'{wait}"
   },
   {
    "id": "HMAP2606_66:105",
    "jp": "「ム～ 失礼な ことばだピョン！{n} ボクはちゃんと 耳をかすピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmph, that's a rude saying, hop! I lend my ears properly, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:106",
    "jp": "「まあ！ ウサ丸クンが{n} おこっているわ！{n} めずらしい！」{wait}",
-   "en": ""
+   "en": "\"My! Usamaru-kun is angry! How unusual!\"{wait}"
   },
   {
    "id": "HMAP2606_66:107",
    "jp": "『わざわいと 福とは より合わせた{n} なわのように かわるがわる{n} やってくるということ』{wait}",
-   "en": ""
+   "en": "'Misfortune and fortune take turns, like the strands of a twisted rope.'{wait}"
   },
   {
    "id": "HMAP2606_66:108",
    "jp": "「いいことのあとには 悪いことが{n} 起こるんだね！ ウサ丸クンは{n} 最近 いいこと あったかな？」{wait}",
-   "en": ""
+   "en": "\"So after something good, something bad happens! Usamaru-kun, has anything good happened to you lately?\"{wait}"
   },
   {
    "id": "HMAP2606_66:109",
    "jp": "「ピョ～ン！ ボクは さっき{n} にんじんを 5本食べて{n} 幸せなんだピョン！」{wait}",
-   "en": ""
+   "en": "\"Hooop! A little while ago I ate 5 carrots, so I'm happy, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:110",
    "jp": "「幸せ ピョピョピョ～ン！{n} 幸せ ピョピョピョ…ウッ！{n} お お腹が 痛いぃ…ピョ…ン！」{wait}",
-   "en": ""
+   "en": "\"Happy, hop hop hooop! Happy, hop hop ho... Urk! M-my tummy hurts... ho...p!\"{wait}"
   },
   {
    "id": "HMAP2606_66:111",
    "jp": "「ウウウッ にんじんの{n} 食べすぎ…ピョ…ン」{n}{wait}",
-   "en": ""
+   "en": "\"Ughhh... too many... carrots... ho...p\"{wait}"
   },
   {
    "id": "HMAP2606_66:112",
    "jp": "「い… いいことの後には{n} 本当に 悪いことが{n} お… 起きるピ…ョ…ン！」{wait}",
-   "en": ""
+   "en": "\"A-after something good... something bad really... d-does happen... ho...p!\"{wait}"
   },
   {
    "id": "HMAP2606_66:113",
    "jp": "『貧乏人は{n} 生活に 追われているので{n} 時間のゆとりが ないということ』{wait}",
-   "en": ""
+   "en": "'The poor are so busy getting by that they have no time to spare.'{wait}"
   },
   {
    "id": "HMAP2606_66:114",
    "jp": "「う～ん！ たしかに お金に{n} 困ると 生活が 苦しくなって{n} ヒマなんか ないよね！」{wait}",
-   "en": ""
+   "en": "\"Hmm! It's true, when you're short of money, life gets hard and there's no free time!\"{wait}"
   },
   {
    "id": "HMAP2606_66:115",
    "jp": "「でも ボンビーの村の{n} 貧乏神は の～んびり{n} くらしているピョン！」{wait}",
-   "en": ""
+   "en": "\"But the poverty gods of Bombee Village live a nice, laaazy life, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:116",
    "jp": "「すごいピョン！ すごいピョン！{n} えのっぴドゥ！ だピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Amazing, hop! Amazing, hop! Enoppi-doo, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:117",
    "jp": "『事を 思い立ったら{n} ためらわず すぐに実行するのが{n} よいということ』{wait}",
-   "en": ""
+   "en": "'When you make up your mind to do something, it's best to do it right away without hesitating.'{wait}"
   },
   {
    "id": "HMAP2606_66:118",
    "jp": "「なるほどだピョン！{n} では さっそく ためらわずに{n} にんじんを 食べるピョン！」{wait}",
-   "en": ""
+   "en": "\"I get it, hop! Then right away, without hesitating, I'll eat a carrot, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:119",
    "jp": "「ムシャ ムシャ ムシャ！{n} う～ん おいしいピョン！{n} 今日は 吉日だピョン！」{wait}",
-   "en": ""
+   "en": "\"Munch munch munch! Mmm, yummy, hop! Today's a lucky day, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:120",
    "jp": "「だめだ こりゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"He's hopeless!\"{wait}"
   },
   {
    "id": "HMAP2606_66:121",
    "jp": "『手をかけて やしない 育てる{n} ということ』{n}{wait}",
-   "en": ""
+   "en": "'To raise and nurture something with great care.'{wait}"
   },
   {
    "id": "HMAP2606_66:122",
    "jp": "「ピョ～ン！{n} その気持ち よくわかるピョン！」{n}{wait} {n}「ボクの 子供も{n} 手塩に かけてるピョン！{n} かわいいんだピョン！」{wait}",
-   "en": ""
+   "en": "\"Hooop! I know just how that feels, hop!\"{wait}\"I'm raising my kids with loving care too, hop! They're so cute, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:123",
    "jp": "「…はにゃ？{n} …もしかして ウサ丸クン{n} 結婚しているの？」{wait}",
-   "en": ""
+   "en": "\"...Huh? ...Usamaru-kun, are you married?\"{wait}"
   },
   {
    "id": "HMAP2606_66:124",
    "jp": "「してるピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I am, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:125",
    "jp": "「うひゃ～～～！！！{n} しらなかった～！！！」{n}{wait}",
-   "en": ""
+   "en": "\"Whoaaaaa!!! I had no ideaaa!!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:126",
    "jp": "「わぁ～！ おねえさん{n} おもしろいピョン！{n} ボクも！ ボクも！」{wait}",
-   "en": ""
+   "en": "\"Wow! Big Sis, you're funny, hop! Me too! Me too!\"{wait}"
   },
   {
    "id": "HMAP2606_66:127",
    "jp": "「……………………………………」{n}{n}{wait}",
-   "en": ""
+   "en": "\"............................................\"{wait}"
   },
   {
    "id": "HMAP2606_66:128",
    "jp": "「はっ！ こんなことを{n} している場合じゃないわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! This is no time for this!\"{wait}"
   },
   {
    "id": "HMAP2606_66:129",
    "jp": "「ウサ丸クン！{n} いつもの アレを しないと！」{n}{wait}",
-   "en": ""
+   "en": "\"Usamaru-kun! We have to do our usual thing!\"{wait}"
   },
   {
    "id": "HMAP2606_66:130",
    "jp": "「そうだったピョン！{n} 忘れていたピョン！{n} …コホンだピョン！」{wait}",
-   "en": ""
+   "en": "\"That's right, hop! I forgot, hop! ...Ahem, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:131",
    "jp": "『どこにでも あまっているものを{n} 売っても 買い手がない{n} ということ』{wait}",
-   "en": ""
+   "en": "'Selling something that's plentiful everywhere won't find you any buyers.'{wait}"
   },
   {
    "id": "HMAP2606_66:132",
    "jp": "「たしかに そうよね！{n} おんなじものが いっぱい{n} あったら 買う気なくすよね！」{wait}",
-   "en": ""
+   "en": "\"That's true! If there's loads of the same thing, you don't feel like buying it!\"{wait}"
   },
   {
    "id": "HMAP2606_66:133",
    "jp": "「そんなことは ないピョン！{n} にんじんが いっぱいあっても{n} ボクは 買うピョン！」{wait}",
-   "en": ""
+   "en": "\"That's not true, hop! Even if there were loads of carrots, I'd buy them, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:134",
    "jp": "「…さすが ウサ丸クン！{n} にんじんに たいする {n} じょうねつは ピカイチね！」{wait}",
-   "en": ""
+   "en": "\"...That's Usamaru-kun for you! Your passion for carrots is second to none!\"{wait}"
   },
   {
    "id": "HMAP2606_66:135",
    "jp": "「愛と いってほしいピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Call it love, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:136",
    "jp": "『一回目 二回目は しっぱいしても{n} 三回目には うまくいく{n} ということ』{wait}",
-   "en": ""
+   "en": "'Even if you fail the first and second times, the third time you'll succeed.'{wait}"
   },
   {
    "id": "HMAP2606_66:137",
    "jp": "「つまり 三回目にも フラれたら{n} もう いっしょう モテないって{n} いうことピョン！」{wait}",
-   "en": ""
+   "en": "\"So if you get dumped the third time too, you'll never be popular for the rest of your life, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:138",
    "jp": "「……ウサ丸クン{n} もしかして わたしのこと{n} 言っているのかな？」{wait}",
-   "en": ""
+   "en": "\"......Usamaru-kun, by any chance, are you talking about me?\"{wait}"
   },
   {
    "id": "HMAP2606_66:139",
    "jp": "「お おねえさん{n} かおは 笑っているけど{n} 目が こわいピョン！」{wait}",
-   "en": ""
+   "en": "\"B-Big Sis, your face is smiling, but your eyes are scary, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:140",
    "jp": "『親の あいじょうを しらずに{n} 子どもは 好き勝手に{n} するということ』{wait}",
-   "en": ""
+   "en": "'Children do as they please, never knowing their parents' love.'{wait}"
   },
   {
    "id": "HMAP2606_66:141",
    "jp": "「そうだピョン！{n} わがままは よくないピョン！{n} いけないピョン！ だめピョン！」{wait}",
-   "en": ""
+   "en": "\"That's right, hop! Being selfish is bad, hop! Naughty, hop! No good, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:142",
    "jp": "「あと 今日の お昼ごはんに{n} にんじんが なかったのも{n} いけないピョン！ だめピョン！」{wait}",
-   "en": ""
+   "en": "\"And there being no carrots at lunch today was bad too, hop! No good, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:143",
    "jp": "「……ウサ丸クンも{n} じゅうぶん わがままよ！」{n}{wait}",
-   "en": ""
+   "en": "\"......You're plenty selfish yourself, Usamaru-kun!\"{wait}"
   },
   {
    "id": "HMAP2606_66:144",
    "jp": "『何も 知らなければ 仏様のように{n} おだやかで いられるということ』{n}{wait}",
-   "en": ""
+   "en": "'If you know nothing, you can stay as calm as the Buddha.'{wait}"
   },
   {
    "id": "HMAP2606_66:145",
    "jp": "「そうだピョン！ ボクも{n} 子どものころ おかあさんが{n} おだやかで いられるように…」{wait}",
-   "en": ""
+   "en": "\"That's right, hop! When I was little, so my mom could stay calm...\"{wait}"
   },
   {
    "id": "HMAP2606_66:146",
    "jp": "「0点の 答案なんかを{n} いっぱい かくしていたピョン！{n} ボクって やさしいピョン！」{wait}",
-   "en": ""
+   "en": "\"I hid loads of my zero-point tests, hop! Aren't I kind, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:147",
    "jp": "「よいこの みんなは{n} マネしちゃ ダメだよ！{n} おねえさんとの やくそく！」{wait}",
-   "en": ""
+   "en": "\"All you good kids out there, don't copy him! Promise Big Sis!\"{wait}"
   },
   {
    "id": "HMAP2606_66:148",
    "jp": "『幸運は あせらずに{n} 気ながに 待てということ』{n}{wait}",
-   "en": ""
+   "en": "'Don't rush good fortune. Wait for it patiently.'{wait}"
   },
   {
    "id": "HMAP2606_66:149",
    "jp": "「幸運がくるまで 寝て待つピョン！{n} グウ グウ ムニャ ムニャ…{n} グウ～～～～～～～～～～～～！」{wait}",
-   "en": ""
+   "en": "\"I'll sleep while I wait for good luck, hop! Zzz... mumble mumble... Zzzzzzzzzzzzzzz!\"{wait}"
   },
   {
    "id": "HMAP2606_66:150",
    "jp": "「ウサ丸クンの ばあい{n} ねむりすぎて{n} 幸運を みのがしそう…」{wait}",
-   "en": ""
+   "en": "\"In Usamaru-kun's case, he'll probably oversleep and miss his good luck...\"{wait}"
   },
   {
    "id": "HMAP2606_66:151",
    "jp": "『口に 出さなくても{n} 気持ちが 目にあらわれている{n} ということ』{wait}",
-   "en": ""
+   "en": "'Even if you don't say it, your feelings show in your eyes.'{wait}"
   },
   {
    "id": "HMAP2606_66:152",
    "jp": "「こわいピョン！ ボクが おやつを{n} つまみ食い したことが{n} 目で わかってしまうピョン！」{wait}",
-   "en": ""
+   "en": "\"Scary, hop! They'll see in my eyes that I sneaked a snack, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:153",
    "jp": "「お～い！{n} 目を 見るまえに{n} 自分で しゃべってるよ～！」{wait}",
-   "en": ""
+   "en": "\"Hey! You're telling us yourself before anyone even looks at your eyes!\"{wait}"
   },
   {
    "id": "HMAP2606_66:154",
    "jp": "『子どもが かわいければ{n} 甘やかさずに 苦労を{n} させろ ということ』{wait}",
-   "en": ""
+   "en": "'If you love your child, don't spoil them. Let them face hardship.'{wait}"
   },
   {
    "id": "HMAP2606_66:155",
    "jp": "「どうして かわいいのに{n} わざわざ 苦労させるピョン？」{n}{wait}",
-   "en": ""
+   "en": "\"Why make them suffer on purpose when they're so cute, hop?\"{wait}"
   },
   {
    "id": "HMAP2606_66:156",
    "jp": "「それはね！ たくさん{n} 苦労したほうが やさしくて{n} 強い人に なれるからよ！」{wait}",
-   "en": ""
+   "en": "\"Well! Because going through lots of hardship makes you a kind, strong person!\"{wait}"
   },
   {
    "id": "HMAP2606_66:157",
    "jp": "「桃太郎さん みたいにね！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Like Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP2606_66:158",
    "jp": "「じゃあ ボクも 苦労するピョン！{n} 桃太郎さん なかまに{n} 入れてほしいピョン！」{wait}",
-   "en": ""
+   "en": "\"Then I'll go through hardship too, hop! Momotaro-san, please let me join your friends, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:159",
    "jp": "「だいじょうぶなの？ ウサ丸クン{n} こわ～い こわ～い 鬼たちと{n} たたかえるの？」{wait}",
-   "en": ""
+   "en": "\"Are you sure, Usamaru-kun? Can you fight those scaaary, scaaary oni?\"{wait}"
   },
   {
    "id": "HMAP2606_66:160",
    "jp": "「うっ…… きゅうに{n} おなかが いたくなったピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Urk... My tummy suddenly hurts, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:161",
    "jp": "「あ～～あ だめだこりゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Ohhh, he's hopeless!\"{wait}"
   },
   {
    "id": "HMAP2606_66:162",
    "jp": "『子どもは 親と 同じ生きかたを{n} するということ』{n}{wait}",
-   "en": ""
+   "en": "'Children live the same way their parents did.'{wait}"
   },
   {
    "id": "HMAP2606_66:163",
    "jp": "「ええ～ じゃあ{n} おとうさん みたいに{n} にんじんの 食べすぎで…」{wait}",
-   "en": ""
+   "en": "\"Whaaat? Then like my dad, from eating too many carrots...\"{wait}"
   },
   {
    "id": "HMAP2606_66:164",
    "jp": "「デプ～ンと 太ってしまうピョン！{n} そんなの いやピョン！{n} そんなの いやピョン！」{wait}",
-   "en": ""
+   "en": "\"I'll get big and fat, hop! I don't want that, hop! I don't want that, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:165",
    "jp": "「じゃあ 今日から{n} 食べる にんじんは{n} いつもの 半分に しようか？」{wait}",
-   "en": ""
+   "en": "\"Then starting today, shall we cut the carrots you eat to half the usual?\"{wait}"
   },
   {
    "id": "HMAP2606_66:166",
    "jp": "「太って いいピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Being fat is fine, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:167",
    "jp": "「だ～めだ こりゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"He's hooopeless!\"{wait}"
   },
   {
    "id": "HMAP2606_66:168",
    "jp": "『なにもかも 口に出して{n} 言ってしまわないほうが{n} いい ということ』{wait}",
-   "en": ""
+   "en": "'It's better not to say every last thing out loud.'{wait}"
   },
   {
    "id": "HMAP2606_66:169",
    "jp": "「そうだピョン！{n} だから ボクも おねえさんの{n} 口のまわりに ケチャップが…」{wait}",
-   "en": ""
+   "en": "\"That's right, hop! That's why, ever since this morning, I haven't said a word about the ketchup...\"{wait}"
   },
   {
    "id": "HMAP2606_66:170",
    "jp": "「ついている ことを{n} 朝から ずっと{n} だまってるピョン！」{wait}",
-   "en": ""
+   "en": "\"...that's all around Big Sis's mouth, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:171",
    "jp": "「そういう ことは{n} 言わなくちゃ だめ～～！！」{n}{wait}",
-   "en": ""
+   "en": "\"You have to tell me things like that!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:172",
    "jp": "『とちゅうまで やったからには{n} さいごまで やりぬこう{n} ということ』{wait}",
-   "en": ""
+   "en": "'Once you've started something, see it through to the end.'{wait}"
   },
   {
    "id": "HMAP2606_66:173",
    "jp": "「桃太郎さんの 鬼退治も{n} あきらめずに がんばってね！」{n}{wait}",
-   "en": ""
+   "en": "\"Don't give up on your oni-slaying either, Momotaro-san! Keep it up!\"{wait}"
   },
   {
    "id": "HMAP2606_66:174",
    "jp": "「ボクも おうえんしてるピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm rooting for you too, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:175",
    "jp": "『すごく こわい人 でも{n} なさけが あるということ』{n}{wait}",
-   "en": ""
+   "en": "'Even the scariest person has a soft heart.'{wait}"
   },
   {
    "id": "HMAP2606_66:176",
    "jp": "「ボク このまえ 自分の家で{n} その 鬼の目にも涙を{n} 見たんだピョン！」{wait}",
-   "en": ""
+   "en": "\"The other day, I saw an 'oni crying' at my own house, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:177",
    "jp": "「お昼の ドラマ見て{n} ポロポロと 涙をこぼして{n} 泣いていたピョン！」{wait}",
-   "en": ""
+   "en": "\"Watching a daytime drama, with tears just pouring down, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:178",
    "jp": "「それって ウサ丸クンの{n} おかあさんのことじゃ…」{n}{wait}",
-   "en": ""
+   "en": "\"Isn't that your mom, Usamaru-kun...\"{wait}"
   },
   {
    "id": "HMAP2606_66:179",
    "jp": "『へいきで うそを つく人は{n} いつか へいきで どろぼうも{n} するようになる ということ』{wait}",
-   "en": ""
+   "en": "'Someone who lies without a second thought will someday steal without a second thought, too.'{wait}"
   },
   {
    "id": "HMAP2606_66:180",
    "jp": "「よい子の みんなは{n} うそなんか つかないよね？{n} ウサ丸クンは どうかな？」{wait}",
-   "en": ""
+   "en": "\"All you good kids out there don't tell lies, right? How about you, Usamaru-kun?\"{wait}"
   },
   {
    "id": "HMAP2606_66:181",
    "jp": "「う うそなんか ついたこと{n} ないピョン！{n} ぜ～～ったい ないピョン！！」{wait}",
-   "en": ""
+   "en": "\"I-I've never told a lie, hop! Never evvver, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:182",
    "jp": "「よいこのみんな～！ ウサ丸クンに{n} もういちど いまの ことばを{n} おしえて あげようね～～！」{wait}",
-   "en": ""
+   "en": "\"All you good kids out theeere! Let's teach Usamaru-kun that saying one more tiiime!\"{wait}"
   },
   {
    "id": "HMAP2606_66:183",
    "jp": "『苦しいことの あとには{n} かならず 楽しいことが{n} ある ということ』{wait}",
-   "en": ""
+   "en": "'After hard times, good times are sure to follow.'{wait}"
   },
   {
    "id": "HMAP2606_66:184",
    "jp": "「ボク きのう にんじんの{n} 食べすぎで おなかが{n} くるしかったピョン！」{wait}",
-   "en": ""
+   "en": "\"Yesterday I ate too many carrots and my tummy hurt, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:185",
    "jp": "「だから 今日は よるに{n} 楽しいことが あるんだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"So tonight, something fun is going to happen, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:186",
    "jp": "「よかったわね！{n} それで どんな 楽しいことが{n} あると思うの？」{wait}",
-   "en": ""
+   "en": "\"Good for you! So what fun thing do you think will happen?\"{wait}"
   },
   {
    "id": "HMAP2606_66:187",
    "jp": "「となりの はたけから もらった{n} にんじんが た～～っくさん{n} 食べられるんだピョン！！」{wait}",
-   "en": ""
+   "en": "\"I get to eat loooads of carrots I got from the field next door, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:188",
    "jp": "「それじゃ きのうと{n} おんなじ じゃな～～い！！」{n}{wait}",
-   "en": ""
+   "en": "\"But that's the same as yesterdaaay!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:189",
    "jp": "『ほしくても ながめるだけで{n} 手にいれられない ということ』{n}{wait}",
-   "en": ""
+   "en": "'Something you want, but can only gaze at and never get.'{wait}"
   },
   {
    "id": "HMAP2606_66:190",
    "jp": "「ボクには そんなもの{n} ないピョン！ ほしいものは{n} みんな もってるピョン！」{wait}",
-   "en": ""
+   "en": "\"I don't have anything like that, hop! I already have everything I want, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:191",
    "jp": "「まあ すごいわね！ それで{n} ウサ丸クンの ほしいものって{n} な～～に？」{wait}",
-   "en": ""
+   "en": "\"My, that's amazing! So what does Usamaru-kun want?\"{wait}"
   },
   {
    "id": "HMAP2606_66:192",
    "jp": "「太い にんじん！{n} 大きな にんじん！{n} あま～い にんじん！ それから…」{wait}",
-   "en": ""
+   "en": "\"Thick carrots! Big carrots! Sweeeet carrots! And then...\"{wait}"
   },
   {
    "id": "HMAP2606_66:193",
    "jp": "「にんじん ばっかり……{n} ウサ丸クンったら 食べることしか{n} かんがえて ないのね！」{wait}",
-   "en": ""
+   "en": "\"Nothing but carrots... Usamaru-kun, all you ever think about is eating!\"{wait}"
   },
   {
    "id": "HMAP2606_66:194",
    "jp": "『思いがけない ことが{n} おこる ということ』{n}{wait}",
-   "en": ""
+   "en": "'Something unexpected happens.'{wait}"
   },
   {
    "id": "HMAP2606_66:195",
    "jp": "「ボクも 思いがけないことが{n} おこったこと あるピョン！{n} びっくりしたピョン！！」{wait}",
-   "en": ""
+   "en": "\"Something unexpected happened to me once too, hop! I was so surprised, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:196",
    "jp": "「まあ なにが おこったの！？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"My, what happened?!\"{wait}"
   },
   {
    "id": "HMAP2606_66:197",
    "jp": "「夏休みに ず～～っと{n} 遊んでいたら 8月31日に 全然{n} 宿題が できていなかったピョン！」{wait}",
-   "en": ""
+   "en": "\"I played the whoooole summer vacation, and on August 31st my homework wasn't done at all, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:198",
    "jp": "「それは 思いがけないことじゃ{n} ないでしょ～～！！」{n}{wait}",
-   "en": ""
+   "en": "\"That's not unexpected at aaall!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:199",
    "jp": "「よいこの みんなは{n} ちゃんと けいかくを たてて{n} 宿題を しようね！」{wait}",
-   "en": ""
+   "en": "\"All you good kids out there, make a plan and do your homework properly!\"{wait}"
   },
   {
    "id": "HMAP2606_66:200",
    "jp": "『水鳥は 飛び立つときに{n} 水を 濁らせない』{n}{wait}{n}『去りぎわは 不始末を{n} 残さないように すべきである{n} ということ』{wait}",
-   "en": ""
+   "en": "'A waterbird doesn't muddy the water when it takes off.'{wait}'When you leave, you shouldn't leave a mess behind.'{wait}"
   },
   {
    "id": "HMAP2606_66:201",
    "jp": "「たとえば お友達の 家で{n} 遊んだ あとは ちゃんと{n} おかたづけしてから 帰ろうね！」{wait}",
-   "en": ""
+   "en": "\"For example, after playing at a friend's house, tidy up properly before you go home!\"{wait}"
   },
   {
    "id": "HMAP2606_66:202",
    "jp": "「うっ…… おねえさん{n} どうして ボクのほうを 向いて{n} いうんだピョン！？」{wait}",
-   "en": ""
+   "en": "\"Urk... Big Sis, why are you looking at me when you say that, hop?!\"{wait}"
   },
   {
    "id": "HMAP2606_66:203",
    "jp": "『あらそいごとが あった あとで{n} かえって 状況が よくなる{n} ということ』{wait}",
-   "en": ""
+   "en": "'After a quarrel, things often end up better than before.'{wait}"
   },
   {
    "id": "HMAP2606_66:204",
    "jp": "「そうだピョン！ ボクも{n} よく きょうだいと{n} けんか するけど」{wait}",
-   "en": ""
+   "en": "\"That's right, hop! I fight with my brothers a lot too, but\"{wait}"
   },
   {
    "id": "HMAP2606_66:205",
    "jp": "「すぐに なかなおりピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"we make up right away, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:206",
    "jp": "「う～～ん でも あんまり{n} けんかは よくないよね！{n} どうして けんかするの？」{wait}",
-   "en": ""
+   "en": "\"Hmmm, but fighting isn't very nice! Why do you fight?\"{wait}"
   },
   {
    "id": "HMAP2606_66:207",
    "jp": "「ボクが おとうとの にんじんを{n} たべちゃうんだピョン！！」{n}{wait}",
-   "en": ""
+   "en": "\"Because I eat my little brother's carrots, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:208",
    "jp": "「そんなこと しちゃだめでしょ！{n} よいこの みんなは きょうだいを{n} たいせつに しようね！！」{wait}",
-   "en": ""
+   "en": "\"You mustn't do that! All you good kids out there, take good care of your brothers and sisters!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:209",
    "jp": "『人は みんな 欠点を{n} もっていて かんぺきな 人は{n} いない ということ』{wait}",
-   "en": ""
+   "en": "'Everyone has faults. Nobody is perfect.'{wait}"
   },
   {
    "id": "HMAP2606_66:210",
    "jp": "「ボクには 欠点なんて{n} ないピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"I don't have any faults, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:211",
    "jp": "「かおは ハンサムだし{n} あしは ながいし{n} あたまも いいピョン！！」{wait}",
-   "en": ""
+   "en": "\"I've got a handsome face, long legs, and I'm smart too, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:212",
    "jp": "「……う～～ん こまったなあ…{n} おねえさんは そのことばに{n} うなずくことは できないわ…」{wait}",
-   "en": ""
+   "en": "\"......Hmmm, this is awkward... Big Sis can't really nod along to that...\"{wait}"
   },
   {
    "id": "HMAP2606_66:213",
    "jp": "「ひどいピョン！{n} 失礼だピョン！{n} あんまりだピョン！！」{wait}",
-   "en": ""
+   "en": "\"That's mean, hop! That's rude, hop! That's too much, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:214",
    "jp": "『いつも 笑っている 人には{n} しぜんと 幸せが やってくる{n} ということ』{wait}",
-   "en": ""
+   "en": "'Happiness comes naturally to people who are always smiling.'{wait}"
   },
   {
    "id": "HMAP2606_66:215",
    "jp": "「そうよね わたしも これからは{n} なにが あっても 笑っている{n} ことにするわ！」{wait}",
-   "en": ""
+   "en": "\"That's right. From now on, no matter what happens, I'll keep smiling!\"{wait}"
   },
   {
    "id": "HMAP2606_66:216",
    "jp": "「おねえさん じつは{n} きのう おねえさんの 本に{n} らくがきしたの ボクピョン！」{wait}",
-   "en": ""
+   "en": "\"Big Sis, actually... I'm the one who scribbled in your book yesterday, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:217",
    "jp": "「……………………」{n}{n}{wait}",
-   "en": ""
+   "en": "\"........................\"{wait}"
   },
   {
    "id": "HMAP2606_66:218",
    "jp": "「お おねえさん！{n} えがおピョン！{n} えがおピョン！！」{wait}",
-   "en": ""
+   "en": "\"B-Big Sis! Smile, hop! Smile, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:219",
    "jp": "『本当に のうりょくの ある人は{n} むやみに それを みせびらかしたり{n} しない ということ』{wait}",
-   "en": ""
+   "en": "'Someone truly capable doesn't show it off needlessly.'{wait}"
   },
   {
    "id": "HMAP2606_66:220",
    "jp": "「う～ん ためになるピョン！{n} ボクも これからは のうりょくを{n} かくすピョン！」{wait}",
-   "en": ""
+   "en": "\"Hmm, that's helpful, hop! From now on, I'll hide my abilities too, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:221",
    "jp": "「あら ウサ丸クン{n} なんの のうりょくを{n} かくすの？」{wait}",
-   "en": ""
+   "en": "\"Oh, Usamaru-kun, what ability are you going to hide?\"{wait}"
   },
   {
    "id": "HMAP2606_66:222",
    "jp": "「さんすうの のうりょくを{n} かくすピョン！ だから{n} しゅくだいを しないピョン！」{wait}",
-   "en": ""
+   "en": "\"I'll hide my math ability, hop! So I won't do my homework, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:223",
    "jp": "「だめ だめ だめ～～！！{n} そんなことは かくさなくて{n} いいの！！」{wait}",
-   "en": ""
+   "en": "\"No, no, nooo!! You don't need to hide that!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:224",
    "jp": "『しっぱい しないように{n} まえもって じゅんびしておく{n} ということ』{wait}",
-   "en": ""
+   "en": "'Preparing in advance so that you don't fail.'{wait}"
   },
   {
    "id": "HMAP2606_66:225",
    "jp": "「だから きびだんごは いつも{n} ちゃんと もっていたほうが{n} いいピョン！」{wait}",
-   "en": ""
+   "en": "\"So you should always keep millet dumplings with you, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:226",
    "jp": "「そうね ウサ丸クンは{n} ふだんから なにか{n} じゅんび している？」{wait}",
-   "en": ""
+   "en": "\"That's right. Usamaru-kun, do you prepare anything day to day?\"{wait}"
   },
   {
    "id": "HMAP2606_66:227",
    "jp": "「してるピョン！{n} いつでも たべられるように{n} にんじんを もち歩いてるピョン！」{wait}",
-   "en": ""
+   "en": "\"I do, hop! I carry carrots around so I can eat whenever I like, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:228",
    "jp": "「そ…それは 食いいじが{n} はってる だけじゃあ……」{n}{wait}",
-   "en": ""
+   "en": "\"Th-that's just being a greedy guts...\"{wait}"
   },
   {
    "id": "HMAP2606_66:229",
    "jp": "『よけいな ことには{n} かかわらないほうが いい{n} ということ』{wait}",
-   "en": ""
+   "en": "'It's best not to get involved in things that don't concern you.'{wait}"
   },
   {
    "id": "HMAP2606_66:230",
    "jp": "「ボクも ひごろから{n} よけいなことには かかわらない{n} ように してるピョン！」{wait}",
-   "en": ""
+   "en": "\"I always try not to get involved in things that don't concern me too, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:231",
    "jp": "「へえ そうなんだ{n} それで よけいなことって？」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, is that so? So what things don't concern you?\"{wait}"
   },
   {
    "id": "HMAP2606_66:232",
    "jp": "「そうじとうばんピョン！！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Cleaning duty, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:233",
    "jp": "「それには かかわらなくちゃ{n} だめ！！ よいこは そうじを{n} さぼったりしちゃ だめよ！」{wait}",
-   "en": ""
+   "en": "\"That one you have to get involved in!! Good kids don't skip cleaning!\"{wait}"
   },
   {
    "id": "HMAP2606_66:234",
    "jp": "『小さな ものでも{n} 数が 集まれば{n} 大きなものになる ということ』{wait}",
-   "en": ""
+   "en": "'Even small things become big when enough of them gather.'{wait}"
   },
   {
    "id": "HMAP2606_66:235",
    "jp": "「だから すこしずつでも{n} ちょきんを すれば{n} おおきな お金になるのよ」{wait}",
-   "en": ""
+   "en": "\"So if you save up, even a little at a time, it turns into a lot of money.\"{wait}"
   },
   {
    "id": "HMAP2606_66:236",
    "jp": "「それじゃ ボクは 今日から{n} にんじんを がまんして{n} ちょきんするピョン！！」{wait}",
-   "en": ""
+   "en": "\"Then starting today, I'll hold off on carrots and save up, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:237",
    "jp": "「そして そのお金で にんじんを{n} たくさん かうんだピョン！！」{n}{wait}",
-   "en": ""
+   "en": "\"And with that money, I'll buy lots of carrots, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:238",
    "jp": "「それじゃ イミないってば～！！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then what's the poiiint!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:239",
    "jp": "『ようじんに ようじんを{n} かさねるということ』{n}{wait}",
-   "en": ""
+   "en": "'Being careful on top of careful.'{wait}"
   },
   {
    "id": "HMAP2606_66:240",
    "jp": "「う～ん まるで ボクのこと{n} みたいだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmm, that sounds just like me, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:241",
    "jp": "「あら ウサ丸クン{n} なにか ようじん してること{n} あるの？」{wait}",
-   "en": ""
+   "en": "\"Oh, Usamaru-kun, is there something you're careful about?\"{wait}"
   },
   {
    "id": "HMAP2606_66:242",
    "jp": "「あるピョン！ 家に どろぼうが{n} はいらないように ドアに かぎを{n} 200こも つけてるピョン！」{wait}",
-   "en": ""
+   "en": "\"There is, hop! So no burglars get into my house, I've put 200 locks on the door, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:243",
    "jp": "「そ そこまで しなくても…{n} それじゃあ いえに はいるとき{n} たいへん なんじゃない？」{wait}",
-   "en": ""
+   "en": "\"Y-you don't need to go that far... Won't it be a pain getting into your house?\"{wait}"
   },
   {
    "id": "HMAP2606_66:244",
    "jp": "「だいじょうぶピョン！{n} 入りやすいように よこのドアには{n} かぎを かけてないピョン！！」{wait}",
-   "en": ""
+   "en": "\"It's fine, hop! So it's easy to get in, I don't lock the side door, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:245",
    "jp": "「それじゃ ようじんに{n} なってないじゃな～～い！！」{n}{wait}",
-   "en": ""
+   "en": "\"Then that's not careful at aaall!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:246",
    "jp": "『いっしょうけんめいに やれば{n} できないことなど ない{n} ということ』{wait}",
-   "en": ""
+   "en": "'If you try with all your heart, there's nothing you can't do.'{wait}"
   },
   {
    "id": "HMAP2606_66:247",
    "jp": "「ほ ほんとピョン！？{n} いっしょうけんめいに やれば{n} なんでも できるピョン！？」{wait}",
-   "en": ""
+   "en": "\"R-really, hop?! If I try with all my heart, I can do anything, hop?!\"{wait}"
   },
   {
    "id": "HMAP2606_66:248",
    "jp": "「ええ そうよ ウサ丸クン{n} どりょくすれば なんでも{n} できるのよ！」{wait}",
-   "en": ""
+   "en": "\"Yes, that's right, Usamaru-kun. If you work hard, you can do anything!\"{wait}"
   },
   {
    "id": "HMAP2606_66:249",
    "jp": "「やったピョ～～ン！{n} ボクも どりょくすれば{n} ライオンに なれるんだピョン！」{wait}",
-   "en": ""
+   "en": "\"Hoooray, hop! If I work hard, I can become a lion, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:250",
    "jp": "「そ それは ちょっと{n} ムリかも しれないわ{n} ウサ丸クン！」{wait}",
-   "en": ""
+   "en": "\"Th-that might be a little impossible, Usamaru-kun!\"{wait}"
   },
   {
    "id": "HMAP2606_66:251",
    "jp": "『おもいがけない 幸運が{n} まいこんでくる ということ』{n}{wait}",
-   "en": ""
+   "en": "'Unexpected good fortune comes falling into your lap.'{wait}"
   },
   {
    "id": "HMAP2606_66:252",
    "jp": "「おねえさん！ ボクも 今日{n} すごく いいことが{n} あったんだピョン！！」{wait}",
-   "en": ""
+   "en": "\"Big Sis! Something really good happened to me today too, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:253",
    "jp": "「まあ！ おめでとう ウサ丸クン！{n} それで どんな いいことが{n} あったのかな？」{wait}",
-   "en": ""
+   "en": "\"My! Congratulations, Usamaru-kun! So what good thing happened?\"{wait}"
   },
   {
    "id": "HMAP2606_66:254",
    "jp": "「3年 まえに{n} なくなった にんじんが{n} みつかったんだピョン！！」{wait}",
-   "en": ""
+   "en": "\"I found a carrot I lost 3 years ago, hop!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:255",
    "jp": "「す すてなさい ウサ丸クン！{n} そんなもの たべちゃだめ！！」{n}{wait}",
-   "en": ""
+   "en": "\"Th-throw it away, Usamaru-kun! Don't eat that!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:256",
    "jp": "『いちど やってしまった ことは{n} とりかえしが つかない{n} ということ』{wait}",
-   "en": ""
+   "en": "'Once something is done, it can't be undone.'{wait}"
   },
   {
    "id": "HMAP2606_66:257",
    "jp": "「うう…… そのとおりピョン{n} ボクも とりかえしの つかない{n} ことを してしまったピョン」{wait}",
-   "en": ""
+   "en": "\"Ugh... That's so true, hop. I did something that can't be undone too, hop.\"{wait}"
   },
   {
    "id": "HMAP2606_66:258",
    "jp": "「どうしたの ウサ丸クン{n} ひとりで なやんで ないで{n} おねえさんに そうだんして！」{wait}",
-   "en": ""
+   "en": "\"What's wrong, Usamaru-kun? Don't worry about it alone, talk to Big Sis!\"{wait}"
   },
   {
    "id": "HMAP2606_66:259",
    "jp": "「せっかく 50段まで あげた{n} 桃太郎伝説の 記録を まちがえて{n} 消して しまったんだピョン…」{wait}",
-   "en": ""
+   "en": "\"I accidentally erased a Momotaro Densetsu save I'd gotten all the way to level 50, hop...\"{wait}"
   },
   {
    "id": "HMAP2606_66:260",
    "jp": "「な～んだ{n} そんなこと{n} 気にしちゃ だめよ！」{wait}",
-   "en": ""
+   "en": "\"Oh, is that all? Don't let that bother you!\"{wait}"
   },
   {
    "id": "HMAP2606_66:261",
    "jp": "「本当ピョン！？ よかったピョン！{n} じつは おねえさんの{n} セーブだったピョン！」{wait}",
-   "en": ""
+   "en": "\"Really, hop?! Phew, hop! Actually, it was Big Sis's save, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:262",
    "jp": "「うっ……………{n} い いいわよ ウサ丸クン…{n} き きにしないで……」{wait}",
-   "en": ""
+   "en": "\"Urk............... I-it's fine, Usamaru-kun... D-don't worry about it......\"{wait}"
   },
   {
    "id": "HMAP2606_66:263",
    "jp": "『へたな くせに{n} やたらに すきで{n} ねっしんなこと』{wait}",
-   "en": ""
+   "en": "'Being terrible at something, yet loving it and doing it eagerly.'{wait}"
   },
   {
    "id": "HMAP2606_66:264",
    "jp": "「ボクは にんじんが{n} すきピョン！ {n} 食べるのも とくいピョン！」{wait}",
-   "en": ""
+   "en": "\"I love carrots, hop! And I'm great at eating them, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:265",
    "jp": "「え？ にんじんを 食べるのに{n} うまいとか へたとか{n} あるの？」{wait}",
-   "en": ""
+   "en": "\"Huh? There's such a thing as being good or bad at eating carrots?\"{wait}"
   },
   {
    "id": "HMAP2606_66:266",
    "jp": "「ボクは うまいから{n} 一口で たべられるピョン！{n} パクッ！ ウグッ ウググッ！！…」{wait}",
-   "en": ""
+   "en": "\"I'm so good, I can eat one in a single bite, hop! Chomp! Urk, urgghh!!...\"{wait}"
   },
   {
    "id": "HMAP2606_66:267",
    "jp": "「きゃ～～～！！{n} ウサ丸クンが のどに{n} にんじんを つまらせちゃった！」{wait}",
-   "en": ""
+   "en": "\"Eeeek!! Usamaru-kun's got a carrot stuck in his throat!\"{wait}"
   },
   {
    "id": "HMAP2606_66:268",
@@ -1352,202 +1352,202 @@
   {
    "id": "HMAP2606_66:269",
    "jp": "『どんなに つよい人でも{n} かならず ひとつは{n} よわいところが あるということ』{wait}",
-   "en": ""
+   "en": "'However strong someone is, they're sure to have at least one weak spot.'{wait}"
   },
   {
    "id": "HMAP2606_66:270",
    "jp": "「おねえさんにも じゃくてんが{n} あるピョン？」{n}{wait}",
-   "en": ""
+   "en": "\"Does Big Sis have a weakness too, hop?\"{wait}"
   },
   {
    "id": "HMAP2606_66:271",
    "jp": "「そうねえ おねえさんは{n} カエルが じゃくてんかな？{n} ウサ丸クンは？」{wait}",
-   "en": ""
+   "en": "\"Let's see... I guess my weakness is frogs? How about you, Usamaru-kun?\"{wait}"
   },
   {
    "id": "HMAP2606_66:272",
    "jp": "「ボクは つよいピョン！{n} じゃくてん なんて{n} ないピョン！」{wait}",
-   "en": ""
+   "en": "\"I'm strong, hop! I don't have any weaknesses, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:273",
    "jp": "「あら！ ウサ丸クンの{n} せなかに おおきな{n} クモが！！」{wait}",
-   "en": ""
+   "en": "\"Oh! Usamaru-kun, there's a big spider on your back!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:274",
    "jp": "「ピョ～～～～ン！！{n} こわいピョン！ こわいピョン！{n} とってほしいピョ～～ン！！！」{wait}",
-   "en": ""
+   "en": "\"Hoooooop!! Scary, hop! Scary, hop! Get it off me, hoooop!!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:275",
    "jp": "『苦労 したのに{n} すこしも むくわれない{n} ということ』{wait}",
-   "en": ""
+   "en": "'Working hard, yet not being rewarded in the least.'{wait}"
   },
   {
    "id": "HMAP2606_66:276",
    "jp": "「う～～ん わかるピョン{n} ボクも 苦労が むくわれなかった{n} ことが あるピョン」{wait}",
-   "en": ""
+   "en": "\"Hmmm, I get it, hop. I've had hard work go unrewarded too, hop.\"{wait}"
   },
   {
    "id": "HMAP2606_66:277",
    "jp": "「かわいそうに ウサ丸クンは{n} どんな 苦労が{n} むくわれなかったの？」{wait}",
-   "en": ""
+   "en": "\"You poor thing. Usamaru-kun, what hard work went unrewarded?\"{wait}"
   },
   {
    "id": "HMAP2606_66:278",
    "jp": "「せっかく おねえさんの ポケットに{n} カエルを 入れておいたのに{n} さっき にげてしまったピョン」{wait}",
-   "en": ""
+   "en": "\"I went to all the trouble of putting a frog in Big Sis's pocket, but it got away just now, hop.\"{wait}"
   },
   {
    "id": "HMAP2606_66:279",
    "jp": "「キャ～～～！！！！{n} そ そんなこと むくわれなくて{n} いいのよ～～～～！！！！！」{wait}",
-   "en": ""
+   "en": "\"Kyaaaaa!!!! Th-that kind of hard work doesn't need rewarding at aaall!!!!!\"{wait}"
   },
   {
    "id": "HMAP2606_66:280",
    "jp": "「コノ 階段ヲ ノボルト{n} 水泳大会会場ニ イクアルヨ！{n} ソレトモ 5階ニ イクアルカ？」",
-   "en": ""
+   "en": "\"Climb these stairs, you go to Swim Meet, yes! Or you go to 5th floor, yes?\""
   },
   {
    "id": "HMAP2606_66:281",
    "jp": "「水泳大会会場ニ イクアルカ？」{n}{n}",
-   "en": ""
+   "en": "\"You go to Swim Meet, yes?\""
   },
   {
    "id": "HMAP2606_66:282",
    "jp": "「イラッシャイ アル！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Welcome-a, yes!\"{wait}"
   },
   {
    "id": "HMAP2606_66:283",
    "jp": "「ドウスル アルネ？」{n}{n}",
-   "en": ""
+   "en": "\"What you do, yes?\""
   },
   {
    "id": "HMAP2606_66:284",
    "jp": "「5階ニ イクアルネ？」{n}{n}",
-   "en": ""
+   "en": "\"You go to 5th floor, yes?\""
   },
   {
    "id": "HMAP2606_66:285",
    "jp": "「ドウゾ オ通リ クダサイアル！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Please, go through, yes!\"{wait}"
   },
   {
    "id": "HMAP2606_66:286",
    "jp": "「ドウスル アルネ？」{n}{n}",
-   "en": ""
+   "en": "\"What you do, yes?\""
   },
   {
    "id": "HMAP2606_66:287",
    "jp": "水泳大会会場にいく",
-   "en": ""
+   "en": "Go to the Swim Meet"
   },
   {
    "id": "HMAP2606_66:288",
    "jp": "5階にいく",
-   "en": ""
+   "en": "Go to the 5th floor"
   },
   {
    "id": "HMAP2606_66:289",
    "jp": "「ピョプ～～ン！{n} おなか すいたピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop-whoa! I'm hungry, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:290",
    "jp": "「ピョプ～～ン！{n} ねむいピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop-whoa! I'm sleepy, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:291",
    "jp": "「ボクの しゅみは{n} まわることだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"My hobby is spinning around, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:292",
    "jp": "「ボクの 生まれは{n} ウサカメの村だピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"I was born in Usakame Village, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:293",
    "jp": "「ボクの きゅうりょうは{n} にんじん 5本だピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"My pay is 5 carrots, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:294",
    "jp": "「ボクは これでも{n} 結婚しているんだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Believe it or not, I'm married, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:295",
    "jp": "「いろいろ話を 聞いてくれて{n} ありがとう なんだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks for listening to all my stories, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:296",
    "jp": "「これで きみも{n} ウサ丸クン マニア{n} なんだピョン！」{wait}",
-   "en": ""
+   "en": "\"Now you're a total Usamaru-kun fan too, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:297",
    "jp": "「そんな きみに{n} ウサ丸クン づくしのプレゼント{n} なんだピョン！」{wait}",
-   "en": ""
+   "en": "\"So here's an all-Usamaru-kun present just for you, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:298",
    "jp": "「ことばの 迷路{n} ウサ丸クン バージョンへ{n} ようこそだピョン！」{wait}",
-   "en": ""
+   "en": "\"Welcome to the Word Maze, Usamaru-kun Version, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:299",
    "jp": "「でも ことばの{n} もんだいは いっしょだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"But the word puzzles are the same, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:300",
    "jp": "「この階から でると{n} もとに もどるピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"If you leave this floor, it goes back to normal, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:301",
    "jp": "「ボクの 知っている 文字は{n} {num} 文字目の{n} {str} だピョン！」{wait}",
-   "en": ""
+   "en": "\"The letter I know is letter No. {num}: {str}, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:302",
    "jp": "「ボクは ハズレなんだピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'm a dud, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:303",
    "jp": "「まわってるのは{n} しゅみ なんだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Spinning is my hobby, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:304",
    "jp": "「にんじん 5本じゃ{n} わりに あわないんだピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"5 carrots just isn't worth it, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:305",
    "jp": "「まわるなと いわれても{n} やめないピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Even if you tell me to stop spinning, I won't, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:306",
    "jp": "「なんで ふえたか{n} ふかく かんがえないで{n} ほしいピョン！」{wait}",
-   "en": ""
+   "en": "\"Please don't think too hard about why there are more of us, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:307",
    "jp": "「たのしんで いって{n} ほしいピョン！」{n}{wait}",
-   "en": ""
+   "en": "\"Have fun, hop!\"{wait}"
   },
   {
    "id": "HMAP2606_66:308",
    "jp": "「ボクたちの 迷路は{n} この階から でると{n} もとに もどるピョン！」{wait}",
-   "en": ""
+   "en": "\"Our maze goes back to normal if you leave this floor, hop!\"{wait}"
   }
  ]
 }

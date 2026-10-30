@@ -8,12 +8,12 @@
   {
    "id": "EVT006_11:000",
    "jp": "桃太郎が 金の鬼を{n}こらしめると{n}貧乏神の 金の像が…",
-   "en": ""
+   "en": "When Momotaro taught the Gold Oni a lesson, the poverty god's golden statue..."
   },
   {
    "id": "EVT006_11:001",
    "jp": "なんと！もとの{n}石像に なったのです！{n}{wait}{n}こうして ボンビーの村は{n}もとどおり ボンビーに{n}なりましたとさ！",
-   "en": ""
+   "en": "Lo and behold! It turned back into a stone statue!{wait}And so Bombee Village went right back to being as Bombee-poor as ever! The end!"
   }
  ]
 }

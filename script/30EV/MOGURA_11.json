@@ -8,82 +8,82 @@
   {
    "id": "MOGURA_11:000",
    "jp": "桃太郎は{n}{col4}{str}{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "MOGURA_11:001",
    "jp": "桃太郎は {col4}運玉{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Luck Orb{col0}!{wait}"
   },
   {
    "id": "MOGURA_11:002",
    "jp": "桃太郎は {col4}野生の薬草{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Wild Herb{col0}!{wait}"
   },
   {
    "id": "MOGURA_11:003",
    "jp": "桃太郎は {col4}書物{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Tome{col0}!{wait}"
   },
   {
    "id": "MOGURA_11:004",
    "jp": "桃太郎は {col4}きびだんご{col0}を{n}手に入れた！{n}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Millet Dumpling{col0}!{wait}"
   },
   {
    "id": "MOGURA_11:005",
    "jp": "「お客さん！{n} 鬼たたきは はじめてかい？」{n}",
-   "en": ""
+   "en": "\"Hey there! First time playing Whack-an-Oni?\""
   },
   {
    "id": "MOGURA_11:006",
    "jp": "「よし！{n} じゃあ 説明するよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Okay! Then I'll explain!\"{wait}"
   },
   {
    "id": "MOGURA_11:007",
    "jp": "「このゲームは 十字に並べられた{n} 穴から 出る 鬼を きづちで{n} たたいて 点数を 競うものさ！」{wait}{n}「ちなみに たたく 穴の いちは{n} コントローラの ボタンの いちと{n} 同じに なっているからね！」{wait}",
-   "en": ""
+   "en": "\"In this game, you take a mallet and whack the oni that pop out of holes laid out in a cross, and compete for points!\"{wait}\"By the way, the holes are in the same positions as the buttons on your controller!\"{wait}"
   },
   {
    "id": "MOGURA_11:008",
    "jp": "「ん？ ちょっと 早口だったかな？{n} まあ いいや よし！{n} もう一度 説明するよ！」{wait}",
-   "en": ""
+   "en": "\"Hm? Was I talking a bit too fast? Well, never mind! Okay! I'll explain it one more time!\"{wait}"
   },
   {
    "id": "MOGURA_11:009",
    "jp": "「おっし！{n} きあい いれて やってくれよ！」{n}{wait}",
-   "en": ""
+   "en": "\"All right! Put your back into it!\"{wait}"
   },
   {
    "id": "MOGURA_11:010",
    "jp": "「うひゃー！{n} 長年 鬼たたき屋 やっているが{n} こんな点数は はじめて 見たね！」{wait}{n}「よっし！ いいもん{n} 見せて もらった お礼でい！{n} これを 受け取って くんな！」{wait}",
-   "en": ""
+   "en": "\"Whoa! I've been running this Whack-an-Oni stand for years, and I've never seen a score like this!\"{wait}\"All right! That was a sight to see, so here's my thanks! Take this!\"{wait}"
   },
   {
    "id": "MOGURA_11:011",
    "jp": "「おお！ お客さん やるねえ！{n} 名人級な 点数じゃねぇか！」{n}{wait}{n}「よっしゃ！ 気に入った！{n} これを もってけい！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Nice going! That's a master-class score!\"{wait}\"All right! I like you! Take this!\"{wait}"
   },
   {
    "id": "MOGURA_11:012",
    "jp": "「お！ なかなか やるねえ！{n} と いっても 人並みだけどね！」{n}{wait}{n}「うちで よくわたす これを{n} あげるよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Not bad! Though that's only about average!\"{wait}\"Here's the one I usually hand out!\"{wait}"
   },
   {
    "id": "MOGURA_11:013",
    "jp": "「うーん なんとも まあ…{n} いや！ 人生 いろいろさ！{n} 気にしちゃ 負けだぜ！」{wait}{n}「これを あげるから 気を{n} おとすなよ！ いいかい あしたは{n} 明るい 日と書くんだぜ！」{wait}",
-   "en": ""
+   "en": "\"Hmm, well, how do I put this... No! Life has its ups and downs! Let it get to you, and you lose!\"{wait}\"Take this and don't lose heart! Listen, tomorrow's a brand-new, bright day!\"{wait}"
   },
   {
    "id": "MOGURA_11:014",
    "jp": "「あと 鬼は 上半身が 穴から{n} 完全に 出ると 桃太郎を{n} 攻撃してくるぞ！」{wait}{n}「この 攻撃を 3回受けるか{n} 残り時間が 無くなると{n} ゲームが 終了となるのさ！」{wait}",
-   "en": ""
+   "en": "\"Also, once an oni's upper body is all the way out of its hole, it'll attack Momotaro!\"{wait}\"The game ends when you take 3 of those attacks, or when time runs out!\"{wait}"
   },
   {
    "id": "MOGURA_11:015",
    "jp": "「それと 穴から たまに 出る{n} 地蔵や 村人は たたくと{n} 減点になるから 注意が必要だよ！」{wait}{n}「ま 説明は こんなところかな…{n} どうだい わかったかい？」{n}",
-   "en": ""
+   "en": "\"And sometimes a Jizo or a villager pops out of a hole, and whacking them costs you points, so be careful!\"{wait}\"Well, that about covers it... So, got all that?\""
   },
   {
    "id": "MOGURA_11:016",

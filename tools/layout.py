@@ -92,7 +92,7 @@ def pages(jp):
     out = []
     for seg in jp.split('{wait}'):
         m = re.match(r'^((?:\{n\})*)(.*?)((?:\{n\})*)$', seg)
-        body = m.group(2)
+        body = m.group(2) if m.group(2).strip(' 　') else ''      # a lone space glyph draws nothing
         out.append((len(m.group(1)) // 3, (body.count('{n}') + 1 if body else 0) + len(m.group(3)) // 3))
     return out
 
@@ -123,6 +123,11 @@ def layout(en, jp, name=None):
         if len(lines) > cap:
             problems.append(f'page {i + 1} has {len(lines)} lines > {cap} (split the page with {{wait}} or cut)')
         out.append('{n}' * lead + '{n}'.join(lines) + '{n}' * max(0, slots - len(lines)))
+    # a fragment the game joins to another string keeps its joining space ("Momotaro" + " used Kintan!")
+    if en.startswith(' ') and not out[0].startswith(' '):
+        out[0] = ' ' + out[0]
+    if en.endswith(' ') and len(out) == 1 and '{n}' not in out[0]:
+        out[0] += ' '
     return '{wait}'.join(out), problems
 
 

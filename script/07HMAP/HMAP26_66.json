@@ -8,1137 +8,1137 @@
   {
    "id": "HMAP26_66:000",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「私 阿修羅は{n} まちくたびれましたよ！」{n}{wait}{n}「ふふふふふふっ！」{n}{n}{wait}{n}「私の うつくしい{n} コレクションが{n} あなたで ちょうど…」{wait}{n}「1000にんめ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"I, Ashura, have grown tired of waiting!\"{wait}\"Fufufufufufu!\"{wait}\"With you, my beautiful collection reaches exactly...\"{wait}\"Number 1000!\"{wait}"
   },
   {
    "id": "HMAP26_66:001",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「きねんすべき 1000人目に{n} えらばれたことを… ふふ…」{n}{wait}{n}「ほこりに 思ってください！」{n}{n}{wait}{n}「さっそく その 美しい{n} 顔を 見せて{n} いただきましょうか！」{wait}{n}「ふふふふふふっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"Being chosen as my memorable 1000th... fufu...\"{wait}\"Take pride in it!\"{wait}\"Now, shall we have a look at that beautiful face?\"{wait}\"Fufufufufufu!\"{wait}"
   },
   {
    "id": "HMAP26_66:002",
    "jp": "「だが！」{n}{n}{wait}{n}「そのまえに！」{n}{n}{wait}{n}「うしろの さかだるに{n} かくれている ものたち！」{n}{wait}{n}「すがたを 見せなさい！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"But!\"{wait}\"Before that!\"{wait}\"You there, hiding in the sake barrel behind her!\"{wait}\"Show yourselves!\"{wait}"
   },
   {
    "id": "HMAP26_66:003",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「そのような こざいくで{n} この 阿修羅の 目を{n} ごまかせると 思ったのですか！」{wait}{n}「お！ お前は！？」{n}{n}{wait}{n}「桃太郎！」{n}{n}{wait}{n}「ふふふふふふっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"Did you really think such petty tricks could fool the eyes of Ashura?\"{wait}\"Wha-! You?!\"{wait}\"Momotaro!\"{wait}\"Fufufufufufu!\"{wait}"
   },
   {
    "id": "HMAP26_66:004",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「はあっはっはっはっは！」{n}{n}{wait}{n}「そういうことですか！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"Hahahahaha!\"{wait}\"So that's how it is!\"{wait}"
   },
   {
    "id": "HMAP26_66:005",
    "jp": "「この 阿修羅とも あろうものが…{n} ふふふふふふっ！ ずいぶんと{n} なめられて しまったものです！」{wait}{n}「ふふふふふふっ！」{n}{n}{wait}{n}「すると…」{n}「とうぜん そこの 女も{n} お前たちの 仲間が{n} へんそうしてる わけですね！」{wait}",
-   "en": ""
+   "en": "\"That I, Ashura, of all people... Fufufufufufu! I've been taken very lightly indeed!\"{wait}\"Fufufufufufu!\"{wait}\"Then... naturally, the woman there must be one of your friends in disguise!\"{wait}"
   },
   {
    "id": "HMAP26_66:006",
    "jp": "「そこの 女！」{n}{n}{wait}{n}「顔を 上げなさい！」{n}{n}{wait}{n}「ころすまえに ひとめぐらい{n} 顔を 見て あげましょう！」{n}{wait}",
-   "en": ""
+   "en": "\"You there, woman!\"{wait}\"Raise your face!\"{wait}\"Before I kill you, I'll at least take one look at your face!\"{wait}"
   },
   {
    "id": "HMAP26_66:007",
    "jp": "「あっ！？」{n}{n}{wait}{n}「お！ お前は………！」{n}{n}{wait}{n}「い… いや…{n} あなたは…」{n}{wait}{n}「夜叉姫様！」{n}{n}{wait}{n}「氷の洞窟で 桃太郎と{n} 戦ったあと ゆくえふめいだった{n} あなたが なぜ……………！？」{wait}",
-   "en": ""
+   "en": "\"Ah?!\"{wait}\"Y-you are...!\"{wait}\"N-no... You are...\"{wait}\"Yashahime-sama!\"{wait}\"After fighting Momotaro in the Ice Cave, you vanished without a trace... Why are you...?!\"{wait}"
   },
   {
    "id": "HMAP26_66:008",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「夜叉姫様とも{n} あろう おかたが……」{n}{wait}{n}「人間の ようなクズどもの{n} 味方を するとは！」{n}{wait}{n}「しかたが ありません！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"That one such as Yashahime-sama...\"{wait}\"would side with scum like humans!\"{wait}\"It can't be helped!\"{wait}"
   },
   {
    "id": "HMAP26_66:009",
    "jp": "「私と 戦うことで{n} 夜叉姫様の お考えも{n} かわるでしょう！」{wait}{n}「いざ しょうぶ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Fighting me should change your mind, Yashahime-sama!\"{wait}\"Now, have at you!\"{wait}"
   },
   {
    "id": "HMAP26_66:010",
    "jp": "阿修羅の よわよわしい こえが{n}きこえてきた……………{n}{wait}{n}「私は……… もう………{n} うごけぬ……………」{n}{wait}{n}「はやく… とどめを…{n} さしなさい……！」{n}{wait}",
-   "en": ""
+   "en": "Ashura's feeble voice could be heard...{wait}\"I... can no longer... move...\"{wait}\"Quickly... finish... me off...!\"{wait}"
   },
   {
    "id": "HMAP26_66:011",
    "jp": "「どうした……！」{n}{n}{wait}{n}「なぜ とどめを ささない！」{n}{n}{wait}{n}「まさか この 私を{n} ゆるすと いうのか！？」{n}{wait}",
-   "en": ""
+   "en": "\"What's the matter...!\"{wait}\"Why don't you finish me?!\"{wait}\"Surely you don't mean to spare me?!\"{wait}"
   },
   {
    "id": "HMAP26_66:012",
    "jp": "「ふ…………」{n}{n}{wait}{n}「ふふふふふふ……」{n}{n}{wait}{n}「ふふふふふふっ！」{n}{n}{wait}{n}「私の 負けだ！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Fu......\"{wait}\"Fufufufufufu...\"{wait}\"Fufufufufufu!\"{wait}\"I lose! Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP26_66:013",
    "jp": "「この 阿修羅 生まれて{n} はじめて 負けましたよ！」{n}{wait}{n}「しかも あなたは{n} 私を ゆるした！」{n}{wait}",
-   "en": ""
+   "en": "\"This is the first time in my life that I, Ashura, have lost!\"{wait}\"And what's more, you spared me!\"{wait}"
   },
   {
    "id": "HMAP26_66:014",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「これが 人間たちの いう{n} 愛 と いうものなのですか！」{n}{wait}{n}「よわいものを 助ける{n} 正義の 心と！」{n}{wait}{n}「おたがいを かばいあう{n} 友情と！」{n}{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"So this is what humans call love!\"{wait}\"A heart of justice that helps the weak!\"{wait}\"Friendship that shields one another!\"{wait}"
   },
   {
    "id": "HMAP26_66:015",
    "jp": "「どんな ときでも くじけない{n} 勇気と！」{n}{wait}{n}「これらが あなたたちの{n} 強さの ひみつ だったんですね」{n}{wait}",
-   "en": ""
+   "en": "\"Courage that never gives up, no matter what!\"{wait}\"So these were the secret of your strength.\"{wait}"
   },
   {
    "id": "HMAP26_66:016",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「私は これから{n} 鬼が島に もどって えんま様を{n} せっとくしてみます！」{wait}{n}「あの かたも きっと{n} 正義と 友情と 勇気を{n} わかってくれる はずですっ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"I'll return to Onigashima now and try to persuade Enma-sama!\"{wait}\"Surely he too will come to understand justice, friendship and courage!\"{wait}"
   },
   {
    "id": "HMAP26_66:017",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「あなたと であえて！」{n}{n}{wait}{n}「あなたと たたかえて！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"To have met you!\"{wait}\"To have fought you!\"{wait}"
   },
   {
    "id": "HMAP26_66:018",
    "jp": "「私は！」{n}{n}{wait}{n}「うれしい！」{n}{n}{wait}{n}「また あいましょう！」{n}{n}{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}そう いいのこすと{n}阿修羅は さって いった！{n}{wait}",
-   "en": ""
+   "en": "\"I am!\"{wait}\"So glad!\"{wait}\"Let us meet again!\"{wait}\"Momotaro-san!\"{wait}With those parting words, Ashura left!{wait}"
   },
   {
    "id": "HMAP26_66:019",
    "jp": "「ふふふふふふっ！」{n}{n}{wait}{n}「こりない 人たちですね！」{n}{n}{wait}{n}「夜叉姫様も この者たちと{n} いっしょでは 私に{n} 勝てないことが わかったのでは？」{wait}{n}「ふふふふふふっ！」{n}{n}{wait}{n}「何度でも 戦いましょう！」{n}{n}{wait}{n}「私は 美しい 女性も{n} 好きだが 戦いは{n} もっと 好きなのです！」{wait}",
-   "en": ""
+   "en": "\"Fufufufufufu!\"{wait}\"You never learn, do you!\"{wait}\"Surely you see by now, Yashahime-sama, that with these people you can't beat me?\"{wait}\"Fufufufufufu!\"{wait}\"Let us fight as many times as you like!\"{wait}\"I like beautiful women, but I like fighting even more!\"{wait}"
   },
   {
    "id": "HMAP26_66:020",
    "jp": "「都の みんなで{n} 桃太郎さんの 博物館を{n} つくらせて いただきました」{wait}{n}「これが あるかぎり みんなも{n} 愛と 勇気を わすれることは{n} ないでしょう！」{wait}",
-   "en": ""
+   "en": "\"Everyone in the Capital built this museum for you, Momotaro-san.\"{wait}\"As long as it stands, no one will ever forget love and courage!\"{wait}"
   },
   {
    "id": "HMAP26_66:021",
    "jp": "「ようこそ！{n} 桃太郎博物館へ！」{n}{wait}{n}「どうぞ ごゆっくり{n} ごらんくださいませ！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcome to the Momotaro Museum!\"{wait}\"Please take your time and enjoy the exhibits!\"{wait}"
   },
   {
    "id": "HMAP26_66:022",
    "jp": "「ここは 桃太郎さん かんけいの{n} ものを あつめた 展示室です{n} ごゆっくり ごらんください！」{wait}",
-   "en": ""
+   "en": "\"This exhibit room gathers things related to Momotaro-san. Please take your time looking around!\"{wait}"
   },
   {
    "id": "HMAP26_66:023",
    "jp": "「へぇーっ！ なんとまあ！{n} これが 桃太郎さんが{n} すわっとった ざぶとんけー！」{wait}",
-   "en": ""
+   "en": "\"Well, I'll be! So this here's the cushion Momotaro-san sat on!\"{wait}"
   },
   {
    "id": "HMAP26_66:024",
    "jp": "「キャー！ かっわいーー！{n} 桃太郎さんが はじめて{n} はなしかけた ウンチですって！」{wait}",
-   "en": ""
+   "en": "\"Kyaa! Sooo cute! It's the Poop that Momotaro-san talked to first!\"{wait}"
   },
   {
    "id": "HMAP26_66:025",
    "jp": "「ほう！ 桃太郎さんが{n} はじめて つかった 刀 ですか」{n}{wait}{n}「うん うん！ たいせつに{n} つかって おりますなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oho! The first katana Momotaro-san ever used?\"{wait}\"Mm-hm! He took good care of it!\"{wait}"
   },
   {
    "id": "HMAP26_66:026",
    "jp": "「わぁーっ！ 桃太郎さんが{n} はじめて つかった 胴 だって！{n} でも ボクには ぶかぶか だね！」{wait}",
-   "en": ""
+   "en": "\"Wow! It's the first breastplate Momotaro-san ever used! But it'd be way too big for me!\"{wait}"
   },
   {
    "id": "HMAP26_66:027",
    "jp": "「わあ！ 桃太郎さんが{n} はじめて はいた たび なのね！{n} とっても ステキ！」{wait}",
-   "en": ""
+   "en": "\"Oh! The first tabi Momotaro-san ever wore! They're just lovely!\"{wait}"
   },
   {
    "id": "HMAP26_66:028",
    "jp": "「へぇーっ！ 桃太郎さんが{n} はじめて あけた つづらねえ！」{n}{wait}{n}「おや！ 桃太郎さん！{n} 桃太郎さんは なにが{n} はいってたか 覚えてますか？」{wait}",
-   "en": ""
+   "en": "\"Whoa! The first wicker box Momotaro-san ever opened!\"{wait}\"Oh! Momotaro-san! Do you remember what was inside it?\"{wait}"
   },
   {
    "id": "HMAP26_66:029",
    "jp": "「へぇーっ！ 桃太郎さんが{n} つかってた おふとんかあっ！{n} いがいと ちっちゃいんだね！」{wait}",
-   "en": ""
+   "en": "\"Whoa! So this is the futon Momotaro-san slept on?! It's smaller than I thought!\"{wait}"
   },
   {
    "id": "HMAP26_66:030",
    "jp": "「うわあ！ びっくりした！{n} ボタンを 押したら 桃太郎さんの{n} 人形が 笑いだしたんだ！」{wait}",
-   "en": ""
+   "en": "\"Whoa! That startled me! I pressed the button and the Momotaro-san doll started laughing!\"{wait}"
   },
   {
    "id": "HMAP26_66:031",
    "jp": "「わあーっ！ 桃太郎さんが{n} 生まれた 桃なんだってー！{n} 本当に 桃から生まれたんだぁ！」{wait}{n}「すごいなーっ！ ビックリ！{n} でも かべの 『たべるな！』 が{n} なんか まぬけで おかしいねー！」{wait}",
-   "en": ""
+   "en": "\"Wow! This is the peach Momotaro-san was born from! He really was born from a peach!\"{wait}\"Amazing! What a surprise! But that 'DO NOT EAT!' sign on the wall is kinda dopey, huh!\"{wait}"
   },
   {
    "id": "HMAP26_66:032",
    "jp": "「ほほう 桃太郎さんが{n} はじめて お乳を{n} 飲ませてもらった 牛ですね！」{wait}{n}「しんせんな 牛乳は{n} 体に とても いいです からね！」{n}{wait}",
-   "en": ""
+   "en": "\"Oho, so this is the cow that gave Momotaro-san his very first milk!\"{wait}\"Fresh milk is very good for the body, after all!\"{wait}"
   },
   {
    "id": "HMAP26_66:033",
    "jp": "「やあ！ 桃太郎さん！{n} オラは もう 一日で{n} 300ぺんも みてしまいましたよ」{wait}",
-   "en": ""
+   "en": "\"Hey! Momotaro-san! I've already looked at it 300 times today alone!\"{wait}"
   },
   {
    "id": "HMAP26_66:034",
    "jp": "「へへへっ！ 桃太郎さん！」{n}{n}{wait}{n}「ボクは 桃太郎さんに{n} はじめて こらしめられた{n} 鬼として ちんれつされました！」{wait}{n}「やあっ！ ちょっと{n} てれちゃうなあっ！ へへへっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Heh heh! Momotaro-san!\"{wait}\"I'm on display as the very first oni Momotaro-san ever taught a lesson!\"{wait}\"Aw, gee! It's kinda embarrassing! Heh heh!\"{wait}"
   },
   {
    "id": "HMAP26_66:035",
    "jp": "「モー！ 恥ずかしいんだなモー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Moo! I'm so embarrassed, moo!\"{wait}"
   },
   {
    "id": "HMAP26_66:036",
    "jp": "「ボ ボクは オンチだよー ぷり！{n} あ！ キンチョーの あまり{n} セリフを まちがえちゃいました！」{wait}",
-   "en": ""
+   "en": "\"I-I'm Pooch, plop! Oh! I got so nervous I flubbed my line!\"{wait}"
   },
   {
    "id": "HMAP26_66:037",
    "jp": "「すごいねえ！ 桃太郎さん！」{n}{n}{wait}{n}「ボクも 大きくなったら こんな{n} 家 つくってもらえる 人に{n} なるんだ！ がんばるぞー！」{wait}",
-   "en": ""
+   "en": "\"Isn't this amazing, Momotaro-san!\"{wait}\"When I grow up, I'm gonna be somebody people build a house like this for! I'll do my best!\"{wait}"
   },
   {
    "id": "HMAP26_66:038",
    "jp": "「子供が 何度も ここへ{n} 連れて行けって{n} うるさいんですよ」{wait}",
-   "en": ""
+   "en": "\"My kid keeps pestering me to bring him here again and again.\"{wait}"
   },
   {
    "id": "HMAP26_66:039",
    "jp": "「おとうちゃーん！ おしっこー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Daddyyy! I gotta pee!\"{wait}"
   },
   {
    "id": "HMAP26_66:040",
    "jp": "「やあ！ 桃太郎さん！{n} ここは 子供の きょういくに{n} とても いいところですね！」{wait}",
-   "en": ""
+   "en": "\"Hello! Momotaro-san! This is a wonderful place for a child's education!\"{wait}"
   },
   {
    "id": "HMAP26_66:041",
    "jp": "「ホッホッホッ！{n} ワシは カラクリ人形師じゃ！」{n}{wait}{n}「この 博物館に おいてある{n} あんたたちの カラクリ人形は{n} ワシの じまんの作品 なのじゃ！」{wait}{n}「しかも 人形の となりにある{n} ボタンを しらべれば{n} なんと 人形が 動くのじゃよ！」{wait}{n}「どうじゃ すごいじゃろ？」{n}{n}",
-   "en": ""
+   "en": "\"Ho ho ho! I am a clockwork doll maker!\"{wait}\"The clockwork dolls of you all on display in this museum are my proudest works!\"{wait}\"What's more, if you examine the button next to each doll, why, the doll will move!\"{wait}\"How about that? Amazing, eh?\""
   },
   {
    "id": "HMAP26_66:042",
    "jp": "「ホッホッホッ！{n} 喜んで もらえると ワシも{n} 作ったかいが あるのぅ！」{wait}",
-   "en": ""
+   "en": "\"Ho ho ho! If you enjoy them, then making them was worth it!\"{wait}"
   },
   {
    "id": "HMAP26_66:043",
    "jp": "「ホッホッホッ！{n} やはり 目から 怪光線ぐらい{n} 出さねば つまらぬようじゃのぅ！」{wait}",
-   "en": ""
+   "en": "\"Ho ho ho! I suppose they're no fun unless they at least shoot mystery beams from their eyes!\"{wait}"
   },
   {
    "id": "HMAP26_66:044",
    "jp": "「ここはねー きんたろーさん{n} かんけーのねー ものをねー{n} あつめた てんじしつ なんだよ！」{wait}",
-   "en": ""
+   "en": "\"This roo-oom is where they put stu-uff that's got to do with Kintaro-sa-an!\"{wait}"
   },
   {
    "id": "HMAP26_66:045",
    "jp": "「へぇーっ！ 金太郎さんの{n} はらがけだっ！ おチンチンが{n} まるだしで かっちょわるー！」{wait}",
-   "en": ""
+   "en": "\"Whoa! Kintaro-san's bib apron! His willy's hanging right out, how uncool!\"{wait}"
   },
   {
    "id": "HMAP26_66:046",
    "jp": "「ふひゃーっ！ 金太郎さんが{n} 動かした 岩だべかー！{n} オラの 牛より 力持ちだべな！」{wait}",
-   "en": ""
+   "en": "\"Whoa! That there's the boulder Kintaro-san moved?! He's stronger than my cow, he is!\"{wait}"
   },
   {
    "id": "HMAP26_66:047",
    "jp": "「へぇ！ 金太郎さんが{n} はじめて つかった まさかりかぁ！{n} おらには 重くて もてねえな！」{wait}",
-   "en": ""
+   "en": "\"Hey! The first axe Kintaro-san ever used! It's way too heavy for me to lift!\"{wait}"
   },
   {
    "id": "HMAP26_66:048",
    "jp": "「ありゃりゃ！？ 金太郎さんが{n} はじめて はいた たびだって？{n} いつも はだしかと 思っていた！」{wait}",
-   "en": ""
+   "en": "\"Huh?! The first tabi Kintaro-san ever wore? I thought he always went barefoot!\"{wait}"
   },
   {
    "id": "HMAP26_66:049",
    "jp": "「いま 金太郎さんの 人形と{n} にらめっこを しているの！{n} にらめっこしましょ あっぷっぷ！」{wait}",
-   "en": ""
+   "en": "\"I'm having a staring contest with the Kintaro-san doll! Staring contest, don't you laugh... pbbbbt!\"{wait}"
   },
   {
    "id": "HMAP26_66:050",
    "jp": "「わたしは かってに{n} この カラクリ人形の 表情で{n} 今日の 占いを かんがえました！」{wait}{n}「ボクの かってな 占いの{n} やり方を きいてくれますか？」{n}",
-   "en": ""
+   "en": "\"I made up my own way to tell today's fortune from the faces of these clockwork dolls!\"{wait}\"Will you hear how my very own fortune-telling works?\""
   },
   {
    "id": "HMAP26_66:051",
    "jp": "「おどろいた顔の ときは{n} 意外なことが おこる日！」{n}{wait}{n}「泣いた顔の ときは{n} 悲しいことが おこる日！」{n}{wait}{n}「笑った顔の ときは{n} とても 楽しいことが おこる日！」{n}{wait}{n}「そして…{n} 怒った顔の ときは{n} なんと！ 誰かに 怒られる日！」{wait}{n}「どうですか すごいでしょう？{n} …え！ そのまんまですって！？{n} ひょえ～ 失礼しました～！！」{wait}",
-   "en": ""
+   "en": "\"When it makes a surprised face, it's a day when something unexpected happens!\"{wait}\"When it makes a crying face, it's a day when something sad happens!\"{wait}\"When it makes a laughing face, it's a day when something really fun happens!\"{wait}\"And... when it makes an angry face... get this! It's a day when somebody gets angry at you!\"{wait}\"Well? Isn't that amazing? ...What?! It's just what the faces show?! Eeek! S-sorry about thaaat!!\"{wait}"
   },
   {
    "id": "HMAP26_66:052",
    "jp": "「…そうですか さみしいです！{n} でも 気がむいたら いつでも{n} はなしかけて くださいね！」{wait}",
-   "en": ""
+   "en": "\"...I see. How lonely! But if you're ever in the mood, come talk to me anytime!\"{wait}"
   },
   {
    "id": "HMAP26_66:053",
    "jp": "「ここは 浦島さん かんけいの{n} ものを おいてある 展示室だっぺ！{n} ゆっくり 見ていくっぺよ！」{wait}",
-   "en": ""
+   "en": "\"This here's the exhibit room for things to do with Urashima-san! Take your time lookin' around, y'hear!\"{wait}"
   },
   {
    "id": "HMAP26_66:054",
    "jp": "「へぇーっ！ 浦島さんが{n} 釣った お魚サンのぎょたくだっ！{n} 大物だね！ さすが！」{wait}",
-   "en": ""
+   "en": "\"Whoa! An ink print of a fish Urashima-san caught! What a big one! That's Urashima-san for you!\"{wait}"
   },
   {
    "id": "HMAP26_66:055",
    "jp": "「まあ！ 浦島さんが{n} はじめて きた 着物ね！{n} こしみのが カワイイ！」{wait}",
-   "en": ""
+   "en": "\"Oh my! The first Kimono Urashima-san ever wore! The grass skirt is so cute!\"{wait}"
   },
   {
    "id": "HMAP26_66:056",
    "jp": "「ほほぅ！ 浦島さんの{n} 魚とり用の モリですか！{n} ていれも ピカイチですな！」{wait}",
-   "en": ""
+   "en": "\"Oho! Urashima-san's fishing Harpoon! And kept in tip-top shape, too!\"{wait}"
   },
   {
    "id": "HMAP26_66:057",
    "jp": "「フーム！ この わらじは{n} 浦島さんの 手作りなのじゃ！{n} きよう じゃのう！」{wait}",
-   "en": ""
+   "en": "\"Hmm! These straw sandals were handmade by Urashima-san himself! How clever!\"{wait}"
   },
   {
    "id": "HMAP26_66:058",
    "jp": "「ここは 夜叉姫さん かんけいの{n} ものを集めた 展示室です！」{n}{wait}{n}「この展示を とおして{n} 鬼と 人間が 理解しあえれば{n} いいですね！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"This is the exhibit room for things to do with Yashahime-san!\"{wait}\"I hope this exhibit helps oni and humans understand each other! Wouldn't that be nice, Momotaro-san?\"{wait}"
   },
   {
    "id": "HMAP26_66:059",
    "jp": "「これは 夜叉姫さんが{n} はじめて 作った おにぎりです！{n} おいしそうですよね！ ジュルル…」{wait}",
-   "en": ""
+   "en": "\"This is the first rice ball Yashahime-san ever made! Looks tasty, doesn't it! Slurp...\"{wait}"
   },
   {
    "id": "HMAP26_66:060",
    "jp": "「わあ 夜叉姫さんが{n} はじめて 着た 着物ね！{n} きれいだな～ いいな～」{wait}",
-   "en": ""
+   "en": "\"Wow, the first Kimono Yashahime-san ever wore! So pretty... I want one...\"{wait}"
   },
   {
    "id": "HMAP26_66:061",
    "jp": "「あら！ きれいな かんざしね！{n} まあ！ 夜叉姫さんが{n} はじめて 使ったものなのね！」{wait}",
-   "en": ""
+   "en": "\"Oh! What a pretty hairpin! My! It's the first one Yashahime-san ever used!\"{wait}"
   },
   {
    "id": "HMAP26_66:062",
    "jp": "「ボクは この展示を とおして{n} 一つ わかった事が あります！」{n}{wait}{n}「それは{n} 鬼と人間は なかよくできる！{n} ということです！」{wait}{n}「その しょうこに となりの{n} 鬼と 友達になれたのですから！」{n}{wait}",
-   "en": ""
+   "en": "\"Through this exhibit, I've come to understand one thing!\"{wait}\"And that is... oni and humans can be friends!\"{wait}\"The proof is that I've made friends with the oni next to me!\"{wait}"
   },
   {
    "id": "HMAP26_66:063",
    "jp": "「桃太郎さんと 夜叉姫様が{n} わかりあえたように ボクにも{n} 人間の友達が できました！」{wait}{n}「今まで 人間に 迷惑をかけた{n} ことを恥じて 今後は 人間と{n} 力を合わせて 生きて いきます！」{wait}",
-   "en": ""
+   "en": "\"Just as Momotaro-san and Yashahime-sama came to understand each other, I've made a human friend too!\"{wait}\"I'm ashamed of all the trouble I've caused humans until now. From here on, I'll live working hand in hand with them!\"{wait}"
   },
   {
    "id": "HMAP26_66:064",
    "jp": "「こんにちは！ 桃太郎さん！{n} え！？ そこの くす玉ですか？{n} うふふ 今は ヒミツですよ！」{wait}",
-   "en": ""
+   "en": "\"Hello! Momotaro-san! Huh?! The party ball over there? Hee hee, that's a secret for now!\"{wait}"
   },
   {
    "id": "HMAP26_66:065",
    "jp": "「桃太郎さんの 旅のご無事を{n} お祈り します！」{n}{wait}",
-   "en": ""
+   "en": "\"I pray for your safe travels, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP26_66:066",
    "jp": "「これは これは 桃太郎さん！{n} ここでは 桃太郎さんの{n} 歩いた 歩数を 記録しています！」{wait}{n}「ただいま 桃太郎さんは{n} {num}歩 歩いています！{n} これからも がんばってください！」{wait}",
-   "en": ""
+   "en": "\"Well, well, Momotaro-san! Here we keep a record of how many steps Momotaro-san has walked!\"{wait}\"At present, Momotaro-san has walked {num} steps! Keep up the good work!\"{wait}"
   },
   {
    "id": "HMAP26_66:067",
    "jp": "「これは これは 桃太郎さん！{n} ここでは 桃太郎さんの{n} 歩いた 歩数を 記録しています！」{wait}{n}「すでに 桃太郎さんは{n} 10000000歩以上{n} 歩いています！」{wait}{n}「これからも がんばってください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Well, well, Momotaro-san! Here we keep a record of how many steps Momotaro-san has walked!\"{wait}\"Momotaro-san has already walked over 10,000,000 steps!\"{wait}\"Keep up the good work!\"{wait}"
   },
   {
    "id": "HMAP26_66:068",
    "jp": "「これは これは 桃太郎さん！{n} ここでは 桃太郎さんの{n} 歩いた 歩数を 記録しています！」{wait}{n}「ただいま 桃太郎さんは{n} {num}歩 歩いています！」{n}{wait}",
-   "en": ""
+   "en": "\"Well, well, Momotaro-san! Here we keep a record of how many steps Momotaro-san has walked!\"{wait}\"At present, Momotaro-san has walked {num} steps!\"{wait}"
   },
   {
    "id": "HMAP26_66:069",
    "jp": "「まあ！ 桃太郎さん！{n} 総歩数が 3万歩をこえましたね！{n} ささっ！ こちらへ どうぞ！」{wait}",
-   "en": ""
+   "en": "\"Oh my! Momotaro-san! Your total steps have passed 30,000! Come, come! This way, please!\"{wait}"
   },
   {
    "id": "HMAP26_66:070",
    "jp": "「桃太郎さん！ 3万歩達成{n} おめでとうーーーーー！！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Congratulations on 30,000 steeeeeps!!\"{wait}"
   },
   {
    "id": "HMAP26_66:071",
    "jp": "「こちら 記念品です{n} どうぞ おうけとり ください！」{n}{wait}",
-   "en": ""
+   "en": "\"Here is a commemorative gift. Please accept it!\"{wait}"
   },
   {
    "id": "HMAP26_66:072",
    "jp": "桃太郎は{n}{col4}金歩の玉{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Goldstep Orb{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP26_66:073",
    "jp": "「ここでは 桃太郎さんたちが{n} 今 何匹 鬼を こらしめたか{n} わかるように なっています！」{wait}{n}「ちなみに 今{n} {num}匹目 です！{n} これからも がんばってくださいネ」{wait}",
-   "en": ""
+   "en": "\"Here you can see how many oni Momotaro-san and friends have taught a lesson so far!\"{wait}\"By the way, the count is now at {num}! Keep up the good work!\"{wait}"
   },
   {
    "id": "HMAP26_66:074",
    "jp": "「ここでは 桃太郎さんたちが{n} 今 何匹 鬼を こらしめたか{n} わかるように なっています！」{wait}{n}「すでに{n} 10000000匹以上{n} こらしめています！」{wait}{n}「これからも がんばってくださいネ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Here you can see how many oni Momotaro-san and friends have taught a lesson so far!\"{wait}\"You've already taught over 10,000,000 oni a lesson!\"{wait}\"Keep up the good work!\"{wait}"
   },
   {
    "id": "HMAP26_66:075",
    "jp": "「ここでは 桃太郎さんたちが{n} 今 何匹 鬼を こらしめたか{n} わかるように なっています！」{wait}{n}「ちなみに 今{n} {num}匹目 です！」{n}{wait}",
-   "en": ""
+   "en": "\"Here you can see how many oni Momotaro-san and friends have taught a lesson so far!\"{wait}\"By the way, the count is now at {num}!\"{wait}"
   },
   {
    "id": "HMAP26_66:076",
    "jp": "「まあ！ 桃太郎さん！{n} こらしめた数が {num}匹を{n} こえましたね！」{wait}{n}「ささっ！ こちらへ どうぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Oh my! Momotaro-san! The oni you've taught a lesson now number over {num}!\"{wait}\"Come, come! This way, please!\"{wait}"
   },
   {
    "id": "HMAP26_66:077",
    "jp": "「桃太郎さん！ {num}匹達成{n} おめでとうーーーーー！！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Congratulations on reaching {num} oniiiii!!\"{wait}"
   },
   {
    "id": "HMAP26_66:078",
    "jp": "「桃太郎さん 達成の記念に{n} これを おうけとり ください！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san, please accept this to mark your achievement!\"{wait}"
   },
   {
    "id": "HMAP26_66:079",
    "jp": "桃太郎は{n}{col4}{str}{col0}を 手に入れた！{n}{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP26_66:080",
    "jp": "「くす玉を 戻して おきますね」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'll put the party ball back, then.\"{wait}"
   },
   {
    "id": "HMAP26_66:081",
    "jp": "「お祝いの じゅんびが{n} できてるんですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"The celebration is all ready for you!\"{wait}"
   },
   {
    "id": "HMAP26_66:082",
    "jp": "「でも 貸し衣装のままで{n} お祝いするのは ちょっと…」{n}{wait}",
-   "en": ""
+   "en": "\"But celebrating while you're still in a rental costume is a bit...\"{wait}"
   },
   {
    "id": "HMAP26_66:083",
    "jp": "「どうぞ きがえてから{n} もう一度 きてくださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Please change and then come back again!\"{wait}"
   },
   {
    "id": "HMAP26_66:084",
    "jp": "「へぇー 夜叉姫さんが{n} はいていた わらじかあ{n} 女の子らしく サイズは小ですね！」{wait}",
-   "en": ""
+   "en": "\"Whoa, the straw sandals Yashahime-san wore! A dainty size small, just like a girl's!\"{wait}"
   },
   {
    "id": "HMAP26_66:085",
    "jp": "桃太郎の人形が{n}動き出した！{wait}",
-   "en": ""
+   "en": "The Momotaro doll started moving!{wait}"
   },
   {
    "id": "HMAP26_66:086",
    "jp": "金太郎の人形が{n}動き出した！{wait}",
-   "en": ""
+   "en": "The Kintaro doll started moving!{wait}"
   },
   {
    "id": "HMAP26_66:087",
    "jp": "浦島の人形が{n}動き出した！{wait}",
-   "en": ""
+   "en": "The Urashima doll started moving!{wait}"
   },
   {
    "id": "HMAP26_66:088",
    "jp": "夜叉姫の人形が{n}動き出した！{wait}",
-   "en": ""
+   "en": "The Yashahime doll started moving!{wait}"
   },
   {
    "id": "HMAP26_66:089",
    "jp": "「ようこそ！{n} スライド館へ！！」{n}{wait}{n}「ここでは 今までの{n} 桃太郎さんたちの 活躍を{n} 見ることが できます！」{wait}{n}「うふふ！{n} そんなに てれずに{n} 見ていきませんか？」",
-   "en": ""
+   "en": "\"Welcome to the Slide Hall!!\"{wait}\"Here you can see all the exploits of Momotaro-san and friends so far!\"{wait}\"Hee hee! Don't be so shy. Won't you take a look?\""
   },
   {
    "id": "HMAP26_66:090",
    "jp": "「ありがとうございます！{n} わたしも はりきって{n} ナレーションを しますね！」{wait}",
-   "en": ""
+   "en": "\"Thank you very much! I'll give the narration my all!\"{wait}"
   },
   {
    "id": "HMAP26_66:091",
    "jp": "「ありがとうございました！{n} また いつでも 見にきて{n} くださいね！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Come see it again anytime, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP26_66:092",
    "jp": "「そうですか 残念ですね…{n} でも 気が向いたら いつでも{n} 見にきてくださいね！」{wait}",
-   "en": ""
+   "en": "\"I see, that's too bad... But come see it anytime you're in the mood!\"{wait}"
   },
   {
    "id": "HMAP26_66:093",
    "jp": "「ふふ われながら{n} 桃太郎さんたちの ご活躍が{n} よく とれていますわ！」{wait}",
-   "en": ""
+   "en": "\"Hee hee, if I do say so myself, I captured the exploits of Momotaro-san and friends beautifully!\"{wait}"
   },
   {
    "id": "HMAP26_66:094",
    "jp": "「…え！？ まあ！ 桃太郎さん！{n} もう スライドは{n} ごらんに なられました？」",
-   "en": ""
+   "en": "\"...Oh?! My! Momotaro-san! Have you seen the slides yet?\""
   },
   {
    "id": "HMAP26_66:095",
    "jp": "「実は このスライドは{n} わたくしが カメラに おさめた{n} ものを うつして いますのよ！」{wait}{n}「いかがです？ みなさん 勇ましく{n} とれて いますでしょ！」{n}{wait}{n}「新たな ご活躍が ありましたら{n} スライドも ふえますので{n} また いらしてくださいね！」{wait}",
-   "en": ""
+   "en": "\"Actually, these slides show pictures I took with my own camera!\"{wait}\"What do you think? Doesn't everyone look so brave?\"{wait}\"When you have new exploits, there'll be more slides, so please come again!\"{wait}"
   },
   {
    "id": "HMAP26_66:096",
    "jp": "「そうなのですか…{n} わたくしは ぜひ ごらんに{n} なることを おすすめしますわ！」{wait}",
-   "en": ""
+   "en": "\"Is that so... I really do recommend you see them!\"{wait}"
   },
   {
    "id": "HMAP26_66:097",
    "jp": "「こんにちわ 桃太郎さん！{n} さすがの わたくしも えんまを{n} とるのは 少々苦労しましたわ！」{wait}{n}「でも 最高の 絵が{n} とれましたので{n} このうえなく 満足ですわ！」{wait}{n}「桃太郎さん！{n} ご存じでしょうが えんまは{n} とても 恐ろしい相手です！」{wait}{n}「おのれを じゅうぶんに みがき{n} えんまに いどんで ください！{n} ごぶうんを お祈りしますわ！」{wait}",
-   "en": ""
+   "en": "\"Good day, Momotaro-san! Even I had a bit of trouble photographing Enma!\"{wait}\"But I got the very best picture, so I couldn't be more satisfied!\"{wait}\"Momotaro-san! As you surely know, Enma is a truly fearsome foe!\"{wait}\"Polish yourselves thoroughly before you challenge Enma! I pray for your good fortune!\"{wait}"
   },
   {
    "id": "HMAP26_66:098",
    "jp": "「わたしは おとなりにいる{n} おじょうさまの お目付役です！」{n}{wait}{n}「おじょうさまは あなたたちの{n} 活躍を カメラに とることを{n} いきがいと しています！」{wait}{n}「それは かまわないのですが…{n} このまま あなたたちを 追って{n} 鬼が島に 行きそうで 心配です！」{wait}",
-   "en": ""
+   "en": "\"I am chaperone to the young lady beside me!\"{wait}\"The young lady lives for taking pictures of your exploits with her camera!\"{wait}\"I don't mind that, but... I worry she'll follow you all the way to Onigashima at this rate!\"{wait}"
   },
   {
    "id": "HMAP26_66:099",
    "jp": "「ああ！ わたしの 目を ぬすみ{n} いつのまにか 鬼が島まで{n} 行かれて いたのか…」{wait}{n}「無事に お帰り でしたので{n} ひとまずは 安心しましたが{n} 寿命が 10年は 縮みました！」{wait}",
-   "en": ""
+   "en": "\"Oh! So she slipped out from under my nose and went all the way to Onigashima...\"{wait}\"She came home safe, so I'm relieved for now, but it took ten years off my life!\"{wait}"
   },
   {
    "id": "HMAP26_66:100",
    "jp": "「あんさんらの 活躍スライド{n} 見せて もらいましたでぇ！{n} 若いのに すごいでんなあ！」{wait}{n}「よっしゃ！{n} 旅のせんべつに{n} これ とっとき！ とっとき！」{wait}",
-   "en": ""
+   "en": "\"I saw the slides of yer exploits, I did! Pretty amazin' for such young folks!\"{wait}\"Awright! Here's a little send-off gift for yer journey. Take it! Take it!\"{wait}"
   },
   {
    "id": "HMAP26_66:101",
    "jp": "桃太郎は{n}{col4}ふにゃらの玉{col0}を{n}手に入れた！{c19}{wait}{n}「道中 気いつけるんやで！{n} じゃあ 桃太郎さん ほなな～！」{n}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Soften Orb{col0}!{c19}{wait}\"Watch yerself on the road! See ya, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP26_66:102",
    "jp": "「道中 つらくなったら ワイの{n} ダンディな 顔を 思い出して{n} がんばるんやで！ ほなな～！」{wait}",
-   "en": ""
+   "en": "\"If the road gets tough, just picture my dashing face and hang in there! See ya!\"{wait}"
   },
   {
    "id": "HMAP26_66:103",
    "jp": "「はっはっはっ！{n} よく きたな 桃太郎！{n} オレさまが ぎんのおにだ！」{wait}",
-   "en": ""
+   "en": "\"Ha ha ha! So you came, Momotaro! I'm the Silver Oni!\"{wait}"
   },
   {
    "id": "HMAP26_66:104",
    "jp": "「えーい！ ももたろう ぱーんち！{n} てや！ ももたろう きぃーっく！」{n}{wait}{n}「いまだ！ ほうひのじゅつぅー！！」{c19}{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hyaah! Momotaro Punch! Take that! Momotaro Kiiick!\"{wait}\"Now! Fart aaaart!!\"{c19}{wait}"
   },
   {
    "id": "HMAP26_66:105",
    "jp": "「桃太郎さん！ くさいですよ！{n} …アハハハハッ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! That stinks! ...Ahahahaha!\"{wait}"
   },
   {
    "id": "HMAP26_66:106",
    "jp": "「きゃあ！ きゃあ！{n} 桃太郎さん ステキ～！」{n}{wait}",
-   "en": ""
+   "en": "\"Kyaa! Kyaa! Momotaro-san, you're so dreamy!\"{wait}"
   },
   {
    "id": "HMAP26_66:107",
    "jp": "「あ～ん！{n} 後ろの 子供たちが うるさくて{n} 彼の ことばが 聞こえないわ～！」{wait}",
-   "en": ""
+   "en": "\"Ohh! The kids behind us are so noisy I can't hear what he's saying!\"{wait}"
   },
   {
    "id": "HMAP26_66:108",
    "jp": "「今日こそ 勇気を出して 言うよ…{n} け…けっ… けっこんしよう！！！{n} と とうとう 言えたぞ！！」{wait}",
-   "en": ""
+   "en": "\"Today I'll work up the courage and say it... W-will... will you m-marry me!!! I-I finally said it!!\"{wait}"
   },
   {
    "id": "HMAP26_66:109",
    "jp": "「ホウ！ ホウ！{n} 今日は どんな 活躍を{n} 見せてくれるのか 楽しみじゃ！」{wait}",
-   "en": ""
+   "en": "\"Hoo! Hoo! I wonder what exploits they'll show us today! I can't wait!\"{wait}"
   },
   {
    "id": "HMAP26_66:110",
    "jp": "「あ 桃太郎さんだ！{n} 今度 ひえんの術を{n} 教えてよ～」",
-   "en": ""
+   "en": "\"Oh, it's Momotaro-san! Teach me the Warp art sometime!\""
   },
   {
    "id": "HMAP26_66:111",
    "jp": "「わ～い！ わ～い！{n} これで 母ちゃんに つかまっても{n} 簡単に 逃げられるぞ！」{wait}",
-   "en": ""
+   "en": "\"Yay! Yay! Now even if Mom catches me, I can get away easy!\"{wait}"
   },
   {
    "id": "HMAP26_66:112",
    "jp": "「え～ん！ え～ん！{n} ボクも 人の役に たてるように{n} なりたかった だけなのにぃ～！」{wait}",
-   "en": ""
+   "en": "\"Waaah! Waaah! All I wanted was to be useful to people tooooo!\"{wait}"
   },
   {
    "id": "HMAP26_66:113",
    "jp": "「うちの 子は ウソばかり{n} つくので 困っているんですよ！{n} 桃太郎さんも 気をつけてね！」{wait}",
-   "en": ""
+   "en": "\"My kid tells nothing but lies, it's a real headache! You watch out too, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP26_66:114",
    "jp": "「わ～い！ わ～い！{n} いっちばん まえだ～！{n} いっちばん まえだ～！」{wait}",
-   "en": ""
+   "en": "\"Yay! Yay! We're at the ve-ery front! The ve-ery front!\"{wait}"
   },
   {
    "id": "HMAP26_66:115",
    "jp": "「わーい！ わーい！{n} 一番 前だー！{n} 一番 前だー！」{wait}",
-   "en": ""
+   "en": "\"Yay! Yay! Front row! Front row!\"{wait}"
   },
   {
    "id": "HMAP26_66:116",
    "jp": "「こら！ 二人とも{n} がっしょうを やめなさい！{n} みんなの 迷惑でしょう！」{wait}",
-   "en": ""
+   "en": "\"Hey! You two, stop that chanting! You're bothering everyone!\"{wait}"
   },
   {
    "id": "HMAP26_66:117",
    "jp": "「うわーっ！ 失敗した！{n} ここからは 遠すぎて{n} スクリーンが よく見えない！」{wait} ",
-   "en": ""
+   "en": "\"Aaagh! I blew it! It's too far from here, I can't see the screen!\"{wait}"
   },
   {
    "id": "HMAP26_66:118",
    "jp": "「うおおおおおおおおおおおおおっ！{n} あ… あ… 足が しびれた～！！」{n}{wait}",
-   "en": ""
+   "en": "\"Wooooooooooooooooh! M-m-my legs fell asleep!!\"{wait}"
   },
   {
    "id": "HMAP26_66:119",
    "jp": "「となりの 人が さけんでいるが{n} どうか したのかのう？」{n}{wait}",
-   "en": ""
+   "en": "\"The fellow next to me is shouting. Is something the matter with him?\"{wait}"
   },
   {
    "id": "HMAP26_66:120",
    "jp": "「いやあ 早く ババーンっと{n} はじまらないっぺかな？{n} とても たのしみだっぺよ！」{wait}",
-   "en": ""
+   "en": "\"Ooh, I wonder when it'll start with a big ba-boom? I'm right lookin' forward to it!\"{wait}"
   },
   {
    "id": "HMAP26_66:121",
    "jp": "「ウェルカム！{n} ここは 今 一番ホットな クラブ{n} 『ピーチ ボーイ』だぜ！」{wait}{n}「そこにある ジュークボックスで{n} ゴキゲンな 曲を かける事が{n} できるんだぜ！ イェーッ！」{wait}",
-   "en": ""
+   "en": "\"Welcome! This is the hottest club around, 'Peach Boy'!\"{wait}\"You can play some groovy tunes on that jukebox there! Yeah!\"{wait}"
   },
   {
    "id": "HMAP26_66:122",
    "jp": "「これだ！ これだぜ！{n} オレが もとめている ビートは！{n} スパーーーーーーーーークッ！！」{wait}",
-   "en": ""
+   "en": "\"This is it! This is it! The beat I've been looking for! Spaaaaaaaaaaark!!\"{wait}"
   },
   {
    "id": "HMAP26_66:123",
    "jp": "「ここに くると{n} 体中に エナジーが{n} みなぎるぜ！ ワオッ！」{wait}",
-   "en": ""
+   "en": "\"Whenever I come here, my whole body's charged with energy! Wow!\"{wait}"
   },
   {
    "id": "HMAP26_66:124",
    "jp": "「ひゅ～らり ひゅらひゅら{n} ひゅひゅ らりら！{n} おお！ 調子がいいですぞ！」{wait}",
-   "en": ""
+   "en": "\"Swishy-swish, swirly-swirl, swish-swish swirly-dee! Oh! I'm in fine form!\"{wait}"
   },
   {
    "id": "HMAP26_66:125",
    "jp": "「おお！ その いでたちは{n} わたしに たいする 挑戦ですな！{n} 負けませんぞ～！ ひゅら～！！」{wait}",
-   "en": ""
+   "en": "\"Oh! That outfit of yours is a challenge to me! I won't lose! Swirly-deee!!\"{wait}"
   },
   {
    "id": "HMAP26_66:126",
    "jp": "「マスター いつもの！」{n}{n}{wait}{n}「そう！ ミルクよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bartender, the usual!\"{wait}\"That's right! Milk!\"{wait}"
   },
   {
    "id": "HMAP26_66:127",
    "jp": "「あ！ カッコイイ！{n} わたしと いっしょに{n} ミルクでも どうかしら？」{wait}",
-   "en": ""
+   "en": "\"Oh! How cool! Care to have a glass of milk with me?\"{wait}"
   },
   {
    "id": "HMAP26_66:128",
    "jp": "「ランランラン ラランララン！{n} ダンスって たのしい！」{n}{wait}",
-   "en": ""
+   "en": "\"La la la, la-la la-la-la! Dancing is so fun!\"{wait}"
   },
   {
    "id": "HMAP26_66:129",
    "jp": "「キャッ！ ステキ！！{n} ア～ン！ しっぱい しちゃった！{n} エヘヘ！ 今日は サッパリね！」{wait}",
-   "en": ""
+   "en": "\"Eek! How dreamy!! Aww! I messed up! Tee hee! I'm just no good today!\"{wait}"
   },
   {
    "id": "HMAP26_66:130",
    "jp": "「みんな ユーロビートに{n} ハマっているけど わたしは{n} やっぱり ビジュアル系ね！」{wait}",
-   "en": ""
+   "en": "\"Everyone's into Eurobeat, but for me, it's visual kei all the way!\"{wait}"
   },
   {
    "id": "HMAP26_66:131",
    "jp": "「キャ～～～～～～～～～～！！！{n} ステキ～～～！ キャ～～！！！」{n}{wait}",
-   "en": ""
+   "en": "\"Kyaaaaaaaaaaa!!! So dreamyyyy! Kyaaaa!!!\"{wait}"
   },
   {
    "id": "HMAP26_66:132",
    "jp": "「いらっしゃいませ！{n} ごゆっくり どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcome! Please enjoy yourself!\"{wait}"
   },
   {
    "id": "HMAP26_66:133",
    "jp": "「ほええ！ オラ こんな{n} きらびやかな 場所に {n} くるのは はじめてだぁ！」{wait}",
-   "en": ""
+   "en": "\"Whoa! This is my first time in such a dazzlin' place!\"{wait}"
   },
   {
    "id": "HMAP26_66:134",
    "jp": "「あーん！ ずっと ここに{n} かよっているのに ステップが{n} 覚えられなーい！」{wait}",
-   "en": ""
+   "en": "\"Waah! I've been coming here forever, but I just can't learn the steps!\"{wait}"
   },
   {
    "id": "HMAP26_66:135",
    "jp": "「あ！ あなた 知っているわ！{n} 今 はやりの カジュアル系ね！{n} あら ちょっと ちがったかしら？」{wait}",
-   "en": ""
+   "en": "\"Oh! I know you! You're that casual kei look that's all the rage! Oh, or was that not quite it?\"{wait}"
   },
   {
    "id": "HMAP26_66:136",
    "jp": "「こんな お店が あるなんて{n} さすが 希望の都 ですね！」{n}{wait}",
-   "en": ""
+   "en": "\"Fancy a shop like this! That's the Capital of Hope for you!\"{wait}"
   },
   {
    "id": "HMAP26_66:137",
    "jp": "「桃太郎さんは{n} 踊らないの？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san, aren't you going to dance?\"{wait}"
   },
   {
    "id": "HMAP26_66:138",
    "jp": "「ここで 一度 踊ったら{n} 都踊りなんて ダサくって！」{n}{wait}",
-   "en": ""
+   "en": "\"Once you've danced here, the Capital Dance is just so lame!\"{wait}"
   },
   {
    "id": "HMAP26_66:139",
    "jp": "「まあ！ イケテルわね{n} あんた達！ でも なんで{n} 同じ顔なの？」{wait}",
-   "en": ""
+   "en": "\"Oh my! You two are looking sharp! But why do you have the same face?\"{wait}"
   },
   {
    "id": "HMAP26_66:140",
    "jp": "「夜叉姫さんが 踊れば{n} きっと 一番の 人気者に{n} なれますよ！」{wait}",
-   "en": ""
+   "en": "\"If Yashahime-san danced, I bet she'd be the most popular one here!\"{wait}"
   },
   {
    "id": "HMAP26_66:141",
    "jp": "「そうさのう！ こういう 店は{n} わしには よぉ わからんよ」{n}{wait}",
-   "en": ""
+   "en": "\"Well now! I don't rightly understand places like this.\"{wait}"
   },
   {
    "id": "HMAP26_66:142",
    "jp": "「おじいさんったら{n} せっかく きたのに{n} かえりたがって ばっかり！」{wait}",
-   "en": ""
+   "en": "\"Honestly, Grandpa! We finally came all this way and all you want is to go home!\"{wait}"
   },
   {
    "id": "HMAP26_66:143",
    "jp": "「おっ！ あそこで 踊ってる{n} 女の子 かわいいな！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! That girl dancing over there is cute!\"{wait}"
   },
   {
    "id": "HMAP26_66:144",
    "jp": "「あ！ それ！{n} ツイスト ツイスト！{n} なーんか ちがうなあ！」{wait}",
-   "en": ""
+   "en": "\"Ah, there! Twist, twist! ...Hmm, something's not right!\"{wait}"
   },
   {
    "id": "HMAP26_66:145",
    "jp": "「ホゥーッ！{n} オレのダンス イカスだろ？{n} 月面をサンポ っていうんだぜ！」{wait}",
-   "en": ""
+   "en": "\"Hoooo! My dance is slick, right? It's called the Moonwalk!\"{wait}"
   },
   {
    "id": "HMAP26_66:146",
    "jp": "「プッ！{n} となりの 人のダンスって{n} ふっる～い！」{wait}",
-   "en": ""
+   "en": "\"Pfft! The dance the guy next to me is doing is sooo old-fashioned!\"{wait}"
   },
   {
    "id": "HMAP26_66:147",
    "jp": "「…………………………ほれたわ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"......................I'm in love!\"{wait}"
   },
   {
    "id": "HMAP26_66:148",
    "jp": "「フゥ～{n} ダンスを やったけん{n} ばりっと つかれたばい！」{wait}",
-   "en": ""
+   "en": "\"Whew! All that dancin's got me plumb tuckered out, it has!\"{wait}"
   },
   {
    "id": "HMAP26_66:149",
    "jp": "「この階には おしゃれな{n} 店が 多いのよね！」{n}{wait}",
-   "en": ""
+   "en": "\"There are lots of stylish shops on this floor!\"{wait}"
   },
   {
    "id": "HMAP26_66:150",
    "jp": "「かけじくに かいてある{n} ことわざって ために{n} なるよね！」{wait}{n}「ボク まとめて よんだら{n} おりこうさんに なったよ！」{n}{wait}",
-   "en": ""
+   "en": "\"The proverbs on the hanging scrolls are really educational!\"{wait}\"I read them all in one go and got super smart!\"{wait}"
   },
   {
    "id": "HMAP26_66:151",
    "jp": "「やあ！ 桃太郎さんの{n} 活躍 たっぷり{n} はいけんしましたよ！」{wait}",
-   "en": ""
+   "en": "\"Hello! I've seen plenty of Momotaro-san's exploits!\"{wait}"
   },
   {
    "id": "HMAP26_66:152",
    "jp": "「きょうは すてきな おんがくを{n} ききに きたのよ！」{n}{wait}",
-   "en": ""
+   "en": "\"I came to listen to some lovely music today!\"{wait}"
   },
   {
    "id": "HMAP26_66:153",
    "jp": "「かけじくも スライドも{n} おんがくも すこしずつ{n} ふえていきます！」{wait}{n}「たまには ここに{n} もどってみると{n} いいでしょう！」{wait}",
-   "en": ""
+   "en": "\"The hanging scrolls, the slides and the music will all grow little by little!\"{wait}\"It'd be good to come back here once in a while!\"{wait}"
   },
   {
    "id": "HMAP26_66:154",
    "jp": "かけたい 曲を えらんで ください！{n}○ボタン：曲をならす{n}×ボタン：やめる",
-   "en": ""
+   "en": "Please choose a song to play!{n}Circle: Play the song{n}Cross: Quit"
   },
   {
    "id": "HMAP26_66:155",
    "jp": "やめますか？{n}{n}",
-   "en": ""
+   "en": "Quit?"
   },
   {
    "id": "HMAP26_66:156",
    "jp": "「コノ 階段ヲ オリルト{n} 水泳大会会場ニ イクアルヨ！{n} ソレトモ 3階ニ イクアルカ？」",
-   "en": ""
+   "en": "\"Go down these stairs-a, you go to swim meet, yes! Or you go to 3rd floor-a?\""
   },
   {
    "id": "HMAP26_66:157",
    "jp": "「水泳大会会場ニ イクアルカ？」{n}{n}",
-   "en": ""
+   "en": "\"You go to Swim Meet, yes?\""
   },
   {
    "id": "HMAP26_66:158",
    "jp": "「イラッシャイ アル！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Welcome-a, yes!\"{wait}"
   },
   {
    "id": "HMAP26_66:159",
    "jp": "「ドウスル アルネ？」{n}{n}",
-   "en": ""
+   "en": "\"What you do, yes?\""
   },
   {
    "id": "HMAP26_66:160",
    "jp": "「3階ニ イクアルネ？」{n}{n}",
-   "en": ""
+   "en": "\"You go to 3rd floor-a, yes?\""
   },
   {
    "id": "HMAP26_66:161",
    "jp": "「ドウゾ オ通リ クダサイアル！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Please, go through, yes!\"{wait}"
   },
   {
    "id": "HMAP26_66:162",
    "jp": "「ドウスル アルネ？」{n}{n}",
-   "en": ""
+   "en": "\"What you do, yes?\""
   },
   {
    "id": "HMAP26_66:163",
    "jp": "水泳大会会場にいく",
-   "en": ""
+   "en": "Go to the Swim Meet"
   },
   {
    "id": "HMAP26_66:164",
    "jp": "3階にいく",
-   "en": ""
+   "en": "Go to 3rd floor"
   },
   {
    "id": "HMAP26_66:165",
    "jp": "「のれんに 梅干し」{n}{wait}",
-   "en": ""
+   "en": "\"Like water off a duck's backpack.\"{wait}"
   },
   {
    "id": "HMAP26_66:166",
    "jp": "「目の上の 炭坑節」{n}{wait}",
-   "en": ""
+   "en": "\"A thorn in my sideburns.\"{wait}"
   },
   {
    "id": "HMAP26_66:167",
    "jp": "「猫に こんばんわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Pearls before swine... good evening, swine!\"{wait}"
   },
   {
    "id": "HMAP26_66:168",
    "jp": "「朱に 交われば{n} 赤上げないで 白下げない！」{wait}",
-   "en": ""
+   "en": "\"You are known by the company you keep... raise the red flag, don't lower the white!\"{wait}"
   },
   {
    "id": "HMAP26_66:169",
    "jp": "「出るくそは ふかれる！{n} きたね～～～～～！」{wait}",
-   "en": ""
+   "en": "\"The poop that sticks out gets wiped! Grooooooss!\"{wait}"
   },
   {
    "id": "HMAP26_66:170",
    "jp": "「旅の恥は かき食う客だ！」{n}{wait}",
-   "en": ""
+   "en": "\"When in Rome, eat persimmons!\"{wait}"
   },
   {
    "id": "HMAP26_66:171",
    "jp": "「のれんに 秀吉！」{n}{wait}",
-   "en": ""
+   "en": "\"Like water off Hideyoshi's back!\"{wait}"
   },
   {
    "id": "HMAP26_66:172",
    "jp": "「取らぬ タヌキの 皮ジャンパー」{n}{wait}",
-   "en": ""
+   "en": "\"Don't count your chickens before they're leather jackets.\"{wait}"
   },
   {
    "id": "HMAP26_66:173",
    "jp": "「能ある タカは{n} つめ将棋を する」{wait}",
-   "en": ""
+   "en": "\"A clever hawk hides its talons... and solves chess puzzles!\"{wait}"
   },
   {
    "id": "HMAP26_66:174",
    "jp": "「逃がした 魚は 泳いでる」{n}{wait}",
-   "en": ""
+   "en": "\"The one that got away is still swimming.\"{wait}"
   },
   {
    "id": "HMAP26_66:175",
    "jp": "「仏の顔も…{n} サンドイッチいかがっすか～～～！」{wait}",
-   "en": ""
+   "en": "\"Three strikes and... Sandwiches! Get yer sandwiiiiches!\"{wait}"
   },
   {
    "id": "HMAP26_66:176",
    "jp": "「胃の中の おかず{n} 大海を 知らず」{wait}",
-   "en": ""
+   "en": "\"Big fish in a small stomach.\"{wait}"
   },
   {
    "id": "HMAP26_66:177",
    "jp": "「年寄りの 鼻水」{n}{wait}",
-   "en": ""
+   "en": "\"There's no snot like an old snot.\"{wait}"
   },
   {
    "id": "HMAP26_66:178",
    "jp": "「わらをも つかむ いきおい！」{n}{wait}",
-   "en": ""
+   "en": "\"Grasping at straws with gusto!\"{wait}"
   },
   {
    "id": "HMAP26_66:179",
    "jp": "「三歩下がって 師の影を{n} ふんだりけったり！」{wait}",
-   "en": ""
+   "en": "\"Walk three steps behind your teacher... and stomp and kick his shadow!\"{wait}"
   },
   {
    "id": "HMAP26_66:180",
    "jp": "「花より だんごっ鼻！」{n}{wait}",
-   "en": ""
+   "en": "\"Dumplings over flowers... and a nose like a dumpling!\"{wait}"
   },
   {
    "id": "HMAP26_66:181",
    "jp": "「秋の日は だるま落とし」{n}{wait}",
-   "en": ""
+   "en": "\"The autumn sun sets like a game of Jenga.\"{wait}"
   },
   {
    "id": "HMAP26_66:182",
    "jp": "「羊の皮を かぶった 山羊」{n}{wait}",
-   "en": ""
+   "en": "\"A goat in sheep's clothing.\"{wait}"
   },
   {
    "id": "HMAP26_66:183",
    "jp": "「石の上にも 三年目の 浮気」{n}{wait}",
-   "en": ""
+   "en": "\"Patience is a virtue... until the seven-year itch.\"{wait}"
   },
   {
    "id": "HMAP26_66:184",
    "jp": "「石橋を たらった たらった{n} ウサギの ダンス！」{wait}",
-   "en": ""
+   "en": "\"Look before you leap... like a bunny! Hippity hop, hippity hop!\"{wait}"
   },
   {
    "id": "HMAP26_66:185",
    "jp": "「痛くもない 腹を さぐられたら{n} くすぐったいじゃないか！」{wait}",
-   "en": ""
+   "en": "\"Poke around in my belly for nothing, and it tickles!\"{wait}"
   },
   {
    "id": "HMAP26_66:186",
    "jp": "「急がば タクシーに乗れ！」{n}{wait}",
-   "en": ""
+   "en": "\"Haste makes waste, so take a taxi!\"{wait}"
   },
   {
    "id": "HMAP26_66:187",
    "jp": "「一石 二丁拳銃」{n}{wait}",
-   "en": ""
+   "en": "\"Kill two birds with two pistols.\"{wait}"
   },
   {
    "id": "HMAP26_66:188",
    "jp": "「負け犬の オーボエ」{n}{wait}",
-   "en": ""
+   "en": "\"The underdog's oboe.\"{wait}"
   },
   {
    "id": "HMAP26_66:189",
    "jp": "「犬も 歩けば 暴動に 当たる」{n}{wait}",
-   "en": ""
+   "en": "\"Every dog has its riot.\"{wait}"
   },
   {
    "id": "HMAP26_66:190",
    "jp": "「売りことばに かゆいことば」{n}{wait}",
-   "en": ""
+   "en": "\"Tit for tat, and an itch for that.\"{wait}"
   },
   {
    "id": "HMAP26_66:191",
    "jp": "「海老で 首を吊る」{n}{wait}",
-   "en": ""
+   "en": "\"Throw a shrimp, catch a cold.\"{wait}"
   },
   {
    "id": "HMAP26_66:192",
    "jp": "「風が 吹けば OKや！{n} もうかる！ もうかる！」{wait}",
-   "en": ""
+   "en": "\"It's an ill wind that blows... OK by me! Ka-ching! Ka-ching!\"{wait}"
   },
   {
    "id": "HMAP26_66:193",
    "jp": "「飼い犬の 手を{n} かむなっちゅーの！」{wait}",
-   "en": ""
+   "en": "\"Don't bite the hand that feeds you, I'm tellin' ya!\"{wait}"
   },
   {
    "id": "HMAP26_66:194",
    "jp": "「カエルの子は カエルじゃなくて{n} おたまじゃくし でしょ！」{wait}",
-   "en": ""
+   "en": "\"Like frog, like son? No way, a frog's kid is a tadpole!\"{wait}"
   },
   {
    "id": "HMAP26_66:195",
    "jp": "「二階から 目薬さすって{n} どういう場面？」{wait}",
-   "en": ""
+   "en": "\"Eyedrops from the second floor... when would you even do that?\"{wait}"
   },
   {
    "id": "HMAP26_66:196",
    "jp": "「真綿で 首をしめるって{n} 面倒でないかい？」{wait}",
-   "en": ""
+   "en": "\"Killing with kindness... isn't that kind of a hassle?\"{wait}"
   },
   {
    "id": "HMAP26_66:197",
    "jp": "「サルも 木から{n} オチを いう！」{wait}",
-   "en": ""
+   "en": "\"Even monkeys drop... punchlines from trees!\"{wait}"
   },
   {
    "id": "HMAP26_66:198",
    "jp": "「三十六計 逃げるに 叱らず！」{n}{wait}",
-   "en": ""
+   "en": "\"He who runs away... won't get scolded!\"{wait}"
   },
   {
    "id": "HMAP26_66:199",
    "jp": "「覆水 盆に帰らにゃ 盆踊り！」{n}{wait}",
-   "en": ""
+   "en": "\"No use crying over spilled milk... do the Bon dance!\"{wait}"
   },
   {
    "id": "HMAP26_66:200",
    "jp": "「かわいい子には 足袋を履かせろ！」{n}{wait}",
-   "en": ""
+   "en": "\"Spare the rod, spoil the child... with socks!\"{wait}"
   },
   {
    "id": "HMAP26_66:201",
    "jp": "「憎まれっ子 妙に幅がある！」{n}{wait}",
-   "en": ""
+   "en": "\"Ill weeds grow... strangely wide!\"{wait}"
   },
   {
    "id": "HMAP26_66:202",
    "jp": "「犬も歩けば ぼーっとする！」{n}{wait}",
-   "en": ""
+   "en": "\"Every dog has its daydream!\"{wait}"
   },
   {
    "id": "HMAP26_66:203",
    "jp": "「キジも鳴かずば 歌えない！」{n}{wait}",
-   "en": ""
+   "en": "\"A pheasant that won't squawk can't sing!\"{wait}"
   },
   {
    "id": "HMAP26_66:204",
    "jp": "「馬の耳を 見物！」{n}{wait}",
-   "en": ""
+   "en": "\"Sightseeing in a horse's ear!\"{wait}"
   },
   {
    "id": "HMAP26_66:205",
    "jp": "「桃栗三年 カキは広島に限る！」{n}{wait}",
-   "en": ""
+   "en": "\"Peaches and chestnuts take three years, but oysters? Gotta be Hiroshima!\"{wait}"
   },
   {
    "id": "HMAP26_66:206",
    "jp": "「百聞は 一軒家に近づく！」{n}{wait}",
-   "en": ""
+   "en": "\"Seeing is believing... in real estate!\"{wait}"
   },
   {
    "id": "HMAP26_66:207",
    "jp": "「負け犬の 逃亡！」{n}{wait}",
-   "en": ""
+   "en": "\"The underdog's great escape!\"{wait}"
   },
   {
    "id": "HMAP26_66:208",
    "jp": "「雀百まで 踊るあほうに{n} 見るあほう！」{wait}",
-   "en": ""
+   "en": "\"Old sparrows never forget their dance... fools who dance, fools who watch!\"{wait}"
   },
   {
    "id": "HMAP26_66:209",
    "jp": "「敵に塩を おごる！」{n}{wait}",
-   "en": ""
+   "en": "\"Give your enemy salt... and pick up the tab!\"{wait}"
   },
   {
    "id": "HMAP26_66:210",
    "jp": "「二度あることは サンダル！」{n}{wait}",
-   "en": ""
+   "en": "\"Third time's a... shoe-in!\"{wait}"
   },
   {
    "id": "HMAP26_66:211",
    "jp": "「枯れ木も 山のような{n} にぎり寿司！」{wait}",
-   "en": ""
+   "en": "\"Even dead trees make a mountain... of sushi!\"{wait}"
   },
   {
    "id": "HMAP26_66:212",
    "jp": "「聞いて極楽 見てくれだけが{n} 人間じゃない！」{wait}",
-   "en": ""
+   "en": "\"Sounds like heaven... and looks aren't everything!\"{wait}"
   },
   {
    "id": "HMAP26_66:213",
    "jp": "「負けるが カチカチ山！」{n}{wait}",
-   "en": ""
+   "en": "\"Lose the battle, win Kachikachi Mountain!\"{wait}"
   },
   {
    "id": "HMAP26_66:214",
    "jp": "「鬼に カナブン！」{n}{wait}",
-   "en": ""
+   "en": "\"An oni with a club... I mean, a beetle!\"{wait}"
   },
   {
    "id": "HMAP26_66:215",
    "jp": "明日に向かって！",
-   "en": ""
+   "en": "Toward Tomorrow!"
   },
   {
    "id": "HMAP26_66:216",
    "jp": "海をわたる風",
-   "en": ""
+   "en": "Wind Across the Sea"
   },
   {
    "id": "HMAP26_66:217",
    "jp": "ザコバトル",
-   "en": ""
+   "en": "Small Fry Battle"
   },
   {
    "id": "HMAP26_66:218",
    "jp": "ましらのテーマ",
-   "en": ""
+   "en": "Mashira's Theme"
   },
   {
    "id": "HMAP26_66:219",
    "jp": "天下一はだれじゃ！",
-   "en": ""
+   "en": "Who's the Best in the Land?!"
   },
   {
    "id": "HMAP26_66:220",
    "jp": "ほほえみのうた",
-   "en": ""
+   "en": "Song of Hohoemi"
   },
   {
    "id": "HMAP26_66:221",
    "jp": "支配",
-   "en": ""
+   "en": "Domination"
   },
   {
    "id": "HMAP26_66:222",
    "jp": "解放",
-   "en": ""
+   "en": "Liberation"
   },
   {
    "id": "HMAP26_66:223",
    "jp": "七夕ランデブー",
-   "en": ""
+   "en": "Tanabata Rendezvous"
   },
   {
    "id": "HMAP26_66:224",
    "jp": "オープニング’98",
-   "en": ""
+   "en": "Opening '98"
   },
   {
    "id": "HMAP26_66:225",
    "jp": "塔せんぼ？",
-   "en": ""
+   "en": "Tower Block?"
   },
   {
    "id": "HMAP26_66:226",
    "jp": "洞窟の怪",
-   "en": ""
+   "en": "Mystery of the Cave"
   },
   {
    "id": "HMAP26_66:227",
@@ -1148,47 +1148,47 @@
   {
    "id": "HMAP26_66:228",
    "jp": "ジ・エンド！",
-   "en": ""
+   "en": "The End!"
   },
   {
    "id": "HMAP26_66:229",
    "jp": "ほほえみ勝負",
-   "en": ""
+   "en": "Hohoemi Showdown"
   },
   {
    "id": "HMAP26_66:230",
    "jp": "紙芝居",
-   "en": ""
+   "en": "Picture-Card Show"
   },
   {
    "id": "HMAP26_66:231",
    "jp": "キッズ・バトル",
-   "en": ""
+   "en": "Kids' Battle"
   },
   {
    "id": "HMAP26_66:232",
    "jp": "ビギナー・バトル",
-   "en": ""
+   "en": "Beginner Battle"
   },
   {
    "id": "HMAP26_66:233",
    "jp": "ウサカメ競争曲",
-   "en": ""
+   "en": "Hare and Tortoise Race Song"
   },
   {
    "id": "HMAP26_66:234",
    "jp": "金太郎村",
-   "en": ""
+   "en": "Kintaro Village"
   },
   {
    "id": "HMAP26_66:235",
    "jp": "都ラプソディー",
-   "en": ""
+   "en": "Capital Rhapsody"
   },
   {
    "id": "HMAP26_66:236",
    "jp": "竜宮パラダイス",
-   "en": ""
+   "en": "Ryugu Paradise"
   },
   {
    "id": "HMAP26_66:237",
@@ -1198,12 +1198,12 @@
   {
    "id": "HMAP26_66:238",
    "jp": "地蔵郷",
-   "en": ""
+   "en": "Jizo Hamlet"
   },
   {
    "id": "HMAP26_66:239",
    "jp": "忘れないおもいで",
-   "en": ""
+   "en": "Unforgettable Memories"
   },
   {
    "id": "HMAP26_66:240",
@@ -1213,47 +1213,47 @@
   {
    "id": "HMAP26_66:241",
    "jp": "成金！ボンビー村",
-   "en": ""
+   "en": "Rich Overnight! Bombee Village"
   },
   {
    "id": "HMAP26_66:242",
    "jp": "ビンボーゴッド",
-   "en": ""
+   "en": "Poverty God"
   },
   {
    "id": "HMAP26_66:243",
    "jp": "空飛ぶきんとうん",
-   "en": ""
+   "en": "The Flying Nimbus"
   },
   {
    "id": "HMAP26_66:244",
    "jp": "三味線！ブギ！",
-   "en": ""
+   "en": "Shamisen! Boogie!"
   },
   {
    "id": "HMAP26_66:245",
    "jp": "ユキの子守唄",
-   "en": ""
+   "en": "Snow Lullaby"
   },
   {
    "id": "HMAP26_66:246",
    "jp": "穴堀り",
-   "en": ""
+   "en": "Digging Holes"
   },
   {
    "id": "HMAP26_66:247",
    "jp": "てくてくダイエット",
-   "en": ""
+   "en": "Walk-Walk Diet"
   },
   {
    "id": "HMAP26_66:248",
    "jp": "ミステリィー・フォレスト",
-   "en": ""
+   "en": "Mystery Forest"
   },
   {
    "id": "HMAP26_66:249",
    "jp": "仙人賛歌",
-   "en": ""
+   "en": "Hymn of the Hermits"
   },
   {
    "id": "HMAP26_66:250",
@@ -1263,102 +1263,102 @@
   {
    "id": "HMAP26_66:251",
    "jp": "占いまSHOW！",
-   "en": ""
+   "en": "Fortune-Telling SHOW!"
   },
   {
    "id": "HMAP26_66:252",
    "jp": "桜吹雪の花咲かの村",
-   "en": ""
+   "en": "Hanasaka Village of Falling Blossoms"
   },
   {
    "id": "HMAP26_66:253",
    "jp": "氷の塔の数え歌",
-   "en": ""
+   "en": "Counting Song of the Ice Tower"
   },
   {
    "id": "HMAP26_66:254",
    "jp": "友情バトル",
-   "en": ""
+   "en": "Friendship Battle"
   },
   {
    "id": "HMAP26_66:255",
    "jp": "希望を胸に",
-   "en": ""
+   "en": "Hope in My Heart"
   },
   {
    "id": "HMAP26_66:256",
    "jp": "とこなつダークネス",
-   "en": ""
+   "en": "Tokonatsu Darkness"
   },
   {
    "id": "HMAP26_66:257",
    "jp": "大地獄",
-   "en": ""
+   "en": "Great Hell"
   },
   {
    "id": "HMAP26_66:258",
    "jp": "死闘、最後の闘い！",
-   "en": ""
+   "en": "Death Match, the Final Battle!"
   },
   {
    "id": "HMAP26_66:259",
    "jp": "右魂鬼バトル",
-   "en": ""
+   "en": "Right Soul Oni Battle"
   },
   {
    "id": "HMAP26_66:260",
    "jp": "鬼が島",
-   "en": ""
+   "en": "Onigashima"
   },
   {
    "id": "HMAP26_66:261",
    "jp": "左魂鬼バトル",
-   "en": ""
+   "en": "Left Soul Oni Battle"
   },
   {
    "id": "HMAP26_66:262",
    "jp": "並びの洞窟",
-   "en": ""
+   "en": "Cave of Rows"
   },
   {
    "id": "HMAP26_66:263",
    "jp": "仙人郷",
-   "en": ""
+   "en": "Hermit Hamlet"
   },
   {
    "id": "HMAP26_66:264",
    "jp": "修行",
-   "en": ""
+   "en": "Training"
   },
   {
    "id": "HMAP26_66:265",
    "jp": "謎解き山の謎？",
-   "en": ""
+   "en": "The Riddle of Riddle Mountain?"
   },
   {
    "id": "HMAP26_66:266",
    "jp": "とこなつサンライズ",
-   "en": ""
+   "en": "Tokonatsu Sunrise"
   },
   {
    "id": "HMAP26_66:267",
    "jp": "ドンチャカ！",
-   "en": ""
+   "en": "Party Ruckus!"
   },
   {
    "id": "HMAP26_66:268",
    "jp": "道楽！バンザイ",
-   "en": ""
+   "en": "Living It Up! Hooray"
   },
   {
    "id": "HMAP26_66:269",
    "jp": "ルラ☆ピー",
-   "en": ""
+   "en": "Rula-Pea"
   },
   {
    "id": "HMAP26_66:270",
    "jp": "湯けむりの宿",
-   "en": ""
+   "en": "Hot Spring Inn in the Steam"
   }
  ]
 }

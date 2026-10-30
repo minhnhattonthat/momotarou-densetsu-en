@@ -8,77 +8,77 @@
   {
    "id": "WMAP16_28:000",
    "jp": "「ウヒャヒャ… わしは{n} おによけ仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Oni Ward Hermit!\"{wait}"
   },
   {
    "id": "WMAP16_28:001",
    "jp": "「わしの 術は 浦島が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 浦島を つれてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"My art is one that Urashima would be fit to learn!\"{wait}\"Bring me Urashima, who is fit to undergo my training!\"{wait}"
   },
   {
    "id": "WMAP16_28:002",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP16_28:003",
    "jp": "「わしの 術は 浦島が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 浦島が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}",
-   "en": ""
+   "en": "\"My art is fit for Urashima to learn!\"{wait}\"Oh! Why, what's this! That Urashima is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take him to a doctor and get him healed!\"{wait}"
   },
   {
    "id": "WMAP16_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP16_28:005",
    "jp": "「ところで わしの{n} おによけの術は 浦島に{n} 教えるのぢゃが どうもなあ…」{wait}{n}「その 名前の とおり{n} お前たちより 弱い 鬼が{n} ちかづかぬ 術なのぢゃが…」{wait}{n}「愛 と 勇気の お前たちには{n} ふさわしくないと 思うのぢゃ！」{n}{wait}{n}「ぢゃが どの ゲームにもある{n} べんりな 術ぢゃからのォ！{n} うちだけ ないというのもな」{wait}{n}「まあ！ かんたんな 修行に{n} するから 覚えてってちょ！」{n}{wait}",
-   "en": ""
+   "en": "\"Now, about my Oni Ward art. I teach it to Urashima, but somehow...\"{wait}\"Just as the name says, it's an art that keeps oni weaker than you from coming near...\"{wait}\"I don't think it suits the likes of you, full of love and courage!\"{wait}\"But it's a handy art that every game has! It'd look bad if ours were the only one without it.\"{wait}\"Oh well! I'll make the training easy, so learn it, okie-dokie!\"{wait}"
   },
   {
    "id": "WMAP16_28:006",
    "jp": "「お前たちの 持ち物を{n} ゼロにして わしを{n} たずねてくるだけで よい！」{wait}{n}「ああ！ 別に 装備してる{n} 持ち物は めんどうだから{n} そのままで よいぞ！」{wait}{n}「ああっ！ もうちょっと{n} 役に立つ 仙人の 役を{n} やりたかったのォ！」{wait}{n}「ほんぢゃ！ 持ち物を{n} からっぽにしてから わしを{n} たずねて きてくれ！」{wait}",
-   "en": ""
+   "en": "\"All you have to do is get your belongings down to zero and come see me!\"{wait}\"Oh! Equipped stuff is too much bother, so you can leave that as it is!\"{wait}\"Aaah! I wish I'd gotten to play a more useful hermit!\"{wait}\"Right then! Empty out your belongings and come see me!\"{wait}"
   },
   {
    "id": "WMAP16_28:007",
    "jp": "「なんぢゃ！ すでに お前たちは{n} なにも 持ち物を{n} もっておらんのか！」{wait}{n}「てまわしが いいと いうか{n} お金の たまらん やつというか{n} まあ！ なんでも よいわい！」{wait}",
-   "en": ""
+   "en": "\"What's this! You guys have no belongings at all already!\"{wait}\"Either you're well prepared, or you just can't hang on to money... Oh well! Whatever!\"{wait}"
   },
   {
    "id": "WMAP16_28:008",
    "jp": "「浦島！{n} おによけの術を{n} さずけるぞ！ 持ってけー！」{wait}{n}浦島は{n}{col4}おによけの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Urashima! I grant you the Oni Ward art! Take it and go!\"{wait}Urashima mastered the {col4}Oni Ward art{col0}!"
   },
   {
    "id": "WMAP16_28:009",
    "jp": "「ところで わしの{n} おによけの術は 浦島に{n} 教えるのぢゃが どうもなあ…」{wait}{n}「その 名前の とおり{n} お前たちより 弱い 鬼が{n} ちかづかぬ 術なのぢゃが…」{wait}{n}「愛 と 勇気の お前たちには{n} ふさわしくないと 思うのぢゃ！」{n}{wait}{n}「ぢゃが どの ゲームにもある{n} べんりな 術ぢゃからのォ！{n} うちだけ ないというのもな」{wait}{n}「まあ！ かんたんな 修行に{n} するから 覚えてってちょ！」{n}{wait}{n}「お前たちの 持ち物を{n} ゼロにして わしを{n} たずねてくるだけで よい！」{wait}",
-   "en": ""
+   "en": "\"Now, about my Oni Ward art. I teach it to Urashima, but somehow...\"{wait}\"Just as the name says, it's an art that keeps oni weaker than you from coming near...\"{wait}\"I don't think it suits the likes of you, full of love and courage!\"{wait}\"But it's a handy art that every game has! It'd look bad if ours were the only one without it.\"{wait}\"Oh well! I'll make the training easy, so learn it, okie-dokie!\"{wait}\"All you have to do is get your belongings down to zero and come see me!\"{wait}"
   },
   {
    "id": "WMAP16_28:010",
    "jp": "「おお！ おお！ わざわざ{n} こんなこと させて すまんのォ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh! Oh! Sorry for making you go to all that trouble!\"{wait}"
   },
   {
    "id": "WMAP16_28:011",
    "jp": "「道具袋の 中を{n} からっぽにさえ すれば 術を{n} さずけると いったのにィ！」{wait}{n}「どっかで 物を 使うなり{n} あずけるなりして また{n} たずねて きてくれ！」{wait}",
-   "en": ""
+   "en": "\"I said I'd grant you the art if you just emptied out your item bag!\"{wait}\"Use your things up somewhere, or deposit them, and then come see me again!\"{wait}"
   },
   {
    "id": "WMAP16_28:012",
    "jp": "「戦わなければ 心の数も ふえん！{n} そのへんを よく 考えて 術を{n} 使うのぢゃぞ！ よいな！」{wait}",
-   "en": ""
+   "en": "\"If you don't fight, your hearts won't go up either! Think that over well when you use the art! Got it?\"{wait}"
   },
   {
    "id": "WMAP16_28:013",
    "jp": "「桃太郎！ おによけの術を{n} 使っておるのか？」{n}{wait}{n}「まあ わしが いうのも{n} なんなんぢゃが…{n} 使うのは ほどほどにな！」{wait}{n}「これを 持っていくがええ！{n} わしからの おくりものぢゃ！」{n}{wait}{n}桃太郎は{n}{col10}おによけ仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are you using the Oni Ward art?\"{wait}\"Well, it's odd for me of all people to say this, but... don't overdo it!\"{wait}\"Take this with you! A gift from me!\"{wait}Momotaro got the {col10}Oni Ward Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP16_28:014",
    "jp": "「当たるも 吐き気！{n} 当たらぬも 吐き気！」{n}{wait}",
-   "en": ""
+   "en": "\"Hit or miss, either way you'll feel sick!\"{wait}"
   }
  ]
 }

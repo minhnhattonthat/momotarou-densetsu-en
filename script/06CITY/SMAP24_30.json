@@ -8,27 +8,27 @@
   {
    "id": "SMAP24_30:000",
    "jp": "「へーっ！ こんな島に{n} お客さんとは めずらしい！」{n}{wait}{n}「鬼たいじを してるだって？{n} そいつは すごい！」{n}{wait}{n}「じゃあ これを 鬼たいじに{n} 役立ててくれよ！」{n}{wait}{n}桃太郎は{n}{col4}こんろんの連珠{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Whoa! Visitors on an island like this? That's rare!\"{wait}\"You're out slaying oni? That's amazing!\"{wait}\"Then put this to use in your oni slaying!\"{wait}Momotaro got the {col4}Kunlun Beads{col0}!{wait}"
   },
   {
    "id": "SMAP24_30:001",
    "jp": "「いつでも あそびに{n} きてくれよな！」{n}{wait}",
-   "en": ""
+   "en": "\"Come and visit anytime!\"{wait}"
   },
   {
    "id": "SMAP24_30:002",
    "jp": "「よう こんな{n} へんぴな 島へ{n} きなさった！」{wait}{n}「ゆっくりしていかれると{n} よろしかろう！」{n}{wait}",
-   "en": ""
+   "en": "\"Well, well! You've come all the way to this remote island!\"{wait}\"Do stay and take your time!\"{wait}"
   },
   {
    "id": "SMAP24_30:003",
    "jp": "「この島には めずらしい{n} 花が 咲くんですよ！」{n}{wait}{n}「種を さしあげますから{n} そだててみて くださいな！」{n}{wait}{n}桃太郎は{n}{col4}きれいな花の種{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Rare flowers bloom on this island!\"{wait}\"I'll give you some seeds, so try growing them!\"{wait}Momotaro got the {col4}Pretty Flower Seeds{col0}!{wait}"
   },
   {
    "id": "SMAP24_30:004",
    "jp": "「いつかは 島の 外を{n} 見てみたいですね！」{n}{wait}",
-   "en": ""
+   "en": "\"Someday I'd like to see the world beyond this island!\"{wait}"
   }
  ]
 }

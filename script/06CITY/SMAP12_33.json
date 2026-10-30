@@ -8,292 +8,292 @@
   {
    "id": "SMAP12_33:000",
    "jp": "「スリの銀次 という{n} すごうでの スリが この村に{n} かくれているそうです！」{wait}{n}「気を つけてください{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"They say a master thief called Ginji the Pickpocket is hiding in this village!\"{wait}\"Be careful, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP12_33:001",
    "jp": "「この先の ほほえみの村は{n} 思わず ほほえみが こぼれる{n} ふしぎな 村じゃよ！」{wait}",
-   "en": ""
+   "en": "\"Hohoemi Village up ahead is a strange village where smiles just slip out!\"{wait}"
   },
   {
    "id": "SMAP12_33:002",
    "jp": "「この前 ほほえみの村の 横を{n} 通ったけど いつもの{n} 笑い声が きこえなかったわ」{wait}{n}「なにか あったのかしら！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I passed by Hohoemi Village the other day, but I didn't hear the usual laughter.\"{wait}\"I wonder if something happened!\"{wait}"
   },
   {
    "id": "SMAP12_33:003",
    "jp": "「死ぬまで 一度でいいから{n} 料亭で フグを{n} 食べてみてーもんだべ！」{wait}",
-   "en": ""
+   "en": "\"Just once before I die, I'd like to eat blowfish at a fancy restaurant!\"{wait}"
   },
   {
    "id": "SMAP12_33:004",
    "jp": "「この村より 南へ 下ると{n} ほほえみの村じゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Head south from this village and you'll reach Hohoemi Village!\"{wait}"
   },
   {
    "id": "SMAP12_33:005",
    "jp": "「寝太郎が 起きたのを{n} 見たのは 久しぶりじゃわい！」{n}{wait}",
-   "en": ""
+   "en": "\"It's been ages since I saw Netaro awake!\"{wait}"
   },
   {
    "id": "SMAP12_33:006",
    "jp": "「ほほえみの村を ましらとかいう{n} 鬼が おそったって うわさを{n} きいたけんど だいじょうぶかの！」{wait}",
-   "en": ""
+   "en": "\"I heard tell an oni called Mashira attacked Hohoemi Village. I hope they're all right!\"{wait}"
   },
   {
    "id": "SMAP12_33:007",
    "jp": "「この先の ほほえみの村は{n} こえ－ぞ！ 旅人は み－んな{n} ひきつった 顔で くるだ！」{wait}",
-   "en": ""
+   "en": "\"Hohoemi Village up ahead is scaaary! Every last traveler comes back with a twitchy face!\"{wait}"
   },
   {
    "id": "SMAP12_33:008",
    "jp": "「ここから 東の みさきへ{n} 行くと ふういん仙人の{n} 庵が あります！」{wait}{n}「ふういんの 術は{n} 浦島さんが{n} 覚えられる 術です！」{wait}{n}「浦島さんが まだ ふういんの{n} 術を 覚えていないのなら{n} 早く 仙人様に お目通りを！」{wait}",
-   "en": ""
+   "en": "\"Go to the cape east of here and you'll find the Seal Hermit's hut!\"{wait}\"The Seal art is an art Urashima-san can learn!\"{wait}\"If Urashima-san hasn't learned the Seal art yet, hurry and pay the Hermit a visit!\"{wait}"
   },
   {
    "id": "SMAP12_33:009",
    "jp": "「へっへっへ！ あいかわらず{n} スキだらけだぜ！ 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Wide open as usual, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP12_33:010",
    "jp": "「へっへっへ！ オレ様が{n} 有名な スリの銀次だよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! I'm the famous Ginji the Pickpocket!\"{wait}"
   },
   {
    "id": "SMAP12_33:011",
    "jp": "「宝物の 竜の首飾り は{n} 確かに いただいたぜ！」{n}{wait}",
-   "en": ""
+   "en": "\"That treasure, the Dragon Necklace, is all mine now!\"{wait}"
   },
   {
    "id": "SMAP12_33:012",
    "jp": "「へっへっへ！ あいかわらず{n} スキだらけだぜ！ 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Wide open as usual, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP12_33:013",
    "jp": "「へっへっへ！ オレ様が{n} 有名な スリの銀次だよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! I'm the famous Ginji the Pickpocket!\"{wait}"
   },
   {
    "id": "SMAP12_33:014",
    "jp": "「宝物の 仏のお鉢 は{n} 確かに いただいたぜ！」{n}{wait}",
-   "en": ""
+   "en": "\"That treasure, Buddha's Bowl, is all mine now!\"{wait}"
   },
   {
    "id": "SMAP12_33:015",
    "jp": "「むにゃ むにゃ う－ん…」{n}{n}{wait}{n}「ふわああああああああああああああ{n} ああああああああああああああああ{n} あああああああああああああっ！」{wait}{n}{c19}「あーーーー！ よく 寝ただ！{n} よっこらしょ！」{n}{wait}",
-   "en": ""
+   "en": "\"Mumble mumble... mmm...\"{wait}\"Fwaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaah!\"{wait}{c19}\"Aaaaah! What a good sleep! Hup!\"{wait}"
   },
   {
    "id": "SMAP12_33:016",
    "jp": "「むにゃ むにゃ う－ん…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Mumble mumble... mmm...\"{wait}"
   },
   {
    "id": "SMAP12_33:017",
    "jp": "「むにゃ むにゃ うーん…」{n}{n}{wait}{n}「これー やーるかーら{n} ほっといて くーれー！{n} むにゃ むにゃ…」{wait}{n}桃太郎は{n}{c19}{col10}寝太郎カード{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Mumble mumble... mmmm...\"{wait}\"Taaake thiiis and leeeave me aloooone! Mumble mumble...\"{wait}Momotaro got the {c19}{col10}Netaro Card{col0}!{wait}"
   },
   {
    "id": "SMAP12_33:018",
    "jp": "「この 寒い 雪国の{n} どこかに まもり仙人の{n} 庵が あるそうじゃ！」{wait}",
-   "en": ""
+   "en": "\"They say the Shield Hermit's hut is somewhere in this cold snow country!\"{wait}"
   },
   {
    "id": "SMAP12_33:019",
    "jp": "「寝太郎は でかい ずうたいで{n} 橋の 真ん中で{n} 寝る くせが あってのォ！」{wait}{n}「しかも いったん ねむりだすと{n} てこでも うごかん！」{n}{wait}",
-   "en": ""
+   "en": "\"Netaro's got a habit of sleepin' his big ol' body right in the middle of the bridge!\"{wait}\"And once he nods off, you can't budge him with a crowbar!\"{wait}"
   },
   {
    "id": "SMAP12_33:020",
    "jp": "「寝太郎が おきたのを{n} 見たのは 三年ぶりじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"First time in three years I've seen Netaro awake!\"{wait}"
   },
   {
    "id": "SMAP12_33:021",
    "jp": "「桃太郎さん 桃太郎さん！{n} ここから 西に いくと{n} すずめのお宿3が あるよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san, Momotaro-san! Go west from here and there's Sparrow Inn 3!\"{wait}"
   },
   {
    "id": "SMAP12_33:022",
    "jp": "「ねえねえ！{n} このカード きれいでしょ！{n} 夜叉姫さんなのよ！」{wait}{n}「桃太郎さんに あげるね！」{n}{n}{wait}{n}桃太郎は{n}{c19}{col10}夜叉姫カード{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Hey, hey! Isn't this card pretty? It's Yashahime-san!\"{wait}\"I'll give it to you, Momotaro-san!\"{wait}Momotaro got the {c19}{col10}Yashahime Card{col0}!{wait}"
   },
   {
    "id": "SMAP12_33:023",
    "jp": "「あたしも 夜叉姫さん{n} みたいに きれいに{n} なりたいなあ！」{wait}",
-   "en": ""
+   "en": "\"I wanna be pretty like Yashahime-san too!\"{wait}"
   },
   {
    "id": "SMAP12_33:024",
    "jp": "「おめ－が 桃太郎か？{n} じゃあ これ いってみろ！」{n}{wait}{n}「すももも ももも もものうち！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"You're Momotaro? Then try sayin' this!\"{wait}\"Peter Piper picked a peck of pickled peaches!\"{wait}"
   },
   {
    "id": "SMAP12_33:025",
    "jp": "「寝太郎を おこすには{n} {col0}氷室の削り火{col0} という{n} 品が 必要なんじゃが…」{wait}{n}「この 三年 見つけたものは{n} おらんのじゃ！」{n}{wait}{n}「風の うわさでは{n} 氷の塔に あると{n} 聞いたが…」{wait}",
-   "en": ""
+   "en": "\"To wake Netaro, you need a thing called the {col0}Icehouse Fire{col0}...\"{wait}\"But in three years, nobody's found it!\"{wait}\"The rumor on the wind is that it's in the Ice Tower...\"{wait}"
   },
   {
    "id": "SMAP12_33:026",
    "jp": "「かわいらしい おじょうさんが{n} 仲間に なったんじゃね！」{n}{wait}{n}「桃太郎さん！」{n}{n}{wait}{n}「しっかり 守って{n} おあげなさいよ！」{n}{wait}",
-   "en": ""
+   "en": "\"So a cute young lady has joined the party!\"{wait}\"Momotaro-san!\"{wait}\"You protect her well, now!\"{wait}"
   },
   {
    "id": "SMAP12_33:027",
    "jp": "「寝太郎は 村の{n} 人気者だよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Netaro is the village favorite!\"{wait}"
   },
   {
    "id": "SMAP12_33:028",
    "jp": "「この村から はるか 西に{n} いったところに 氷の塔が{n} あります！」{wait}{n}「でも 今は 鬼の 醜女 が{n} 入り口に 鍵を かけてしまって{n} だれも 入れません！」{wait}",
-   "en": ""
+   "en": "\"Far to the west of this village is the Ice Tower!\"{wait}\"But right now the oni Shikome has locked the entrance, so nobody can get in!\"{wait}"
   },
   {
    "id": "SMAP12_33:029",
    "jp": "「鬼の むすめさんを{n} 仲間に しちまうとは{n} 桃太郎さんも やるねえ！」{wait}",
-   "en": ""
+   "en": "\"Making an oni girl one of your friends! You're quite something, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP12_33:030",
    "jp": "「おらあ 力だめしの 旅に{n} 出たいだ！」{n}{wait}{n}「けど 寝太郎が{n} 橋の上で 寝てるうちは」{n}{wait}{n}「村の 東側にも{n} わたれねえだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"I wanna go on a journey to test my strength!\"{wait}\"But while Netaro's sleepin' on the bridge,\"{wait}\"I can't even cross to the east side of the village!\"{wait}"
   },
   {
    "id": "SMAP12_33:031",
    "jp": "「おらあ 力だめしの 旅に{n} 出たいだ！」{n}{wait}{n}「村の 東側に わたったら{n} 希望の都を めざして{n} 南に まっしぐらだ！」{wait}",
-   "en": ""
+   "en": "\"I wanna go on a journey to test my strength!\"{wait}\"Once I cross to the east side of the village, it's straight south to the Capital of Hope!\"{wait}"
   },
   {
    "id": "SMAP12_33:032",
    "jp": "「この村の 西の ほうに{n} きっちょむさんという 人が{n} たった 一人で 住んでいます！」{wait}{n}「きっちょむさんは{n} かぎなわ という」{n}{wait}{n}「氷の塔を 上るのに 必要な{n} 品を 持っています！」{n}{wait}{n}「一度 たずねてみては{n} どうですか？{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"To the west of this village lives a man called Kitchomu-san, all on his own!\"{wait}\"Kitchomu-san has an item called the Grappling Hook,\"{wait}\"which you need to climb the Ice Tower!\"{wait}\"Why not pay him a visit, Momotaro-san?\"{wait}"
   },
   {
    "id": "SMAP12_33:033",
    "jp": "「桃太郎さん ありがとう！」{n}{n}{wait}{n}「これで ひさしぶりに{n} 村の 東側に わたれるわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"Now I can cross to the east side of the village for the first time in ages!\"{wait}"
   },
   {
    "id": "SMAP12_33:034",
    "jp": "「寝太郎は{n} 悪いやつじゃ ないんだけど」{n}{wait}{n}「いびきが うるさくて{n} 牛の お乳が 出ねーだよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Netaro's not a bad fella, but\"{wait}\"his snorin's so loud my cow won't give milk!\"{wait}"
   },
   {
    "id": "SMAP12_33:035",
    "jp": "「ありがとうございます！{n} 桃太郎さん！」{n}{wait}{n}「おらの 牛も{n} お乳が 出るようになって{n} よろこんでるだよ！」{wait}",
-   "en": ""
+   "en": "\"Thank you kindly, Momotaro-san!\"{wait}\"My cow's givin' milk again, and she's right happy!\"{wait}"
   },
   {
    "id": "SMAP12_33:036",
    "jp": "「モー！ うるさいんだなモー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Moo! He's so noisy, moo!\"{wait}"
   },
   {
    "id": "SMAP12_33:037",
    "jp": "「モー！ オラの お乳{n} のんでくかモー！」",
-   "en": ""
+   "en": "\"Moo! Wanna drink my milk? Moo!\""
   },
   {
    "id": "SMAP12_33:038",
    "jp": "ゴク ゴク ゴクッ！{n}{str}の 技と 体力は{n}全回復した！{wait}",
-   "en": ""
+   "en": "Gulp gulp gulp! {str}'s SP and HP were fully restored!{wait}"
   },
   {
    "id": "SMAP12_33:039",
    "jp": "「おなか いっぱいなのかモー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Is your tummy full? Moo!\"{wait}"
   },
   {
    "id": "SMAP12_33:040",
    "jp": "「この 村の 西に{n} きゅうどう仙人さまの{n} 庵が あります！」{wait}{n}「仙人さまの 持っている{n} しゃくねつの弓 は」{n}{wait}{n}「寒い 地方の 敵に{n} 大ダメージを{n} 与えることが できますよ！」{wait}{n}「ぜひ 仙人さまに{n} 会ってみてくださいな！」{n}{wait}",
-   "en": ""
+   "en": "\"West of this village is the Archery Hermit's hut!\"{wait}\"The Scorching Bow the Hermit owns\"{wait}\"can deal heavy damage to enemies from cold lands!\"{wait}\"Do go and meet the Hermit!\"{wait}"
   },
   {
    "id": "SMAP12_33:041",
    "jp": "「あー！{n} いい湯だったわー！」{n}{wait}",
-   "en": ""
+   "en": "\"Ahh! What a lovely bath!\"{wait}"
   },
   {
    "id": "SMAP12_33:042",
    "jp": "「ほほえみの村の 村人は{n} だじゃれ好きの ゆかいな{n} 人ばかりですじゃ！」{wait}",
-   "en": ""
+   "en": "\"The villagers of Hohoemi Village are a cheerful bunch who all love puns!\"{wait}"
   },
   {
    "id": "SMAP12_33:043",
    "jp": "「三歩下がって 師の影を{n} ふんだりけったり！」{n}{wait}",
-   "en": ""
+   "en": "\"Walk three steps behind your master... then kick him when he's down!\"{wait}"
   },
   {
    "id": "SMAP12_33:044",
    "jp": "「花より だんごっ鼻！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Stop and smell the roses... with your big potato nose!\"{wait}"
   },
   {
    "id": "SMAP12_33:045",
    "jp": "「秋の日は だるま落とし」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Time flies like an arrow. Fruit flies like a banana.\"{wait}"
   },
   {
    "id": "SMAP12_33:046",
    "jp": "「羊の皮を かぶった 山羊」{n}{n}{wait}",
-   "en": ""
+   "en": "\"A goat in sheep's clothing.\"{wait}"
   },
   {
    "id": "SMAP12_33:047",
    "jp": "わわわわわっ！{n}ごっくん！{n}{wait}",
-   "en": ""
+   "en": "Wawawawawa! Gulp!{wait}"
   },
   {
    "id": "SMAP12_33:048",
    "jp": "桃太郎は 1000両 てにいれた{n}{n}{wait}",
-   "en": ""
+   "en": "Momotaro got 1,000 ryo.{wait}"
   },
   {
    "id": "SMAP12_33:049",
    "jp": "「桃太郎さん！ また あえて{n} うれしいんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Real happy to see you again, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:050",
    "jp": "「続きの 地図が{n} できたんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"The next part of the map is done, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:051",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san gets the map I drew, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:052",
    "jp": "桃太郎は{n}{col4}地図{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Map{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP12_33:053",
    "jp": "「残りの 地図も 桃太郎さんに{n} あげるから 旅先で ボクを{n} 見つけて ほしいんだな！」{wait}",
-   "en": ""
+   "en": "\"I'll give Momotaro-san the rest of the map too, so you'd best find me on your travels, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:054",
    "jp": "「続きの 地図は まだ{n} かいてないんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"I haven't drawn the next part of the map yet, I reckon.\"{wait}"
   },
   {
    "id": "SMAP12_33:055",
    "jp": "「馬子にも ヨイショ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Flattery makes the man!\"{wait}"
   },
   {
    "id": "SMAP12_33:056",
    "jp": "「かわいい子には 食べ放題！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Spare the rod... and treat the child to all-you-can-eat!\"{wait}"
   },
   {
    "id": "SMAP12_33:057",
    "jp": "「病は 木から落ちて{n} 骨折！」{n}{wait}",
-   "en": ""
+   "en": "\"An apple a day keeps the doctor away... unless you fall out of the apple tree!\"{wait}"
   }
  ]
 }

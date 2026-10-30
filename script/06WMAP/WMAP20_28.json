@@ -8,57 +8,57 @@
   {
    "id": "WMAP20_28:000",
    "jp": "「ウヒャヒャ… わしは{n} わざよせ仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the SP Drain Hermit!\"{wait}"
   },
   {
    "id": "WMAP20_28:001",
    "jp": "「わしの 術は 夜叉姫が{n} 覚えるに{n} ふさわしいぢゃろう！」{wait}{n}「修行を 受けるに ふさわしい{n} 夜叉姫を つれてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"My art is one that Yashahime would be fit to learn!\"{wait}\"Bring me Yashahime, who is fit to undergo my training!\"{wait}"
   },
   {
    "id": "WMAP20_28:002",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！{n} ウヒャヒャ…」{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP20_28:003",
    "jp": "「わしの 術は 夜叉姫が{n} 覚えるに ふさわしい！」{n}{wait}{n}「おおっ なんということぢゃ！{n} その 夜叉姫が{n} 大けがを しておるではないか！」{wait}{n}「桃太郎！ お前は 仲間を{n} 大切にする 勇気の子だな？」{n}{wait}{n}「早く 医者に 見せて{n} からだを{n} なおしてくるがよい！」{wait}",
-   "en": ""
+   "en": "\"My art is fit for Yashahime to learn!\"{wait}\"Oh! Why, what's this! That Yashahime is badly injured!\"{wait}\"Momotaro! You're a child of courage who cherishes his friends, aren't you?\"{wait}\"Hurry and take her to a doctor and get her healed!\"{wait}"
   },
   {
    "id": "WMAP20_28:004",
    "jp": "「わしは いつまでも{n} ここで 待っておるぞ！」{n}{wait}{n}「さあ ゆけ！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I'll be waiting here forever!\"{wait}\"Now go, Momotaro!\"{wait}"
   },
   {
    "id": "WMAP20_28:005",
    "jp": "「わざよせの術は{n} 敵の 技を 自分の ものに{n} することが できるのぢゃ！」{wait}{n}「この 術を 覚えるのは{n} 夜叉姫が ふさわしい！」{n}{wait}{n}「早く わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「うむ では{n} さっそく 修行開始ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"The SP Drain art lets you take the enemy's SP for your own!\"{wait}\"Yashahime is the one fit to learn this art!\"{wait}\"Learn my art quickly and go punish those oni!\"{wait}\"Right, then! Let the training begin!\"{wait}"
   },
   {
    "id": "WMAP20_28:006",
    "jp": "「ゃぢのるくてっもをうゅじんまお」{n}{n}{wait}{n}「どうぢゃ！ かんたんぢゃろ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"nub demaets a em gnirb\"{wait}\"Well? Easy, isn't it!\"{wait}"
   },
   {
    "id": "WMAP20_28:007",
    "jp": "「でかした！ 夜叉姫！{n} よく なぞを といた！」{n}{wait}{n}「わざよせの術を{n} さずけようぞ！ ウヒャヒャ…」{n}{wait}{n}夜叉姫は{n}{col4}わざよせの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Yashahime! You solved my riddle!\"{wait}\"I shall grant you the SP Drain art! Uhyahya...\"{wait}Yashahime mastered the {col4}SP Drain art{col0}!"
   },
   {
    "id": "WMAP20_28:008",
    "jp": "「わざよせの術を 使って{n} 夜叉姫の 技を 回復{n} できるのぢゃ！」{wait}{n}「ちゃんすを みつけて{n} うまく 使うのぢゃぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"With the SP Drain art, Yashahime can restore her SP!\"{wait}\"Watch for your chance and use it well!\"{wait}"
   },
   {
    "id": "WMAP20_28:009",
    "jp": "「桃太郎！ よく きたな！{n} 活躍は 聞いておる！{n} お前たちに これを やろう！」{wait}{n}桃太郎は{n}{col10}わざよせ仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Good of you to come! I've heard of your great deeds! Here, this is for all of you!\"{wait}Momotaro got the {col10}SP Drain Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP20_28:010",
    "jp": "「泣きっ面に ハマチ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"When it rains, it prawns!\"{wait}"
   }
  ]
 }

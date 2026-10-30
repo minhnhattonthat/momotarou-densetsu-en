@@ -8,182 +8,182 @@
   {
    "id": "Z00_19:000",
    "jp": "「桃太郎！{n} このあたりには 毒を{n} 吐く 鬼が いるぞ！」{wait}{n}「茶店で 毒消しを{n} 買うのを わすれるな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! There are oni around here that spit poison!\"{wait}\"Don't forget to buy an Antidote at the teahouse!\"{wait}"
   },
   {
    "id": "Z00_19:001",
    "jp": "「桃太郎よ！ この並び洞窟には{n} いまだかつてない きびしい{n} しれんが まちうけてるぞ！」{wait}{n}「かくごは よいな？{n} 勇気の子よ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! In this Row Cave, trials harsher than any before lie in wait!\"{wait}\"Are you prepared, child of courage?\"{wait}"
   },
   {
    "id": "Z00_19:002",
    "jp": "「桃太郎！{n} みなで 力を あわせて{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Join forces with everyone and do your best!\"{wait}"
   },
   {
    "id": "Z00_19:003",
    "jp": "「さいきん 変な鬼ばかり{n} このへんを 歩いている！」{n}{wait}{n}「役にたたない やつらばかりだから{n} 先をいそぐことじゃ 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"Lately nothing but strange oni have been wandering these parts!\"{wait}\"They're a useless bunch, so hurry on ahead, Momotaro!\"{wait}"
   },
   {
    "id": "Z00_19:004",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「北東に 進んでいくと{n} めざまし仙人の{n} 庵が あるぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Head northeast and you'll find the Wake Up Hermit's hut!\"{wait}"
   },
   {
    "id": "Z00_19:005",
    "jp": "「すずめのお宿5に{n} それは きれいな 娘が{n} 泊まっているそうじゃ！」{wait}",
-   "en": ""
+   "en": "\"They say a truly beautiful girl is staying at Sparrow Inn 5!\"{wait}"
   },
   {
    "id": "Z00_19:006",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「この 鬼のつめあと の{n} 近くには 仙人の 庵が{n} たくさん あるのだ！」{wait}{n}「あわてて{n} みすごすことの{n} ないようにな！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Near these Oni Claw Marks there are many hermits' huts!\"{wait}\"Don't rush along and miss them!\"{wait}"
   },
   {
    "id": "Z00_19:007",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「仲間は みんな{n} そろったか？」{n}{wait}{n}「みんな いっしょでないと{n} これからの 旅は{n} つらいものに なるぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Are all your friends together?\"{wait}\"Unless you're all together, the journey ahead will be a hard one!\"{wait}"
   },
   {
    "id": "Z00_19:008",
    "jp": "「鬼のつめあとの{n} 出口は もうすぐじゃ！{n} がんばれ 桃太郎！」{wait}",
-   "en": ""
+   "en": "\"The exit of the Oni Claw Marks is close at hand! Keep going, Momotaro!\"{wait}"
   },
   {
    "id": "Z00_19:009",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「この 鬼のつめあとは{n} 歩いては 抜け出ることが{n} できんのじゃ！」{wait}{n}「まずは 小舟を{n} 用意することじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"You can't get out of these Oni Claw Marks on foot!\"{wait}\"First, you must get a small boat ready!\"{wait}"
   },
   {
    "id": "Z00_19:010",
    "jp": "「この 先の{n} つづら洞窟を{n} こえれば ひこぼしの村じゃ！」{wait}",
-   "en": ""
+   "en": "\"Get past Tsuzura Cave up ahead, and you'll reach Hikoboshi Village!\"{wait}"
   },
   {
    "id": "Z00_19:011",
    "jp": "「桃太郎よ！ どうやら{n} 大変な 目に{n} あった ようじゃのォ！」{wait}{n}「お前が 旅を 続けるには{n} まず 三匹の お供を{n} そろえねば ならん！」{wait}{n}「後の ことは{n} 他の 地蔵に{n} きくが よい！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Looks like you've been through quite an ordeal!\"{wait}\"To go on with your journey, you must first gather your three companions!\"{wait}\"As for the rest, ask the other Jizo!\"{wait}"
   },
   {
    "id": "Z00_19:012",
    "jp": "「桃太郎よ！{n} 金太郎は 見つけたか？」{n}{wait}{n}「今ごろ{n} ひょっこり お宿に{n} もどっておるかもしれんぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Have you found Kintaro?\"{wait}\"By now he may have turned up back at the inn!\"{wait}"
   },
   {
    "id": "Z00_19:013",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:014",
    "jp": "「桃太郎！{n} わしの 仲間は{n} 役に 立っとるか？」{wait}{n}「並び地蔵は 旅人の 味方！{n} これを やろう！」{n}{wait}{n}桃太郎は{n}{c19}{col10}地蔵カード{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are my fellow Jizo being of use to you?\"{wait}\"The Jizo Row are friends to all travelers! Take this!\"{wait}Momotaro got the {c19}{col10}Jizo Card{col0}!{wait}"
   },
   {
    "id": "Z00_19:015",
    "jp": "「桃太郎よ！{n} イヌを さがしているのか？」{n}{wait}{n}「イヌは かいぬしの ところに{n} 戻るものだ！{n} かいぬしを たずねてみろ！」{wait}{n}「後の ことは{n} 他の 地蔵に{n} きくが よい！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are you looking for Dog?\"{wait}\"A dog always goes back to its owner! Try paying the owner a visit!\"{wait}\"As for the rest, ask the other Jizo!\"{wait}"
   },
   {
    "id": "Z00_19:016",
    "jp": "「桃太郎よ！{n} 一度 すずめのお宿に{n} 戻っては どうかな？」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Why not head back to the Sparrow Inn for a while?\"{wait}"
   },
   {
    "id": "Z00_19:017",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:018",
    "jp": "「桃太郎よ！{n} サルを さがしているのか？」{n}{wait}{n}「サルが たくさんいた 村が{n} あったはずじゃ！」{n}{wait}{n}「お前の お供は{n} きっと そこだろう！」{n}{wait}{n}「後の ことは{n} 他の 地蔵に{n} きくが よい！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are you looking for Monkey?\"{wait}\"There was a village full of monkeys somewhere!\"{wait}\"Your companion is surely there!\"{wait}\"As for the rest, ask the other Jizo!\"{wait}"
   },
   {
    "id": "Z00_19:019",
    "jp": "「金太郎が おらんと{n} すずめのお宿の 南の{n} 大木は とおれまい！」{wait}",
-   "en": ""
+   "en": "\"Without Kintaro, you'll never get past the Great Tree south of the Sparrow Inn!\"{wait}"
   },
   {
    "id": "Z00_19:020",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:021",
    "jp": "「わしを つれていくと{n} 攻撃を うけたとき{n} みがわりに なってやるぞ！」{wait}{n}「わしを 仲間にするかね？」{n}{n}",
-   "en": ""
+   "en": "\"If you take me along, I'll take the blow for you whenever you're attacked!\"{wait}\"Shall I join your Friends?\""
   },
   {
    "id": "Z00_19:022",
    "jp": "「そうか！{n} では いっしょに{n} ついていくぞ！」{wait}{n}地蔵が くわわったので{n}桃太郎の 守備力が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "\"I see! Then I'll tag along with you!\"{wait}With Jizo along, Momotaro's Defense rose by {num}!{wait}"
   },
   {
    "id": "Z00_19:023",
    "jp": "「わしの 力が{n} ひつようになったら{n} いつでも くるがいい！」{wait}",
-   "en": ""
+   "en": "\"Whenever you need my power, come and see me!\"{wait}"
   },
   {
    "id": "Z00_19:024",
    "jp": "「桃太郎よ！{n} 浦島を さがしているのか？」{n}{wait}{n}「浦島を 見つけるには{n} まず 金太郎を{n} 見つけることだ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are you looking for Urashima?\"{wait}\"To find Urashima, first you must find Kintaro!\"{wait}"
   },
   {
    "id": "Z00_19:025",
    "jp": "「桃太郎よ！{n} 金太郎を 仲間にしたな！」{n}{wait}{n}「後は 旅を 続ければ{n} 浦島を 見つけることが{n} できるだろう！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! So Kintaro has joined your Friends!\"{wait}\"Just keep on traveling, and you'll be able to find Urashima!\"{wait}"
   },
   {
    "id": "Z00_19:026",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:027",
    "jp": "「桃太郎よ！{n} 夜叉姫を さがしているのか？」{n}{wait}{n}「夜叉姫を 見つけるには{n} まず 金太郎を{n} 見つけることだ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are you looking for Yashahime?\"{wait}\"To find Yashahime, first you must find Kintaro!\"{wait}"
   },
   {
    "id": "Z00_19:028",
    "jp": "「桃太郎よ！{n} 金太郎を 仲間にしたな！」{n}{wait}{n}「後は 旅を 続ければ{n} 夜叉姫を 見つけることが{n} できるだろう！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! So Kintaro has joined your Friends!\"{wait}\"Just keep on traveling, and you'll be able to find Yashahime!\"{wait}"
   },
   {
    "id": "Z00_19:029",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:030",
    "jp": "「桃太郎よ！{n} お前は 友情の たいせつさを{n} 知っているな！」{wait}{n}「必ず 仲間を{n} 見つけ出すのじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! You know how precious friendship is!\"{wait}\"Be sure to find your friends!\"{wait}"
   },
   {
    "id": "Z00_19:031",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:032",
    "jp": "「桃太郎よ！」{n}{n}{wait}{n}「浦島や 夜叉姫に{n} 会えなくても{n} あまり 気にするな！」{wait}{n}「二人に また 会えるのは{n} まだまだ 先の話じゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Don't worry too much if you can't meet Urashima or Yashahime!\"{wait}\"You won't see those two again until much further down the road!\"{wait}"
   },
   {
    "id": "Z00_19:033",
    "jp": "「桃太郎！{n} 先は 長いが{n} がんばるのだぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! The road ahead is long, but keep at it!\"{wait}"
   },
   {
    "id": "Z00_19:034",
    "jp": "桃太郎は 勇気の剣を{n}海にむかって かざした！{n}{wait}{n}勇気の剣が 輝きはじめた！{n}{n}{wait}{n}金色の 光が{n}一条の 帯となって{n}海に すいこまれていく…{wait}",
-   "en": ""
+   "en": "Momotaro held the Sword of Courage up toward the sea!{wait}The Sword of Courage began to shine!{wait}A golden light became a single ribbon and was drawn down into the sea...{wait}"
   },
   {
    "id": "Z00_19:035",
    "jp": "桃太郎は 勇気の剣を{n}海にむかって かざした！{n}{wait}{n}…しかし なにも{n}おこらなかった！{n}{wait}{n}桃太郎の 心の中に{n}悲しげな 声が ひびく！{n}{wait}{n}『桃太郎さん！{n} あなたは 友情を{n} 大切にする かたのはず！』{wait}{n}『どうして お友達を{n} ほうって おくのですか？』{n}{wait}{n}声は さびしげに{n}消えていった！{n}{wait}",
-   "en": ""
+   "en": "Momotaro held the Sword of Courage up toward the sea!{wait}...But nothing happened!{wait}A sorrowful voice echoed in Momotaro's heart!{wait}'Momotaro-san! You should be someone who treasures friendship!'{wait}'Why have you left your friends behind?'{wait}The voice faded away sadly!{wait}"
   }
  ]
 }

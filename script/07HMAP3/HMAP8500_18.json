@@ -8,1912 +8,1912 @@
   {
    "id": "HMAP8500_18:000",
    "jp": "「カード道場へ ようこそ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Welcome to the Card Dojo!\"{wait}"
   },
   {
    "id": "HMAP8500_18:001",
    "jp": "「道場の せつめいを{n} ききなさるか？」{n}",
-   "en": ""
+   "en": "\"Would you like me to explain the dojo?\""
   },
   {
    "id": "HMAP8500_18:002",
    "jp": "「ここでは カードにまつわる{n} いろいろな 人と{n} 話すことが できる！」{wait}{n}「まず カードを{n} 交換してくれる人！」{n}{wait}",
-   "en": ""
+   "en": "\"Here you can talk with all sorts of people who have to do with cards!\"{wait}\"First, the people who will trade cards with you!\"{wait}"
   },
   {
    "id": "HMAP8500_18:003",
    "jp": "「桃太郎さんの カードと{n} 別のカードを 交換しようと{n} いってくるから」{wait}{n}「交換したければ はい{n} したくなければ いいえを{n} えらぶことじゃ！」{wait}",
-   "en": ""
+   "en": "\"They'll offer to trade one of your cards, Momotaro-san, for a different card, so...\"{wait}\"if you want to trade, choose Yes, and if not, choose No!\"{wait}"
   },
   {
    "id": "HMAP8500_18:004",
    "jp": "「人は しょっちゅう{n} いれかわるから たまに{n} のぞきにくると いい！」{wait}{n}「次は 勝負を{n} いどんでくる人！」{n}{wait}",
-   "en": ""
+   "en": "\"The people change all the time, so it's good to drop in now and then!\"{wait}\"Next, the people who'll challenge you to a match!\"{wait}"
   },
   {
    "id": "HMAP8500_18:005",
    "jp": "「じゃんけんで 勝つと{n} カードが もらえるぞ！」{n}{wait}{n}「負けても カードは{n} とられないから きらくに{n} ちょうせんしてくだされ！」{wait}",
-   "en": ""
+   "en": "\"Win at rock-paper-scissors and you get a card!\"{wait}\"Even if you lose, they won't take your cards, so feel free to challenge them!\"{wait}"
   },
   {
    "id": "HMAP8500_18:006",
    "jp": "「ほかに カードを 売る人や{n} 話を するだけの人も{n} おりますぞ！」{wait}{n}「…といっても だいじな 話を{n} 知ってる人も いるから」{n}{wait}",
-   "en": ""
+   "en": "\"There are also people who sell cards, and people who just chat!\"{wait}\"...That said, some of them know important things, so...\"{wait}"
   },
   {
    "id": "HMAP8500_18:007",
    "jp": "「全員と 話すのを{n} わすれないようにな！」{n}{wait}",
-   "en": ""
+   "en": "\"don't forget to talk to everyone!\"{wait}"
   },
   {
    "id": "HMAP8500_18:008",
    "jp": "「あとは そうじゃのう…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"And what else... let me see...\"{wait}"
   },
   {
    "id": "HMAP8500_18:009",
    "jp": "「おもての扉の 鍵を{n} 開けて おいたぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"I've unlocked the front door for you!\"{wait}"
   },
   {
    "id": "HMAP8500_18:010",
    "jp": "「これで 回り道を{n} せずに すむので{n} べんりだぞ！」{wait}",
-   "en": ""
+   "en": "\"Now you won't have to go the long way around. Handy, eh!\"{wait}"
   },
   {
    "id": "HMAP8500_18:011",
    "jp": "「ゆっくりしていきなされ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Take your time!\"{wait}"
   },
   {
    "id": "HMAP8500_18:012",
    "jp": "「ずいぶん{n} ねっしんに 道場に{n} かよってくれますな！」{wait}",
-   "en": ""
+   "en": "\"My, you've certainly been coming to the dojo eagerly!\"{wait}"
   },
   {
    "id": "HMAP8500_18:013",
    "jp": "「道場を いとなむ{n} わしとしては{n} うれしいかぎりです！」{wait}{n}「そこで お礼に{n} 桃太郎さんに これを{n} さしあげましょう！」{wait}",
-   "en": ""
+   "en": "\"As the one who runs the dojo, nothing could make me happier!\"{wait}\"So, as thanks, let me give you this, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP8500_18:014",
    "jp": "桃太郎は{n}{col10}桃太郎カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Momotaro Card{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP8500_18:015",
    "jp": "「いつでも 道場に{n} 遊びに きてくだされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Come and play at the dojo anytime!\"{wait}"
   },
   {
    "id": "HMAP8500_18:016",
    "jp": "「今 いいところなんだから{n} じゃましないでください！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm at a good part right now, so don't bother me!\"{wait}"
   },
   {
    "id": "HMAP8500_18:017",
    "jp": "「この おじさん よわいから{n} 遊んでても つまんないや！」{n}{wait}",
-   "en": ""
+   "en": "\"This old guy is so weak, playing with him is boring!\"{wait}"
   },
   {
    "id": "HMAP8500_18:018",
    "jp": "「くーっ！{n} もっと としよりを{n} いたわらんかい！」{wait}",
-   "en": ""
+   "en": "\"Grr! Show some respect for your elders!\"{wait}"
   },
   {
    "id": "HMAP8500_18:019",
    "jp": "「勝負に なさけは{n} きんもつよ！」{n}{wait}",
-   "en": ""
+   "en": "\"There's no room for mercy in a match!\"{wait}"
   },
   {
    "id": "HMAP8500_18:020",
    "jp": "「{str} をかけて{n} じゃんけん しませんか？」{n}",
-   "en": ""
+   "en": "\"Want to play rock-paper-scissors for {str}?\""
   },
   {
    "id": "HMAP8500_18:021",
    "jp": "「じゃーんけーん…」{n}{n}",
-   "en": ""
+   "en": "\"Rock... paper... scissors...\""
   },
   {
    "id": "HMAP8500_18:022",
    "jp": "「{str}！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"{str}!\"{wait}"
   },
   {
    "id": "HMAP8500_18:023",
    "jp": "「やられたか！{n} しょうがない 桃太郎さん！{n} これを どうぞ！」{wait}",
-   "en": ""
+   "en": "\"You got me! Oh well, Momotaro-san! Here you go!\"{wait}"
   },
   {
    "id": "HMAP8500_18:024",
    "jp": "「勝った勝った！{n} 桃太郎さん まだまだ{n} 修行が たりないよ！」{wait}",
-   "en": ""
+   "en": "\"I win, I win! Momotaro-san, you still need more training!\"{wait}"
   },
   {
    "id": "HMAP8500_18:025",
    "jp": "「あいこか！{n} よーし！{n} じゃーんけーん…」{wait}",
-   "en": ""
+   "en": "\"A tie! All right! Rock... paper... scissors...\"{wait}"
   },
   {
    "id": "HMAP8500_18:026",
    "jp": "「じゃんけんしたくなったら{n} いつでも どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Whenever you want to play rock-paper-scissors, come on by!\"{wait}"
   },
   {
    "id": "HMAP8500_18:027",
    "jp": "「そんなことじゃ{n} わたしの カードは{n} あげられないわね！」{wait}",
-   "en": ""
+   "en": "\"With moves like that, I can't give you my card!\"{wait}"
   },
   {
    "id": "HMAP8500_18:028",
    "jp": "「村の中に 落ちている{n} カードも あるそうですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"They say there are cards lying around in the villages too!\"{wait}"
   },
   {
    "id": "HMAP8500_18:029",
    "jp": "「わーい！ わーい！{n} 桃太郎さんに{n} 勝っちゃったーっ！」{wait}",
-   "en": ""
+   "en": "\"Yay! Yay! I beat Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP8500_18:030",
    "jp": "「金太郎さんや 浦島さんの{n} 村の人たち カードを{n} もってないのかな？」{wait}",
-   "en": ""
+   "en": "\"Don't the people in Kintaro-san's and Urashima-san's villages have any cards?\"{wait}"
   },
   {
    "id": "HMAP8500_18:031",
    "jp": "「おやまあ！{n} 勝ってしまいましたわい！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh my! I seem to have won!\"{wait}"
   },
   {
    "id": "HMAP8500_18:032",
    "jp": "「思いもよらぬ人が{n} カードを くれることも{n} ありますぞ！」{wait}",
-   "en": ""
+   "en": "\"Sometimes people you'd never expect will give you cards!\"{wait}"
   },
   {
    "id": "HMAP8500_18:033",
    "jp": "「へっへっへ！{n} ざんねんだったね！{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Too bad, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP8500_18:034",
    "jp": "「桃太郎さんの おじいさんや{n} おばあさんの カードは{n} もう もってますか？」{wait}",
-   "en": ""
+   "en": "\"Do you have the cards of Momotaro-san's Grandpa and Grandma yet?\"{wait}"
   },
   {
    "id": "HMAP8500_18:035",
    "jp": "「あれー？{n} 桃太郎さんが 負けるなんて{n} かっちょわりーっ！」{wait}",
-   "en": ""
+   "en": "\"Huh? Momotaro-san lost? How uncool!\"{wait}"
   },
   {
    "id": "HMAP8500_18:036",
    "jp": "「寝太郎さんの カードが{n} あるんだって！」{wait}{n}「寝太郎さんが{n} 目を さましたら なにか{n} しってるかもね！」{wait}",
-   "en": ""
+   "en": "\"They say there's a Netaro Card!\"{wait}\"If Netaro-san wakes up, maybe he'll know something!\"{wait}"
   },
   {
    "id": "HMAP8500_18:037",
    "jp": "「あらあら！{n} 桃太郎さん ごめんなさいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh dear! I'm sorry, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP8500_18:038",
    "jp": "「一度しか 話してない人が{n} いたら もう一度 話して{n} みては どうでしょう？」{wait}",
-   "en": ""
+   "en": "\"If there's anyone you've only talked to once, why not try talking to them again?\"{wait}"
   },
   {
    "id": "HMAP8500_18:039",
    "jp": "「すみませんのう！{n} まさか 勝ってしまうとは！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm so sorry! I never thought I'd win!\"{wait}"
   },
   {
    "id": "HMAP8500_18:040",
    "jp": "「だじゃれ大会の 会場では{n} たくさん カードが{n} もらえるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"They say you can get lots of cards at the Pun Contest venue!\"{wait}"
   },
   {
    "id": "HMAP8500_18:041",
    "jp": "「桃太郎さんの{n} {str} を」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san, your {str}...\"{wait}"
   },
   {
    "id": "HMAP8500_18:042",
    "jp": "「桃太郎さんの{n} {str} と{n} {str} を」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san, your {str} and {str}...\"{wait}"
   },
   {
    "id": "HMAP8500_18:043",
    "jp": "「ああ！{n} あしながオニさんカードは{n} どこに あるんだ…」{wait}",
-   "en": ""
+   "en": "\"Ahh! Where could the Daddy Long-Oni Card be...\"{wait}"
   },
   {
    "id": "HMAP8500_18:044",
    "jp": "「村に 入ったら イヌに{n} 地面を さがさせると{n} いいですよ！」{wait}",
-   "en": ""
+   "en": "\"Once you're in a village, it's a good idea to have Dog search the ground!\"{wait}"
   },
   {
    "id": "HMAP8500_18:045",
    "jp": "「あーん！ カッコイイ{n} ビジュアル系の鬼カードが{n} ほしいわ！」{wait}",
-   "en": ""
+   "en": "\"Ohh! I want a cool Visual Kei Oni Card!\"{wait}"
   },
   {
    "id": "HMAP8500_18:046",
    "jp": "「ある人に おくりものを すると{n} カードを もらえる ときが{n} あるのよ！」{wait}{n}「おくりものと いったら{n} やっぱり 花なんか{n} すてきよねえ！」{wait}",
-   "en": ""
+   "en": "\"Sometimes when you give someone a present, they'll give you a card!\"{wait}\"And when it comes to presents, flowers are just lovely, aren't they!\"{wait}"
   },
   {
    "id": "HMAP8500_18:047",
    "jp": "「赤鬼と 青鬼は{n} コレクションの{n} きほんだよね」{wait}",
-   "en": ""
+   "en": "\"Red Oni and Blue Oni are the basics of any collection, right?\"{wait}"
   },
   {
    "id": "HMAP8500_18:048",
    "jp": "「魚で カードが{n} もらえるって ほんとかな？」{n}{wait}",
-   "en": ""
+   "en": "\"Can you really get a card for fish, I wonder?\"{wait}"
   },
   {
    "id": "HMAP8500_18:049",
    "jp": "「わしは めずらしい場所に{n} すむ 鬼の カードを{n} あつめております！」{wait}",
-   "en": ""
+   "en": "\"I collect cards of oni who live in unusual places!\"{wait}"
   },
   {
    "id": "HMAP8500_18:050",
    "jp": "「わしらには 鬼のカードは{n} 集められんからのお！」{n}{wait}{n}「桃太郎さんに{n} 交換してもらうしか{n} ないんじゃよ！」{wait}",
-   "en": ""
+   "en": "\"Folks like us can't collect oni cards, you see!\"{wait}\"Our only hope is for you to trade with us, Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP8500_18:051",
    "jp": "「お金を 盗むという カッパの{n} カードを 商売の おまもりに{n} しようと 思いましてな！」{wait}",
-   "en": ""
+   "en": "\"They say Kappa steal money, so I thought I'd keep a Kappa card as a charm for my business!\"{wait}"
   },
   {
    "id": "HMAP8500_18:052",
    "jp": "「10匹 こらしめて 手に入る{n} カードは なくなっても また{n} 手に入れることが できますよ！」{wait}",
-   "en": ""
+   "en": "\"Cards you earn by teaching 10 oni of one kind a lesson can be earned again, even if you lose them!\"{wait}"
   },
   {
    "id": "HMAP8500_18:053",
    "jp": "「ピンク鬼カードは とても{n} めずらしい カードです！」{n}{wait}{n}「がんばって{n} さがしてみて ください！」{n}{wait}",
-   "en": ""
+   "en": "\"The Pink Oni Card is a very rare card!\"{wait}\"Do your best to find it!\"{wait}"
   },
   {
    "id": "HMAP8500_18:054",
    "jp": "「都の 料亭の わかだんなの{n} カードも あるそうですよ！」{n}{wait}{n}「料亭の おとくいさんに{n} なってみては どうです？」{n}{wait}",
-   "en": ""
+   "en": "\"They say there's a card of the young master of the Capital's restaurant, too!\"{wait}\"Why not become one of the restaurant's regulars?\"{wait}"
   },
   {
    "id": "HMAP8500_18:055",
    "jp": "「こちらでは きちょうなカードを{n} とっても おとくな ねだんで{n} ていきょうしています！」{wait}",
-   "en": ""
+   "en": "\"Here we offer precious cards at real bargain prices!\"{wait}"
   },
   {
    "id": "HMAP8500_18:056",
    "jp": "「よにも めずらしい{n} {str} を{n} たったの{num}両で！」{wait}",
-   "en": ""
+   "en": "\"The rarest of the rare, {str}, for only {num} ryo!\"{wait}"
   },
   {
    "id": "HMAP8500_18:057",
    "jp": "「お買い上げになりますか？」{n}{n}",
-   "en": ""
+   "en": "\"Will you buy it?\""
   },
   {
    "id": "HMAP8500_18:058",
    "jp": "「桃太郎さん！{n} いい 買い物ですよ！{n} まいどあり！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! That's a good buy! Thanks a bunch!\"{wait}"
   },
   {
    "id": "HMAP8500_18:059",
    "jp": "「桃太郎さん！{n} こちとらも しょうばいだ！{n} このねだんは まけられねえ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I gotta make a living too! I can't knock a thing off this price!\"{wait}"
   },
   {
    "id": "HMAP8500_18:060",
    "jp": "「お金を ためて また{n} 出直してきてくださいよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Save up your money and come back again!\"{wait}"
   },
   {
    "id": "HMAP8500_18:061",
    "jp": "「もったいない！{n} こんな ほりだしもの{n} 二度と 手に入らないよ！」{wait}",
-   "en": ""
+   "en": "\"What a waste! You'll never get your hands on a find like this again!\"{wait}"
   },
   {
    "id": "HMAP8500_18:062",
    "jp": "「気が かわったら{n} また どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you change your mind, come again!\"{wait}"
   },
   {
    "id": "HMAP8500_18:063",
    "jp": "「こちらは みせじまいと{n} させて いただきます！」{n}{wait}",
-   "en": ""
+   "en": "\"We'll be closing up shop now!\"{wait}"
   },
   {
    "id": "HMAP8500_18:064",
    "jp": "「桃太郎さん！{n} いい あきないを{n} させてもらいました！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! It's been a pleasure doing business!\"{wait}"
   },
   {
    "id": "HMAP8500_18:065",
    "jp": "「わしは カードの{n} 生きじびきと{n} よばれておる！」{wait}",
-   "en": ""
+   "en": "\"I am known as the walking card encyclopedia!\"{wait}"
   },
   {
    "id": "HMAP8500_18:066",
    "jp": "「カードの ばんごうを いえば{n} それが なんの カードか{n} おしえて しんぜよう！」{wait}",
-   "en": ""
+   "en": "\"Tell me a card's number, and I shall tell you what card it is!\"{wait}"
   },
   {
    "id": "HMAP8500_18:067",
    "jp": "「おぬしの しりたい カードの{n} ばんごうは なんばんかな？」{n}{wait}",
-   "en": ""
+   "en": "\"What is the number of the card you wish to know about?\"{wait}"
   },
   {
    "id": "HMAP8500_18:068",
    "jp": "「1から297までの 中から{n} ばんごうを えらぶのじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Choose a number from 1 to 297!\"{wait}"
   },
   {
    "id": "HMAP8500_18:069",
    "jp": "「ひやかしなら よそへ{n} いって やれ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you're only browsing, go browse somewhere else!\"{wait}"
   },
   {
    "id": "HMAP8500_18:070",
    "jp": "「うむ！ それは…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hmm! That one is...\"{wait}"
   },
   {
    "id": "HMAP8500_18:071",
    "jp": "「{str}{n} じゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"{str}!\"{wait}"
   },
   {
    "id": "HMAP8500_18:072",
    "jp": "「しりたい カードが{n} あれば いつでも{n} くるがええ！」{wait}",
-   "en": ""
+   "en": "\"If there's a card you wish to know about, come anytime!\"{wait}"
   },
   {
    "id": "HMAP8500_18:073",
    "jp": "「わーい！{n} ボク もう 5枚も{n} カードが たまったよ！」{wait}",
-   "en": ""
+   "en": "\"Yay! I've already collected 5 cards!\"{wait}"
   },
   {
    "id": "HMAP8500_18:074",
    "jp": "「カード道場の うわさは{n} きいていましたが{n} すごい ねっきですね！」{wait}",
-   "en": ""
+   "en": "\"I'd heard rumors about the Card Dojo, but what enthusiasm!\"{wait}"
   },
   {
    "id": "HMAP8500_18:075",
    "jp": "「ここの 道場主さんは{n} すごい カードを{n} もってるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"They say the master of this dojo has an amazing card!\"{wait}"
   },
   {
    "id": "HMAP8500_18:076",
    "jp": "「桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}"
   },
   {
    "id": "HMAP8500_18:077",
    "jp": "桃太郎は{n}{col10}{str}{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}{str}{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP8500_18:078",
    "jp": "「桃太郎さん！ひどいや！{n} カードを もってないじゃ{n} ないですか！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! That's mean! You don't even have the card!\"{wait}"
   },
   {
    "id": "HMAP8500_18:079",
    "jp": "「そうですか！{n} 交換する気になったら{n} いつでも どうぞ！」{wait}",
-   "en": ""
+   "en": "\"I see! Whenever you feel like trading, just come by!\"{wait}"
   },
   {
    "id": "HMAP8500_18:080",
    "jp": "「どうも ありがとう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thanks a lot!\"{wait}"
   },
   {
    "id": "HMAP8500_18:081",
    "jp": "「{str} と{n} 交換しませんか？」{n}{wait}",
-   "en": ""
+   "en": "\"...would you trade for {str}?\"{wait}"
   },
   {
    "id": "HMAP8500_18:082",
    "jp": "グー",
-   "en": ""
+   "en": "Rock"
   },
   {
    "id": "HMAP8500_18:083",
    "jp": "チョキ",
-   "en": ""
+   "en": "Scissors"
   },
   {
    "id": "HMAP8500_18:084",
    "jp": "パー",
-   "en": ""
+   "en": "Paper"
   },
   {
    "id": "HMAP8500_18:085",
    "jp": "桃太郎カード",
-   "en": ""
+   "en": "Momotaro Card"
   },
   {
    "id": "HMAP8500_18:086",
    "jp": "金太郎カード",
-   "en": ""
+   "en": "Kintaro Card"
   },
   {
    "id": "HMAP8500_18:087",
    "jp": "浦島太郎カード",
-   "en": ""
+   "en": "Urashima Card"
   },
   {
    "id": "HMAP8500_18:088",
    "jp": "夜叉姫カード",
-   "en": ""
+   "en": "Yashahime Card"
   },
   {
    "id": "HMAP8500_18:089",
    "jp": "イヌカード",
-   "en": ""
+   "en": "Dog Card"
   },
   {
    "id": "HMAP8500_18:090",
    "jp": "サルカード",
-   "en": ""
+   "en": "Monkey Card"
   },
   {
    "id": "HMAP8500_18:091",
    "jp": "キジカード",
-   "en": ""
+   "en": "Pheasant Card"
   },
   {
    "id": "HMAP8500_18:092",
    "jp": "じんぱちカード",
-   "en": ""
+   "en": "Jinpachi Card"
   },
   {
    "id": "HMAP8500_18:093",
    "jp": "えのんカード",
-   "en": ""
+   "en": "Enon Card"
   },
   {
    "id": "HMAP8500_18:094",
    "jp": "ウンチカード",
-   "en": ""
+   "en": "Poop Card"
   },
   {
    "id": "HMAP8500_18:095",
    "jp": "鉄のウンチカード",
-   "en": ""
+   "en": "Iron Poop Card"
   },
   {
    "id": "HMAP8500_18:096",
    "jp": "地蔵カード",
-   "en": ""
+   "en": "Jizo Card"
   },
   {
    "id": "HMAP8500_18:097",
    "jp": "とこなつの村長カード",
-   "en": ""
+   "en": "Tokonatsu Village Chief Card"
   },
   {
    "id": "HMAP8500_18:098",
    "jp": "おじいさんカード",
-   "en": ""
+   "en": "Grandpa Card"
   },
   {
    "id": "HMAP8500_18:099",
    "jp": "おばあさんカード",
-   "en": ""
+   "en": "Grandma Card"
   },
   {
    "id": "HMAP8500_18:100",
    "jp": "ニワトリカード",
-   "en": ""
+   "en": "Chicken Card"
   },
   {
    "id": "HMAP8500_18:101",
    "jp": "牛カード",
-   "en": ""
+   "en": "Cow Card"
   },
   {
    "id": "HMAP8500_18:102",
    "jp": "ウサギ男カード",
-   "en": ""
+   "en": "Rabbit Man Card"
   },
   {
    "id": "HMAP8500_18:103",
    "jp": "ウサギ女カード",
-   "en": ""
+   "en": "Rabbit Woman Card"
   },
   {
    "id": "HMAP8500_18:104",
    "jp": "タヌキ男カード",
-   "en": ""
+   "en": "Tanuki Man Card"
   },
   {
    "id": "HMAP8500_18:105",
    "jp": "タヌキ女カード",
-   "en": ""
+   "en": "Tanuki Woman Card"
   },
   {
    "id": "HMAP8500_18:106",
    "jp": "ネズミ男カード",
-   "en": ""
+   "en": "Mouse Man Card"
   },
   {
    "id": "HMAP8500_18:107",
    "jp": "ネズミ女カード",
-   "en": ""
+   "en": "Mouse Woman Card"
   },
   {
    "id": "HMAP8500_18:108",
    "jp": "長老ネズミカード",
-   "en": ""
+   "en": "Elder Mouse Card"
   },
   {
    "id": "HMAP8500_18:109",
    "jp": "ボンビーの村の男カード",
-   "en": ""
+   "en": "Bombee Village Man Card"
   },
   {
    "id": "HMAP8500_18:110",
    "jp": "ボンビーの村の女カード",
-   "en": ""
+   "en": "Bombee Village Woman Card"
   },
   {
    "id": "HMAP8500_18:111",
    "jp": "ミニボンビーカード",
-   "en": ""
+   "en": "Mini Bombee Card"
   },
   {
    "id": "HMAP8500_18:112",
    "jp": "キングボンビーの像カード",
-   "en": ""
+   "en": "King Bombee Statue Card"
   },
   {
    "id": "HMAP8500_18:113",
    "jp": "ウンチの女神カード",
-   "en": ""
+   "en": "Poop Goddess Card"
   },
   {
    "id": "HMAP8500_18:114",
    "jp": "花咲かじいさんカード",
-   "en": ""
+   "en": "Old Man Hanasaka Card"
   },
   {
    "id": "HMAP8500_18:115",
    "jp": "サル回しの男カード",
-   "en": ""
+   "en": "Monkey Trainer Card"
   },
   {
    "id": "HMAP8500_18:116",
    "jp": "サル回しのサルカード",
-   "en": ""
+   "en": "Trainer's Monkey Card"
   },
   {
    "id": "HMAP8500_18:117",
    "jp": "浴衣美人カード",
-   "en": ""
+   "en": "Yukata Beauty Card"
   },
   {
    "id": "HMAP8500_18:118",
    "jp": "おみこしカード",
-   "en": ""
+   "en": "Portable Shrine Card"
   },
   {
    "id": "HMAP8500_18:119",
    "jp": "漁師カード",
-   "en": ""
+   "en": "Fisherman Card"
   },
   {
    "id": "HMAP8500_18:120",
    "jp": "伝助カード",
-   "en": ""
+   "en": "Densuke Card"
   },
   {
    "id": "HMAP8500_18:121",
    "jp": "カメカード",
-   "en": ""
+   "en": "Turtle Card"
   },
   {
    "id": "HMAP8500_18:122",
    "jp": "乙姫カード",
-   "en": ""
+   "en": "Otohime Card"
   },
   {
    "id": "HMAP8500_18:123",
    "jp": "竜宮の踊り子カード",
-   "en": ""
+   "en": "Ryugu Dancer Card"
   },
   {
    "id": "HMAP8500_18:124",
    "jp": "竜宮の女官カード",
-   "en": ""
+   "en": "Ryugu Lady-in-Waiting Card"
   },
   {
    "id": "HMAP8500_18:125",
    "jp": "寝太郎カード",
-   "en": ""
+   "en": "Netaro Card"
   },
   {
    "id": "HMAP8500_18:126",
    "jp": "スリの銀次カード",
-   "en": ""
+   "en": "Ginji the Pickpocket Card"
   },
   {
    "id": "HMAP8500_18:127",
    "jp": "門臨 忍カード",
-   "en": ""
+   "en": "Shinobu Kadorin Card"
   },
   {
    "id": "HMAP8500_18:128",
    "jp": "坂口康大カード",
-   "en": ""
+   "en": "Kodai Sakaguchi Card"
   },
   {
    "id": "HMAP8500_18:129",
    "jp": "明地 徹カード",
-   "en": ""
+   "en": "Toru Akechi Card"
   },
   {
    "id": "HMAP8500_18:130",
    "jp": "川口和美カード",
-   "en": ""
+   "en": "Kazumi Kawaguchi Card"
   },
   {
    "id": "HMAP8500_18:131",
    "jp": "千葉泰裕カード",
-   "en": ""
+   "en": "Yasuhiro Chiba Card"
   },
   {
    "id": "HMAP8500_18:132",
    "jp": "とこなつの村の男カード",
-   "en": ""
+   "en": "Tokonatsu Village Man Card"
   },
   {
    "id": "HMAP8500_18:133",
    "jp": "とこなつの村の女カード",
-   "en": ""
+   "en": "Tokonatsu Village Woman Card"
   },
   {
    "id": "HMAP8500_18:134",
    "jp": "都の長老カード",
-   "en": ""
+   "en": "Capital Elder Card"
   },
   {
    "id": "HMAP8500_18:135",
    "jp": "都踊りガールズカード",
-   "en": ""
+   "en": "Capital Dance Girls Card"
   },
   {
    "id": "HMAP8500_18:136",
    "jp": "板前カード",
-   "en": ""
+   "en": "Chef Card"
   },
   {
    "id": "HMAP8500_18:137",
    "jp": "ひこぼしカード",
-   "en": ""
+   "en": "Hikoboshi Card"
   },
   {
    "id": "HMAP8500_18:138",
    "jp": "おりひめカード",
-   "en": ""
+   "en": "Orihime Card"
   },
   {
    "id": "HMAP8500_18:139",
    "jp": "かぐやのおじいさんカード",
-   "en": ""
+   "en": "Kaguya's Grandpa Card"
   },
   {
    "id": "HMAP8500_18:140",
    "jp": "かぐやのおばあさんカード",
-   "en": ""
+   "en": "Kaguya's Grandma Card"
   },
   {
    "id": "HMAP8500_18:141",
    "jp": "かぐや姫カード",
-   "en": ""
+   "en": "Princess Kaguya Card"
   },
   {
    "id": "HMAP8500_18:142",
    "jp": "すずめカード",
-   "en": ""
+   "en": "Sparrow Card"
   },
   {
    "id": "HMAP8500_18:143",
    "jp": "易者カード",
-   "en": ""
+   "en": "Fortune Teller Card"
   },
   {
    "id": "HMAP8500_18:144",
    "jp": "きっちょむさんカード",
-   "en": ""
+   "en": "Kitchomu-san Card"
   },
   {
    "id": "HMAP8500_18:145",
    "jp": "きんたん仙人カード",
-   "en": ""
+   "en": "Kintan Hermit Card"
   },
   {
    "id": "HMAP8500_18:146",
    "jp": "ぬけだし仙人カード",
-   "en": ""
+   "en": "Escape Hermit Card"
   },
   {
    "id": "HMAP8500_18:147",
    "jp": "はやあし仙人カード",
-   "en": ""
+   "en": "Dash Hermit Card"
   },
   {
    "id": "HMAP8500_18:148",
    "jp": "カード仙人カード",
-   "en": ""
+   "en": "Card Hermit Card"
   },
   {
    "id": "HMAP8500_18:149",
    "jp": "ひえん仙人カード",
-   "en": ""
+   "en": "Warp Hermit Card"
   },
   {
    "id": "HMAP8500_18:150",
    "jp": "ろっかく仙人カード",
-   "en": ""
+   "en": "Smash Hermit Card"
   },
   {
    "id": "HMAP8500_18:151",
    "jp": "ふゆう仙人カード",
-   "en": ""
+   "en": "Float Hermit Card"
   },
   {
    "id": "HMAP8500_18:152",
    "jp": "いだてん仙人カード",
-   "en": ""
+   "en": "Idaten Hermit Card"
   },
   {
    "id": "HMAP8500_18:153",
    "jp": "きゅうどう仙人カード",
-   "en": ""
+   "en": "Archery Hermit Card"
   },
   {
    "id": "HMAP8500_18:154",
    "jp": "オートバトル仙人カード",
-   "en": ""
+   "en": "Auto Battle Hermit Card"
   },
   {
    "id": "HMAP8500_18:155",
    "jp": "せんきん仙人カード",
-   "en": ""
+   "en": "Kintan Plus Hermit Card"
   },
   {
    "id": "HMAP8500_18:156",
    "jp": "いなずま仙人カード",
-   "en": ""
+   "en": "Lightning Hermit Card"
   },
   {
    "id": "HMAP8500_18:157",
    "jp": "まんきん仙人カード",
-   "en": ""
+   "en": "Kintan Max Hermit Card"
   },
   {
    "id": "HMAP8500_18:158",
    "jp": "めざまし仙人カード",
-   "en": ""
+   "en": "Wake Up Hermit Card"
   },
   {
    "id": "HMAP8500_18:159",
    "jp": "まもり仙人カード",
-   "en": ""
+   "en": "Shield Hermit Card"
   },
   {
    "id": "HMAP8500_18:160",
    "jp": "ふういん仙人カード",
-   "en": ""
+   "en": "Seal Hermit Card"
   },
   {
    "id": "HMAP8500_18:161",
    "jp": "おによけ仙人カード",
-   "en": ""
+   "en": "Oni Ward Hermit Card"
   },
   {
    "id": "HMAP8500_18:162",
    "jp": "ふにゃら仙人カード",
-   "en": ""
+   "en": "Soften Hermit Card"
   },
   {
    "id": "HMAP8500_18:163",
    "jp": "ばいりき仙人カード",
-   "en": ""
+   "en": "Power Hermit Card"
   },
   {
    "id": "HMAP8500_18:164",
    "jp": "りょうり仙人カード",
-   "en": ""
+   "en": "Cooking Hermit Card"
   },
   {
    "id": "HMAP8500_18:165",
    "jp": "まいたん仙人カード",
-   "en": ""
+   "en": "Regenerate Hermit Card"
   },
   {
    "id": "HMAP8500_18:166",
    "jp": "はやて仙人カード",
-   "en": ""
+   "en": "Haste Hermit Card"
   },
   {
    "id": "HMAP8500_18:167",
    "jp": "わざよせ仙人カード",
-   "en": ""
+   "en": "SP Drain Hermit Card"
   },
   {
    "id": "HMAP8500_18:168",
    "jp": "わざわけ仙人カード",
-   "en": ""
+   "en": "SP Share Hermit Card"
   },
   {
    "id": "HMAP8500_18:169",
    "jp": "やまびこ仙人カード",
-   "en": ""
+   "en": "Echo Hermit Card"
   },
   {
    "id": "HMAP8500_18:170",
    "jp": "銀の鬼カード",
-   "en": ""
+   "en": "Silver Oni Card"
   },
   {
    "id": "HMAP8500_18:171",
    "jp": "両鉄カード",
-   "en": ""
+   "en": "Ryotetsu Card"
   },
   {
    "id": "HMAP8500_18:172",
    "jp": "金の鬼カード",
-   "en": ""
+   "en": "Gold Oni Card"
   },
   {
    "id": "HMAP8500_18:173",
    "jp": "黒鬼カード",
-   "en": ""
+   "en": "Black Oni Card"
   },
   {
    "id": "HMAP8500_18:174",
    "jp": "竜燈鬼カード",
-   "en": ""
+   "en": "Ryutoki Card"
   },
   {
    "id": "HMAP8500_18:175",
    "jp": "たつまき鬼カード",
-   "en": ""
+   "en": "Tornado Oni Card"
   },
   {
    "id": "HMAP8500_18:176",
    "jp": "酒呑童子カード",
-   "en": ""
+   "en": "Shuten-doji Card"
   },
   {
    "id": "HMAP8500_18:177",
    "jp": "夜叉姫カード",
-   "en": ""
+   "en": "Yashahime Card"
   },
   {
    "id": "HMAP8500_18:178",
    "jp": "醜女カード",
-   "en": ""
+   "en": "Shikome Card"
   },
   {
    "id": "HMAP8500_18:179",
    "jp": "ましらカード",
-   "en": ""
+   "en": "Mashira Card"
   },
   {
    "id": "HMAP8500_18:180",
    "jp": "ブルーモンキーズカード",
-   "en": ""
+   "en": "Blue Monkeys Card"
   },
   {
    "id": "HMAP8500_18:181",
    "jp": "阿修羅カード",
-   "en": ""
+   "en": "Ashura Card"
   },
   {
    "id": "HMAP8500_18:182",
    "jp": "代替鬼カード",
-   "en": ""
+   "en": "Stand-In Oni Card"
   },
   {
    "id": "HMAP8500_18:183",
    "jp": "山姥カード",
-   "en": ""
+   "en": "Yamanba Card"
   },
   {
    "id": "HMAP8500_18:184",
    "jp": "塩吹き鬼カード",
-   "en": ""
+   "en": "Salt Oni Card"
   },
   {
    "id": "HMAP8500_18:185",
    "jp": "風神カード",
-   "en": ""
+   "en": "Fujin Card"
   },
   {
    "id": "HMAP8500_18:186",
    "jp": "ごずカード",
-   "en": ""
+   "en": "Gozu Card"
   },
   {
    "id": "HMAP8500_18:187",
    "jp": "めずカード",
-   "en": ""
+   "en": "Mezu Card"
   },
   {
    "id": "HMAP8500_18:188",
    "jp": "水鬼カード",
-   "en": ""
+   "en": "Water Oni Card"
   },
   {
    "id": "HMAP8500_18:189",
    "jp": "雷神カード",
-   "en": ""
+   "en": "Raijin Card"
   },
   {
    "id": "HMAP8500_18:190",
    "jp": "羅生門の鬼カード",
-   "en": ""
+   "en": "Rashomon Oni Card"
   },
   {
    "id": "HMAP8500_18:191",
    "jp": "左魂鬼カード",
-   "en": ""
+   "en": "Left Soul Oni Card"
   },
   {
    "id": "HMAP8500_18:192",
    "jp": "右魂鬼カード",
-   "en": ""
+   "en": "Right Soul Oni Card"
   },
   {
    "id": "HMAP8500_18:193",
    "jp": "えんま大王カード",
-   "en": ""
+   "en": "Great King Enma Card"
   },
   {
    "id": "HMAP8500_18:194",
    "jp": "赤鬼カード",
-   "en": ""
+   "en": "Red Oni Card"
   },
   {
    "id": "HMAP8500_18:195",
    "jp": "鬼がわらカード",
-   "en": ""
+   "en": "Oni Tile Card"
   },
   {
    "id": "HMAP8500_18:196",
    "jp": "どくろ鬼カード",
-   "en": ""
+   "en": "Skull Oni Card"
   },
   {
    "id": "HMAP8500_18:197",
    "jp": "青鬼カード",
-   "en": ""
+   "en": "Blue Oni Card"
   },
   {
    "id": "HMAP8500_18:198",
    "jp": "黄鬼カード",
-   "en": ""
+   "en": "Yellow Oni Card"
   },
   {
    "id": "HMAP8500_18:199",
    "jp": "地獄がわらカード",
-   "en": ""
+   "en": "Hell Tile Card"
   },
   {
    "id": "HMAP8500_18:200",
    "jp": "緑鬼カード",
-   "en": ""
+   "en": "Green Oni Card"
   },
   {
    "id": "HMAP8500_18:201",
    "jp": "火炎がわらカード",
-   "en": ""
+   "en": "Flame Tile Card"
   },
   {
    "id": "HMAP8500_18:202",
    "jp": "コウモリカード",
-   "en": ""
+   "en": "Bat Card"
   },
   {
    "id": "HMAP8500_18:203",
    "jp": "血吸いコウモリカード",
-   "en": ""
+   "en": "Vampire Bat Card"
   },
   {
    "id": "HMAP8500_18:204",
    "jp": "大コウモリカード",
-   "en": ""
+   "en": "Giant Bat Card"
   },
   {
    "id": "HMAP8500_18:205",
    "jp": "オニレンジャーカード",
-   "en": ""
+   "en": "Oni Rangers Card"
   },
   {
    "id": "HMAP8500_18:206",
    "jp": "ケータイの鬼カード",
-   "en": ""
+   "en": "Cell Phone Oni Card"
   },
   {
    "id": "HMAP8500_18:207",
    "jp": "グルメの鬼カード",
-   "en": ""
+   "en": "Gourmet Oni Card"
   },
   {
    "id": "HMAP8500_18:208",
    "jp": "歴史の鬼カード",
-   "en": ""
+   "en": "History Oni Card"
   },
   {
    "id": "HMAP8500_18:209",
    "jp": "ビジュアル系の鬼カード",
-   "en": ""
+   "en": "Visual Kei Oni Card"
   },
   {
    "id": "HMAP8500_18:210",
    "jp": "福の神カード",
-   "en": ""
+   "en": "God of Fortune Card"
   },
   {
    "id": "HMAP8500_18:211",
    "jp": "あまのじゃくカード",
-   "en": ""
+   "en": "Amanojaku Card"
   },
   {
    "id": "HMAP8500_18:212",
    "jp": "漢字の鬼カード",
-   "en": ""
+   "en": "Kanji Oni Card"
   },
   {
    "id": "HMAP8500_18:213",
    "jp": "のざらし鬼カード",
-   "en": ""
+   "en": "Bleached Skull Oni Card"
   },
   {
    "id": "HMAP8500_18:214",
    "jp": "しゃれこうべ鬼カード",
-   "en": ""
+   "en": "Cranium Oni Card"
   },
   {
    "id": "HMAP8500_18:215",
    "jp": "いのしし鬼カード",
-   "en": ""
+   "en": "Boar Oni Card"
   },
   {
    "id": "HMAP8500_18:216",
    "jp": "げらだひひ鬼カード",
-   "en": ""
+   "en": "Gelada Oni Card"
   },
   {
    "id": "HMAP8500_18:217",
    "jp": "ピンク鬼カード",
-   "en": ""
+   "en": "Pink Oni Card"
   },
   {
    "id": "HMAP8500_18:218",
    "jp": "みみずくカード",
-   "en": ""
+   "en": "Horned Owl Card"
   },
   {
    "id": "HMAP8500_18:219",
    "jp": "とらふずく鬼カード",
-   "en": ""
+   "en": "Long-Eared Owl Oni Card"
   },
   {
    "id": "HMAP8500_18:220",
    "jp": "しまふくろうカード",
-   "en": ""
+   "en": "Fish Owl Card"
   },
   {
    "id": "HMAP8500_18:221",
    "jp": "よるごろすけカード",
-   "en": ""
+   "en": "Night Hooter Card"
   },
   {
    "id": "HMAP8500_18:222",
    "jp": "すずかごぜんカード",
-   "en": ""
+   "en": "Lady Suzuka Card"
   },
   {
    "id": "HMAP8500_18:223",
    "jp": "てなが鬼カード",
-   "en": ""
+   "en": "Long-Arm Oni Card"
   },
   {
    "id": "HMAP8500_18:224",
    "jp": "あしなが鬼カード",
-   "en": ""
+   "en": "Long-Leg Oni Card"
   },
   {
    "id": "HMAP8500_18:225",
    "jp": "手のり鬼カード",
-   "en": ""
+   "en": "Pocket Oni Card"
   },
   {
    "id": "HMAP8500_18:226",
    "jp": "ムチ鬼カード",
-   "en": ""
+   "en": "Whip Oni Card"
   },
   {
    "id": "HMAP8500_18:227",
    "jp": "鬼のめカード",
-   "en": ""
+   "en": "Oni Eye Card"
   },
   {
    "id": "HMAP8500_18:228",
    "jp": "にらみ鬼カード",
-   "en": ""
+   "en": "Glare Oni Card"
   },
   {
    "id": "HMAP8500_18:229",
    "jp": "ネズミ鬼カード",
-   "en": ""
+   "en": "Mouse Oni Card"
   },
   {
    "id": "HMAP8500_18:230",
    "jp": "むじな鬼カード",
-   "en": ""
+   "en": "Badger Oni Card"
   },
   {
    "id": "HMAP8500_18:231",
    "jp": "とら鬼カード",
-   "en": ""
+   "en": "Tiger Oni Card"
   },
   {
    "id": "HMAP8500_18:232",
    "jp": "くま鬼カード",
-   "en": ""
+   "en": "Bear Oni Card"
   },
   {
    "id": "HMAP8500_18:233",
    "jp": "あばれウシカード",
-   "en": ""
+   "en": "Raging Bull Card"
   },
   {
    "id": "HMAP8500_18:234",
    "jp": "やぎゅうカード",
-   "en": ""
+   "en": "Bison Card"
   },
   {
    "id": "HMAP8500_18:235",
    "jp": "あばれウマカード",
-   "en": ""
+   "en": "Raging Horse Card"
   },
   {
    "id": "HMAP8500_18:236",
    "jp": "くろこまカード",
-   "en": ""
+   "en": "Black Colt Card"
   },
   {
    "id": "HMAP8500_18:237",
    "jp": "きめんガニカード",
-   "en": ""
+   "en": "Oni-Face Crab Card"
   },
   {
    "id": "HMAP8500_18:238",
    "jp": "かぶとガニカード",
-   "en": ""
+   "en": "Horseshoe Crab Card"
   },
   {
    "id": "HMAP8500_18:239",
    "jp": "亡者カード",
-   "en": ""
+   "en": "Wraith Card"
   },
   {
    "id": "HMAP8500_18:240",
    "jp": "夜叉カード",
-   "en": ""
+   "en": "Yasha Card"
   },
   {
    "id": "HMAP8500_18:241",
    "jp": "ほね鬼カード",
-   "en": ""
+   "en": "Bone Oni Card"
   },
   {
    "id": "HMAP8500_18:242",
    "jp": "ごくそつ亡者カード",
-   "en": ""
+   "en": "Jailer Wraith Card"
   },
   {
    "id": "HMAP8500_18:243",
    "jp": "ぼうはち亡者カード",
-   "en": ""
+   "en": "Wicked Wraith Card"
   },
   {
    "id": "HMAP8500_18:244",
    "jp": "トラ王カード",
-   "en": ""
+   "en": "Tiger King Card"
   },
   {
    "id": "HMAP8500_18:245",
    "jp": "えきびょう鬼カード",
-   "en": ""
+   "en": "Plague Oni Card"
   },
   {
    "id": "HMAP8500_18:246",
    "jp": "びょうま鬼カード",
-   "en": ""
+   "en": "Sickness Oni Card"
   },
   {
    "id": "HMAP8500_18:247",
    "jp": "クモザルカード",
-   "en": ""
+   "en": "Spider Monkey Card"
   },
   {
    "id": "HMAP8500_18:248",
    "jp": "かつらぎごぜんカード",
-   "en": ""
+   "en": "Lady Katsuragi Card"
   },
   {
    "id": "HMAP8500_18:249",
    "jp": "こくう夜叉カード",
-   "en": ""
+   "en": "Void Yasha Card"
   },
   {
    "id": "HMAP8500_18:250",
    "jp": "むくろ鬼カード",
-   "en": ""
+   "en": "Corpse Oni Card"
   },
   {
    "id": "HMAP8500_18:251",
    "jp": "はっこつ鬼カード",
-   "en": ""
+   "en": "Skeleton Oni Card"
   },
   {
    "id": "HMAP8500_18:252",
    "jp": "まんびょう鬼カード",
-   "en": ""
+   "en": "Malady Oni Card"
   },
   {
    "id": "HMAP8500_18:253",
    "jp": "のみ鬼カード",
-   "en": ""
+   "en": "Flea Oni Card"
   },
   {
    "id": "HMAP8500_18:254",
    "jp": "ひむろ鬼カード",
-   "en": ""
+   "en": "Icehouse Oni Card"
   },
   {
    "id": "HMAP8500_18:255",
    "jp": "ふぶきごぜんカード",
-   "en": ""
+   "en": "Lady Blizzard Card"
   },
   {
    "id": "HMAP8500_18:256",
    "jp": "くまタカカード",
-   "en": ""
+   "en": "Hawk Eagle Card"
   },
   {
    "id": "HMAP8500_18:257",
    "jp": "かんむりくまタカカード",
-   "en": ""
+   "en": "Crowned Hawk Eagle Card"
   },
   {
    "id": "HMAP8500_18:258",
    "jp": "びゃくやウマカード",
-   "en": ""
+   "en": "White Night Horse Card"
   },
   {
    "id": "HMAP8500_18:259",
    "jp": "ひょうせつガニカード",
-   "en": ""
+   "en": "Frost Crab Card"
   },
   {
    "id": "HMAP8500_18:260",
    "jp": "ユキだるまカード",
-   "en": ""
+   "en": "Snowman Card"
   },
   {
    "id": "HMAP8500_18:261",
    "jp": "雪鬼カード",
-   "en": ""
+   "en": "Snow Oni Card"
   },
   {
    "id": "HMAP8500_18:262",
    "jp": "雪原コウモリカード",
-   "en": ""
+   "en": "Snowfield Bat Card"
   },
   {
    "id": "HMAP8500_18:263",
    "jp": "ひょうがごぜんカード",
-   "en": ""
+   "en": "Lady Glacier Card"
   },
   {
    "id": "HMAP8500_18:264",
    "jp": "びゃっこカード",
-   "en": ""
+   "en": "White Tiger Card"
   },
   {
    "id": "HMAP8500_18:265",
    "jp": "ながやり鬼カード",
-   "en": ""
+   "en": "Long Spear Oni Card"
   },
   {
    "id": "HMAP8500_18:266",
    "jp": "まさかり鬼カード",
-   "en": ""
+   "en": "Axe Oni Card"
   },
   {
    "id": "HMAP8500_18:267",
    "jp": "ひむろザルカード",
-   "en": ""
+   "en": "Icehouse Monkey Card"
   },
   {
    "id": "HMAP8500_18:268",
    "jp": "とびてん夜叉カード",
-   "en": ""
+   "en": "Sky Yasha Card"
   },
   {
    "id": "HMAP8500_18:269",
    "jp": "ひむろ夜叉カード",
-   "en": ""
+   "en": "Icehouse Yasha Card"
   },
   {
    "id": "HMAP8500_18:270",
    "jp": "白うかりカード",
-   "en": ""
+   "en": "White Ukari Card"
   },
   {
    "id": "HMAP8500_18:271",
    "jp": "キツネカード",
-   "en": ""
+   "en": "Fox Card"
   },
   {
    "id": "HMAP8500_18:272",
    "jp": "ゲージツの鬼カード",
-   "en": ""
+   "en": "Artiste Oni Card"
   },
   {
    "id": "HMAP8500_18:273",
    "jp": "車内販売の鬼カード",
-   "en": ""
+   "en": "Snack Cart Oni Card"
   },
   {
    "id": "HMAP8500_18:274",
    "jp": "文学の鬼カード",
-   "en": ""
+   "en": "Literature Oni Card"
   },
   {
    "id": "HMAP8500_18:275",
    "jp": "ほねオニぞんカード",
-   "en": ""
+   "en": "Bone-Weary Oni Card"
   },
   {
    "id": "HMAP8500_18:276",
    "jp": "タカさんチェックカード",
-   "en": ""
+   "en": "Hawk-san Check Card"
   },
   {
    "id": "HMAP8500_18:277",
    "jp": "あしながオニさんカード",
-   "en": ""
+   "en": "Daddy Long-Oni Card"
   },
   {
    "id": "HMAP8500_18:278",
    "jp": "まめ鬼カード",
-   "en": ""
+   "en": "Mini Oni Card"
   },
   {
    "id": "HMAP8500_18:279",
    "jp": "ギャンブルの鬼カード",
-   "en": ""
+   "en": "Gambling Oni Card"
   },
   {
    "id": "HMAP8500_18:280",
    "jp": "ゲットの鬼カード",
-   "en": ""
+   "en": "Gotcha Oni Card"
   },
   {
    "id": "HMAP8500_18:281",
    "jp": "友達んちの鬼カード",
-   "en": ""
+   "en": "Friend's House Oni Card"
   },
   {
    "id": "HMAP8500_18:282",
    "jp": "福の神キングカード",
-   "en": ""
+   "en": "God of Fortune King Card"
   },
   {
    "id": "HMAP8500_18:283",
    "jp": "あまのじゃくZカード",
-   "en": ""
+   "en": "Amanojaku Z Card"
   },
   {
    "id": "HMAP8500_18:284",
    "jp": "レンタルの鬼カード",
-   "en": ""
+   "en": "Rental Oni Card"
   },
   {
    "id": "HMAP8500_18:285",
    "jp": "算数の鬼カード",
-   "en": ""
+   "en": "Math Oni Card"
   },
   {
    "id": "HMAP8500_18:286",
    "jp": "赤うかりカード",
-   "en": ""
+   "en": "Red Ukari Card"
   },
   {
    "id": "HMAP8500_18:287",
    "jp": "百目鬼カード",
-   "en": ""
+   "en": "Hundred-Eyed Oni Card"
   },
   {
    "id": "HMAP8500_18:288",
    "jp": "地燈鬼カード",
-   "en": ""
+   "en": "Chitoki Card"
   },
   {
    "id": "HMAP8500_18:289",
    "jp": "阿修羅隊カード",
-   "en": ""
+   "en": "Ashura Squad Card"
   },
   {
    "id": "HMAP8500_18:290",
    "jp": "くぐつ鬼カード",
-   "en": ""
+   "en": "Puppet Oni Card"
   },
   {
    "id": "HMAP8500_18:291",
    "jp": "火の玉カード",
-   "en": ""
+   "en": "Will-o'-Wisp Card"
   },
   {
    "id": "HMAP8500_18:292",
    "jp": "くじゃくカード",
-   "en": ""
+   "en": "Peacock Card"
   },
   {
    "id": "HMAP8500_18:293",
    "jp": "まだらチョウカード",
-   "en": ""
+   "en": "Spotted Butterfly Card"
   },
   {
    "id": "HMAP8500_18:294",
    "jp": "ちゃくまヒヒカード",
-   "en": ""
+   "en": "Chacma Baboon Card"
   },
   {
    "id": "HMAP8500_18:295",
    "jp": "どくえらヒヒカード",
-   "en": ""
+   "en": "Olive Baboon Card"
   },
   {
    "id": "HMAP8500_18:296",
    "jp": "天燈鬼カード",
-   "en": ""
+   "en": "Tentoki Card"
   },
   {
    "id": "HMAP8500_18:297",
    "jp": "ししカード",
-   "en": ""
+   "en": "Lion Card"
   },
   {
    "id": "HMAP8500_18:298",
    "jp": "べにくじゃくカード",
-   "en": ""
+   "en": "Crimson Peacock Card"
   },
   {
    "id": "HMAP8500_18:299",
    "jp": "みつまた鬼カード",
-   "en": ""
+   "en": "Trident Oni Card"
   },
   {
    "id": "HMAP8500_18:300",
    "jp": "蛇燈鬼カード",
-   "en": ""
+   "en": "Jatoki Card"
   },
   {
    "id": "HMAP8500_18:301",
    "jp": "地獄じしカード",
-   "en": ""
+   "en": "Hell Lion Card"
   },
   {
    "id": "HMAP8500_18:302",
    "jp": "じゃのめチョウカード",
-   "en": ""
+   "en": "Eyespot Butterfly Card"
   },
   {
    "id": "HMAP8500_18:303",
    "jp": "ぎんギツネカード",
-   "en": ""
+   "en": "Silver Fox Card"
   },
   {
    "id": "HMAP8500_18:304",
    "jp": "びろーんカード",
-   "en": ""
+   "en": "Stretchy Card"
   },
   {
    "id": "HMAP8500_18:305",
    "jp": "雪はんにゃカード",
-   "en": ""
+   "en": "Snow Hannya Card"
   },
   {
    "id": "HMAP8500_18:306",
    "jp": "じゅうじキツネカード",
-   "en": ""
+   "en": "Cross Fox Card"
   },
   {
    "id": "HMAP8500_18:307",
    "jp": "金剛はんにゃカード",
-   "en": ""
+   "en": "Vajra Hannya Card"
   },
   {
    "id": "HMAP8500_18:308",
    "jp": "のっぺらぼうカード",
-   "en": ""
+   "en": "Faceless Ghost Card"
   },
   {
    "id": "HMAP8500_18:309",
    "jp": "きなこぼうカード",
-   "en": ""
+   "en": "Floury Ghost Card"
   },
   {
    "id": "HMAP8500_18:310",
    "jp": "どふもこふもカード",
-   "en": ""
+   "en": "Dofumokofumo Card"
   },
   {
    "id": "HMAP8500_18:311",
    "jp": "ゆめみくじゃくカード",
-   "en": ""
+   "en": "Dreamy Peacock Card"
   },
   {
    "id": "HMAP8500_18:312",
    "jp": "てんぐチョウカード",
-   "en": ""
+   "en": "Tengu Butterfly Card"
   },
   {
    "id": "HMAP8500_18:313",
    "jp": "おろちカード",
-   "en": ""
+   "en": "Orochi Card"
   },
   {
    "id": "HMAP8500_18:314",
    "jp": "くちなわおろちカード",
-   "en": ""
+   "en": "Serpent Orochi Card"
   },
   {
    "id": "HMAP8500_18:315",
    "jp": "福の神ゴッドカード",
-   "en": ""
+   "en": "God of Fortune God Card"
   },
   {
    "id": "HMAP8500_18:316",
    "jp": "よもつじしカード",
-   "en": ""
+   "en": "Yomi Lion Card"
   },
   {
    "id": "HMAP8500_18:317",
    "jp": "よもつはんにゃカード",
-   "en": ""
+   "en": "Yomi Hannya Card"
   },
   {
    "id": "HMAP8500_18:318",
    "jp": "かわたろうカード",
-   "en": ""
+   "en": "Kawataro Card"
   },
   {
    "id": "HMAP8500_18:319",
    "jp": "たろうぼうカード",
-   "en": ""
+   "en": "Tarobo Card"
   },
   {
    "id": "HMAP8500_18:320",
    "jp": "がらっぱどんカード",
-   "en": ""
+   "en": "Garappa-don Card"
   },
   {
    "id": "HMAP8500_18:321",
    "jp": "黒ガッパカード",
-   "en": ""
+   "en": "Black Kappa Card"
   },
   {
    "id": "HMAP8500_18:322",
    "jp": "しりこガッパカード",
-   "en": ""
+   "en": "Bottom Kappa Card"
   },
   {
    "id": "HMAP8500_18:323",
    "jp": "えびせんガッパカード",
-   "en": ""
+   "en": "Shrimp Chip Kappa Card"
   },
   {
    "id": "HMAP8500_18:324",
    "jp": "やみくぐつカード",
-   "en": ""
+   "en": "Dark Puppet Card"
   },
   {
    "id": "HMAP8500_18:325",
    "jp": "がきだまカード",
-   "en": ""
+   "en": "Hungry Wisp Card"
   },
   {
    "id": "HMAP8500_18:326",
    "jp": "はらだしカード",
-   "en": ""
+   "en": "Bare Belly Card"
   },
   {
    "id": "HMAP8500_18:327",
    "jp": "大なむちカード",
-   "en": ""
+   "en": "Onamuchi Card"
   },
   {
    "id": "HMAP8500_18:328",
    "jp": "火炎羅刹カード",
-   "en": ""
+   "en": "Flame Rakshasa Card"
   },
   {
    "id": "HMAP8500_18:329",
    "jp": "いなずま羅刹カード",
-   "en": ""
+   "en": "Lightning Rakshasa Card"
   },
   {
    "id": "HMAP8500_18:330",
    "jp": "だくりゅう羅刹カード",
-   "en": ""
+   "en": "Torrent Rakshasa Card"
   },
   {
    "id": "HMAP8500_18:331",
    "jp": "あやつり童子カード",
-   "en": ""
+   "en": "Puppeteer Doji Card"
   },
   {
    "id": "HMAP8500_18:332",
    "jp": "おんりょうカード",
-   "en": ""
+   "en": "Vengeful Ghost Card"
   },
   {
    "id": "HMAP8500_18:333",
    "jp": "もうりょうカード",
-   "en": ""
+   "en": "Moryo Card"
   },
   {
    "id": "HMAP8500_18:334",
    "jp": "ちみもうりょうカード",
-   "en": ""
+   "en": "Chimi-Moryo Card"
   },
   {
    "id": "HMAP8500_18:335",
    "jp": "きどうまるカード",
-   "en": ""
+   "en": "Kidomaru Card"
   },
   {
    "id": "HMAP8500_18:336",
    "jp": "ぬえカード",
-   "en": ""
+   "en": "Nue Card"
   },
   {
    "id": "HMAP8500_18:337",
    "jp": "すくなカード",
-   "en": ""
+   "en": "Sukuna Card"
   },
   {
    "id": "HMAP8500_18:338",
    "jp": "きまいらカード",
-   "en": ""
+   "en": "Chimera Card"
   },
   {
    "id": "HMAP8500_18:339",
    "jp": "ばっかん邪鬼カード",
-   "en": ""
+   "en": "Bakkan Imp Card"
   },
   {
    "id": "HMAP8500_18:340",
    "jp": "酒呑邪鬼カード",
-   "en": ""
+   "en": "Shuten Imp Card"
   },
   {
    "id": "HMAP8500_18:341",
    "jp": "羅生邪鬼カード",
-   "en": ""
+   "en": "Rasho Imp Card"
   },
   {
    "id": "HMAP8500_18:342",
    "jp": "もうそうちくカード",
-   "en": ""
+   "en": "Giant Bamboo Card"
   },
   {
    "id": "HMAP8500_18:343",
    "jp": "おかめざさカード",
-   "en": ""
+   "en": "Dwarf Bamboo Card"
   },
   {
    "id": "HMAP8500_18:344",
    "jp": "びゃくれん鬼カード",
-   "en": ""
+   "en": "White Lotus Oni Card"
   },
   {
    "id": "HMAP8500_18:345",
    "jp": "だつえばカード",
-   "en": ""
+   "en": "Datsueba Card"
   },
   {
    "id": "HMAP8500_18:346",
    "jp": "地獄金剛カード",
-   "en": ""
+   "en": "Hell Vajra Card"
   },
   {
    "id": "HMAP8500_18:347",
    "jp": "びしゃだごくそつカード",
-   "en": ""
+   "en": "Pishacha Jailer Card"
   },
   {
    "id": "HMAP8500_18:348",
    "jp": "えんばカード",
-   "en": ""
+   "en": "Enba Card"
   },
   {
    "id": "HMAP8500_18:349",
    "jp": "がねえしゃカード",
-   "en": ""
+   "en": "Ganesha Card"
   },
   {
    "id": "HMAP8500_18:350",
    "jp": "やさぶろうばカード",
-   "en": ""
+   "en": "Yasaburoba Card"
   },
   {
    "id": "HMAP8500_18:351",
    "jp": "うんばカード",
-   "en": ""
+   "en": "Unba Card"
   },
   {
    "id": "HMAP8500_18:352",
    "jp": "あいらばたカード",
-   "en": ""
+   "en": "Airavata Card"
   },
   {
    "id": "HMAP8500_18:353",
    "jp": "よもつ金剛カード",
-   "en": ""
+   "en": "Yomi Vajra Card"
   },
   {
    "id": "HMAP8500_18:354",
    "jp": "ふたんなごくそつカード",
-   "en": ""
+   "en": "Putana Jailer Card"
   },
   {
    "id": "HMAP8500_18:355",
    "jp": "てんごう鬼カード",
-   "en": ""
+   "en": "Prankster Oni Card"
   },
   {
    "id": "HMAP8500_18:356",
    "jp": "けんだばごくそつカード",
-   "en": ""
+   "en": "Gandharva Jailer Card"
   },
   {
    "id": "HMAP8500_18:357",
    "jp": "くばんだごくそつカード",
-   "en": ""
+   "en": "Kumbhanda Jailer Card"
   },
   {
    "id": "HMAP8500_18:358",
    "jp": "砂びろーんカード",
-   "en": ""
+   "en": "Sand Stretchy Card"
   },
   {
    "id": "HMAP8500_18:359",
    "jp": "紅びろーんカード",
-   "en": ""
+   "en": "Crimson Stretchy Card"
   },
   {
    "id": "HMAP8500_18:360",
    "jp": "岩びろーんカード",
-   "en": ""
+   "en": "Rock Stretchy Card"
   },
   {
    "id": "HMAP8500_18:361",
    "jp": "仙人掌カード",
-   "en": ""
+   "en": "Cactus Card"
   },
   {
    "id": "HMAP8500_18:362",
    "jp": "鬼面掌カード",
-   "en": ""
+   "en": "Oni-Face Cactus Card"
   },
   {
    "id": "HMAP8500_18:363",
    "jp": "三面掌カード",
-   "en": ""
+   "en": "Three-Face Cactus Card"
   },
   {
    "id": "HMAP8500_18:364",
    "jp": "蟻地獄カード",
-   "en": ""
+   "en": "Antlion Card"
   },
   {
    "id": "HMAP8500_18:365",
    "jp": "毒牙地獄カード",
-   "en": ""
+   "en": "Venomfang Antlion Card"
   },
   {
    "id": "HMAP8500_18:366",
    "jp": "地獄ノコギリカード",
-   "en": ""
+   "en": "Hell Saw Card"
   },
   {
    "id": "HMAP8500_18:367",
    "jp": "鬼面魚カード",
-   "en": ""
+   "en": "Oni-Face Fish Card"
   },
   {
    "id": "HMAP8500_18:368",
    "jp": "一角鬼面魚カード",
-   "en": ""
+   "en": "Horned Oni-Face Fish Card"
   },
   {
    "id": "HMAP8500_18:369",
    "jp": "醜面魚カード",
-   "en": ""
+   "en": "Ugly-Face Fish Card"
   },
   {
    "id": "HMAP8500_18:370",
    "jp": "ぬれ女カード",
-   "en": ""
+   "en": "Nure-Onna Card"
   },
   {
    "id": "HMAP8500_18:371",
    "jp": "いそ女カード",
-   "en": ""
+   "en": "Iso-Onna Card"
   },
   {
    "id": "HMAP8500_18:372",
    "jp": "人魚カード",
-   "en": ""
+   "en": "Mermaid Card"
   },
   {
    "id": "HMAP8500_18:373",
    "jp": "海牛カード",
-   "en": ""
+   "en": "Sea Bull Card"
   },
   {
    "id": "HMAP8500_18:374",
    "jp": "雷牛カード",
-   "en": ""
+   "en": "Thunder Bull Card"
   },
   {
    "id": "HMAP8500_18:375",
    "jp": "火牛カード",
-   "en": ""
+   "en": "Fire Bull Card"
   },
   {
    "id": "HMAP8500_18:376",
    "jp": "餓鬼カード",
-   "en": ""
+   "en": "Hungry Ghost Card"
   },
   {
    "id": "HMAP8500_18:377",
    "jp": "追っかけの鬼カード",
-   "en": ""
+   "en": "Groupie Oni Card"
   },
   {
    "id": "HMAP8500_18:378",
    "jp": "えんおうばカード",
-   "en": ""
+   "en": "Enoba Card"
   },
   {
    "id": "HMAP8500_18:379",
    "jp": "へんぷくカード",
-   "en": ""
+   "en": "Flittermouse Card"
   },
   {
    "id": "HMAP8500_18:380",
    "jp": "血吸いてんそカード",
-   "en": ""
+   "en": "Vampire Flitter Card"
   },
   {
    "id": "HMAP8500_18:381",
    "jp": "オオカワホリカード",
-   "en": ""
+   "en": "Giant Flittermouse Card"
   }
  ]
 }

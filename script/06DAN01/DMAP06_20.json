@@ -8,112 +8,112 @@
   {
    "id": "DMAP06_20:000",
    "jp": "「桃太郎か！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it!\"{wait}"
   },
   {
    "id": "DMAP06_20:001",
    "jp": "「いつか お前と 戦える日が{n} くると 信じて 待っていたぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"I've been waiting, sure the day would come when I could fight you!\"{wait}"
   },
   {
    "id": "DMAP06_20:002",
    "jp": "「1対1で 勝負だ！ こい！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"One on one! Bring it on!\"{wait}"
   },
   {
    "id": "DMAP06_20:003",
    "jp": "「ま まいった！{n} 桃太郎さんの おかげで{n} 目が さめたよ！」{wait}",
-   "en": ""
+   "en": "\"I-I give up! Thanks to you, Momotaro-san, I've seen the light!\"{wait}"
   },
   {
    "id": "DMAP06_20:004",
    "jp": "「お礼に オレの 知ってる{n} だいじなことを おしえるぜ！」{n}{wait}",
-   "en": ""
+   "en": "\"As thanks, I'll tell you something important I know!\"{wait}"
   },
   {
    "id": "DMAP06_20:005",
    "jp": "「5つの 宝物の ありかさ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where the five treasures are!\"{wait}"
   },
   {
    "id": "DMAP06_20:006",
    "jp": "「竜の首飾りと 仏のお鉢 以外の{n} 3つについて おしえるからな！」{n}{wait}",
-   "en": ""
+   "en": "\"I'll tell you about the 3 besides the Dragon Necklace and Buddha's Bowl!\"{wait}"
   },
   {
    "id": "DMAP06_20:007",
    "jp": "「まず一つは 南に進む 途中の{n} あぶくま洞の 中に あるんだ！」{n}{wait}",
-   "en": ""
+   "en": "\"The first one is inside Abukuma Cave, on the way south!\"{wait}"
   },
   {
    "id": "DMAP06_20:008",
    "jp": "「もう一つは 南に 進むと{n} 鬼のつめあと という 水路が{n} あるんだが」{wait}",
-   "en": ""
+   "en": "\"For the next one, if you go south, there's a waterway called the Oni Claw Marks,\"{wait}"
   },
   {
    "id": "DMAP06_20:009",
    "jp": "「その 鬼のつめあとを ぬけた{n} 先の ウサカメの村に ある！」{n}{wait}",
-   "en": ""
+   "en": "\"and it's in Usakame Village, past the Oni Claw Marks!\"{wait}"
   },
   {
    "id": "DMAP06_20:010",
    "jp": "「最後の一つは どこにあるか{n} オレも 知らないんだ！」{n}{wait}",
-   "en": ""
+   "en": "\"As for the last one, even I don't know where it is!\"{wait}"
   },
   {
    "id": "DMAP06_20:011",
    "jp": "「最後の一つは 桃太郎さんが{n} さがしだしてくれよ！」{n}{wait}",
-   "en": ""
+   "en": "\"You'll have to find the last one yourself, Momotaro-san!\"{wait}"
   },
   {
    "id": "DMAP06_20:012",
    "jp": "「そう そう！{n} もう一つ いいことを{n} おしえるよ！」{wait}",
-   "en": ""
+   "en": "\"Oh, right! I'll tell you one more useful thing!\"{wait}"
   },
   {
    "id": "DMAP06_20:013",
    "jp": "「鬼のつめあとには{n} なんでも 盗む カッパが{n} 出るから 気を つけな！」{wait}",
-   "en": ""
+   "en": "\"A Kappa that steals anything shows up in the Oni Claw Marks, so watch out!\"{wait}"
   },
   {
    "id": "DMAP06_20:014",
    "jp": "「カッパに なにか 盗まれたら{n} いつでも こいよ！{n} いいことを おしえてやるぜ！」{wait}",
-   "en": ""
+   "en": "\"If the Kappa steals something from you, come see me any time! I'll tell you something useful!\"{wait}"
   },
   {
    "id": "DMAP06_20:015",
    "jp": "「よお 桃太郎！」{n}{n}{wait}{n}「カッパに{n} なにか 盗まれたのか？」{n}{wait}",
-   "en": ""
+   "en": "\"Hey, Momotaro!\"{wait}\"Did the Kappa steal something from you?\"{wait}"
   },
   {
    "id": "DMAP06_20:016",
    "jp": "「安心しな！ カッパは{n} 盗んだものを かならず{n} 同じ 場所に 隠すのさ！」{wait}{n}「オレが{n} その 隠し場所を{n} 教えてやるよ！」{wait}",
-   "en": ""
+   "en": "\"Don't worry! The Kappa always hides what it steals in the same place!\"{wait}\"I'll tell you where that hiding place is!\"{wait}"
   },
   {
    "id": "DMAP06_20:017",
    "jp": "「よーく 聞きなよ！{n} わざよせ仙人の 庵から{n} まっすぐ 南に 歩くんだ！」{wait}{n}「つきあたりを 西に 歩いて{n} また つきあたりを 南に{n} すぐの つきあたりを 西に！」{wait}",
-   "en": ""
+   "en": "\"Listen up! From the SP Drain Hermit's hut, walk straight south!\"{wait}\"At the dead end, walk west, then at the next dead end go south, and at the dead end right after, go west!\"{wait}"
   },
   {
    "id": "DMAP06_20:018",
    "jp": "「西に つきあたったら{n} 南に 3歩 西に 2歩！」{n}{wait}{n}「そうしたら カッパの{n} 洞窟が 見つかるはずさ！」{n}{wait}",
-   "en": ""
+   "en": "\"When you hit the dead end going west, go 3 steps south and 2 steps west!\"{wait}\"Then you should find the Kappa's cave!\"{wait}"
   },
   {
    "id": "DMAP06_20:019",
    "jp": "「カッパの 盗んだものの{n} 隠し場所を 知りたいんだろ？」{n}{wait}{n}「よーく 聞きなよ！{n} わざよせ仙人の 庵から{n} まっすぐ 南に 歩くんだ！」{wait}",
-   "en": ""
+   "en": "\"You want to know where the Kappa hides the stuff it steals, right?\"{wait}\"Listen up! From the SP Drain Hermit's hut, walk straight south!\"{wait}"
   },
   {
    "id": "DMAP06_20:020",
    "jp": "「つきあたりを 西に 歩いて{n} また つきあたりを 南に{n} すぐの つきあたりを 西に！」{wait}{n}「西に つきあたったら{n} 南に 3歩 西に 2歩！」{n}{wait}",
-   "en": ""
+   "en": "\"At the dead end, walk west, then at the next dead end go south, and at the dead end right after, go west!\"{wait}\"When you hit the dead end going west, go 3 steps south and 2 steps west!\"{wait}"
   },
   {
    "id": "DMAP06_20:021",
    "jp": "「そうしたら カッパの{n} 洞窟が 見つかるはずさ！」{n}{wait}",
-   "en": ""
+   "en": "\"Then you should find the Kappa's cave!\"{wait}"
   }
  ]
 }

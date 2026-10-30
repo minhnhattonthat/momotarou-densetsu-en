@@ -8,162 +8,162 @@
   {
    "id": "OMAP00_53:000",
    "jp": "「おお 桃太郎！」{n}{n}{wait}{n}「お前が ここから 先へ{n} 進むのなら 38段くらいは{n} ないと つらいであろう！」{wait}{n}「38段に なっていなければ{n} このあたりで 修行を 重ね{n} 経験を 積むことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Ah, Momotaro!\"{wait}\"If you mean to go on from here, without about level 38 you'll have a hard time of it!\"{wait}\"If you haven't reached level 38, do your training around here and build up your experience!\"{wait}"
   },
   {
    "id": "OMAP00_53:001",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「みなさんの 装備は{n} もう そろいましたか？」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Has everyone got their equipment all sorted out yet?\"{wait}"
   },
   {
    "id": "OMAP00_53:002",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「どうか 北の 岬で{n} 勇気の剣を 使ってください！」{n}{wait}{n}「そうすれば 鬼が島へ{n} 渡る 道が 開くはずです！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Please, use the Sword of Courage at the North Cape!\"{wait}\"Then the path across to Onigashima should open!\"{wait}"
   },
   {
    "id": "OMAP00_53:003",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「金太郎さんの 一番の 装備は」{n}{n}{wait}{n}「希望のまさかり と{n} 希望のはらがけ と{n} 希望のたび ですよ！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Kintaro-san's best equipment is\"{wait}\"the Axe of Hope, the Apron of Hope and the Tabi of Hope!\"{wait}"
   },
   {
    "id": "OMAP00_53:004",
    "jp": "「チュチュン！ 桃太郎さん！{n} 早く 鬼が島へ！」{n}{wait}{n}「どうか{n} かぐや姫様を お助けください！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san! Hurry to Onigashima!\"{wait}\"Please, rescue Princess Kaguya!\"{wait}"
   },
   {
    "id": "OMAP00_53:005",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「浦島さんの 一番の 装備は」{n}{n}{wait}{n}「正義のモリ と{n} 正義の着物 と{n} 正義のたび です！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Urashima-san's best equipment is\"{wait}\"the Harpoon of Justice, the Kimono of Justice and the Tabi of Justice!\"{wait}"
   },
   {
    "id": "OMAP00_53:006",
    "jp": "「チュチュン！ 桃太郎さん！{n} いよいよ えんまと{n} 最後の 戦いですね！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san! At last, it's the final battle with Enma!\"{wait}"
   },
   {
    "id": "OMAP00_53:007",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「夜叉姫さんの 一番の 装備は」{n}{n}{wait}{n}「愛のかんざし と{n} 愛のふりそで と{n} 愛のたび です！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Yashahime-san's best equipment is\"{wait}\"the Hairpin of Love, the Furisode of Love and the Tabi of Love!\"{wait}"
   },
   {
    "id": "OMAP00_53:008",
    "jp": "「チュチュン！ 桃太郎さん！」{n}{n}{wait}{n}「えんまは かぐや姫様を{n} さらい 鬼が島で{n} 桃太郎さんを 待っています！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Momotaro-san!\"{wait}\"Enma kidnapped Princess Kaguya, and he's waiting for you on Onigashima!\"{wait}"
   },
   {
    "id": "OMAP00_53:009",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「いよいよ 最後の{n} 戦いなんですね！{n} どうか ごぶじで！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"So this is the final battle at last! Please stay safe!\"{wait}"
   },
   {
    "id": "OMAP00_53:010",
    "jp": "「いらっしゃーい！ ここは{n} すずめのつづら屋 でーす！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcooome! This is the Sparrow Basket Shop!\"{wait}"
   },
   {
    "id": "OMAP00_53:011",
    "jp": "「{num}両 払って つづらを{n} あけると いろんな 賞品が{n} 当たります！ チュチュン！」{wait}{n}「{num}両払って あそんで{n} いきますか？ チュチュン！」{n}{wait}{n}「さあ どれにしますか？」{n}{n}{n}「{str} が 当たりました{n} チュチュン！」{n}{wait}{n}「チュチュン！ もう一度{n} {num}両払って{n} ちょうせんしますか？」{n}「チュチュン！{n} お金が たりません！」{n}{wait}{n}「どの 説明を{n} 見ますか？{n} チュチュン！」{n}「他の 説明も{n} 見ますか？{n} チュチュン！」{n}「チュチュン！ また{n} おこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Pay {num} ryo to open a basket and win all sorts of prizes! Chirp chirp!\"{wait}\"Will you pay {num} ryo and play? Chirp chirp!\"{wait}\"Now, which one will it be?\"{n}{n}{n}\"You won {str}! Chirp chirp!\"{wait}\"Chirp chirp! Pay {num} ryo and try again?\"{n}\"Chirp chirp! You don't have enough money!\"{wait}\"Which explanation would you like to see? Chirp chirp!\"{n}\"Would you like to see another explanation? Chirp chirp!\"{n}\"Chirp chirp! Please come again!\"{wait}"
   },
   {
    "id": "OMAP00_53:012",
    "jp": "「うむむむむむ！{n} 見ればその場でピタリと当たる！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmmmmm! One look, and I read you spot on!\"{wait}"
   },
   {
    "id": "OMAP00_53:013",
    "jp": "「よいよい！ なにもいわずとも{n} おぬしが 何をききたいかは{n} よく わかっとる！」{wait}{n}「そらとぶ えんばんが{n} 本当に そんざいするのか{n} 知りたいんじゃろ？」{wait}",
-   "en": ""
+   "en": "\"Fine, fine! You needn't say a word. I know full well what you want to ask!\"{wait}\"You want to know whether flying saucers really exist, don't you?\"{wait}"
   },
   {
    "id": "OMAP00_53:014",
    "jp": "「そうじゃろう！ そうじゃろう！{n} わしには わかっておったぞ！」{n}{wait}{n}「なに ちがう？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I knew it! I knew it! I saw it coming!\"{wait}\"What? Wrong?\"{wait}"
   },
   {
    "id": "OMAP00_53:015",
    "jp": "「わはははは！ わかっとる！{n} あいての いひょうをつく{n} テクニックじゃよ！」{wait}{n}「ところで おぬしは{n} この島の 北へは もう{n} いったかな？」{wait}",
-   "en": ""
+   "en": "\"Wahahaha! I know, I know! It's a technique for catching people off guard!\"{wait}\"By the way, have you been to the north of this island yet?\"{wait}"
   },
   {
    "id": "OMAP00_53:016",
    "jp": "「北の岬には うずを まいた{n} ふしぎな海が あるのじゃ！」{n}{wait}{n}「なに だから どうしたじゃと？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"At the North Cape there's a mysterious sea that swirls in a whirlpool!\"{wait}\"What? So what, you say?\"{wait}"
   },
   {
    "id": "OMAP00_53:017",
    "jp": "「わはははは！ わかっとる！{n} しかし こうした話も{n} あとで 役立つのじゃよ！」{wait}{n}「ところで おぬしの 仲間は{n} もう 最強の 防具を{n} 装備しているのかな？」{wait}",
-   "en": ""
+   "en": "\"Wahahaha! I know, I know! But stories like this come in handy later!\"{wait}\"By the way, are your friends equipped with the strongest armor yet?\"{wait}"
   },
   {
    "id": "OMAP00_53:018",
    "jp": "「最強の 防具が わからないなら{n} お宿の すずめたちに{n} 聞いて みれば よかろう！」{wait}{n}「なに 最強の 防具の ありかを{n} さっさと 教えろとな？」{n}{wait}",
-   "en": ""
+   "en": "\"If you don't know what the strongest armor is, why not ask the sparrows at the inns?\"{wait}\"What? Hurry up and tell you where the strongest armor is?\"{wait}"
   },
   {
    "id": "OMAP00_53:019",
    "jp": "「わはははは！ わかっとる！{n} とくべつ サービスじゃぞ！{n} 海を さがすのじゃ！」{wait}{n}「よしよし！ それでは{n} ひとつ 占うとしようか！」{n}{wait}",
-   "en": ""
+   "en": "\"Wahahaha! I know, I know! Here's a special bonus! Search the sea!\"{wait}\"Good, good! Now then, let me tell your fortune!\"{wait}"
   },
   {
    "id": "OMAP00_53:020",
    "jp": "「なにを 占えば よいのかな？」{n}{n}",
-   "en": ""
+   "en": "\"What shall I tell your fortune about?\""
   },
   {
    "id": "OMAP00_53:021",
    "jp": "「うむむむむむ！」{n}{n}{wait}{n}「かぐや姫に 会う前に{n} 5つの 宝物を{n} そろえよ と でた！」{wait}",
-   "en": ""
+   "en": "\"Hmmmmm!\"{wait}\"Gather the five treasures before you meet Princess Kaguya! So say the stars!\"{wait}"
   },
   {
    "id": "OMAP00_53:022",
    "jp": "「うむむむむむ！」{n}{n}{wait}{n}「5つめの 宝物は{n} 船でなければ ゆけないところに{n} ある と でた！」{wait}",
-   "en": ""
+   "en": "\"Hmmmmm!\"{wait}\"The fifth treasure lies where only a ship can go! So say the stars!\"{wait}"
   },
   {
    "id": "OMAP00_53:023",
    "jp": "「うむむむむむ！」{n}{n}{wait}{n}「かぐや姫に 会うときは{n} むりに おしゃれせずとも{n} よい！ と でた！」{wait}",
-   "en": ""
+   "en": "\"Hmmmmm!\"{wait}\"When you meet Princess Kaguya, there's no need to force yourself to dress up! So say the stars!\"{wait}"
   },
   {
    "id": "OMAP00_53:024",
    "jp": "桃太郎は{n}{col10}すずめカード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Sparrow Card{col0}!{c19}{wait}"
   },
   {
    "id": "OMAP00_53:025",
    "jp": "「桃太郎さん！{n} やっと ボクの 地図が{n} かんせいしたんだな！」{wait}{n}「桃太郎さんに あげる 地図も{n} これが 最後なんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! My map is finally finished, I reckon!\"{wait}\"This is the last map I'll be giving you, Momotaro-san, I reckon!\"{wait}"
   },
   {
    "id": "OMAP00_53:026",
    "jp": "桃太郎は{n}{col4}地図{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Map{col0}!{c19}{wait}"
   },
   {
    "id": "OMAP00_53:027",
    "jp": "「じゃあ 鬼たいじの 旅{n} がんばってほしいんだな！」{n}{wait}",
-   "en": ""
+   "en": "\"So, I hope you do your best on your Oni Slaying journey, I reckon!\"{wait}"
   },
   {
    "id": "OMAP00_53:028",
    "jp": "「桃太郎さんを{n} おうえんしてるんだな」{n}{wait}",
-   "en": ""
+   "en": "\"I'm rooting for you, Momotaro-san, I reckon.\"{wait}"
   },
   {
    "id": "OMAP00_53:029",
    "jp": "「負け犬の 逃亡！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Every underdog has its getaway!\"{wait}"
   },
   {
    "id": "OMAP00_53:030",
    "jp": "「雀百まで 踊るあほうに{n} 見るあほう！」{n}{wait}",
-   "en": ""
+   "en": "\"You can't teach an old sparrow to dance like nobody's watching!\"{wait}"
   },
   {
    "id": "OMAP00_53:031",
    "jp": "「鬼に カナブン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Like giving an oni a club... I mean, a June bug!\"{wait}"
   }
  ]
 }

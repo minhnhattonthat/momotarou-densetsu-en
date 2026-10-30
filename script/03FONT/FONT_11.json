@@ -8,767 +8,767 @@
   {
    "id": "FONT_11:000",
    "jp": "あまり強く たたいたので{n}はりせんは こわれてしまった！{n}{wait}",
-   "en": ""
+   "en": "It was struck so hard that the Paper Fan broke!{wait}"
   },
   {
    "id": "FONT_11:001",
    "jp": "ふるさとの 味がした！{n}{n}{wait}",
-   "en": ""
+   "en": "It tasted like home!{wait}"
   },
   {
    "id": "FONT_11:002",
    "jp": "{str}の 技と 体力は{n}回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}'s SP and HP were restored!{wait}"
   },
   {
    "id": "FONT_11:003",
    "jp": "あまり強く たたいたので{n}打ち出のこづちは こわれてしまった！{n}{wait}",
-   "en": ""
+   "en": "It was struck so hard that the Lucky Mallet broke!{wait}"
   },
   {
    "id": "FONT_11:004",
    "jp": "{str}の 体から{n}毒が 消えた！{n}{wait}",
-   "en": ""
+   "en": "The poison left {str}'s body!{wait}"
   },
   {
    "id": "FONT_11:005",
    "jp": "{str}の マヒが{n}なくなった！{n}{wait}",
-   "en": ""
+   "en": "{str}'s paralysis is gone!{wait}"
   },
   {
    "id": "FONT_11:006",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:007",
    "jp": "{str}の{n}体の最大が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s maximum HP rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:008",
    "jp": "{str}の{n}技の最大が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s maximum SP rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:009",
    "jp": "{str}の{n}素早さが{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s Speed rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:010",
    "jp": "{str}の{n}攻撃力が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s Attack rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:011",
    "jp": "{str}の{n}守備力が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s Defense rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:012",
    "jp": "{str}は{n}心の数 {num}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}'s hearts went up by {num}!{wait}"
   },
   {
    "id": "FONT_11:013",
    "jp": "{str}は{n}心の数 {num}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}'s hearts went up by {num}!{wait}"
   },
   {
    "id": "FONT_11:014",
    "jp": "{str}は{n}心の数 {num}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}'s hearts went up by {num}!{wait}"
   },
   {
    "id": "FONT_11:015",
    "jp": "金歩の玉は{n}こわれて しまった！{n}{wait}",
-   "en": ""
+   "en": "The Goldstep Orb broke!{wait}"
   },
   {
    "id": "FONT_11:016",
    "jp": "敵は 全滅した！{n}{n}{wait}",
-   "en": ""
+   "en": "The enemies were wiped out!{wait}"
   },
   {
    "id": "FONT_11:017",
    "jp": "{str}の{n}体の数 10が{n}技 1になった！{wait}",
-   "en": ""
+   "en": "{str} turned 10 HP into 1 SP!{wait}"
   },
   {
    "id": "FONT_11:018",
    "jp": "{str}は{n}体の数が{n}足りなかった！{wait}",
-   "en": ""
+   "en": "{str} didn't have enough HP!{wait}"
   },
   {
    "id": "FONT_11:019",
    "jp": "{col4}竹の水筒{col0}は{n}こわれて しまった！{n}{wait}",
-   "en": ""
+   "en": "The {col4}Bamboo Canteen{col0} broke!{wait}"
   },
   {
    "id": "FONT_11:020",
    "jp": "といち屋の 主人の{n}声が 聞こえてきた{n}{wait}",
-   "en": ""
+   "en": "The voice of the Bank's owner could be heard{wait}"
   },
   {
    "id": "FONT_11:021",
    "jp": "といち屋の 声が{n}消えていった！{n}{wait}",
-   "en": ""
+   "en": "The Bank's voice faded away!{wait}"
   },
   {
    "id": "FONT_11:022",
    "jp": "といち屋の 主人の{n}声が 聞こえてきた{n}{wait}",
-   "en": ""
+   "en": "The voice of the Bank's owner could be heard{wait}"
   },
   {
    "id": "FONT_11:023",
    "jp": "といち屋の 声が{n}消えていった！{n}{wait}",
-   "en": ""
+   "en": "The Bank's voice faded away!{wait}"
   },
   {
    "id": "FONT_11:024",
    "jp": "{col4}うみひこのいし{col0}を{n}このいちに おきました！{n}",
-   "en": ""
+   "en": "Placed the {col4}Umihiko Stone{col0} on this spot!"
   },
   {
    "id": "FONT_11:025",
    "jp": "しかし{n}ここには おけなかった！{n}",
-   "en": ""
+   "en": "But it couldn't be placed here!"
   },
   {
    "id": "FONT_11:026",
    "jp": "まだ うみひこのいしを{n}どこにも おいていない！{n}",
-   "en": ""
+   "en": "You haven't placed the Umihiko Stone anywhere yet!"
   },
   {
    "id": "FONT_11:027",
    "jp": "しかし{n}体力が 足りなかった！{n}{wait}",
-   "en": ""
+   "en": "But there wasn't enough HP!{wait}"
   },
   {
    "id": "FONT_11:028",
    "jp": "{str}{str}は{n}{str}{str}の 武器を{n}{col4}といし{col0}で といだ！{wait}",
-   "en": ""
+   "en": "{str}{str} sharpened {str}{str}'s weapon with the {col4}Whetstone{col0}!{wait}"
   },
   {
    "id": "FONT_11:029",
    "jp": "{str}{str}の{n}武器の 鋭さが{n}ました！{wait}",
-   "en": ""
+   "en": "{str}{str}'s weapon got sharper!{wait}"
   },
   {
    "id": "FONT_11:030",
    "jp": "あまり激しく といだので{n}{col4}といし{col0}は こわれてしまった！{n}{wait}",
-   "en": ""
+   "en": "It was sharpened so hard that the {col4}Whetstone{col0} broke!{wait}"
   },
   {
    "id": "FONT_11:031",
    "jp": "しかし{n}{str}{str}の 武器には{n}効果が なかった！{wait}",
-   "en": ""
+   "en": "But it had no effect on {str}{str}'s weapon!{wait}"
   },
   {
    "id": "FONT_11:032",
    "jp": "{str}{str}は{n}{str}{str}の 武器を{n}{col4}といし{col0}で とごうと した！{wait}",
-   "en": ""
+   "en": "{str}{str} tried to sharpen {str}{str}'s weapon with the {col4}Whetstone{col0}!{wait}"
   },
   {
    "id": "FONT_11:033",
    "jp": "しかし {str}{str}は{n}武器を 装備して いなかった！{n}{wait}",
-   "en": ""
+   "en": "But {str}{str} had no weapon equipped!{wait}"
   },
   {
    "id": "FONT_11:034",
    "jp": "むだなことを したことに{n}気がついた{n}{wait}",
-   "en": ""
+   "en": "...and realized it was pointless.{wait}"
   },
   {
    "id": "FONT_11:035",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:036",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:037",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:038",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:039",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:040",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:041",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:042",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:043",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:044",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:045",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:046",
    "jp": "{str}は 病気が なおった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} was cured of illness!{wait}"
   },
   {
    "id": "FONT_11:047",
    "jp": "桃太郎は",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_11:048",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:049",
    "jp": "きんたんの術を 使った！{n}きんたーん！{wait}",
-   "en": ""
+   "en": " used theKintan art! Kintaaan!{wait}"
   },
   {
    "id": "FONT_11:050",
    "jp": "桃太郎は",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_11:051",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:052",
    "jp": "せんきんたんの術を 使った！{n}せーんきーんたーん！{wait}",
-   "en": ""
+   "en": " used theKintan Plus art! Kintaaan Pluuus!{wait}"
   },
   {
    "id": "FONT_11:053",
    "jp": "桃太郎は",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_11:054",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:055",
    "jp": "まんきんたんの術を 使った！{n}まーんきーんたーん！{wait}",
-   "en": ""
+   "en": " used theKintan Max art! Kintaaan Maaax!{wait}"
   },
   {
    "id": "FONT_11:056",
    "jp": "桃太郎は ぬけだしの術を{n}使った！ ぬけだしー！{n}{wait}",
-   "en": ""
+   "en": "Momotaro used the Escape art! Escaaape!{wait}"
   },
   {
    "id": "FONT_11:057",
    "jp": "桃太郎は ひえんの術を{n}使った！ そらひえーん！{n}{wait}",
-   "en": ""
+   "en": "Momotaro used the Warp art! Sky-waaarp!{wait}"
   },
   {
    "id": "FONT_11:058",
    "jp": "桃太郎は{n}いなずまの術を 使った！{n}いなずまーん！{wait}",
-   "en": ""
+   "en": "Momotaro used the Lightning art! Lightniiing!{wait}"
   },
   {
    "id": "FONT_11:059",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:060",
    "jp": "いなずまの術を 使った！{n}いなずまーん！{wait}",
-   "en": ""
+   "en": " used theLightning art! Lightniiing!{wait}"
   },
   {
    "id": "FONT_11:061",
    "jp": "桃太郎は",
-   "en": ""
+   "en": "Momotaro"
   },
   {
    "id": "FONT_11:062",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:063",
    "jp": "ろっかくの術を 使った！{n}ろっかくーん！{wait}",
-   "en": ""
+   "en": " used theSmash art! Smaaash!{wait}"
   },
   {
    "id": "FONT_11:064",
    "jp": "桃太郎は ふゆうの術を{n}使った！ はいふゆーん！{n}",
-   "en": ""
+   "en": "Momotaro used the Float art! Float-a-waaay!"
   },
   {
    "id": "FONT_11:065",
    "jp": "桃太郎の 体は{n}宙に 浮かんだ！{n}{wait}",
-   "en": ""
+   "en": "Momotaro's body floated up into the air!{wait}"
   },
   {
    "id": "FONT_11:066",
    "jp": "桃太郎は ほうひの術を{n}使った！ ぶーすーぴー！{n}{wait}",
-   "en": ""
+   "en": "Momotaro used the Fart art! Brrrt-pfft-pweee!{wait}"
   },
   {
    "id": "FONT_11:067",
    "jp": "「桃太郎さん！ くさいですよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! That stinks!\"{wait}"
   },
   {
    "id": "FONT_11:068",
    "jp": "{str}{str}の はりて！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s Palm Slap!{wait}"
   },
   {
    "id": "FONT_11:069",
    "jp": "{str}{str}の つっぱり！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s Thrust!{wait}"
   },
   {
    "id": "FONT_11:070",
    "jp": "{str}{str}の ずつき！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s Headbutt!{wait}"
   },
   {
    "id": "FONT_11:071",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:072",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:073",
    "jp": "おとひめの術を 使った！{n}おーとひーめ！{wait}",
-   "en": ""
+   "en": " used theOtohime Heal art! Otohiiime Heeeal!{wait}"
   },
   {
    "id": "FONT_11:074",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:075",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:076",
    "jp": "めざましの術を 使った！{n}めーざまーし！{wait}",
-   "en": ""
+   "en": " used theWake Up art! Waaake uuup!{wait}"
   },
   {
    "id": "FONT_11:077",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:078",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:079",
    "jp": "まもりの術を 使った！{n}まーもりー！{wait}",
-   "en": ""
+   "en": " used theShield art! Shiiield!{wait}"
   },
   {
    "id": "FONT_11:080",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:081",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:082",
    "jp": "ばいりきの術を 使った！{n}ばーいりーき！{wait}",
-   "en": ""
+   "en": " used thePower art! Poooweeer!{wait}"
   },
   {
    "id": "FONT_11:083",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:084",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:085",
    "jp": "うずしおの術を 使った！{n}うずーしおー！{wait}",
-   "en": ""
+   "en": " used theWhirlpool art! Whiiirlpooool!{wait}"
   },
   {
    "id": "FONT_11:086",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:087",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:088",
    "jp": "ふういんの術を 使った！{n}ふうーいーん！{wait}",
-   "en": ""
+   "en": " used theSeal art! Seeeaaal!{wait}"
   },
   {
    "id": "FONT_11:089",
    "jp": "浦島は",
-   "en": ""
+   "en": "Urashima"
   },
   {
    "id": "FONT_11:090",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:091",
    "jp": "ふにゃらの術を 使った！{n}ふにゃーらー！{wait}",
-   "en": ""
+   "en": " used theSoften art! Sooofteeen!{wait}"
   },
   {
    "id": "FONT_11:092",
    "jp": "浦島は おによけの術を{n}使った！ おにーよけー！{n}{wait}",
-   "en": ""
+   "en": "Urashima used the Oni Ward art! Oni Waaard!{wait}"
   },
   {
    "id": "FONT_11:093",
    "jp": "{str}{str}は{n}ぶんしんの術を 使った！{n}ぶーんしーん！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Clone art! Clooone!{wait}"
   },
   {
    "id": "FONT_11:094",
    "jp": "{str}{str}は{n}かくらんの術を 使った！{n}かーくらーん！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Confuse art! Confuuuse!{wait}"
   },
   {
    "id": "FONT_11:095",
    "jp": "「夜空に かがやく{n} いく千の 星よ！{n} われに 力を あたえたまえ！」{wait}{n}{str}{str}の 体に{n}流れ星の 力が 加わった！{n}{wait}",
-   "en": ""
+   "en": "\"O thousands of stars shining in the night sky! Grant me your power!\"{wait}The power of the Shooting Star filled {str}{str}'s body!{wait}"
   },
   {
    "id": "FONT_11:096",
    "jp": "{str}{str}は{n}わざよせの術を 使った！{n}わざーよーせ！{wait}",
-   "en": ""
+   "en": "{str}{str} used the SP Drain art! SP Draaain!{wait}"
   },
   {
    "id": "FONT_11:097",
    "jp": "{str}{str}は{n}やまびこの術を 使った！{n}やーまびーこ！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Echo art! Echooo!{wait}"
   },
   {
    "id": "FONT_11:098",
    "jp": "{str}{str}は{n}まいたんの術を 使った！{n}まーいたーん！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Regenerate art! Regeneraaate!{wait}"
   },
   {
    "id": "FONT_11:099",
    "jp": "{str}{str}は{n}はやての術を 使った！{n}はやーてー！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Haste art! Haaaste!{wait}"
   },
   {
    "id": "FONT_11:100",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:101",
    "jp": "夜叉姫は",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_11:102",
    "jp": "わざわけの術を 使った！{n}わざーわけー！{wait}",
-   "en": ""
+   "en": " used theSP Share art! SP Shaaare!{wait}"
   },
   {
    "id": "FONT_11:103",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:104",
    "jp": "夜叉姫は",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_11:105",
    "jp": "技{num}を{n}{str}に 与えた{wait}",
-   "en": ""
+   "en": "Gave {num} SP to {str}{wait}"
   },
   {
    "id": "FONT_11:106",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:107",
    "jp": "夜叉姫は",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_11:108",
    "jp": "りょうりの術を 使った！{n}りょーりー！{wait}",
-   "en": ""
+   "en": " used theCooking art! Cooooking!{wait}"
   },
   {
    "id": "FONT_11:109",
    "jp": "{str}{str}は",
-   "en": ""
+   "en": "{str}{str}"
   },
   {
    "id": "FONT_11:110",
    "jp": "夜叉姫は",
-   "en": ""
+   "en": "Yashahime"
   },
   {
    "id": "FONT_11:111",
    "jp": "料理に{n}失敗した！{wait}",
-   "en": ""
+   "en": "The cooking failed!{wait}"
   },
   {
    "id": "FONT_11:112",
    "jp": "{col4}{str}{col0}を{n}作った！{wait}",
-   "en": ""
+   "en": "Made {col4}{str}{col0}!{wait}"
   },
   {
    "id": "FONT_11:113",
    "jp": "{str}は{n}{col4}{str}{col0}を{n}使った！{wait}",
-   "en": ""
+   "en": "{str} used {col4}{str}{col0}!{wait}"
   },
   {
    "id": "FONT_11:114",
    "jp": "{str}{str}は{n}{col4}{str}{col0}を{n}使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used {col4}{str}{col0}!{wait}"
   },
   {
    "id": "FONT_11:115",
    "jp": "{str}は {col4}{str}{col0}を{n}食べた！{n}{wait}",
-   "en": ""
+   "en": "{str} ate {col4}{str}{col0}!{wait}"
   },
   {
    "id": "FONT_11:116",
    "jp": "{str}{str}は {col4}{str}{col0}を{n}{str}に 食べさせた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} fed {col4}{str}{col0} to {str}!{wait}"
   },
   {
    "id": "FONT_11:117",
    "jp": "{str}は ムダなことをしたのに{n}きがついた！{n}{wait}",
-   "en": ""
+   "en": "{str} realized that was pointless!{wait}"
   },
   {
    "id": "FONT_11:118",
    "jp": "{str}の 体力は{n}{num} 回復した！{n}{wait}",
-   "en": ""
+   "en": "{str} recovered {num} HP!{wait}"
   },
   {
    "id": "FONT_11:119",
    "jp": "{str}の 体力は{n}回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}'s HP was restored!{wait}"
   },
   {
    "id": "FONT_11:120",
    "jp": "{str}の 技は{n}{num} 回復した！{n}{wait}",
-   "en": ""
+   "en": "{str} recovered {num} SP!{wait}"
   },
   {
    "id": "FONT_11:121",
    "jp": "{str}の 技は{n}回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}'s SP was restored!{wait}"
   },
   {
    "id": "FONT_11:122",
    "jp": "{str}の 技と 体力は{n}回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}'s SP and HP were restored!{wait}"
   },
   {
    "id": "FONT_11:123",
    "jp": "しかし{n}{str}{str}の 術は{n}ふういん されている！{wait}",
-   "en": ""
+   "en": "But {str}{str}'s arts are sealed!{wait}"
   },
   {
    "id": "FONT_11:124",
    "jp": "しかし {str}{str}は{n}うまく 術が{n}かけられなかった！{wait}",
-   "en": ""
+   "en": "But {str}{str} couldn't work the art properly!{wait}"
   },
   {
    "id": "FONT_11:125",
    "jp": "しかし ここでは{n}効果が なかった！{n}{wait}",
-   "en": ""
+   "en": "But it had no effect here!{wait}"
   },
   {
    "id": "FONT_11:126",
    "jp": "しかし{n}効果が なかった！{n}{wait}",
-   "en": ""
+   "en": "But it had no effect!{wait}"
   },
   {
    "id": "FONT_11:127",
    "jp": "{str}{str}は{n}{str}に{n}{col4}{str}{col0}を のませた！{wait}",
-   "en": ""
+   "en": "{str}{str} gave {str} a dose of {col4}{str}{col0}!{wait}"
   },
   {
    "id": "FONT_11:128",
    "jp": "{str}は{n}大けがから 回復した！{n}{wait}",
-   "en": ""
+   "en": "{str} is no longer injured!{wait}"
   },
   {
    "id": "FONT_11:129",
    "jp": "{str}の{n}体の最大が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s maximum HP rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:130",
    "jp": "{str}の{n}技の最大が{n}{num}上がった！{wait}",
-   "en": ""
+   "en": "{str}'s maximum SP rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:131",
    "jp": "{str}は{n}心の数 {num}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}'s hearts went up by {num}!{wait}"
   },
   {
    "id": "FONT_11:132",
    "jp": "運玉の おつげが ひびく！{n}{n}{wait}",
-   "en": ""
+   "en": "The Luck Orb's oracle rings out!{wait}"
   },
   {
    "id": "FONT_11:133",
    "jp": "「この敵は{n} 強敵です！{n} 気をつけて！」{wait}",
-   "en": ""
+   "en": "\"This enemy is strong! Be careful!\"{wait}"
   },
   {
    "id": "FONT_11:134",
    "jp": "「この敵は{n} 亙角です！{n} いい勝負ですよ！」{wait}",
-   "en": ""
+   "en": "\"This enemy is an even match! It'll be a good fight!\"{wait}"
   },
   {
    "id": "FONT_11:135",
    "jp": "「この敵は{n} 楽勝です！{n} 油断しないように！」{wait}",
-   "en": ""
+   "en": "\"This enemy is a pushover! But don't let your guard down!\"{wait}"
   },
   {
    "id": "FONT_11:136",
    "jp": "桃太郎たちは{n}これから しばらく{n}無敵に なった！{wait}",
-   "en": ""
+   "en": "Momotaro and company are invincible for a while!{wait}"
   },
   {
    "id": "FONT_11:137",
    "jp": "戦闘に 勝ったとき{n}もらえる お金が{n}増えるぞ！ ラッキー！{wait}",
-   "en": ""
+   "en": "You'll get more money when you win battles! Lucky!{wait}"
   },
   {
    "id": "FONT_11:138",
    "jp": "戦闘に 勝ったとき{n}もらえる 心が{n}増えるぞ！ ラッキー！{wait}",
-   "en": ""
+   "en": "You'll get more hearts when you win battles! Lucky!{wait}"
   },
   {
    "id": "FONT_11:139",
    "jp": "{str}は {num}段になった！！！{n}体力の数が {num}に増えた！{wait}",
-   "en": ""
+   "en": "{str} reached level {num}!!! Maximum HP rose to {num}!{wait}"
   },
   {
    "id": "FONT_11:140",
    "jp": "{str}は {num}段になった！{wait}",
-   "en": ""
+   "en": "{str} reached level {num}!{wait}"
   },
   {
    "id": "FONT_11:141",
    "jp": "技の数が {num}に増えた！{wait}",
-   "en": ""
+   "en": "Maximum SP rose to {num}!{wait}"
   },
   {
    "id": "FONT_11:142",
    "jp": "攻撃力が {num}上がった！{wait}",
-   "en": ""
+   "en": "Attack rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:143",
    "jp": "守備力が {num}上がった！{wait}",
-   "en": ""
+   "en": "Defense rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:144",
    "jp": "素早さが {num}上がった！{wait}",
-   "en": ""
+   "en": "Speed rose by {num}!{wait}"
   },
   {
    "id": "FONT_11:145",
    "jp": "{str}の 技と 体力は{n}全回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}'s SP and HP were fully restored!{wait}"
   },
   {
    "id": "FONT_11:146",
    "jp": "{str}は{n}{col2}{str}{col0}の技を{n}覚えた！{wait}",
-   "en": ""
+   "en": "{str} learned the {col2}{str}{col0} art!{wait}"
   },
   {
    "id": "FONT_11:147",
    "jp": "イヌが 新しい{n}特技を 覚えた！{n}{wait}",
-   "en": ""
+   "en": "Dog learned a new trick!{wait}"
   },
   {
    "id": "FONT_11:148",
    "jp": "イヌは 敵を 呼び出すことが{n}できるように なった！{n}{wait}{n}心の数を ふやしたいときには{n}便利だね！{n}{wait}",
-   "en": ""
+   "en": "Dog can now call out enemies to fight!{wait}Handy when you want more hearts!{wait}"
   },
   {
    "id": "FONT_11:149",
    "jp": "イヌは ものを さがすことが{n}できるように なった！{n}{wait}{n}村の中や 外でも{n}いろんなものを 見つけることが{n}できるのだ！ なるほど！{wait}{n}でも 遠くにあるものは{n}わからないから 少しずつ{n}動きながら さがさせよう！{wait}",
-   "en": ""
+   "en": "Dog can now search for things!{wait}He can find all sorts of things, inside villages and out! I see!{wait}But he can't sense things that are far away, so move a little at a time while he searches!{wait}"
   },
   {
    "id": "FONT_11:150",
    "jp": "キジが 新しい{n}特技を 覚えた！{n}{wait}",
-   "en": ""
+   "en": "Pheasant learned a new trick!{wait}"
   },
   {
    "id": "FONT_11:151",
    "jp": "キジは 村の 中の お店に{n}自由に みんなを 連れていくことが{n}できるように なった！{wait}{n}なんて 横着なんだ！{n}{n}{wait}",
-   "en": ""
+   "en": "Pheasant can now take everyone to any shop in a village, anytime!{wait}How lazy can you get!{wait}"
   },
   {
    "id": "FONT_11:152",
    "jp": "{str}の{n}{col2}{str}{col0}の術が{n}成長 した！{wait}",
-   "en": ""
+   "en": "{str}'s {col2}{str}{col0} art grew stronger!{wait}"
   }
  ]
 }

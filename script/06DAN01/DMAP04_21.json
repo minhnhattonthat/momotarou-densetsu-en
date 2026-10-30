@@ -8,47 +8,47 @@
   {
    "id": "DMAP04_21:000",
    "jp": "「ザバ ザバ ザバー！」{n}{n}{wait}{n}「お前が{n} えんま様に たてつく{n} 桃太郎か！」{wait}{n}「この 水鬼様が{n} ぶちのめして くれるわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Splish splash sploosh!\"{wait}\"So you're Momotaro, the one who defies Enma-sama!\"{wait}\"I, the great Water Oni, will pound you flat!\"{wait}"
   },
   {
    "id": "DMAP04_21:001",
    "jp": "「ザバ ザバ ザバー！」{n}{n}{wait}{n}「しつこい れんちゅうだ！{n} この水鬼様に 勝とうなど{n} 10年 早いわ！」{wait}",
-   "en": ""
+   "en": "\"Splish splash sploosh!\"{wait}\"What a persistent bunch! You're ten years too early to beat the great Water Oni!\"{wait}"
   },
   {
    "id": "DMAP04_21:002",
    "jp": "「子供が こんなところに{n} きちゃ だめだ！」{n}{wait}{n}「この 命の泉は{n} とっても きけんな{n} ところなんだよ！」{wait}",
-   "en": ""
+   "en": "\"Kids shouldn't come to a place like this!\"{wait}\"This Spring of Life is a really dangerous place!\"{wait}"
   },
   {
    "id": "DMAP04_21:003",
    "jp": "「えっ！ 妻が 私のことを？」{n}{n}{wait}{n}「あなたが{n} あの 桃太郎さん{n} だったんですか！」{wait}{n}「失礼しました！{n} どうか 私の 話を{n} 聞いてください！」{wait}{n}「とこなつの村は{n} 水が豊かな 旅人の{n} いこいになる 村でした！」{wait}",
-   "en": ""
+   "en": "\"What?! My wife sent you to find me?\"{wait}\"So you're THE Momotaro-san!\"{wait}\"Forgive my rudeness! Please, hear what I have to say!\"{wait}\"Tokonatsu Village was a village rich in water, where travellers came to rest!\"{wait}"
   },
   {
    "id": "DMAP04_21:004",
    "jp": "「ところが 水鬼という 鬼が{n} 村の水源の 命の泉を{n} 枯らしてしまったんです！」{wait}{n}「私は 命の泉の ようすを{n} 見に来たんですが」{n}{wait}{n}「鬼が いるので{n} 泉に いけなくて{n} こまっていたんです！」{wait}{n}「お願いです 桃太郎さん！」{n}{n}{wait}{n}「どうか 水鬼を こらしめて{n} 村に 命の泉の水を{n} 取り戻してください！」",
-   "en": ""
+   "en": "\"But an oni called the Water Oni dried up the Spring of Life, the village's water source!\"{wait}\"I came to see how the Spring of Life was doing,\"{wait}\"but with the oni here, I couldn't get to the spring, and I didn't know what to do!\"{wait}\"Please, Momotaro-san!\"{wait}\"Please punish the Water Oni and bring the water of the Spring of Life back to our village!\""
   },
   {
    "id": "DMAP04_21:005",
    "jp": "「そうですか！{n} ありがとうございます！」{n}{wait}{n}「桃太郎さんだけを 危険に{n} さらすわけには いきません！{n} 私も ついていきます！」{wait}",
-   "en": ""
+   "en": "\"Really?! Thank you so much!\"{wait}\"I can't let you face the danger alone, Momotaro-san! I'm coming with you!\"{wait}"
   },
   {
    "id": "DMAP04_21:006",
    "jp": "「そうですか… でも 私は{n} いつまでも 桃太郎さんを{n} 待っています！」{wait}",
-   "en": ""
+   "en": "\"I see... But I'll wait for you as long as it takes, Momotaro-san!\"{wait}"
   },
   {
    "id": "DMAP04_21:007",
    "jp": "「お願いです 桃太郎さん！」{n}{n}{wait}{n}「どうか 水鬼を こらしめて{n} 村に 命の泉の水を{n} 取り戻してください！」",
-   "en": ""
+   "en": "\"Please, Momotaro-san!\"{wait}\"Please punish the Water Oni and bring the water of the Spring of Life back to our village!\""
   },
   {
    "id": "DMAP04_21:008",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「見てください！{n} 水が！ 水が！{n} もとに 戻りましたよ！」{wait}{n}「ばんざーい！{n} 私は 一足先に{n} 村に 戻ります！」{wait}{n}「桃太郎さんも ぜひ 村に{n} お立ち寄りください！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Look! The water! The water! It's back to how it was!\"{wait}\"Hooray! I'll head back to the village ahead of you!\"{wait}\"Please be sure to stop by the village too, Momotaro-san!\"{wait}"
   }
  ]
 }

@@ -8,32 +8,32 @@
   {
    "id": "WMAP04_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ひえん仙人ぢゃ！」{n}{wait}{n}「ひえんの術は{n} どこからでも 村まで{n} ひとっとびできるぞ！」{wait}{n}「はやく わしの 術を 覚え{n} 鬼たちを こらしめるのぢゃ！」{n}{wait}{n}「なあに！ わしの 修行は{n} かんたんぢゃ！ ウヒャヒャ…」{n}{wait}{n}「これから いう{n} わしの 話を{n} よく 聞くのぢゃ！」{wait}{n}{col10}「宿にいる 旅人の{n} 持つ 巻き物を たずさえ{n} ここに 戻れ！」{col0}{wait}{n}「どうぢゃ？ かんたんぢゃろ？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Warp Hermit!\"{wait}\"The Warp art lets you fly to a village in a single hop, from anywhere!\"{wait}\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"Don't worry! My training is easy! Uhyahya...\"{wait}\"Now listen closely to what I'm about to tell you!\"{wait}{col10}\"Take the scroll carried by the traveler at the inn and bring it back here!\"{col0}{wait}\"Well? Easy, isn't it?\"{wait}"
   },
   {
    "id": "WMAP04_28:001",
    "jp": "{col10}「宿にいる 旅人の{n} 持つ 巻き物を たずさえ{n} ここに 戻れ！」{col0}{wait}{n}「そうすれば{n} わしの ひえんの術を{n} さずけようぞ！」{wait}",
-   "en": ""
+   "en": "{col10}\"Take the scroll carried by the traveler at the inn and bring it back here!\"{col0}{wait}\"Do that, and I shall grant you my Warp art!\"{wait}"
   },
   {
    "id": "WMAP04_28:002",
    "jp": "「でかした！ 桃太郎！」{n}{n}{wait}{n}「ひえんの術を{n} さずけようぞ！」{n}{wait}{n}桃太郎は{n}{col4}ひえんの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"I shall grant you the Warp art!\"{wait}Momotaro mastered the {col4}Warp art{col0}!"
   },
   {
    "id": "WMAP04_28:003",
    "jp": "「洞窟や 塔の中では{n} ひえんの術は 使えんぞ！」{n}{wait}{n}「ぬけだしの術と うまく{n} 組み合わせて 使うのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"The Warp art can't be used inside caves or towers!\"{wait}\"Use it in clever combination with the Escape art!\"{wait}"
   },
   {
    "id": "WMAP04_28:004",
    "jp": "「桃太郎！ ひえんの術に{n} 頼りすぎるなよ！」{n}{wait}{n}「さて お前に{n} いいものを やろう！{n} 大事にするのぢゃぞ」{wait}{n}桃太郎は{n}{col10}ひえん仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Don't rely on the Warp art too much!\"{wait}\"Now, I'll give you something nice! Take good care of it!\"{wait}Momotaro got the {col10}Warp Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP04_28:005",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「寄らば タイツをはけ！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"When in Rome, wear tights!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

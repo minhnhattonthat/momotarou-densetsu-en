@@ -8,92 +8,92 @@
   {
    "id": "DMAP16_37:000",
    "jp": "「やっと 会えたわね{n} 桃太郎！」{n}{wait}{n}「私の 名は 夜叉姫！{n} 雪と 氷を あやつる{n} 鬼の 王族の 一員！」{wait}{n}「つわものの 酒呑童子を{n} たおした 人間に{n} 一度 会ってみたかった」{wait}",
-   "en": ""
+   "en": "\"So we finally meet, Momotaro!\"{wait}\"My name is Yashahime! A member of the oni royal family, who commands snow and ice!\"{wait}\"I wanted to meet the human who defeated the mighty Shuten-doji, just once.\"{wait}"
   },
   {
    "id": "DMAP16_37:001",
    "jp": "「でも とんだ きたいはずれ！{n} まさか こんな{n} 子供だったなんて！」{wait}{n}「酒呑童子も{n} 落ちたものね！」{n}{wait}{n}「まあ いいわ！{n} 酒呑童子の あとしまつは{n} 私が つけるから！」{wait}{n}「さあ 桃太郎！{n} かかってきなさい！」{n}{wait}",
-   "en": ""
+   "en": "\"But what a letdown! I never dreamed you'd be just a child!\"{wait}\"Shuten-doji has really sunk low!\"{wait}\"Oh, well! I'll clean up Shuten-doji's mess myself!\"{wait}\"Now, Momotaro! Come at me!\"{wait}"
   },
   {
    "id": "DMAP16_37:002",
    "jp": "「私は…」{n}{n}{wait}{n}「子供の ころから{n} 教えられてきました」{n}{wait}{n}「人間とは{n} 弱い いきものだ！」{n}{wait}{n}「自分で 考え{n} 自分で 決断 することを{n} 知らぬ いきものだ！」{wait}{n}「だから 支配 されるほうが{n} 人間に とっての{n} 幸せ なのだと！」{wait}{n}「鬼の いうとおりに{n} 生きていくことが 人間の{n} 幸せ なのだと！」{wait}{n}「でも！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I...\"{wait}\"Ever since I was a child, I was taught...\"{wait}\"That humans are weak creatures!\"{wait}\"Creatures that don't know how to think for themselves or decide for themselves!\"{wait}\"And so being ruled is what makes humans happy!\"{wait}\"That living as the oni tell them is what makes humans happy!\"{wait}\"But!\"{wait}"
   },
   {
    "id": "DMAP16_37:003",
    "jp": "「桃太郎さんや{n} 仲間の みなさんを 見て{n} わからなくなりました！」{wait}{n}「えんま様が 正しいのか{n} あなたたちが 正しいのか…」{n}{wait}{n}「わからなくなって しまいました」{n}{n}{wait}{n}「どうでしょう？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Seeing you, Momotaro-san, and all your friends, I no longer know!\"{wait}\"Whether Enma-sama is right, or whether you are right...\"{wait}\"I don't know anymore.\"{wait}\"What do you say?\"{wait}"
   },
   {
    "id": "DMAP16_37:004",
    "jp": "「いまさら こんなことを いうのは{n} きが とがめるのですが……」{n}{wait}{n}「私を あなたたちの{n} 旅の 仲間に{n} くわえて いただけないでしょうか」{wait}{n}「えんま様の ことばが 正しいのか{n} あなたたちと すごして{n} この目で たしかめたいのです！」{wait}{n}「どうか つれて行ってください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I feel guilty asking this after everything...\"{wait}\"But would you let me join you on your journey?\"{wait}\"I want to spend time with you and see with my own eyes whether Enma-sama's words are true!\"{wait}\"Please, take me with you!\"{wait}"
   },
   {
    "id": "DMAP16_37:005",
    "jp": "「えっ！」{n}{n}{wait}{n}「くわえて いただけるのですか？」{n}{n}{wait}{n}「ありがとうございます！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Oh!\"{wait}\"You'll really let me join?\"{wait}\"Thank you so much!\"{wait}"
   },
   {
    "id": "DMAP16_37:006",
    "jp": "夜叉姫が{n}仲間に くわわった！{n}{wait}{n}「桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "Yashahime joined the party!{wait}\"Momotaro-san!\"{wait}"
   },
   {
    "id": "DMAP16_37:007",
    "jp": "「くわえて いただいたからには{n} 鬼だったことを わすれ{n} 一から やりなおすつもりです」{wait}{n}「桃太郎さん！{n} よろしく おねがいします！」{n}{wait}",
-   "en": ""
+   "en": "\"Now that you've let me join, I'll forget that I was an oni and start over from scratch.\"{wait}\"Momotaro-san! I look forward to traveling with you!\"{wait}"
   },
   {
    "id": "DMAP16_37:008",
    "jp": "「今から 氷の塔への{n} 扉を 開けます！」{n}{wait}",
-   "en": ""
+   "en": "\"I will now open the door to the Ice Tower!\"{wait}"
   },
   {
    "id": "DMAP16_37:009",
    "jp": "「東の大陛に わたるには{n} {col0}氷室の削り火{col0}が{n} ぜったいに 必要です！」{wait}{n}「{col0}氷室の削り火{col0}は この洞窟の{n} となり 氷の塔の{n} 一番上に あります！」{wait}{n}「がんばって{n} みつけましょう！」{n}{wait}",
-   "en": ""
+   "en": "\"To cross to the eastern continent, the {col0}Icehouse Fire{col0} is absolutely essential!\"{wait}\"The {col0}Icehouse Fire{col0} is at the very top of the Ice Tower, next to this cave!\"{wait}\"Let's do our best to find it!\"{wait}"
   },
   {
    "id": "DMAP16_37:010",
    "jp": "「そうですか…{n} やはり 鬼の 私は{n} 信じて いただけないんですね…」{wait}",
-   "en": ""
+   "en": "\"I see... So you can't trust me after all, because I'm an oni...\"{wait}"
   },
   {
    "id": "DMAP16_37:011",
    "jp": "そのとき 金太郎が どなった！{n}{n}{wait}{n}「桃太郎！ お前{n} そんなやつ だったのか！」{n}{wait}",
-   "en": ""
+   "en": "Just then, Kintaro roared!{wait}\"Momotaro! Is that the kind of guy you are?!\"{wait}"
   },
   {
    "id": "DMAP16_37:012",
    "jp": "「まちがえた だけだよな！{n} 夜叉姫を つれて行って{n} あげようぜっ！」{wait}",
-   "en": ""
+   "en": "\"You just made a mistake, right?! Let's take Yashahime with us!\"{wait}"
   },
   {
    "id": "DMAP16_37:013",
    "jp": "浦島が どなった！{n}{n}{wait}{n}「桃太郎さん！{n} 本気 なんですか！」{n}{wait}",
-   "en": ""
+   "en": "Urashima shouted!{wait}\"Momotaro-san! Are you serious?!\"{wait}"
   },
   {
    "id": "DMAP16_37:014",
    "jp": "「あなたが 本当に{n} そんな 人なら いっしょに{n} 旅する気に なれません！」{wait}{n}「夜叉姫さんを つれて行って{n} あげましょうよ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you really are that kind of person, I can't bring myself to travel with you!\"{wait}\"Let's take Yashahime-san with us!\"{wait}"
   },
   {
    "id": "DMAP16_37:015",
    "jp": "「そうですか…{n} やはり 鬼の 私は{n} 信じて いただけないんですね…」{wait}{n}「でも！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I see... So you can't trust me after all, because I'm an oni...\"{wait}\"But!\"{wait}"
   },
   {
    "id": "DMAP16_37:016",
    "jp": "「決して いいかげんな{n} 気持ちでは ないんです！」{n}{wait}{n}「お願いです！{n} どうか どうか…{n} 私を つれて行ってください！」{wait}",
-   "en": ""
+   "en": "\"My feelings are not half-hearted!\"{wait}\"Please! I beg you... please take me with you!\"{wait}"
   },
   {
    "id": "DMAP16_37:017",
    "jp": "「なーんだ！{n} また 桃太郎なの？」{n}{wait}{n}「お前みたいな 弱い奴と{n} 戦いたくないわ！」{n}{wait}{n}「しょうがないわね！{n} じゃあ もう一度だけ{n} 相手してあげる！」{wait}{n}「いくわよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hmph! Momotaro again?\"{wait}\"I don't want to fight a weakling like you!\"{wait}\"Oh, very well! I'll take you on just one more time!\"{wait}\"Here I come!\"{wait}"
   }
  ]
 }

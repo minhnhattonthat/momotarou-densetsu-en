@@ -8,702 +8,702 @@
   {
    "id": "SMAP13_37:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この 村が 鬼に おそわれ{n} 村人が くるしめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?!\"{wait}\"Oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP13_37:001",
    "jp": "「よく やってくれた！{n} 桃太郎！」{n}{wait}{n}「だが この先の 鬼どもは{n} もっと もっと 強いぞ！」{n}{wait}{n}「お前が この村から 先へ{n} 進むのなら 25段くらいは{n} ないと つらいであろう！」{wait}{n}「25段に なっていなければ{n} このあたりで 修行を かさね{n} 経験を つむことじゃ！」{wait}",
-   "en": ""
+   "en": "\"Well done, Momotaro!\"{wait}\"But the oni ahead are much, much stronger!\"{wait}\"If you go on past this village, without about level 25, you'll have a hard time of it!\"{wait}\"If you're not level 25 yet, do your training around here and build up experience!\"{wait}"
   },
   {
    "id": "SMAP13_37:002",
    "jp": "「ある日の こと じゃった！」{n}{n}{wait}{n}「エンジェルましらと{n} ザ・ブルーモンキーズとかいう{n} 鬼たちが やって きたのじゃ！」{wait}{n}「そいつらが 村人を{n} むりやり あつめよってな！」{n}{wait}{n}「いきなり ロック・コンサートを{n} はじめよったんじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"It happened one day!\"{wait}\"Some oni calling themselves Angel Mashira and The Blue Monkeys showed up!\"{wait}\"They rounded up the villagers by force,\"{wait}\"and suddenly started a rock concert!\"{wait}"
   },
   {
    "id": "SMAP13_37:003",
    "jp": "「ほっほっほっ！ わしも{n} だじゃれを 作ってみましたわい」{n}{wait}{n}「かぶきの ぶたいには{n} いつも クロコダイル！」{n}{wait}{n}「ほっほっほっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hohoho! I made up a pun too!\"{wait}\"Why did the crocodile join the kabuki theater? He wanted a part in a croc-stume drama!\"{wait}\"Hohoho!\"{wait}"
   },
   {
    "id": "SMAP13_37:004",
    "jp": "「桃太郎さん！{n} 助けてくれー！」{n}{wait}{n}「むりやり 会場に{n} つれて いかれて{n} えんそうを きかされるんじゃあ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Help meee!\"{wait}\"They drag us to the concert hall and make us listen to them play!\"{wait}"
   },
   {
    "id": "SMAP13_37:005",
    "jp": "「ありがとう！ 桃太郎さん！」{n}{n}{wait}{n}「やっと これで 自由に{n} だじゃれが いえるよ！{n} さっそく だじゃれを 一つ！」{wait}{n}「アシカが あやまる{n} セリフは アシカらず！{n} まずは こんな ところかな！」{wait}",
-   "en": ""
+   "en": "\"Thank you, Momotaro-san!\"{wait}\"At last we can make puns freely again! Here's one right away!\"{wait}\"When a sea lion says sorry, it goes 'Forgive me, I was lion!' That'll do for starters!\"{wait}"
   },
   {
    "id": "SMAP13_37:006",
    "jp": "「大きな こえじゃ{n} いえないんですけどね…」{n}{wait}{n}「エンジェルましらと{n} ザ・ブルーモンキーズの{n} えんそうは…」{wait}{n}「とっても ヘタなんです！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I can't say it too loud, but...\"{wait}\"Angel Mashira and The Blue Monkeys' playing is...\"{wait}\"really awful!\"{wait}"
   },
   {
    "id": "SMAP13_37:007",
    "jp": "「カレイな だじゃれが{n} ヒラメいた！」{n}{wait}{n}「どう？ だじゃれ大会の{n} れんしゅうしてたのよ！」{n}{wait}",
-   "en": ""
+   "en": "\"I came up with a SOLE-ly brilliant pun! It just FLOUNDERED into my head!\"{wait}\"How's that? I've been practicing my puns for the Pun Contest!\"{wait}"
   },
   {
    "id": "SMAP13_37:008",
    "jp": "「ちきしょー！ うるせーぞー！」{n}{n}{wait}{n}「しかも あいつら{n} 自分たちのことを{n} ビジュアル系だと 思ってやがる！」{wait}",
-   "en": ""
+   "en": "\"Dang it! Keep it down!\"{wait}\"And those guys think they're visual kei!\"{wait}"
   },
   {
    "id": "SMAP13_37:009",
    "jp": "「今年は{n} 動物の 名前が テーマだ！」{n}{wait}{n}「にらめっこ するもの{n} よっトンビ！」{n}{wait}{n}「よーし！ この ネタで{n} だじゃれ2段に ちょうせんだ！」{n}{wait}",
-   "en": ""
+   "en": "\"This year's theme is animal names!\"{wait}\"Who wants a staring contest? Owl be watching you!\"{wait}\"Alright! With this one, I'm going for Pun Level 2!\"{wait}"
   },
   {
    "id": "SMAP13_37:010",
    "jp": "「桃太郎さん！{n} 助けてくれー！」{n}{wait}{n}「だじゃれ大会の 会場に{n} 出場者が おおぜい{n} とじこめられてるんだよー！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Help meee!\"{wait}\"Lots of contestants are locked up in the Pun Contest hall!\"{wait}"
   },
   {
    "id": "SMAP13_37:011",
    "jp": "「めでタイ！ めでタイ！{n} おっと！ しぜんに{n} だじゃれが 出てきちゃうんです！」{wait}",
-   "en": ""
+   "en": "\"Hooray! What a whale of a time! Whoops! Puns just come out of me naturally!\"{wait}"
   },
   {
    "id": "SMAP13_37:012",
    "jp": "「あいつらが きてから{n} 好きな だじゃれも{n} いわせて くれねえんだ！」{wait}{n}「ああ！ だじゃれが{n} いいたいよー！」{n}{wait}{n}「でんわには でん…」{n}{n}{wait}{n}「おっとっとっと！{n} あぶねえ！ あぶねえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Ever since those guys showed up, they won't even let us say the puns we love!\"{wait}\"Aaah! I wanna make a pun!\"{wait}\"Why did the phone...\"{wait}\"Whoa whoa whoa! Close call! Close call!\"{wait}"
   },
   {
    "id": "SMAP13_37:013",
    "jp": "「だじゃれが いえるって{n} なんて ステキなんだ！」{n}{wait}{n}「こうなったら みんな{n} だじゃれ大会で{n} 朝まで ビーバー！」{wait}",
-   "en": ""
+   "en": "\"Being able to make puns is just wonderful!\"{wait}\"Now we'll all be busy as beavers at the Pun Contest till dawn!\"{wait}"
   },
   {
    "id": "SMAP13_37:014",
    "jp": "「ロックなんぞ きくより{n} オラ だじゃれが いいたいだよ！」{n}{wait}{n}「今度の だじゃれ大会は{n} かこ 最大の きぼ なのに！」{n}{wait}",
-   "en": ""
+   "en": "\"Rather than listen to rock, I'd sooner be makin' puns!\"{wait}\"And this year's Pun Contest is the biggest one ever!\"{wait}"
   },
   {
    "id": "SMAP13_37:015",
    "jp": "「あなたの お金は{n} ヤシガニ{n} おあずかりしました！」{wait}{n}「ましらに だじゃれ きんじられて{n} ちょうしが いま一つだな」{n}{wait}",
-   "en": ""
+   "en": "\"Your money is now in safe claws, as a coconut crab would say!\"{wait}\"With Mashira banning puns, I'm just not on my game.\"{wait}"
   },
   {
    "id": "SMAP13_37:016",
    "jp": "「エンジェルましらが{n} しんえいたい やれって{n} いうのよー！」{wait}{n}「だれが あんな サルの{n} しんえいたいに{n} なるもんですか！」{wait}",
-   "en": ""
+   "en": "\"Angel Mashira says I have to join his royal fan guard!\"{wait}\"As if I'd ever join that monkey's fan guard!\"{wait}"
   },
   {
    "id": "SMAP13_37:017",
    "jp": "「だじゃれが いえるように なって{n} みんな よろこんでます！{n} ありがとうございました！」{wait}{n}「では わたしも{n} 女の子 らしい{n} だじゃれを 1つ」{wait}{n}「すてきな あなたに{n} ひとめボラ！{n} キャッ！ はずかしい！」{wait}",
-   "en": ""
+   "en": "\"Everyone's so happy they can make puns again! Thank you so much!\"{wait}\"Then I'll make a girly pun too!\"{wait}\"Lovely you... I'm hooked on you, line and sinker! Eek! How embarrassing!\"{wait}"
   },
   {
    "id": "SMAP13_37:018",
    "jp": "もーもーたーろーうーサーン{n}なーんーでーすーかー？{n}{wait}{n}「えっ！？」{n}{n}{wait}{n}「声が 大きい？」{n}{n}{wait}{n}「ましらたちの ヘタな{n} えんそう 毎日{n} きかされてた もんだから！」{wait}",
-   "en": ""
+   "en": "MOOO-MOOO-TAAA-ROOO-SAAAN! WHAAAT IIIS IIIT?{wait}\"Huh?!\"{wait}\"I'm too loud?\"{wait}\"It's 'cause I've had to listen to Mashira's awful playing every day!\"{wait}"
   },
   {
    "id": "SMAP13_37:019",
    "jp": "「だじゃれが きらいな やつなんて{n} オランウータン！ はははっ！{n} だじゃれが いえるって いいね」{wait}",
-   "en": ""
+   "en": "\"A person who hates puns? That orang-u-can't be! Hahaha! It's great to make puns again!\"{wait}"
   },
   {
    "id": "SMAP13_37:020",
    "jp": "「あー！ みみなりが する！」{n}{n}{wait}{n}「こんなんじゃ とても{n} いい だじゃれが うかばねえ！」{n}{wait}{n}「でんわには でんわ いそげ！」{n}{n}{wait}{n}「ああっ いけねぇ！ だじゃれを{n} いってるところを ましらに{n} みつかったら ころされる！」{wait}",
-   "en": ""
+   "en": "\"Aah! My ears are ringing!\"{wait}\"I'll never think up good puns like this!\"{wait}\"Ears ringing? Somebody answer the phone!\"{wait}\"Aah, no! If Mashira catches me making puns, I'm a goner!\"{wait}"
   },
   {
    "id": "SMAP13_37:021",
    "jp": "「サンゴ 十五！」{n}{n}{wait}{n}「サンゴって{n} どうぶつなんですよ！{n} しってましたか？」{wait}",
-   "en": ""
+   "en": "\"I'm feeling coral-rific!\"{wait}\"Coral is an animal, you know! Did you know that?\"{wait}"
   },
   {
    "id": "SMAP13_37:022",
    "jp": "「だじゃれが いいてえだよ！」{n}{n}{wait}{n}「今年の おだいは{n} 動物の 名前なんだよー！」{n}{wait}{n}「牛が わらった！ うっしっし！」{n}{n}{wait}{n}「ああ！ だじゃれを{n} 練習を してるところを{n} 鬼に 見られたら ころされる！」{wait}",
-   "en": ""
+   "en": "\"I wanna make puns!\"{wait}\"This year's theme is animal names!\"{wait}\"The cow laughed! Moo-ha-ha-ha!\"{wait}\"Aah! If the oni see me practicing puns, I'm a goner!\"{wait}"
   },
   {
    "id": "SMAP13_37:023",
    "jp": "「ほほえみの村を こんご{n} どうするかは アイアイ{n} かんがえていきましょう！」{wait}{n}「しんけんに ものを{n} かんがえるときも つい{n} だじゃれが まじっちゃうんですよ」{wait}",
-   "en": ""
+   "en": "\"Let's think over Hohoemi Village's future step by step, shall we? Aye-aye!\"{wait}\"Even when I'm thinking hard, puns just slip right in.\"{wait}"
   },
   {
    "id": "SMAP13_37:024",
    "jp": "「あいつら むりやり{n} コンサートの チケット{n} かわせるのよ！」{wait}{n}「あたしは いつも{n} チケットぴぴ でしか{n} かわないって いってるのに！」{wait}",
-   "en": ""
+   "en": "\"Those guys force us to buy concert tickets!\"{wait}\"And I keep telling them I only ever buy from Ticket Pipi!\"{wait}"
   },
   {
    "id": "SMAP13_37:025",
    "jp": "「あら 桃太郎さん！」{n}{n}{wait}{n}「どうも こんにチワワ！{n} どう？ かわいいでしょ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro-san!\"{wait}\"Well, Chihua-hello there! Isn't that cute?\"{wait}"
   },
   {
    "id": "SMAP13_37:026",
    "jp": "「ましらの へたくそな{n} えんそうが うるさくって{n} 商売が できません！」{wait}{n}「桃太郎さん！ 早く{n} ましらを たおしてください！」{n}{wait}",
-   "en": ""
+   "en": "\"Mashira's lousy playing is so loud I can't do business!\"{wait}\"Momotaro-san! Please hurry and defeat Mashira!\"{wait}"
   },
   {
    "id": "SMAP13_37:027",
    "jp": "「これで 安心して{n} だじゃれ大会が ひらけます！{n} ありがとう 桃太郎さん！」{wait}{n}「しばらく だじゃれを{n} いってないんで」{n}{wait}{n}「だじゃれの ネタを{n} よるも ネズミ{n} かんがえてました！」{wait}{n}「おおっ！ これで いこう！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Now we can hold the Pun Contest in peace! Thank you, Momotaro-san!\"{wait}\"I haven't made any puns in a while,\"{wait}\"so I've been up all night, squeaking out pun material!\"{wait}\"Oho! I'll go with that one!\"{wait}"
   },
   {
    "id": "SMAP13_37:028",
    "jp": "「ましらの へたくそな{n} えんそうが うるさくって{n} 商売が できません！」{wait}{n}「桃太郎さん！ 早く{n} ましらを たおしてください！」{n}{wait}",
-   "en": ""
+   "en": "\"Mashira's lousy playing is so loud I can't do business!\"{wait}\"Momotaro-san! Please hurry and defeat Mashira!\"{wait}"
   },
   {
    "id": "SMAP13_37:029",
    "jp": "「これで 安心して{n} だじゃれ大会が ひらけます！{n} ありがとう 桃太郎さん！」{wait}{n}「てつやで だじゃれを{n} 考えてたんで 目の下に{n} クマが できました！」{wait}{n}「うーん！ いま一つだな」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Now we can hold the Pun Contest in peace! Thank you, Momotaro-san!\"{wait}\"I stayed up all night thinking up puns, so now I'm un-bear-ably tired!\"{wait}\"Hmm! Not quite there.\"{wait}"
   },
   {
    "id": "SMAP13_37:030",
    "jp": "「やあ！ 桃太郎さん！{n} エンジェルましら です！」{n}{wait}{n}「コンサートは いつ はじまるの？{n} アヒルからです！」{n}{wait}{n}「こんな たのしい だじゃれを{n} わしに 教えてくれた お礼に{n} いいことを 教えてあげましょう」{wait}{n}「りょうり仙人の 庵が{n} この ほほえみの村の{n} 南に ありますよ！」{wait}",
-   "en": ""
+   "en": "\"Hi! Momotaro-san! I'm Angel Mashira!\"{wait}\"When does the concert start? At the quack of dawn!\"{wait}\"As thanks for teaching me such fun puns, let me tell you something useful.\"{wait}\"The Cooking Hermit's hut is south of Hohoemi Village!\"{wait}"
   },
   {
    "id": "SMAP13_37:031",
    "jp": "「それと これ おわびの{n} しるしです！ どうか{n} うけとってください！」{wait}{n}桃太郎は{n}{c19}{col10}ブルーモンキーズカード{col0}を{n}手に入れた！{wait}",
-   "en": ""
+   "en": "\"And this is a token of my apology! Please accept it!\"{wait}Momotaro got the {c19}{col10}Blue Monkeys Card{col0}!{wait}"
   },
   {
    "id": "SMAP13_37:032",
    "jp": "「桃太郎さん！ 二度と わるさを{n} しないように みんなが{n} ハゲワシてくれました！」{wait}{n}「だじゃれ いって ごめんなさい！{n} でも とても うれしかったです！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Everyone eagle-rly urged me never to misbehave again!\"{wait}\"Sorry for making a pun! But I was so happy!\"{wait}"
   },
   {
    "id": "SMAP13_37:033",
    "jp": "「だじゃれさえ 知ってれば{n} わるいこと しなかったと{n} はんせい しています」{wait}{n}「では ボクも{n} だじゃれを 一つ！」{n}{wait}{n}「みんなを コアラせて{n} ごめんなさい！」{n}{wait}",
-   "en": ""
+   "en": "\"I've learned my lesson. If only I'd known puns, I'd never have done bad things.\"{wait}\"Then let me make a pun too!\"{wait}\"I'm sorry I caused everyone so much koala-mity!\"{wait}"
   },
   {
    "id": "SMAP13_37:034",
    "jp": "「さあさ！ こころゆくまで{n} わしの 歌ごえを{n} きいていくが よい！」{wait}{n}「よしよし！{n} 新しい ファンに サービスじゃ！」{n}{wait}{n}「わしの エンジェルましら という{n} 名前の ゆらいを{n} 教えてやろう！ ほっほっ！」{wait}{n}「わしが 歌うと{n} てんしの 歌ごえ みたいじゃと{n} みんなが いうでな！ ほっほっ！」{wait}{n}「それで ついた{n} 名前 なのじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Come, come! Listen to my singing voice to your heart's content!\"{wait}\"Good, good! A little fan service for my new fans!\"{wait}\"I'll tell you how I got the name Angel Mashira! Hoho!\"{wait}\"Because everyone says when I sing, I sound like an angel! Hoho!\"{wait}\"That's how I got the name!\"{wait}"
   },
   {
    "id": "SMAP13_37:035",
    "jp": "「さあさ！ こころゆくまで{n} わしの 歌ごえを{n} きいていくが よい！」{wait}",
-   "en": ""
+   "en": "\"Come, come! Listen to my singing voice to your heart's content!\"{wait}"
   },
   {
    "id": "SMAP13_37:036",
    "jp": "「だれだ！ だれだ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Who is it?! Who is it?!\"{wait}"
   },
   {
    "id": "SMAP13_37:037",
    "jp": "「わしの 歌に ききほれる{n} ファンたちを 外に{n} つれだそうとする やつは！」{wait}{n}「わしが ましらサマと しっての{n} ろうぜきかーーーーーーっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Who dares drag my enraptured fans away from my song?!\"{wait}\"You dare this outrage against the great Mashira-samaaaaaa?!\"{wait}"
   },
   {
    "id": "SMAP13_37:038",
    "jp": "「そこで わしの歌を{n} きくがよい！」{n}{wait}",
-   "en": ""
+   "en": "\"Stay right there and listen to my song!\"{wait}"
   },
   {
    "id": "SMAP13_37:039",
    "jp": "「なにィーーーーーーっ！」{n}{n}{wait}{n}「わしの 歌が ヘタじゃと！？」{n}{n}{wait}{n}「オンチじゃと！？」{n}{n}{wait}{n}「ヌカミソが くさるじゃとーっ！？」{n}{n}{wait}{n}「うおおおおおおおおおっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Whaaaaaaaat?!\"{wait}\"My singing is bad?!\"{wait}\"Tone-deaf?!\"{wait}\"Bad enough to curdle milk?!\"{wait}\"Uoooooooooh!\"{wait}"
   },
   {
    "id": "SMAP13_37:040",
    "jp": "「まさか！ まさか！ まさか！{n} まさか！ まさか！ まさか！{n} まさか！ まさか！ まさか！」{wait}{n}「まさか お前！{n} ほんきで いってるんじゃ{n} あるまいなああああああっ！」{wait}{n}ましらの こめかみが{n}プルプルふるえた！{n}{wait}",
-   "en": ""
+   "en": "\"No way! No way! No way! No way! No way! No way! No way! No way! No way!\"{wait}\"No way you're actually serious, are youuuuuuu?!\"{wait}Mashira's temples quivered!{wait}"
   },
   {
    "id": "SMAP13_37:041",
    "jp": "「きさま！ きさま！ きさま！{n} きさま！ きさま！ きさま！{n} きさま！ きさま！ きさま！」{wait}{n}「きさまーーーっ！」{n}{n}{wait}{n}「ヘイ！ カモン！{n} ザ・ブルーモンキーズ！」{n}{wait}",
-   "en": ""
+   "en": "\"You! You! You! You! You! You! You! You! You!\"{wait}\"Yooooou!\"{wait}\"Hey! C'mon! The Blue Monkeys!\"{wait}"
   },
   {
    "id": "SMAP13_37:042",
    "jp": "「ものども かかれいっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Get 'em, boys!\"{wait}"
   },
   {
    "id": "SMAP13_37:043",
    "jp": "「ま ま まいりました！{n} 桃太郎さん！」{n}{wait}{n}「これからは もとのとおり{n} だじゃれと ほほえみが{n} あふれる 村に しますじゃ！」{wait}{n}「どうか おゆるしください！」{n}{n}{wait}{n}「それでは{n} 村の みなさんの ねがい！」{n}{wait}{n}「天下一 だじゃれ大会の{n} 用意を しましょう」{n}{wait}{n}「しばらくしたら また{n} きてください！」{n}{wait}",
-   "en": ""
+   "en": "\"I-I-I give up! Momotaro-san!\"{wait}\"From now on, I'll make this a village overflowing with puns and smiles, just like before!\"{wait}\"Please forgive me!\"{wait}\"And now, for the villagers' wish!\"{wait}\"Let's get ready for the Greatest Pun Contest Under Heaven.\"{wait}\"Come back again in a little while!\"{wait}"
   },
   {
    "id": "SMAP13_37:044",
    "jp": "「また お前か！」{n}{n}{wait}{n}「どうしても わしの 歌を{n} じゃましようというのだな？」{n}{wait}{n}「よかろう！ こうなれば{n} 力ずくで 聞かせてやる！」{n}{wait}{n}「ヘイ カモン！{n} ザ・ブルーモンキーズ！」{n}{wait}{n}「ものども かかれいっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"You again!\"{wait}\"So you're set on getting in the way of my singing?\"{wait}\"Very well! Then I'll make you listen by force!\"{wait}\"Hey, c'mon! The Blue Monkeys!\"{wait}\"Get 'em, boys!\"{wait}"
   },
   {
    "id": "SMAP13_37:045",
    "jp": "「桃太郎さん！{n} ましらの へたくそな 歌には{n} もう がまんできません！」{wait}{n}「どうか 助けてください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I can't stand Mashira's lousy singing any longer!\"{wait}\"Please, help me!\"{wait}"
   },
   {
    "id": "SMAP13_37:046",
    "jp": "「ありがとうございます！{n} さあ 桃太郎さん！{n} 早く 逃げましょう！」{wait}",
-   "en": ""
+   "en": "\"Thank you! Now, Momotaro-san! Let's get out of here, quick!\"{wait}"
   },
   {
    "id": "SMAP13_37:047",
    "jp": "「ましらと 戦う 準備が{n} できたら 助けに{n} 来てくださいね！」{wait}",
-   "en": ""
+   "en": "\"Once you're ready to fight Mashira, come and save us!\"{wait}"
   },
   {
    "id": "SMAP13_37:048",
    "jp": "「うー！ だめだ！{n} この歌を きいてると{n} めまいが…」{wait}",
-   "en": ""
+   "en": "\"Ugh! It's no good! Listening to this song makes me dizzy...\"{wait}"
   },
   {
    "id": "SMAP13_37:049",
    "jp": "「だれか たすけてー！{n} こんな歌 きいてたら{n} オンチに なっちゃうよ！」{wait}",
-   "en": ""
+   "en": "\"Somebody help meee! If I keep listening to this song, I'll go tone-deaf!\"{wait}"
   },
   {
    "id": "SMAP13_37:050",
    "jp": "「………」{n}{n}{wait}{n}「はっ！ どうやら{n} きぜつしていたようです！」{n}{wait}",
-   "en": ""
+   "en": "\".........\"{wait}\"Ah! Seems I passed out!\"{wait}"
   },
   {
    "id": "SMAP13_37:051",
    "jp": "「がまんがまんがまん{n} がまんがまんがまん…」{n}{wait}{n}「だーっ！ こんな{n} へたな歌 とても{n} がまん できない！」{wait}",
-   "en": ""
+   "en": "\"Endure, endure, endure, endure, endure, endure...\"{wait}\"Gaaah! Nobody could endure singing this bad!\"{wait}"
   },
   {
    "id": "SMAP13_37:052",
    "jp": "「イェイ！{n} オレの ビートは{n} もえてるぜ！」{wait}",
-   "en": ""
+   "en": "\"Yeah! My beat's on fire!\"{wait}"
   },
   {
    "id": "SMAP13_37:053",
    "jp": "「イェイ！ イェイ！{n} ましら様の サウンドは{n} 最高だぜ！ ベイベェ！」{wait}",
-   "en": ""
+   "en": "\"Yeah! Yeah! Mashira-sama's sound is the best! Baby!\"{wait}"
   },
   {
    "id": "SMAP13_37:054",
    "jp": "「ろっくんろーる{n} くれーじーないと！{n} あーゆーおーけー！」{wait}",
-   "en": ""
+   "en": "\"Rock 'n' rollll! Crazy niiight! Are youuu okaaay?!\"{wait}"
   },
   {
    "id": "SMAP13_37:055",
    "jp": "「オレの ドラムは{n} 嵐を よぶぜ！{n} このネタ わかるかな？」{wait}",
-   "en": ""
+   "en": "\"My drums call up a storm! Get the reference?\"{wait}"
   },
   {
    "id": "SMAP13_37:056",
    "jp": "「鳥取県の{n} 青木 輝義 です！」{n}{wait}{n}「ヒョウが{n} 参加ヒョウ(賞)を{n} もらった」{wait}",
-   "en": ""
+   "en": "\"Teruyoshi Aoki from Tottori Prefecture!\"{wait}\"The leopard won a prize for being spot-on!\"{wait}"
   },
   {
    "id": "SMAP13_37:057",
    "jp": "「愛媛県の{n} 里 太一郎 です！」{n}{wait}{n}「タイは かタイ」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Taichiro Sato from Ehime Prefecture!\"{wait}\"This Sea Bream is full to the brim!\"{wait}"
   },
   {
    "id": "SMAP13_37:058",
    "jp": "「神奈川県の{n} 松原 淳一です！」{n}{wait}{n}「サルが くサル」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Junichi Matsubara from Kanagawa Prefecture!\"{wait}\"Monkey see, monkey smell!\"{wait}"
   },
   {
    "id": "SMAP13_37:059",
-   "jp": "「東京都の{n} 仲嶺 真晢 です！」{n}{wait}{n}「どじょうが 迷っている{n} 『どーじょうかなー』」{n}{wait}",
-   "en": ""
+   "jp": "「東京都の{n} 仲嶺 真哲 です！」{n}{wait}{n}「どじょうが 迷っている{n} 『どーじょうかなー』」{n}{wait}",
+   "en": "\"Masaaki Nakamine from Tokyo!\"{wait}\"A lost loach asks: 'Where am I loach-ated?'\"{wait}"
   },
   {
    "id": "SMAP13_37:060",
    "jp": "「埼玉県の{n} 菊川 正雄 です！」{n}{wait}{n}「キリンが{n} ウンチを しおえた」{n}{wait}{n}「フー これで{n} すっキリン」{n}{wait}",
-   "en": ""
+   "en": "\"Masao Kikukawa from Saitama Prefecture!\"{wait}\"A giraffe finished pooping.\"{wait}\"'Phew! What a re-leaf!'\"{wait}"
   },
   {
    "id": "SMAP13_37:061",
    "jp": "「長崎市の{n} 松島 元気 です！」{n}{wait}{n}「トラは{n} めでタイガー」{n}{wait}",
-   "en": ""
+   "en": "\"Genki Matsushima from Nagasaki City!\"{wait}\"The tiger is simply grrreat!\"{wait}"
   },
   {
    "id": "SMAP13_37:062",
    "jp": "「京都市の{n} 内田 英佑 です！」{n}{wait}{n}「うまが うまった」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Eisuke Uchida from Kyoto City!\"{wait}\"The horse was hoarse.\"{wait}"
   },
   {
    "id": "SMAP13_37:063",
    "jp": "「青森県の{n} 進藤 正輝 です！」{n}{wait}{n}「イカだけに{n} イカさまってね{n} ププププ」{wait}",
-   "en": ""
+   "en": "\"Masaki Shindo from Aomori Prefecture!\"{wait}\"A squid that cheats? What a squiddler! Pupupupu!\"{wait}"
   },
   {
    "id": "SMAP13_37:064",
    "jp": "「宮崎県の ペンネーム{n} もみじまんじゅう です！」{n}{wait}{n}「ヒョウが おどろいて{n} うっヒョウ～」{n}{wait}",
-   "en": ""
+   "en": "\"Pen name Momiji Manju from Miyazaki Prefecture!\"{wait}\"A startled leopard goes, 'Leapin' leopards!'\"{wait}"
   },
   {
    "id": "SMAP13_37:065",
    "jp": "「東京都の{n} なか田 こうへい です！」{n}{wait}{n}「バッタが トイレで{n} ふんバッタ」{n}{wait}",
-   "en": ""
+   "en": "\"Kohei Nakata from Tokyo!\"{wait}\"The grasshopper in the toilet really had to hop to it.\"{wait}"
   },
   {
    "id": "SMAP13_37:066",
    "jp": "「鹿児島県の{n} 坂口 康大 です！」{n}{wait}{n}「野生の トナカイは{n} おとなかい？」{n}{wait}",
-   "en": ""
+   "en": "\"Kodai Sakaguchi from Kagoshima Prefecture!\"{wait}\"What do wild reindeer say when it's wet out? 'Rain, dear!'\"{wait}"
   },
   {
    "id": "SMAP13_37:067",
    "jp": "「鹿児島県の{n} 坂口 康大 です！」{n}{wait}{n}「このカード{n} 記念に もらってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Kodai Sakaguchi from Kagoshima Prefecture!\"{wait}\"Please take this card as a memento!\"{wait}"
   },
   {
    "id": "SMAP13_37:068",
    "jp": "桃太郎は{n}{col10}坂口康大カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Kodai Sakaguchi Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP13_37:069",
    "jp": "「愛知県の{n} 柏加屋 亨 です！」{n}{wait}{n}「小さい鳥が 落ちた{n} コトリ(小鳥)」{n}{wait}",
-   "en": ""
+   "en": "\"Toru Kashiwakaya from Aichi Prefecture!\"{wait}\"A little bird fell. What a cheep landing!\"{wait}"
   },
   {
    "id": "SMAP13_37:070",
    "jp": "「千葉県の{n} 大江 英雄 です！」{n}{wait}{n}「ロダン作{n} カンガルー人」{n}{wait}",
-   "en": ""
+   "en": "\"Hideo Oe from Chiba Prefecture!\"{wait}\"A work by Rodin: 'The Thinkaroo.'\"{wait}"
   },
   {
    "id": "SMAP13_37:071",
    "jp": "「北海道の{n} 藤原 英司 です！」{n}{wait}{n}「ネズミだっチューの」{n}{wait}",
-   "en": ""
+   "en": "\"Eiji Fujiwara from Hokkaido!\"{wait}\"I'm a mouse, and that's what I'm squeakin' about!\"{wait}"
   },
   {
    "id": "SMAP13_37:072",
    "jp": "「兵庫県の{n} 宮崎 智行 です！」{n}{wait}{n}「イタチの おイタチ{n} (生い立ち)」{n}{wait}",
-   "en": ""
+   "en": "\"Tomoyuki Miyazaki from Hyogo Prefecture!\"{wait}\"The weasel told its life story weasel-y.\"{wait}"
   },
   {
    "id": "SMAP13_37:073",
    "jp": "「小平市の{n} 岡峰 優吾 です！」{n}{wait}{n}「カバAが カバBの{n} 家を たずねました」{n}{wait}{n}「カバBは{n} お茶と 菓子を{n} 出しました」{wait}{n}「カバAは{n} それを見て 言いました{n} 『おカバいなく』」{wait}",
-   "en": ""
+   "en": "\"Yugo Okamine from Kodaira City!\"{wait}\"Hippo A visited Hippo B's house.\"{wait}\"Hippo B served tea and sweets.\"{wait}\"Seeing this, Hippo A said, 'My, how hippo-spitable!'\"{wait}"
   },
   {
    "id": "SMAP13_37:074",
    "jp": "「東京都の{n} 門臨 忍 です！」{n}{wait}{n}「お前 百まで{n} わしゃ クジャク{n} (九十九)まで」{wait}",
-   "en": ""
+   "en": "\"Shinobu Kadorin from Tokyo!\"{wait}\"Grow old along with me, and we'll live peacock-fully ever after!\"{wait}"
   },
   {
    "id": "SMAP13_37:075",
    "jp": "「東京都の{n} 門臨 忍 です！」{n}{wait}{n}「このカード{n} 記念に もらってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Shinobu Kadorin from Tokyo!\"{wait}\"Please take this card as a memento!\"{wait}"
   },
   {
    "id": "SMAP13_37:076",
    "jp": "桃太郎は{n}{col10}門臨 忍カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Shinobu Kadorin Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP13_37:077",
    "jp": "「宮城県の{n} 阿部 路子 です！」{n}{wait}{n}「ブタが{n} ぶったまげた」{n}{wait}",
-   "en": ""
+   "en": "\"Michiko Abe from Miyagi Prefecture!\"{wait}\"The pig was totally hog-smacked!\"{wait}"
   },
   {
    "id": "SMAP13_37:078",
    "jp": "「茨城県の{n} 河田 英明 です！」{n}{wait}{n}「あっ カモが よんでる{n} カモ～ん」{n}{wait}",
-   "en": ""
+   "en": "\"Hideaki Kawada from Ibaraki Prefecture!\"{wait}\"Oh, a duck is calling me! 'Quack on over!'\"{wait}"
   },
   {
    "id": "SMAP13_37:079",
    "jp": "「埼玉県の{n} 北浦 俊一 です！」{n}{wait}{n}「あっ！{n} このイヌ カワイイ！」{n}{wait}{n}「気をつけろ！{n} そのイヌには ドッグ{n} (毒)が あるぞ！」{wait}",
-   "en": ""
+   "en": "\"Shunichi Kitaura from Saitama Prefecture!\"{wait}\"Oh! This dog is so cute!\"{wait}\"Careful! That dog's a real ruff customer!\"{wait}"
   },
   {
    "id": "SMAP13_37:080",
-   "jp": "「品川区の{n} 野田 睛彦 です！」{n}{wait}{n}「最下位が なんじゃい！{n} 昔から いいますやろ{n} くさっても タイガースって」{wait}{n}「それは 魚の タイ」{n}{n}{wait}",
-   "en": ""
+   "jp": "「品川区の{n} 野田 晴彦 です！」{n}{wait}{n}「最下位が なんじゃい！{n} 昔から いいますやろ{n} くさっても タイガースって」{wait}{n}「それは 魚の タイ」{n}{n}{wait}",
+   "en": "\"Haruhiko Noda from Shinagawa Ward!\"{wait}\"So what if they're in last place! You know the old saying: the Tigers never change their stripes!\"{wait}\"That's a leopard and its spots.\"{wait}"
   },
   {
    "id": "SMAP13_37:081",
    "jp": "「横須賀市の{n} 中山 孝文 です！」{n}{wait}{n}「サルの 話なら{n} モンキー(もう聞い){n} たっつーの」{wait}",
-   "en": ""
+   "en": "\"Takafumi Nakayama from Yokosuka City!\"{wait}\"A monkey story? I've already heard it! Quit monkeying around!\"{wait}"
   },
   {
    "id": "SMAP13_37:082",
    "jp": "「世田谷区の{n} 前田 亮 です！」{n}{wait}{n}「パンダ(なんだ){n} このやろ～！！」{n}{wait}",
-   "en": ""
+   "en": "\"Ryo Maeda from Setagaya Ward!\"{wait}\"What in panda-monium?! Why, you little...!!\"{wait}"
   },
   {
    "id": "SMAP13_37:083",
    "jp": "「福島県の{n} 五十嵐 雅 です！」{n}{wait}{n}「たすけてくれ～{n} 魚(うお)～」{n}{wait}",
-   "en": ""
+   "en": "\"Miyabi Igarashi from Fukushima Prefecture!\"{wait}\"Help meee... I'm flounderiiing!\"{wait}"
   },
   {
    "id": "SMAP13_37:084",
    "jp": "「神奈川県の{n} 青山 健一朗 です！」{n}{wait}{n}「チーターが がけから{n} 落ちーたー」{n}{wait}",
-   "en": ""
+   "en": "\"Kenichiro Aoyama from Kanagawa Prefecture!\"{wait}\"The cheetah fell off a cliff. That's what you get for cheetah-ing!\"{wait}"
   },
   {
    "id": "SMAP13_37:085",
    "jp": "「埼玉県の{n} 明地 徹 です！」{n}{wait}{n}「らくだかな？」{n}{n}{wait}{n}「確キャメル(かめる)かい？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Toru Akechi from Saitama Prefecture!\"{wait}\"Is that a camel?\"{wait}\"Can you camel-firm it?\"{wait}"
   },
   {
    "id": "SMAP13_37:086",
    "jp": "「埼玉県の{n} 明地 徹 です！」{n}{wait}{n}「このカード{n} 記念に もらってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Toru Akechi from Saitama Prefecture!\"{wait}\"Please take this card as a memento!\"{wait}"
   },
   {
    "id": "SMAP13_37:087",
    "jp": "桃太郎は{n}{col10}明地 徹カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Toru Akechi Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP13_37:088",
    "jp": "「千葉県の{n} 太田 勇一 です！」{n}{wait}{n}「あれっ！ 死んだはずの{n} ゾウが 生きかえってる？{n} ゾウ～～～～～！！」{wait}",
-   "en": ""
+   "en": "\"Yuichi Ota from Chiba Prefecture!\"{wait}\"Huh?! The elephant that was supposed to be dead is alive again? It's an ele-PHANTOM!!\"{wait}"
   },
   {
    "id": "SMAP13_37:089",
    "jp": "「千葉県の{n} 菱川 雅弘 です！」{n}{wait}{n}「チンチラの{n} チンチン{n} チラッと 見えた」{wait}",
-   "en": ""
+   "en": "\"Masahiro Hishikawa from Chiba Prefecture!\"{wait}\"The chinchilla gave me a chilly look. How chin-chilly!\"{wait}"
   },
   {
    "id": "SMAP13_37:090",
    "jp": "「宮城県の{n} 佐藤 元気 です！」{n}{wait}{n}「キツネは ニオイが{n} きついね(キツネ)ー」{n}{wait}",
-   "en": ""
+   "en": "\"Genki Sato from Miyagi Prefecture!\"{wait}\"A fox's smell is just so... fox-ious!\"{wait}"
   },
   {
    "id": "SMAP13_37:091",
    "jp": "「東京都の{n} 伊藤 隆行 です！」{n}{wait}{n}「この広大な アフリカで{n} あの 逃げた キリンを{n} 見つけるなんて」{wait}{n}「キリン(きり)がない」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Takayuki Ito from Tokyo!\"{wait}\"Finding that runaway giraffe in all of vast Africa?\"{wait}\"That's a real long-neck shot!\"{wait}"
   },
   {
    "id": "SMAP13_37:092",
    "jp": "「大阪府の{n} 林 英子 です！」{n}{wait}{n}「工事現場で 働く{n} ホタルイカを 見て」{n}{wait}{n}「ホタルイカが{n} 穴を ホタルイカ」{n}{wait}",
-   "en": ""
+   "en": "\"Eiko Hayashi from Osaka Prefecture!\"{wait}\"Seeing a firefly squid working at a construction site,\"{wait}\"the firefly squid asks: 'Squid I dig this hole here, boss?'\"{wait}"
   },
   {
    "id": "SMAP13_37:093",
    "jp": "「調布市の{n} 宇都宮 裕 です！」{n}{wait}{n}「いつも たいくつだと{n} ぼやいてる お前には」{n}{wait}{n}「もう ヒマラヤン{n} (ひまやらん)」{n}{wait}",
-   "en": ""
+   "en": "\"Yutaka Utsunomiya from Chofu City!\"{wait}\"To you, who's always grumbling about being bored:\"{wait}\"No more Hima-layin' around for you!\"{wait}"
   },
   {
    "id": "SMAP13_37:094",
    "jp": "「大阪市の{n} 川口 和美 です！」{n}{wait}{n}「飼い犬にとって{n} 一番の 喜びとは{n} なにか？」{wait}{n}「やっぱり ご主人様に{n} ポメラニアン(誉められにゃ)」{n}{wait}",
-   "en": ""
+   "en": "\"Kazumi Kawaguchi from Osaka City!\"{wait}\"What is a pet dog's greatest joy?\"{wait}\"Being praised by its master, of course! A Pomeranian lives for Pom-pliments!\"{wait}"
   },
   {
    "id": "SMAP13_37:095",
    "jp": "「大阪市の{n} 川口 和美 です！」{n}{wait}{n}「このカード{n} 記念に もらってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Kazumi Kawaguchi from Osaka City!\"{wait}\"Please take this card as a memento!\"{wait}"
   },
   {
    "id": "SMAP13_37:096",
    "jp": "桃太郎は{n}{col10}川口和美カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Kazumi Kawaguchi Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP13_37:097",
    "jp": "「岩手県の{n} 千葉 泰裕 です！」{n}{wait}{n}「ほら わたしですよ！{n} イグアナです！」{n}{wait}{n}「イグアナんでも{n} (いくらなんでも){n} わかるでしょ？」{wait}",
-   "en": ""
+   "en": "\"Yasuhiro Chiba from Iwate Prefecture!\"{wait}\"Look, it's me! The iguana!\"{wait}\"Iguana bet you recognize me now, right?\"{wait}"
   },
   {
    "id": "SMAP13_37:098",
    "jp": "「岩手県の{n} 千葉 泰裕 です！」{n}{wait}{n}「このカード{n} 記念に もらってください！」{n}{wait}",
-   "en": ""
+   "en": "\"Yasuhiro Chiba from Iwate Prefecture!\"{wait}\"Please take this card as a memento!\"{wait}"
   },
   {
    "id": "SMAP13_37:099",
    "jp": "桃太郎は{n}{col10}千葉泰裕カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Yasuhiro Chiba Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP13_37:100",
    "jp": "「神奈川県の{n} 中島 靖 です！」{n}{wait}{n}「私達 ダチョウ{n} だっちょ～の！」{n}{wait}",
-   "en": ""
+   "en": "\"Yasushi Nakajima from Kanagawa Prefecture!\"{wait}\"We're ostriches, so don't ostrich-cize us!\"{wait}"
   },
   {
    "id": "SMAP13_37:101",
    "jp": "「倉敷市の{n} 北条 直也 です！」{n}{wait}{n}「チーターより{n} ハイエナの ほうが」{n}{wait}{n}「足が 早えなー{n} (ハイエナー)」{n}{wait}",
-   "en": ""
+   "en": "\"Naoya Hojo from Kurashiki City!\"{wait}\"A hyena runs faster than a cheetah?\"{wait}\"Ha! Now that's laughable, hyena-style!\"{wait}"
   },
   {
    "id": "SMAP13_37:102",
    "jp": "「奈良県の{n} 酒谷 岳朗 です！」{n}{wait}{n}「では ここいらで{n} ご当地ソングを 一つ！」{n}{wait}{n}「踊り おーどるなーら{n} ちょいと 東京音トドー{n} (音頭)」{wait}",
-   "en": ""
+   "en": "\"Takero Sakatani from Nara Prefecture!\"{wait}\"Now, how about a local song!\"{wait}\"If you're gonna dance, come dance the Tokyo Walrus Waltz!\"{wait}"
   },
   {
    "id": "SMAP13_37:103",
    "jp": "「倉敷市の{n} 北条 円人 です！」{n}{wait}{n}「ブタが ケンカをして{n} ブッタら ブッとんだ」{n}{wait}",
-   "en": ""
+   "en": "\"Madoka Hojo from Kurashiki City!\"{wait}\"Two pigs got in a fight. One got a real ham-mering and went flying!\"{wait}"
   },
   {
    "id": "SMAP13_37:104",
-   "jp": "「岐皇県の{n} 隈元 勇一 です！」{n}{wait}{n}「やあ 岐皇からきて{n} 飲みすぎてしま…{n} うっ(鵜)！！」{wait}",
-   "en": ""
+   "jp": "「岐阜県の{n} 隈元 勇一 です！」{n}{wait}{n}「やあ 岐阜からきて{n} 飲みすぎてしま…{n} うっ(鵜)！！」{wait}",
+   "en": "\"Yuichi Kumamoto from Gifu Prefecture!\"{wait}\"Hey, I came all the way from Gifu and drank too mu... urp! Now I'm a cormo-RANTING mess!!\"{wait}"
   },
   {
    "id": "SMAP13_37:105",
    "jp": "「みんな だじゃれ うまいなあ！」{n}{n}{wait}{n}「オラも アザラシい{n} だじゃれを かんがえるぞ！{n} おお！ いけるかもしれねえ！」{wait}",
-   "en": ""
+   "en": "\"Everybody's so good at puns!\"{wait}\"I'm gonna think up a seal-sational pun too! Ooh! I might be onto somethin'!\"{wait}"
   },
   {
    "id": "SMAP13_37:106",
    "jp": "「ことしは{n} 動物の 名前が テーマなんじゃ！{n} みんな よく うかぶのォ！」{wait}",
-   "en": ""
+   "en": "\"This year's theme is animal names! Everyone sure comes up with plenty of puns!\"{wait}"
   },
   {
    "id": "SMAP13_37:107",
    "jp": "「うーん うーん！{n} でばんが ちかいというのに{n} だじゃれが うかばない！」{wait}{n}「あーっ！ もう ワニあわない！{n} おおっ！ これで いこう！」{n}{wait}",
-   "en": ""
+   "en": "\"Hmmm, hmmm! My turn's almost up and I can't think of a pun!\"{wait}\"Aaah! I'll never make it! See ya later, alligator! Ooh! I'll go with that!\"{wait}"
   },
   {
    "id": "SMAP13_37:108",
    "jp": "「ありがとうございました！ だれもが{n} だじゃれに むちゅうですけど{n} みんな かんしゃしています！」{wait}",
-   "en": ""
+   "en": "\"Thank you so much! Everyone's crazy about puns, but they're all grateful too!\"{wait}"
   },
   {
    "id": "SMAP13_37:109",
    "jp": "「今年の 大会は{n} すごい 数の 出場者だなあ！{n} こんなこと はじめてだ！」{wait}",
-   "en": ""
+   "en": "\"So many contestants in this year's contest! This has never happened before!\"{wait}"
   },
   {
    "id": "SMAP13_37:110",
    "jp": "「ここは ひかえしつです{n} 中の 出場者に{n} 話しかけてみてください！」{wait}",
-   "en": ""
+   "en": "\"This is the waiting room. Try talking to the contestants inside!\"{wait}"
   },
   {
    "id": "SMAP13_37:111",
    "jp": "「ここは{n} コロコロの 間です！」{n}{wait}",
-   "en": ""
+   "en": "\"This is the Corocoro Room!\"{wait}"
   },
   {
    "id": "SMAP13_37:112",
    "jp": "「ここは{n} サンデーの 間です！」{wait}",
-   "en": ""
+   "en": "\"This is the Sunday Room!\"{wait}"
   },
   {
    "id": "SMAP13_37:113",
    "jp": "「ここは{n} ファミ通の 間です！」{wait}",
-   "en": ""
+   "en": "\"This is the Famitsu Room!\"{wait}"
   },
   {
    "id": "SMAP13_37:114",
    "jp": "「ここは{n} BLTの 間です！」{wait}",
-   "en": ""
+   "en": "\"This is the BLT Room!\"{wait}"
   },
   {
    "id": "SMAP13_37:115",
    "jp": "「それでは ここで{n} 大賞の 発表です！」{n}{wait}",
-   "en": ""
+   "en": "\"And now, the announcement of the Grand Prize!\"{wait}"
   },
   {
    "id": "SMAP13_37:116",
    "jp": "「まずは 部門賞！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"First, the Room Prizes!\"{wait}"
   },
   {
    "id": "SMAP13_37:117",
    "jp": "「コロコロの間！{n} 部門賞は…」{n}{wait}{n}「鹿児島県の{n} 坂口 康大さん！」{c19}{n}{wait}",
-   "en": ""
+   "en": "\"The Corocoro Room! The Room Prize goes to...\"{wait}\"Kodai Sakaguchi-san from Kagoshima Prefecture!\"{c19}{wait}"
   },
   {
    "id": "SMAP13_37:118",
    "jp": "「サンデーの間！{n} 部門賞は…」{n}{wait}{n}「東京都の{n} 門臨 忍さん！」{c19}{n}{wait}",
-   "en": ""
+   "en": "\"The Sunday Room! The Room Prize goes to...\"{wait}\"Shinobu Kadorin-san from Tokyo!\"{c19}{wait}"
   },
   {
    "id": "SMAP13_37:119",
    "jp": "「ファミ通の間！{n} 部門賞は…」{n}{wait}{n}「埼玉県の{n} 明地 徹さん！」{c19}{n}{wait}",
-   "en": ""
+   "en": "\"The Famitsu Room! The Room Prize goes to...\"{wait}\"Toru Akechi-san from Saitama Prefecture!\"{c19}{wait}"
   },
   {
    "id": "SMAP13_37:120",
    "jp": "「BLTの間！{n} 部門賞は…」{n}{wait}{n}「大阪市の{n} 川口 和美さん！」{c19}{n}{wait}",
-   "en": ""
+   "en": "\"The BLT Room! The Room Prize goes to...\"{wait}\"Kazumi Kawaguchi-san from Osaka City!\"{c19}{wait}"
   },
   {
    "id": "SMAP13_37:121",
    "jp": "「そして この中から{n} はえある 大賞に{n} 選ばれたのは…」{wait}",
-   "en": ""
+   "en": "\"And from among them, the winner of the glorious Grand Prize is...\"{wait}"
   },
   {
    "id": "SMAP13_37:122",
    "jp": "「東京都の{n} 門臨 忍さんでした！」{n}{wait}",
-   "en": ""
+   "en": "\"Shinobu Kadorin-san from Tokyo!\"{wait}"
   },
   {
    "id": "SMAP13_37:123",
    "jp": "「みなさん{n} せいだいな はくしゅを{n} おおくりください！」{wait}",
-   "en": ""
+   "en": "\"Everyone, please give a big round of applause!\"{wait}"
   },
   {
    "id": "SMAP13_37:124",
    "jp": "「だじゃれ大会を{n} 見ますか？」",
-   "en": ""
+   "en": "\"Will you watch the Pun Contest?\""
   },
   {
    "id": "SMAP13_37:125",
    "jp": "「とちゅうで{n} 帰りたくなったら{n} ×ボタンを 押して下さい！」{wait}{n}「では ごゆっくり！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"If you want to leave partway through, press the X button!\"{wait}\"Then enjoy!\"{wait}"
   },
   {
    "id": "SMAP13_37:126",
    "jp": "「だじゃれが{n} 聞きたくなったら{n} また きてください！」{wait}",
-   "en": ""
+   "en": "\"Come again whenever you want to hear puns!\"{wait}"
   },
   {
    "id": "SMAP13_37:127",
    "jp": "「もう もどりますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Will you go back now?\"{wait}"
   },
   {
    "id": "SMAP13_37:128",
    "jp": "「だじゃれが{n} 聞きたくなったら{n} また きてください！」{wait}",
-   "en": ""
+   "en": "\"Come again whenever you want to hear puns!\"{wait}"
   },
   {
    "id": "SMAP13_37:129",
    "jp": "「では ひきつづき{n} 大会を ごらんください！」{n}{wait}",
-   "en": ""
+   "en": "\"Then please continue enjoying the contest!\"{wait}"
   },
   {
    "id": "SMAP13_37:130",
    "jp": "「石の上にも 三年目の 浮気」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Patience is a virtue... until the seven-year itch.\"{wait}"
   },
   {
    "id": "SMAP13_37:131",
    "jp": "「石橋を たらった たらった{n} ウサギの ダンス！」{n}{wait}",
-   "en": ""
+   "en": "\"Look before you leap... hippity-hoppity, bunny hop!\"{wait}"
   },
   {
    "id": "SMAP13_37:132",
    "jp": "こまいぬの あしもとに{n}銀次の いったとおり{n}なにか うまっている！{wait}{n}なんと！{n}桃太郎は{n}5つの 宝物の 1つ{wait}",
-   "en": ""
+   "en": "Just as Ginji said, something is buried at the feet of the guardian lion-dog!{wait}Amazing! Momotaro got one of the five treasures,{wait}"
   },
   {
    "id": "SMAP13_37:133",
    "jp": "{col4}竜の首飾り{col0} を{n}手に 入れた！{n}{c2c}{wait}",
-   "en": ""
+   "en": "the {col4}Dragon Necklace{col0}!{c2c}{wait}"
   },
   {
    "id": "SMAP13_37:134",
    "jp": "{col4}仏のお鉢{col0} を{n}手に 入れた！{n}{c2c}{wait}",
-   "en": ""
+   "en": "{col4}Buddha's Bowl{col0}!{c2c}{wait}"
   },
   {
    "id": "SMAP13_37:135",
    "jp": "「南西にある 希望の橋を{n} 渡ると とこなつの村に{n} いくことが できます！」{wait}",
-   "en": ""
+   "en": "\"Cross the Bridge of Hope to the southwest and you can reach Tokonatsu Village!\"{wait}"
   },
   {
    "id": "SMAP13_37:136",
    "jp": "「希望の橋にいく とちゅうに{n} オートバトル仙人の 庵が{n} ありますよ！」{wait}",
-   "en": ""
+   "en": "\"On the way to the Bridge of Hope is the Auto Battle Hermit's hut!\"{wait}"
   },
   {
    "id": "SMAP13_37:137",
    "jp": "「南西にある 希望の橋は{n} 落とし穴だらけです！{n} 気をつけてください！」{wait}",
-   "en": ""
+   "en": "\"The Bridge of Hope to the southwest is full of pitfalls! Be careful!\"{wait}"
   },
   {
    "id": "SMAP13_37:138",
    "jp": "「とこなつの村は{n} いつでも 泳げる{n} 水の豊かな 村ですよ！」{wait}",
-   "en": ""
+   "en": "\"Tokonatsu Village is rich in water, so you can swim any time!\"{wait}"
   },
   {
    "id": "SMAP13_37:139",
    "jp": "「草木も眠る 牛も眠る！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Let sleeping cows lie!\"{wait}"
   }
  ]
 }

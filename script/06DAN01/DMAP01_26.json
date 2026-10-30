@@ -8,62 +8,62 @@
   {
    "id": "DMAP01_26:000",
    "jp": "「この 洞窟は アミダくじの{n} ように なっておる」{n}{wait}{n}「一度 通路の はしに 乗ると{n} 自動的に 歩いてしまうが{n} あわてんようにな！」{wait}",
-   "en": ""
+   "en": "\"This cave is laid out like an Amida ladder lottery.\"{wait}\"Once you step onto the end of a passage, you'll walk along it on your own, but don't panic!\"{wait}"
   },
   {
    "id": "DMAP01_26:001",
    "jp": "「この 先の {col0}ふしぎな森{col0} には{n} きびだんご好きの サルが{n} いるそうですよ！」{wait}",
-   "en": ""
+   "en": "\"They say there's a Monkey who loves millet dumplings in the {col0}Mystery Forest{col0} up ahead!\"{wait}"
   },
   {
    "id": "DMAP01_26:002",
    "jp": "「この洞窟を ぬけて{n} 北西に進むと ふしぎな森」{n}{wait}{n}「北東に進むと{n} 金太郎の村 です！」{n}{wait}",
-   "en": ""
+   "en": "\"Go through this cave and head northwest for the Mystery Forest.\"{wait}\"Head northeast and you'll reach Kintaro Village!\"{wait}"
   },
   {
    "id": "DMAP01_26:003",
    "jp": "「桃太郎さん！{n} 道を まちがえたときは」{n}{wait}{n}「穴から下に降りて{n} 階段を 上ってくれば{n} ここに 戻れるよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! If you take a wrong path,\"{wait}\"drop down a hole and climb back up the stairs, and you'll end up back here!\"{wait}"
   },
   {
    "id": "DMAP01_26:004",
    "jp": "「桃太郎さん！{n} ろっかく仙人の庵へは{n} もう 行きましたか？」{wait}{n}「もし 行っていないのなら{n} ここから 南西の{n} ところに ありますよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Have you been to the Smash Hermit's hut yet?\"{wait}\"If you haven't, it's to the southwest of here!\"{wait}"
   },
   {
    "id": "DMAP01_26:005",
    "jp": "{c19}ゴク{c28} {c19}ゴク{c28} {c19}ゴクッ！{n}桃太郎は 泉の水を 飲んだ！{wait}",
-   "en": ""
+   "en": "{c19}Gulp{c28} {c19}gulp{c28} {c19}gulp! Momotaro drank the spring water!{wait}"
   },
   {
    "id": "DMAP01_26:006",
    "jp": "{str} の技と 体力は 全回復した！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} recovered all SP and HP!{wait}"
   },
   {
    "id": "DMAP01_26:007",
    "jp": "「ボクは 旅をしながら{n} 地図を かいてるんだな」{n}{wait}",
-   "en": ""
+   "en": "\"I draw maps as I travel, I reckon.\"{wait}"
   },
   {
    "id": "DMAP01_26:008",
    "jp": "「桃太郎さんに{n} ボクの かいた{n} 地図を あげるんだな」{wait}{n}「旅の お役に たててくれると{n} うれしいんだな」{n}{wait}",
-   "en": ""
+   "en": "\"I'll give you a Map I drew, Momotaro-san, I reckon.\"{wait}\"I'd be glad if it helps you on your journey, I reckon.\"{wait}"
   },
   {
    "id": "DMAP01_26:009",
    "jp": "「残りの 地図も 桃太郎さんに{n} あげるから 旅先で ボクを{n} 見つけてほしいんだな」{wait}",
-   "en": ""
+   "en": "\"I'll give you the rest of my maps too, Momotaro-san, so come find me on your travels, I reckon.\"{wait}"
   },
   {
    "id": "DMAP01_26:010",
    "jp": "桃太郎は{n}{col4}地図{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col4}Map{col0}!{c19}{wait}"
   },
   {
    "id": "DMAP01_26:011",
    "jp": "「続きの 地図は まだ{n} かいてないんだな」{n}{wait}",
-   "en": ""
+   "en": "\"I haven't drawn the next map yet, I reckon.\"{wait}"
   }
  ]
 }

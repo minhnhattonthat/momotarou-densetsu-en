@@ -8,47 +8,47 @@
   {
    "id": "WMAP05_28:000",
    "jp": "「ウヒャヒャ… わしは{n} ろっかく仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Smash Hermit!\"{wait}"
   },
   {
    "id": "WMAP05_28:001",
    "jp": "「ろっかくの術は{n} なんと！ 鬼全員に」{n}{wait}{n}「会心の一撃を{n} くらわすことが できるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"With the Smash art, believe it or not, you can land\"{wait}\"a critical hit on every single oni!\"{wait}"
   },
   {
    "id": "WMAP05_28:002",
    "jp": "「はやく わしの 術を 覚え{n} 鬼達を こらしめるのぢゃ！」{n}{wait}{n}「しかし そのためには{n} わしの ちと きびしい{n} 修行を うけてもらうぞ！」{wait}{n}「さあ！ かかってくるのぢゃ！{n} 桃太郎！ ウヒャヒャ…」{n}{wait}",
-   "en": ""
+   "en": "\"Hurry and learn my art, and teach those oni a lesson!\"{wait}\"But first, you must undergo my rather strict training!\"{wait}\"Now! Come at me, Momotaro! Uhyahya...\"{wait}"
   },
   {
    "id": "WMAP05_28:003",
    "jp": "「でかした！ 桃太郎！{n} ろっかくの術を{n} さずけようぞ！ ウヒャヒャ…」{wait}{n}桃太郎は{n}{col4}ろっかくの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Well done, Momotaro! I shall grant you the Smash art! Uhyahya...\"{wait}Momotaro mastered the {col4}Smash art{col0}!"
   },
   {
    "id": "WMAP05_28:004",
    "jp": "「ろっかくの術を 使って{n} 敵が ぜんめつしないときは{n} 先に 進まんほうが いいぞ」{wait}",
-   "en": ""
+   "en": "\"If you use the Smash art and the enemies aren't wiped out, you'd better not go any further.\"{wait}"
   },
   {
    "id": "WMAP05_28:005",
    "jp": "「桃太郎！ そんなことでは{n} えんまを こらしめることなど{n} できまいぞっ！ ウヒャヒャ…」{wait}{n}「力を つけて{n} でなおしてくるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! At this rate, you'll never teach Enma a lesson! Uhyahya...\"{wait}\"Go get stronger and come back!\"{wait}"
   },
   {
    "id": "WMAP05_28:006",
    "jp": "「ろっかくの術は たしかに{n} 強力な 術ぢゃ！」{n}{wait}{n}「ぢゃが その強さに おぼれ{n} 使いすぎては すぐに 技が{n} 足りなくなってしまう！」{wait}{n}「技の 数を 考えて{n} ここぞと いうときに{n} 使うのぢゃ！」{wait}",
-   "en": ""
+   "en": "\"The Smash art is a powerful art, no doubt about it!\"{wait}\"But if its power goes to your head and you overuse it, you'll soon run out of SP!\"{wait}\"Mind your SP and save it for when it really counts!\"{wait}"
   },
   {
    "id": "WMAP05_28:007",
    "jp": "「ろっかくの術の{n} ちょうしは どうぢゃ？{n} うでは 落ちとらんか？」{wait}{n}「ふむ がんばっとるようぢゃからな{n} ほうびに これをやろう！{n} 桃太郎！ がんばれよ！」{wait}{n}桃太郎は{n}{col10}ろっかく仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"How's your Smash art coming along? Not getting rusty?\"{wait}\"Hm, you seem to be working hard, so I'll give you this as a reward! Momotaro! Keep it up!\"{wait}Momotaro got the {col10}Smash Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP05_28:008",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「笑う門で 服着たる！」{n}{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"He who laughs last gets dressed last!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

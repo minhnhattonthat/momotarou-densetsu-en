@@ -8,42 +8,42 @@
   {
    "id": "WMAP02_28:000",
    "jp": "「ウヒャヒャ… わしは{n} はやあし仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Dash Hermit!\"{wait}"
   },
   {
    "id": "WMAP02_28:001",
    "jp": "「はやあしの術は{n} ×ボタンを 押しながら 歩くと{n} スピードアップできる 術ぢゃ！」{wait}{n}「わしは のんびり 歩いたほうが{n} ええと 思うのぢゃが」{n}{wait}{n}「お前が せっかちなほうなら{n} この術を 教えてやるぞ！」{n}{wait}{n}「どうぢゃ？ ほしいか？」{n}{n}",
-   "en": ""
+   "en": "\"The Dash art lets you speed up by walking while holding the X button!\"{wait}\"Myself, I think it's better to stroll along at your leisure,\"{wait}\"but if you're the impatient sort, I'll teach you this art!\"{wait}\"Well? Do you want it?\""
   },
   {
    "id": "WMAP02_28:002",
    "jp": "「ふむ… 桃太郎{n} お前が ほしいと いうのなら{n} くれてやろう！」{wait}{n}桃太郎は{n}{col4}はやあしの術{col0}を 会得した！{n}",
-   "en": ""
+   "en": "\"Hmm... Momotaro, if you say you want it, then it's yours!\"{wait}Momotaro mastered the {col4}Dash art{col0}!"
   },
   {
    "id": "WMAP02_28:003",
    "jp": "「ぢゃが のんびり 歩くのが{n} 旅の だいごみだというのを{n} 忘れては いかんぞ！」{wait}",
-   "en": ""
+   "en": "\"But never forget that a leisurely stroll is the true joy of travel!\"{wait}"
   },
   {
    "id": "WMAP02_28:004",
    "jp": "「ふむ！ 若いのに{n} 旅の たのしみかたを{n} こころえとるな！」{wait}{n}「気をつけて いくが ええぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hmm! So young, and yet you know how to enjoy a journey!\"{wait}\"Take care on your way!\"{wait}"
   },
   {
    "id": "WMAP02_28:005",
    "jp": "「急いで 歩いていては{n} けしきも 楽しめんぞ！」{n}{wait}{n}「どうせなら ゆっくり{n} 旅を たのしむのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you hurry along, you can't enjoy the scenery!\"{wait}\"You may as well take your time and enjoy the journey!\"{wait}"
   },
   {
    "id": "WMAP02_28:006",
    "jp": "「おお 桃太郎！{n} のんびり 旅をしておるか！」{n}{wait}{n}「もう一度 ここにきた{n} きねんに これを やろう！」{n}{wait}{n}桃太郎は{n}{col10}はやあし仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Oh, Momotaro! Taking your journey nice and easy?\"{wait}\"I'll give you this to remember your second visit!\"{wait}Momotaro got the {col10}Dash Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP02_28:007",
    "jp": "ことわざが 書いてある！{n}{n}{wait}{n}「胃の中の蛙(かわず){n} 大腸を知らず！」{n}{wait}{n}そな アホな！{n}{n}{wait}",
-   "en": ""
+   "en": "There's a proverb written here!{wait}\"The frog in the gut knows nothing of the colon!\"{wait}Oh, come on!{wait}"
   }
  ]
 }

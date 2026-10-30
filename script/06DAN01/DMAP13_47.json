@@ -8,12 +8,12 @@
   {
    "id": "DMAP13_47:000",
    "jp": "「グルルルルル！」{n}{n}{wait}{n}「われは 左魂鬼！」{n}{n}{wait}{n}「地獄の 門を 守る{n} われの 力を おもいしれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Grrrrrrr!\"{wait}\"I am the Left Soul Oni!\"{wait}\"Feel the might of the one who guards the gate of Hell!\"{wait}"
   },
   {
    "id": "DMAP13_47:001",
    "jp": "「グルルルルル！」{n}{n}{wait}{n}「何度 戦おうが 同じこと！{n} この 左魂鬼に 勝てる{n} はずが ないのだ！」{wait}",
-   "en": ""
+   "en": "\"Grrrrrrr!\"{wait}\"However many times you fight, it's the same! There's no way you can beat me, the Left Soul Oni!\"{wait}"
   }
  ]
 }

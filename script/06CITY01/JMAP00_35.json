@@ -12,12 +12,12 @@
   {
    "id": "JMAP00_35:000",
    "jp": "「桃太郎！」{n}{n}{wait}{n}「よくぞ ここを{n} 見つけたな！」{n}{wait}{n}「ゆっくり{n} 旅の つかれを{n} とると いいぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro!\"{wait}\"Well done finding this place!\"{wait}\"Take your time and rest from the weariness of your journey!\"{wait}"
   },
   {
    "id": "JMAP00_35:001",
    "jp": "{str}の{n}技と 体力は{n}全回復した！{c19}{wait}",
-   "en": ""
+   "en": "{str} recovered all SP and HP!{c19}{wait}"
   }
  ]
 }

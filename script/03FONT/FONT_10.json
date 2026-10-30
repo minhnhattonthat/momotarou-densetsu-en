@@ -13,157 +13,157 @@
   {
    "id": "FONT_10:001",
    "jp": "{str}が おそってきた！{wait}",
-   "en": ""
+   "en": "{str} sprang out to attack!{wait}"
   },
   {
    "id": "FONT_10:002",
    "jp": "{str}が あらわれた！{wait}",
-   "en": ""
+   "en": "{str} appeared!{wait}"
   },
   {
    "id": "FONT_10:003",
    "jp": "{str}{str}は{n}ふいを つかれた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was caught off guard!{wait}"
   },
   {
    "id": "FONT_10:004",
    "jp": "{str}{str}は{n}{str}{str}から{n}みごと 一本 とった！{wait}",
-   "en": ""
+   "en": "{str}{str} landed a perfect strike on {str}{str}!{wait}"
   },
   {
    "id": "FONT_10:005",
    "jp": "{str}{str}は ヒラリと{n}攻撃を かわした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} nimbly dodged the attack!{wait}"
   },
   {
    "id": "FONT_10:006",
    "jp": "しかし{n}{str}{str}の 攻撃は{n}空を 切った！{wait}",
-   "en": ""
+   "en": "But {str}{str}'s attack only cut the air!{wait}"
   },
   {
    "id": "FONT_10:007",
    "jp": "しかし {str}{str}は{n}ファインプレーで{n}うけとめた！{wait}",
-   "en": ""
+   "en": "But {str}{str} made a fine play and caught it!{wait}"
   },
   {
    "id": "FONT_10:008",
    "jp": "{str}{str}の 技は{n}{num} 回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} recovered {num} SP!{wait}"
   },
   {
    "id": "FONT_10:009",
    "jp": "{str}{str}の 体力は{n}{num} 回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} recovered {num} HP!{wait}"
   },
   {
    "id": "FONT_10:010",
    "jp": "{str}{str}の 体力は{n}全回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s HP was fully restored!{wait}"
   },
   {
    "id": "FONT_10:011",
    "jp": "{str}{str}は{n}{num}ポイントの{n}打撃を 受けた！{wait}",
-   "en": ""
+   "en": "{str}{str} took {num} damage!{wait}"
   },
   {
    "id": "FONT_10:012",
    "jp": "{str}{str}は{n}{str}{str}を かばった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} shielded {str}{str}!{wait}"
   },
   {
    "id": "FONT_10:013",
    "jp": "{str}{str}は 力 尽き果てた！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str} ran out of strength!{wait}"
   },
   {
    "id": "FONT_10:014",
    "jp": "{str}{str}は 消え去った！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str} vanished!{wait}"
   },
   {
    "id": "FONT_10:015",
    "jp": "連続攻撃！{n}{n}{wait}",
-   "en": ""
+   "en": "Combo attack!{wait}"
   },
   {
    "id": "FONT_10:016",
    "jp": "{str}{str}の{n}{num}連続 攻撃！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s {num}-hit combo!{wait}"
   },
   {
    "id": "FONT_10:017",
    "jp": "会心の 一撃！{n}{n}{wait}",
-   "en": ""
+   "en": "Critical hit!{wait}"
   },
   {
    "id": "FONT_10:018",
    "jp": "痛恨の 一撃！{n}{n}{wait}",
-   "en": ""
+   "en": "A crushing blow!{wait}"
   },
   {
    "id": "FONT_10:019",
    "jp": "{str}{str}は{n}打撃を 受けなかった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} took no damage!{wait}"
   },
   {
    "id": "FONT_10:020",
    "jp": "{str}{str}は 逃げ出した！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str} ran away!{wait}"
   },
   {
    "id": "FONT_10:021",
    "jp": "しかし 逃げ切れなかった！{n}{n}{wait}",
-   "en": ""
+   "en": "But couldn't get away!{wait}"
   },
   {
    "id": "FONT_10:022",
    "jp": "しかし ここでは{n}逃げられなかった！{n}{wait}",
-   "en": ""
+   "en": "But there's no escaping here!{wait}"
   },
   {
    "id": "FONT_10:023",
    "jp": "{str}{n}{col2}{str}{col0}を 盗まれた！{n}{wait}",
-   "en": ""
+   "en": "{str} {col2}{str}{col0} was stolen!{wait}"
   },
   {
    "id": "FONT_10:024",
    "jp": "{str}{str}に{n}{col2}{str}{col0}を 盗まれた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} stole {col2}{str}{col0}!{wait}"
   },
   {
    "id": "FONT_10:025",
    "jp": "{str}{str}に{n}盗まれていた ものを{n}取り返した！{wait}",
-   "en": ""
+   "en": "Got back what {str}{str} had stolen!{wait}"
   },
   {
    "id": "FONT_10:026",
    "jp": "{str}{str}は{n}身を 守っている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is on guard!{wait}"
   },
   {
    "id": "FONT_10:027",
    "jp": "{str}{str}は{n}{str}{str}を{n}かばっている！{wait}",
-   "en": ""
+   "en": "{str}{str} is shielding {str}{str}!{wait}"
   },
   {
    "id": "FONT_10:028",
    "jp": "たち",
-   "en": ""
+   "en": " and company"
   },
   {
    "id": "FONT_10:029",
    "jp": "それぞれ ",
-   "en": ""
+   "en": "each"
   },
   {
    "id": "FONT_10:030",
    "jp": "さらに ",
-   "en": ""
+   "en": "Also,"
   },
   {
    "id": "FONT_10:031",
    "jp": "{str}{str}は{n}かたまって いるので{n}打撃を 受けない！{wait}",
-   "en": ""
+   "en": "{str}{str} is rock-hard and takes no damage!{wait}"
   },
   {
    "id": "FONT_10:032",
@@ -172,172 +172,172 @@
   {
    "id": "FONT_10:033",
    "jp": "{str}{str}の{n}笑いが おさまった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} stopped laughing!{wait}"
   },
   {
    "id": "FONT_10:034",
    "jp": "{str}{str}は{n}笑い転げている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is rolling with laughter!{wait}"
   },
   {
    "id": "FONT_10:035",
    "jp": "{str}{str}は{n}目を 覚ました！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} woke up!{wait}"
   },
   {
    "id": "FONT_10:036",
    "jp": "{str}{str}は{n}眠っている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is asleep!{wait}"
   },
   {
    "id": "FONT_10:037",
    "jp": "{str}{str}は{n}かくらんした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} became confused!{wait}"
   },
   {
    "id": "FONT_10:038",
    "jp": "{str}{str}は{n}かくらん している！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is confused!{wait}"
   },
   {
    "id": "FONT_10:039",
    "jp": "{str}{str}は{n}正気に もどった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} snapped out of it!{wait}"
   },
   {
    "id": "FONT_10:040",
    "jp": "{str}{str}の{n}マヒが 治った！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s paralysis wore off!{wait}"
   },
   {
    "id": "FONT_10:041",
    "jp": "夜叉姫の{n}分身が{n}{num}体 あらわれた！{wait}",
-   "en": ""
+   "en": "Clones of Yashahime appeared: {num}!{wait}"
   },
   {
    "id": "FONT_10:042",
    "jp": "夜叉姫の{n}分身は{n}消え去った！{wait}",
-   "en": ""
+   "en": "Yashahime's clones vanished!{wait}"
   },
   {
    "id": "FONT_10:043",
    "jp": "{str}{str}から{n}{num}の 技を{n}うばった！{wait}",
-   "en": ""
+   "en": "Drained {str}{str}'s SP by {num}!{wait}"
   },
   {
    "id": "FONT_10:044",
    "jp": "{str}{str}は{n}{num}の 技を{n}うばわれた！{wait}",
-   "en": ""
+   "en": "{str}{str} had {num} SP drained!{wait}"
   },
   {
    "id": "FONT_10:045",
    "jp": "地蔵は {str}{str}に{n}当たるはずの 打撃を{n}その身で 受けとめた！{wait}",
-   "en": ""
+   "en": "The Jizo took the blow meant for {str}{str} with its own body!{wait}"
   },
   {
    "id": "FONT_10:046",
    "jp": "お金 {num}両を{n}盗まれた！{n}{wait}",
-   "en": ""
+   "en": "{num} ryo was stolen!{wait}"
   },
   {
    "id": "FONT_10:047",
    "jp": "{str} {num}両を{n}盗まれた！{n}{wait}",
-   "en": ""
+   "en": "{str} {num} ryo was stolen!{wait}"
   },
   {
    "id": "FONT_10:048",
    "jp": "しかし{n}{str}{str}は{n}金を もって いなかった！{wait}",
-   "en": ""
+   "en": "But {str}{str} had no money!{wait}"
   },
   {
    "id": "FONT_10:049",
    "jp": "{str}{str}が{n}よばれてきた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was called in!{wait}"
   },
   {
    "id": "FONT_10:050",
    "jp": "しかし{n}仲間は きてくれなかった！{n}{wait}",
-   "en": ""
+   "en": "But no friends came to help!{wait}"
   },
   {
    "id": "FONT_10:051",
    "jp": "{str}{str}は{n}体当たりを してきた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} charged in with a body slam!{wait}"
   },
   {
    "id": "FONT_10:052",
    "jp": "{str}{str}が{n}目標に された！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was targeted!{wait}"
   },
   {
    "id": "FONT_10:053",
    "jp": "と 思ったが 金太郎は{n}技を 持っていないので{n}平気だった！{wait}",
-   "en": ""
+   "en": "Or so it seemed, but Kintaro has no SP, so he was fine!{wait}"
   },
   {
    "id": "FONT_10:054",
    "jp": "{str}{str}は いなくなった！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is gone!{wait}"
   },
   {
    "id": "FONT_10:055",
    "jp": "{str}{str}は {str}を{n}道具袋から{n}とりだそうと した！{wait}{n}しかし {str}は{n}すでに 盗まれていた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} tried to take {str} out of the item bag!{wait}But {str} had already been stolen!{wait}"
   },
   {
    "id": "FONT_10:056",
    "jp": "{str}たちは{n}合体した！{n}{wait}{n}体力 攻撃力{n}守備力が もとの 2匹を{n}合わせた 数に 上がった！{wait}",
-   "en": ""
+   "en": "The two {str} merged into one!{wait}Their HP, Attack and Defense rose to the two originals' combined totals!{wait}"
   },
   {
    "id": "FONT_10:057",
    "jp": "{str}{str}は{n}マヒしている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is paralyzed!{wait}"
   },
   {
    "id": "FONT_10:058",
    "jp": "{str}{str}は{n}動けない！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} can't move!{wait}"
   },
   {
    "id": "FONT_10:059",
    "jp": "{str}{str}の 術は{n}ふういん されている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s arts are sealed!{wait}"
   },
   {
    "id": "FONT_10:060",
    "jp": "今 {str}{str}の{n}体力は {num}だ！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s HP is now {num}!{wait}"
   },
   {
    "id": "FONT_10:061",
    "jp": "今 {str}{str}の{n}技は {num}だ！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s SP is now {num}!{wait}"
   },
   {
    "id": "FONT_10:062",
    "jp": "{str}{str}は かんざしを{n}{str}{str}の{n}くびすじに つきたてた！{wait}",
-   "en": ""
+   "en": "{str}{str} drove a hairpin into the back of {str}{str}'s neck!{wait}"
   },
   {
    "id": "FONT_10:063",
    "jp": "{str}{str}が 大けがする{n}寸前に {str}が{n}ひかり かがやいた！{wait}",
-   "en": ""
+   "en": "Just before {str}{str} was injured, {str} shone brightly!{wait}"
   },
   {
    "id": "FONT_10:064",
    "jp": "分身には{n}ぶんしんの術が{n}使えない！{wait}",
-   "en": ""
+   "en": "Clones can't use the Clone art!{wait}"
   },
   {
    "id": "FONT_10:065",
    "jp": "{str}{str}の{n}{col4}といし{col0}の 効果が{n}切れた！{wait}",
-   "en": ""
+   "en": "{str}{str}'s {col4}Whetstone{col0} wore off!{wait}"
   },
   {
    "id": "FONT_10:066",
    "jp": "{str}{str}は{n}道具袋から{n}なにかを 盗もうとした！{wait}{n}しかし{n}ほしくなるような ものは{n}入っていなかった{wait}",
-   "en": ""
+   "en": "{str}{str} tried to steal something from the item bag!{wait}But there was nothing in it worth taking{wait}"
   },
   {
    "id": "FONT_10:067",
@@ -462,57 +462,57 @@
   {
    "id": "FONT_10:091",
    "jp": "村人A",
-   "en": ""
+   "en": "Villager A"
   },
   {
    "id": "FONT_10:092",
    "jp": "村人B",
-   "en": ""
+   "en": "Villager B"
   },
   {
    "id": "FONT_10:093",
    "jp": "村人C",
-   "en": ""
+   "en": "Villager C"
   },
   {
    "id": "FONT_10:094",
    "jp": "みんな",
-   "en": ""
+   "en": "Everyone"
   },
   {
    "id": "FONT_10:095",
    "jp": "分身",
-   "en": ""
+   "en": "Clone"
   },
   {
    "id": "FONT_10:096",
    "jp": "分身1",
-   "en": ""
+   "en": "Clone 1"
   },
   {
    "id": "FONT_10:097",
    "jp": "分身2",
-   "en": ""
+   "en": "Clone 2"
   },
   {
    "id": "FONT_10:098",
    "jp": "分身3",
-   "en": ""
+   "en": "Clone 3"
   },
   {
    "id": "FONT_10:099",
    "jp": "桃太郎たち",
-   "en": ""
+   "en": "Momotaro and company"
   },
   {
    "id": "FONT_10:100",
    "jp": "技の数が 足りない！{n}{n}{wait}",
-   "en": ""
+   "en": "Not enough SP!{wait}"
   },
   {
    "id": "FONT_10:101",
    "jp": "体力の数が 足りない！{n}{n}{wait}",
-   "en": ""
+   "en": "Not enough HP!{wait}"
   },
   {
    "id": "FONT_10:102",
@@ -522,97 +522,97 @@
   {
    "id": "FONT_10:103",
    "jp": "{str}{str}は いまの戦いで{n}いつもより多くのことを 学んだ！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} learned more than usual from that battle!{wait}"
   },
   {
    "id": "FONT_10:104",
    "jp": "会心の ココロ～～～～～！{n}{wait}{n}さらに 心の数{num}を{n}手に 入れた！{n}{wait}{n}よかったね！{n}{n}{wait}",
-   "en": ""
+   "en": "Critical heaaart!{wait}Your hearts went up by another {num}!{wait}Nice going!{wait}"
   },
   {
    "id": "FONT_10:105",
    "jp": "{str}{str}は いまの戦いで{n}いつもより さらに！ さらに！{n}多くのことを 学んだ！{wait}",
-   "en": ""
+   "en": "{str}{str} learned more! And more! Way more than usual from that battle!{wait}"
   },
   {
    "id": "FONT_10:106",
    "jp": "会心の ココロ～～～～～！{n}{n}{wait}{n}さらに 心の数{num}を{n}手に 入れた！{n}{wait}{n}がんばろうね！{n}{n}{wait}",
-   "en": ""
+   "en": "Critical heaaart!{wait}Your hearts went up by another {num}!{wait}Keep it up!{wait}"
   },
   {
    "id": "FONT_10:107",
    "jp": "「うわあ！ 桃太郎さんだ！{n} これは かないっこない！」{n}{wait}{n}鬼たちは 桃太郎を見て{n}しっぽを まいて 逃げ出した！{n}{wait}",
-   "en": ""
+   "en": "\"Whoa! It's Momotaro-san! We don't stand a chance!\"{wait}The oni took one look at Momotaro and fled with their tails between their legs!{wait}"
   },
   {
    "id": "FONT_10:108",
    "jp": "貧刀を そうびしていたので{n}お金が 0に なってしまった！{n}{wait}",
-   "en": ""
+   "en": "You had the Poverty Sword equipped, so your money dropped to 0!{wait}"
   },
   {
    "id": "FONT_10:109",
    "jp": "えのんが {n}{num}両 もっていった！{n}{wait}{n}「ボンビー！」{n}{n}{wait}",
-   "en": ""
+   "en": "Enon took {num} ryo!{wait}\"Bombee!\"{wait}"
   },
   {
    "id": "FONT_10:110",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「桃太郎さん！{n} ひごろ お世話になってる{n} お礼が したいのねん！」{wait}{n}「このカード{n} 受け取ってほしいのねん！」{n}{wait}{n}桃太郎は{n}{col8}えのんカード{col0}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Momotaro-san! I want to thank you for always helping me out, bombee!\"{wait}\"Please take this card, bombee!\"{wait}Momotaro got the {col8}Enon Card{col0}!{wait}"
   },
   {
    "id": "FONT_10:111",
    "jp": "「ボンビー！ えのサンが{n} すけだち するのねん！」{n}{wait}{n}おっと！ えのんが{n}{str}{str}の かわりに{n}こうげきを うけてくれたぞ！{wait}{n}「えのッピドゥー！{n} ちょっと いたいのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! Eno-san will lend a hand, bombee!\"{wait}Whoa! Enon took the attack in place of {str}{str}!{wait}\"Eno-ppidoo! That hurt a little, bombee!\"{wait}"
   },
   {
    "id": "FONT_10:112",
    "jp": "おや？ {str}{str}は{n}ウンチくんの おかげで{n}運が 向いてきたようだ！{wait}{n}ウンチくんの 金運～～！{n}{n}{wait}{n}さらに {num}両を{n}手に 入れた！{n}{wait}",
-   "en": ""
+   "en": "Oh? Thanks to Poop-kun, {str}{str}'s luck seems to be on the rise!{wait}Poop-kun's money luuuck!{wait}You got another {num} ryo!{wait}"
   },
   {
    "id": "FONT_10:113",
    "jp": "おや？ {str}{str}は{n}鉄ウンチくんの おかげで{n}運が 向いてきたようだ！{wait}{n}鉄ウンチくんの 金運～～！{n}{n}{wait}{n}さらに {num}両を{n}手に 入れた！{n}{wait}",
-   "en": ""
+   "en": "Oh? Thanks to Iron Poop-kun, {str}{str}'s luck seems to be on the rise!{wait}Iron Poop-kun's money luuuck!{wait}You got another {num} ryo!{wait}"
   },
   {
    "id": "FONT_10:114",
    "jp": "おや？ {str}{str}は{n}ウンチくんの おかげで{n}運が 向いてきたようだ！{wait}{n}しかも ウンチくんの 金運は{n}サイコーチョ～～～！{n}{wait}{n}さらに さらに！{n}{num}両を 手に 入れた！{n}{wait}{n}あっぱれ！ ウンチくん！ {n}{n}{wait}",
-   "en": ""
+   "en": "Oh? Thanks to Poop-kun, {str}{str}'s luck seems to be on the rise!{wait}And Poop-kun's money luck is the greatest of the greaaat!{wait}Even more! And more! You got {num} ryo!{wait}Bravo, Poop-kun!{wait}"
   },
   {
    "id": "FONT_10:115",
    "jp": "おや？ {str}{str}は{n}鉄ウンチくんの おかげで{n}運が 向いてきたようだ！{wait}{n}しかも 鉄ウンチくんの 金運は{n}サイコーチョ～～～！{n}{wait}{n}さらに さらに！{n}{num}両を 手に 入れた！{n}{wait}{n}あっぱれ！ 鉄ウンチくん！ {n}{n}{wait}",
-   "en": ""
+   "en": "Oh? Thanks to Iron Poop-kun, {str}{str}'s luck seems to be on the rise!{wait}And Iron Poop-kun's money luck is the greatest of the greaaat!{wait}Even more! And more! You got {num} ryo!{wait}Bravo, Iron Poop-kun!{wait}"
   },
   {
    "id": "FONT_10:116",
    "jp": "{str}{str}の 体力が{n}{num} 吸い取られてしまった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} had {num} HP sucked away!{wait}"
   },
   {
    "id": "FONT_10:117",
    "jp": "？？？",
-   "en": ""
+   "en": "???"
   },
   {
    "id": "FONT_10:118",
    "jp": "{str}{str}は{n}体が マヒしていて{n}何も できない！{wait}",
-   "en": ""
+   "en": "{str}{str} is paralyzed and can do nothing!{wait}"
   },
   {
    "id": "FONT_10:119",
    "jp": "{str}{str}は{n}体が 動けないので{n}何も できない！{wait}",
-   "en": ""
+   "en": "{str}{str} is unable to move and can do nothing!{wait}"
   },
   {
    "id": "FONT_10:120",
    "jp": "{str}{str}は{n}笑い 転げているので{n}何も できない！{wait}",
-   "en": ""
+   "en": "{str}{str} is rolling with laughter and can do nothing!{wait}"
   },
   {
    "id": "FONT_10:121",
    "jp": "{str}{str}は{n}眠って いるので{n}何も できない！{wait}",
-   "en": ""
+   "en": "{str}{str} is asleep and can do nothing!{wait}"
   },
   {
    "id": "FONT_10:122",
@@ -637,7 +637,7 @@
   {
    "id": "FONT_10:126",
    "jp": "体力",
-   "en": ""
+   "en": "HP"
   },
   {
    "id": "FONT_10:127",
@@ -657,72 +657,72 @@
   {
    "id": "FONT_10:130",
    "jp": "落し物",
-   "en": ""
+   "en": "Drop Item"
   },
   {
    "id": "FONT_10:131",
    "jp": "落とす確",
-   "en": ""
+   "en": "Drop Rate"
   },
   {
    "id": "FONT_10:132",
    "jp": "持ち技攻撃",
-   "en": ""
+   "en": "Skill Attack"
   },
   {
    "id": "FONT_10:133",
    "jp": "頭の良さ",
-   "en": ""
+   "en": "Intelligence"
   },
   {
    "id": "FONT_10:134",
    "jp": "修正A",
-   "en": ""
+   "en": "Adjust A"
   },
   {
    "id": "FONT_10:135",
    "jp": "修正B",
-   "en": ""
+   "en": "Adjust B"
   },
   {
    "id": "FONT_10:136",
    "jp": "修正C",
-   "en": ""
+   "en": "Adjust C"
   },
   {
    "id": "FONT_10:137",
    "jp": "修正D",
-   "en": ""
+   "en": "Adjust D"
   },
   {
    "id": "FONT_10:138",
    "jp": "先せい",
-   "en": ""
+   "en": "First Strike"
   },
   {
    "id": "FONT_10:139",
    "jp": "連続",
-   "en": ""
+   "en": "Combo"
   },
   {
    "id": "FONT_10:140",
    "jp": "ふく数",
-   "en": ""
+   "en": "Multiple"
   },
   {
    "id": "FONT_10:141",
    "jp": "集中",
-   "en": ""
+   "en": "Focus"
   },
   {
    "id": "FONT_10:142",
    "jp": "会心",
-   "en": ""
+   "en": "Critical"
   },
   {
    "id": "FONT_10:143",
    "jp": "よける",
-   "en": ""
+   "en": "Evade"
   },
   {
    "id": "FONT_10:144",
@@ -737,47 +737,47 @@
   {
    "id": "FONT_10:146",
    "jp": "呼ぶ確りつ",
-   "en": ""
+   "en": "Call Rate"
   },
   {
    "id": "FONT_10:147",
    "jp": "アイテム修正",
-   "en": ""
+   "en": "Item Adjust"
   },
   {
    "id": "FONT_10:148",
    "jp": "アイテム",
-   "en": ""
+   "en": "Item"
   },
   {
    "id": "FONT_10:149",
    "jp": "絵",
-   "en": ""
+   "en": "Graphic"
   },
   {
    "id": "FONT_10:150",
    "jp": "持ち技1",
-   "en": ""
+   "en": "Skill 1"
   },
   {
    "id": "FONT_10:151",
    "jp": "持ち技2",
-   "en": ""
+   "en": "Skill 2"
   },
   {
    "id": "FONT_10:152",
    "jp": "持ち技3",
-   "en": ""
+   "en": "Skill 3"
   },
   {
    "id": "FONT_10:153",
    "jp": "持ち技4",
-   "en": ""
+   "en": "Skill 4"
   },
   {
    "id": "FONT_10:154",
    "jp": "持ち技5",
-   "en": ""
+   "en": "Skill 5"
   }
  ]
 }

@@ -8,107 +8,107 @@
   {
    "id": "DMAP15_56:000",
    "jp": "「桃太郎！{n} ついに ここまで{n} やってきおったか！」{wait}{n}「人間にしては たいしたものだ！{n} とりあえず ほめてやろう！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! So you've finally made it all the way here!\"{wait}\"Quite something, for a human! I'll give you some praise, at least!\"{wait}"
   },
   {
    "id": "DMAP15_56:001",
    "jp": "「さて 桃太郎よ！」{n}{n}{wait}{n}「お前は{n} なぜ そうまでして{n} 鬼に さからうのだ？」{wait}{n}「ほかの 人間どもは{n} どいつも こいつも」{n}{wait}",
-   "en": ""
+   "en": "\"Now then, Momotaro!\"{wait}\"Why do you go so far to defy the oni?\"{wait}\"All the other humans, every last one of them,\"{wait}"
   },
   {
    "id": "DMAP15_56:002",
    "jp": "「うらめしそうに{n} われらを にらむばかりで{n} さからおうとしない！」{wait}{n}「なぜ お前だけが{n} 鬼に さからえるのだ？」{n}{wait}",
-   "en": ""
+   "en": "\"only glare at us resentfully and never try to resist!\"{wait}\"Why are you the only one who can stand up to the oni?\"{wait}"
   },
   {
    "id": "DMAP15_56:003",
    "jp": "「なに？{n} 勇気の力だと{n} いうのか？」{wait}{n}「ふん！ その勇気が{n} なんに なる？」{n}{wait}",
-   "en": ""
+   "en": "\"What? You say it's the power of courage?\"{wait}\"Hmph! And what good is that courage?\"{wait}"
   },
   {
    "id": "DMAP15_56:004",
    "jp": "「お前たちに{n} 戦いの 全てを まかせ」{n}{wait}{n}「自分は 戦わないような{n} れんちゅうの ために{n} なぜ 戦わねばならんのだ？」{wait}{n}「正義の ためだと いうのか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"They leave all the fighting to you,\"{wait}\"so why must you fight for a bunch who won't fight themselves?\"{wait}\"You say it's for justice?\"{wait}"
   },
   {
    "id": "DMAP15_56:005",
    "jp": "「ふん！ 正義か！{n} ずいぶん べんりな{n} ことばだな！」{wait}{n}「鬼が 人に{n} 戦いを いどむのが」{n}{wait}",
-   "en": ""
+   "en": "\"Hmph! Justice, is it! What a convenient word!\"{wait}\"If oni challenging humans to battle\"{wait}"
   },
   {
    "id": "DMAP15_56:006",
    "jp": "「鬼の 正義だとしたら{n} お前は どうするのだ？」{n}{wait}{n}「愛？ 正義を おこなうのに{n} 愛が なければ ならんと？」{n}{wait}{n}「口では 愛を となえながら{n} 戦うのか？ 笑わせるな！」{n}{wait}{n}「そんな つごうのいい{n} 話が あるか！」{n}{wait}",
-   "en": ""
+   "en": "\"were the oni's justice, what would you do then?\"{wait}\"Love? You say justice cannot be done without love?\"{wait}\"You fight while preaching love? Don't make me laugh!\"{wait}\"As if such a convenient story could be true!\"{wait}"
   },
   {
    "id": "DMAP15_56:007",
    "jp": "「しょせん 戦うのなら{n} 正義だの 愛だのが{n} なんになる！」{wait}{n}「希望だと？ 希望があれば{n} いつか 平和な 日々が{n} くると いうのか？」{wait}{n}「勇気… 希望… 正義… 愛…{n} たしかに 鬼には ない{n} 美しい ことばだ！」{wait}",
-   "en": ""
+   "en": "\"If it all comes down to fighting anyway, what good are justice and love?\"{wait}\"Hope, you say? If you have hope, peaceful days will come someday?\"{wait}\"Courage... Hope... Justice... Love... Truly beautiful words, words we oni do not have!\"{wait}"
   },
   {
    "id": "DMAP15_56:008",
    "jp": "「…だが そのことばが{n} 本物かどうか{n} たしかめさせて もらう！」{wait}{n}「われら 鬼の 信じる{n} 戦いに よってな！」{n}{wait}",
-   "en": ""
+   "en": "\"...But I will see for myself whether those words are real!\"{wait}\"Through battle, which we oni believe in!\"{wait}"
   },
   {
    "id": "DMAP15_56:009",
    "jp": "「うむ！ ついに わかったぞ！」{n}{n}{wait}{n}「桃太郎！{n} お前たちの 力 しかと{n} 見せてもらった！」{wait}{n}「勇気！ 希望！ 正義！ 愛！{n} どれも みな わしの 心に{n} しっかりと きざまれた！」{wait}{n}「力と 戦いのみを 信じていた{n} わしが おろかであった！」{n}{wait}{n}「桃太郎よ！」{n}{n}{wait}{n}「かぐや姫は わしの部下に{n} 送りとどけさせた！ 今ごろは{n} 家に もどっているだろう！」{wait}{n}「どうか わしの あやまちを{n} ゆるして ほしい！」{n}{wait}{n}「そして これからは{n} われら 鬼とも{n} 友達に なってくれ！」{wait}",
-   "en": ""
+   "en": "\"Hmm! At last, I understand!\"{wait}\"Momotaro! I have truly seen the power of you and your friends!\"{wait}\"Courage! Hope! Justice! Love! Each one is now carved deep into my heart!\"{wait}\"I was a fool to believe only in power and battle!\"{wait}\"Momotaro!\"{wait}\"I had my men take Princess Kaguya back! She should be home by now!\"{wait}\"Please, forgive me my mistakes!\"{wait}\"And from now on, be friends with us oni too!\"{wait}"
   },
   {
    "id": "DMAP15_56:010",
    "jp": "「桃太郎！ 酒呑童子だ！」{n}{n}{wait}{n}「お前たちの 友情の 力{n} 確かに 見せてもらった！」{n}{wait}{n}「オレは これから ずっと{n} 友情という ことばを {n} わすれることは ないだろう！」{wait}{n}「また いつか 会おう！{n} 桃太郎よ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! It's Shuten-doji!\"{wait}\"I've truly seen the power of your friendship!\"{wait}\"From now on, I don't think I'll ever forget the word 'friendship'!\"{wait}\"Let's meet again someday, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP15_56:011",
    "jp": "「桃太郎さん！{n} わたしです！ 阿修羅です！」{n}{wait}{n}「ありがとう 桃太郎さん！{n} 人の 心を 知った{n} えんま様によって」{wait}{n}「鬼の 世界も また{n} 変わっていくでしょう！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! It's me! Ashura!\"{wait}\"Thank you, Momotaro-san! With Enma-sama now knowing the human heart,\"{wait}\"the world of the oni will surely change too!\"{wait}"
   },
   {
    "id": "DMAP15_56:012",
    "jp": "「おたがいを 思いやり{n} みんなで なかよく{n} くらしていくことでしょう！」{wait}{n}「それも みな{n} 桃太郎さんを はじめ{n} みなさんの おかげです！」{wait}",
-   "en": ""
+   "en": "\"We'll care for one another and all live together in harmony!\"{wait}\"And it's all thanks to you, Momotaro-san, and everyone else!\"{wait}"
   },
   {
    "id": "DMAP15_56:013",
    "jp": "「もういちど あらためて{n} お礼を いわせてください」{n}{wait}{n}「ありがとう！ 桃太郎さん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Let me thank you once more, properly.\"{wait}\"Thank you! Momotaro-san!\"{wait}"
   },
   {
    "id": "DMAP15_56:014",
    "jp": "「桃太郎！ 風神だ！」{n}{n}{wait}{n}「本当に お前には{n} おどろかされるぞ！」{n}{wait}{n}「わしらも これからは{n} 友情を たいせつに{n} していこう！」{wait}{n}「これからも よろしくな！{n} 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! It's Fujin!\"{wait}\"You truly never stop surprising me!\"{wait}\"From now on, we too will hold friendship dear!\"{wait}\"Let's stay on good terms from here on, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP15_56:015",
    "jp": "「桃太郎！ 雷神だ！」{n}{n}{wait}{n}「人間の 持つ力とは 本当に{n} すばらしいものなのだな！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! It's Raijin!\"{wait}\"The power that humans hold is truly something wonderful!\"{wait}"
   },
   {
    "id": "DMAP15_56:016",
    "jp": "「この雷神 あらためて{n} 感心したぞ！」{n}{wait}{n}「いつか また 会おう！{n} 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"I, Raijin, am impressed all over again!\"{wait}\"Let us meet again someday, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP15_56:017",
    "jp": "「桃太郎！ オレだ！{n} 羅生門だ！」{n}{wait}{n}「お前は まったくもって{n} たいした やつだ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! It's me! Rashomon!\"{wait}\"You really are something else!\"{wait}"
   },
   {
    "id": "DMAP15_56:018",
    "jp": "「あの えんま様の 目を{n} 覚まさせたんだからな！」{n}{wait}{n}「お前と 出会えたことを{n} ほこりに 思うぞ！ 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"After all, you opened the eyes of Enma-sama himself!\"{wait}\"I'm proud to have met you, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP15_56:019",
    "jp": "金太郎が さけんだ！{n}{n}{wait}{n}「なごりは つきねえけど{n} そろそろ 帰ろうぜ！{n} 桃太郎！」{wait}",
-   "en": ""
+   "en": "Kintaro shouted!{wait}\"I hate to say goodbye, but let's head home now, Momotaro!\"{wait}"
   },
   {
    "id": "DMAP15_56:020",
    "jp": "桃太郎は{n}{col10}えんま大王カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Great King Enma Card{col0}!{c19}{wait}"
   }
  ]
 }

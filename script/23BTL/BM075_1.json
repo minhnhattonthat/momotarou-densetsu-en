@@ -8,87 +8,87 @@
   {
    "id": "BM075_1:000",
    "jp": "{str}{str}の 攻撃！{n}{n}{wait}",
-   "en": ""
+   "en": "{str}{str} attacks!{wait}"
   },
   {
    "id": "BM075_1:001",
    "jp": "{str}{str}の{n}{num}回 攻撃！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} attacks {num} times!{wait}"
   },
   {
    "id": "BM075_1:002",
    "jp": "{str}{str}の 右手が{n}目にも とまらぬ はやさで{n}動いた！{wait}",
-   "en": ""
+   "en": "{str}{str}'s right hand moved faster than the eye could follow!{wait}"
   },
   {
    "id": "BM075_1:003",
    "jp": "{str}{str}は{n}おろおろしている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is flustered!{wait}"
   },
   {
    "id": "BM075_1:004",
    "jp": "{str}{str}は{n}なにを すべきか{n}よく わかっていない！{wait}",
-   "en": ""
+   "en": "{str}{str} isn't quite sure what to do!{wait}"
   },
   {
    "id": "BM075_1:005",
    "jp": "{str}{str}が{n}いま すべきものは{n}まだ できていない！{wait}",
-   "en": ""
+   "en": "{str}{str} isn't ready to do what needs doing yet!{wait}"
   },
   {
    "id": "BM075_1:006",
    "jp": "{str}{str}は{n}いちもくさんに 逃げ出した！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} ran off as fast as its legs could carry it!{wait}"
   },
   {
    "id": "BM075_1:007",
    "jp": "{str}{str}には{n}きかなかった！{n}{wait}",
-   "en": ""
+   "en": "It didn't work on {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:008",
    "jp": "{str}{str}には{n}効果が なかった！{n}{wait}",
-   "en": ""
+   "en": "It had no effect on {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:009",
    "jp": "{str}{str}は{n}うまく かわした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} dodged neatly!{wait}"
   },
   {
    "id": "BM075_1:010",
    "jp": "{str}{str}は{n}毒に おかされた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was poisoned!{wait}"
   },
   {
    "id": "BM075_1:011",
    "jp": "{str}{str}は{n}病気に なった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} fell ill!{wait}"
   },
   {
    "id": "BM075_1:012",
    "jp": "{str}{str}は{n}体が しびれて{n}動けなく なった！{wait}",
-   "en": ""
+   "en": "{str}{str} went numb and can't move!{wait}"
   },
   {
    "id": "BM075_1:013",
    "jp": "{str}{str}は{n}眠ってしまった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} fell asleep!{wait}"
   },
   {
    "id": "BM075_1:014",
    "jp": "{str}{str}は{n}笑い ころげた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is rolling around laughing!{wait}"
   },
   {
    "id": "BM075_1:015",
    "jp": "{str}{str}に{n}まいたんが かかった！{n}{wait}",
-   "en": ""
+   "en": "Regenerate took effect on {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:016",
    "jp": "{str}{str}の{n}攻撃力が 上がった！",
-   "en": ""
+   "en": "{str}{str}'s Attack rose!"
   },
   {
    "id": "BM075_1:017",
@@ -98,7 +98,7 @@
   {
    "id": "BM075_1:018",
    "jp": "{str}{str}の{n}攻撃力が 下がった！",
-   "en": ""
+   "en": "{str}{str}'s Attack fell!"
   },
   {
    "id": "BM075_1:019",
@@ -108,7 +108,7 @@
   {
    "id": "BM075_1:020",
    "jp": "{str}{str}の{n}守備力が 上がった！",
-   "en": ""
+   "en": "{str}{str}'s Defense rose!"
   },
   {
    "id": "BM075_1:021",
@@ -118,7 +118,7 @@
   {
    "id": "BM075_1:022",
    "jp": "{str}{str}は {str}{str}に{n}血を 吸われた！",
-   "en": ""
+   "en": "{str}{str} was drained of blood by {str}{str}!"
   },
   {
    "id": "BM075_1:023",
@@ -128,17 +128,17 @@
   {
    "id": "BM075_1:024",
    "jp": "{str}{str}は 貧血を 起こして{n}守備力が",
-   "en": ""
+   "en": "{str}{str} became anemic!"
   },
   {
    "id": "BM075_1:025",
    "jp": "下がって しまった！{wait}",
-   "en": ""
+   "en": "Defense went down!{wait}"
   },
   {
    "id": "BM075_1:026",
    "jp": "{str}{str}の{n}守備力が 下がった！",
-   "en": ""
+   "en": "{str}{str}'s Defense fell!"
   },
   {
    "id": "BM075_1:027",
@@ -148,7 +148,7 @@
   {
    "id": "BM075_1:028",
    "jp": "{str}{str}の{n}素早さが 上がった！",
-   "en": ""
+   "en": "{str}{str}'s Speed rose!"
   },
   {
    "id": "BM075_1:029",
@@ -158,12 +158,12 @@
   {
    "id": "BM075_1:030",
    "jp": "{str}{str}の目に 砂が{n}入った！{n}{wait}",
-   "en": ""
+   "en": "Sand got in {str}{str}'s eyes!{wait}"
   },
   {
    "id": "BM075_1:031",
    "jp": "{str}{str}の 攻撃が{n}あたりづらくなった！",
-   "en": ""
+   "en": "{str}{str}'s attacks became harder to land!"
   },
   {
    "id": "BM075_1:032",
@@ -173,7 +173,7 @@
   {
    "id": "BM075_1:033",
    "jp": "{str}{str}の{n}素早さが 下がった！",
-   "en": ""
+   "en": "{str}{str}'s Speed fell!"
   },
   {
    "id": "BM075_1:034",
@@ -183,737 +183,737 @@
   {
    "id": "BM075_1:035",
    "jp": "{str}{str}は {str}{str}に{n}みいられた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was entranced by {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:036",
    "jp": "{str}{str}の 術は{n}ふういん された！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s arts were sealed!{wait}"
   },
   {
    "id": "BM075_1:037",
    "jp": "{str}{str}に{n}やまびこが かかった！{n}{wait}",
-   "en": ""
+   "en": "Echo took effect on {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:038",
    "jp": "{str}{str}は{n}相手を 見失った！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} lost sight of the opponent!{wait}"
   },
   {
    "id": "BM075_1:039",
    "jp": "{str}{str}は{n}術が{n}使いにくく なった！{wait}",
-   "en": ""
+   "en": "{str}{str} can't use arts easily now!{wait}"
   },
   {
    "id": "BM075_1:040",
    "jp": "{str}{str}は{n}かたまった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} went stiff!{wait}"
   },
   {
    "id": "BM075_1:041",
    "jp": "{str}{str}は{n}こおって しまった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was frozen solid!{wait}"
   },
   {
    "id": "BM075_1:042",
    "jp": "{str}{str}は{n}かなしばりに あって{n}動けなく なった！{wait}",
-   "en": ""
+   "en": "{str}{str} was held fast by an unseen force and can't move!{wait}"
   },
   {
    "id": "BM075_1:043",
    "jp": "{str}{str}は{n}足を とられて{n}動けなく なった！{wait}",
-   "en": ""
+   "en": "{str}{str} got caught by the feet and can't move!{wait}"
   },
   {
    "id": "BM075_1:044",
    "jp": "{str}{str}は{n}まぶしさのあまり{n}たちすくんで しまった！{wait}",
-   "en": ""
+   "en": "{str}{str} was too dazzled to move!{wait}"
   },
   {
    "id": "BM075_1:045",
    "jp": "{str}{str}は{n}動けなく なった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} can't move!{wait}"
   },
   {
    "id": "BM075_1:046",
    "jp": "{str}{str}の{n}上がっていた 攻撃力が{n}元に 戻った！{wait}",
-   "en": ""
+   "en": "{str}{str}'s raised Attack returned to normal!{wait}"
   },
   {
    "id": "BM075_1:047",
    "jp": "{str}{str}の{n}下げられていた 攻撃力が{n}回復した！{wait}",
-   "en": ""
+   "en": "{str}{str}'s lowered Attack recovered!{wait}"
   },
   {
    "id": "BM075_1:048",
    "jp": "{str}{str}の{n}上がっていた 守備力が{n}元に 戻った！{wait}",
-   "en": ""
+   "en": "{str}{str}'s raised Defense returned to normal!{wait}"
   },
   {
    "id": "BM075_1:049",
    "jp": "{str}{str}の{n}下げられていた 守備力が{n}回復した！{wait}",
-   "en": ""
+   "en": "{str}{str}'s lowered Defense recovered!{wait}"
   },
   {
    "id": "BM075_1:050",
    "jp": "{str}{str}の{n}上がっていた 素早さが{n}元に 戻った！{wait}",
-   "en": ""
+   "en": "{str}{str}'s raised Speed returned to normal!{wait}"
   },
   {
    "id": "BM075_1:051",
    "jp": "{str}{str}の{n}下げられていた 素早さが{n}回復した！{wait}",
-   "en": ""
+   "en": "{str}{str}'s lowered Speed recovered!{wait}"
   },
   {
    "id": "BM075_1:052",
    "jp": "{str}{str}の{n}ふういんが とけた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s Seal wore off!{wait}"
   },
   {
    "id": "BM075_1:053",
    "jp": "{str}{str}は{n}しかいが はれた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s vision cleared!{wait}"
   },
   {
    "id": "BM075_1:054",
    "jp": "{str}{str}は{n}術が ふつうに{n}使えるように なった！{wait}",
-   "en": ""
+   "en": "{str}{str} can use arts normally again!{wait}"
   },
   {
    "id": "BM075_1:055",
    "jp": "{str}{str}は{n}やわらかく なった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} softened up!{wait}"
   },
   {
    "id": "BM075_1:056",
    "jp": "{str}{str}は{n}力を こめて{n}氷を ふんさいした！{wait}",
-   "en": ""
+   "en": "{str}{str} powered up and smashed the ice!{wait}"
   },
   {
    "id": "BM075_1:057",
    "jp": "{str}{str}は{n}なんとか ぬけだした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} managed to break free!{wait}"
   },
   {
    "id": "BM075_1:058",
    "jp": "{str}{str}は{n}キュウリを{n}食べきって しまった！{wait}",
-   "en": ""
+   "en": "{str}{str} finished eating the cucumber!{wait}"
   },
   {
    "id": "BM075_1:059",
    "jp": "{str}{str}は{n}動けるように なった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} can move again!{wait}"
   },
   {
    "id": "BM075_1:060",
    "jp": "{str}{str}の{n}やまびこの{n}効果が 切れた！{wait}",
-   "en": ""
+   "en": "{str}{str}'s Echo wore off!{wait}"
   },
   {
    "id": "BM075_1:061",
    "jp": "{str}{str}は{n}こおっている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is frozen!{wait}"
   },
   {
    "id": "BM075_1:062",
    "jp": "{str}{str}は{n}キュウリを 食べている！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} is eating a cucumber!{wait}"
   },
   {
    "id": "BM075_1:063",
    "jp": "{str}{str}は{n}動けない！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} can't move!{wait}"
   },
   {
    "id": "BM075_1:064",
    "jp": "「ワン ワン ワン！」{n}イヌは はげしく{n}ほえかかった！{wait}",
-   "en": ""
+   "en": "\"Woof woof woof!\" Dog barked fiercely!{wait}"
   },
   {
    "id": "BM075_1:065",
    "jp": "「ワン ワン！」{n}イヌが かみついた！{n}{wait}",
-   "en": ""
+   "en": "\"Woof woof!\" Dog bit down!{wait}"
   },
   {
    "id": "BM075_1:066",
    "jp": "「キャッ キャッ！」{n}サルが ひっかいた！{n}{wait}",
-   "en": ""
+   "en": "\"Ook ook!\" Monkey scratched!{wait}"
   },
   {
    "id": "BM075_1:067",
    "jp": "「キャッ！ キャキャッ！」{n}サルが はげしく{n}ひっかいた！{wait}",
-   "en": ""
+   "en": "\"Ook! Ook ook!\" Monkey scratched furiously!{wait}"
   },
   {
    "id": "BM075_1:068",
    "jp": "「ケン ケン！」{n}キジが つっついた！{n}{wait}",
-   "en": ""
+   "en": "\"Kek kek!\" Pheasant pecked!{wait}"
   },
   {
    "id": "BM075_1:069",
    "jp": "「ケン ケン ケーン！」{n}キジは きんたんの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "\"Kek kek keeek!\" Pheasant used the Kintan art!{wait}"
   },
   {
    "id": "BM075_1:070",
    "jp": "「チュー！ チュー！」{n}じんぱちが かじりつく！{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\" Jinpachi chomps down!{wait}"
   },
   {
    "id": "BM075_1:071",
    "jp": "「プリリリ～～～！」{n}ウンチが とびかかった！{n}{wait}",
-   "en": ""
+   "en": "\"Plop-plop-plooop!\" Poop pounced!{wait}"
   },
   {
    "id": "BM075_1:072",
    "jp": "「プリリリ～～～！」{n}鉄ウンチが とびかかった！{n}{wait}",
-   "en": ""
+   "en": "\"Plop-plop-plooop!\" Iron Poop pounced!{wait}"
   },
   {
    "id": "BM075_1:073",
    "jp": "「ボンビー！」{n}えのんが いどみかかった！{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\" Enon charged in!{wait}"
   },
   {
    "id": "BM075_1:074",
    "jp": "金太郎の 攻撃！{n}{n}{wait}",
-   "en": ""
+   "en": "Kintaro attacks!{wait}"
   },
   {
    "id": "BM075_1:075",
    "jp": "{str}{str}に{n}{num}ポイントの{n}打撃を 与えた！{wait}",
-   "en": ""
+   "en": "{str}{str} took {num} points of damage!{wait}"
   },
   {
    "id": "BM075_1:076",
    "jp": "{str}{str}は{n}{str}の術を 使った！{n}{wait}{n}しかし{n}技が 足りなかった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} used the {str} art!{wait}But there wasn't enough SP!{wait}"
   },
   {
    "id": "BM075_1:077",
    "jp": "{str}{str}は{n}{str}の技を 使った！{n}{wait}{n}しかし{n}体力が 足りなかった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} used {str}!{wait}But there wasn't enough HP!{wait}"
   },
   {
    "id": "BM075_1:078",
    "jp": "{str}{str}を{n}こらしめた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} was taught a lesson!{wait}"
   },
   {
    "id": "BM075_1:079",
    "jp": "{str}{str}は{n}動けなくなった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} can no longer move!{wait}"
   },
   {
    "id": "BM075_1:080",
    "jp": "{str}は{n}{col4}{str}{col0}を{n}落としていった！{wait}",
-   "en": ""
+   "en": "{str} dropped {col4}{str}{col0}!{wait}"
   },
   {
    "id": "BM075_1:081",
    "jp": "{str}{str}は{n}{col4}{str}{col0}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}{str} obtained {col4}{str}{col0}!{wait}"
   },
   {
    "id": "BM075_1:082",
    "jp": "{str}{str}は{n}{num}両{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}{str} got {num} ryo!{wait}"
   },
   {
    "id": "BM075_1:083",
    "jp": "{str}心の数{num}を{n}手に 入れた！{n}{wait}",
-   "en": ""
+   "en": "{str} got hearts x{num}!{wait}"
   },
   {
    "id": "BM075_1:084",
    "jp": "{str}{str}は{n}ほねおりぞんを した！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s effort was all for nothing!{wait}"
   },
   {
    "id": "BM075_1:085",
    "jp": "{str}{str}は{n}{col10}{str}カード{col0}を{n}手に 入れた！{wait}",
-   "en": ""
+   "en": "{str}{str} got the {col10}{str} Card{col0}!{wait}"
   },
   {
    "id": "BM075_1:086",
    "jp": "しかし{n}{str}{str}の 術は{n}ふういん されている！{wait}",
-   "en": ""
+   "en": "But {str}{str}'s arts are sealed!{wait}"
   },
   {
    "id": "BM075_1:087",
    "jp": "しかし {str}{str}は{n}うまく 術が{n}かけられなかった！{wait}",
-   "en": ""
+   "en": "But {str}{str} couldn't work the art properly!{wait}"
   },
   {
    "id": "BM075_1:088",
    "jp": "しかし {str}{str}は{n}うまく 術が{n}かけられなかった！{wait}",
-   "en": ""
+   "en": "But {str}{str} couldn't work the art properly!{wait}"
   },
   {
    "id": "BM075_1:089",
    "jp": "{str}{str}は{n}きんたんの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Kintan art!{wait}"
   },
   {
    "id": "BM075_1:090",
    "jp": "{str}{str}は{n}せんきんたんの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Kintan Plus art!{wait}"
   },
   {
    "id": "BM075_1:091",
    "jp": "{str}{str}は{n}いなずまの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Lightning art!{wait}"
   },
   {
    "id": "BM075_1:092",
    "jp": "{str}{str}は{n}まんきんたんの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Kintan Max art!{wait}"
   },
   {
    "id": "BM075_1:093",
    "jp": "{str}{str}は{n}ひくい ぶきみな 声で{n}じゅ文を となえ始めた！{wait}",
-   "en": ""
+   "en": "{str}{str} began chanting an incantation in a low, eerie voice!{wait}"
   },
   {
    "id": "BM075_1:094",
    "jp": "{str}{str}は{n}はやての{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Haste art!{wait}"
   },
   {
    "id": "BM075_1:095",
    "jp": "{str}{str}は{n}おとひめの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Otohime Heal art!{wait}"
   },
   {
    "id": "BM075_1:096",
    "jp": "{str}{str}は{n}ばいりきの{n}術を 使った！{wait}",
-   "en": ""
+   "en": "{str}{str} used the Power art!{wait}"
   },
   {
    "id": "BM075_1:097",
    "jp": "{str}{str}は{n}毒を はいた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} spat poison!{wait}"
   },
   {
    "id": "BM075_1:098",
    "jp": "{str}{str}は{n}炎を はき出した！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} breathed fire!{wait}"
   },
   {
    "id": "BM075_1:099",
    "jp": "{str}{str}は{n}仲間を 呼んだ！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} called for friends!{wait}"
   },
   {
    "id": "BM075_1:100",
    "jp": "{str}{str}は{n}しびれ薬を{n}はき出した！{wait}",
-   "en": ""
+   "en": "{str}{str} spat out a numbing potion!{wait}"
   },
   {
    "id": "BM075_1:101",
    "jp": "{str}{str}は{n}病原きんを まきちらした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} spread germs everywhere!{wait}"
   },
   {
    "id": "BM075_1:102",
    "jp": "{str}{str}は{n}集中攻撃の{n}指令を 出した！{wait}",
-   "en": ""
+   "en": "{str}{str} ordered a focused attack!{wait}"
   },
   {
    "id": "BM075_1:103",
    "jp": "{str}{str}は{n}自ばくした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} self-destructed!{wait}"
   },
   {
    "id": "BM075_1:104",
    "jp": "{str}{str}が 持つ 蛇が{n}{str}{str}に{n}おそいかかって きた！{wait}",
-   "en": ""
+   "en": "The snake held by {str}{str} lunged at {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:105",
    "jp": "{str}{str}は{n}リンプンを{n}あびせかけて きた！{wait}",
-   "en": ""
+   "en": "{str}{str} showered everyone with wing dust!{wait}"
   },
   {
    "id": "BM075_1:106",
    "jp": "「ウヒャヒャ！{n} わしは {str}{str}じゃ！」{n}{wait}{n}「桃太郎！{n} 心がけのよい お前に{n} ほうびを やろう！」{wait}{n}「回っている 数字を{n} {col2}○{col0}ボタンで とめるだけじゃ！」{n}",
-   "en": ""
+   "en": "\"Uhyahya! I am {str}{str}!\"{wait}\"Momotaro! You've been a good lad, so here's a reward!\"{wait}\"Just stop the spinning numbers with the {col2}Circle{col0} button!\""
   },
   {
    "id": "BM075_1:107",
    "jp": "{str}{str}は{n}{num}両を 手に 入れた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} got {num} ryo!{wait}"
   },
   {
    "id": "BM075_1:108",
    "jp": "「ウヒャヒャ！{n} よかったのう 桃太郎！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya! Lucky you, Momotaro!\"{wait}"
   },
   {
    "id": "BM075_1:109",
    "jp": "「ウヒャヒャ…！ そんなことでは{n} えんまなど 倒せぬぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! At this rate you'll never defeat Enma!\"{wait}"
   },
   {
    "id": "BM075_1:110",
    "jp": "「ウヒャヒャ… そんなことでは{n} 鬼が 笑ってしまうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... At this rate even the oni will laugh at you!\"{wait}"
   },
   {
    "id": "BM075_1:111",
    "jp": "「ウヒャヒャ…！{n} へっぴりごしが よく にあうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! That cowardly stance really suits you!\"{wait}"
   },
   {
    "id": "BM075_1:112",
    "jp": "「ウヒャヒャ…！ しっかりせんか！{n} みんなが きたいしてるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! Pull yourself together! Everyone's counting on you!\"{wait}"
   },
   {
    "id": "BM075_1:113",
    "jp": "「ウヒャヒャ…！{n} お前の 力は{n} そのてい度か！？」{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! Is that all the strength you've got?!\"{wait}"
   },
   {
    "id": "BM075_1:114",
    "jp": "「ウヒャヒャ…！ そんなことでは{n} 鬼を のさばらせるだけぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! At this rate you'll only let the oni run wild!\"{wait}"
   },
   {
    "id": "BM075_1:115",
    "jp": "「ウヒャヒャ…！ かゆい かゆい{n} への つっぱりにも ならんわ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! Itchy, itchy! That wouldn't even hold back a fart!\"{wait}"
   },
   {
    "id": "BM075_1:116",
    "jp": "「ウヒャヒャ…！ この世が 鬼に{n} 支配されても いいんぢゃな？」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya...! So you don't mind if the oni rule this world?\"{wait}"
   },
   {
    "id": "BM075_1:117",
    "jp": "「よし！ よし！{n} 気合が 入ってきたようぢゃの」{n}{wait}",
-   "en": ""
+   "en": "\"Good! Good! Looks like you're getting fired up.\"{wait}"
   },
   {
    "id": "BM075_1:118",
    "jp": "「よし！ よし！{n} いまのは きいたぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Good! Good! That one hit home!\"{wait}"
   },
   {
    "id": "BM075_1:119",
    "jp": "「よし！ よし！{n} ナイススイングぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Good! Good! Nice swing!\"{wait}"
   },
   {
    "id": "BM075_1:120",
    "jp": "「よし！ よし！{n} もうすこしぢゃ！ がんばれ！」{n}{wait}",
-   "en": ""
+   "en": "\"Good! Good! Almost there! Hang in there!\"{wait}"
   },
   {
    "id": "BM075_1:121",
    "jp": "「よし！ よし！{n} なかなか すじが いいぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Good! Good! You've got real talent!\"{wait}"
   },
   {
    "id": "BM075_1:122",
    "jp": "「よし！ よし！{n} そのちょうし！ そのちょうし！」{n}{wait}",
-   "en": ""
+   "en": "\"Good! Good! That's it! That's it!\"{wait}"
   },
   {
    "id": "BM075_1:123",
    "jp": "「やめられない とまらない！」{wait}",
-   "en": ""
+   "en": "\"Bet you can't stop at just one!\"{wait}"
   },
   {
    "id": "BM075_1:124",
    "jp": "{str}{str}の 邪念が{n}とりついてきた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str}'s wicked thoughts took hold!{wait}"
   },
   {
    "id": "BM075_1:125",
    "jp": "{str}{str}は{n}{str}{str}に{n}声を かけた！{wait}",
-   "en": ""
+   "en": "{str}{str} called out to {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:126",
    "jp": "{str}{str}は{n}{str}{str}の{n}まねを した！{wait}",
-   "en": ""
+   "en": "{str}{str} imitated {str}{str}!{wait}"
   },
   {
    "id": "BM075_1:127",
    "jp": "{str}{str}は そっと{n}お金を おいて 去っていった！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} quietly left some money and walked away!{wait}"
   },
   {
    "id": "BM075_1:128",
    "jp": "「フッ しぶいぜ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Heh, you're one cool customer, Momotaro!\"{wait}"
   },
   {
    "id": "BM075_1:129",
    "jp": "{str}{str}は{n}はねを まきちらした！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} scattered feathers everywhere!{wait}"
   },
   {
    "id": "BM075_1:130",
    "jp": "{str}の 体力は{n}{num} 回復した！{n}{wait}",
-   "en": ""
+   "en": "{str} recovered {num} HP!{wait}"
   },
   {
    "id": "BM075_1:131",
    "jp": "「………………………………………{n} ………………………………………{n} ………………………………………」{wait}",
-   "en": ""
+   "en": "\"...............................................................\"{wait}"
   },
   {
    "id": "BM075_1:132",
    "jp": "「きさまら ちからを あわせても{n} そのていどか！{n} さっさと ひきさがるがよい！」{wait}",
-   "en": ""
+   "en": "\"Even with all your strength combined, is that all you've got?! Back off, and be quick about it!\"{wait}"
   },
   {
    "id": "BM075_1:133",
    "jp": "「なにが きぼうだ！ {n} おのれの まけを みとめんヤツの{n} なぐさめでしか ないわ！」{wait}",
-   "en": ""
+   "en": "\"Hope? Hah! That's just comfort for fools who won't admit they've lost!\"{wait}"
   },
   {
    "id": "BM075_1:134",
    "jp": "「なにが 正義だ！ へりくつで{n} わしを うごかそうなどとは{n} かたはらいたいわ！」{wait}",
-   "en": ""
+   "en": "\"Justice? Hah! You think you can sway me with sophistry? Don't make me laugh!\"{wait}"
   },
   {
    "id": "BM075_1:135",
    "jp": "「むしけらどもが たばになって{n} なにが できるというのだ！{n} もんくを いうだけか？」{wait}",
-   "en": ""
+   "en": "\"What can a swarm of insects hope to do?! Is complaining all you've got?\"{wait}"
   },
   {
    "id": "BM075_1:136",
    "jp": "「なにが ゆうきだ！{n} ゆうきが あっても ちからが{n} なければ はなしに ならぬわ！」{wait}",
-   "en": ""
+   "en": "\"Courage? Hah! Courage without strength isn't even worth talking about!\"{wait}"
   },
   {
    "id": "BM075_1:137",
    "jp": "「なにが あいだ！{n} そんなものが あるから{n} まよいが しょうじるのだ！」{wait}",
-   "en": ""
+   "en": "\"Love? Hah! It's because of such things that doubt is born!\"{wait}"
   },
   {
    "id": "BM075_1:138",
    "jp": "「ばかな！！{n} なにが うれしくて こうまで{n} たちむかってくるのだ！」{wait}",
-   "en": ""
+   "en": "\"Impossible!! What drives you to stand against me like this?!\"{wait}"
   },
   {
    "id": "BM075_1:139",
    "jp": "「ばかな！！{n} むしけらに すぎぬ きさまらの{n} その ねばりずよさは なんだ！」{wait}",
-   "en": ""
+   "en": "\"Impossible!! You're nothing but insects -- where does this tenacity come from?!\"{wait}"
   },
   {
    "id": "BM075_1:140",
    "jp": "「ばかな！！{n} みずからを たにんの ぎせいにして{n} なんの とくが あるというのだ！」{wait}",
-   "en": ""
+   "en": "\"Impossible!! What could you gain by sacrificing yourselves for others?!\"{wait}"
   },
   {
    "id": "BM075_1:141",
    "jp": "「ばかな！！{n} かばいあう こころの きずなが{n} つよさを うむと いうのか！」{wait}",
-   "en": ""
+   "en": "\"Impossible!! You say the bonds of hearts that protect each other create strength?!\"{wait}"
   },
   {
    "id": "BM075_1:142",
    "jp": "「ばかな！！{n} そんとくぬきで ちからを{n} あわせることなど ふかのうだ！」{wait}",
-   "en": ""
+   "en": "\"Impossible!! No one can join forces without thought of gain or loss!\"{wait}"
   },
   {
    "id": "BM075_1:143",
    "jp": "「ばかな！！{n} あいとゆうき きぼうとせいぎが{n} ちからの みなもとだと？」{wait}",
-   "en": ""
+   "en": "\"Impossible!! Love and courage, hope and justice are the source of strength?\"{wait}"
   },
   {
    "id": "BM075_1:144",
    "jp": "「ふふふふふふっ！{n} 少しも ききませんよ！{n} 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! That doesn't hurt one bit, Momotaro-san!\"{wait}"
   },
   {
    "id": "BM075_1:145",
    "jp": "「ふふふふふふっ！ 夜叉姫様！{n} この程度の 者たちに{n} 心変わり なされたか！？」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Yashahime-sama! Have you had a change of heart over such feeble folk?!\"{wait}"
   },
   {
    "id": "BM075_1:146",
    "jp": "「ふふふふふふっ！ 夜叉姫様！{n} 昔より 弱くなって{n} しまわれたのでは？」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Yashahime-sama! Haven't you grown weaker than you once were?\"{wait}"
   },
   {
    "id": "BM075_1:147",
    "jp": "「ふふふふふふっ！ 夜叉姫様！{n} こんな かよわい 者と いて{n} なにが 楽しいのですか！？」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Yashahime-sama! What fun is there in keeping company with such weaklings?!\"{wait}"
   },
   {
    "id": "BM075_1:148",
    "jp": "「ふふふふふふっ！ やりますね！」{n}{n}{wait}{n}「私の 攻撃を 耐えるとは！{n} ここまで 耐えた 人は{n} あなたたちが 初めてですよ！」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! Not bad!\"{wait}\"Withstanding my attacks! You're the first ever to hold out this long!\"{wait}"
   },
   {
    "id": "BM075_1:149",
    "jp": "「ふふふふふふっ！ おしいですよ！」{n}{n}{wait}{n}「桃太郎さん！ これほどの {n} 力が あるなら なぜ{n} 人間を 支配しないのです！」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! What a shame!\"{wait}\"Momotaro-san! With power like this, why not rule over the humans?!\"{wait}"
   },
   {
    "id": "BM075_1:150",
    "jp": "「ふふふふふふっ！ もったいない！」{n}{n}{wait}{n}「夜叉姫様！ この者たちを{n} 地獄に 連れていきたく{n} なりましたよ！ ふふふふふふっ！」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! What a waste!\"{wait}\"Yashahime-sama! Now I'd love to take these folks off to Hell! Heh heh heh!\"{wait}"
   },
   {
    "id": "BM075_1:151",
    "jp": "「ふふふふふふっ！ 今ならまだ！」{n}{n}{wait}{n}「夜叉姫様！ わたしが {n} えんま様に ふふふふふふっ！{n} とりなして さしあげますよ！」{wait}",
-   "en": ""
+   "en": "\"Heh heh heh! It's not too late!\"{wait}\"Yashahime-sama! I'll put in a good word for you with Enma-sama! Heh heh heh!\"{wait}"
   },
   {
    "id": "BM075_1:152",
    "jp": "「おおおおおおっ！ この 強さ！{n} これが うわさの 桃太郎たちの{n} 力なのですかっ！」{wait}{n}「うむむむむっ！ だが！ まだ！{n} 私は！ 私には！ {n} 勝てん！ 勝てませんぞ！」{wait}",
-   "en": ""
+   "en": "\"Ohhhhh! Such strength! So this is the famous power of Momotaro and friends!\"{wait}\"Grrr! But! Not yet! Me! You won't! You won't beat me!\"{wait}"
   },
   {
    "id": "BM075_1:153",
    "jp": "「おおおおおおっ！ ま まさか！{n} これが あの ちっぽけな{n} 人間の 力とは 思えん」{wait}{n}「しかし！ まだ！ 足りん！{n} この 阿修羅を 倒すには！{n} 力が！ 足りませぬぞ！」{wait}",
-   "en": ""
+   "en": "\"Ohhhhh! N-No way! I can't believe this is the power of puny humans!\"{wait}\"But! Still! Not enough! To defeat this Ashura! Your power! Falls short!\"{wait}"
   },
   {
    "id": "BM075_1:154",
    "jp": "「おおおおおおっ！ これが！{n} 夜叉姫様ほどの かたが{n} 負けた 桃太郎の 力か！」{wait}{n}「しかし！ しかし！ この！{n} だれにも 負けたことのない！{n} 阿修羅は まけませぬ！」{wait}",
-   "en": ""
+   "en": "\"Ohhhhh! So this is the power of Momotaro, who beat even one as great as Yashahime-sama!\"{wait}\"But! But! This Ashura! Who has never lost to anyone! Will not lose!\"{wait}"
   },
   {
    "id": "BM075_1:155",
    "jp": "「おおおおおおっ！ みごとだ！{n} ちっぽけな 者達が{n} かばいあう 力！ みごとだ！」{wait}{n}「うむむむむっ！ 阿修羅の！{n} 本当の！ 力を！{n} 見せねば ならぬのか！」{wait}",
-   "en": ""
+   "en": "\"Ohhhhh! Splendid! The power of little folk protecting each other! Splendid!\"{wait}\"Grrr! Must I! Show you! Ashura's! True! Power!\"{wait}"
   },
   {
    "id": "BM075_1:156",
    "jp": "阿修羅の 分身は{n}消え去った！{n}{wait}",
-   "en": ""
+   "en": "Ashura's clones vanished!{wait}"
   },
   {
    "id": "BM075_1:157",
    "jp": "「うむむむむむむむむむむむむっ！」{n}{n}{wait}{n}「この 阿修羅！」{n}{n}{wait}{n}「命を かけて！{n} ここで！ お前達を！」{n}{wait}{n}「倒す！」{n}{n}{wait}{n}「阿修羅の 本当の{n} 力を 受けてみよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Grrrrrrrrrrrrrrr!\"{wait}\"I, Ashura!\"{wait}\"On my life! Here and now! You lot!\"{wait}\"Will fall!\"{wait}\"Feel the true power of Ashura!\"{wait}"
   },
   {
    "id": "BM075_1:158",
    "jp": "阿修羅は 最後の 力を{n}ふりしぼって 攻撃に 出た！{n}{wait}{n}阿修羅 こんしんの 一撃！{n}{n}{wait}{n}必殺！{n}{n}{wait}",
-   "en": ""
+   "en": "Ashura summoned the last of his strength and attacked!{wait}Ashura's all-out strike!{wait}Deadly move!{wait}"
   },
   {
    "id": "BM075_1:159",
    "jp": "バラふぶきの術！{n}{n}",
-   "en": ""
+   "en": "Rose Blizzard art!"
   },
   {
    "id": "BM075_1:160",
    "jp": "「これが うわさに 聞いた{n} 桃太郎の 力なの！？」{n}{wait}",
-   "en": ""
+   "en": "\"So this is the famous power of Momotaro?!\"{wait}"
   },
   {
    "id": "BM075_1:161",
    "jp": "「この 程度なの！{n} 私が 本気を{n} 出すまでも ないじゃない！」{wait}",
-   "en": ""
+   "en": "\"Is this all?! I don't even need to get serious!\"{wait}"
   },
   {
    "id": "BM075_1:162",
    "jp": "「きたい外れだわ！{n} どれほどの 男かと{n} きたい していたのに！」{wait}",
-   "en": ""
+   "en": "\"What a letdown! And I had such high hopes for what kind of man you'd be!\"{wait}"
   },
   {
    "id": "BM075_1:163",
    "jp": "「つまらないわ！ 地獄には{n} もっと もっと {n} 強い 男が いるわよ！」{wait}",
-   "en": ""
+   "en": "\"How boring! In Hell there are far, far stronger men than you!\"{wait}"
   },
   {
    "id": "BM075_1:164",
    "jp": "「まあっ！ 少しは{n} ましに なってきたじゃない！」{n}{wait}",
-   "en": ""
+   "en": "\"My! You're finally getting a little better!\"{wait}"
   },
   {
    "id": "BM075_1:165",
    "jp": "「なかなか しぶといじゃない！{n} うれしくなってきたわ！」{n}{wait}",
-   "en": ""
+   "en": "\"You're rather stubborn, aren't you! Now I'm starting to enjoy this!\"{wait}"
   },
   {
    "id": "BM075_1:166",
    "jp": "「そろそろ 私も{n} 本気を 出そうかしら！」{n}{wait}",
-   "en": ""
+   "en": "\"Perhaps it's time I got serious too!\"{wait}"
   },
   {
    "id": "BM075_1:167",
    "jp": "「やるわね！ 桃太郎！{n} でも 私の ほんとの 力は{n} こんなものじゃ なくってよっ！」{wait}",
-   "en": ""
+   "en": "\"Not bad, Momotaro! But my true power is far greater than this, I'll have you know!\"{wait}"
   },
   {
    "id": "BM075_1:168",
    "jp": "「なかなか やるわね！{n} 桃太郎！」{n}{wait}{n}「いま 私の{n} 本当の 力を{n} 見せてあげるわっ！」{wait}{n}夜叉姫は ニッコリ 笑った！{n}{n}{wait}{n}夜叉姫は ついに{n}本気を 出した！{n}{wait}",
-   "en": ""
+   "en": "\"You're quite good, Momotaro!\"{wait}\"Now I'll show you my true power!\"{wait}Yashahime smiled sweetly!{wait}Yashahime finally got serious!{wait}"
   },
   {
    "id": "BM075_1:169",
    "jp": "ついに 夜叉姫は{n}術を 使いはじめた！{n}{wait}{n}夜叉姫は{n}ぶんしんの術を 使った！{n}{wait}",
-   "en": ""
+   "en": "At last, Yashahime began to use her arts!{wait}Yashahime used the Clone art!{wait}"
   },
   {
    "id": "BM075_1:170",
    "jp": "「ひさしぶりよ！ 桃太郎！」{n}{n}{wait}{n}「私を 本気に{n} させてくれた 相手は！{n} うれしいわっ！」{wait}{n}「こころゆくまで{n} 戦いましょう！」{n}{wait}",
-   "en": ""
+   "en": "\"It's been a long time, Momotaro!\"{wait}\"Since anyone made me fight seriously! How delightful!\"{wait}\"Let's fight to our hearts' content!\"{wait}"
   },
   {
    "id": "BM075_1:171",
    "jp": "「お前の ような{n} 強い 相手に 会えて{n} 本当に うれしいわ！」{wait}",
-   "en": ""
+   "en": "\"I'm truly glad to meet an opponent as strong as you!\"{wait}"
   },
   {
    "id": "BM075_1:172",
    "jp": "「さすがは 桃太郎ね！{n} これほど てごわい 相手と{n} 出会ったのは ひさしぶりよ！」{wait}",
-   "en": ""
+   "en": "\"Just what I'd expect of Momotaro! It's been a long time since I met such a tough opponent!\"{wait}"
   },
   {
    "id": "BM075_1:173",
    "jp": "「ねえ？ 桃太郎！{n} 考え直さなくって？」{n}{wait}{n}「私達と いっしょに{n} 人間を 支配 しないこと？」{n}{wait}",
-   "en": ""
+   "en": "\"Tell me, Momotaro! Won't you reconsider?\"{wait}\"Why not join us in ruling over the humans?\"{wait}"
   },
   {
    "id": "BM075_1:174",
    "jp": "「ねえ？ 桃太郎！」{n}{n}{wait}{n}「人間の ような{n} 弱いものの 味方して{n} どんな 得が あるというの？」{wait}",
-   "en": ""
+   "en": "\"Tell me, Momotaro!\"{wait}\"What could you possibly gain by siding with weaklings like humans?\"{wait}"
   },
   {
    "id": "BM075_1:175",
    "jp": "「わからないわっ！」{n}{n}{wait}{n}「お前の 強さは{n} いったい どこから くるの！」{n}{wait}",
-   "en": ""
+   "en": "\"I don't understand!\"{wait}\"Where on earth does your strength come from?!\"{wait}"
   },
   {
    "id": "BM075_1:176",
    "jp": "「わからないわっ！」{n}{n}{wait}{n}「私の ようなものが！{n} お前に！ てこずるなんて！」{n}{wait}",
-   "en": ""
+   "en": "\"I don't understand!\"{wait}\"How can someone like me! Have such trouble! With you!\"{wait}"
   },
   {
    "id": "BM075_1:177",
    "jp": "「わからないわっ！」{n}{n}{wait}{n}「ちっぽけな 人間同士が{n} なぜ そこまで 助け合うの？」{n}{wait}",
-   "en": ""
+   "en": "\"I don't understand!\"{wait}\"Why do puny humans help each other so much?\"{wait}"
   },
   {
    "id": "BM075_1:178",
    "jp": "「わからないわっ！」{n}{n}{wait}{n}「なんなの この 気持ちは！？」{n}{n}{wait}{n}「わからないわっ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I don't understand!\"{wait}\"What is this feeling?!\"{wait}\"I don't understand!\"{wait}"
   },
   {
    "id": "BM075_1:179",
    "jp": "夜叉姫の 分身は{n}消え去った！{n}{wait}",
-   "en": ""
+   "en": "Yashahime's clones vanished!{wait}"
   },
   {
    "id": "BM075_1:180",
    "jp": "「わからないわっ！」{n}{n}{wait}{n}「わからないわっ！」{n}{n}{wait}{n}「なぜなのっ！？」{n}{n}{wait}{n}「なぜなのっ！？」{n}{n}{wait}{n}「なぜ お前は{n} そんなに 強いの！？」{n}{wait}{n}「私は わからない…」{n}{n}{wait}{n}「私には…」{n}{n}{wait}{n}「わからない…」{n}{n}{wait}{n}「私… には…」{n}{n}{wait}{n}「わか………… ら…… ない…」{n}{n}{wait}{n}「……………………………ッ！」{n}{n}{wait}{n}桃太郎は{n}ついに！ ついに！{n}{wait}{n}ついに！{n}夜叉姫を こらしめた！{n}{wait}",
-   "en": ""
+   "en": "\"I don't understand!\"{wait}\"I don't understand!\"{wait}\"Why?!\"{wait}\"Why?!\"{wait}\"Why are you so strong?!\"{wait}\"I don't understand...\"{wait}\"I just...\"{wait}\"don't understand...\"{wait}\"I... just...\"{wait}\"don't............ under...... stand...\"{wait}\"...............................!\"{wait}Momotaro has at last! At last!{wait}At last! He has punished Yashahime!{wait}"
   },
   {
    "id": "BM075_1:181",
    "jp": "おおっ！{n}{n}{wait}{n}夜叉姫の 顔が{n}少しずつ 少しずつ{n}変わっていくでは ないか！{wait}{n}厳しく けわしかった 顔が！……{n}",
-   "en": ""
+   "en": "Whoa!{wait}Yashahime's face is changing, little by little, little by little!{wait}Her stern, harsh face!......"
   },
   {
    "id": "BM075_1:182",
@@ -923,152 +923,152 @@
   {
    "id": "BM075_1:183",
    "jp": "しだいに やさしい 顔に{n}なっていくでは ないかっ！{n}{wait}",
-   "en": ""
+   "en": "It's slowly becoming a gentle face!{wait}"
   },
   {
    "id": "BM075_1:184",
    "jp": "「桃太郎！ お前の{n} 仲間を 思う 気持ちは{n} その 程度の ものか！！」{wait}",
-   "en": ""
+   "en": "\"Momotaro! Is this all your feelings for your friends amount to?!\"{wait}"
   },
   {
    "id": "BM075_1:185",
    "jp": "「笑わせるな！{n} これが 友情の{n} 力か？」{wait}",
-   "en": ""
+   "en": "\"Don't make me laugh! Is this the power of friendship?\"{wait}"
   },
   {
    "id": "BM075_1:186",
    "jp": "「どうした！ 桃太郎！{n} これでは 友情の力なぞ{n} とても 信じられんぞ！」{wait}",
-   "en": ""
+   "en": "\"What's wrong, Momotaro! At this rate, I can hardly believe in any power of friendship!\"{wait}"
   },
   {
    "id": "BM075_1:187",
    "jp": "「わからん！{n} なぜ そうまでして{n} むかって くるのだ！」{wait}",
-   "en": ""
+   "en": "\"I don't get it! Why do you keep coming at me so hard?!\"{wait}"
   },
   {
    "id": "BM075_1:188",
    "jp": "「わからん！{n} これが 友情の{n} 力 なのか？」{wait}",
-   "en": ""
+   "en": "\"I don't get it! Is this the power of friendship?\"{wait}"
   },
   {
    "id": "BM075_1:189",
    "jp": "「わからん！{n} ちっぽけな 人間が{n} これほどまでに 強いとは！」{wait}",
-   "en": ""
+   "en": "\"I don't get it! How can puny humans be this strong?!\"{wait}"
   },
   {
    "id": "BM075_1:190",
    "jp": "「はっはっはっ！ やはり{n} お前は 人間よ！{n} 弱い 動物だ！」{wait}",
-   "en": ""
+   "en": "\"Hahaha! You're only human after all! A weak animal!\"{wait}"
   },
   {
    "id": "BM075_1:191",
    "jp": "「はっはっはっ！ 早く{n} しっぽを まいて{n} 逃げ出すことだな！」{wait}",
-   "en": ""
+   "en": "\"Hahaha! You'd best tuck your tail and run!\"{wait}"
   },
   {
    "id": "BM075_1:192",
    "jp": "「はっはっはっ！ 本当は{n} 人の ためになど{n} 戦いたくは ないのだろ！」{wait}",
-   "en": ""
+   "en": "\"Hahaha! Deep down, you don't really want to fight for other people, do you!\"{wait}"
   },
   {
    "id": "BM075_1:193",
    "jp": "「はっはっはっ！ 無理だぞ！{n} 人間が 鬼に{n} 勝とうなどと 思うことは！」{wait}",
-   "en": ""
+   "en": "\"Hahaha! It's hopeless! A human thinking he can beat an oni!\"{wait}"
   },
   {
    "id": "BM075_1:194",
    "jp": "「うぬぬぬぬぬっ！{n} たたいても たたいても{n} むかってくるのは なぜだ！」{wait}",
-   "en": ""
+   "en": "\"Grrrrrr! No matter how hard I hit you, you keep coming! Why?!\"{wait}"
   },
   {
    "id": "BM075_1:195",
    "jp": "「うぬぬぬぬぬっ！{n} お前達は 本当に{n} 友情で 戦うのか！」{wait}",
-   "en": ""
+   "en": "\"Grrrrrr! Do you really fight with friendship?!\"{wait}"
   },
   {
    "id": "BM075_1:196",
    "jp": "「うぬぬぬぬぬっ！{n} わしの 考えは{n} まちがっているのか？」{wait}",
-   "en": ""
+   "en": "\"Grrrrrr! Could my way of thinking be wrong?\"{wait}"
   },
   {
    "id": "BM075_1:197",
    "jp": "「うぬぬぬぬぬっ！{n} それほどまでに 人間は{n} 人間を 大切にするのか！」{wait}",
-   "en": ""
+   "en": "\"Grrrrrr! Do humans truly treasure each other that much?!\"{wait}"
   },
   {
    "id": "BM075_1:198",
    "jp": "{str}は {num}段になった！！！{n}体力の数が {num}に増えた！{wait}",
-   "en": ""
+   "en": "{str} reached level {num}!!! Maximum HP rose to {num}!{wait}"
   },
   {
    "id": "BM075_1:199",
    "jp": "{str}は {num}段になった！{wait}",
-   "en": ""
+   "en": "{str} reached level {num}!{wait}"
   },
   {
    "id": "BM075_1:200",
    "jp": "技の数が {num}に増えた！{wait}",
-   "en": ""
+   "en": "Maximum SP rose to {num}!{wait}"
   },
   {
    "id": "BM075_1:201",
    "jp": "攻撃力が {num}上がった！{wait}",
-   "en": ""
+   "en": "Attack rose by {num}!{wait}"
   },
   {
    "id": "BM075_1:202",
    "jp": "守備力が {num}上がった！{wait}",
-   "en": ""
+   "en": "Defense rose by {num}!{wait}"
   },
   {
    "id": "BM075_1:203",
    "jp": "素早さが {num}上がった！{wait}",
-   "en": ""
+   "en": "Speed rose by {num}!{wait}"
   },
   {
    "id": "BM075_1:204",
    "jp": "{str}の 技と 体力は{n}全回復した！{n}{wait}",
-   "en": ""
+   "en": "{str}'s SP and HP were fully restored!{wait}"
   },
   {
    "id": "BM075_1:205",
    "jp": "{str}は{n}{col2}{str}{col0}の技を{n}覚えた！{wait}",
-   "en": ""
+   "en": "{str} learned the {col2}{str}{col0} art!{wait}"
   },
   {
    "id": "BM075_1:206",
    "jp": "イヌが 新しい{n}特技を 覚えた！{n}{wait}",
-   "en": ""
+   "en": "Dog learned a new trick!{wait}"
   },
   {
    "id": "BM075_1:207",
    "jp": "イヌは 敵を 呼び出すことが{n}できるように なった！{n}{wait}{n}心の数を ふやしたいときには{n}便利だね！{n}{wait}",
-   "en": ""
+   "en": "Dog can now call out enemies to fight!{wait}Handy when you want more hearts!{wait}"
   },
   {
    "id": "BM075_1:208",
    "jp": "イヌは ものを さがすことが{n}できるように なった！{n}{wait}{n}村の中や 外でも{n}いろんなものを 見つけることが{n}できるのだ！ なるほど！{wait}{n}でも 遠くにあるものは{n}わからないから 少しずつ{n}動きながら さがさせよう！{wait}",
-   "en": ""
+   "en": "Dog can now search for things!{wait}He can find all sorts of things, inside villages and out! I see!{wait}But he can't sense things that are far away, so move a little at a time while he searches!{wait}"
   },
   {
    "id": "BM075_1:209",
    "jp": "キジが 新しい{n}特技を 覚えた！{n}{wait}",
-   "en": ""
+   "en": "Pheasant learned a new trick!{wait}"
   },
   {
    "id": "BM075_1:210",
    "jp": "キジは 村の 中の お店に{n}自由に みんなを 連れていくことが{n}できるように なった！{wait}{n}なんて 横着なんだ！{n}{n}{wait}",
-   "en": ""
+   "en": "Pheasant can now take everyone to any shop in a village, anytime!{wait}How lazy can you get!{wait}"
   },
   {
    "id": "BM075_1:211",
    "jp": "{str}の{n}{col2}{str}{col0}の術が{n}成長 した！{wait}",
-   "en": ""
+   "en": "{str}'s {col2}{str}{col0} art grew stronger!{wait}"
   },
   {
    "id": "BM075_1:212",
    "jp": "{str}{str}は キィキィと{n}ふしぎな 鳴き声で 鳴いた！{n}{wait}",
-   "en": ""
+   "en": "{str}{str} let out a strange squeaking cry!{wait}"
   }
  ]
 }

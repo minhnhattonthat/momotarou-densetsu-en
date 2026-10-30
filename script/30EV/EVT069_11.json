@@ -8,12 +8,12 @@
   {
    "id": "EVT069_11:000",
    "jp": "「会いたかった！{n} おりひめ様！」{n}{wait}{n}「わたしもです{n} ひこぼし様！」{n}{wait}{n}「これからは 男女{n} 力を 合わせて」{n}{wait}{n}「豊かな 村を{n} つくりましょう！」{n}",
-   "en": ""
+   "en": "\"I've missed you so! Orihime-sama!\"{wait}\"And I you, Hikoboshi-sama!\"{wait}\"From now on, men and women will join forces\"{wait}\"and build a prosperous village!\""
   },
   {
    "id": "EVT069_11:001",
    "jp": "「あっ！」{n}{n}{wait}{n}「流れ星 ですよ！{n} おりひめ様！」{n}{wait}{n}「あっ！ ほんとう！{n} 流れ星が！」{n}{wait}{n}「ひこぼし様！」{n}{n}{wait}{n}「流れ星が 消えるまでに{n} 願いごとを すると{n} 願いが かなうと いいますね」{wait}{n}「私たちも{n} 願いごとを しましょう！」{n}{wait}{n}さあ！ みなさんも{n}願いごとを してみてください！{n}{wait}{n}あなたの 願いが{n}かないますように…………{n}",
-   "en": ""
+   "en": "\"Oh!\"{wait}\"A shooting star! Orihime-sama!\"{wait}\"Oh! It really is! A shooting star!\"{wait}\"Hikoboshi-sama!\"{wait}\"They say that if you make a wish before a shooting star fades, your wish will come true.\"{wait}\"Let's make a wish too!\"{wait}Come on! All of you, try making a wish too!{wait}May your wish come true..........."
   }
  ]
 }

@@ -8,197 +8,197 @@
   {
    "id": "HMAP8300_18:000",
    "jp": "「へい らっしゃい！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hey, welcome!\"{wait}"
   },
   {
    "id": "HMAP8300_18:001",
    "jp": "「どうぞ ゆっくりしていって{n} くだせえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Please, take yer time and relax!\"{wait}"
   },
   {
    "id": "HMAP8300_18:002",
    "jp": "「あっ！{n} あなたは… 桃太郎さん！」{n}{wait}{n}「あっしです！{n} 寝太郎の村で お宝を{n} スリ取った 銀次です！」{wait}",
-   "en": ""
+   "en": "\"Ah! You're... Momotaro-san!\"{wait}\"It's me! Ginji, the guy who picked yer treasure from yer pocket in Netaro Village!\"{wait}"
   },
   {
    "id": "HMAP8300_18:003",
    "jp": "「じつは あっしは{n} この 料亭の{n} あとつぎだったんです！」{wait}{n}「スリに いやけがさして{n} 足を あらったものの」{n}{wait}",
-   "en": ""
+   "en": "\"Truth is, I was the heir to this here restaurant!\"{wait}\"I got sick of pickpocketin' and went straight, but...\"{wait}"
   },
   {
    "id": "HMAP8300_18:004",
    "jp": "「桃太郎さんから スリ取った{n} お宝を かえさなければと{n} ずっと 気にして おりやした！」{wait}{n}「桃太郎さんの お宝は」{n}{n}{wait}",
-   "en": ""
+   "en": "\"...the whole time, I been frettin' that I had to give back the treasure I pinched from you, Momotaro-san!\"{wait}\"Yer treasure, Momotaro-san...\"{wait}"
   },
   {
    "id": "HMAP8300_18:005",
    "jp": "「ほほえみの村の 神社の{n} 左の こまいぬの{n} あしもとに うめてあります！」{wait}",
-   "en": ""
+   "en": "\"...is buried at the feet of the left lion-dog statue at the shrine in Hohoemi Village!\"{wait}"
   },
   {
    "id": "HMAP8300_18:006",
    "jp": "「ほほえみの村の 神社の{n} 右の こまいぬの{n} あしもとに うめてあります！」{wait}",
-   "en": ""
+   "en": "\"...is buried at the feet of the right lion-dog statue at the shrine in Hohoemi Village!\"{wait}"
   },
   {
    "id": "HMAP8300_18:007",
    "jp": "「ほほえみの村の 神社の{n} 二つの こまいぬの{n} あしもとに うめてあります！」{wait}",
-   "en": ""
+   "en": "\"...is buried at the feet of the two lion-dog statues at the shrine in Hohoemi Village!\"{wait}"
   },
   {
    "id": "HMAP8300_18:008",
    "jp": "「どうか バカな あっしを{n} かんべんしてくだせえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Please, forgive a fool like me!\"{wait}"
   },
   {
    "id": "HMAP8300_18:009",
    "jp": "「ほほえみの村の 神社の{n} こまいぬの あしもとを{n} しらべてくだせえ！」{wait}",
-   "en": ""
+   "en": "\"Check at the feet of the lion-dog statues at the shrine in Hohoemi Village!\"{wait}"
   },
   {
    "id": "HMAP8300_18:010",
    "jp": "「これからは まじめに{n} はたらくことにします！」{n}{wait}{n}「どうか ゆっくりしていって{n} くだせえ！」{n}{wait}",
-   "en": ""
+   "en": "\"From now on, I'm gonna work honest!\"{wait}\"Please, take yer time and relax!\"{wait}"
   },
   {
    "id": "HMAP8300_18:011",
    "jp": "「二代目の 銀次さんに なって{n} この 料亭は だいはんじょう{n} してるんですよ！」{wait}",
-   "en": ""
+   "en": "\"Ever since Ginji-san took over as the second-generation owner, this restaurant's been booming!\"{wait}"
   },
   {
    "id": "HMAP8300_18:012",
    "jp": "「ここの 店は{n} にものが おいしいのよ！{n} うちでは まねできない 味ね！」{wait}",
-   "en": ""
+   "en": "\"The simmered dishes here are delicious! That's a taste I could never copy at home!\"{wait}"
   },
   {
    "id": "HMAP8300_18:013",
    "jp": "「ほごっ！{n} ももひゃろしゃんぼわっ」{n}{wait}",
-   "en": ""
+   "en": "\"Mmf! Mmomotawo-shan mmf!\"{wait}"
   },
   {
    "id": "HMAP8300_18:014",
    "jp": "「お口に ものを 入れたまま{n} しゃべるんじゃ ありませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Don't talk with your mouth full!\"{wait}"
   },
   {
    "id": "HMAP8300_18:015",
    "jp": "「この 店は 前まで{n} 格式ばった 値段の 高い{n} 料亭 だったのですじゃ！」{wait}{n}「二代目の 銀次さんに{n} かわってから 親しみやすい{n} いい 店に なりました」{wait}",
-   "en": ""
+   "en": "\"This place used to be a stuffy, pricey restaurant, it did!\"{wait}\"Ever since Ginji-san took over as the second generation, it's become a fine, friendly place.\"{wait}"
   },
   {
    "id": "HMAP8300_18:016",
    "jp": "「ここの フグ料理は{n} ぜっぴん ですよ！{n} ぜひ 食べてみてください！」{wait}",
-   "en": ""
+   "en": "\"The Pufferfish Dish here is superb! Do try it!\"{wait}"
   },
   {
    "id": "HMAP8300_18:017",
    "jp": "「わしは{n} 料理ひょうろんか じゃが…」{n}{wait}{n}「この 味は まったりとして{n} それでいて しつこくなく{n} 舌の上で とろけるような…」{wait}{n}「それでいて けれんみがなく{n} ほうじょうの 香りがして{n} えもいえぬ なつかしさが…」{wait}{n}「どうだ！ なに いってるか{n} わからないだろ！ わしも{n} わからんのじゃっ！ ハハハッ！」{wait}",
-   "en": ""
+   "en": "\"I am a food critic, but...\"{wait}\"This flavor is mellow, yet not cloying, melting upon the tongue as if...\"{wait}\"Yet without pretension, with a rich bouquet and an indescribable nostalgia...\"{wait}\"Well?! You have no idea what I'm talking about, do you! Neither do I! Hahaha!\"{wait}"
   },
   {
    "id": "HMAP8300_18:018",
    "jp": "「ん？ オラが いま{n} 食っとるもんだか？{n} フグ料理だ！」{wait}{n}「………う！」{n}{n}{wait}{n}「………う！」{n}{n}{wait}{n}「うんめー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hm? What am I eatin' right now? Pufferfish Dish!\"{wait}\"......Gah!\"{wait}\"......Gah!\"{wait}\"Gahhh, that's good!\"{wait}"
   },
   {
    "id": "HMAP8300_18:019",
    "jp": "「あー！ この料亭の{n} お酒は おいしいわー！」{n}{wait}",
-   "en": ""
+   "en": "\"Ahh! The sake at this restaurant is delicious!\"{wait}"
   },
   {
    "id": "HMAP8300_18:020",
    "jp": "「はんじょうするのは いいけど{n} 前にも まして{n} いそがしく なったわあ！」{wait}",
-   "en": ""
+   "en": "\"Booming business is nice and all, but we're busier than ever!\"{wait}"
   },
   {
    "id": "HMAP8300_18:021",
    "jp": "「若だんなが 先頭に 立って{n} 働くから あたしたちも{n} がんばらなくっちゃ！」{wait}",
-   "en": ""
+   "en": "\"The young master works right up front himself, so we gotta do our best too!\"{wait}"
   },
   {
    "id": "HMAP8300_18:022",
    "jp": "「桃太郎さんですか」{n}{n}{wait}{n}「私は 銀次の 父の{n} 善吉です」{n}{wait}{n}「息子から いつも{n} あなたの おうわさを{n} 聞いております」{wait}{n}「あなたの おかげで{n} 息子が スリの 仕事から{n} 足を 洗ってくれました！」{wait}{n}「本当に{n} ありがとうございます」{n}{wait}{n}「どうか{n} ゆっくりしていって{n} くださいな」{wait}",
-   "en": ""
+   "en": "\"You must be Momotaro-san.\"{wait}\"I am Zenkichi, Ginji's father.\"{wait}\"My son is always telling me about you.\"{wait}\"Thanks to you, my son has quit the pickpocketing trade!\"{wait}\"Thank you, truly.\"{wait}\"Please, take your time and relax.\"{wait}"
   },
   {
    "id": "HMAP8300_18:023",
    "jp": "「おいでやす！{n} 料亭 いしい です！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcome! This is Restaurant Ishii!\"{wait}"
   },
   {
    "id": "HMAP8300_18:024",
    "jp": "「ご注文は 何でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"What would you like to order?\""
   },
   {
    "id": "HMAP8300_18:025",
    "jp": "「{str} で よろしいですね」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is that right?\""
   },
   {
    "id": "HMAP8300_18:026",
    "jp": "「ただいま おせきに{n} ごあんない いたします」{n}{wait}",
-   "en": ""
+   "en": "\"I'll show you to your seat now.\"{wait}"
   },
   {
    "id": "HMAP8300_18:027",
    "jp": "「少々 お待ちください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Just a moment, please!\"{wait}"
   },
   {
    "id": "HMAP8300_18:028",
    "jp": "「お待たせ いたしました{n} どうぞ お召し上がりください！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you for waiting. Please enjoy!\"{wait}"
   },
   {
    "id": "HMAP8300_18:029",
    "jp": "「モグ モグ モグ…」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Munch munch munch...\"{wait}"
   },
   {
    "id": "HMAP8300_18:030",
    "jp": "「うっ！」{n}桃太郎は 体が しびれた！{n}{wait}{n}桃太郎は フグに あたって{n}死んでしまった！{n}{wait}",
-   "en": ""
+   "en": "\"Urk!\" Momotaro went numb!{wait}Momotaro got pufferfish poisoning and died!{wait}"
   },
   {
    "id": "HMAP8300_18:031",
    "jp": "金太郎が さけんだ！{n}{n}{wait}{n}「おおーっ！ うっめーなあ！{n} おかわり どんどん{n} もってきてくれよーっ！」{wait}",
-   "en": ""
+   "en": "Kintaro shouted!{wait}\"Whoa! This is real tasty! Keep them seconds comin'!\"{wait}"
   },
   {
    "id": "HMAP8300_18:032",
    "jp": "浦島が ほほえんだ！{n}{n}{wait}{n}「やっぱり しんせんな{n} 海の幸は 最高ですね！{n} みなさん！」{wait}",
-   "en": ""
+   "en": "Urashima smiled!{wait}\"Fresh seafood really is the best, isn't it, everyone!\"{wait}"
   },
   {
    "id": "HMAP8300_18:033",
    "jp": "夜叉姫が よろこんだ！{n}{n}{wait}{n}「まあ おいしい！ でも{n} 食べ過ぎて 太らないよう{n} 気を つけなくちゃ！」{wait}",
-   "en": ""
+   "en": "Yashahime was delighted!{wait}\"My, how delicious! But I must be careful not to eat too much and get fat!\"{wait}"
   },
   {
    "id": "HMAP8300_18:034",
    "jp": "{str}の 技と 体力は 回復した！{n}{n}{wait}",
-   "en": ""
+   "en": "{str} recovered SP and HP!{wait}"
   },
   {
    "id": "HMAP8300_18:035",
    "jp": "「では またの おこしを{n} お待ちいたしております！」{n}{wait}",
-   "en": ""
+   "en": "\"We look forward to your next visit!\"{wait}"
   },
   {
    "id": "HMAP8300_18:036",
    "jp": "「お客さん！ お金が{n} 足りませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Sir! You don't have enough money!\"{wait}"
   },
   {
    "id": "HMAP8300_18:037",
    "jp": "「おや お客さん！{n} 貸し衣装屋の服を{n} 着てらっしゃいますね？」{wait}{n}「服が 汚れるといけないので{n} 着替えてから また{n} いらしてください！」{wait}",
-   "en": ""
+   "en": "\"Oh, sir! You're wearing clothes from the costume rental shop, aren't you?\"{wait}\"It wouldn't do to get them dirty, so please change and then come again!\"{wait}"
   },
   {
    "id": "HMAP8300_18:038",
    "jp": "すし",
-   "en": ""
+   "en": "Sushi"
   },
   {
    "id": "HMAP8300_18:039",
@@ -213,62 +213,62 @@
   {
    "id": "HMAP8300_18:041",
    "jp": "やめる",
-   "en": ""
+   "en": "Quit"
   },
   {
    "id": "HMAP8300_18:042",
    "jp": "「いい魚を 仕入れるのも{n} 一苦労 なんですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Getting hold of good fish is hard work, you know!\"{wait}"
   },
   {
    "id": "HMAP8300_18:043",
    "jp": "「おや！ 桃太郎さん！{n} お手持ちの 魚を{n} 売ってくださいますか？」",
-   "en": ""
+   "en": "\"Oh! Momotaro-san! Will you sell me the fish you're carrying?\""
   },
   {
    "id": "HMAP8300_18:044",
    "jp": "「そりゃ 残念だ！{n} 気が かわったら いつでも{n} 声を かけてください！」{wait}",
-   "en": ""
+   "en": "\"That's a shame! If you change your mind, just say the word anytime!\"{wait}"
   },
   {
    "id": "HMAP8300_18:045",
    "jp": "「{str}が {num}尾！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"{str} x {num}!\"{wait}"
   },
   {
    "id": "HMAP8300_18:046",
    "jp": "「しめて {num}両で{n} 買いますよ！ いかがです？」{n}",
-   "en": ""
+   "en": "\"I'll buy the lot for {num} ryo! How about it?\""
   },
   {
    "id": "HMAP8300_18:047",
    "jp": "「ありがとう ございました！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much!\"{wait}"
   },
   {
    "id": "HMAP8300_18:048",
    "jp": "「イキの いい魚を{n} 持って来てくれれば いつでも{n} 買わせて いただきますよ！」{wait}",
-   "en": ""
+   "en": "\"Bring me fresh fish and I'll gladly buy it anytime!\"{wait}"
   },
   {
    "id": "HMAP8300_18:049",
    "jp": "「桃太郎さん！ いつも{n} イキの いい魚を{n} ありがとう！」{wait}{n}「お礼といっちゃあ{n} なんですが{n} こいつを どうぞ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thanks for always bringing such fresh fish!\"{wait}\"It's not much of a thank-you, but take this!\"{wait}"
   },
   {
    "id": "HMAP8300_18:050",
    "jp": "桃太郎は{n}{col10}板前カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Chef Card{col0}!{c19}{wait}"
   },
   {
    "id": "HMAP8300_18:051",
    "jp": "「人を もてなす{n} 心が 無い者には{n} 料理は 作れない！」{wait}{n}「これは 銀次さんの 代に{n} なってからも 変わらない{n} 先代からの 教えなんです！」{wait}",
-   "en": ""
+   "en": "\"One who lacks the heart to welcome others cannot cook!\"{wait}\"That teaching comes from the previous master, and it hasn't changed even under Ginji-san!\"{wait}"
   },
   {
    "id": "HMAP8300_18:052",
    "jp": "「桃太郎さん！ ここの{n} ご主人は ボクたちみたいに{n} 改心したそうですね！」{wait}{n}「あの ご主人を{n} みならって ボクたちも{n} がんばりたいと 思います！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I hear the master here turned over a new leaf, just like us!\"{wait}\"We want to follow his example and do our best too!\"{wait}"
   }
  ]
 }

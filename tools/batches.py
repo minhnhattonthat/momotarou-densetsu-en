@@ -180,7 +180,7 @@ def problems(jp, en, box, gl):
         errs.append(f'control codes differ: JP {dict(a)} EN {dict(b)}')
     if en.count('{wait}') < jp.count('{wait}'):
         errs.append(f'{{wait}} count {en.count("{wait}")} < JP {jp.count("{wait}")} (keep every page break)')
-    if jp.rstrip('{n}').endswith('{wait}') != re.sub(r'(\{n\}|\s)+$', '', en).endswith('{wait}'):
+    if re.sub(r'(\{n\}|\s)+$', '', jp).endswith('{wait}') != re.sub(r'(\{n\}|\s)+$', '', en).endswith('{wait}'):
         errs.append('the JP ends with {wait} and the English does not, or the reverse')
     if re.search(r'\{(num|str|name|gold)\}(st|nd|rd|th)\b', en):
         errs.append('ordinal suffix glued to a variable (write "No. {num}")')

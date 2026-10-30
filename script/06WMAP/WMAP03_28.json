@@ -8,97 +8,97 @@
   {
    "id": "WMAP03_28:000",
    "jp": "「ウヒャヒャ… わしは{n} カード仙人ぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... I am the Card Hermit!\"{wait}"
   },
   {
    "id": "WMAP03_28:001",
    "jp": "「うん？」{n}{n}{wait}{n}「おぬし カードを 一枚も{n} 持っとらんようぢゃの！」{n}{wait}{n}「鬼を こらしめたときに{n} カードを{n} 手に 入れなかったか？」{wait}",
-   "en": ""
+   "en": "\"Hm?\"{wait}\"Looks like you don't have a single card!\"{wait}\"Didn't you get any cards when you punished the oni?\"{wait}"
   },
   {
    "id": "WMAP03_28:002",
    "jp": "「よし よし！」{n}{n}{wait}{n}「おぬし ちゃんと{n} カードを 集めておるな！」{n}{wait}",
-   "en": ""
+   "en": "\"Good, good!\"{wait}\"You've been collecting your cards properly!\"{wait}"
   },
   {
    "id": "WMAP03_28:003",
    "jp": "「おお おお！{n} さすがは 桃太郎ぢゃ！」{n}{wait}{n}「もう これほどの 枚数の{n} カードを 集めるとは！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh ho ho! As expected of Momotaro!\"{wait}\"To have collected so many cards already!\"{wait}"
   },
   {
    "id": "WMAP03_28:004",
    "jp": "「カードを たくさん 集めて{n} わしの ところに 持ってくると{n} ええことが あるぞい！」{wait}{n}「そこで{n} カードを 集めるのに」{n}{wait}{n}「役に 立つものを{n} さずけよう！」{n}{wait}",
-   "en": ""
+   "en": "\"Collect lots of cards and bring them to me, and something good will come of it!\"{wait}\"And so, to help you collect cards,\"{wait}\"I shall grant you something useful!\"{wait}"
   },
   {
    "id": "WMAP03_28:005",
    "jp": "桃太郎は{n}{col4}カードアルバム{col0} を{n}手に 入れた！",
-   "en": ""
+   "en": "Momotaro got the {col4}Card Album{col0}!"
   },
   {
    "id": "WMAP03_28:006",
    "jp": "「ウヒャヒャ… これがあれば{n} カードを 手に 入れるたびに」{n}{wait}{n}「自動的に アルバムに{n} 入れてくれるのぢゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Uhyahya... With this, every time you get a card,\"{wait}\"it puts it in the album for you automatically!\"{wait}"
   },
   {
    "id": "WMAP03_28:007",
    "jp": "「持ってる カードが{n} 見たくなったら」{n}{wait}{n}「どうぐコマンドで{n} アルバムを 使えば」{n}{wait}",
-   "en": ""
+   "en": "\"When you want to look at the cards you have,\"{wait}\"just use the album from the Items command,\"{wait}"
   },
   {
    "id": "WMAP03_28:008",
    "jp": "「いつでも 見ることが{n} できるぞい！」{n}{wait}{n}「よいか？{n} カードが たまったら{n} 必ず 持ってくるのぢゃぞ！」{wait}",
-   "en": ""
+   "en": "\"and you can see them any time!\"{wait}\"Got it? When you've piled up some cards, be sure to bring them to me!\"{wait}"
   },
   {
    "id": "WMAP03_28:009",
    "jp": "「うむ！{n} よくぞ カードを{n} 集めてきたな！」{wait}",
-   "en": ""
+   "en": "\"Hmm! You've done well to collect these cards!\"{wait}"
   },
   {
    "id": "WMAP03_28:010",
    "jp": "「今 お前が{n} 持っている カードは{n} {col6}{num}{col0} 枚 ぢゃ！」{wait}",
-   "en": ""
+   "en": "\"Let's see... cards you've got right now: {col6}{num}{col0}!\"{wait}"
   },
   {
    "id": "WMAP03_28:011",
    "jp": "「カードを 集めた ほうびに{n} {col4}{str}{col0} を{n} さずけよう！」{c19}{wait}",
-   "en": ""
+   "en": "\"As a reward for collecting cards, I shall grant you the {col4}{str}{col0}!\"{c19}{wait}"
   },
   {
    "id": "WMAP03_28:012",
    "jp": "「また カードが たまったら{n} くるが よい！」{n}{wait}",
-   "en": ""
+   "en": "\"Come back when you've collected more cards!\"{wait}"
   },
   {
    "id": "WMAP03_28:013",
    "jp": "「……」{n}{n}{wait}{n}「この 枚数では{n} ほうびを やるには{n} ちと 足りんのお！」{wait}{n}「また カードが たまったら{n} くるが よい！」{n}{wait}",
-   "en": ""
+   "en": "\"......\"{wait}\"That many cards isn't quite enough for a reward!\"{wait}\"Come back when you've collected more cards!\"{wait}"
   },
   {
    "id": "WMAP03_28:014",
    "jp": "「よくぞ 全ての{n} カードを 集めたな！」{n}{wait}{n}「もはや お前に{n} ほうびは 必要なかろう！」{n}{wait}",
-   "en": ""
+   "en": "\"You've collected every last card!\"{wait}\"You hardly need a reward from me anymore!\"{wait}"
   },
   {
    "id": "WMAP03_28:015",
    "jp": "「お前の アルバムこそが{n} りっぱな 宝 ぢゃ！」{n}{wait}{n}「全部の カードを{n} 友達に 見せて{n} ビックリさせて やれ！」{wait}",
-   "en": ""
+   "en": "\"Your album itself is a splendid treasure!\"{wait}\"Show all your cards to your friends and amaze them!\"{wait}"
   },
   {
    "id": "WMAP03_28:016",
    "jp": "「なんぢゃ！ おぬし{n} 道具袋が いっぱいなのか！」{n}{wait}{n}「しかたのない やつぢゃのう！{n} 道具袋を あけてから もう一度{n} くるのぢゃ！ まっとるからな！」{wait}",
-   "en": ""
+   "en": "\"What's this! Your item bag is full!\"{wait}\"What a hopeless fellow! Make room in your item bag and come back! I'll be waiting!\"{wait}"
   },
   {
    "id": "WMAP03_28:017",
    "jp": "「桃太郎！{n} カードは たまっとるか？」{n}{wait}{n}「よしよし！ それでは{n} これも お前の アルバムに{n} 入れておくれ！」{wait}{n}桃太郎は{n}{col10}カード仙人カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro! Are your cards piling up?\"{wait}\"Good, good! Then put this in your album too!\"{wait}Momotaro got the {col10}Card Hermit Card{col0}!{c19}{wait}"
   },
   {
    "id": "WMAP03_28:018",
    "jp": "「若いときの くろうは{n} 買ってでも したくない！」{n}{wait}",
-   "en": ""
+   "en": "\"No pain, no gain? Then no thanks!\"{wait}"
   }
  ]
 }

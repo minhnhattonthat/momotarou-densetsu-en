@@ -8,422 +8,422 @@
   {
    "id": "SMAP09_33:000",
    "jp": "「桃太郎か！」{n}{n}{wait}{n}「この 村が 鬼に おそわれ{n} 村人が 苦しめられておる！」{n}{wait}{n}「村人たちを{n} 助けてやっては くれまいか！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro, is it?\"{wait}\"The oni have attacked this village and the villagers are suffering!\"{wait}\"Won't you help the villagers?\"{wait}"
   },
   {
    "id": "SMAP09_33:001",
    "jp": "「桃太郎！{n} ところで ふゆう仙人の{n} ところへは もう 行ったのか？」{wait}{n}「ふゆう仙人の 庵は{n} この村の 北東に あるぞ」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! By the way, have you been to see the Float Hermit yet?\"{wait}\"The Float Hermit's hut is northeast of this village.\"{wait}"
   },
   {
    "id": "SMAP09_33:002",
    "jp": "「謎解き山は 浦島の{n} 力ぞえなしでは{n} こえることは できまいて！」{wait}",
-   "en": ""
+   "en": "\"You'll never get over Riddle Mountain without Urashima's help!\"{wait}"
   },
   {
    "id": "SMAP09_33:003",
    "jp": "「桃太郎さん！{n} 鬼たちが 竜宮城の{n} つかいの カメを！」{wait}{n}「どうか カメを{n} 助けてやって くだせえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! The oni have got the Turtle, the messenger from Ryugu Palace!\"{wait}\"Please, save the Turtle!\"{wait}"
   },
   {
    "id": "SMAP09_33:004",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「竜宮城まで{n} 行ってきたんですか？{n} 乙姫様に 会いましたか？」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Did you go all the way to Ryugu Palace? Did you meet Otohime-sama?\"{wait}"
   },
   {
    "id": "SMAP09_33:005",
    "jp": "「へーっ！{n} 乙姫様が この村に{n} 閉じ込められていたなんて！」{wait}{n}「ぜんぜん{n} 気が つかなかっただよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Whoa! Otohime-sama was locked up here in this village?!\"{wait}\"I never noticed a thing!\"{wait}"
   },
   {
    "id": "SMAP09_33:006",
    "jp": "「竜宮城の カメを{n} いじめるなんて！{n} ばちあたりな 鬼たちだ！」{wait}",
-   "en": ""
+   "en": "\"Bullying the Ryugu Palace Turtle! Those oni are asking for divine punishment!\"{wait}"
   },
   {
    "id": "SMAP09_33:007",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「謎解き山の 洞窟に{n} 行ったことが あるかね？」{n}{wait}{n}「あそこは 今 酒呑童子という{n} それは 強い 鬼が 旅人に{n} 謎解きを させるそうだ！」{wait}{n}「気をつけて 行ったほうが{n} ええぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Have you ever been to the cave on Riddle Mountain?\"{wait}\"They say a mighty strong oni called Shuten-doji is there now, making travelers solve riddles!\"{wait}\"You'd best be careful when you go!\"{wait}"
   },
   {
    "id": "SMAP09_33:008",
    "jp": "「浦島さんが いないときに{n} 鬼が やってくるなんて！」{n}{wait}",
-   "en": ""
+   "en": "\"To think the oni came while Urashima-san was away!\"{wait}"
   },
   {
    "id": "SMAP09_33:009",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「この村の 若返りの泉の{n} 水を あびてください！{n} すっきりしますよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Bathe in the water of this village's Spring of Youth! It'll freshen you right up!\"{wait}"
   },
   {
    "id": "SMAP09_33:010",
    "jp": "「カメが{n} いじめられているのに{n} 見ているだけなんて…」{wait}{n}「せめて 浦島が{n} いてくれたら…」{n}{wait}",
-   "en": ""
+   "en": "\"The Turtle's being bullied and all we do is watch...\"{wait}\"If only Urashima were here...\"{wait}"
   },
   {
    "id": "SMAP09_33:011",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「竜宮城は どうだったかね？{n} さぞや きれいだったろうなあ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"How was Ryugu Palace? It must have been beautiful!\"{wait}"
   },
   {
    "id": "SMAP09_33:012",
    "jp": "「乙姫様が この村に{n} いたんですか！{n} サイン もらえばよかった！」{wait}",
-   "en": ""
+   "en": "\"Otohime-sama was in this village?! I should've gotten her autograph!\"{wait}"
   },
   {
    "id": "SMAP09_33:013",
    "jp": "「ああ！ なんてことだ！{n} 鬼が 浦島の村を{n} おそいにくるなんて！」{wait}",
-   "en": ""
+   "en": "\"Oh no! How terrible! The oni are coming to attack Urashima Village!\"{wait}"
   },
   {
    "id": "SMAP09_33:014",
    "jp": "「村の 東にある 空き家に{n} 誰か いるみたいなんです！{n} いったい 誰なんだろう？」{wait}",
-   "en": ""
+   "en": "\"Seems someone's in the empty house east of the village! Who could it be?\"{wait}"
   },
   {
    "id": "SMAP09_33:015",
    "jp": "「桃太郎さん！{n} 乙姫様を 助けてくれて{n} ありがとうございました！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Thank you for saving Otohime-sama!\"{wait}"
   },
   {
    "id": "SMAP09_33:016",
    "jp": "「浦島さん{n} 早く 戻ってきてーっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Urashima-san, come back quiiick!\"{wait}"
   },
   {
    "id": "SMAP09_33:017",
    "jp": "「桃太郎さん！ 浦島さんは{n} せいじつで 友達思いの{n} やさしい 人です！」{wait}{n}「きっと 鬼たいじの{n} 力に なってくれます！{n} 浦島さんを よろしく！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Urashima-san is an honest, kind man who cares about his friends!\"{wait}\"I'm sure he'll be a big help slaying the oni! Please look after Urashima-san!\"{wait}"
   },
   {
    "id": "SMAP09_33:018",
    "jp": "「竜宮城に 行くには{n} カメの 案内が{n} いるそうです！」{wait}",
-   "en": ""
+   "en": "\"They say you need the Turtle to guide you to Ryugu Palace!\"{wait}"
   },
   {
    "id": "SMAP09_33:019",
    "jp": "「桃太郎さん！ 謎解き山は{n} もぐって 上がっての{n} 長い 洞窟です！」{wait}{n}「体力を じゅうぶん{n} たくわえてから{n} 行ったほうが いいですよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Riddle Mountain is a long cave that goes down and up and down!\"{wait}\"Better build up plenty of HP before you go!\"{wait}"
   },
   {
    "id": "SMAP09_33:020",
    "jp": "「どうやら カメは{n} 桃太郎さんを{n} 探していたようです！」{wait}",
-   "en": ""
+   "en": "\"It seems the Turtle was looking for you, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP09_33:021",
    "jp": "「空き家の 近くで{n} きれいな 女の人を{n} 見かけました！」{wait}{n}「もしや あれが{n} 乙姫様だったのでは？」{n}{wait}",
-   "en": ""
+   "en": "\"I saw a beautiful woman near the empty house!\"{wait}\"Could that have been Otohime-sama?\"{wait}"
   },
   {
    "id": "SMAP09_33:022",
    "jp": "「乙姫様が{n} ご無事で なによりです！」{n}{wait}",
-   "en": ""
+   "en": "\"I'm so glad Otohime-sama is safe!\"{wait}"
   },
   {
    "id": "SMAP09_33:023",
    "jp": "「オラが 強かったら{n} カメを 助けてやれるのに！{n} ちくしょーっ！」{wait}",
-   "en": ""
+   "en": "\"If only I were strong, I could save the Turtle! Dang it!\"{wait}"
   },
   {
    "id": "SMAP09_33:024",
    "jp": "「オラも 一度{n} 竜宮城まで{n} 行ってみてえなあ！」{wait}",
-   "en": ""
+   "en": "\"I'd sure like to go to Ryugu Palace just once!\"{wait}"
   },
   {
    "id": "SMAP09_33:025",
    "jp": "「乙姫様が 鬼に{n} つかまっていたなんて！{n} びっくりしただ！」{wait}",
-   "en": ""
+   "en": "\"Otohime-sama was captured by the oni?! What a shock!\"{wait}"
   },
   {
    "id": "SMAP09_33:026",
    "jp": "「桃太郎さん！{n} カメを{n} 助けてやって くだせえ！」{wait}{n}「カメを 助けることは{n} きっと 桃太郎さんの{n} 旅に 役立つだよ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please, save the Turtle!\"{wait}\"Saving the Turtle's sure to help you on your journey, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP09_33:027",
    "jp": "「桃太郎さん！ 謎解き山で{n} 鬼の出してくる 謎は さすがに{n} メモしたほうが いいなあ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! You'd better take notes on the riddles the oni gives you on Riddle Mountain!\"{wait}"
   },
   {
    "id": "SMAP09_33:028",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「浦島は 頼りになる{n} 男だから ぜひ{n} 会ってみて ください！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Urashima is a man you can count on, so be sure to meet him!\"{wait}"
   },
   {
    "id": "SMAP09_33:029",
    "jp": "「謎解き山を ぬけると{n} さむい 国だで！」{n}{wait}{n}「先を いそがず 体力を{n} つけてから 行ったほうが{n} いいですよ！ 桃太郎さん！」{wait}",
-   "en": ""
+   "en": "\"Past Riddle Mountain is a cold land!\"{wait}\"Don't rush ahead. Build up your HP before you go, Momotaro-san!\"{wait}"
   },
   {
    "id": "SMAP09_33:030",
    "jp": "「桃太郎さん！{n} 浜辺で 鬼が カメを{n} いじめているの！」{wait}{n}「お願い！{n} カメを 助けてあげて！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Oni are bullying the Turtle on the beach!\"{wait}\"Please! Save the Turtle!\"{wait}"
   },
   {
    "id": "SMAP09_33:031",
    "jp": "「桃太郎さん！{n} 浦島さんを よろしく！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please look after Urashima-san!\"{wait}"
   },
   {
    "id": "SMAP09_33:032",
    "jp": "「桃太郎さん！ 乙姫様を{n} 助けて下さったそうですね！」{n}{wait}{n}「さすが 桃太郎さん！{n} かっこいいーっ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! I hear you saved Otohime-sama!\"{wait}\"That's Momotaro-san for you! So coool!\"{wait}"
   },
   {
    "id": "SMAP09_33:033",
    "jp": "「かっこいい{n} 桃太郎さんには{n} これ あげるわね！」{wait}",
-   "en": ""
+   "en": "\"You're so cool, Momotaro-san, so I'll give you this!\"{wait}"
   },
   {
    "id": "SMAP09_33:034",
    "jp": "桃太郎は{n}{col4}毒消し{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got an {col4}Antidote{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP09_33:035",
    "jp": "「くっそーっ！ 村の中で{n} 鬼が すきほうだいに{n} あばれているなんて！」{wait}",
-   "en": ""
+   "en": "\"Dang it! Oni running wild right in our village!\"{wait}"
   },
   {
    "id": "SMAP09_33:036",
    "jp": "「桃太郎さん！{n} 浦島を よろしく！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Look after Urashima!\"{wait}"
   },
   {
    "id": "SMAP09_33:037",
    "jp": "「よおし！ オラも{n} 乙姫様を 助けられる{n} 強い 男に なるだ！」{wait}",
-   "en": ""
+   "en": "\"Alright! I'm gonna become a strong man who can save Otohime-sama too!\"{wait}"
   },
   {
    "id": "SMAP09_33:038",
    "jp": "「浦島ああっ！{n} 早く かえってこーい！」{n}{wait}",
-   "en": ""
+   "en": "\"Urashimaaa! Hurry back!\"{wait}"
   },
   {
    "id": "SMAP09_33:039",
    "jp": "「桃太郎さん！{n} この村の 手前に あった{n} 橋を 見ましたかな？」{wait}{n}「あの 橋を わたると{n} ふゆう仙人の 住む{n} 洞窟が あるそうじゃ！」{wait}{n}「これから先 ふゆうの術が{n} なければ つらいじゃろ！{n} ぜひ よっていきんしゃい！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Did you see the bridge just before this village?\"{wait}\"They say across that bridge is the cave where the Float Hermit lives!\"{wait}\"From here on, you'll struggle without the Float art! Be sure to stop by!\"{wait}"
   },
   {
    "id": "SMAP09_33:040",
    "jp": "「鬼が 外に いるから{n} こわくて 家から{n} 出られないんです！」{wait}",
-   "en": ""
+   "en": "\"The oni are outside, so I'm too scared to leave the house!\"{wait}"
   },
   {
    "id": "SMAP09_33:041",
    "jp": "「浦島ああっ！{n} はやく かえってこーい！」{n}{wait}{n}「おお？ なんでい！{n} 浦島 いるじゃねえか！」{n}{wait}{n}「だまってねえで{n} なんか しゃべれよな！{n} はっはっはっはっ！」{wait}",
-   "en": ""
+   "en": "\"Urashimaaa! Hurry back!\"{wait}\"Oh? What's this! Urashima's right here!\"{wait}\"Don't just stand there quiet, say something! Hahahaha!\"{wait}"
   },
   {
    "id": "SMAP09_33:042",
    "jp": "「なんだって？{n} さらわれてた 乙姫様を{n} 助け出したって？」{wait}{n}「さすが 桃太郎さんだ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What's that? You rescued Otohime-sama from her kidnappers?\"{wait}\"That's Momotaro-san for ya!\"{wait}"
   },
   {
    "id": "SMAP09_33:043",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「鬼たちが 竜宮城のつかいの{n} カメを いじめてるんです！」{n}{wait}{n}「オラたちは こわくなって{n} 家に にげこんじまった！」{n}{wait}{n}「桃太郎さん！{n} どうか オラたちに かわって{n} カメを 助けてやってくだせえ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"The oni are bullying the Turtle, the messenger from Ryugu Palace!\"{wait}\"We got scared and ran into our houses!\"{wait}\"Momotaro-san! Please, save the Turtle for us!\"{wait}"
   },
   {
    "id": "SMAP09_33:044",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「オラたちは いつも{n} 桃太郎さんの あしでまといに{n} なるばかりで すまねえ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Sorry we're always just gettin' in your way!\"{wait}"
   },
   {
    "id": "SMAP09_33:045",
    "jp": "「せめて これを{n} 持っていって くだせえ！」{n}{wait}",
-   "en": ""
+   "en": "\"At least take this with you!\"{wait}"
   },
   {
    "id": "SMAP09_33:046",
    "jp": "桃太郎は 村人から{n}{col4}マヒ消し{col0} を 手に入れた！{n}{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Paralysis Cure{col0} from a villager!{c19}{wait}"
   },
   {
    "id": "SMAP09_33:047",
    "jp": "「桃太郎さん！{n} なんとか ならんかのー！」{n}{wait}{n}「村の 連中は みんな{n} こわくて 鬼には さからえん！」{n}{wait}{n}「たのみの 浦島は{n} わしらの ために 漁に{n} 出て行ったままだし！」{wait}{n}「あんただけが たよりだ！{n} たすけて おくんなせえ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Can't somethin' be done?!\"{wait}\"Everyone in the village is too scared to stand up to the oni!\"{wait}\"And Urashima, the one we count on, went out fishing for our sake and still ain't back!\"{wait}\"You're our only hope! Please, help us!\"{wait}"
   },
   {
    "id": "SMAP09_33:048",
    "jp": "「桃太郎さん！{n} 浦島は 力は ねえけど{n} 術を 使わせると すげえど！」{wait}{n}「みんなの 役に 立つ{n} 術ばっかだ！{n} よろしく たのむぜ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Urashima ain't strong, but let him use his arts and he's amazing!\"{wait}\"Every one of his arts helps everybody out! Take good care of him!\"{wait}"
   },
   {
    "id": "SMAP09_33:049",
    "jp": "「浦島は いつ{n} 帰って くるんじゃあ！」{n}{wait}{n}「鬼の やつめ！{n} よりによって 浦島の{n} いないときを おそいやがって！」{wait}",
-   "en": ""
+   "en": "\"When is Urashima coming back?!\"{wait}\"Those blasted oni! Of all times, they attack while Urashima's away!\"{wait}"
   },
   {
    "id": "SMAP09_33:050",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「これからは 桃太郎さんや{n} 浦島にばかり たよらずに{n} 村を 守ってみせます！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"From now on, we won't just rely on you and Urashima. We'll protect the village ourselves!\"{wait}"
   },
   {
    "id": "SMAP09_33:051",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「浦島さんは 術が得意な{n} とても たよりになる人です！」{n}{wait}{n}「いつもなら 村にいるのに{n} 村の人のために{n} 漁に でかけたんです！」{wait}{n}「よりによって{n} こんなときに 鬼が！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Urashima-san is good with arts, and so very dependable!\"{wait}\"He's usually here in the village, but he went out fishing for the villagers!\"{wait}\"And of all times, that's when the oni come!\"{wait}"
   },
   {
    "id": "SMAP09_33:052",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「浦島さんは 術が得意な{n} とても たよりになる人です！」{n}{wait}{n}「浦島さんが{n} 仲間になった 記念に{n} これを どうぞ！」{wait}{n}桃太郎は{n}{col10}浦島太郎カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Urashima-san is good with arts, and so very dependable!\"{wait}\"To celebrate Urashima-san joining you, please take this!\"{wait}Momotaro got the {col10}Urashima Taro Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP09_33:053",
    "jp": "「桃太郎さん！{n} 浦島さんを よろしく！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Please look after Urashima-san!\"{wait}"
   },
   {
    "id": "SMAP09_33:054",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「わしは この 泉を{n} まもっている{n} 若づくりのじじい ですじゃ！」{wait}{n}「桃太郎さんも{n} この 泉の 水を あびて{n} 鬼たいじに はげんでくだされ！」{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"I'm the young-at-heart old geezer who guards this spring!\"{wait}\"Momotaro-san, you bathe in this spring's water too, and give slaying the oni your all!\"{wait}"
   },
   {
    "id": "SMAP09_33:055",
    "jp": "「桃太郎さん！{n} 若返りの 水を{n} あびていきなさるか？」",
-   "en": ""
+   "en": "\"Momotaro-san! Will you bathe in the water of youth?\""
   },
   {
    "id": "SMAP09_33:056",
    "jp": "{str}の 技と 体力は{n}全回復した！{c19}{n}{wait}",
-   "en": ""
+   "en": "{str} recovered all SP and HP!{c19}{wait}"
   },
   {
    "id": "SMAP09_33:057",
    "jp": "「つかれたときは{n} いつでも きなされ！」{n}{wait}",
-   "en": ""
+   "en": "\"Come by anytime you're tired!\"{wait}"
   },
   {
    "id": "SMAP09_33:058",
    "jp": "「カメ カメ！{n} 桃太郎さん！」{n}{wait}{n}「助けてー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Kame kame! Momotaro-san!\"{wait}\"Help meee!\"{wait}"
   },
   {
    "id": "SMAP09_33:059",
    "jp": "「カメ カメ！{n} 桃太郎さん！{n} ありがとうございます！」{wait}{n}「乙姫様の つかいで{n} 桃太郎さんを探してたんです」{n}{wait}{n}「では 桃太郎さん！{n} 竜宮城へ まいりましょう！」{n}{wait}",
-   "en": ""
+   "en": "\"Kame kame! Momotaro-san! Thank you so much!\"{wait}\"Otohime-sama sent me to look for you, Momotaro-san.\"{wait}\"Now, Momotaro-san! Let us go to Ryugu Palace!\"{wait}"
   },
   {
    "id": "SMAP09_33:060",
    "jp": "「カメ カメ！{n} 桃太郎さん もう一度{n} 竜宮城へ いきますか？」",
-   "en": ""
+   "en": "\"Kame kame! Momotaro-san, will you go to Ryugu Palace again?\""
   },
   {
    "id": "SMAP09_33:061",
    "jp": "「では 桃太郎さん！{n} 竜宮城へ まいりましょう！」{n}{wait}",
-   "en": ""
+   "en": "\"Then, Momotaro-san! Let us go to Ryugu Palace!\"{wait}"
   },
   {
    "id": "SMAP09_33:062",
    "jp": "「竜宮城へ{n} いきたくなったら いつでも{n} 話しかけて ください！」{wait}",
-   "en": ""
+   "en": "\"Whenever you want to go to Ryugu Palace, just talk to me!\"{wait}"
   },
   {
    "id": "SMAP09_33:063",
    "jp": "「はっはっはっ！」{n}{n}{wait}{n}「浦島が 漁に 出た{n} すきを ねらって{n} 村を おそってやったぞ！」{wait}{n}「おまけに 桃太郎まで{n} つかまえることが できるとは！{n} はっはっはっ！」{wait}{n}「えんま様の ご命令により{n} お前を たおす！」{n}{wait}",
-   "en": ""
+   "en": "\"Hahaha!\"{wait}\"We attacked the village the moment Urashima went out fishing!\"{wait}\"And on top of that, we get to catch Momotaro too! Hahaha!\"{wait}\"By order of Enma-sama, I will defeat you!\"{wait}"
   },
   {
    "id": "SMAP09_33:064",
    "jp": "「なんだ また来たのか！{n} しかたない もう一度{n} 相手になってやる！」{wait}{n}「今度は 本気で{n} かかってこいよ！」{n}{wait}",
-   "en": ""
+   "en": "\"What, you're back again? Fine, I'll take you on one more time!\"{wait}\"This time, come at me for real!\"{wait}"
   },
   {
    "id": "SMAP09_33:065",
    "jp": "「はっはっはっ！」{n}{n}{wait}{n}「カメを いじめていたら{n} とんだ えものが{n} かかったぞ！」{wait}{n}「桃太郎！{n} わざわざ 出てくるとは{n} おろかなやつ！」{wait}{n}「えんま様の ご命令により{n} お前を たおす！」{n}{wait}",
-   "en": ""
+   "en": "\"Hahaha!\"{wait}\"Bullying the Turtle sure caught us some unexpected prey!\"{wait}\"Momotaro! What a fool, coming out here on your own!\"{wait}\"By order of Enma-sama, I will defeat you!\"{wait}"
   },
   {
    "id": "SMAP09_33:066",
    "jp": "「なんだ また来たのか！{n} しかたない もう一度{n} 相手になってやる！」{wait}{n}「今度は 本気で{n} かかってこいよ！」{n}{wait}",
-   "en": ""
+   "en": "\"What, you're back again? Fine, I'll take you on one more time!\"{wait}\"This time, come at me for real!\"{wait}"
   },
   {
    "id": "SMAP09_33:067",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「村を 救っていただき{n} ありがとうございました！{n} 私は 浦島太郎です！」{wait}{n}「村を 守るはずの 私が{n} 村を るすにしてしまって…」{n}{wait}{n}「桃太郎さん！ 村の人とも{n} そうだんしたのですが」{n}{wait}{n}「村を 助けていただいた お礼に{n} 私に 桃太郎さんの 旅の{n} お手伝いを させてください！」{wait}{n}「力は 桃太郎さんたちには{n} かないませんが 術には{n} 少々 覚えがあります！」{wait}{n}浦島が 仲間に{n}くわわった！{n}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Thank you for saving the village! I am Urashima Taro!\"{wait}\"I'm supposed to protect the village, yet I left it unguarded...\"{wait}\"Momotaro-san! I talked it over with the villagers,\"{wait}\"and to thank you for saving the village, please let me help you on your journey!\"{wait}\"I'm no match for you all in strength, but I do know a thing or two about arts!\"{wait}Urashima joined the party!"
   },
   {
    "id": "SMAP09_33:068",
    "jp": "「ところで{n} 竜宮城の 乙姫様は{n} お元気でしたか？」{wait}{n}「えっ！ おすがたが{n} 見えなかったのですか？」{n}{wait}{n}「乙姫様が 竜宮城を{n} 離れるとは 思えません！{n} 心配ですね…」{wait}{n}「桃太郎さん！ 村の人に{n} 乙姫様のことを 聞いたほうが{n} いいかも しれませんよ！」{wait}",
-   "en": ""
+   "en": "\"By the way, was Otohime-sama of Ryugu Palace well?\"{wait}\"What! You didn't see her?\"{wait}\"I can't imagine Otohime-sama ever leaving Ryugu Palace! I'm worried...\"{wait}\"Momotaro-san! It might be best to ask the villagers about Otohime-sama!\"{wait}"
   },
   {
    "id": "SMAP09_33:069",
    "jp": "「ふいーーっ！」{n}{n}{wait}{n}「やったあ！ ついに{n} 浦島の村に ついたぞお！」{n}{wait}",
-   "en": ""
+   "en": "\"Phew!\"{wait}\"Yahoo! I finally made it to Urashima Village!\"{wait}"
   },
   {
    "id": "SMAP09_33:070",
    "jp": "「おっ！桃太郎さんでねっか？{n} やっぱり 桃太郎さんより先に{n} つくのは むりだったなあ！」{wait}{n}「桃太郎さん！この穴を 進んでくと{n} 並び洞窟に出られるだよ！」{n}{wait}{n}「とちゅう 堀り出し物が{n} あるかもしれねっから{n} 一度 入ってみてくれや！」{wait}",
-   "en": ""
+   "en": "\"Oh! Ain't that Momotaro-san? Figures I couldn't beat ya here!\"{wait}\"Momotaro-san! Follow this hole and you'll come out at Row Cave!\"{wait}\"There might be some buried treasures along the way, so go on in and have a look!\"{wait}"
   },
   {
    "id": "SMAP09_33:071",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「オラの 堀った穴{n} 入ってくれたかね？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Did ya go into the hole I dug?\"{wait}"
   },
   {
    "id": "SMAP09_33:072",
    "jp": "「穴が 開いた お祝いだ！{n} これ もらってくれや！」{n}{wait}{n}桃太郎は{n}{col10}伝助カード{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "\"To celebrate the hole bein' open, take this!\"{wait}Momotaro got the {col10}Densuke Card{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP09_33:073",
    "jp": "「はっはっは！」{n}{n}{wait}{n}「オレ様の 名は{n} たつまき鬼！」{n}{wait}{n}「浦島が 漁に出た すきに{n} 乙姫を さらってやったわ！」{n}{wait}{n}「その上 桃太郎も{n} しまつできるとは！{n} えんま様も お喜びだろう！」{wait}{n}「かかってこい！ 桃太郎！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hahaha!\"{wait}\"My name is Tornado Oni!\"{wait}\"I snatched Otohime while Urashima was out fishing!\"{wait}\"And now I get to finish off Momotaro too! Enma-sama will be so pleased!\"{wait}\"Come and get me, Momotaro!\"{wait}"
   },
   {
    "id": "SMAP09_33:074",
    "jp": "「はっはっは！{n} 桃太郎！ 乙姫を{n} とりかえしたいか？」{wait}{n}「なら この俺様を{n} 倒すことだ！ いくぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hahaha! Momotaro! Want Otohime back?\"{wait}\"Then you'll have to beat me! Here I come!\"{wait}"
   },
   {
    "id": "SMAP09_33:075",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「たつまき鬼の 起こす{n} たつまきは 全員に{n} ダメージが あります！」{wait}{n}「どうか お気をつけて！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"Tornado Oni's tornadoes hit the whole party!\"{wait}\"Please, be careful!\"{wait}"
   },
   {
    "id": "SMAP09_33:076",
    "jp": "「桃太郎さん！」{n}{n}{wait}{n}「助けていただき{n} お礼の ことばも{n} ありません！」{wait}{n}「どうか 竜宮城へ{n} おこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san!\"{wait}\"I have no words to thank you for saving me!\"{wait}\"Please, come visit Ryugu Palace!\"{wait}"
   },
   {
    "id": "SMAP09_33:077",
    "jp": "「年寄りの 鼻水」{n}{n}{wait}",
-   "en": ""
+   "en": "\"There's no drool like an old drool.\"{wait}"
   },
   {
    "id": "SMAP09_33:078",
    "jp": "「わらをも つかむ いきおい！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Grasping at straws with all my might!\"{wait}"
   },
   {
    "id": "SMAP09_33:079",
    "jp": "「カメをいじめて{n} ごめんなさい！」{n}{wait}{n}「おわびのしるしに{n} これを さしあげます！」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry for bullying the Turtle!\"{wait}\"As an apology, please take this!\"{wait}"
   },
   {
    "id": "SMAP09_33:080",
    "jp": "桃太郎は{n}{col4}マヒ消し{col0}を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got a {col4}Paralysis Cure{col0}!{c19}{wait}"
   },
   {
    "id": "SMAP09_33:081",
    "jp": "「これからは 人や 動物と{n} なかよく くらします！」{n}{wait}",
-   "en": ""
+   "en": "\"From now on I'll live in peace with people and animals!\"{wait}"
   },
   {
    "id": "SMAP09_33:082",
    "jp": "「海を 見て くらしていると{n} 心が やすらぎます！」{n}{wait}{n}「鬼に ひつようなのは{n} こうした やすらぎかも{n} しれませんね！」{wait}",
-   "en": ""
+   "en": "\"Living here looking out at the sea puts my heart at ease!\"{wait}\"Maybe peace like this is just what oni need!\"{wait}"
   },
   {
    "id": "SMAP09_33:083",
    "jp": "桃太郎は{n}{col10}漁師カード{col0} を{n}手に入れた！{c19}{wait}",
-   "en": ""
+   "en": "Momotaro got the {col10}Fisherman Card{col0}!{c19}{wait}"
   }
  ]
 }

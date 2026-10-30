@@ -8,7 +8,7 @@
   {
    "id": "SMAP11_23:000",
    "jp": "「この森は 通れなさそうな{n} ところにも 道がある！」{n}{wait}{n}「通りぬけられそうな 場所を{n} 見つけたら とりあえず{n} 進んでみることじゃ！」{wait}",
-   "en": ""
+   "en": "\"This forest has paths even where it looks like you can't get through!\"{wait}\"When you find a spot that looks passable, just try going through it!\"{wait}"
   }
  ]
 }

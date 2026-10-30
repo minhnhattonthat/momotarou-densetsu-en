@@ -8,17 +8,17 @@
   {
    "id": "EVT015_11:000",
    "jp": "「さあ！ 桃太郎さん！」{n}{n}{wait}{n}「わたしの うでを{n} ごらんくだされ！」{n}{wait}{n}「そーれ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Now then! Momotaro-san!\"{wait}\"Behold my skill!\"{wait}\"Heeere goes!\"{wait}"
   },
   {
    "id": "EVT015_11:001",
    "jp": "「枯れ木に 花を{n} 咲かせましょう！」{n}",
-   "en": ""
+   "en": "\"Let's make the withered trees bloom!\""
   },
   {
    "id": "EVT015_11:002",
    "jp": "「桃太郎さん！{n} いかがですかな！」{n}{wait}{n}「桜が 見たくなったら{n} なんどでも この村を{n} たずねて くだされ！」{wait}{n}みごとに 咲きほこる{n}桜の下で にぎやかに{n}お花見が はじまりました！",
-   "en": ""
+   "en": "\"Momotaro-san! How's that?\"{wait}\"Whenever you feel like seeing cherry blossoms, come visit this village as often as you like!\"{wait}Beneath the cherry trees in glorious bloom, a lively flower-viewing party began!"
   }
  ]
 }

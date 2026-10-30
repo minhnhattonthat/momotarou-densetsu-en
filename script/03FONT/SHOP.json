@@ -8,1297 +8,1297 @@
   {
    "id": "SHOP:000",
    "jp": "「いらっしゃーい！{n} 茶店へようこそ！」{n}{wait}{n}「どんなご用ですか？」{n}{n}",
-   "en": ""
+   "en": "\"Welcooome! Welcome to the teahouse!\"{wait}\"What can I do for you?\""
   },
   {
    "id": "SHOP:001",
    "jp": "「ピョピョン！ ピョピョン！{n} いらっしゃーい！{n} 茶店へようこそ！」{wait}{n}「どんなご用ですか？」{n}{n}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Welcooome! Welcome to the teahouse!\"{wait}\"What can I do for you?\""
   },
   {
    "id": "SHOP:002",
    "jp": "「ボンビー！{n} 茶店へ ようこそなのねん！」{n}{wait}{n}「どんな ご用なのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Bombee! Welcome to the teahouse, bombee!\"{wait}\"What can I do for you, bombee?\""
   },
   {
    "id": "SHOP:003",
    "jp": "「へい らっしゃい！{n} 茶店へようこそ！」{n}{wait}{n}「どんなご用でっか？」{n}{n}",
-   "en": ""
+   "en": "\"Hey there, welcome! Welcome to the teahouse!\"{wait}\"Whaddya need?\""
   },
   {
    "id": "SHOP:004",
    "jp": "「いらっしゃーい！ チュチュン！{n} すずめの茶店へ ようこそ！」{n}{wait}{n}「チュチュン！{n} どんなご用ですか？」{n}",
-   "en": ""
+   "en": "\"Welcooome! Chirp chirp! Welcome to the Sparrow Teahouse!\"{wait}\"Chirp chirp! What can I do for you?\""
   },
   {
    "id": "SHOP:005",
    "jp": "「チュー！ チュー！{n} いらっしゃーい！{n} 茶店へようこそ！」{wait}{n}「どんなごようですか？」{n}{n}",
-   "en": ""
+   "en": "\"Squeak squeak! Welcooome! Welcome to the teahouse!\"{wait}\"What can I do for you?\""
   },
   {
    "id": "SHOP:006",
    "jp": "「なにをお求めですか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like?\"{wait}"
   },
   {
    "id": "SHOP:007",
    "jp": "「なにをお求めなのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like, bombee?\"{wait}"
   },
   {
    "id": "SHOP:008",
    "jp": "「{str} ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SHOP:009",
    "jp": "「他に お求めの 品は{n} ございますか？」{n}{wait}",
-   "en": ""
+   "en": "\"Is there anything else you'd like?\"{wait}"
   },
   {
    "id": "SHOP:010",
    "jp": "「他に お求めの 品は{n} あるのねん？」{n}{wait}",
-   "en": ""
+   "en": "\"Anything else you'd like, bombee?\"{wait}"
   },
   {
    "id": "SHOP:011",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:012",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full, bombee!\"{wait}"
   },
   {
    "id": "SHOP:013",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:014",
    "jp": "「なにを お売りになりますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like to sell?\"{wait}"
   },
   {
    "id": "SHOP:015",
    "jp": "「なにを 売るのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What are you selling, bombee?\"{wait}"
   },
   {
    "id": "SHOP:016",
    "jp": "「なにを売ってくれますか？{n} チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me? Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:017",
    "jp": "「{str} ですか？{n} {num}両で{n} よろしいでしょうか？」",
-   "en": ""
+   "en": "\"{str}, is it? Would {num} ryo be all right?\""
   },
   {
    "id": "SHOP:018",
    "jp": "「{str} ですか？{n} {num}両で{n} どうですか？ チュチュン！」",
-   "en": ""
+   "en": "\"{str}, is it? How about {num} ryo? Chirp chirp!\""
   },
   {
    "id": "SHOP:019",
    "jp": "「ありがとうございました！{n} 他に なにか{n} お売りになりますか？」",
-   "en": ""
+   "en": "\"Thank you very much! Will you be selling anything else?\""
   },
   {
    "id": "SHOP:020",
    "jp": "「ありがとうなのねん！{n} 他に なにか{n} 売るのねん？」",
-   "en": ""
+   "en": "\"Thank you, bombee! Selling anything else, bombee?\""
   },
   {
    "id": "SHOP:021",
    "jp": "「ありがとうございました！{n} チュチュン！{n} 他になにか 売りますか？」",
-   "en": ""
+   "en": "\"Thank you very much! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:022",
    "jp": "「それは 残念です！{n} 他に なにか{n} お売りになりますか？」",
-   "en": ""
+   "en": "\"What a shame! Will you be selling anything else?\""
   },
   {
    "id": "SHOP:023",
    "jp": "「残念なのねん！{n} 他に なにか{n} 売るのねん？」",
-   "en": ""
+   "en": "\"What a shame, bombee! Selling anything else, bombee?\""
   },
   {
    "id": "SHOP:024",
    "jp": "「それは 残念です！{n} チュチュン！{n} 他に なにか 売りますか？」",
-   "en": ""
+   "en": "\"What a shame! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:025",
    "jp": "「ごめんなさい！ お客さん！{n} それは ちょっと 買えないわ！」{n}{wait}{n}「他に なにか{n} お売りになりますか？」{n}{wait}",
-   "en": ""
+   "en": "\"Oh, I'm sorry, sir! I really can't buy that!\"{wait}\"Will you be selling anything else?\"{wait}"
   },
   {
    "id": "SHOP:026",
    "jp": "「お客さん！ それは{n} ちょっと 買えません！」{n}{wait}{n}「他に なにか{n} お売りになりますか？」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one.\"{wait}\"Will you be selling anything else?\"{wait}"
   },
   {
    "id": "SHOP:027",
    "jp": "「お客さん！ それは{n} ちょっと 買えないのねん！」{n}{wait}{n}「他に なにか{n} 売るのねん？」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one, bombee!\"{wait}\"Selling anything else, bombee?\"{wait}"
   },
   {
    "id": "SHOP:028",
    "jp": "「お客さん！{n} それは ちょっと 買えないね！」{n}{wait}{n}「他に なにか{n} お売りになりますか？」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry, sir! Can't buy that one!\"{wait}\"Will you be selling anything else?\"{wait}"
   },
   {
    "id": "SHOP:029",
    "jp": "「チュチュン！ チュチュン！{n} それは ちょっと 買えません！」{n}{wait}{n}「他に なにか{n} お売りになりますか？」{n}",
-   "en": ""
+   "en": "\"Chirp chirp! Chirp chirp! I can't buy that one!\"{wait}\"Will you be selling anything else?\""
   },
   {
    "id": "SHOP:030",
    "jp": "「あらあら！ なにも{n} お持ちになってないようですね！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh my! You don't seem to be carrying anything at all!\"{wait}"
   },
   {
    "id": "SHOP:031",
    "jp": "「ボンビー！！{n} なにも 持ってないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!! You don't have anything, bombee!\"{wait}"
   },
   {
    "id": "SHOP:032",
    "jp": "「こらこら！ なにも{n} 持ってないのに 売ろうとするな！」{n}{wait}",
-   "en": ""
+   "en": "\"Hey, hey! Don't try to sell me stuff when you've got nothing!\"{wait}"
   },
   {
    "id": "SHOP:033",
    "jp": "「チュチュン！ なにも{n} 持ってないでチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! You haven't got anything, chirp!\"{wait}"
   },
   {
    "id": "SHOP:034",
    "jp": "「チュー！チュー！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak! Squeak! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:035",
    "jp": "「どの 説明を{n} 見ましょうか？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description would you like to see?\"{wait}"
   },
   {
    "id": "SHOP:036",
    "jp": "「どの 説明を{n} みるのねん？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description do you want to see, bombee?\"{wait}"
   },
   {
    "id": "SHOP:037",
    "jp": "「ほかの 道具の{n} 説明を{n} 見ますか？」{wait}",
-   "en": ""
+   "en": "\"Would you like to see the description of another item?\"{wait}"
   },
   {
    "id": "SHOP:038",
    "jp": "「ほかの 道具の{n} 説明を{n} 見ますかなのねん？」{wait}",
-   "en": ""
+   "en": "\"Want to see another item's description, bombee?\"{wait}"
   },
   {
    "id": "SHOP:039",
    "jp": "「他に ご用は{n} ございますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:040",
    "jp": "「他に ご用は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:041",
    "jp": "「ありがとうございました！{n} また どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:042",
    "jp": "「ピョピョン！ ピョピョン！{n} ありがとうございました！{n} また どうぞー！」{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Thank you very much! Come agaaain!\"{wait}"
   },
   {
    "id": "SHOP:043",
    "jp": "「ボンビー！{n} ありがとうなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! Thank you, bombee!\"{wait}"
   },
   {
    "id": "SHOP:044",
    "jp": "「チュー！ チュー！{n} ありがとうございました！{n} また どうぞー！」{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Thank you very much! Come agaaain!\"{wait}"
   },
   {
    "id": "SHOP:045",
    "jp": "「まいど 武器屋で おます！」{n}{n}{wait}{n}「どないな ご用でっしゃろ？」{n}{n}",
-   "en": ""
+   "en": "\"Hey there! This here's the weapon shop!\"{wait}\"Whaddya need?\""
   },
   {
    "id": "SHOP:046",
    "jp": "「ピョピョン！ ピョピョン！{n} こちらは 武器屋 です！」{n}{wait}{n}「どんな ご用でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! This is the weapon shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:047",
    "jp": "「ボンビー！{n} ここは 武器屋 なのねん！」{n}{wait}{n}「どんな ご用なのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Bombee! This is the weapon shop, bombee!\"{wait}\"What can I do for you, bombee?\""
   },
   {
    "id": "SHOP:048",
    "jp": "「いらっしゃーい！ チュチュン！{n} すずめの武器屋へ ようこそ！」{n}{wait}{n}「チュチュン！{n} どんなご用ですか？」{n}",
-   "en": ""
+   "en": "\"Welcooome! Chirp chirp! Welcome to the Sparrow Weapon Shop!\"{wait}\"Chirp chirp! What can I do for you?\""
   },
   {
    "id": "SHOP:049",
    "jp": "「チュー！ チュー！{n} こちらは 武器屋 です！」{n}{wait}{n}「どんな ご用でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"Squeak squeak! This is the weapon shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:050",
    "jp": "「なにを お求めでっか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What'll it be?\"{wait}"
   },
   {
    "id": "SHOP:051",
    "jp": "「なにを お求めですか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like?\"{wait}"
   },
   {
    "id": "SHOP:052",
    "jp": "「なにを お求めなのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like, bombee?\"{wait}"
   },
   {
    "id": "SHOP:053",
    "jp": "「{str}ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SHOP:054",
    "jp": "「他に お求めの 品は{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else ya want?\""
   },
   {
    "id": "SHOP:055",
    "jp": "「他に お求めの 品は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else you'd like?\""
   },
   {
    "id": "SHOP:056",
    "jp": "「他に お求めの 品は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else you'd like, bombee?\""
   },
   {
    "id": "SHOP:057",
    "jp": "「{str}さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"{str}-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:058",
    "jp": "「{str}さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"{str}-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:059",
    "jp": "「{str}さん！ 道具袋が{n} いっぱいなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"{str}-san! Your item bag is full, bombee!\"{wait}"
   },
   {
    "id": "SHOP:060",
    "jp": "しかし… {str}は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... {str} found there wasn't enough money!{wait}"
   },
   {
    "id": "SHOP:061",
    "jp": "「なにを 売ってくれまっか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What'll ya sell me?\"{wait}"
   },
   {
    "id": "SHOP:062",
    "jp": "「なにを 売ってくれますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me?\"{wait}"
   },
   {
    "id": "SHOP:063",
    "jp": "「なにを 売ってくれるのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me, bombee?\"{wait}"
   },
   {
    "id": "SHOP:064",
    "jp": "「なにを 売ってくれますか？{n} チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me? Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:065",
    "jp": "「{str}でっか？{n} {num}両で{n} どないでっか？」",
-   "en": ""
+   "en": "\"{str}, eh? How's {num} ryo sound?\""
   },
   {
    "id": "SHOP:066",
    "jp": "「{str}ですか？{n} {num}両で{n} 売ってくれますか？」",
-   "en": ""
+   "en": "\"{str}, is it? Will you sell it for {num} ryo?\""
   },
   {
    "id": "SHOP:067",
    "jp": "「{str}ですか？{n} {num}両で{n} 売ってくれますか？」",
-   "en": ""
+   "en": "\"{str}, is it? Will you sell it for {num} ryo?\""
   },
   {
    "id": "SHOP:068",
    "jp": "「{str} ですか？{n} {num}両で{n} どうですか？ チュチュン！」",
-   "en": ""
+   "en": "\"{str}, is it? How about {num} ryo? Chirp chirp!\""
   },
   {
    "id": "SHOP:069",
    "jp": "「えらい おおきに！{n} 他になにか 売りまっか？」{n}",
-   "en": ""
+   "en": "\"Thanks a bunch! Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:070",
    "jp": "「ありがとうございます！{n} 他になにか 売りますか？」{n}",
-   "en": ""
+   "en": "\"Thank you! Anything else to sell?\""
   },
   {
    "id": "SHOP:071",
    "jp": "「ありがとうなのねん！{n} 他になにか 売るのねん？」{n}",
-   "en": ""
+   "en": "\"Thank you, bombee! Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:072",
    "jp": "「ありがとうございました！{n} チュチュン！{n} 他になにか 売りますか？」",
-   "en": ""
+   "en": "\"Thank you very much! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:073",
    "jp": "「そりゃあ 残念でんなー！{n} 他になにか 売りまっか？」{n}",
-   "en": ""
+   "en": "\"Aw, that's a shame! Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:074",
    "jp": "「それは 残念です！{n} 他になにか 売りますか？」{n}",
-   "en": ""
+   "en": "\"What a shame! Anything else to sell?\""
   },
   {
    "id": "SHOP:075",
    "jp": "「残念なのねん！{n} 他になにか 売るのねん？」{n}",
-   "en": ""
+   "en": "\"What a shame, bombee! Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:076",
    "jp": "「それは 残念です！{n} チュチュン！{n} 他に なにか 売りますか？」",
-   "en": ""
+   "en": "\"What a shame! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:077",
    "jp": "「お客さん！ それは{n} ちょっと 買えないね！」{n}{wait}{n}「他になにか 売りまっか？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, pal! Can't buy that one!\"{wait}\"Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:078",
    "jp": "「お客さん！ それは{n} ちょっと 買えません！」{n}{wait}{n}「他になにか 売りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one!\"{wait}\"Anything else to sell?\""
   },
   {
    "id": "SHOP:079",
    "jp": "「お客さん！ それは{n} ちょっと 買えないのねん！」{n}{wait}{n}「他になにか 売るのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one, bombee!\"{wait}\"Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:080",
    "jp": "「チュチュン！ チュチュン！{n} それは ちょっと 買えません！」{n}{wait}{n}「他に なにか 売りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Chirp chirp! Chirp chirp! I can't buy that one!\"{wait}\"Anything else to sell?\""
   },
   {
    "id": "SHOP:081",
    "jp": "「こらこら！ なにも{n} 持ってないのに{n} 売ろうと するな！」{wait}",
-   "en": ""
+   "en": "\"Hey, hey! Don't try to sell me stuff when you've got nothing!\"{wait}"
   },
   {
    "id": "SHOP:082",
    "jp": "「ピョピョン！ピョピョン！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:083",
    "jp": "「桃太郎！{n} なにも 持ってないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro! You don't have anything, bombee!\"{wait}"
   },
   {
    "id": "SHOP:084",
    "jp": "「チュチュン！ なにも{n} 持ってないでチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! You haven't got anything, chirp!\"{wait}"
   },
   {
    "id": "SHOP:085",
    "jp": "「チュー！チュー！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak! Squeak! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:086",
    "jp": "「他に ご用は{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for ya?\""
   },
   {
    "id": "SHOP:087",
    "jp": "「他に ご用は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:088",
    "jp": "「他に ご用は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:089",
    "jp": "「他に ご用は{n} ございますか？{n} チュチュン！」",
-   "en": ""
+   "en": "\"Is there anything else I can do for you? Chirp chirp!\""
   },
   {
    "id": "SHOP:090",
    "jp": "「また おこしやすー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Come again real soon!\"{wait}"
   },
   {
    "id": "SHOP:091",
    "jp": "「ピョピョン！ ピョピョン！{n} ありがとうございましたー！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Thank you very muuuch!\"{wait}"
   },
   {
    "id": "SHOP:092",
    "jp": "「ボンビー！{n} ありがとうなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! Thank you, bombee!\"{wait}"
   },
   {
    "id": "SHOP:093",
    "jp": "「ありがとうございました！{n} また どうぞ チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Come again! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:094",
    "jp": "「チュー！ チュー！{n} ありがとうございましたー！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Thank you very muuuch!\"{wait}"
   },
   {
    "id": "SHOP:095",
    "jp": "「商品と お手持ちの装備との{n} 差額を 払ってもらえれば{n} 商品が あなたのものに！」{wait}",
-   "en": ""
+   "en": "\"Just pay the difference between the goods and the gear you have on, and the goods are yours!\"{wait}"
   },
   {
    "id": "SHOP:096",
    "jp": "「どなたの 装備を{n} 下取り しますか？」{n}",
-   "en": ""
+   "en": "\"Whose equipment shall we take as a trade-in?\""
   },
   {
    "id": "SHOP:097",
    "jp": "「どなたの 装備を{n} 下取り するのねん？」{n}",
-   "en": ""
+   "en": "\"Whose equipment are we taking in trade, bombee?\""
   },
   {
    "id": "SHOP:098",
    "jp": "「どれに しますか？」{n}{n}",
-   "en": ""
+   "en": "\"Which one will it be?\""
   },
   {
    "id": "SHOP:099",
    "jp": "「どれに するのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Which one will it be, bombee?\""
   },
   {
    "id": "SHOP:100",
    "jp": "「{str} だと{n} {str} を{n} 下取りさせて もらいます！」{wait}{n}「差額は{n} {num}両ですが{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"For {str}, we'll take the {str} as a trade-in!\"{wait}\"The difference is {num} ryo. Will you buy it?\""
   },
   {
    "id": "SHOP:101",
    "jp": "「{str} だと{n} {str} を{n} 下取り させてもらうのねん！」{wait}{n}「差額は{n} {num}両ですが{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"For {str}, we'll take the {str} as a trade-in, bombee!\"{wait}\"The difference is {num} ryo. Will you buy it?\""
   },
   {
    "id": "SHOP:102",
    "jp": "「{str} だと{n} {str} を{n} 下取りさせて もらいます！」{wait}{n}「安いもんなんで{n} ただで 交換ですが{n} よろしいですか？」",
-   "en": ""
+   "en": "\"For {str}, we'll take the {str} as a trade-in!\"{wait}\"It's cheap, so we'll swap it for free. Is that all right?\""
   },
   {
    "id": "SHOP:103",
    "jp": "「{str} だと{n} {str} を{n} 下取り させてもらうのねん！」{wait}{n}「安いもんなんで{n} ただで 交換ですが{n} よろしいですか？」",
-   "en": ""
+   "en": "\"For {str}, we'll take the {str} as a trade-in, bombee!\"{wait}\"It's cheap, so we'll swap it for free. Is that all right?\""
   },
   {
    "id": "SHOP:104",
    "jp": "「ありがとうございました！{n} 他に ご用はありますか？」{n}",
-   "en": ""
+   "en": "\"Thank you very much! Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:105",
    "jp": "「ありがとうなのねん！{n} 他に ご用はあるのねん？」{n}",
-   "en": ""
+   "en": "\"Thank you, bombee! Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:106",
    "jp": "「そうですか{n} 他に ご用は ありますか？」{n}",
-   "en": ""
+   "en": "\"I see. Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:107",
    "jp": "「そうですか{n} 他に ご用は あるのねん？」{n}",
-   "en": ""
+   "en": "\"I see. Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:108",
    "jp": "「{str}さんの 装備だと{n} うちの店では 下取りの{n} 必要は ないようです！」{wait}",
-   "en": ""
+   "en": "\"With {str}-san's equipment, there's no need for a trade-in at our shop!\"{wait}"
   },
   {
    "id": "SHOP:109",
    "jp": "「{str}さんの 装備だと{n} うちの店では 下取りの{n} 必要は ないのねん！」{wait}",
-   "en": ""
+   "en": "\"With {str}-san's equipment, there's no need for a trade-in here, bombee!\"{wait}"
   },
   {
    "id": "SHOP:110",
    "jp": "「{str} だと{n} 交換する ものを{n} 装備 してません！」{wait}",
-   "en": ""
+   "en": "\"{str} has nothing equipped to trade in!\"{wait}"
   },
   {
    "id": "SHOP:111",
    "jp": "「{str} だと{n} 交換する ものを{n} 装備 してないのねん！」{wait}",
-   "en": ""
+   "en": "\"{str} has nothing equipped to trade in, bombee!\"{wait}"
   },
   {
    "id": "SHOP:112",
    "jp": "「{num}両で{n} 装備 してあげます！{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"We'll equip it for you for {num} ryo! Will you buy it?\""
   },
   {
    "id": "SHOP:113",
    "jp": "「{num}両で{n} 装備 してあげるのねん！{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"We'll equip it for you for {num} ryo, bombee! Will you buy it?\""
   },
   {
    "id": "SHOP:114",
    "jp": "「どの 説明を{n} 見ましょうか？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description would you like to see?\"{wait}"
   },
   {
    "id": "SHOP:115",
    "jp": "「どの 説明を{n} みるのねん？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description do you want to see, bombee?\"{wait}"
   },
   {
    "id": "SHOP:116",
    "jp": "「ほかの 道具の{n} 説明を{n} 見ますか？」{wait}",
-   "en": ""
+   "en": "\"Would you like to see the description of another item?\"{wait}"
   },
   {
    "id": "SHOP:117",
    "jp": "「ほかの 道具の{n} 説明を{n} みますかなのねん？」{wait}",
-   "en": ""
+   "en": "\"Want to see another item's description, bombee?\"{wait}"
   },
   {
    "id": "SHOP:118",
    "jp": "「まいど 防具屋で おます！」{n}{n}{wait}{n}「どないな ご用でっしゃろ？」{n}{n}",
-   "en": ""
+   "en": "\"Hey there! This here's the armor shop!\"{wait}\"Whaddya need?\""
   },
   {
    "id": "SHOP:119",
    "jp": "「ピョピョン！ ピョピョン！{n} こちらは 防具屋 です！」{n}{wait}{n}「どんな ご用でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! This is the armor shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:120",
    "jp": "「ボンビー！{n} ここは 防具屋 なのねん！」{n}{wait}{n}「どんな ご用なのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Bombee! This is the armor shop, bombee!\"{wait}\"What can I do for you, bombee?\""
   },
   {
    "id": "SHOP:121",
    "jp": "「いらっしゃーい！ チュチュン！{n} すずめの防具屋へ ようこそ！」{n}{wait}{n}「チュチュン！{n} どんなご用ですか？」{n}",
-   "en": ""
+   "en": "\"Welcooome! Chirp chirp! Welcome to the Sparrow Armor Shop!\"{wait}\"Chirp chirp! What can I do for you?\""
   },
   {
    "id": "SHOP:122",
    "jp": "「チュー！ チュー！{n} こちらは 防具屋 です！」{n}{wait}{n}「どんな ご用でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"Squeak squeak! This is the armor shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:123",
    "jp": "「なにを お求めでっか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What'll it be?\"{wait}"
   },
   {
    "id": "SHOP:124",
    "jp": "「なにを お求めですか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like?\"{wait}"
   },
   {
    "id": "SHOP:125",
    "jp": "「なにを お求めなのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like, bombee?\"{wait}"
   },
   {
    "id": "SHOP:126",
    "jp": "「{str}ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SHOP:127",
    "jp": "「他に お求めの 品は{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else ya want?\""
   },
   {
    "id": "SHOP:128",
    "jp": "「他に お求めの 品は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else you'd like?\""
   },
   {
    "id": "SHOP:129",
    "jp": "「他に お求めの 品は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else you'd like, bombee?\""
   },
   {
    "id": "SHOP:130",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:131",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}{n}「他に ご用は{n} ありますか？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}\"Is there anything else I can do for you?\"{wait}"
   },
   {
    "id": "SHOP:132",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full, bombee!\"{wait}"
   },
   {
    "id": "SHOP:133",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:134",
    "jp": "「なにを 売ってくれまっか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What'll ya sell me?\"{wait}"
   },
   {
    "id": "SHOP:135",
    "jp": "「なにを 売ってくれますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me?\"{wait}"
   },
   {
    "id": "SHOP:136",
    "jp": "「他になにか 売るのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Anything else to sell, bombee?\"{wait}"
   },
   {
    "id": "SHOP:137",
    "jp": "「なにを 売ってくれますか？{n} チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me? Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:138",
    "jp": "「{str}でっか？{n} {num}両で{n} どないでっか？」",
-   "en": ""
+   "en": "\"{str}, eh? How's {num} ryo sound?\""
   },
   {
    "id": "SHOP:139",
    "jp": "「{str}ですか？{n} {num}両で{n} 売ってくれますか？」",
-   "en": ""
+   "en": "\"{str}, is it? Will you sell it for {num} ryo?\""
   },
   {
    "id": "SHOP:140",
    "jp": "「{str}ですか？{n} {num}両で{n} 売ってくれますか？」",
-   "en": ""
+   "en": "\"{str}, is it? Will you sell it for {num} ryo?\""
   },
   {
    "id": "SHOP:141",
    "jp": "「{str} ですか？{n} {num}両で{n} どうですか？ チュチュン！」",
-   "en": ""
+   "en": "\"{str}, is it? How about {num} ryo? Chirp chirp!\""
   },
   {
    "id": "SHOP:142",
    "jp": "「えらい おおきに！{n} 他になにか 売りまっか？」{n}",
-   "en": ""
+   "en": "\"Thanks a bunch! Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:143",
    "jp": "「ありがとうございます！{n} 他になにか 売りますか？」{n}",
-   "en": ""
+   "en": "\"Thank you! Anything else to sell?\""
   },
   {
    "id": "SHOP:144",
    "jp": "「ありがとうなのねん！{n} 他になにか 売るのねん？」{n}",
-   "en": ""
+   "en": "\"Thank you, bombee! Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:145",
    "jp": "「ありがとうございました！{n} チュチュン！{n} 他になにか 売りますか？」",
-   "en": ""
+   "en": "\"Thank you very much! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:146",
    "jp": "「そりゃあ 残念でんなー！{n} 他になにか 売りまっか？」{n}",
-   "en": ""
+   "en": "\"Aw, that's a shame! Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:147",
    "jp": "「それは 残念です！{n} 他になにか 売りますか？」{n}",
-   "en": ""
+   "en": "\"What a shame! Anything else to sell?\""
   },
   {
    "id": "SHOP:148",
    "jp": "「残念なのねん！{n} 他になにか 売るのねん？」{n}",
-   "en": ""
+   "en": "\"What a shame, bombee! Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:149",
    "jp": "「それは 残念です！{n} チュチュン！{n} 他に なにか 売りますか？」",
-   "en": ""
+   "en": "\"What a shame! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:150",
    "jp": "「お客さん！ それは{n} ちょっと 買えないね！」{n}{wait}{n}「他になにか 売りまっか？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, pal! Can't buy that one!\"{wait}\"Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:151",
    "jp": "「お客さん！ それは{n} ちょっと 買えません！」{n}{wait}{n}「他になにか 売りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one!\"{wait}\"Anything else to sell?\""
   },
   {
    "id": "SHOP:152",
    "jp": "「お客さん！ それは{n} ちょっと 買えないのねん！」{n}{wait}{n}「他になにか 売るのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one, bombee!\"{wait}\"Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:153",
    "jp": "「チュチュン！ チュチュン！{n} それは ちょっと 買えません！」{n}{wait}{n}「他に なにか 売りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Chirp chirp! Chirp chirp! I can't buy that one!\"{wait}\"Anything else to sell?\""
   },
   {
    "id": "SHOP:154",
    "jp": "「こらこら！ なにも{n} 持ってないのに{n} 売ろうと するな！」{wait}",
-   "en": ""
+   "en": "\"Hey, hey! Don't try to sell me stuff when you've got nothing!\"{wait}"
   },
   {
    "id": "SHOP:155",
    "jp": "「ピョピョン！ピョピョン！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:156",
    "jp": "「ボンビー！{n} なにも 持ってないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! You don't have anything, bombee!\"{wait}"
   },
   {
    "id": "SHOP:157",
    "jp": "「チュチュン！ なにも{n} 持ってないでチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! You haven't got anything, chirp!\"{wait}"
   },
   {
    "id": "SHOP:158",
    "jp": "「チュー！チュー！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak! Squeak! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:159",
    "jp": "「他に ご用は{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for ya?\""
   },
   {
    "id": "SHOP:160",
    "jp": "「他に ご用は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:161",
    "jp": "「他に ご用は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:162",
    "jp": "「他に ご用は{n} ございますか？{n} チュチュン！」",
-   "en": ""
+   "en": "\"Is there anything else I can do for you? Chirp chirp!\""
   },
   {
    "id": "SHOP:163",
    "jp": "「また おこしやすー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Come again real soon!\"{wait}"
   },
   {
    "id": "SHOP:164",
    "jp": "「ピョピョン！ ピョピョン！{n} ありがとうございましたー！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Thank you very muuuch!\"{wait}"
   },
   {
    "id": "SHOP:165",
    "jp": "「ボンビー！{n} ありがとうなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! Thank you, bombee!\"{wait}"
   },
   {
    "id": "SHOP:166",
    "jp": "「ありがとうございました！{n} また どうぞ チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Come again! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:167",
    "jp": "「チュー！ チュー！{n} ありがとうございましたー！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Thank you very muuuch!\"{wait}"
   },
   {
    "id": "SHOP:168",
    "jp": "「商品と お手持ちの装備との{n} 差額を 払ってもらえれば{n} 商品が あなたのものに！」{wait}",
-   "en": ""
+   "en": "\"Just pay the difference between the goods and the gear you have on, and the goods are yours!\"{wait}"
   },
   {
    "id": "SHOP:169",
    "jp": "「どなたの 装備を{n} 下取り しますか？」{n}",
-   "en": ""
+   "en": "\"Whose equipment shall we take as a trade-in?\""
   },
   {
    "id": "SHOP:170",
    "jp": "「どなたの 装備を{n} 下取り するのねん？」{n}",
-   "en": ""
+   "en": "\"Whose equipment are we taking in trade, bombee?\""
   },
   {
    "id": "SHOP:171",
    "jp": "「どれに しますか？」{n}{n}",
-   "en": ""
+   "en": "\"Which one will it be?\""
   },
   {
    "id": "SHOP:172",
    "jp": "「どれに するのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Which one will it be, bombee?\""
   },
   {
    "id": "SHOP:173",
    "jp": "「{str} だと{n} {str} を{n} 下取りさせて もらいます！」{wait}{n}「差額は{n} {num}両ですが{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"For {str}, we'll take the {str} as a trade-in!\"{wait}\"The difference is {num} ryo. Will you buy it?\""
   },
   {
    "id": "SHOP:174",
    "jp": "「安いもんなんで{n} ただで 交換ですが{n} よろしいですか？」",
-   "en": ""
+   "en": "\"It's cheap, so we'll swap it for free. Is that all right?\""
   },
   {
    "id": "SHOP:175",
    "jp": "「ありがとうございました！{n} 他に ご用はありますか？」{n}",
-   "en": ""
+   "en": "\"Thank you very much! Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:176",
    "jp": "「ありがとうなのねん！{n} 他に ご用はあるのねん？」{n}",
-   "en": ""
+   "en": "\"Thank you, bombee! Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:177",
    "jp": "「そうですか{n} 他に ご用は ありますか？」{n}",
-   "en": ""
+   "en": "\"I see. Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:178",
    "jp": "「そうですか{n} 他に ご用は あるのねん？」{n}",
-   "en": ""
+   "en": "\"I see. Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:179",
    "jp": "「{str}さんの 装備だと{n} うちの店では 下取りの{n} 必要は ないようです！」{wait}",
-   "en": ""
+   "en": "\"With {str}-san's equipment, there's no need for a trade-in at our shop!\"{wait}"
   },
   {
    "id": "SHOP:180",
    "jp": "「{str}さんの 装備だと{n} うちの店では 下取りの{n} 必要は ないのねん！」{wait}",
-   "en": ""
+   "en": "\"With {str}-san's equipment, there's no need for a trade-in here, bombee!\"{wait}"
   },
   {
    "id": "SHOP:181",
    "jp": "「{str} だと{n} 交換する ものを{n} 装備 してません！」{wait}",
-   "en": ""
+   "en": "\"{str} has nothing equipped to trade in!\"{wait}"
   },
   {
    "id": "SHOP:182",
    "jp": "「{str} だと{n} 交換する ものを{n} 装備 してないのねん！」{wait}",
-   "en": ""
+   "en": "\"{str} has nothing equipped to trade in, bombee!\"{wait}"
   },
   {
    "id": "SHOP:183",
    "jp": "「{num}両で{n} 装備 してあげます！{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"We'll equip it for you for {num} ryo! Will you buy it?\""
   },
   {
    "id": "SHOP:184",
    "jp": "「{num}両で{n} 装備 してあげるのねん！{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"We'll equip it for you for {num} ryo, bombee! Will you buy it?\""
   },
   {
    "id": "SHOP:185",
    "jp": "「どの 説明を{n} 見ましょうか？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description would you like to see?\"{wait}"
   },
   {
    "id": "SHOP:186",
    "jp": "「どの 説明を{n} みるのねん？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description do you want to see, bombee?\"{wait}"
   },
   {
    "id": "SHOP:187",
    "jp": "「ほかの 道具の{n} 説明を{n} 見ますか？」{wait}",
-   "en": ""
+   "en": "\"Would you like to see the description of another item?\"{wait}"
   },
   {
    "id": "SHOP:188",
    "jp": "「ほかの 道具の{n} 説明を{n} みますかなのねん？」{wait}",
-   "en": ""
+   "en": "\"Want to see another item's description, bombee?\"{wait}"
   },
   {
    "id": "SHOP:189",
    "jp": "「まいど はきもの屋で おます！」{n}{n}{wait}{n}「どないな ご用でっしゃろ？」{n}{n}",
-   "en": ""
+   "en": "\"Hey there! This here's the footwear shop!\"{wait}\"Whaddya need?\""
   },
   {
    "id": "SHOP:190",
    "jp": "「ピョピョン！ ピョピョン！{n} こちらは はきもの屋 です！」{n}{wait}{n}「どんな ご用でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! This is the footwear shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:191",
    "jp": "「ボンビー！{n} ここは はきもの屋 なのねん！」{n}{wait}{n}「どんな ご用なのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Bombee! This is the footwear shop, bombee!\"{wait}\"What can I do for you, bombee?\""
   },
   {
    "id": "SHOP:192",
    "jp": "「いらっしゃーい！ チュチュン！{n} すずめのはきもの屋へ ようこそ！」{n}{wait}{n}「チュチュン！{n} どんなご用ですか？」{n}",
-   "en": ""
+   "en": "\"Welcooome! Chirp chirp! Welcome to the Sparrow Footwear Shop!\"{wait}\"Chirp chirp! What can I do for you?\""
   },
   {
    "id": "SHOP:193",
    "jp": "「チュー！ チュー！{n} こちらは はきもの屋 です！」{n}{wait}{n}「どんな ご用でしょうか？」{n}{n}",
-   "en": ""
+   "en": "\"Squeak squeak! This is the footwear shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:194",
    "jp": "「なにを お求めでっか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What'll it be?\"{wait}"
   },
   {
    "id": "SHOP:195",
    "jp": "「なにを お求めですか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like?\"{wait}"
   },
   {
    "id": "SHOP:196",
    "jp": "「なにを お求めなのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like, bombee?\"{wait}"
   },
   {
    "id": "SHOP:197",
    "jp": "「{str}ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SHOP:198",
    "jp": "「他に お求めの 品は{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else ya want?\""
   },
   {
    "id": "SHOP:199",
    "jp": "「他に お求めの 品は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else you'd like?\""
   },
   {
    "id": "SHOP:200",
    "jp": "「他に お求めの 品は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else you'd like, bombee?\""
   },
   {
    "id": "SHOP:201",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:202",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full, bombee!\"{wait}"
   },
   {
    "id": "SHOP:203",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:204",
    "jp": "「なにを 売ってくれまっか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What'll ya sell me?\"{wait}"
   },
   {
    "id": "SHOP:205",
    "jp": "「なにを 売ってくれますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me?\"{wait}"
   },
   {
    "id": "SHOP:206",
    "jp": "「なにを 売ってくれるのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me, bombee?\"{wait}"
   },
   {
    "id": "SHOP:207",
    "jp": "「なにを 売ってくれますか？{n} チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"What will you sell me? Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:208",
    "jp": "「{str}でっか？{n} {num}両で{n} どないでっか？」",
-   "en": ""
+   "en": "\"{str}, eh? How's {num} ryo sound?\""
   },
   {
    "id": "SHOP:209",
    "jp": "「{str}ですか？{n} {num}両で{n} 売ってくれますか？」",
-   "en": ""
+   "en": "\"{str}, is it? Will you sell it for {num} ryo?\""
   },
   {
    "id": "SHOP:210",
    "jp": "「{str}ですか？{n} {num}両で{n} 売ってくれますか？」",
-   "en": ""
+   "en": "\"{str}, is it? Will you sell it for {num} ryo?\""
   },
   {
    "id": "SHOP:211",
    "jp": "「{str} ですか？{n} {num}両で{n} どうですか？ チュチュン！」",
-   "en": ""
+   "en": "\"{str}, is it? How about {num} ryo? Chirp chirp!\""
   },
   {
    "id": "SHOP:212",
    "jp": "「えらい おおきに！{n} 他になにか 売りまっか？」{n}",
-   "en": ""
+   "en": "\"Thanks a bunch! Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:213",
    "jp": "「ありがとうございます！{n} 他になにか 売りますか？」{n}",
-   "en": ""
+   "en": "\"Thank you! Anything else to sell?\""
   },
   {
    "id": "SHOP:214",
    "jp": "「ありがとうなのねん！{n} 他になにか 売るのねん？」{n}",
-   "en": ""
+   "en": "\"Thank you, bombee! Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:215",
    "jp": "「ありがとうございました！{n} チュチュン！{n} 他になにか 売りますか？」",
-   "en": ""
+   "en": "\"Thank you very much! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:216",
    "jp": "「そりゃあ 残念でんなー！{n} 他になにか 売りまっか？」{n}",
-   "en": ""
+   "en": "\"Aw, that's a shame! Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:217",
    "jp": "「それは 残念です！{n} 他になにか 売りますか？」{n}",
-   "en": ""
+   "en": "\"What a shame! Anything else to sell?\""
   },
   {
    "id": "SHOP:218",
    "jp": "「残念なのねん！{n} 他になにか 売るのねん？」{n}",
-   "en": ""
+   "en": "\"What a shame, bombee! Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:219",
    "jp": "「それは 残念です！{n} チュチュン！{n} 他に なにか 売りますか？」",
-   "en": ""
+   "en": "\"What a shame! Chirp chirp! Anything else to sell?\""
   },
   {
    "id": "SHOP:220",
    "jp": "「お客さん！ それは{n} ちょっと 買えないね！」{n}{wait}{n}「他になにか 売りまっか？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, pal! Can't buy that one!\"{wait}\"Anything else ya wanna sell?\""
   },
   {
    "id": "SHOP:221",
    "jp": "「お客さん！ それは{n} ちょっと 買えません！」{n}{wait}{n}「他になにか 売りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one!\"{wait}\"Anything else to sell?\""
   },
   {
    "id": "SHOP:222",
    "jp": "「お客さん！ それは{n} ちょっと 買えないのねん！」{n}{wait}{n}「他になにか 売るのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Sorry, sir! I can't buy that one, bombee!\"{wait}\"Anything else to sell, bombee?\""
   },
   {
    "id": "SHOP:223",
    "jp": "「チュチュン！ チュチュン！{n} それは ちょっと 買えません！」{n}{wait}{n}「他に なにか 売りますか？」{n}{n}",
-   "en": ""
+   "en": "\"Chirp chirp! Chirp chirp! I can't buy that one!\"{wait}\"Anything else to sell?\""
   },
   {
    "id": "SHOP:224",
    "jp": "「こらこら！ なにも{n} 持ってないのに{n} 売ろうと するな！」{wait}",
-   "en": ""
+   "en": "\"Hey, hey! Don't try to sell me stuff when you've got nothing!\"{wait}"
   },
   {
    "id": "SHOP:225",
    "jp": "「ピョピョン！ピョピョン！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:226",
    "jp": "「ボンビー！{n} なにも 持ってないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! You don't have anything, bombee!\"{wait}"
   },
   {
    "id": "SHOP:227",
    "jp": "「チュチュン！ なにも{n} 持ってないでチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! You haven't got anything, chirp!\"{wait}"
   },
   {
    "id": "SHOP:228",
    "jp": "「チュー！チュー！{n} なにも 持ってませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak! Squeak! You don't have anything!\"{wait}"
   },
   {
    "id": "SHOP:229",
    "jp": "「他に ご用は{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for ya?\""
   },
   {
    "id": "SHOP:230",
    "jp": "「他に ご用は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:231",
    "jp": "「他に ご用は{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:232",
    "jp": "「他に ご用は{n} ございますか？{n} チュチュン！」",
-   "en": ""
+   "en": "\"Is there anything else I can do for you? Chirp chirp!\""
   },
   {
    "id": "SHOP:233",
    "jp": "「また おこしやすー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Come again real soon!\"{wait}"
   },
   {
    "id": "SHOP:234",
    "jp": "「ピョピョン！ ピョピョン！{n} ありがとうございましたー！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Thank you very muuuch!\"{wait}"
   },
   {
    "id": "SHOP:235",
    "jp": "「ボンビー！{n} ありがとうなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! Thank you, bombee!\"{wait}"
   },
   {
    "id": "SHOP:236",
    "jp": "「ありがとうございました！{n} また どうぞ チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Come again! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:237",
    "jp": "「チュー！ チュー！{n} ありがとうございましたー！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Thank you very muuuch!\"{wait}"
   },
   {
    "id": "SHOP:238",
    "jp": "「商品と お手持ちの装備との{n} 差額を 払ってもらえれば{n} 商品が あなたのものに！」{wait}",
-   "en": ""
+   "en": "\"Just pay the difference between the goods and the gear you have on, and the goods are yours!\"{wait}"
   },
   {
    "id": "SHOP:239",
    "jp": "「どなたの 装備を{n} 下取り しますか？」{n}",
-   "en": ""
+   "en": "\"Whose equipment shall we take as a trade-in?\""
   },
   {
    "id": "SHOP:240",
    "jp": "「どなたの 装備を{n} 下取り するのねん？」{n}",
-   "en": ""
+   "en": "\"Whose equipment are we taking in trade, bombee?\""
   },
   {
    "id": "SHOP:241",
    "jp": "「どれに しますか？」{n}{n}",
-   "en": ""
+   "en": "\"Which one will it be?\""
   },
   {
    "id": "SHOP:242",
    "jp": "「どれに するのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Which one will it be, bombee?\""
   },
   {
    "id": "SHOP:243",
    "jp": "「{str} だと{n} {str} を{n} 下取りさせて もらいます！」{wait}{n}「差額は{n} {num}両ですが{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"For {str}, we'll take the {str} as a trade-in!\"{wait}\"The difference is {num} ryo. Will you buy it?\""
   },
   {
    "id": "SHOP:244",
    "jp": "「安いもんなんで{n} ただで 交換ですが{n} よろしいですか？」",
-   "en": ""
+   "en": "\"It's cheap, so we'll swap it for free. Is that all right?\""
   },
   {
    "id": "SHOP:245",
    "jp": "「ありがとうございました！{n} 他に ご用はありますか？」{n}",
-   "en": ""
+   "en": "\"Thank you very much! Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:246",
    "jp": "「ありがとうなのねん！{n} 他に ご用はあるのねん？」{n}",
-   "en": ""
+   "en": "\"Thank you, bombee! Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:247",
    "jp": "「そうですか{n} 他に ご用は ありますか？」{n}",
-   "en": ""
+   "en": "\"I see. Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:248",
    "jp": "「そうですか{n} 他に ご用は あるのねん？」{n}",
-   "en": ""
+   "en": "\"I see. Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:249",
    "jp": "「{str}さんの 装備だと{n} うちの店では 下取りの{n} 必要は ないようです！」{wait}",
-   "en": ""
+   "en": "\"With {str}-san's equipment, there's no need for a trade-in at our shop!\"{wait}"
   },
   {
    "id": "SHOP:250",
    "jp": "「{str}さんの 装備だと{n} うちの店では 下取りの{n} 必要は ないのねん！」{wait}",
-   "en": ""
+   "en": "\"With {str}-san's equipment, there's no need for a trade-in here, bombee!\"{wait}"
   },
   {
    "id": "SHOP:251",
    "jp": "「{str} だと{n} 交換する ものを{n} 装備 してません！」{wait}",
-   "en": ""
+   "en": "\"{str} has nothing equipped to trade in!\"{wait}"
   },
   {
    "id": "SHOP:252",
    "jp": "「{str} だと{n} 交換する ものを{n} 装備 してないのねん！」{wait}",
-   "en": ""
+   "en": "\"{str} has nothing equipped to trade in, bombee!\"{wait}"
   },
   {
    "id": "SHOP:253",
    "jp": "「{num}両で{n} 装備 してあげます！{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"We'll equip it for you for {num} ryo! Will you buy it?\""
   },
   {
    "id": "SHOP:254",
    "jp": "「{num}両で{n} 装備 してあげるのねん！{n} お買いに なりますか？」",
-   "en": ""
+   "en": "\"We'll equip it for you for {num} ryo, bombee! Will you buy it?\""
   },
   {
    "id": "SHOP:255",
    "jp": "「どの 説明を{n} 見ましょうか？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description would you like to see?\"{wait}"
   },
   {
    "id": "SHOP:256",
    "jp": "「どの 説明を{n} みるのねん？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description do you want to see, bombee?\"{wait}"
   },
   {
    "id": "SHOP:257",
    "jp": "「ほかの 道具の{n} 説明を{n} 見ますか？」{wait}",
-   "en": ""
+   "en": "\"Would you like to see the description of another item?\"{wait}"
   },
   {
    "id": "SHOP:258",
    "jp": "「ほかの 道具の{n} 説明を{n} みますかなのねん？」{wait}",
-   "en": ""
+   "en": "\"Want to see another item's description, bombee?\"{wait}"
   },
   {
    "id": "SHOP:259",
@@ -1328,402 +1328,402 @@
   {
    "id": "SHOP:264",
    "jp": "「もうかりまっか！ 両替の{n} といち屋グループでおま！{n} 今日は なんのご用でっか？」",
-   "en": ""
+   "en": "\"Makin' money? This here's the Bank Group, your money changers! What brings ya in today?\""
   },
   {
    "id": "SHOP:265",
    "jp": "「チュー！ 両替の{n} といち屋グループです！{n} 今日は なんのご用でしょう？」",
-   "en": ""
+   "en": "\"Squeak! This is the Bank Group, your money changers! How may I help you today?\""
   },
   {
    "id": "SHOP:266",
    "jp": "「ピョピョン！ 両替の{n} といち屋グループです！{n} 今日は なんのご用でしょう？」",
-   "en": ""
+   "en": "\"Hop hop! This is the Bank Group, your money changers! How may I help you today?\""
   },
   {
    "id": "SHOP:267",
    "jp": "「いらっしゃーい！ 両替の{n} といち屋グループなのねん！{n} 今日は なんのご用なのねん？」",
-   "en": ""
+   "en": "\"Welcooome! This is the Bank Group, your money changers, bombee! What brings you here today, bombee?\""
   },
   {
    "id": "SHOP:268",
    "jp": "「どないしまひょ？」{n}{n}",
-   "en": ""
+   "en": "\"So whaddya wanna do?\""
   },
   {
    "id": "SHOP:269",
    "jp": "「どうしますか？」{n}{n}",
-   "en": ""
+   "en": "\"What would you like to do?\""
   },
   {
    "id": "SHOP:270",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「どうするのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"What do you want to do, bombee?\""
   },
   {
    "id": "SHOP:271",
    "jp": "「いくら おあずけになりまっか？」{n}{n}",
-   "en": ""
+   "en": "\"How much ya puttin' in?\""
   },
   {
    "id": "SHOP:272",
    "jp": "「いくら おあずけになりますか？」{n}{n}",
-   "en": ""
+   "en": "\"How much would you like to deposit?\""
   },
   {
    "id": "SHOP:273",
    "jp": "「いくら あずけるのねん？」{n}{n}",
-   "en": ""
+   "en": "\"How much are you depositing, bombee?\""
   },
   {
    "id": "SHOP:274",
    "jp": "「へえ ほなら{n} {num}両確かに…」{n}{wait}{n}「……」{n}{n}{wait}{n}「ちょっと 待たんかーい！{n} 商売人 なめたら{n} あかんど わりゃ！」{wait}",
-   "en": ""
+   "en": "\"Righty-o, {num} ryo, received in full...\"{wait}\"......\"{wait}\"Now hold on just a minute! Don't you go messin' with a businessman, ya punk!\"{wait}"
   },
   {
    "id": "SHOP:275",
    "jp": "「はい！ では{n} {num}両確かに…」{n}{wait}{n}「……」{n}{n}{wait}{n}「ピョピョン！ ピョピョン！{n} お客さん！{n} 冗談は やめてください！」{wait}",
-   "en": ""
+   "en": "\"Yes! Then, {num} ryo, received in full...\"{wait}\"......\"{wait}\"Hop hop! Hop hop! Sir! Please stop joking around!\"{wait}"
   },
   {
    "id": "SHOP:276",
    "jp": "「はい！ では{n} {num}両確かに…」{n}{wait}{n}「……」{n}{n}{wait}{n}「チュー！ チュー！{n} お客さん！{n} 冗談は やめてください！」{wait}",
-   "en": ""
+   "en": "\"Yes! Then, {num} ryo, received in full...\"{wait}\"......\"{wait}\"Squeak squeak! Sir! Please stop joking around!\"{wait}"
   },
   {
    "id": "SHOP:277",
    "jp": "「じゃあ{n} {num}両確かに…」{n}{wait}{n}「……」{n}{n}{wait}{n}「ボンビー！」{n}{n}{wait}{n}「ボクに お金のことで{n} ウソを ついちゃ{n} いけないのねん！」{wait}{n}「バチが あたるのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"All right, {num} ryo, received in full...\"{wait}\"......\"{wait}\"Bombee!\"{wait}\"Don't you lie to me about money, bombee!\"{wait}\"Heaven will punish you, bombee!\"{wait}"
   },
   {
    "id": "SHOP:278",
    "jp": "「すんません！ お客はん{n} 金庫が もう いっぱいで{n} あずかれまへんねん！」{wait}",
-   "en": ""
+   "en": "\"Sorry, pal! The vault's full up, so I can't take no more!\"{wait}"
   },
   {
    "id": "SHOP:279",
    "jp": "「すみません！ お客さん{n} 金庫が もう いっぱいで{n} あずかれません！」{wait}",
-   "en": ""
+   "en": "\"I'm sorry, sir! The vault is already full, so we can't accept any more!\"{wait}"
   },
   {
    "id": "SHOP:280",
    "jp": "「ゴメンナサイ！{n} 金庫が もう いっぱいで{n} あずかれないのねん！」{wait}",
-   "en": ""
+   "en": "\"Sorry! The vault is already full, so I can't take any more, bombee!\"{wait}"
   },
   {
    "id": "SHOP:281",
    "jp": "「へい！ {num}両{n} 確かに あずかりました！」{n}{wait}",
-   "en": ""
+   "en": "\"Righty-o! {num} ryo, safely deposited!\"{wait}"
   },
   {
    "id": "SHOP:282",
    "jp": "「はい！ {num}両{n} 確かに あずかりました！」{n}{wait}",
-   "en": ""
+   "en": "\"Yes! {num} ryo, safely deposited!\"{wait}"
   },
   {
    "id": "SHOP:283",
    "jp": "「{num}両 確かに{n} いただいたのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"{num} ryo, safely received, bombee!\"{wait}"
   },
   {
    "id": "SHOP:284",
    "jp": "「いくら お引き出しされまっか？」{n}{n}",
-   "en": ""
+   "en": "\"How much ya takin' out?\""
   },
   {
    "id": "SHOP:285",
    "jp": "「いくら お引き出しされますか？」{n}{n}",
-   "en": ""
+   "en": "\"How much would you like to withdraw?\""
   },
   {
    "id": "SHOP:286",
    "jp": "「いくら{n} 引き出すのねん？」{n}",
-   "en": ""
+   "en": "\"How much are you withdrawing, bombee?\""
   },
   {
    "id": "SHOP:287",
    "jp": "「お客はん！{n} お金は 1両も{n} あずかってへんでぇ！」{wait}",
-   "en": ""
+   "en": "\"Hey, pal! Ya ain't got a single ryo deposited here!\"{wait}"
   },
   {
    "id": "SHOP:288",
    "jp": "「お客さん！{n} お金は 1両も{n} あずかってません！」{wait}",
-   "en": ""
+   "en": "\"Sir! You don't have a single ryo deposited!\"{wait}"
   },
   {
    "id": "SHOP:289",
    "jp": "「お客さん！{n} お金は 1両も{n} あずかってないのねん！」{wait}",
-   "en": ""
+   "en": "\"Sir! You don't have a single ryo deposited, bombee!\"{wait}"
   },
   {
    "id": "SHOP:290",
    "jp": "「へい！ おあずかりしてた{n} {num}両でおま！」{n}{wait}",
-   "en": ""
+   "en": "\"Here ya go! The {num} ryo ya left with us!\"{wait}"
   },
   {
    "id": "SHOP:291",
    "jp": "「はい！ おあずかりしてた{n} {num}両です！」{n}{wait}",
-   "en": ""
+   "en": "\"Here you are! The {num} ryo you deposited!\"{wait}"
   },
   {
    "id": "SHOP:292",
    "jp": "「おあずかりしてた{n} {num}両なのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Here's the {num} ryo you deposited, bombee!\"{wait}"
   },
   {
    "id": "SHOP:293",
    "jp": "「どないしまひょ？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"So whaddya wanna do?\"{wait}"
   },
   {
    "id": "SHOP:294",
    "jp": "「どうしますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like to do?\"{wait}"
   },
   {
    "id": "SHOP:295",
    "jp": "「どうするのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What do you want to do, bombee?\"{wait}"
   },
   {
    "id": "SHOP:296",
    "jp": "「なにを あずかりまっか？{n} お客はんの 持ち物から{n} えらんでくんなはれ！」{wait}",
-   "en": ""
+   "en": "\"What'll ya leave with us? Pick somethin' from your belongings!\"{wait}"
   },
   {
    "id": "SHOP:297",
    "jp": "「なにを あずかりますか？{n} お客さんの 持ち物から{n} えらんでください！」{wait}",
-   "en": ""
+   "en": "\"What would you like to leave with us? Please choose from your belongings!\"{wait}"
   },
   {
    "id": "SHOP:298",
    "jp": "「なにを あずかるのねん？{n} お客さんの 持ち物から{n} えらんでほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"What are you leaving with me, bombee? Pick from your belongings, bombee!\"{wait}"
   },
   {
    "id": "SHOP:299",
    "jp": "道具袋を{n}のぞいたが なにも{n}入っていない{wait}",
-   "en": ""
+   "en": "Looked in the item bag, but there was nothing inside.{wait}"
   },
   {
    "id": "SHOP:300",
    "jp": "「そりゃあ 残念でんなー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Aw, that's a shame!\"{wait}"
   },
   {
    "id": "SHOP:301",
    "jp": "「それは 残念です！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What a shame!\"{wait}"
   },
   {
    "id": "SHOP:302",
    "jp": "「とても 残念なのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"That's a real shame, bombee!\"{wait}"
   },
   {
    "id": "SHOP:303",
    "jp": "「すんません！ お客はん{n} 金庫が もう いっぱいで{n} あずかれまへんねん！」{wait}",
-   "en": ""
+   "en": "\"Sorry, pal! The vault's full up, so I can't take no more!\"{wait}"
   },
   {
    "id": "SHOP:304",
    "jp": "「すみません！ お客さん{n} 金庫が もう いっぱいで{n} あずかれません！」{wait}",
-   "en": ""
+   "en": "\"I'm sorry, sir! The vault is already full, so we can't accept any more!\"{wait}"
   },
   {
    "id": "SHOP:305",
    "jp": "「ゴメンナサイ！{n} 金庫が もう いっぱいで{n} あずかれないのねん！」{wait}",
-   "en": ""
+   "en": "\"Sorry! The vault is already full, so I can't take any more, bombee!\"{wait}"
   },
   {
    "id": "SHOP:306",
    "jp": "「へい！ {col4}{str}{col0}{n} 確かに あずかりました！{n} まだ おあずけになりまっか？」",
-   "en": ""
+   "en": "\"Righty-o! {col4}{str}{col0}, safely deposited! Leavin' anything else?\""
   },
   {
    "id": "SHOP:307",
    "jp": "「はい！ {col4}{str}{col0}{n} 確かに あずかりました！{n} まだ おあずけになりますか？」",
-   "en": ""
+   "en": "\"Yes! {col4}{str}{col0}, safely deposited! Will you deposit anything else?\""
   },
   {
    "id": "SHOP:308",
    "jp": "「{col4}{str}{col0}{n} 確かに あずかったのねん！{n} まだ あずけるのねん？」",
-   "en": ""
+   "en": "\"{col4}{str}{col0}, safely deposited, bombee! Leaving anything else, bombee?\""
   },
   {
    "id": "SHOP:309",
    "jp": "「へい！ {col4}{str}{col0}{n} 確かに あずかりました！」{n}{wait}{n}「おや！ 今ので 金庫が{n} いっぱいに なりましたね！」{n}{wait}",
-   "en": ""
+   "en": "\"Righty-o! {col4}{str}{col0}, safely deposited!\"{wait}\"Oh! That just filled up the vault!\"{wait}"
   },
   {
    "id": "SHOP:310",
    "jp": "「はい！ {col4}{str}{col0}{n} 確かに あずかりました！{n}{wait}{n}「おや！ 今ので 金庫が{n} いっぱいに なりましたね！」{n}{wait}",
-   "en": ""
+   "en": "\"Yes! {col4}{str}{col0}, safely deposited!\"{wait}\"Oh! That just filled up the vault!\"{wait}"
   },
   {
    "id": "SHOP:311",
    "jp": "「{str}{n} 確かに あずかったのねん！{n}{wait}{n}「今ので 金庫が{n} いっぱいに なったのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"{str}, safely deposited, bombee!\"{wait}\"That just filled up the vault, bombee!\"{wait}"
   },
   {
    "id": "SHOP:312",
    "jp": "「なにを 持っていきまっか？{n} あずかってるものから{n} えらんでくんなはれ！」{wait}",
-   "en": ""
+   "en": "\"What'll ya take with ya? Pick somethin' from what we're holdin'!\"{wait}"
   },
   {
    "id": "SHOP:313",
    "jp": "「なにを 持っていきますか？{n} あずかってるものから{n} えらんでください！」{wait}",
-   "en": ""
+   "en": "\"What will you take with you? Please choose from the items we're holding!\"{wait}"
   },
   {
    "id": "SHOP:314",
    "jp": "「なにを 持っていくのねん？{n} あずかってるものから{n} えらんでほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"What are you taking, bombee? Pick from what I'm holding, bombee!\"{wait}"
   },
   {
    "id": "SHOP:315",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:316",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full, bombee!\"{wait}"
   },
   {
    "id": "SHOP:317",
    "jp": "「お客はん！{n} 道具は なんも{n} あずかってへんでぇ！」{wait}",
-   "en": ""
+   "en": "\"Hey, pal! We ain't holdin' a single item for ya!\"{wait}"
   },
   {
    "id": "SHOP:318",
    "jp": "「お客さん！{n} 道具は なにも{n} あずかってませんよ！」{wait}",
-   "en": ""
+   "en": "\"Sir! We aren't holding any items for you!\"{wait}"
   },
   {
    "id": "SHOP:319",
    "jp": "「お客さん！{n} 道具は なにも{n} あずかってないのねん！」{wait}",
-   "en": ""
+   "en": "\"Sir! I'm not holding any items for you, bombee!\"{wait}"
   },
   {
    "id": "SHOP:320",
    "jp": "「へい！ おあずかりしてた{n} {col4}{str}{col0}でおま！{n} まだ お引き出し されまっか？」",
-   "en": ""
+   "en": "\"Here ya go! The {col4}{str}{col0} ya left with us! Takin' out anything else?\""
   },
   {
    "id": "SHOP:321",
    "jp": "「はい！ おあずかりしてた{n} {col4}{str}{col0}です！{n} まだ お引き出し されますか？」",
-   "en": ""
+   "en": "\"Here you are! The {col4}{str}{col0} you deposited! Will you withdraw anything else?\""
   },
   {
    "id": "SHOP:322",
    "jp": "「おあずかりしてた{n} {col4}{str}{col0}なのねん！{n} まだ お引き出しするのねん？」",
-   "en": ""
+   "en": "\"Here's the {col4}{str}{col0} you deposited, bombee! Taking out anything else, bombee?\""
   },
   {
    "id": "SHOP:323",
    "jp": "「ほな といち屋グループのしくみを{n} ご説明しまひょ！」{n}{wait}{n}「まずは お金の{n} あずかりかたでんな！」{n}{wait}",
-   "en": ""
+   "en": "\"Right, lemme explain how the Bank Group works!\"{wait}\"First up, depositin' money!\"{wait}"
   },
   {
    "id": "SHOP:324",
    "jp": "「では といち屋グループのしくみを{n} ご説明しましょう！」{n}{wait}{n}「まずは お金の{n} あずかりかたですね！」{n}{wait}",
-   "en": ""
+   "en": "\"Then let me explain how the Bank Group works!\"{wait}\"First, depositing money!\"{wait}"
   },
   {
    "id": "SHOP:325",
    "jp": "「なら といち屋グループのしくみを{n} 説明するのねん！」{n}{wait}{n}「まずは お金の{n} あずかりかたなのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Then I'll explain how the Bank Group works, bombee!\"{wait}\"First, depositing money, bombee!\"{wait}"
   },
   {
    "id": "SHOP:326",
    "jp": "「おあずけは{n} 最高 {num}両まで{n} 100両単位で できまっせ！」{wait}{n}「お引き出しは{n} あずけて もらってるぶん{n} 1両単位で 引き出せまっせ！」{wait}",
-   "en": ""
+   "en": "\"Ya can deposit up to {num} ryo, in units of 100 ryo!\"{wait}\"Withdrawals, ya can take out whatever ya left with us, in units of 1 ryo!\"{wait}"
   },
   {
    "id": "SHOP:327",
    "jp": "「おあずけは{n} 最高 {num}両まで{n} 100両単位で できますよ！」{wait}{n}「お引き出しは{n} あずけて もらってるぶん{n} 1両単位で 引き出せます！」{wait}",
-   "en": ""
+   "en": "\"You can deposit up to {num} ryo, in units of 100 ryo!\"{wait}\"For withdrawals, you can take out whatever you've deposited, in units of 1 ryo!\"{wait}"
   },
   {
    "id": "SHOP:328",
    "jp": "「おあずけは{n} 最高 {num}両まで{n} 100両単位で できるのねん！」{wait}{n}「お引き出しは{n} あずけて もらってるぶん{n} 1両単位で 引き出せるのねん！」{wait}",
-   "en": ""
+   "en": "\"You can deposit up to {num} ryo, in units of 100 ryo, bombee!\"{wait}\"For withdrawals, you can take out whatever you've deposited, in units of 1 ryo, bombee!\"{wait}"
   },
   {
    "id": "SHOP:329",
    "jp": "「長いあいだ あずけてくれりゃ{n} 気持ちばかりやが{n} 利息を つけたるわ！」{wait}{n}「次に 道具の{n} あずかりについてや！」{n}{wait}{n}「お客はんの 持ち物で{n} 手放したくないんやけど めったに{n} 使わへんものって あるやろ！」{wait}{n}「旅に 持って歩くと{n} 荷物んなって じゃまやったら{n} わいんとこに あずけときいな！」{wait}{n}「これには 利息は つきまへんが{n} 手数料も 取りまへん{n} 気軽に あずけとくんなはれ！」{wait}",
-   "en": ""
+   "en": "\"Leave it with us a good long while, and we'll add a little interest, as a token of thanks!\"{wait}\"Next up, keepin' items!\"{wait}\"Ya got stuff ya don't wanna part with, but hardly ever use, right?\"{wait}\"If it's just weighin' ya down on your travels, leave it with me!\"{wait}\"No interest on that, but no fees neither, so leave it with us anytime!\"{wait}"
   },
   {
    "id": "SHOP:330",
    "jp": "「長いあいだ あずけてくれれば{n} 気持ちばかりですが{n} 利息を おつけします！」{wait}{n}「次に 道具の{n} あずかりについてです！」{n}{wait}{n}「お客さんの 持ち物で{n} めったに 使わないものって{n} ありますよね！」{wait}{n}「旅に 持って歩くと{n} 荷物になって じゃまだったら{n} こちらに あずけてください！」{wait}{n}「これには 利息は つきませんが{n} 手数料も 取りません{n} 気軽に あずけてくださいね！」{wait}",
-   "en": ""
+   "en": "\"If you leave it with us a long while, we'll add a little interest, as a token of thanks!\"{wait}\"Next, keeping items!\"{wait}\"I'm sure you have things you hardly ever use!\"{wait}\"If they're just weighing you down on your travels, please leave them with us!\"{wait}\"There's no interest on items, but no fees either, so feel free to leave them anytime!\"{wait}"
   },
   {
    "id": "SHOP:331",
    "jp": "「長いあいだ あずけてくれれば{n} 気持ちばかりだけど{n} 利息を つけるのねん！」{wait}{n}「次に 道具の{n} あずかりなのねん！」{n}{wait}{n}「お客さんの 持ち物で{n} めったに 使わないものが{n} あると 思うのねん！」{wait}{n}「旅に 持って歩くと{n} 荷物になって じゃまだったら{n} ボクのとこに あずけるのねん！」{wait}{n}「これには 利息は つかないけど{n} 手数料も いらないのねん！{n} 気軽に あずけてほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"If you leave it with me a long while, I'll add a little interest, as a token of thanks, bombee!\"{wait}\"Next, keeping items, bombee!\"{wait}\"I bet you have things you hardly ever use, bombee!\"{wait}\"If they're just weighing you down on your travels, leave them with me, bombee!\"{wait}\"There's no interest on items, but no fees either, bombee! Feel free to leave them anytime, bombee!\"{wait}"
   },
   {
    "id": "SHOP:332",
    "jp": "「お金も 道具も お引き出しは{n} といち屋グループの オンラインで{n} どこの 店でも できまっせ！」{wait}",
-   "en": ""
+   "en": "\"Thanks to the Bank Group's online network, ya can withdraw money and items at any of our shops!\"{wait}"
   },
   {
    "id": "SHOP:333",
    "jp": "「お金も 道具も お引き出しは{n} といち屋グループの オンラインで{n} どこの 店でも できますよ！」{wait}",
-   "en": ""
+   "en": "\"Thanks to the Bank Group's online network, you can withdraw money and items at any of our shops!\"{wait}"
   },
   {
    "id": "SHOP:334",
    "jp": "「お金も 道具も お引き出しは{n} といち屋グループの オンラインで{n} どこの 店でも できるのねん！」{wait}",
-   "en": ""
+   "en": "\"Thanks to the Bank Group's online network, you can withdraw money and items at any of our shops, bombee!\"{wait}"
   },
   {
    "id": "SHOP:335",
    "jp": "「まいど おおきに！{n} また おこしやす！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks a bunch! Come again real soon!\"{wait}"
   },
   {
    "id": "SHOP:336",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「ありがとうございました！{n} また どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Thank you very much! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:337",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「ありがとうございました！{n} また どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Thank you very much! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:338",
    "jp": "「まいど ありがとうなのねん！{n} また きてほしいのねん！{n} ボンビー！」{wait}",
-   "en": ""
+   "en": "\"Thanks so much, bombee! Please come again, bombee! Bombee!\"{wait}"
   },
   {
    "id": "SHOP:339",
    "jp": "「他にも なんか{n} ありまっか？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for ya?\""
   },
   {
    "id": "SHOP:340",
    "jp": "「他にも なんか{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:341",
    "jp": "「他にも なにか{n} あるのねん？」{n}",
-   "en": ""
+   "en": "\"Anything else I can do for you, bombee?\""
   },
   {
    "id": "SHOP:342",
    "jp": "毒を消す",
-   "en": ""
+   "en": "Cure Poison"
   },
   {
    "id": "SHOP:343",
    "jp": "全部",
-   "en": ""
+   "en": "All"
   },
   {
    "id": "SHOP:344",
@@ -1743,1067 +1743,1067 @@
   {
    "id": "SHOP:347",
    "jp": "「私は 医者だ！{n} なんの 手当てを{n} してほしいのじゃ？」",
-   "en": ""
+   "en": "\"I am the doctor! Now, what needs treating?\""
   },
   {
    "id": "SHOP:348",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「私は 医者だ！{n} なんの 手当てを{n} してほしいのじゃ？」",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"I am the doctor! Now, what needs treating?\""
   },
   {
    "id": "SHOP:349",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「私は 医者だ！{n} なんの 手当てを{n} してほしいのじゃ？」",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"I am the doctor! Now, what needs treating?\""
   },
   {
    "id": "SHOP:350",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「ボクは 医者なのねん！{n} なんの 手当てを{n} するのねん？」",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"I'm the doctor, bombee! What needs treating, bombee?\""
   },
   {
    "id": "SHOP:351",
    "jp": "「チュチュン！ チュチュン！」{n}{n}{wait}{n}「私は 医者だ！{n} なんの 手当てを{n} してほしいのじゃ？」",
-   "en": ""
+   "en": "\"Chirp chirp! Chirp chirp!\"{wait}\"I am the doctor! Now, what needs treating?\""
   },
   {
    "id": "SHOP:352",
    "jp": "「他に ご用は おありかな？」{n}{n}",
-   "en": ""
+   "en": "\"Is there anything else, hmm?\""
   },
   {
    "id": "SHOP:353",
    "jp": "「他に ご用は あるのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Anything else, bombee?\""
   },
   {
    "id": "SHOP:354",
    "jp": "「なにか あったら 手遅れに{n} ならんうちに 来るようにな！」{n}{wait}",
-   "en": ""
+   "en": "\"If anything happens, come see me before it's too late!\"{wait}"
   },
   {
    "id": "SHOP:355",
    "jp": "「なにか あったら 手遅れに{n} ならないうちに くるのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"If anything happens, come see me before it's too late, bombee!\"{wait}"
   },
   {
    "id": "SHOP:356",
    "jp": "「{str}さんの{n} {str}を ちりょうします！{n} {num}両いただくが よろしいか？」",
-   "en": ""
+   "en": "\"I'll treat {str}-san for {str}! That'll be {num} ryo. Is that all right?\""
   },
   {
    "id": "SHOP:357",
    "jp": "「{str}さんの{n} {str}を ちりょうします！{n} {num}両いただくのねん！」",
-   "en": ""
+   "en": "\"I'll treat {str}-san for {str}! That'll be {num} ryo, bombee!\""
   },
   {
    "id": "SHOP:358",
    "jp": "「さあ！ これで{n} 大丈夫じゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"There we are! All better now!\"{wait}"
   },
   {
    "id": "SHOP:359",
    "jp": "「これで 大丈夫なのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"All better now, bombee!\"{wait}"
   },
   {
    "id": "SHOP:360",
    "jp": "「すまんが お金が{n} 足りんようじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Sorry, but you seem to be short of money!\"{wait}"
   },
   {
    "id": "SHOP:361",
    "jp": "「ボンビー！ お金が{n} 足りないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! You don't have enough money, bombee!\"{wait}"
   },
   {
    "id": "SHOP:362",
    "jp": "「毒を受けている 人は{n} いないようじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Nobody here seems to be poisoned!\"{wait}"
   },
   {
    "id": "SHOP:363",
    "jp": "「毒を受けている 人は{n} いないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Nobody here is poisoned, bombee!\"{wait}"
   },
   {
    "id": "SHOP:364",
    "jp": "「病気にかかっている 人は{n} いないようじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Nobody here seems to be ill!\"{wait}"
   },
   {
    "id": "SHOP:365",
    "jp": "「病気にかかっている 人は{n} いないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Nobody here is ill, bombee!\"{wait}"
   },
   {
    "id": "SHOP:366",
    "jp": "「大けがしている 人は{n} いないようじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Nobody here seems to be injured!\"{wait}"
   },
   {
    "id": "SHOP:367",
    "jp": "「大けがしている 人は{n} いないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Nobody here is injured, bombee!\"{wait}"
   },
   {
    "id": "SHOP:368",
    "jp": "「手当ての 必要は{n} ないようじゃな！」{n}{wait}",
-   "en": ""
+   "en": "\"Looks like no treatment is needed!\"{wait}"
   },
   {
    "id": "SHOP:369",
    "jp": "「手当ての 必要は{n} ないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"No treatment is needed, bombee!\"{wait}"
   },
   {
    "id": "SHOP:370",
    "jp": "「だれの 毒を けすのじゃ？」{n}{n}",
-   "en": ""
+   "en": "\"Whom shall I cure of poison?\""
   },
   {
    "id": "SHOP:371",
    "jp": "「だれの 毒を けすのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Who should I cure of poison, bombee?\""
   },
   {
    "id": "SHOP:372",
    "jp": "「だれの 病気を{n} ちりょうするのじゃ？」{n}",
-   "en": ""
+   "en": "\"Whom shall I treat for illness?\""
   },
   {
    "id": "SHOP:373",
    "jp": "「だれの 病気を{n} ちりょうするのねん？」{n}",
-   "en": ""
+   "en": "\"Who should I treat for illness, bombee?\""
   },
   {
    "id": "SHOP:374",
    "jp": "「だれの 大けがを{n} ちりょうするのじゃ？」{n}",
-   "en": ""
+   "en": "\"Whom shall I treat for injuries?\""
   },
   {
    "id": "SHOP:375",
    "jp": "「だれの 大けがを{n} ちりょうするのねん？」{n}",
-   "en": ""
+   "en": "\"Who should I treat for injuries, bombee?\""
   },
   {
    "id": "SHOP:376",
    "jp": "「{str}さんは どくを{n} うけとらん ようじゃぞ！{n} だれを 手当するんじゃ？」",
-   "en": ""
+   "en": "\"{str}-san doesn't seem to be poisoned! Who needs treating, then?\""
   },
   {
    "id": "SHOP:377",
    "jp": "「{str}さんは どくを{n} うけて ないのねん！{n} だれを 手当するのねん？」",
-   "en": ""
+   "en": "\"{str}-san isn't poisoned, bombee! Who needs treating, bombee?\""
   },
   {
    "id": "SHOP:378",
    "jp": "「{str}さんは びょうきを{n} しとらん ようじゃぞ！{n} だれを ちりょうするんじゃ？」",
-   "en": ""
+   "en": "\"{str}-san doesn't seem to be ill! Who shall I treat, then?\""
   },
   {
    "id": "SHOP:379",
    "jp": "「{str}さんは びょうきを{n} してないのねん！{n} だれを ちりょうするのねん？」",
-   "en": ""
+   "en": "\"{str}-san isn't ill, bombee! Who should I treat, bombee?\""
   },
   {
    "id": "SHOP:380",
    "jp": "「{str}さんは 大けがは{n} しとらん ようじゃぞ！{n} だれを ちりょうするんじゃ？」",
-   "en": ""
+   "en": "\"{str}-san doesn't seem to be injured! Who shall I treat, then?\""
   },
   {
    "id": "SHOP:381",
    "jp": "「{str}さんは 大けがは{n} してないのねん！{n} だれを ちりょうするのねん？」",
-   "en": ""
+   "en": "\"{str}-san isn't injured, bombee! Who should I treat, bombee?\""
   },
   {
    "id": "SHOP:382",
    "jp": "「もう だいじょうぶじゃ！{n} ほかの だれの{n} 毒を けすかね？」",
-   "en": ""
+   "en": "\"All better now! Who else shall I cure of poison?\""
   },
   {
    "id": "SHOP:383",
    "jp": "「もう だいじょうなのねん！{n} ほかの だれの{n} 毒を けすのねん？」",
-   "en": ""
+   "en": "\"All better now, bombee! Who else should I cure of poison, bombee?\""
   },
   {
    "id": "SHOP:384",
    "jp": "「もう だいじょうぶじゃ！{n} ほかの だれの びょうきを{n} ちりょうするかね？」",
-   "en": ""
+   "en": "\"All better now! Who else shall I treat for illness?\""
   },
   {
    "id": "SHOP:385",
    "jp": "「もう だいじょうなのねん！{n} ほかの だれの びょうきを{n} ちりょうするのねん？」",
-   "en": ""
+   "en": "\"All better now, bombee! Who else should I treat for illness, bombee?\""
   },
   {
    "id": "SHOP:386",
    "jp": "「もう だいじょうぶじゃ！{n} ほかに だれを{n} ちりょうするかね？」",
-   "en": ""
+   "en": "\"All better now! Who else shall I treat?\""
   },
   {
    "id": "SHOP:387",
    "jp": "「もう だいじょうぶなのねん！{n} ほかに だれを{n} ちりょうするのねん？」",
-   "en": ""
+   "en": "\"All better now, bombee! Who else should I treat, bombee?\""
   },
   {
    "id": "SHOP:388",
    "jp": "「もう だいじょうぶじゃ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"All better now!\"{wait}"
   },
   {
    "id": "SHOP:389",
    "jp": "「もう だいじょうぶなのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"All better now, bombee!\"{wait}"
   },
   {
    "id": "SHOP:390",
    "jp": "「全部の 手当てだと{n} しんさつに {num}両{n} いただくが よろしいかな？」",
-   "en": ""
+   "en": "\"Treating everything will cost {num} ryo for the examination. Is that all right?\""
   },
   {
    "id": "SHOP:391",
    "jp": "「全部の 手当てだと{n} しんさつに {num}両{n} いただくのねん！」",
-   "en": ""
+   "en": "\"Treating everything will cost {num} ryo for the examination, bombee!\""
   },
   {
    "id": "SHOP:392",
    "jp": "「では 手当てをして{n} しんぜよう！」{n}{wait}",
-   "en": ""
+   "en": "\"Then allow me to treat you!\"{wait}"
   },
   {
    "id": "SHOP:393",
    "jp": "「それでは 手当てを{n} するのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Then I'll do the treatment, bombee!\"{wait}"
   },
   {
    "id": "SHOP:394",
    "jp": "「すまんが お金が{n} 足りんようじゃ！」{n}{wait}{n}「いっこくも はやく 手当を{n} うけたい きもちは わかるが{n} しはらいは きちんとな！」{wait}",
-   "en": ""
+   "en": "\"Sorry, but you seem to be short of money!\"{wait}\"I know you want treatment as soon as possible, but you must pay properly!\"{wait}"
   },
   {
    "id": "SHOP:395",
    "jp": "「ボンビー！ お金が{n} 足りないのねん！」{n}{wait}{n}「ひどいのねん！{n} お金はちゃんと はらって{n} ほしいのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee! You don't have enough money, bombee!\"{wait}\"That's mean, bombee! Please pay properly, bombee!\"{wait}"
   },
   {
    "id": "SHOP:396",
    "jp": "「そのままに しておくと{n} たいへんじゃよ！」{n}{wait}",
-   "en": ""
+   "en": "\"If you leave it like that, you'll be in real trouble!\"{wait}"
   },
   {
    "id": "SHOP:397",
    "jp": "「ボンビー！{n} そのままに しておくと{n} たいへんなのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee! If you leave it like that, you'll be in real trouble, bombee!\"{wait}"
   },
   {
    "id": "SHOP:398",
    "jp": "「へい らっしゃい！{n} 八百屋へようこそ！」{n}{wait}{n}「どんな ご用ですかい？」{n}{n}",
-   "en": ""
+   "en": "\"Hey there, welcome! Welcome to the greengrocer's!\"{wait}\"What can I do for ya?\""
   },
   {
    "id": "SHOP:399",
    "jp": "「どれに しますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Which one'll it be?\"{wait}"
   },
   {
    "id": "SHOP:400",
    "jp": "「{str} かい？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, eh?\""
   },
   {
    "id": "SHOP:401",
    "jp": "「他にも なにか{n} 買うかい？」{n}{wait}",
-   "en": ""
+   "en": "\"Buyin' anything else?\"{wait}"
   },
   {
    "id": "SHOP:402",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:403",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:404",
    "jp": "「なにを 売りますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What're ya sellin'?\"{wait}"
   },
   {
    "id": "SHOP:405",
    "jp": "「{str} だね？{n} {num}両で{n} いいかい？」",
-   "en": ""
+   "en": "\"{str}, huh? {num} ryo okay?\""
   },
   {
    "id": "SHOP:406",
    "jp": "「へい まいど！{n} 他に なにか{n} 売りますか？」",
-   "en": ""
+   "en": "\"Thanks a bunch! Sellin' anything else?\""
   },
   {
    "id": "SHOP:407",
    "jp": "「そいつは 残念！{n} 他に なにか{n} 売りますか？」",
-   "en": ""
+   "en": "\"Aw, that's a shame! Sellin' anything else?\""
   },
   {
    "id": "SHOP:408",
    "jp": "「すまねえな！ お客さん！{n} そいつは ちょっと 買えないね！」{n}{wait}{n}「他に なにか{n} 売りますか？」{n}",
-   "en": ""
+   "en": "\"Sorry, pal! Can't buy that one!\"{wait}\"Sellin' anything else?\""
   },
   {
    "id": "SHOP:409",
    "jp": "「おいおい！ 野菜を{n} 持ってないじゃないか！」{n}{wait}",
-   "en": ""
+   "en": "\"Hey now! You ain't got any vegetables!\"{wait}"
   },
   {
    "id": "SHOP:410",
    "jp": "「他に ご用は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:411",
    "jp": "「まいど どうも！{n} またの おこしを！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks a bunch! Come again!\"{wait}"
   },
   {
    "id": "SHOP:412",
    "jp": "「いらっしゃいませ！{n} 花屋へ ようこそ！」{n}{wait}{n}「どんな ご用ですか？」{n}{n}",
-   "en": ""
+   "en": "\"Welcome! Welcome to the flower shop!\"{wait}\"How may I help you?\""
   },
   {
    "id": "SHOP:413",
    "jp": "「なにを お求めですか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like?\"{wait}"
   },
   {
    "id": "SHOP:414",
    "jp": "「{str} ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SHOP:415",
    "jp": "「他に お求めの 花は{n} ございますか？」{n}{wait}",
-   "en": ""
+   "en": "\"Are there any other flowers you'd like?\"{wait}"
   },
   {
    "id": "SHOP:416",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:417",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:418",
    "jp": "「なにを 売りますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What're ya sellin'?\"{wait}"
   },
   {
    "id": "SHOP:419",
    "jp": "「{str} ですね？{n} {num}両で{n} よろしいでしょうか？」",
-   "en": ""
+   "en": "\"{str}, is it? Would {num} ryo be all right?\""
   },
   {
    "id": "SHOP:420",
    "jp": "「ありがとうございます！{n} 他に なにか{n} お売りになりますか？」",
-   "en": ""
+   "en": "\"Thank you! Will you be selling anything else?\""
   },
   {
    "id": "SHOP:421",
    "jp": "「それは 残念です！{n} 他に なにか{n} お売りになりますか？」",
-   "en": ""
+   "en": "\"What a shame! Will you be selling anything else?\""
   },
   {
    "id": "SHOP:422",
    "jp": "「ごめんなさい！お客さん！{n} それは ちょっと 買えないわ！」{n}{wait}{n}「他に なにか{n} お売りになりますか？」{n}",
-   "en": ""
+   "en": "\"Oh, I'm sorry, sir! I really can't buy that!\"{wait}\"Will you be selling anything else?\""
   },
   {
    "id": "SHOP:423",
    "jp": "「あらあら！ お花を なにも{n} お持ちではないようですね！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh my! You don't seem to have any flowers at all!\"{wait}"
   },
   {
    "id": "SHOP:424",
    "jp": "「他に ご用は{n} ございますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:425",
    "jp": "「ありがとうございました！{n} また おこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:426",
    "jp": "「わたしは{n} 旅の 商人です！」{n}{wait}{n}「なにか{n} ご入用の ものは{n} ありますか？」",
-   "en": ""
+   "en": "\"I am a traveling merchant!\"{wait}\"Is there anything you need?\""
   },
   {
    "id": "SHOP:427",
    "jp": "「なにをお求めですか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like?\"{wait}"
   },
   {
    "id": "SHOP:428",
    "jp": "「{str} ですね？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, is it?\""
   },
   {
    "id": "SHOP:429",
    "jp": "「他に お求めの 品は{n} ございますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else you'd like?\""
   },
   {
    "id": "SHOP:430",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:431",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:432",
    "jp": "「なにを お売りになりますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What would you like to sell?\"{wait}"
   },
   {
    "id": "SHOP:433",
    "jp": "「{str} ですか？{n} {num}両で{n} よろしいでしょうか？」",
-   "en": ""
+   "en": "\"{str}, is it? Would {num} ryo be all right?\""
   },
   {
    "id": "SHOP:434",
    "jp": "「ありがとうございました！{n} 他に なにか{n} お売りになりますか？」",
-   "en": ""
+   "en": "\"Thank you very much! Will you be selling anything else?\""
   },
   {
    "id": "SHOP:435",
    "jp": "「それは 残念です！{n} 他に なにか{n} お売りになりますか？」",
-   "en": ""
+   "en": "\"What a shame! Will you be selling anything else?\""
   },
   {
    "id": "SHOP:436",
    "jp": "「お客さん！{n} それは ちょっと 買えないね！」{n}{wait}{n}「他に なにか{n} お売りになりますか？」{n}",
-   "en": ""
+   "en": "\"Sorry, sir! Can't buy that one!\"{wait}\"Will you be selling anything else?\""
   },
   {
    "id": "SHOP:437",
    "jp": "「こらこら！{n} なにも 持ってないのに{n} 売ろうとするな！」{wait}",
-   "en": ""
+   "en": "\"Hey, hey! Don't try to sell me stuff when you've got nothing!\"{wait}"
   },
   {
    "id": "SHOP:438",
    "jp": "「他に ご用は{n} ございますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:439",
    "jp": "「ありがとうございました！{n} また どうぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"Thank you very much! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:440",
    "jp": "「どの 説明を{n} 見ましょうか？」{n}{wait}",
-   "en": ""
+   "en": "\"Which description would you like to see?\"{wait}"
   },
   {
    "id": "SHOP:441",
    "jp": "「ほかの 道具の{n} 説明を{n} 見ますか？」{wait}",
-   "en": ""
+   "en": "\"Would you like to see the description of another item?\"{wait}"
   },
   {
    "id": "SHOP:442",
    "jp": "「へい らっしゃい！{n} 魚屋へようこそ！」{n}{wait}{n}「どんな ご用ですかい？」{n}{n}",
-   "en": ""
+   "en": "\"Hey there, welcome! Welcome to the fish shop!\"{wait}\"What can I do for ya?\""
   },
   {
    "id": "SHOP:443",
    "jp": "「どれに しますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Which one'll it be?\"{wait}"
   },
   {
    "id": "SHOP:444",
    "jp": "「{str} かい？」{n}{n}",
-   "en": ""
+   "en": "\"{str}, eh?\""
   },
   {
    "id": "SHOP:445",
    "jp": "「他にも なにか{n} 買うかい？」{n}{wait}",
-   "en": ""
+   "en": "\"Buyin' anything else?\"{wait}"
   },
   {
    "id": "SHOP:446",
    "jp": "「桃太郎さん！ 道具袋が{n} いっぱいですよ！」{n}{wait}{n}「他に ご用は{n} ありますかい？」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is full!\"{wait}\"Anything else I can do for ya?\"{wait}"
   },
   {
    "id": "SHOP:447",
    "jp": "しかし… 桃太郎は お金が{n}足りないことに 気がついた！{n}{wait}",
-   "en": ""
+   "en": "But... Momotaro found he didn't have enough money!{wait}"
   },
   {
    "id": "SHOP:448",
    "jp": "「なにを 売りますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"What're ya sellin'?\"{wait}"
   },
   {
    "id": "SHOP:449",
    "jp": "「{str} だね？{n} {num}両で{n} いいかい？」",
-   "en": ""
+   "en": "\"{str}, huh? {num} ryo okay?\""
   },
   {
    "id": "SHOP:450",
    "jp": "「へい まいど！{n} 他に なにか{n} 売りますか？」",
-   "en": ""
+   "en": "\"Thanks a bunch! Sellin' anything else?\""
   },
   {
    "id": "SHOP:451",
    "jp": "「そいつは 残念！{n} 他に なにか{n} 売りますか？」",
-   "en": ""
+   "en": "\"Aw, that's a shame! Sellin' anything else?\""
   },
   {
    "id": "SHOP:452",
    "jp": "「すまねえな！ お客さん！{n} そいつは ちょっと 買えないね！」{n}{wait}{n}「他に なにか{n} 売りますか？」{n}",
-   "en": ""
+   "en": "\"Sorry, pal! Can't buy that one!\"{wait}\"Sellin' anything else?\""
   },
   {
    "id": "SHOP:453",
    "jp": "「おいおい！ 魚を{n} 持ってないじゃないか！」{n}{wait}",
-   "en": ""
+   "en": "\"Hey now! You ain't got any fish!\"{wait}"
   },
   {
    "id": "SHOP:454",
    "jp": "「他に ご用は{n} ありますか？」{n}",
-   "en": ""
+   "en": "\"Is there anything else I can do for you?\""
   },
   {
    "id": "SHOP:455",
    "jp": "「まいど どうも！{n} またの おこしを！」{n}{wait}",
-   "en": ""
+   "en": "\"Thanks a bunch! Come again!\"{wait}"
   },
   {
    "id": "SHOP:456",
    "jp": "「お客さん 早いおつきで！{n} この宿は{num}両で泊まれます{n} 泊まっていきなさるか？」",
-   "en": ""
+   "en": "\"My, you're here early, sir! A night here is {num} ryo. Will you be staying?\""
   },
   {
    "id": "SHOP:457",
    "jp": "「宿債の ふみたおしは{n} はりつけですよ！ お代官さまに{n} うったえますぜ！」{wait}",
-   "en": ""
+   "en": "\"Skip out on your bill and it's the stocks for you! I'll report you to the magistrate!\"{wait}"
   },
   {
    "id": "SHOP:458",
    "jp": "「ではごゆるりと！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Rest well, then!\"{wait}"
   },
   {
    "id": "SHOP:459",
    "jp": "「おはようございます！{n} またおこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Good morning! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:460",
    "jp": "「野宿は からだに{n} 毒ですよ お客さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Sleeping outdoors is bad for your health, sir!\"{wait}"
   },
   {
    "id": "SHOP:461",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「早いおつきなのねん！{n} この宿の料金は{num}両なのねん！{n} 泊まっていくのねん？」",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"You're here early, bombee! A night here costs {num} ryo, bombee! Will you stay, bombee?\""
   },
   {
    "id": "SHOP:462",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「お金が 足りないのねん！{n} ボクらと いっしょで{n} ボンビーなのねん！」{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"You don't have enough money, bombee! You're broke as a Bombee, just like us, bombee!\"{wait}"
   },
   {
    "id": "SHOP:463",
    "jp": "「ゆっくりと{n} くつろいでほしいのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Please relax and take it easy, bombee!\"{wait}"
   },
   {
    "id": "SHOP:464",
    "jp": "「おはようなのねん！{n} また きてほしいのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Good morning, bombee! Please come again, bombee!\"{wait}"
   },
   {
    "id": "SHOP:465",
    "jp": "「野宿は からだに{n} 毒なのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Sleeping outdoors is bad for your health, bombee!\"{wait}"
   },
   {
    "id": "SHOP:466",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「お客さん 早いおつきで！{n} この宿は{num}両で泊まれます{n} 泊まっていきなさるか？」",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"My, you're here early, sir! A night here is {num} ryo. Will you be staying?\""
   },
   {
    "id": "SHOP:467",
    "jp": "「宿債の ふみたおしは{n} はりつけですよ！ お代官さまに{n} うったえますぜ！」{wait}",
-   "en": ""
+   "en": "\"Skip out on your bill and it's the stocks for you! I'll report you to the magistrate!\"{wait}"
   },
   {
    "id": "SHOP:468",
    "jp": "「ではごゆるりと！ チュー！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Rest well, then! Squeak!\"{wait}"
   },
   {
    "id": "SHOP:469",
    "jp": "「おはようございます！{n} またおこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Good morning! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:470",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「野宿は からだに{n} 毒ですよ お客さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Sleeping outdoors is bad for your health, sir!\"{wait}"
   },
   {
    "id": "SHOP:471",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「お客さん 早いおつきで！{n} この宿は{num}両で泊まれます{n} 泊まっていきなさるか？」",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"My, you're here early, sir! A night here is {num} ryo. Will you be staying?\""
   },
   {
    "id": "SHOP:472",
    "jp": "「宿債の ふみたおしは{n} はりつけですよ！ お代官さまに{n} うったえますぜ！」{wait}",
-   "en": ""
+   "en": "\"Skip out on your bill and it's the stocks for you! I'll report you to the magistrate!\"{wait}"
   },
   {
    "id": "SHOP:473",
    "jp": "「ではごゆるりと！ ピョピョン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Rest well, then! Hop hop!\"{wait}"
   },
   {
    "id": "SHOP:474",
    "jp": "「おはようございます！{n} またおこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Good morning! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:475",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「野宿は からだに{n} 毒ですよ お客さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Sleeping outdoors is bad for your health, sir!\"{wait}"
   },
   {
    "id": "SHOP:476",
    "jp": "「チュチュン！ 一晩{n} {num}両ですけど お泊まりに{n} なりますか？」",
-   "en": ""
+   "en": "\"Chirp chirp! It's {num} ryo a night. Will you be staying?\""
   },
   {
    "id": "SHOP:477",
    "jp": "「宿債の ふみたおしは{n} はりつけですよ！ お代官さまに{n} うったえますよ！ チュチュン！」{wait}",
-   "en": ""
+   "en": "\"Skip out on your bill and it's the stocks for you! I'll report you to the magistrate! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:478",
    "jp": "「ではごゆるりと！ チュチュン！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Rest well, then! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:479",
    "jp": "「おはようございます！{n} また おこしください！」{n}{wait}{n}「がんばってね！{n} 桃太郎さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Good morning! Please come again!\"{wait}\"Good luck, Momotaro-san!\"{wait}"
   },
   {
    "id": "SHOP:480",
    "jp": "「野宿は からだに{n} 毒ですよ お客さん！」{n}{wait}",
-   "en": ""
+   "en": "\"Sleeping outdoors is bad for your health, sir!\"{wait}"
   },
   {
    "id": "SHOP:481",
    "jp": "「旅の記録を つけるかね？」{n}{n}",
-   "en": ""
+   "en": "\"Shall I save your journey, then?\""
   },
   {
    "id": "SHOP:482",
    "jp": "「どこに 記録するんじゃ？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where shall I save it?\"{wait}"
   },
   {
    "id": "SHOP:483",
    "jp": "「記録その{num}に 記録するが{n} よろしいかな？」{n}",
-   "en": ""
+   "en": "\"I'll save to save slot {num}. Is that all right?\""
   },
   {
    "id": "SHOP:484",
    "jp": "「ふむ！ 確かに{n} 記録その{num}に{n} 記録しておいたぞ！」{wait}",
-   "en": ""
+   "en": "\"Hmm! There, I've saved it to save slot {num}!\"{wait}"
   },
   {
    "id": "SHOP:485",
    "jp": "「日を あらためれば{n} また 新しい 糸口が{n} 見つかるじゃろう！」{wait}{n}「無理は 禁物じゃぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Come back another day, and you may find a new lead!\"{wait}\"Don't push yourself too hard!\"{wait}"
   },
   {
    "id": "SHOP:486",
    "jp": "「そうか！ 記録しないぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I see! Then I won't save!\"{wait}"
   },
   {
    "id": "SHOP:487",
    "jp": "「いつもの 記録その{num}に{n} 記録しても よいかな？」{n}",
-   "en": ""
+   "en": "\"Shall I save to your usual save slot {num}?\""
   },
   {
    "id": "SHOP:488",
    "jp": "「どこに 記録するんじゃ？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where shall I save it?\"{wait}"
   },
   {
    "id": "SHOP:489",
    "jp": "「そうか！ 記録しないぞ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"I see! Then I won't save!\"{wait}"
   },
   {
    "id": "SHOP:490",
    "jp": "「記録する 場所を{n} えらぶのじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"Choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:491",
    "jp": "「記録その{num}が{n} みあたらんぞ！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't find save slot {num}!\"{wait}"
   },
   {
    "id": "SHOP:492",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": ""
+   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:493",
    "jp": "「メモリーカードが {n} 抜き差しされておるぞ！」{n}{wait}{n}「記録する 場所を{n} えらぶのじゃ！」{n}{wait}",
-   "en": ""
+   "en": "\"The Memory Card has been removed or inserted!\"{wait}\"Choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:494",
    "jp": "「書き込みに 失敗しました！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Saving failed!\"{wait}"
   },
   {
    "id": "SHOP:495",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「旅の記録を つけるのねん？」{n}{n}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Will you save your journey, bombee?\""
   },
   {
    "id": "SHOP:496",
    "jp": "「どこに 記録するのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where should I save it, bombee?\"{wait}"
   },
   {
    "id": "SHOP:497",
    "jp": "「記録その{num}に 記録するけど{n} よかったのねん？」{n}",
-   "en": ""
+   "en": "\"I'll save to save slot {num}. Is that okay, bombee?\""
   },
   {
    "id": "SHOP:498",
    "jp": "「確かに 記録その{num}に{n} 記録しておいたのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Saved to save slot {num}, safe and sound, bombee!\"{wait}"
   },
   {
    "id": "SHOP:499",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「日を あらためれば{n} また 新しい 糸口が{n} 見つかるのねん！」{wait}{n}「無理は 禁物なのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"Come back another day, and you may find a new lead, bombee!\"{wait}\"Don't push yourself too hard, bombee!\"{wait}"
   },
   {
    "id": "SHOP:500",
    "jp": "「じゃあ 記録しないのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then I won't save, bombee!\"{wait}"
   },
   {
    "id": "SHOP:501",
    "jp": "「いつもの 記録その{num}に{n} 記録しても いいのねん？」{n}",
-   "en": ""
+   "en": "\"Can I save to your usual save slot {num}, bombee?\""
   },
   {
    "id": "SHOP:502",
    "jp": "「どこに 記録するのねん？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where should I save it, bombee?\"{wait}"
   },
   {
    "id": "SHOP:503",
    "jp": "「じゃあ 記録しないのねん！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then I won't save, bombee!\"{wait}"
   },
   {
    "id": "SHOP:504",
    "jp": "「記録する 場所を{n} えらぶのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Choose where to save, bombee!\"{wait}"
   },
   {
    "id": "SHOP:505",
    "jp": "「記録その{num}が{n} みあたらないのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't find save slot {num}, bombee!\"{wait}"
   },
   {
    "id": "SHOP:506",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": ""
+   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:507",
    "jp": "「ボンビー！」{n}{n}{wait}{n}「メモリーカードが{n} 抜き差しされてるのねん！」{n}{wait}{n}「記録する 場所を{n} えらぶのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee!\"{wait}\"The Memory Card has been removed or inserted, bombee!\"{wait}\"Choose where to save, bombee!\"{wait}"
   },
   {
    "id": "SHOP:508",
    "jp": "「ボンビー！{n} 書き込みに 失敗したのねん！」{n}{wait}",
-   "en": ""
+   "en": "\"Bombee! Saving failed, bombee!\"{wait}"
   },
   {
    "id": "SHOP:509",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「旅の記録を つけますか？」{n}{n}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Would you like to save your journey?\""
   },
   {
    "id": "SHOP:510",
    "jp": "「どこに 記録しますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where would you like to save?\"{wait}"
   },
   {
    "id": "SHOP:511",
    "jp": "「記録その{num}に 記録しますが{n} いいですか？」{n}",
-   "en": ""
+   "en": "\"I'll save to save slot {num}. Is that okay?\""
   },
   {
    "id": "SHOP:512",
    "jp": "「確かに 記録その{num}に{n} 記録しておきました！」{n}",
-   "en": ""
+   "en": "\"Your journey has been saved to save slot {num}!\""
   },
   {
    "id": "SHOP:513",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「日を あらためれば{n} また 新しい 糸口が{n} 見つかるでしょう！」{wait}{n}「無理は 禁物ですよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"Come back another day, and you may find a new lead!\"{wait}\"Don't push yourself too hard!\"{wait}"
   },
   {
    "id": "SHOP:514",
    "jp": "「では 記録しません！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then I won't save!\"{wait}"
   },
   {
    "id": "SHOP:515",
    "jp": "「いつもの 記録その{num}に{n} 記録しても いいですか？」{n}",
-   "en": ""
+   "en": "\"May I save to your usual save slot {num}?\""
   },
   {
    "id": "SHOP:516",
    "jp": "「どこに 記録しますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where would you like to save?\"{wait}"
   },
   {
    "id": "SHOP:517",
    "jp": "「では 記録しません！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then I won't save!\"{wait}"
   },
   {
    "id": "SHOP:518",
    "jp": "「記録する 場所を{n} えらんでください！」{n}{wait}",
-   "en": ""
+   "en": "\"Please choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:519",
    "jp": "「記録その{num}が{n} みあたりません！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't find save slot {num}!\"{wait}"
   },
   {
    "id": "SHOP:520",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": ""
+   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:521",
    "jp": "「チュー！ チュー！」{n}{n}{wait}{n}「メモリーカードが{n} 抜き差しされています！」{n}{wait}{n}「記録する 場所を{n} えらんでください！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak!\"{wait}\"The Memory Card has been removed or inserted!\"{wait}\"Please choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:522",
    "jp": "「チュー！ チュー！{n} 書き込みに 失敗しました！」{n}{wait}",
-   "en": ""
+   "en": "\"Squeak squeak! Saving failed!\"{wait}"
   },
   {
    "id": "SHOP:523",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「旅の記録を つけますか？」{n}{n}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Would you like to save your journey?\""
   },
   {
    "id": "SHOP:524",
    "jp": "「どこに 記録しますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where would you like to save?\"{wait}"
   },
   {
    "id": "SHOP:525",
    "jp": "「記録その{num}に 記録しますが{n} いいですか？」{n}",
-   "en": ""
+   "en": "\"I'll save to save slot {num}. Is that okay?\""
   },
   {
    "id": "SHOP:526",
    "jp": "「確かに 記録その{num}に{n} 記録しておきました！」{n}",
-   "en": ""
+   "en": "\"Your journey has been saved to save slot {num}!\""
   },
   {
    "id": "SHOP:527",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「日を あらためれば{n} また 新しい 糸口が{n} 見つかるでしょう！」{wait}{n}「無理は 禁物ですよ！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"Come back another day, and you may find a new lead!\"{wait}\"Don't push yourself too hard!\"{wait}"
   },
   {
    "id": "SHOP:528",
    "jp": "「では 記録しません！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then I won't save!\"{wait}"
   },
   {
    "id": "SHOP:529",
    "jp": "「いつもの 記録その{num}に{n} 記録しても いいですか？」{n}",
-   "en": ""
+   "en": "\"May I save to your usual save slot {num}?\""
   },
   {
    "id": "SHOP:530",
    "jp": "「どこに 記録しますか？」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Where would you like to save?\"{wait}"
   },
   {
    "id": "SHOP:531",
    "jp": "「では 記録しません！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Then I won't save!\"{wait}"
   },
   {
    "id": "SHOP:532",
    "jp": "「記録する 場所を{n} えらんでください！」{n}{wait}",
-   "en": ""
+   "en": "\"Please choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:533",
    "jp": "「記録その{num}が{n} みあたりません！」{n}{wait}",
-   "en": ""
+   "en": "\"I can't find save slot {num}!\"{wait}"
   },
   {
    "id": "SHOP:534",
    "jp": "記録その{num}を{n}セーブしています{n}メモリーカードを 抜かないでください",
-   "en": ""
+   "en": "Saving to save slot {num}... Please do not remove the Memory Card."
   },
   {
    "id": "SHOP:535",
    "jp": "「ピョピョン！ ピョピョン！」{n}{n}{wait}{n}「メモリーカードが{n} 抜き差しされています！」{n}{wait}{n}「記録する 場所を{n} えらんでください！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop!\"{wait}\"The Memory Card has been removed or inserted!\"{wait}\"Please choose where to save!\"{wait}"
   },
   {
    "id": "SHOP:536",
    "jp": "「ピョピョン！ ピョピョン！{n} 書き込みに 失敗しました！」{n}{wait}",
-   "en": ""
+   "en": "\"Hop hop! Hop hop! Saving failed!\"{wait}"
   },
   {
    "id": "SHOP:537",
    "jp": "「いらっしゃーい！ ここは{n} すずめのつづら屋 でーす！」{n}{wait}",
-   "en": ""
+   "en": "\"Welcooome! This is the Sparrow Basket Shop!\"{wait}"
   },
   {
    "id": "SHOP:538",
    "jp": "「{num}両 払って つづらを{n} あけると いろんな 賞品が{n} 当たります！ チュチュン！」{wait}",
-   "en": ""
+   "en": "\"Pay {num} ryo and open a basket to win all sorts of prizes! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:539",
    "jp": "「{num}両払って あそんで{n} いきますか？ チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"Will you pay {num} ryo and play? Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:540",
    "jp": "「さあ どれにしますか？」{n}{n}",
-   "en": ""
+   "en": "\"Now, which one will it be?\""
   },
   {
    "id": "SHOP:541",
    "jp": "「{col4}{str}{col0} が 当たりました{n} チュチュン！」{n}{wait}",
-   "en": ""
+   "en": "\"You won the {col4}{str}{col0}! Chirp chirp!\"{wait}"
   },
   {
    "id": "SHOP:542",
    "jp": "「チュチュン！ もう一度{n} {num}両払って{n} ちょうせんしますか？」",
-   "en": ""
+   "en": "\"Chirp chirp! Pay {num} ryo and try again?\""
   },
   {
    "id": "SHOP:543",
    "jp": "「チュチュン！{n} お金が たりません！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! You don't have enough money!\"{wait}"
   },
   {
    "id": "SHOP:544",
    "jp": "「どの 説明を{n} 見ますか？{n} チュチュン！」",
-   "en": ""
+   "en": "\"Which description would you like to see? Chirp chirp!\""
   },
   {
    "id": "SHOP:545",
    "jp": "「他の 説明も{n} 見ますか？{n} チュチュン！」",
-   "en": ""
+   "en": "\"Would you like to see another description? Chirp chirp!\""
   },
   {
    "id": "SHOP:546",
    "jp": "「チュチュン！ また{n} おこしください！」{n}{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! Please come again!\"{wait}"
   },
   {
    "id": "SHOP:547",
    "jp": "「チュチュン！{n} でも 桃太郎さんは{n} 道具袋が いっぱいですよ！」{wait}",
-   "en": ""
+   "en": "\"Chirp chirp! But Momotaro-san, your item bag is full!\"{wait}"
   },
   {
    "id": "SHOP:548",
    "jp": "「いらっしゃいませ！{n} めずらしい玉を そろえた{n} お店 玉屋です！」{wait}{n}「玉屋っていっても{n} 花火を 作ってるわけじゃ{n} ないですからね！」",
-   "en": ""
+   "en": "\"Welcome! This is Tamaya, the shop with a fine selection of rare orbs!\"{wait}\"Mind you, even with a name like Tamaya, we don't make fireworks!\""
   },
   {
    "id": "SHOP:549",
    "jp": "「いらっしゃいませ！{n} ふしぎな 仙豆の{n} お店 最大屋です！」{wait}{n}「1000年に 一つしか{n} とれない きちょうな 仙豆！」{n}{wait}{n}「あなたの 力を{n} 増やすことが できちゃいます！」{n}",
-   "en": ""
+   "en": "\"Welcome! This is the Max Shop, home of the mysterious Beans!\"{wait}\"Precious Beans, harvested only once every 1000 years!\"{wait}\"They can boost your power!\""
   },
   {
    "id": "SHOP:550",
    "jp": "「いらっしゃいませ！{n} 心の数が 増える 本の{n} お店 こころ書房です！」{wait}{n}「人生 いくつに なっても{n} お勉強！」{n}{wait}{n}「読書をすれば 心 豊かに！{n} あなたの 心を{n} 増やすことが できます！」",
-   "en": ""
+   "en": "\"Welcome! This is Heart Books, selling books that raise your hearts!\"{wait}\"No matter how old you get, keep on studying!\"{wait}\"Reading enriches the heart! It can raise your hearts!\""
   },
   {
    "id": "SHOP:551",
    "jp": "「さあ どの玉を{n} お買い上げですか！」{n}{wait}",
-   "en": ""
+   "en": "\"Now, which orb will you be buying?\"{wait}"
   },
   {
    "id": "SHOP:552",
    "jp": "「おひとついかがですか！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"How about one?\"{wait}"
   },
   {
    "id": "SHOP:553",
    "jp": "「いっさついかがですか！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"How about a book?\"{wait}"
   },
   {
    "id": "SHOP:554",
    "jp": "「この玉は お役に{n} 立ちますよ！」{n}{wait}{n}「鬼たいじ{n} がんばって くださいね！{n}{wait}",
-   "en": ""
+   "en": "\"This orb will come in handy!\"{wait}\"Good luck with your oni slaying!\"{wait}"
   },
   {
    "id": "SHOP:555",
    "jp": "「さすがに お目が 高い！」{n}{n}{wait}{n}「こんな きちょうな もの{n} なかなか てに{n} はいりませんからね！」{wait}",
-   "en": ""
+   "en": "\"You have a fine eye!\"{wait}\"Something this precious is very hard to come by!\"{wait}"
   },
   {
    "id": "SHOP:556",
    "jp": "「さあ どうぞ！{n} じっくり 読んでくださいね！」{n}{wait}",
-   "en": ""
+   "en": "\"Here you go! Take your time reading it!\"{wait}"
   },
   {
    "id": "SHOP:557",
    "jp": "「桃太郎さん！ もう{n} 道具袋が いっぱいですよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Momotaro-san! Your item bag is already full!\"{wait}"
   },
   {
    "id": "SHOP:558",
    "jp": "「おや お客さん！{n} お金が 足りませんよ！」{n}{wait}",
-   "en": ""
+   "en": "\"Oh dear, sir! You don't have enough money!\"{wait}"
   },
   {
    "id": "SHOP:559",
    "jp": "「また おこし ください！」{n}{n}{wait}",
-   "en": ""
+   "en": "\"Please come again!\"{wait}"
   }
  ]
 }
