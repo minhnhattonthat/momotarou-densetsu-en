@@ -38,7 +38,7 @@ batch needs into `build/terms_<batch>.txt`.
 | ボンビー | Bombee | | poverty god from Momotetsu; tic なのねん | Bonby, Bonbee |
 | キングボンビー | King Bombee | | | |
 | 阿修羅 | Ashura | | | Asura |
-| えんま大王 / 閻魔 | Great King Enma / Enma | | | Emma |
+| えんま大王 / 閻魔 / えんま | Great King Enma / Enma / Enma | | えんま様 -> Enma-sama | Emma, Lord Enma |
 | 酒呑童子 | Shuten-doji | | | |
 | 風神 / 雷神 | Fujin / Raijin | | wind god / thunder god | |
 | 乙姫 | Otohime | | Ryugu Palace | |

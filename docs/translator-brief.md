@@ -32,8 +32,10 @@ no tabs inside the English, no Japanese or fullwidth characters, no `\uXXXX`, no
 
 ## Validate
 Run `python -X utf8 tools/batches.py check <batch>` from the repo root and fix every ERROR until it prints OK.
-WARN lines flag a glossary term from the JP missing in your English: fix it unless a pronoun or rephrase is clearly
-better, and then mention the id in your report.
+A glossary term from the JP missing in your English, or a character's honorific dropped (桃太郎さん without
+"Momotaro-san"), is an ERROR. When the JP word is not the glossary sense (a pun, a tic, a common noun like お地蔵さま),
+keep your English and report `GLOSSARY: id term reason`; the controller reviews it and lists it in
+`script/glossary_ok.txt`.
 
 ## Style
 - Faithful: keep the information and order of ideas; adapt idiom, not meaning. Don't add details the Japanese doesn't

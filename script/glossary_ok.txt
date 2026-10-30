@@ -1,0 +1,32 @@
+# Reviewed exceptions to the glossary/honorific errors (tools/batches.py problems): id<TAB>JP term<TAB>reason
+BM000_1:024	守備力	message split over two strings; "Defense" is in the next one (BM000_1:025)
+FONT_7:247	タコ	monster name pun タコ焼き -> "Takoyaki Oni"
+HMAP26_66:066	記録	"keep a record of steps", not saving the game
+HMAP26_66:067	記録	"keep a record of steps", not saving the game
+HMAP26_66:068	記録	"keep a record of steps", not saving the game
+SUIEI_9:004	記録	swimming race record, not saving the game
+OMAP00_47:012	かぶ	株 (stocks) pun, not the turnip item
+SMAP13_37:011	タイ	めでタイ pun rebuilt as "whale of a time"
+SMAP13_37:080	タイ	タイガース pun rebuilt as stripes/spots
+SMAP06_36:079	大木	a big cherry tree, not the Great Tree place
+SMAP09_33:058	カメ	Turtle's tic カメ カメ -> "Kame kame!" (docs/style-reference.md)
+SMAP09_33:059	カメ	Turtle's tic
+SMAP09_33:060	カメ	Turtle's tic
+SMAP15_37:057	カメ	Turtle's tic
+SMAP15_37:058	カメ	Turtle's tic
+SMAP21_33:011	カメ	Turtle's tic
+SMAP21_33:012	カメ	Turtle's tic
+SMAP21_33:016	カメ	Turtle's tic
+SMAP21_33:017	カメ	Turtle's tic
+SMAP21_33:020	カメ	Turtle's tic
+SMAP06_36:003	サルさん	おサルさん: "a friendly monkey" (any monkey, not the companion's name)
+DMAP09_29:001	サルさん	おサルさんや: "Monkey, my friend" (common-noun address, D1 keeps honorifics on names)
+SMAP15_37:065	村長さん	title, not a name: "the Chief"
+OMAP00_49:001	地蔵さま	お地蔵さま: Jizo statues (objects of worship), honorific folded into "the Jizo"
+OMAP00_49:032	地蔵さま	Jizo statues
+PT00_5:019	地蔵さま	Jizo statues ("the honorable Jizo")
+SMAP01_33:014	地蔵さん	Jizo statues
+SMAP01_33:075	地蔵さま	Jizo statues
+SMAP02_33:041	地蔵さま	Jizo statues
+SMAP02_33:065	地蔵さん	Jizo statues
+SMAP02_33:069	地蔵さん	Jizo statues

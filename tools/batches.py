@@ -26,6 +26,9 @@ ORDER = ['03FONT/FONT_7', '03FONT/FONT_6', '03FONT/FONT_5', '03FONT/FONT_10', '0
 JA = re.compile(r'[぀-ヿ㐀-鿿＀-￯〇～…・]')
 TOKEN = re.compile(r'\{[^}]*\}')
 FREE = {'{n}', '{wait}'}                       # layout tokens the English may place freely
+# FONT_5 holds plain words beside the place names (yes/no, this/that, party, weapons...): not binding terms
+FONT5_WORDS = {'並び', '金の', 'あみだ', 'ぶき', 'ぼうぐ', 'はきもの', '仲間', '村人', '大文字', '焼き', '大文字焼き', 'はい',
+               'いいえ', 'ほほえみ', 'だじゃれ', 'ピョピョン', '兄弟', '流れ星', 'あそぶ', 'あれ', 'それ', 'これ'}
 
 
 def rank(rel):
@@ -113,23 +116,25 @@ def split(argv):
 
 
 def glossary():
-    """[(jp, en, avoid list)] from glossary.md tables, plus the name tables' English (items, techniques, monsters,
-    places, party: binding once translated)."""
-    rows = []
+    """[(jp, en, avoid list, person)] from glossary.md tables, plus the name tables' English (items, techniques,
+    monsters, places, party: binding once translated). person: a ## Characters row (its honorifics are kept, D1)."""
+    rows, section = [], ''
     for line in (ROOT / 'glossary.md').read_text(encoding='utf-8').splitlines():
+        section = line if line.startswith('## ') else section
         cells = [c.strip() for c in line.strip().strip('|').split('|')]
         if line.startswith('|') and len(cells) >= 2 and JA.search(cells[0]) and cells[1]:
             avoid = [a.strip() for a in cells[4].split(',') if a.strip()] if len(cells) > 4 else []
             jps = [re.sub(r'\(.*?\)', '', j).strip() for j in cells[0].split('/')]
             ens = [e.strip() for e in cells[1].split('/')]
             for k, j in enumerate(jps):          # 'A / B' | 'a / b' pair up; else every JP form -> the first EN
-                rows.append((j, ens[k] if len(ens) == len(jps) else ens[0], avoid))
+                rows.append((j, ens[k] if len(ens) == len(jps) else ens[0], avoid, section == '## Characters'))
     names = {'item', 'tech', 'monster', 'party', 'place'}
     for p, doc in docs():
         if p.stem in ('FONT_5', 'FONT_6', 'FONT_7'):
             for s in doc['strings']:
-                if s.get('en') and s.get('jp') and layout.box(s['id'], s['jp']) in names:
-                    rows.append((s['jp'], s['en'], []))
+                if s.get('en') and s.get('jp') and layout.box(s['id'], s['jp']) in names \
+                        and s['jp'] not in FONT5_WORDS:
+                    rows.append((s['jp'], s['en'], [], layout.box(s['id'], s['jp']) == 'party'))
     return rows
 
 
@@ -159,16 +164,34 @@ def terms(names):
     (ROOT / 'build').mkdir(exist_ok=True)
     for name in names:
         jps = ' '.join(r[4] for r in read_tsv(TL / f'{name}.tsv'))
-        rows = sorted({(j, e) for j, e, _ in gl if has_term(jps, j)})
+        rows = sorted({(j, e) for j, e, *_ in gl if has_term(jps, j)})
         (ROOT / f'build/terms_{name}.txt').write_text(
             ''.join(f'{j}\t{e}\n' for j, e in rows) or '(no glossary terms in this batch)\n', encoding='utf-8',
             newline='\n')
 
 
-def problems(jp, en, box, gl):
-    errs, warns = [], []
+HONOR = {'さん': 'san', 'サン': 'san', 'さま': 'sama', 'サマ': 'sama', '様': 'sama', 'くん': 'kun', '君': 'kun', 'ちゃん': 'chan', '殿': 'dono',
+         'どの': 'dono'}
+GLOSS_OK = ROOT / 'script/glossary_ok.txt'
+
+
+def glossary_ok():
+    """{id: {JP term}}: reviewed per-string exceptions to the glossary/honorific errors (id<TAB>term<TAB>reason)."""
+    ok = {}
+    if GLOSS_OK.exists():
+        for ln in GLOSS_OK.read_text(encoding='utf-8').splitlines():
+            if ln.strip() and not ln.startswith('#'):
+                i, term, reason = ln.split('\t')
+                assert reason.strip(), ln
+                ok.setdefault(i, set()).add(term)
+    return ok
+
+
+def problems(jp, en, box, gl, ok=()):
+    """Error list. ok: JP terms (or term+honorific) reviewed as fine to leave out of this string."""
+    errs = []
     if not en.strip():
-        return ['empty English'], warns
+        return ['empty English']
     bad = sorted({c for c in TOKEN.sub('', en) if not ' ' <= c <= '~' or c in '{}'})
     if bad:
         errs.append(f'characters outside printable ASCII or stray braces: {bad}')
@@ -186,16 +209,24 @@ def problems(jp, en, box, gl):
         errs.append('ordinal suffix glued to a variable (write "No. {num}")')
     _, lp = layout.layout(en, jp, box)
     errs += lp
-    for j, e, avoid in gl:
+    plain = TOKEN.sub('', jp)
+    for j, e, avoid, person in gl:
         for a_ in avoid:
             if re.search(rf'\b{re.escape(a_)}\b', en):
                 errs.append(f'glossary: "{a_}" is an avoided spelling of {j} -> {e}')
-        if has_term(TOKEN.sub('', jp), j) and e.lower() not in en.lower():
-            warns.append(f'glossary: {j} -> {e} not in the English')
-    return errs, warns
+        if not has_term(plain, j):
+            continue
+        if e.lower() not in en.lower() and j not in ok:
+            errs.append(f'glossary: {j} -> {e} not in the English (fix, or list it in script/glossary_ok.txt)')
+        for m in re.finditer(re.escape(j) + '(' + '|'.join(HONOR) + ')', plain) if person else ():
+            want = f'{e.split()[-1]}-{HONOR[m.group(1)]}'          # D1: honorifics kept, hyphenated
+            if (m.start() == 0 or kind(plain[m.start() - 1]) != kind(j[0])) and want.lower() not in en.lower() \
+                    and m.group(0) not in ok:
+                errs.append(f'honorific: {m.group(0)} -> {want} not in the English')
+    return errs
 
 
-def check(name, quiet=False):
+def check(name):
     rows = read_tsv(TL / f'{name}.tsv')
     out_path = TL / f'{name}.out.tsv'
     if not out_path.exists():
@@ -219,25 +250,20 @@ def check(name, quiet=False):
         errs.append(f'{i}: missing')
     for i in sorted(set(got) - set(want)):
         errs.append(f'{i}: not in this batch')
-    nwarn = 0
+    ok = glossary_ok()
     for i in want:
         if i in got and i in us:
-            e, w = problems(us[i]['jp'], got[i], us[i]['box'], gl)
-            errs += [f'{i}: {x}' for x in e]
-            if not quiet:
-                for x in w:
-                    print(f'WARN {i}: {x}')
-            nwarn += len(w)
+            errs += [f'{i}: {x}' for x in problems(us[i]['jp'], got[i], us[i]['box'], gl, ok.get(i, ()))]
     for e in errs:
         print('ERROR', e)
-    print(f'{name}: {"OK" if not errs else f"{len(errs)} errors"} ({len(got)} entries, {nwarn} warnings)')
+    print(f'{name}: {"OK" if not errs else f"{len(errs)} errors"} ({len(got)} entries)')
     return got if not errs else None
 
 
 def merge(names):
     trans = {}
     for name in names:
-        got = check(name, quiet=True)
+        got = check(name)
         if got is None:
             sys.exit(f'{name} failed its check; not merged')
         trans.update(got)

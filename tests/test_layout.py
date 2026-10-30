@@ -60,14 +60,18 @@ def test_overflow_and_too_many_lines_reported():
 
 
 def test_check_problems():
-    gl = [('桃太郎', 'Momotaro', ['Momotarou'])]
-    errs, warns = batches.problems('{str}の 攻撃！', '{str} attacks{num}!', 'dlg', gl)
-    assert any('control codes' in e for e in errs)
-    errs, _ = batches.problems('{num}回目', 'the {num}th time', 'dlg', gl)
-    assert any('ordinal' in e for e in errs)
-    errs, warns = batches.problems('桃太郎は 走った', 'Momotarou ran.', 'dlg', gl)
-    assert any('avoided' in e for e in errs)
-    assert batches.problems('桃太郎は 走った', 'He ran.', 'dlg', gl)[1]
-    assert batches.problems('桃太郎は 走った', 'Momotaro ran.', 'dlg', gl) == ([], [])
-    assert batches.problems('{str}の 攻撃！{n}{n}{wait}', '{str} attacks!{wait}', 'dlg', gl) == ([], [])
+    gl = [('桃太郎', 'Momotaro', ['Momotarou'], True)]
+    assert any('control codes' in e for e in batches.problems('{str}の 攻撃！', '{str} attacks{num}!', 'dlg', gl))
+    assert any('ordinal' in e for e in batches.problems('{num}回目', 'the {num}th time', 'dlg', gl))
+    assert any('avoided' in e for e in batches.problems('桃太郎は 走った', 'Momotarou ran.', 'dlg', gl))
+    assert batches.problems('桃太郎は 走った', 'He ran.', 'dlg', gl)
+    assert batches.problems('桃太郎は 走った', 'Momotaro ran.', 'dlg', gl) == []
+    assert batches.problems('{str}の 攻撃！{n}{n}{wait}', '{str} attacks!{wait}', 'dlg', gl) == []
+    # missing glossary names and dropped honorifics are errors unless a reviewed exception lists them
+    assert any('glossary' in e for e in batches.problems('「桃太郎！」{wait}', '"Peach Boy!"{wait}', 'dlg', gl))
+    assert batches.problems('「桃太郎！」{wait}', '"Peach Boy!"{wait}', 'dlg', gl, {'桃太郎'}) == []
+    assert any('honorific' in e for e in batches.problems('「桃太郎さん！」{wait}', '"Momotaro!"{wait}', 'dlg', gl))
+    assert batches.problems('「桃太郎さん！」{wait}', '"Momotaro-san!"{wait}', 'dlg', gl) == []
+    assert batches.problems('「桃太郎君！」{wait}', '"Momotaro-kun!"{wait}', 'dlg', gl) == []
+    assert batches.problems('お地蔵さまだ', 'A Jizo statue.', 'dlg', [('地蔵', 'Jizo', [], False)]) == []
     assert batches.has_term('桃太郎さん', '桃太郎') and not batches.has_term('タイミング', 'ミン')

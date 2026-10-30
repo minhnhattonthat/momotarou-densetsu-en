@@ -14,6 +14,7 @@ exclamation marks where the JP has them, no archaic "thee/thou", no modern slang
 | Sparrows (inns, shops) | チュチュン！ / チュン | "Chirp chirp!" / "chirp" |
 | Mice | チュー！ チュー！ | "Squeak squeak!" |
 | Rabbits | ピョン / ピョピョン | "hop!" / "Hop hop!" |
+| Turtles | カメ カメ！ | "Kame kame!" (romaji tic; "Turtle" in plain speech) |
 | Cows | モー | "Moo" ("Wanna drink my milk? Moo!") |
 | Bombee | ボンビー！ / なのねん | "Bombee!" / ends a line with ", bombee!" |
 | Hermits, elders | ～じゃ / ぢゃ / おるぞ | old-man voice: "I am the Escape Hermit! Heh heh!", "Off with you, Momotaro!" |
