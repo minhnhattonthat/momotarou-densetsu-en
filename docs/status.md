@@ -18,9 +18,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   only: not seen in-game yet; from work/states/en_epilogue.sstate + mash circle the ending runs to a teaser
   ~f15000 and then the post-game house ~f15600 without showing the plate in 60-frame shots; find when it is
   drawn). FONT.PAC:4 status-ailment kanji (病気 混乱 眠 マヒ どく 封印, vertical 16x20 cells, battle sprites):
-  needs a battle with a status to see how they are placed before redrawing. Next: status
-  ailments FONT.PAC:4, END01 めでたし, title logo, bath/shop signs, card album + 297 cards (CR_PG*, names from
-  HMAP8500_18 card list), then the qa_gate tour.
+  needs a battle with a status to see how they are placed before redrawing. Next, in order: ev_amap banner (seen
+  はじめて/つづきから there too: find its image), title logo EVTTIT.PAC:6 (+ MECD.PAC:4 stamp, EVTCARD.PAC:1),
+  bath/inn/shop signs, card album EVTCARD.PAC:5 + 297 cards (CR_PG*, 8bpp 96x136 + CLUT in the next entry; names
+  from the HMAP8500_18 card list), status ailments, END01 plate in-game, then the qa_gate tour.
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
