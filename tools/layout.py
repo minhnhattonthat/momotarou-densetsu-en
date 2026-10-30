@@ -20,11 +20,16 @@ TOKEN_W = {'{str}': 114, '{num}': 40, '{gold}': 56, '{name}': 64}
 # (px, lines) per box variant, docs/re/windows.md; 'label' = unmeasured short label: budget = the JP's own width
 BOX = {'dlg': (234, 3), 'side': (134, 3), 'item': (103, 1), 'tech': (85, 1), 'monster': (114, 1), 'cmd': (52, 1),
        'party': (44, 1), 'shop': (58, 1), 'namecmd': (56, 1), 'staff': (250, 3), 'place': (110, 1),
-       'status': (40, 1), 'stat': (72, 1), 'slot': (20, 1), 'label': (None, 1)}
+       'status': (40, 1), 'stat': (72, 1), 'slot': (20, 1), 'label': (None, 1),
+       'settings': (106, 1), 'settingchoice': (86, 1), 'treasure': (78, 1), 'summary': (111, 1),
+       'oniunit': (18, 1), 'cardunit': (34, 1), 'moneyunit': (17, 1), 'namemode': (57, 1)}
 
 FONT_6 = [(0, 31, 'tech'), (32, 60, 'side'), (61, 301, 'item'), (302, 526, 'side'), (536, 550, 'party'),
           (559, 573, 'status'), (574, 576, 'stat'), (584, 591, 'cmd'), (606, 630, 'place'), (651, 654, 'shop'),
-          (655, 655, 'item'), (656, 658, 'slot'), (663, 663, 'stat')]
+          (655, 655, 'item'), (656, 658, 'slot'), (663, 663, 'stat'), (556, 556, 'moneyunit'),
+          (577, 577, 'treasure'), (578, 578, 'summary'), (580, 581, 'summary'), (582, 582, 'oniunit'),
+          (583, 583, 'cardunit'), (592, 592, 'cmd'), (786, 786, 'settings'), (787, 788, 'settingchoice'),
+          (789, 789, 'settings'), (790, 791, 'settingchoice'), (792, 792, 'settings'), (793, 795, 'settingchoice')]
 FONT_7 = [(3, 9, 'monster'),(10, 16, 'cmd'), (24, 25, 'dlg'), (26, 34, 'cmd'), (35, 271, 'monster')]
 FONT_5 = [(0, 91, 'place'), (94, 98, 'namecmd')]
 RANGES = {'FONT_6': FONT_6, 'FONT_7': FONT_7, 'FONT_5': FONT_5}
@@ -33,6 +38,8 @@ RANGES = {'FONT_6': FONT_6, 'FONT_7': FONT_7, 'FONT_5': FONT_5}
 def box(sid, jp):
     """Box variant name for string id 'TABLE:index' (overlays: 'TABLE:hexoff')."""
     table, _, idx = sid.partition(':')
+    if sid in ('SLPS_017:d44f4', 'SLPS_017:d4500', 'SLPS_017:d450c'):
+        return 'namemode'
     for lo, hi, name in RANGES.get(table, []):
         if idx.isdigit() and lo <= int(idx) <= hi:
             return name

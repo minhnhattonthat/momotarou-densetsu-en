@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (QA in the emulator) in progress, 2026-10-30.
+- **Phase:** 7 reopened by review; phase 8 (QA in the emulator) remains incomplete, 2026-10-30.
 - **Phase 7 review follow-up:** whole-script lint now validates every authored non-data entry, including ASCII
   and control-only sources; unauthored ASCII/control-only entries explicitly retain original bytes. The exact
   FONT_6:556 `{sm_ryo}` -> `ryo` substitution is documented in lint. This exposed YUMI2_10:009's untranslated
@@ -13,6 +13,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `check.py`: 42 passed, lint 0 errors; fresh build + `work/qa/review7_smoke` smoke passed.
   Remaining Important finding: replace guessed label widths with measurements. Phase 7 completion is reopened
   pending that work; a green legacy width lint is not proof of measured coverage.
+- **This session's width/QA progress:** 21 formerly unmeasured authored labels now use measured budgets
+  (docs/re/windows.md); 64 remain. `python -X utf8 tools/debug/label_refs.py --unmeasured` lists them and exits 1.
+  That helper also locates EXE immediate-index candidates and disassembles ranges for tracing their consumers.
+  Fixed a real clipping bug in FONT_6:583: status-summary count and full "cards" suffix move left 16 px.
+  New cold-boot scenes `status_summary`, `status_treasure`, `setting_rumble`, `setting_music`, `setting_text`
+  all reach on the new build; proof shots `work/qa/warp_review7_fixed/<scene>/scene.png`. Status panels require
+  holding left/right (650 frames), not short taps. The phase 7 review's Minor orphan-final-line finding is still open.
+  Latest full check: 42 passed, lint 0 errors over 6021 text/box checks. Latest image: `build/momotarou_en.bin`,
+  143888304 bytes, 2026-10-30 10:10:41 UTC, SHA-1 `fb52f230639e505d2baa2884539d37ed8cc9fcc1`;
+  `work/qa/review7_fixed_smoke` passes. No phase-8 visual-QA manifest/verdict completion is claimed.
 - **Phase 8 progress:** phase 6 review fixes done (d047a7c: glossary names + character honorifics are lint/batch
   ERRORS now, reviewed exceptions in script/glossary_ok.txt; Enma-sama; art-use spacing). Graphics lettering
   pipeline: `tools/gfx.py` (TIM decode/repack, `show`/`dump`/`words` CLI to find text rects), `tools/gfx_en.py`
@@ -57,7 +67,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   components reach outside it and are kept). Built: `tools/cards.py templates` (families keyed by the bottom
   border colour: cream 38 cards, cyan 25, pink 177; greys outvoted -> clean backgrounds, few specks; ~57 cards with
   their own art get no template -> use plates).
-- **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
+- **Next:** finish the 64 measured-width mappings and remove `layout.budget`'s Japanese-length fallback
+  (Important finding 2), then orphan-final-line wrapping/lint (Minor finding 4). Resume phase 8 graphics text
+  (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
   reach on the English build). Not seen in-game yet: proverb card game (HMAP2606:65), SMAP16 name-entry shop
@@ -65,7 +77,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   battle command grid (battle_long/battle_lists shots land on a message; time the route to the round-2 menu). `{num}` digits
   are the game's bold 8x12 cells (taller than the 12 px letters): fine at 8 px pitch, redraw only if QA objects.
   `jp_left.py` not run yet (phase 9 gate; needs a slot list for this u16 table format).
-- **Done (phase 7):** size gate in `insert.py` (slot limits per table param, battle, SHOP.MMB, PAC size; skipped for
+- **Earlier phase 7 work (completion claim superseded by review above):** size gate in `insert.py` (slot limits per table param, battle, SHOP.MMB, PAC size; skipped for
   marker builds): everything fits with no rebalance/dictionary (numbers in docs/re/engine.md). `tools/lint.py`
   (whole-script: codes, pages, widths/lines per box, ASCII, glossary avoids, same-JP-same-EN, no JP in en, no missing
   en unless in script/keep_jp.txt; 0 errors, 64 glossary warnings) wired into check.py. `tests/test_insert.py`: the
@@ -130,6 +142,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   0x8004540C a0 with --debugger); no story-flag array yet (events/NPCs that depend on progress); party is the
   New Game party (1 member, no items: `MONEY=` var exists, inventory RAM unknown); shops/NPCs found only for town 2.
   GOD uses the GameShark HP addresses (not checked per member). CR_PG01-99 not loaded by the ending (card pages?).
-- **Open bugs:** none.
+- **Open bugs:** status-summary time has hardcoded Japanese `日目` (not extracted text). Repro: cold-boot
+  `status_summary`; proof `work/qa/warp_review7_fixed/status_summary/scene.png`, state
+  `work/states/review7_fixed_status_summary.sstate`. EXE time renderer draws two direct FONT sprites at
+  0x8003EE80/0x8003EED8 (UV 0x60,0xA8 and 0xA8,0xE4 on texture page 0x1D); array sentinels -2/-3 select them.
+  Fix the primitive renderer or use dedicated English atlas cells without changing shared Japanese day/eye glyphs.
 - **Waiting on the user:** (non-blocking) PCSX-Redux GUI keyboard input not checked by hand (no interactive session
   in one-shot runs); scripted input verified.

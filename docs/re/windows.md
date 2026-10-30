@@ -35,7 +35,30 @@ fits when the sum of its advances minus 1 is at most the budget. Never derive a 
 | Save slot label (空きファイル) | EXE/title tables | 178 | scroll interior ~290 | ~110 px | 1 | measured: title_load |
 | Gold box | {gold} + unit 両 | 217..292 | - | - | 1 | measured interior; unit glyph after the number |
 
-Width gate complete (phase 5): every variant above is measured. Phase 7 layout work done (docs/re/engine.md §Layout
+Phase 7 review correction: the variants above are measured, but **coverage is incomplete**. Unmapped FONT labels
+still reach the legacy Japanese-length fallback in `layout.budget`; they must not be treated as validated fits.
+`python -X utf8 tools/debug/label_refs.py --unmeasured` lists the remaining authored labels and exits 1 until
+there are none. Do not declare phase 7 complete while it fails; remove the fallback after mapping these consumers.
+
+Additional measurements from fresh English-build states (2026-10-30 review follow-up):
+
+| Variant | Source | Evidence | Measured budget |
+|---|---|---|---|
+| Settings heading list | FONT_6:786/789/792 | `work/qa/review7_settings/f000060.png`, text x32, interior ends137 | 106 px |
+| Settings choices | FONT_6:787-788/790-791/793-795 | same route, f000060/180/330, text x208, interior ends293 | 86 px |
+| Treasure heading | FONT_6:577 | `work/qa/review7_status_pages/final.png`, text x84, interior ends161 | 78 px |
+| Time/cards/defeated headings | FONT_6:578/580-581 | `work/qa/review7_status_left/final.png`, x64, first time digit x176 | 111 px (smallest field) |
+| Defeated count suffix | FONT_6:582 | same shot, x264, interior ends281 | 18 px |
+| Card count suffix | FONT_6:583 | originally x264..281 (18 px); engine shifts count and suffix 16 px left | 34 px after patch |
+| Money HUD suffix | FONT_6:556 | `work/qa/warp_review7/menu_settei/scene.png`, unit x276, interior ends292 | 17 px |
+| Name mode labels | EXE d44f4/d4500/d450c | original name-entry measurement above; use smaller right-hand field for all three | 57 px |
+
+New repeatable cold-boot scenes: `status_summary`, `status_treasure`, `setting_rumble`, `setting_music`,
+`setting_text`. Hold left/right for 650 frames to expose the status panels; 6-frame taps only move them a few pixels.
+The summary also exposes hardcoded Japanese `日目` in the time renderer, outside the extracted string tables.
+The renderer near 0x8003EE80/0x8003EED8 builds those two sprites directly from FONT atlas UVs (see engine notes).
+
+Other phase 7 layout work (docs/re/engine.md §Layout
 patches): HUD labels, money unit, name-entry English page, {num} pitch; staff-roll lines fit 250 px (lint). The
 ？？？ battle command: its overflow was the marker text; the grid strings (FONT_7:026-034, ？？？ = FONT_10:117 "???")
 are short in English and pass the lint, but the English grid is not shot yet (phase 8, battle_lists route). Minigame

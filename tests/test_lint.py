@@ -13,6 +13,8 @@ def errors(*strings):
 def test_authored_control_only_source_is_validated():
     assert any('control codes differ' in e for e in errors(
         {'id': 'FONT_7:001', 'jp': '{num}', 'en': '{str}'}))
+    assert any('control codes differ' in e for e in errors(
+        {'id': 'FONT_7:000', 'jp': '', 'en': '{str}'}))
 
 
 def test_authored_ascii_source_is_validated():

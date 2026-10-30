@@ -63,6 +63,10 @@ PATCH = [                        # (address, original, replacement)
     # the level number right-aligns to the HP/SP numbers' edge: "Lv 1 / HP 25 / SP 0"
     (0x800D87B0, 'addiu $a2, $zero, 0x20', 'addiu $a2, $zero, 8'),
     (0x800D8808, 'addiu $a1, $zero, 0x20', 'addiu $a1, $zero, 0x30'),
+    # Status summary: the full "cards" suffix needs 24 px, but the original field has only 18.
+    # Move the right-aligned count and suffix together, preserving their separation.
+    (0x800DBF30, 'addiu $a1, $zero, 0xd4', 'addiu $a1, $zero, 0xc4'),
+    (0x800DBF54, 'addiu $a2, $zero, 0xd8', 'addiu $a2, $zero, 0xc8'),
 ] + [
     # money boxes: the number (right-aligned to x) and the 両 label (FONT_6:556, x) move 8 px left for "ryo"
     (addr, f'addiu ${reg}, $zero, {x:#x}', f'addiu ${reg}, $zero, {x - 8:#x}')

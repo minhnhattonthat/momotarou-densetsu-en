@@ -20,6 +20,19 @@ local function menu(downs, right)
   r[#r + 1] = { 6, "circle" }
   return r
 end
+local function status_scroll(key)
+  local r = menu(3)
+  r[#r + 1] = { 90, "-" }
+  r[#r + 1] = { 650, key }  -- these panels scroll only while a direction is held
+  return r
+end
+local function setting(which)
+  local r = menu(3, true)
+  r[#r + 1] = { 90, "-" }
+  for _ = 1, which do r[#r + 1] = { 6, "down" }; r[#r + 1] = { 30, "-" } end
+  r[#r + 1] = { 6, "circle" }
+  return r
+end
 return {
   -- title (title = true: no New Game; the route starts once the title menu box is on screen)
   title          = { title = true, settle = 30 },
@@ -40,6 +53,11 @@ return {
   menu_soubi     = { map = 1, settle = 90, route = menu(1, true) },
   menu_meirei    = { map = 1, settle = 90, route = menu(2, true) },
   menu_settei    = { map = 1, settle = 90, route = menu(3, true) },
+  status_summary = { map = 1, settle = 60, route = status_scroll("left") },
+  status_treasure = { map = 1, settle = 60, route = status_scroll("right") },
+  setting_rumble = { map = 1, settle = 90, route = setting(0) },
+  setting_music  = { map = 1, settle = 90, route = setting(1) },
+  setting_text   = { map = 1, settle = 90, route = setting(2) },
   -- 2nd town (SMAP01 = map 2) and its interiors HMAP00-12 room 0: stand at 20,18, face up, talk, click on
   town2          = { map = 2 },
   shop_65        = { map = 65, x = 20, y = 18, route = TALK, mash = 40, settle = 240 },  -- weapons: buy list

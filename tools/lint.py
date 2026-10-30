@@ -29,7 +29,7 @@ def validate(ds, gl, ok, keep=()):
     for _, doc in ds:
         for s in doc['strings']:
             jp, en = s.get('jp', ''), s.get('en', '')
-            if 'data' in s or not jp:
+            if 'data' in s or not (jp or en):
                 continue
             sid = s['id']
             plain = batches.TOKEN.sub('', jp)
