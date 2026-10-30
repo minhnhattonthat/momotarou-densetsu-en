@@ -22,6 +22,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   はじめて/つづきから there too: find its image), title logo EVTTIT.PAC:6 (+ MECD.PAC:4 stamp, EVTCARD.PAC:1),
   bath/inn/shop signs, card album EVTCARD.PAC:5 + 297 cards (CR_PG*, 8bpp 96x136 + CLUT in the next entry; names
   from the HMAP8500_18 card list), status ailments, END01 plate in-game, then the qa_gate tour.
+- **Card plan (CR_PGnn.PAC entries 0/2/4 = 3 cards per PAC, CLUT = next entry; 96x136 8bpp):** circled initial
+  top-right (~x62-88 y4-30) -> Latin initial in the circle; vertical name in the right column (~x66-86 y32-128) ->
+  English name rotated 90 deg clockwise in that column; top-left box (~x4-56 y4-60) holds either flavour text in
+  vertical columns (cards 1-60: needs OCR + translation, ~45 chars of en12-size text fit) or the stat labels as 4
+  rows 体力/攻撃/守備/速さ (cards 61-297) -> HP / Attack / Defense / Speed (same pixels on every monster card:
+  draw once, paste). Names: match each card to its HMAP8500_18 "<name>カード" entry (English there minus " Card").
+  Logo kept Japanese (D5). Skipped so far: DARUMA.PAC:6 banner and FUKU.PAC:3/5 not seen in mg_daruma/mg_fuku.
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
