@@ -108,6 +108,12 @@ FUKU_ANGLE = 40                                 # the JP words' slant (a whole w
 DARUMA_INK =(96, 97, 99, 100, 103, 105, 108, 110, 113, 115, 116, 117)     # DARUMA.PAC:6 brush greys
 VERT = {'rotate': True, 'ink': 15}# album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
+    'restaurant_menu': ('07HMAP3/HMAP8500.PAC:3', ('07HMAP3/HMAP8500.PAC:7', 0), [
+        ((3, 3, 77, 24), 'MENU', 'board', 5, {'paper': (7, 8, 9, 10), 'ink': 14}),
+    ]),
+    'restaurant_menu_bg': ('07HMAP3/HMAP8500.PAC:0', ('07HMAP3/HMAP8500.PAC:4', 0), [
+        ((51, 99, 125, 120), 'MENU', 'board', 5, {'paper': (7, 8, 9, 10), 'ink': 14}),
+    ]),
     # アホ is lettered on the eastern island in the three revealed-map variants; the lake to its right stays.
     **{f'amap_label_{i}': (f'04HEX/AMAP.PAC:{i}', (f'04HEX/AMAP.PAC:{i + 5}', 0), [
         ((164, 63, 184, 90), 'Fool', (72, 81, 146, 193), 9, {}),
@@ -181,7 +187,7 @@ IMAGES = {
         for x, word in ((0, 'East'), (48, 'West'), (96, 'South'), (144, 'North'), (192, 'Oni'))] + [
         ((x + 4, 58, x + 44, 88), word, 'sprite', 11, {}) for x, word in ((0, 'Red'), (48, 'Blue'), (96, 'Yellow'),
                                                                           (144, 'White'))] + [
-        ((198, 100, 234, 138), 'Oni', 'sprite', 12, {}),
+        ((195, 100, 237, 140), 'Oni', 'sprite', 13, {'ink': 8}),  # yellow flip highlight; same local layout as green Oni
     ]),
     # Daruma-otoshi title ribbons だルマ / おとし！ (brush greys on a grey-white gradient ribbon)
     'daruma_banner': ('30EV/DARUMA.PAC:6', ('30EV/DARUMA.PAC:5', 0), [
@@ -196,6 +202,7 @@ IMAGES = {
         for y, word in zip((40, 72, 104), col)]),
     # bathhouse curtains 男湯 / 女湯
     'bath_signs': ('07HMAP3/HMAP8200.PAC:3', ('07HMAP3/HMAP8200.PAC:4', 0), [
+        ((129, 1, 159, 17), 'ADULT/CHILD', 'board', 5, {'paper': (4, 5, 6), 'ink': 3}),
         ((8, 3, 56, 25), 'Men', 'sprite', 14, {'erase': (10, 11, 12, 13)}),
         ((70, 3, 122, 25), 'Women', 'sprite', 13, {'erase': (10, 11, 12, 13)}),
     ]),
@@ -272,12 +279,45 @@ def sprite(px, new, w, rect, text, size, opt):
                 new[y * w + x] = bg
 
 
+def board(px, new, w, rect, text, opt):
+    """Tiny shop boards: translate readable labels; unreadable entries become nonlinguistic strokes (D13)."""
+    x0, y0, x1, y1 = rect
+    for y in range(y0, y1):
+        paper = Counter(px[y * w + x] for x in range(x0, x1) if px[y * w + x] in opt['paper']).most_common(1)
+        bg = paper[0][0] if paper else opt['paper'][0]
+        new[y * w + x0:y * w + x1] = bytes([bg]) * (x1 - x0)
+
+    def label(word, left, top):
+        for c, ch in enumerate(word):
+            for r, bits in enumerate(PIXEL_FONT[ch]):
+                for x, bit in enumerate(bits):
+                    if bit == '#':
+                        new[(y0 + top + r) * w + x0 + left + c * 4 + x] = opt['ink']
+
+    if text == 'ADULT/CHILD':
+        for row, word in enumerate(text.split('/')):
+            label(word, 1, 1 + row * 8)
+            for x in range(24, 28):
+                new[(y0 + 3 + row * 8) * w + x0 + x] = opt['ink']  # no invented price digits
+    else:
+        label('MENU', 55, 2)
+        for r, lengths in enumerate(((5, 3, 6, 2, 5, 4, 3), (3, 6, 4, 5, 2, 5, 4), (4, 2, 5, 3, 6, 3, 5))):
+            left = 2
+            for length in lengths:
+                for x in range(length):
+                    new[(y0 + 4 + r * 6) * w + x0 + left + x] = opt['ink']
+                left += length + 2
+
+
 def redraw(name):
     loc, _, edits = IMAGES[name]
     raw = gfx.entry(loc)
     _, w, h, px = gfx.indices(raw)
     new = bytearray(px)
     for (x0, y0, x1, y1), text, ramp, size, opt in edits:
+        if ramp == 'board':
+            board(px, new, w, (x0, y0, x1, y1), text, opt)
+            continue
         if ramp == 'sprite':
             sprite(px, new, w, (x0, y0, x1, y1), text, size, opt)
             continue

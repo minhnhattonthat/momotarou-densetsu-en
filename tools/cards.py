@@ -40,6 +40,17 @@ def names():
     return [e[:-5] for e in out]
 
 
+@functools.cache
+def name_rects():
+    """The disc holds the first Japanese character; the vertical column holds the remaining characters."""
+    doc = extract.load(next((ROOT / 'script').rglob('HMAP8500_18.json')))
+    jp = [s['jp'][:-3] for s in doc['strings'] if (s.get('jp') or '').endswith('カード')]
+    # A lone glyph is centred lower (down to y55); longer columns have a two-pixel halo below their last cell.
+    out = [(69, 32, 90, min(131, 34 + 18 * max(1, len(s) - 1) + (4 if len(s) <= 2 else 0))) for s in jp]
+    out[56] = (69, 32, 90, 110)  # Kaguya's green card uses larger, more widely spaced kana/kanji
+    return out
+
+
 def key(pal, px):
     return pal[px[133 * W + 60]]                # bottom border colour: one per background family
 
@@ -74,9 +85,23 @@ def templates():
 
 
 CIRCLE = (66, 6, 87, 27)        # the initial's glyph inside the disc
-COLUMN = (62, 30, 92, 133)      # vertical name
+COLUMN = (69, 30, 92, 133)      # keep the English inside the JP column, clear of adjacent illustration
+NAME_ERASE = (69, 30, 90, 131)  # JP halo begins at x69; art to its left and the bottom frame must survive
+STAT_GLYPHS = (4, 4, 32, 62)  # the inner frame is x3/y3
+STAT_ART = {109: [(29, 42, 32, 62)]}  # Enma's left horn outline
+# Original illustration visible beside/below the JP halo (card-native, half-open rectangles).
+NAME_ART = {
+    148: [(69, 68, 83, 94)], 158: [(69, 76, 72, 93)], 159: [(69, 74, 71, 91)],
+    171: [(69, 83, 70, 119), (69, 119, 80, 130)], 174: [(69, 88, 70, 111), (69, 111, 72, 122)],
+    179: [(69, 61, 71, 80)], 180: [(69, 85, 82, 110)], 182: [(69, 54, 70, 68)],
+    221: [(69, 86, 73, 105)], 223: [(69, 58, 70, 86)], 238: [(69, 100, 70, 114)],
+    256: [(69, 46, 71, 71), (69, 86, 80, 97)], 257: [(69, 47, 70, 70)],
+    260: [(69, 64, 70, 119), (69, 84, 74, 89), (69, 119, 77, 128)], 261: [(69, 78, 70, 95)],
+    264: [(69, 63, 70, 76), (69, 109, 70, 113)], 267: [(69, 71, 70, 89), (69, 109, 70, 113)],
+    294: [(69, 63, 70, 76), (69, 109, 70, 113)],
+}
 STATS = (2, 2, 60, 62)          # 体力 攻撃 守備 速さ rows (monster families) or flavour text (cream family)
-FLAVOUR_RECT = (4, 3, 62, 72)   # keep the inner frame; JP punctuation can extend below the old 62-row box
+FLAVOUR_RECT = (5, 4, 63, 72)   # preserve the frame at y3; JP punctuation extends below the old 62-row box
 # the game draws each value at x ~34 on the label's row, so a label has the JP label's ~29 px: abbreviated (D9)
 STAT_EN = ['HP', 'Atk', 'Def', 'Spd']
 STAT_W = 30
@@ -85,7 +110,7 @@ FLAVOUR_PX, FLAVOUR_LH = 9, 12                  # font size and line pitch: 5 li
 REVIEW = []                     # cards whose name was lettered over art (check them by eye)
 
 
-def inpaint(img, rect, todo=None, coloured=False):
+def inpaint(img, rect, todo=None, coloured=False, background=False, palette=None):
     """Replace the greys and dark pixels (glyph residue; the backgrounds are light) in rect, or the pixels in todo,
     by their neighbours, growing inwards."""
     x0, y0, x1, y1 = rect
@@ -96,9 +121,16 @@ def inpaint(img, rect, todo=None, coloured=False):
         for x, y in todo:
             nb = [img[(y + dy) * W + x + dx] for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
                   if 0 <= x + dx < W and 0 <= y + dy < H and (x + dx, y + dy) not in todo
-                  and (not coloured or not glyphish(img[(y + dy) * W + x + dx]))]
+                  and (not coloured or (img[(y + dy) * W + x + dx][1] > img[(y + dy) * W + x + dx][0]
+                                        and img[(y + dy) * W + x + dx][1] > img[(y + dy) * W + x + dx][2]))
+                  and (not background or (sum(img[(y + dy) * W + x + dx]) > 180
+                                          and min(img[(y + dy) * W + x + dx]) < 230))
+                  and (palette is None or img[(y + dy) * W + x + dx] in palette)]
             if nb:
-                done[(x, y)] = Counter(nb).most_common(1)[0][0]
+                done[(x, y)] = tuple(round(sum(c[i] for c in nb) / len(nb)) for i in range(3)) if palette is not None \
+                    else Counter(nb).most_common(1)[0][0]
+                if palette is not None:
+                    done[(x, y)] = min(palette, key=lambda c: sum((a - b) ** 2 for a, b in zip(c, done[(x, y)])))
         if not done:
             break
         for (x, y), c in done.items():
@@ -157,24 +189,14 @@ def fit(text, w, h, sizes, rotate=False):
 
 
 def lettering(rgb, rect):
-    """Pixels of the JP lettering in rect: grey-connected groups (black glyph, white outline) holding white."""
+    """Black core/white outline and their nearby antialias pixels, without flooding into grey backgrounds."""
     x0, y0, x1, y1 = rect
-    grey = {(x, y) for x in range(x0, x1) for y in range(y0, y1) if glyphish(rgb[y * W + x])}
-    seen, out = set(), set()
-    for p in sorted(grey):
-        if p in seen:
-            continue
-        comp, stack = [], [p]
-        seen.add(p)
-        while stack:
-            x, y = stack.pop()
-            comp.append((x, y))
-            for q in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
-                if q in grey and q not in seen:
-                    seen.add(q)
-                    stack.append(q)
-        if sum(min(rgb[y * W + x]) > 230 for x, y in comp) >= 3:
-            out.update(comp)
+    grey = {(x, y) for x in range(x0, x1) for y in range(y0, y1)
+            if max(rgb[y * W + x]) - min(rgb[y * W + x]) < 32 or max(rgb[y * W + x]) < 80}
+    out = {(x, y) for x, y in grey if min(rgb[y * W + x]) > 230 or max(rgb[y * W + x]) < 80}
+    for _ in range(2):
+        out |= {(x + dx, y + dy) for x, y in out for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
+                if (x + dx, y + dy) in grey}
     return out
 
 
@@ -193,79 +215,131 @@ def flavour():
 
 @functools.cache
 def label_mask():
-    """Where the stat labels' pixels are grey on a monster card (card 110)."""
+    """Shared stat lettering, sampled from a card with no illustration behind the labels."""
     pal, px = card(110)
-    x0, y0, x1, y1 = STATS
-    return frozenset((x, y) for y in range(y0, y1) for x in range(x0, x1) if glyphish(pal[px[y * W + x]]))
+    return frozenset(lettering([pal[i] for i in px], (4, 4, 32, 58)))
 
 
 def has_stats(rgb):
     return sum(glyphish(rgb[y * W + x]) for x, y in label_mask()) > 0.85 * len(label_mask())
 
 
-def own_template(rgb):
-    """(background, rows of the JP name) of a card with its own art: JP lettering inpainted from its surroundings."""
+def own_template(rgb, name_rect=NAME_ERASE, protect=(), stat_protect=()):
+    """Background of a card with its own art: JP lettering inpainted from its surroundings."""
     t = list(rgb)
-    name = lettering(rgb, (COLUMN[0], COLUMN[1], COLUMN[2], COLUMN[3]))
-    inpaint(t, COLUMN, name)
-    inpaint(t, STATS, lettering(rgb, STATS))        # stat labels or flavour text
-    ys = sorted(y for _, y in name) or [COLUMN[1]]
-    # a 2-kanji name is shorter than its English: give at least 60 rows (lettering is outlined, art may show)
-    return t, list(range(ys[0], min(COLUMN[3], max(ys[-1] + 1, ys[0] + 60))))
+    background = {rgb[y * W + x] for y in range(4, 40) for x in range(34, 60)
+                  if sum(rgb[y * W + x]) > 180 and min(rgb[y * W + x]) < 230}
+    stats = has_stats(rgb)
+    green = rgb[133 * W + 60] in {(192, 136, 0), (184, 136, 0), (184, 152, 0)}
+    green |= sum(c[1] > c[0] and c[1] > c[2] for c in background) > len(background) * 0.8
+    name = lettering(rgb, name_rect)
+    for x0, y0, x1, y1 in protect:
+        name -= {(x, y) for x in range(x0, x1) for y in range(y0, y1)}
+    # The top-right sample is clear on stat cards, but holds flavour lettering on the other cards.
+    # Enma's green background changes to his purple robe below the name: let that local colour continue.
+    inpaint(t, COLUMN, name, coloured=green and not stats, background=True,
+            palette=background if stats and not green else None)
+    stat_mask = set(label_mask()) if stats else lettering(rgb, STATS)
+    for x0, y0, x1, y1 in stat_protect:
+        stat_mask -= {(x, y) for x in range(x0, x1) for y in range(y0, y1)}
+    inpaint(t, STATS, stat_mask,
+            coloured=green, background=True, palette=background if stats and not green else None)
+    return t
+
+
+def disc_box(rgb):
+    return {(x, y): rgb[y * W + x] for y in range(2, 35) for x in range(60, 94)}
+
+
+def disc_stamp(boxes):
+    """Recover the shared hand-drawn outline; differing Japanese initials vote each other out."""
+    votes = Counter(p for b in boxes for p, c in b.items() if max(c) < 120)
+    ring = {p for p, count in votes.items() if count >= 0.6 * len(boxes)}
+    area = {(x, y) for y in range(2, 35) for x in range(60, 94)}
+    outside = {p for p in area - ring if p[0] in (60, 93) or p[1] in (2, 34)}
+    stack = list(outside)
+    while stack:
+        x, y = stack.pop()
+        for p in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
+            if p in area and p not in ring and p not in outside:
+                outside.add(p)
+                stack.append(p)
+    return ring, area - outside - ring
+
+
+def disc_hits(box, ring, dx=0, dy=0):
+    return sum(max(box.get((x + dx, y + dy), (255, 255, 255))) < 120 for x, y in ring) / len(ring)
+
+
+@functools.cache
+def disc_stamps():
+    boxes = [disc_box([pal[i] for i in px]) for pal, px in (card(n) for n in range(1, 298))]
+    common = disc_stamp(boxes)
+    # The green illustration cards have a slightly different, shifted outline.
+    own = [b for b in boxes if disc_hits(b, common[0]) < 0.85]
+    return common, disc_stamp(own)
+
+
+def disc_fit(box):
+    best = None
+    for k, (ring, _) in enumerate(disc_stamps()):
+        for dy in range(-3, 4):
+            for dx in range(-3, 4):
+                score = disc_hits(box, ring, dx, dy)
+                if best is None or score > best[0]:
+                    best = score, dx, dy, k
+        if best[0] >= 0.85:
+            break  # prefer the common stamp; the smaller own-art stamp fits it too easily
+    assert best[0] >= 0.85, f'no disc outline fits ({best[0]:.2f})'
+    return best
+
+
+def disc_fix(rgb):
+    """Clear initials and their halo inside the fitted outline; retain the original rim and outside art."""
+    box = disc_box(rgb)
+    _, dx, dy, k = disc_fit(box)
+    ring, inside = ({(x + dx, y + dy) for x, y in part} for part in disc_stamps()[k])
+    band = {p for p in inside if any((p[0] + a, p[1] + b) in ring
+                                   for a, b in ((1, 0), (-1, 0), (0, 1), (0, -1)))}
+    disc = Counter(box[p] for p in inside if not glyphish(box[p])).most_common(1)[0][0]
+    edge = Counter(box[p] for p in ring if max(box[p]) < 120).most_common(1)[0][0]
+    distance = lambda a, b: sum((p - q) ** 2 for p, q in zip(a, b))  # noqa: E731
+    out = {}
+    for p in inside:
+        if p in band:
+            if glyphish(box[p]) and distance(box[p], edge) > 40 ** 2:
+                out[p] = disc
+        elif distance(box[p], disc) >= 40 ** 2:
+            out[p] = disc
+    for _ in range(2):
+        grow = [p for p in inside - band - set(out) if distance(box[p], disc) >= 16 ** 2
+                and any((p[0] + a, p[1] + b) in out for a in (-1, 0, 1) for b in (-1, 0, 1))]
+        out.update((p, disc) for p in grow)
+    for p in ring:
+        if min(box[p]) > 140:  # restore the rim where a Japanese stroke touched it
+            out[p] = edge
+    return out
 
 
 def redraw(n, tmpl, name):
     """New pixel indices of card n; tmpl: its family's background, or None (a card with its own art)."""
     pal, px = card(n)
     rgb = [pal[i] for i in px]
-    own = tmpl is None
-    if own:
-        tmpl, name_rows = own_template(rgb)
+    name_rect = name_rects()[n - 1]
+    if tmpl is None:
+        tmpl = own_template(rgb, name_rect, NAME_ART.get(n, ()), STAT_ART.get(n, ()))
     t = tmpl
     out = list(rgb)
-    # JP name: components of "differs from the template" pixels lying wholly inside the name column
-    diff = {(x, y) for y in range(H) for x in range(W) if rgb[y * W + x] != t[y * W + x]}
-    seen = set()
-    art = set()
-    for p in sorted(diff):
-        if p in seen:
-            continue
-        comp, stack = [], [p]
-        seen.add(p)
-        while stack:
-            x, y = stack.pop()
-            comp.append((x, y))
-            for q in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
-                if q in diff and q not in seen:
-                    seen.add(q)
-                    stack.append(q)
-        # the name's first glyph can touch the disc's: the disc counts as inside, but keeps its own pixels
-        inside = all(COLUMN[0] - 2 <= x < COLUMN[2] and 2 <= y < COLUMN[3] for x, y in comp)
-        if inside:
-            for x, y in comp:
-                if y >= COLUMN[1]:
-                    if glyphish(rgb[y * W + x]):
-                        out[y * W + x] = t[y * W + x]
-        elif len(comp) > 40 and max(y for _, y in comp) > STATS[3] and \
-                any(COLUMN[0] <= x < COLUMN[2] and COLUMN[1] <= y < COLUMN[3] for x, y in comp):
-            art.update(comp)            # (strays and the left box's text touching the column are not art)
-    # name glyphs touching art survive the pass above: they are black with a white outline, so erase each
-    # grey-connected group in the column that holds white (art outlines border colours, not white)
-    for x, y in lettering(out, COLUMN) & diff:
+    name_glyphs = lettering(rgb, name_rect)
+    for ax0, ay0, ax1, ay1 in NAME_ART.get(n, ()):
+        name_glyphs -= {(x, y) for x in range(ax0, ax1) for y in range(ay0, ay1)}
+    # Restore only the bounded JP halo; grey illustration beside it stays intact.
+    for x, y in name_glyphs:
         out[y * W + x] = t[y * W + x]
     white, black = (248, 248, 248), (8, 8, 8)
-    # name, rotated, in the longest art-free run of the column (own-art cards: where the JP name was)
+    # Rotate the English name into the original JP name's height.
     x0, y0, x1, y1 = COLUMN
-    rows = [y for y in range(y0, y1) if not any((x, y) in art for x in range(x0, x1))]
-    span = name_rows if own else max(gfx._runs(rows, 1) or [[]], key=len)
-    if len(span) < 40 and not own:                  # art fills the column: letter over it (outlined)
-        REVIEW.append(n)
-        span = list(range(y0, y1))
-    try:
-        letters(name, 8, x1 - x0, len(span), rotate=True)
-    except AssertionError:
-        # Prefer one outlined column over art to an isolated suffix in a second column.
-        span = list(range(y0, y1))
+    span = list(range(y0, name_rect[3]))  # stay in the JP name area instead of extending into art below it
     try:
         lt = fit(name, x1 - x0, len(span), range(16, 7, -1), rotate=True)
     except AssertionError:
@@ -281,37 +355,49 @@ def redraw(n, tmpl, name):
     x0, y0, x1, y1 = STATS
     if stats:
         # Reset only the common JP label glyphs, not the whole box: horns and heads extend into it.
-        for x, y in label_mask():
-            if glyphish(rgb[y * W + x]):
-                out[y * W + x] = t[y * W + x]
+        mask = set(label_mask())
+        for ax0, ay0, ax1, ay1 in STAT_ART.get(n, ()):
+            mask -= {(x, y) for x in range(ax0, ax1) for y in range(ay0, ay1)}
+        for x, y in mask:
+            out[y * W + x] = t[y * W + x]
+        x0, y0 = 5, 3  # preserve the inner frame and a one-pixel gap before the English labels
     elif lines:
         x0, y0, x1, y1 = FLAVOUR_RECT
         clean = list(rgb)
-        mask = lettering(rgb, FLAVOUR_RECT)
+        erase_rect = (4, y0, x1, y1)
+        mask = lettering(rgb, erase_rect)
         # Include isolated white antialias pixels; seed inpainting from coloured background only.
-        mask.update((x, y) for y in range(y0, y1) for x in range(x0, x1)
+        mask.update((x, y) for y in range(y0, y1) for x in range(4, x1)
                     if glyphish(rgb[y * W + x]) and min(rgb[y * W + x]) > 180)
         # A one-pixel fringe is tinted toward the green background, so it is not classified as grey.
-        green = key(pal, px) in {(192, 136, 0), (184, 136, 0), (184, 152, 0)}
+        green = key(pal, px) in {(192, 136, 0), (184, 136, 0), (184, 152, 0)} or n == 5
         if green:
             mask = {(x + dx, y + dy) for x, y in mask for dx in (-1, 0, 1) for dy in (-1, 0, 1)
-                    if x0 <= x + dx < x1 and y0 <= y + dy < y1}
-        inpaint(clean, FLAVOUR_RECT, mask, coloured=green)
+                    if 4 <= x + dx < x1 and y0 <= y + dy < y1}
+        for ax0, ay0, ax1, ay1 in {1: [(31, 58, 43, 66), (18, 65, 53, 72)],
+                                  3: [(24, 61, 61, 72), (54, 57, 61, 61)],
+                                  4: [(21, 61, 49, 72), (37, 58, 43, 61)],
+                                  6: [(14, 65, 51, 72)],
+                                  8: [(14, 66, 58, 72)], 9: [(12, 56, 59, 72)],
+                                  12: [(24, 66, 50, 72)],
+                                  28: [(11, 61, 63, 72), (47, 52, 59, 61)]}.get(n, []):
+            mask -= {(x, y) for x in range(ax0, ax1) for y in range(ay0, ay1)}
+        if n == 9:
+            mask |= lettering(rgb, (52, 50, 58, 61))  # JP exclamation mark above the headband
+        # Exclude the dark shadow just left of the disc; otherwise it streaks left into Monkey's old text.
+        palette = {c for c in rgb if c[1] > c[0] and c[1] > c[2] and sum(c) > 240} if green else None
+        inpaint(clean, erase_rect, mask, coloured=green, background=True, palette=palette)
         for x, y in mask:
             out[y * W + x] = clean[y * W + x]
     rows = [(label, 10, STAT_W, 15, 'H') for label in STAT_EN] if stats else \
         [(line, FLAVOUR_PX, x1 - x0, FLAVOUR_LH, 'Hg') for line in lines or []]
     for r, (text, size, w, lh, ref) in enumerate(rows):
         for (x, y), k in letters(text, size, w, lh, align='left', ref=ref).items():
-            out[(y0 + r * lh + y) * W + x0 + x] = black if k == 'fill' else white
+            out[(y0 + r * (14 if stats else lh) + y) * W + x0 + x] = black if k == 'fill' else white
     # initial in the disc: greys -> disc colour, then the letter in white with a black outline
     x0, y0, x1, y1 = CIRCLE
-    disc = Counter(rgb[y * W + x] for y in range(y0, y1) for x in range(x0, x1)
-                   if not glyphish(rgb[y * W + x])).most_common(1)[0][0]
-    for y in range(y0, y1):
-        for x in range(x0, x1):
-            if glyphish(rgb[y * W + x]):
-                out[y * W + x] = disc
+    for (x, y), colour in disc_fix(rgb).items():
+        out[y * W + x] = colour
     for (x, y), k in letters(name[0], 16, x1 - x0, y1 - y0).items():
         out[(y0 + y) * W + x0 + x] = white if k == 'fill' else black
     idx = {c: nearest(pal, c) for c in {out[i] for i in range(W * H) if out[i] != rgb[i]}}

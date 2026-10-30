@@ -37,6 +37,10 @@ Standing non-bugs, `ok`:
 - crests and pictures without writing (the purple banners' crest, the 酒 on Shuten-doji's gourd is a picture
   detail: flag it only if you are sure it is a readable word in the scene);
 - props kept by decision: the 封 on the battle seal talismans (ofuda) and the circled 技 orb;
+- card illustration props retained under D11: 弁 on Snack Cart Oni's cart and 福 on the God of Fortune's hat;
+- BB241's unreadable scroll brush marks retained under D12 after independent reading attempts;
+- the tiny bath board's ADULT / CHILD labels and neutral price marks, and restaurant MENU plus abstract strokes,
+  are the documented D13 adaptation; do not infer a missing translated dish or price from an unreadable original;
 - the status-summary time reads "Day 1 00:00:14" (smaller "Day" beside the bold digits is intended).
 
 ## Verdicts

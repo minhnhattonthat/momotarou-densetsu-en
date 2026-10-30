@@ -16,6 +16,11 @@ local DADV = { { 400, "-" }, { 6, "up" }, { 20, "-" }, { 6, "circle" }, { 60, "-
 for _ = 1, 6 do DADV[#DADV + 1] = { 54, "-" }; DADV[#DADV + 1] = { 6, "circle" } end
 for _, s in ipairs({ { 119, "-" }, { 6, "circle" }, { 222, "-" }, { 6, "down" }, { 20, "-" }, { 6, "down" },
   { 20, "-" }, { 6, "circle" } }) do DADV[#DADV + 1] = s end  -- rules, then Advanced (12 blocks)
+local ONI_FLIP = { { 90, "-" }, { 6, "up" }, { 20, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "circle" } }
+for _ = 1, 51 do ONI_FLIP[#ONI_FLIP + 1] = { 24, "-" }; ONI_FLIP[#ONI_FLIP + 1] = { 6, "circle" } end
+for _, s in ipairs({ { 90, "-" }, { 8, "left" }, { 30, "-" }, { 8, "down" }, { 30, "-" }, { 20, "down" } }) do
+  ONI_FLIP[#ONI_FLIP + 1] = s
+end
 local SHOP_BUY = { { 6, "up" }, { 20, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "circle" }, { 240, "-" } }
 for _ = 1, 4 do SHOP_BUY[#SHOP_BUY + 1] = { 6, "circle" }; SHOP_BUY[#SHOP_BUY + 1] = { 50, "-" } end
 SHOP_BUY[#SHOP_BUY + 1] = { 6, "circle" }                    -- the buy / sell / trade-in / leave menu: buy
@@ -96,7 +101,11 @@ return {
   signs_cloth    = { map = 22, x = 25, y = 20 },
   signs_wood     = { map = 34, x = 40, y = 22 },
   signs_roof     = { map = 34, x = 20, y = 31 },
+  signs_restaurant = { map = 22, x = 107, y = 14 },
+  bath_prices    = { map = 378, x = 21, y = 19 },
+  restaurant_menu = { map = 381, x = 22, y = 12 },
   puzzle_oni     = { map = 403, x = 22, y = 33 },
+  puzzle_oni_flip = { map = 403, x = 26, y = 27, route = ONI_FLIP, settle = 10 },
   status_treasure = { map = 1, settle = 60, route = status_scroll("right") },
   setting_rumble = { map = 1, settle = 90, route = setting(0) },
   setting_music  = { map = 1, settle = 90, route = setting(1) },
