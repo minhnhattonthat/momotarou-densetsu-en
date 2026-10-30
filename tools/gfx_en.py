@@ -74,7 +74,10 @@ BATH_IMAGE, BATH_CLUT, BATH_INK = '30EV/FURO_0.PAC:6', '30EV/FURO_0.PAC:5', (160
 BATH_LOCS = ['30EV/FURO_%d.PAC:6' % n for n in range(5)]
 BATH_WORDS = [((0, 5, 76, 80), 'Hot', 30), ((82, 5, 144, 80), 'Bath', 24), ((168, 5, 238, 80), 'Hot', 30),
               ((8, 84, 80, 160), 'Bath', 26)]
-DARUMA_INK = (96, 97, 99, 100, 103, 105, 108, 110, 113, 115, 116, 117)     # DARUMA.PAC:6 brush greys
+# celebration banner おめでとう in HMAP26.PAC:3: image, word, font px, ink, glyph indices, unrolling frames (x0 y0 x1 y1)
+CONGRATS = ('07HMAP/HMAP26.PAC:3', 'Congrats!', 9, 15, (7, 8, 15),
+            [(72, 132, 88, 144), (88, 132, 104, 156), (105, 132, 121, 180), (88, 172, 104, 196)])
+DARUMA_INK =(96, 97, 99, 100, 103, 105, 108, 110, 113, 115, 116, 117)     # DARUMA.PAC:6 brush greys
 VERT = {'rotate': True, 'ink': 15}# album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
@@ -331,6 +334,29 @@ def bath():
     return new
 
 
+def banner():
+    """Celebration banner おめでとう (HMAP26.PAC:3) in unrolling frames: glyph pixels in each frame take the nearest
+    cloth pixel above/below, then one rotated word, drawn top-aligned for the longest frame, is clipped to each frame's
+    length (so a half-unrolled frame shows the word's start). New pixels."""
+    loc, word, size, ink, glyph, frames = CONGRATS
+    _, w, h, px = gfx.indices(gfx.entry(loc))
+    new = bytearray(px)
+    long_ = max(y1 - y0 for _, y0, _, y1 in frames)
+    cov = coverage(word, size, long_ - 2, 12, 'left').rotate(-90, expand=True).load()   # 12 x (long_ - 2), reads down
+    for x0, y0, x1, y1 in frames:
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                if px[y * w + x] in glyph:
+                    new[y * w + x] = next((px[sy * w + x] for d in range(1, y1 - y0) for sy in (y - d, y + d)
+                                           if y0 <= sy < y1 and px[sy * w + x] not in glyph), px[y * w + x])
+        cx = x0 + (x1 - x0 - 12) // 2
+        for y in range(y0 + 1, y1 - 1):
+            for x in range(12):
+                if cov[x, y - y0 - 1] > 110:
+                    new[y * w + cx + x] = ink
+    return new
+
+
 def plates():
     """Town sign plates (PLATE_KINDS): every block equal to one of the reference row's plates, in the kind's tilesets,
     gets the English word in the 3x5 pixel font (ink, light edge under each stroke) on the glyph rows cleared to the
@@ -392,6 +418,7 @@ def entries():
     new = bath()
     for loc in BATH_LOCS:
         out[loc] = gfx.repack(gfx.entry(loc), new)
+    out[CONGRATS[0]] = gfx.repack(gfx.entry(CONGRATS[0]), banner())
     return out
 
 

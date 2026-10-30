@@ -65,6 +65,9 @@ def allowed():
     for loc in gfx_en.BATH_LOCS:                        # bath-event band (8bpp, 256 wide)
         out['0/' + loc] = [(20 + y * 256 + x0, 20 + y * 256 + x1) for (x0, y0, x1, y1), *_ in gfx_en.BATH_WORDS
                            for y in range(y0, y1)]
+    bpp, w, _, _ = gfx.indices(gfx.entry(gfx_en.CONGRATS[0]))   # celebration banner frames
+    out['0/' + gfx_en.CONGRATS[0]] = [(20 + (y * w + x0) * bpp // 8, 20 + ((y * w + x1) * bpp + 7) // 8)
+                                      for x0, y0, x1, y1 in gfx_en.CONGRATS[-1] for y in range(y0, y1)]
     for loc, (_, rects) in gfx_en.plates().items():     # shop-sign plates (4bpp tilesets)
         _, w, _, _ = gfx.indices(gfx.entry(loc))
         out['0/' + loc] = [(20 + (y * w + x0) // 2, 20 + (y * w + x1) // 2) for x0, y0, x1, y1 in rects
