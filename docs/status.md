@@ -2,9 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (engine spike + marker build) in progress 2026-10-30: engine done and booted; width gate partly
-  measured; table size limits found, size fix planned for phase 7.
-- **Done (phase 5 so far):** VWF + English glyphs + digraph codes (docs/re/engine.md): `tools/engine.py` patches the
+- **Phase:** 5 (engine spike + marker build) **done** 2026-10-30. Next: phase 6 (translate).
+- **Next (phase 6):** give translators the per-table pixel budgets from docs/re/windows.md (item names 103 px,
+  techniques 85 px, monster names 114 px, commands 52/54 px, dialogue 234 px x 3 lines, side box 134 px, staff roll
+  250 px, shop menu 58 px, name-entry commands 56 px); `max` bytes on EXE/overlay strings still cap those first.
+  Glossary first (names per D1/D2). Phase 7 carry-overs: slot size gate + dictionary codes (engine.md "Remedies"),
+  HUD stat labels (12 px), the ？？？ battle-command string (its marker overflows into col 2), name-entry English
+  grid (EXE 0xD4158.., use the 英数字 page), glyph_prim's caller (0x80022840, needs single glyphs).
+- **Done (phase 5, width gate, this session):** every box variant measured (windows.md table). Debug tool additions:
+  scenes `shop_65_buy` (buy list; timed for marker/English text), `menu_items` (inventory poke), `menu_techs`
+  (learned-technique bits), `battle_long` / `battle_lists` (command menu on round 2, god mode), `ev_card_all`,
+  `talk_36`; scene fields `hold`, `money`, `god`; `tools/debug/call.lua` reaches name entry (debug.md). Inventory
+  0x8009133A, technique bits 0x800FE3A8, name entry 0x800DC3D0 in docs/re/debug.md.
+- **Done (phase 5, engine):** VWF + English glyphs + digraph codes (docs/re/engine.md): `tools/engine.py` patches the
   EXE (draw_string advance per glyph; pairs of letters as one u16 code drawn by a recursive hook) and FONT.PAC (95
   ASCII glyphs from `fonts/en12.txt`). `tools/insert.py` builds every table from `en` (else original JP bytes) and
   writes all `copies`; `tools/build.py --marker` -> build/momotarou_marker.cue with `[n.i] filler` in every string
@@ -13,11 +23,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   draw_string incl. digraphs, freed-block branch check, load-delay check).
   Table limits (docs/re/engine.md table): PAC < 0x38000; FONT_6 slot 32 KB (marker 38 KB), FONT_10 5.6 KB (7.1 KB),
   SMAP16_37 32 KB (35.5 KB), SHOP.MMB 45 KB (49.8 KB) overflow even with digraphs.
-- **Next (phase 5 rest):** finish the width gate (docs/re/windows.md "Open": item/technique list needs an inventory
-  cheat in the debug tool, shop buy list, battle command menus, card album, minigame boxes, staff roll, name entry);
-  then phase 6. Measured so far: dialogue box 234 px x 3 lines, side message box 134 px, menu commands 52/54 px,
-  HUD name 44 px, HUD stat labels 12 px (layout change needed), equip, status, save slot. Torture line booted ok. Name-entry grid (EXE 0xD4158..) and glyph_prim's caller (0x80022840, needs single glyphs)
-  not handled yet. Phase 7 must add the slot size gate + dictionary codes (engine.md "Remedies").
 - **Done (phase 4):** `tools/extract.py` -> `script/` (191 JSON files: 187 unique string tables, SHOP.MMB, 3 code
   overlays, EXE). 23,175 strings, 5,981 unique, ~281k chars. Format and findings in docs/re/text.md §Script.
   `extract.build_table(doc, 'jp')` rebuilds every table byte-identical; `tests/test_extract.py` checks that, overlay

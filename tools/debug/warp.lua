@@ -53,8 +53,9 @@ local function arrive(f)
 end
 
 L.on_frame(function(f)
-  if GOD then for _, a in ipairs({ 0x800849D8, 0x80091252, 0x800FE300, 0x800FEE30 }) do w16(a, 999) end end -- GS code
-  if MONEY then w32(0x800912E0, MONEY) end
+  if GOD or sc.god then for _, a in ipairs({ 0x800849D8, 0x80091252, 0x800FE300, 0x800FEE30 }) do w16(a, 999) end end -- GS code
+  if phase ~= "boot" then apply_pokes(sc.hold) end   -- hold = pokes rewritten every frame once the map loads
+  if MONEY or sc.money then w32(0x800912E0, MONEY or sc.money) end
   if phase == "title" then
     if f % 5 == 0 and title_ready() then
       L.log(f .. " title menu up")
