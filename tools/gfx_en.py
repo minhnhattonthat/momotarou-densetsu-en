@@ -66,7 +66,8 @@ BATH_IMAGE, BATH_CLUT, BATH_INK = '30EV/FURO_0.PAC:6', '30EV/FURO_0.PAC:5', (160
 BATH_LOCS = ['30EV/FURO_%d.PAC:6' % n for n in range(5)]
 BATH_WORDS = [((0, 5, 76, 80), 'Hot', 30), ((82, 5, 144, 80), 'Bath', 24), ((168, 5, 238, 80), 'Hot', 30),
               ((8, 84, 80, 160), 'Bath', 26)]
-VERT = {'rotate': True, 'ink': 15} # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
+DARUMA_INK = (96, 97, 99, 100, 103, 105, 108, 110, 113, 115, 116, 117)     # DARUMA.PAC:6 brush greys
+VERT = {'rotate': True, 'ink': 15}# album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
         # left edges = the JP words' (the cursor peach sits just left of them)
@@ -135,6 +136,11 @@ IMAGES = {
         for x, word in ((0, 'East'), (48, 'West'), (96, 'South'), (144, 'North'))] + [
         ((x + 4, 58, x + 44, 88), word, 'sprite', 11, {}) for x, word in ((0, 'Red'), (48, 'Blue'), (96, 'Yellow'),
                                                                           (144, 'White'))]),
+    # Daruma-otoshi title ribbons だルマ / おとし！ (brush greys on a grey-white gradient ribbon)
+    'daruma_banner': ('30EV/DARUMA.PAC:6', ('30EV/DARUMA.PAC:5', 0), [
+        ((58, 150, 160, 190), 'Daruma', 'sprite', 22, {'erase': DARUMA_INK, 'grow': 2}),
+        ((0, 200, 100, 236), 'Drop!', 'sprite', 24, {'erase': DARUMA_INK, 'grow': 2}),
+    ]),
     # bathhouse curtains 男湯 / 女湯
     'bath_signs': ('07HMAP3/HMAP8200.PAC:3', ('07HMAP3/HMAP8200.PAC:4', 0), [
         ((8, 3, 56, 25), 'Men', 'sprite', 14, {'erase': (10, 11, 12, 13)}),
@@ -192,6 +198,10 @@ def sprite(px, new, w, rect, text, size, opt):
     cov = cov.point(lambda v: 255 * (v > 110)).load()
     hw, hh = x1 - x0 - 2 * e, y1 - y0 - 2 * e
     ink = lambda x, y: 0 <= x < hw and 0 <= y < hh and cov[x, y]  # noqa: E731
+    gone = {(x, y) for y in range(y0, y1) for x in range(x0, x1) if erase and px[y * w + x] in erase}
+    for _ in range(opt.get('grow', 0)):         # opt 'grow': also clear the glyph's antialiased rim (n px)
+        gone |= {(x + dx, y + dy) for x, y in gone for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
+                 if x0 <= x + dx < x1 and y0 <= y + dy < y1}
     for y in range(y0, y1):
         for x in range(x0, x1):
             cx, cy = x - x0 - e, y - y0 - e
@@ -200,9 +210,9 @@ def sprite(px, new, w, rect, text, size, opt):
             elif any(ink(cx + dx, cy + dy) for dx in range(-e, e + 1) for dy in range(-e, e + 1)):
                 new[y * w + x] = edge
             elif erase:                         # glyph pixel -> the nearest non-glyph pixel above/below (keeps texture)
-                new[y * w + x] = px[y * w + x] if px[y * w + x] not in erase else next(
+                new[y * w + x] = px[y * w + x] if (x, y) not in gone else next(
                     (px[sy * w + x] for d in range(1, y1 - y0) for sy in (y - d, y + d)
-                     if y0 <= sy < y1 and px[sy * w + x] not in erase), rowbg[y])
+                     if y0 <= sy < y1 and (x, sy) not in gone), rowbg[y])
             else:
                 new[y * w + x] = bg
 
