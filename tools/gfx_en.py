@@ -50,7 +50,10 @@ PLATE_KINDS = [
     ('06CITY/SMAP16.PAC:6', (32, 86), 64, 20, ['RESTAURANT'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
     ('06CITY/SMAP16.PAC:6', (96, 86), 104, 20, ['CARD DOJO'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
     ('06CITY/SMAP16.PAC:6', (200, 84), 48, 28, ['BATH'], (6, 7, 8), (3, 25), 6, 7, 11, ['06CITY/SMAP16.PAC:6']),
-]
+] + [  # Shuten-doji's cave, 7-tile floor word しゅてんどうじ (DMAP03_92:002): SH u TE N DO U JI, small ゅ -> small U
+    ('06DAN01/DMAP03.PAC:0', (x, y), 16, 16, [word], (1, 2, 3), (1, 15), 3, 1, 3 if s == 2 else 8, ['06DAN01/DMAP03.PAC:0'], s)
+    for x, y, word, s in ((64, 160, 'SH', 2), (64, 176, 'U', 1), (64, 192, 'TE', 2), (64, 208, 'N', 2), (64, 224, 'DO', 2),
+                          (80, 160, 'U', 2), (80, 176, 'JI', 2))]
 PIXEL_FONT = {ch: rows.split('/') for ch, rows in {     # 3x5 caps
     'A': '.#./#.#/###/#.#/#.#', 'B': '##./#.#/##./#.#/##.', 'C': '.##/#../#../#../.##', 'D': '##./#.#/#.#/#.#/##.',
     'E': '###/#../##./#../###', 'F': '###/#../##./#../#..', 'G': '.##/#../#.#/#.#/.##', 'H': '#.#/#.#/###/#.#/#.#',
@@ -126,6 +129,12 @@ IMAGES = {
         ((5, 2, 141, 3), '', [3], 11, {}),          # the bevel rows under the frame, minus the JP glyph tops
         ((5, 3, 141, 4), '', [2], 11, {}),
     ]),
+    # Shuten-doji's cave quiz panels (DMAP03_92:044-055): 東 西 南 北 on stone, 赤 青 黄 白 on flat grey
+    'cave_panels': ('06DAN01/DMAP03.PAC:2', ('06DAN01/DMAP03.PAC:4', 0), [
+        ((x + 3, 8, x + 45, 40), word, 'sprite', 13, {'erase': (1, 2, 3, 4)})
+        for x, word in ((0, 'East'), (48, 'West'), (96, 'South'), (144, 'North'))] + [
+        ((x + 4, 58, x + 44, 88), word, 'sprite', 11, {}) for x, word in ((0, 'Red'), (48, 'Blue'), (96, 'Yellow'),
+                                                                          (144, 'White'))]),
     # bathhouse curtains 男湯 / 女湯
     'bath_signs': ('07HMAP3/HMAP8200.PAC:3', ('07HMAP3/HMAP8200.PAC:4', 0), [
         ((8, 3, 56, 25), 'Men', 'sprite', 14, {'erase': (10, 11, 12, 13)}),
@@ -190,8 +199,10 @@ def sprite(px, new, w, rect, text, size, opt):
                 new[y * w + x] = fill[y]
             elif any(ink(cx + dx, cy + dy) for dx in range(-e, e + 1) for dy in range(-e, e + 1)):
                 new[y * w + x] = edge
-            elif erase:
-                new[y * w + x] = rowbg[y] if px[y * w + x] in erase else px[y * w + x]
+            elif erase:                         # glyph pixel -> the nearest non-glyph pixel above/below (keeps texture)
+                new[y * w + x] = px[y * w + x] if px[y * w + x] not in erase else next(
+                    (px[sy * w + x] for d in range(1, y1 - y0) for sy in (y - d, y + d)
+                     if y0 <= sy < y1 and px[sy * w + x] not in erase), rowbg[y])
             else:
                 new[y * w + x] = bg
 
@@ -307,7 +318,8 @@ def plates():
     gets the English word in the 3x5 pixel font (ink, light edge under each stroke) on the glyph rows cleared to the
     commonest plate index of each row. {image location: (new pixels, [rects])}."""
     out = {}
-    for ref_loc, (rx, ry), bw, bh, words, glyph, (g0, g1), ink_i, light, ty, images in PLATE_KINDS:
+    for ref_loc, (rx, ry), bw, bh, words, glyph, (g0, g1), ink_i, light, ty, images, *scale in PLATE_KINDS:
+        s = scale[0] if scale else 1            # pixel-font scale
         ref = gfx.indices(gfx.entry(ref_loc))[3]
         blk = lambda p, w, x0, y0: bytes(p[y * w + x0 + x] for y in range(y0, y0 + bh) for x in range(bw))  # noqa: E731,B023
         new_blocks = {}
@@ -321,11 +333,12 @@ def plates():
                     if b[y * bw + x] in glyph:
                         b[y * bw + x] = bg
             ink = set()
-            x = (bw - (4 * len(word) - 1)) // 2
+            x = (bw - (4 * len(word) - 1) * s) // 2
             for ch in word:
                 for r, bits in enumerate(PIXEL_FONT[ch]):
-                    ink |= {(x + c, ty + r) for c in range(3) if bits[c] == '#'}
-                x += 4
+                    ink |= {(x + c * s + i, ty + r * s + j) for c in range(3) if bits[c] == '#'
+                            for i in range(s) for j in range(s)}
+                x += 4 * s
             for px, py in ink:
                 b[py * bw + px] = ink_i
             for px, py in ink:                  # carved look: light edge under each stroke

@@ -13,12 +13,12 @@
   {
    "id": "DMAP03_92:001",
    "jp": "「まずは 小手調べだ！」{n}{n}{wait}{n}「下の階に いくには{n} この先に ある」{n}{wait}{n}「7枚の タイルを{n} 同時に ふみ あることばを{n} つくるのだ！」{wait}{n}「わかるか？ ふんだ 7枚の{n} タイルが ことばに なるように{n} 同時に ふむのだ！ いいな！」{wait}{n}「おれの 名は 酒呑童子！{n} しゅてんどうじ だ！{n} わすれるな！」{wait}",
-   "en": "\"First, a little warm-up!\"{wait}\"To go down to the next floor, you must use what lies ahead:\"{wait}\"step on 7 tiles at the same time to make a certain word!\"{wait}\"Get it? Step on 7 tiles at once so that the tiles you stand on form a word! Understood?\"{wait}\"My name is Shuten-doji! Shu-ten-do-ji! Don't you forget it!\"{wait}"
+   "en": "\"First, a little warm-up!\"{wait}\"To go down to the next floor, you must use what lies ahead:\"{wait}\"step on 7 tiles at the same time to make a certain word!\"{wait}\"Get it? Step on 7 tiles at once so that the tiles you stand on form a word! Understood?\"{wait}\"My name is Shuten-doji! Sh-u-te-n-do-u-ji! Don't you forget it!\"{wait}"
   },
   {
    "id": "DMAP03_92:002",
    "jp": "「下の階に いくには{n} この先に ある」{n}{wait}{n}「7枚の タイルを{n} 同時に ふみ あることばを{n} つくるのだ！」{wait}{n}「わかるか？ ふんだ 7枚の{n} タイルが ことばに なるように{n} 同時に ふむのだ！ いいな！」{wait}{n}「オレの 名は 酒呑童子！{n} しゅてんどうじ だ！{n} わすれるな！」{wait}",
-   "en": "\"To go down to the next floor, you must use what lies ahead:\"{wait}\"step on 7 tiles at the same time to make a certain word!\"{wait}\"Get it? Step on 7 tiles at once so that the tiles you stand on form a word! Understood?\"{wait}\"My name is Shuten-doji! Shu-ten-do-ji! Don't you forget it!\"{wait}"
+   "en": "\"To go down to the next floor, you must use what lies ahead:\"{wait}\"step on 7 tiles at the same time to make a certain word!\"{wait}\"Get it? Step on 7 tiles at once so that the tiles you stand on form a word! Understood?\"{wait}\"My name is Shuten-doji! Sh-u-te-n-do-u-ji! Don't you forget it!\"{wait}"
   },
   {
    "id": "DMAP03_92:003",

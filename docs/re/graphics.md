@@ -24,7 +24,7 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 | Banner 天下一だじゃれ大会 | SMAP13.PAC:5 (map 18) | **English** Grand Pun Contest (pun_banner), seen in-game |
 | SMAP16 extra plates 衣 着 料亭 カード道場 湯 | SMAP16.PAC:6 | **English** CLOTH KIMONO RESTAURANT CARD DOJO BATH (PLATE_KINDS), preview only (not found in map 22 warps yet) |
 | Map flag (3-4 chars) | AMAP.PAC:9-11 | unread |
-| Dungeon plates 東 西 南 北 鬼 + colour plates, kana column | DMAP03.PAC:2/0 | |
+| Shuten-doji's cave puzzles: quiz panels 東 西 南 北, colour panels 赤 青 黄 白, 7 kana floor tiles しゅてんどうじ | DMAP03.PAC:2 (cave_panels), DMAP03.PAC:0 (PLATE_KINDS, 2x pixel font) | **English** East/West/South/North, Red/Blue/Yellow/White, tiles SH u TE N DO U JI (small ゅ = small U; hint DMAP03_92:001/002 now spells "Sh-u-te-n-do-u-ji"), all seen in-game (maps 402, 405, 407). 鬼 plate (DMAP03.PAC:2 x192) not yet placed/seen |
 | Seal 封 talismans, circled 技 | BM000.PAC:12/16, BM091.PAC:24 | battle effects |
 | Minigame words すたーと げーむおーばー そこまで！ げーむくりあー 得点 最高得点 | DARUMA.PAC:10, MOGURA.PAC:10, YUMI1.PAC:9 | **English** (+ 失敗 Miss, 時間 Time), all three seen in-game |
 | Daruma-otoshi banner | DARUMA.PAC:6 | |
