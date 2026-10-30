@@ -44,13 +44,20 @@ PLATE_KINDS = [
      (2, 17), 6, 7, 7, OVAL_IMAGES),
     ('06CITY01/OMAP00.PAC:4', (16, 86), 32, 20, [None, None, 'SHOP', 'SEER'], (6, 7, 8), (2, 17), 6, 7, 7, OVAL_IMAGES),
     ('06CITY01/OMAP00.PAC:4', (8, 86), 64, 20, ['GROCER'], (6, 7, 8), (2, 17), 6, 7, 7, OVAL_IMAGES),
+    # SMAP16's own: 8th oval 衣, then 着 料亭 カード道場 and a big 湯
+    ('06CITY/SMAP16.PAC:6', (224, 54), 32, 20, ['CLOTH'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
+    ('06CITY/SMAP16.PAC:6', (0, 86), 32, 20, ['KIMONO'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
+    ('06CITY/SMAP16.PAC:6', (32, 86), 64, 20, ['RESTAURANT'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
+    ('06CITY/SMAP16.PAC:6', (96, 86), 104, 20, ['CARD DOJO'], (6, 7, 8), (2, 17), 6, 7, 7, ['06CITY/SMAP16.PAC:6']),
+    ('06CITY/SMAP16.PAC:6', (200, 84), 48, 28, ['BATH'], (6, 7, 8), (3, 25), 6, 7, 11, ['06CITY/SMAP16.PAC:6']),
 ]
 PIXEL_FONT = {ch: rows.split('/') for ch, rows in {     # 3x5 caps
     'A': '.#./#.#/###/#.#/#.#', 'B': '##./#.#/##./#.#/##.', 'C': '.##/#../#../#../.##', 'D': '##./#.#/#.#/#.#/##.',
     'E': '###/#../##./#../###', 'F': '###/#../##./#../#..', 'G': '.##/#../#.#/#.#/.##', 'H': '#.#/#.#/###/#.#/#.#',
     'I': '###/.#./.#./.#./###', 'J': '..#/..#/..#/#.#/.#.', 'K': '#.#/#.#/##./#.#/#.#', 'M': '#.#/###/###/#.#/#.#',
     'N': '##./#.#/#.#/#.#/#.#', 'O': '.#./#.#/#.#/#.#/.#.', 'P': '##./#.#/##./#../#..', 'R': '##./#.#/##./#.#/#.#',
-    'S': '.##/#../.#./..#/##.', 'T': '###/.#./.#./.#./.#.', 'W': '#.#/#.#/###/###/#.#'}.items()}
+    'S': '.##/#../.#./..#/##.', 'T': '###/.#./.#./.#./.#.', 'W': '#.#/#.#/###/###/#.#', 'L': '#../#../#../#../###',
+    'U': '#.#/#.#/#.#/#.#/###', ' ': '.../.../.../.../...'}.items()}
 # bath-event band: 8bpp 256x256, band y5-80 (ゆ 湯 ゆ + edge) and a 湯 tile below it; rects, word, font px
 BATH_IMAGE, BATH_CLUT, BATH_INK = '30EV/FURO_0.PAC:6', '30EV/FURO_0.PAC:5', (160, 80, 0)
 BATH_LOCS = ['30EV/FURO_%d.PAC:6' % n for n in range(5)]
@@ -113,6 +120,17 @@ IMAGES = {
         ((0, 119, 16, 137), '', 'sprite', 9, {}),                        # 枚 (counter): "Cards" says it
         ((144, 0, 160, 15), '0', 'sprite', 13, {}),                      # 〇
     ] + [((100, 64 + 16 * i, 124, 80 + 16 * i), str(i + 1), 'sprite', 13, {}) for i in range(9)]),
+    # pun-contest hall banner 天下一だじゃれ大会 (SMAP13)
+    'pun_banner': ('06CITY/SMAP13.PAC:5', ('06CITY/SMAP13.PAC:7', 0), [
+        ((6, 4, 140, 14), 'Grand Pun Contest', [1, 2, 3, 4, 5], 11, {}),
+        ((5, 2, 141, 3), '', [3], 11, {}),          # the bevel rows under the frame, minus the JP glyph tops
+        ((5, 3, 141, 4), '', [2], 11, {}),
+    ]),
+    # bathhouse curtains 男湯 / 女湯
+    'bath_signs': ('07HMAP3/HMAP8200.PAC:3', ('07HMAP3/HMAP8200.PAC:4', 0), [
+        ((8, 3, 56, 25), 'Men', 'sprite', 14, {'erase': (10, 11, 12, 13)}),
+        ((70, 3, 122, 25), 'Women', 'sprite', 13, {'erase': (10, 11, 12, 13)}),
+    ]),
     # つづき うつす けす やめる strip (title > Continue)
     'mecd_load': ('13BTL/MECD.PAC:2', ('13BTL/MECD.PAC:5', 0), [
         ((x0, 162, x1, 181), 'Load' if t == 'Save' else t, 1, 14, {}) for x0, x1, t in MECD_STRIP]),
@@ -124,6 +142,8 @@ def coverage(text, size, w, h, align='center', font=ROUND, ref='H'):
     ref: the sample centred ('Hg' leaves room for descenders in a tight box)."""
     f = ImageFont.truetype(str(font), size)
     im = Image.new('L', (w, h))
+    if not text:                                # a rect only cleared
+        return im
     d = ImageDraw.Draw(im)
     x0, y0, x1, y1 = d.textbbox((0, 0), text, font=f)
     _, top, _, base = d.textbbox((0, 0), ref, font=f)        # same sample for every word: one baseline
@@ -135,11 +155,17 @@ def coverage(text, size, w, h, align='center', font=ROUND, ref='H'):
 
 def sprite(px, new, w, rect, text, size, opt):
     """Lettering on a sprite (background = the rect border's commonest index): outline = the index most found on the JP glyphs' edge, fill per
-    row = the commonest inner index of that JP row (keeps vertical gradients); opt 'edge': outline width (1)."""
+    row = the commonest inner index of that JP row (keeps vertical gradients); opt 'edge': outline width (1);
+    opt 'erase': the JP glyph's indices: only those are cleared (to the row's commonest other index), the rest of the
+    rect (folds, seams) is kept."""
     x0, y0, x1, y1 = rect
     bg = Counter([px[y * w + x] for x in range(x0, x1) for y in (y0, y1 - 1)] +
                  [px[y * w + x] for y in range(y0, y1) for x in (x0, x1 - 1)]).most_common(1)[0][0]
-    at = lambda x, y: px[y * w + x] if x0 <= x < x1 and y0 <= y < y1 and px[y * w + x] != bg else 0  # noqa: E731
+    erase = opt.get('erase')
+    glyph = (lambda v: v in erase) if erase else (lambda v: v != bg)  # noqa: E731
+    rowbg = {y: Counter(px[y * w + x] for x in range(x0, x1) if not glyph(px[y * w + x])).most_common(1)[0][0]
+             for y in range(y0, y1)} if erase else {}
+    at = lambda x, y: px[y * w + x] if x0 <= x < x1 and y0 <= y < y1 and glyph(px[y * w + x]) else 0  # noqa: E731
     edge = Counter(at(x, y) for y in range(y0, y1) for x in range(x0, x1) if at(x, y) and
                    not all(at(x + dx, y + dy) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))).most_common(1)[0][0]
     fills = {y: Counter(at(x, y) for x in range(x0, x1) if at(x, y) not in (0, edge)).most_common(1) for y in
@@ -164,6 +190,8 @@ def sprite(px, new, w, rect, text, size, opt):
                 new[y * w + x] = fill[y]
             elif any(ink(cx + dx, cy + dy) for dx in range(-e, e + 1) for dy in range(-e, e + 1)):
                 new[y * w + x] = edge
+            elif erase:
+                new[y * w + x] = rowbg[y] if px[y * w + x] in erase else px[y * w + x]
             else:
                 new[y * w + x] = bg
 

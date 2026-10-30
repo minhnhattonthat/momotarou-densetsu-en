@@ -19,10 +19,11 @@ house maps, battle backgrounds) returned few rows; re-check those scenes on the 
 | Collectible cards: 297 cards, name + circled initial + flavour text (cards 1-60) or stat labels 体力/攻撃/守備/速さ (61-297) | CR_PG01-99.PAC entries 0/2/4 (8bpp 96x136) | **English** (tools/cards.py: names, initials, HP/Atk/Def/Spd; flavour text of cards 1-60 from script/cards.tsv), cards 1-3 seen in-game; 5 cards carry real people's names (dajare contest winners) |
 | Shop-sign plates 茶 医 防 足 武 ど つ 旅 銭 宿 湯 ... and 八百屋 | wood row SMAP00.PAC:3 y80 (16 plates 16x16); oval building signs OMAP00.PAC:4 y54 (8 x 32x20: 宿 茶 医 防 足 武 銭 刃) + y86 (八百屋 64 wide, つ, 易); byte-identical copies in ~30 SMAP/OMAP/JMAP/HMAP8600 tilesets (lists in gfx_en.PLATE_KINDS) | **English** (gfx_en.plates(), 3x5 pixel caps: INN TEA DOC ARMOR SHOES ARMS BANK SMITH GROCER SHOP SEER; wood row TEA DOC ARM SHOE WPN ITEM SHOP SEER BANK RENT BATH SHOP FEST BATH JOKE EDGE), ovals seen in-game (map_36, town2). Unsure: つ ど 薪? -> SHOP (shop type unknown); wood row not seen in-game yet |
 | Bath-event band ゆ 湯 ゆ 湯 (brush on wood under the FURO pictures) | FURO_0-4.PAC:6 (identical; 8bpp, CLUT :5) | **English** Hot Bath Hot Bath (gfx_en.bath()), seen in ev_furo0/1 |
-| Bath signs 男湯 / 女湯; inn and shop boards | HMAP8200.PAC:3/0, HMAP8500.PAC:0/3, HMAP8600.PAC:3, HMAP26.PAC:3 | |
+| Bath curtains 男湯 / 女湯 | HMAP8200.PAC:3 (map 378) | **English** Men / Women (bath_signs, sprite mode with `erase` so the curtain seams stay), seen in-game |
+| Inn and shop boards, price lists (tiny vertical kanji) | HMAP8200.PAC:0, HMAP8500.PAC:0/3, HMAP26.PAC:3 | open: illegible at 1:1 even in JP; HMAP26 おめでとう banners todo |
+| Banner 天下一だじゃれ大会 | SMAP13.PAC:5 (map 18) | **English** Grand Pun Contest (pun_banner), seen in-game |
+| SMAP16 extra plates 衣 着 料亭 カード道場 湯 | SMAP16.PAC:6 | **English** CLOTH KIMONO RESTAURANT CARD DOJO BATH (PLATE_KINDS), preview only (not found in map 22 warps yet) |
 | Map flag (3-4 chars) | AMAP.PAC:9-11 | unread |
-| Banner 天下一…大会 | SMAP13.PAC:5 | |
-| カート… sign, 湯 mark | SMAP16.PAC:6 | |
 | Dungeon plates 東 西 南 北 鬼 + colour plates, kana column | DMAP03.PAC:2/0 | |
 | Seal 封 talismans, circled 技 | BM000.PAC:12/16, BM091.PAC:24 | battle effects |
 | Minigame words すたーと げーむおーばー そこまで！ げーむくりあー 得点 最高得点 | DARUMA.PAC:10, MOGURA.PAC:10, YUMI1.PAC:9 | **English** (+ 失敗 Miss, 時間 Time), all three seen in-game |
