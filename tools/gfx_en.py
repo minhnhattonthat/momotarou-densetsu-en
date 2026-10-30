@@ -24,7 +24,33 @@ ROUND = ROOT / 'fonts/mplus/MPLUSRounded1c-ExtraBold-latin.ttf'
 MECD_STRIP = [(8, 59, 'Save'), (77, 128, 'Copy'), (141, 188, 'Erase'), (198, 249, 'Quit')]   # memory-card menu
 COVER, COVER_CLUT = ['30EV/EVTCARD.PAC:1', '30EV/EVTCARD.PAC:2'], '30EV/EVTCARD.PAC:6'   # album cover: left 240 + right 80 px
 STAMP, STAMP_TILT = (208, 6, 287, 86), 22     # its カードアルバム stamp (cover coords) and the stamp's clockwise tilt in degrees
-VERT = {'rotate': True, 'ink': 15}   # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
+# town sign plates (shop names FONT_6:700-707; docs/re/graphics.md). Per kind: reference image, first plate x y,
+# plate w x h, words left to right (None: no plate there), glyph indices, glyph rows (in the plate), ink, light edge,
+# text row, tilesets holding copies. Wood row 茶 医 防 足 武 ど つ 易 銭 借? 湯? 薪? 祭 ゆ 笑 刃 (ど つ 薪? unknown ->
+# SHOP); oval building signs 宿 茶 医 防 足 武 銭 刃, then 八百屋 (wide) つ 易.
+WOOD_IMAGES = ['06CITY/SMAP%s.PAC:3' % n for n in ('00', '04', '0401', '06', '0601', '08', '09', '13', '14', '16', '20',
+                                                   '2001', '21', '22', '23', '24', '26', '27', '28')] + \
+    ['06CITY01/JMAP00.PAC:1', '06CITY01/OMAP00.PAC:1'] + \
+    ['06CITY01/OMAP0%d.PAC:%d' % (n, e) for n in range(1, 6) for e in (3, 5)]
+OVAL_IMAGES = ['06CITY/SMAP%s.PAC:6' % n for n in ('00', '01', '02', '04', '0401', '06', '0601', '08', '09', '12', '13',
+                                                   '16', '20', '2001', '21', '22', '23', '24', '26')] + \
+    ['06CITY01/JMAP00.PAC:4', '06CITY01/OMAP00.PAC:4', '07HMAP3/HMAP8600.PAC:3']
+PLATE_KINDS = [
+    ('06CITY/SMAP00.PAC:3', (0, 80), 16, 16, ['TEA', 'DOC', 'ARM', 'SHOE', 'WPN', 'ITEM', 'SHOP', 'SEER', 'BANK', 'RENT',
+                                              'BATH', 'SHOP', 'FEST', 'BATH', 'JOKE', 'EDGE'], (12, 13, 14), (1, 15), 12,
+     13, 5, WOOD_IMAGES),
+    ('06CITY01/OMAP00.PAC:4', (0, 54), 32, 20, ['INN', 'TEA', 'DOC', 'ARMOR', 'SHOES', 'ARMS', 'BANK', 'SMITH'], (6, 7),
+     (2, 17), 6, 7, 7, OVAL_IMAGES),
+    ('06CITY01/OMAP00.PAC:4', (16, 86), 32, 20, [None, None, 'SHOP', 'SEER'], (6, 7, 8), (2, 17), 6, 7, 7, OVAL_IMAGES),
+    ('06CITY01/OMAP00.PAC:4', (8, 86), 64, 20, ['GROCER'], (6, 7, 8), (2, 17), 6, 7, 7, OVAL_IMAGES),
+]
+PIXEL_FONT = {ch: rows.split('/') for ch, rows in {     # 3x5 caps
+    'A': '.#./#.#/###/#.#/#.#', 'B': '##./#.#/##./#.#/##.', 'C': '.##/#../#../#../.##', 'D': '##./#.#/#.#/#.#/##.',
+    'E': '###/#../##./#../###', 'F': '###/#../##./#../#..', 'G': '.##/#../#.#/#.#/.##', 'H': '#.#/#.#/###/#.#/#.#',
+    'I': '###/.#./.#./.#./###', 'J': '..#/..#/..#/#.#/.#.', 'K': '#.#/#.#/##./#.#/#.#', 'M': '#.#/###/###/#.#/#.#',
+    'N': '##./#.#/#.#/#.#/#.#', 'O': '.#./#.#/#.#/#.#/.#.', 'P': '##./#.#/##./#../#..', 'R': '##./#.#/##./#.#/#.#',
+    'S': '.##/#../.#./..#/##.', 'T': '###/.#./.#./.#./.#.', 'W': '#.#/#.#/###/###/#.#'}.items()}
+VERT = {'rotate': True, 'ink': 15}  # album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
         # left edges = the JP words' (the cursor peach sits just left of them)
@@ -213,6 +239,52 @@ def stamp():
     return out
 
 
+def plates():
+    """Town sign plates (PLATE_KINDS): every block equal to one of the reference row's plates, in the kind's tilesets,
+    gets the English word in the 3x5 pixel font (ink, light edge under each stroke) on the glyph rows cleared to the
+    commonest plate index of each row. {image location: (new pixels, [rects])}."""
+    out = {}
+    for ref_loc, (rx, ry), bw, bh, words, glyph, (g0, g1), ink_i, light, ty, images in PLATE_KINDS:
+        ref = gfx.indices(gfx.entry(ref_loc))[3]
+        blk = lambda p, w, x0, y0: bytes(p[y * w + x0 + x] for y in range(y0, y0 + bh) for x in range(bw))  # noqa: E731,B023
+        new_blocks = {}
+        for k, word in enumerate(words):
+            if word is None:                    # slot holds no plate of this kind
+                continue
+            b = bytearray(blk(ref, 256, rx + k * bw, ry))
+            for y in range(g0, g1):
+                bg = Counter(v for v in b[y * bw:(y + 1) * bw] if v not in glyph and v).most_common(1)[0][0]
+                for x in range(bw):
+                    if b[y * bw + x] in glyph:
+                        b[y * bw + x] = bg
+            ink = set()
+            x = (bw - (4 * len(word) - 1)) // 2
+            for ch in word:
+                for r, bits in enumerate(PIXEL_FONT[ch]):
+                    ink |= {(x + c, ty + r) for c in range(3) if bits[c] == '#'}
+                x += 4
+            for px, py in ink:
+                b[py * bw + px] = ink_i
+            for px, py in ink:                  # carved look: light edge under each stroke
+                if (px, py + 1) not in ink:
+                    b[(py + 1) * bw + px] = light
+            new_blocks[blk(ref, 256, rx + k * bw, ry)] = bytes(b)
+        mid = {b[bh // 2 * bw:(bh // 2 + 1) * bw] for b in new_blocks}    # quick filter: a plate's middle row
+        for loc in images:
+            _, w, h, px = gfx.indices(gfx.entry(loc))
+            new, rects = out.get(loc, (bytearray(px), []))
+            for y0 in range(0, h - bh + 1):
+                for x0 in range(0, w - bw + 1, 8):
+                    m = (y0 + bh // 2) * w + x0
+                    if bytes(px[m:m + bw]) in mid and (b := new_blocks.get(blk(px, w, x0, y0))):
+                        rects.append((x0, y0, x0 + bw, y0 + bh))
+                        for y in range(bh):
+                            new[(y0 + y) * w + x0:(y0 + y) * w + x0 + bw] = b[y * bw:(y + 1) * bw]
+            assert rects, loc
+            out[loc] = (new, rects)
+    return out
+
+
 def entries():
     """{image location: new TIM bytes} for every image in IMAGES, the album stamp, and the redrawn cards (tools/cards.py)."""
     out = dict(cards.entries())
@@ -220,6 +292,8 @@ def entries():
         raw, new = redraw(name)
         out[IMAGES[name][0]] = gfx.repack(raw, new)
     for loc, new in stamp().items():
+        out[loc] = gfx.repack(gfx.entry(loc), new)
+    for loc, (new, _) in plates().items():
         out[loc] = gfx.repack(gfx.entry(loc), new)
     return out
 
@@ -259,6 +333,20 @@ def preview_stamp(zoom=4):
     print(dst)
 
 
+def preview_plates(zoom=4):
+    new = plates()
+    out = Image.new('RGBA', (256, 2 * sum(k[3] + 2 for k in PLATE_KINDS)), (255, 0, 255, 255))
+    y = 0
+    for loc, (_, ry), _, bh, *_ in PLATE_KINDS:
+        raw = gfx.entry(loc)
+        for px in (None, new[loc][0]):
+            out.paste(gfx.image(raw, None, px).crop((0, ry, 256, ry + bh)), (0, y))
+            y += bh + 2
+    dst = ROOT / 'work/gfx_en/plates.png'
+    out.resize((out.width * zoom, out.height * zoom), Image.NEAREST).save(dst)
+    print(dst)
+
+
 if __name__ == '__main__':
-    for n in sys.argv[1:] or [*IMAGES, 'stamp']:
-        preview_stamp() if n == 'stamp' else preview(n)
+    for n in sys.argv[1:] or [*IMAGES, 'stamp', 'plates']:
+        {'stamp': preview_stamp, 'plates': preview_plates}.get(n, lambda: preview(n))()

@@ -62,6 +62,10 @@ def allowed():
         a, b = max(x0 - left, 0), min(x1 - left, w)
         out['0/' + loc] = [(20 + y * w + a, 20 + y * w + b) for y in range(y0, y1)] if a < b else []
         left += w
+    for loc, (_, rects) in gfx_en.plates().items():     # shop-sign plates (4bpp tilesets)
+        _, w, _, _ = gfx.indices(gfx.entry(loc))
+        out['0/' + loc] = [(20 + (y * w + x0) // 2, 20 + (y * w + x1) // 2) for x0, y0, x1, y1 in rects
+                           for y in range(y0, y1)]
     for n in range(1, 298):                             # redrawn cards: pixel data only, never the TIM header
         out['0/' + cards.loc(n)] = [(20, 20 + cards.W * cards.H)]
     return out
