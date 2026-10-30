@@ -73,7 +73,9 @@ def allowed():
                            for y in range(y0, y1)]
     bpp, w, _, _ = gfx.indices(gfx.entry(gfx_en.CONGRATS[0]))   # celebration banner frames
     out['0/' + gfx_en.CONGRATS[0]] = [(20 + (y * w + x0) * bpp // 8, 20 + ((y * w + x1) * bpp + 7) // 8)
-                                      for x0, y0, x1, y1 in gfx_en.CONGRATS[-1] for y in range(y0, y1)]
+                                      for x0, y0, x1, y1 in gfx_en.CONGRATS[-1] + gfx_en.CONGRATS_CAPS +
+                                      [r for r, _, _ in gfx_en.MUSEUM_SIGNS]
+                                      for y in range(y0, y1)]
     loc, (x0, y0, x1, y1), *_ = gfx_en.COMPASS           # map-event compass N (8bpp)
     _, w, _, _ = gfx.indices(gfx.entry(loc))
     out['0/' + loc] = [(20 + y * w + x0, 20 + y * w + x1) for y in range(y0, y1)]

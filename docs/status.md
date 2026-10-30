@@ -2,7 +2,23 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Current phase-8 checkpoint (2026-10-30, after 7899460):** Word Maze correct/wrong answers passed through the
+- **Current phase-8 checkpoint (2026-10-31, after 7f21653):** phase-7 Important fixes and the first runtime
+  repair pass are committed and pushed. The fresh 83-scene tour and 13 late-graphics/fragment sheets now pass
+  their independent visual gates, including the repaired possessives and Time dot. The full
+  album review exposed further grey-art/frame damage and dark boss-card backgrounds. Bounded glyph masks,
+  original-name-height layouts, protected illustration regions and background-only inpainting now repair those;
+  `work/qa/cards_final` contains fresh 99-page runtime captures and all 297 original/English asset comparisons,
+  with independent review running. AMAP's island lettering is now Fool, verified through the real Map-item
+  caller at stages 3/5; Daruma title ribbons are visible on Advanced. All six large status words were verified
+  through the real object renderer with forced sprite IDs (natural ailment HUD uses small icons; see
+  docs/re/status-qa.md). The museum clerk route exposed a clipped Congrats C and untranslated party-ball caps,
+  now repaired and verified; museum food signs are translated and the active peach sign verified. BB241's
+  unreadable scroll brushwork is retained under D12. Further album review found small JP remnants and border
+  gaps; core/halo masks, row-bounded disc cleanup and frame exclusions now address these, with focused review
+  running in `work/qa/cards_mask2`. Full check before these latest card-mask refinements passed 47 tests and
+  6027 lint checks. **Phase 8 is not complete.**
+
+- **Previous phase-8 checkpoint (2026-10-30, after 7899460):** Word Maze correct/wrong answers passed through the
   real keyboard and comparison path (`work/qa/word_maze_probe/report.md`, engine.md). The battle grid is legible;
   runtime fragment probes found duplicate separators and the empty solo prefix, now fixed across all 78 reward
   tables and both theft templates (windows.md). New town graphics found by a full town sweep are translated:
@@ -195,7 +211,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   0x8004540C a0 with --debugger); no story-flag array yet (events/NPCs that depend on progress); party is the
   New Game party (1 member, no items: `MONEY=` var exists, inventory RAM unknown); shops/NPCs found only for town 2.
   GOD uses the GameShark HP addresses (not checked per member). CR_PG01-99 not loaded by the ending (card pages?).
-- **Open bugs:** none known (status-summary 日目 fixed this session: "Day 1 00:00:14").
+- **Open bugs:** remaining album-mask findings are under repair; current review reports are
+  `work/qa/cards_final/assets_review_{a,b}.tsv`. Do not treat older green tour gates as album approval.
 - **Waiting on the user:** (non-blocking) battle seal talismans 封 and the circled 技 orb kept Japanese as props
   (defaults under D5/D6; say if they should be lettered). (non-blocking) PCSX-Redux GUI keyboard input not checked by hand (no interactive session
   in one-shot runs); scripted input verified.
+  (non-blocking) BB241's unreadable brush marks are retained under D12; a reliable reading would allow translation.

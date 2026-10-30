@@ -16,8 +16,11 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | [text.md](text.md) | u16 glyph codes, font pages, control codes, renderer, string tables, volume | encoding/renderer verified; kanji table OCR draft |
 | [debug.md](debug.md) | main loop, map/event/minigame/battle RAM, file loader, warp tool | verified (warps with proof shots) |
 | [engine.md](engine.md) | English font, VWF + digraph hooks, load buffers, table slot limits | verified (unicorn tests, marker build in-game) |
-| [windows.md](windows.md) | width budgets per text window (width gate) | dialogue measured; menus partly |
+| [windows.md](windows.md) | width budgets per text window (width gate) | every plain label classified; runtime checks plus traced descriptors |
 | [graphics.md](graphics.md) | graphics-text survey (static sweep + boot tour), cards, signs, title | survey done; sources partly guessed |
+| [graphics-qa.md](graphics-qa.md) | Map item, museum banner/sign, Daruma ribbons and battle-room scrolls | cold-boot routes; unused/decorative exceptions distinguished |
+| [word-maze-qa.md](word-maze-qa.md) | single-glyph clue distribution, keyboard input and correct/wrong answers | verified through the actual comparison path |
+| [status-qa.md](status-qa.md) | ailment flags, HP icons and large status-word sprites | icons traced; large words verified by forced sprite rendering, natural caller unknown |
 
 ## Prior work (checked 2026-10-30)
 - No fan translation of the PS1 game (SLPS-01785) found. KingMike translated the NES/Famicom Momotarou Densetsu

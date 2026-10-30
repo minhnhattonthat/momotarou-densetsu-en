@@ -1,5 +1,24 @@
 # Graphics text
 
+## Latest coverage (2026-10-31)
+
+The 83-scene tour and 13 late-graphics/fragment sheets have current read-only `ok` verdicts:
+`work/qa/phase8_cardsfix/tour_manifest.tsv` and `work/qa/graphics_final/manifest.tsv`; both qa_gate checks pass.
+The album remains under repair and has a separate gate. These proofs supersede older per-row "preview only"
+notes for the museum, AMAP, Daruma ribbons, roof signs and ending.
+
+- `amap_stage3/5`: island アホ -> Fool; compass -> N, reached through the Map item.
+- `congrats`: full Congrats! below the open ball; both 祝 caps -> YAY. The cloth border and top folds survive.
+- `museum_sign`: peach exhibit たべるな! -> Don't eat!; the unused vertical texture is translated too.
+- `daruma_advanced`: Daruma / Drop! ribbons and cleaned Time; fixed menu possessive spacing.
+- Six large battle-status words draw correctly through the engine renderer with forced sprite IDs. Natural
+  ailment rendering uses small pictorial icons instead. See [status-qa.md](status-qa.md); no natural caller is claimed.
+- BB241 scroll marks were inspected in both boss battles and by an independent translator. No reliable words
+  were recoverable; retained as decorative brushwork under D12. The folding screen is a pine painting.
+
+Routes, addresses and unused-art evidence: [graphics-qa.md](graphics-qa.md). KIMONO/RESTAURANT and the spare grey
+Oni texture still need caller/unused classification; they are translated in the image data.
+
 ## Phase-8 runtime follow-up (2026-10-30)
 
 - Town sweep found additional glyphs omitted by the original plate matching: SMAP03B:3 stone signs (map 5),
@@ -20,8 +39,7 @@
   glyphs instead of the entire stat box, preserves coloured art in the name column, erases the full flavour
   lettering including its tinted fringe, and keeps the inner frame. Full updated album visual recheck pending.
   Kanji drawn into miniature props are retained under D11, while the card labels and explanations are English.
-- Pending: actual battle ailments, museum Congrats banner, AMAP flag and Daruma title banner. See the per-row
-  source table below; older "preview only" notes are superseded only by the explicit proofs above.
+- The four remaining runtime groups listed in this checkpoint are now covered as detailed above.
 
 ## Static sweep (done 2026-10-30)
 `python -X utf8 tools/gfxdump.py work/gfx` renders every unique TIM image in every PAC (1,055 unique of 3,406;

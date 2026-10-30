@@ -115,12 +115,13 @@ OVERLAY_PATCH += [
     for off in offsets
 ]
 OVERLAY_PATCH += [
-    ('0/30EV/DARUMA.PAC:0', off, struct.pack('<I', 0x2406008C), struct.pack('<I', 0x240600A0))
-    for off in (0x1614, 0x1630, 0x164C)
+    # The suffix is a separate draw, but its apostrophe must touch each fixed character name.
+    ('0/30EV/DARUMA.PAC:0', off, struct.pack('<I', 0x2406008C), struct.pack('<I', 0x24060000 | x))
+    for off, x in ((0x1614, 121), (0x1630, 142), (0x164C, 109))
 ]
 OVERLAY_PATCH += [
-    ('0/30EV/FUKU.PAC:0', off, struct.pack('<I', 0x24060074), struct.pack('<I', 0x24060094))
-    for off in (0xB20, 0xB3C, 0xB58)
+    ('0/30EV/FUKU.PAC:0', off, struct.pack('<I', 0x24060074), struct.pack('<I', 0x24060000 | x))
+    for off, x in ((0xB20, 121), (0xB3C, 129), (0xB58, 144))
 ]
 OVERLAY_PATCH += [
     # Anchor the wider Fuku menu at x80 so its right edge remains inside the 320px screen.

@@ -104,8 +104,8 @@ validated against the six measured windows above; column limits also reserve the
 | HMAP8300_18:038-041 | Restaurant callback +0x10DC: names x16, price right-aligned at144, suffix at148; reserve five 8px digits | 86 x 1 |
 | MECD_1:000 | Save details callback +0xE2C, Level x24, party name x48 | 22 x 1 |
 | MECD_1:001-018 | Save names enter prompts via +0x2F0/+0x30C; status labels via +0xF6C and position table +0x3108; descriptor +0x311C width20 | 106 x 1 (empty file starts x48, other states x8) |
-| DARUMA_11:015-021 | Callback +0x154C; difficulty/character/title columns now x16/88/160, width32 | 70 / 58 / 90 x 1 |
-| FUKU_11:006-012 | Callback +0xA58; columns now x16/88/148, descriptor +0x1544 widened22 -> 28 and origin +0x1540 moved128 -> 80 to stay onscreen | 70 / 58 / 70 x 1 |
+| DARUMA_11:015-021 | Callback +0x154C; difficulty/character x16/88; suffix x121/142/109 (name's VWF advance), width32 | 70 / 58 / 90 x 1 |
+| FUKU_11:006-012 | Callback +0xA58; difficulty/character x16/88; suffix x121/129/144; descriptor +0x1544 widened22 -> 28 and origin +0x1540 moved128 -> 80 to stay onscreen | 70 / 58 / 70 x 1 |
 | FUKU_11:044 | Points at x36, descriptor +0x1524 widened7 -> 9 tiles | 30 x 1 |
 | YUMI2_10:002 | Points at x40, descriptor +0x17CC widened8 -> 10 tiles | 30 x 1 (34 available) |
 | YUMI2_10:009-011 | Score row separators / sum at callbacks +0x0000..+0x0258; sum heading beside final value | 9 / 16 / 9 x 1; Total -> Sum (a full equivalent word) |

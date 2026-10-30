@@ -6,6 +6,16 @@
 -- settle = frames after the route before the proof shot, mash = n (press circle every n frames while settling) }.
 -- Ad hoc: SCENE='map:<id>:<x>:<y>'. Map ids: tools/debug/maps.txt. Events / minigames: docs/re/debug.md.
 local TALK = { { 6, "up" }, { 20, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "circle" } }  -- menu > hanasu
+local MUSEUM = { { 0x80084786, 2, 0x202 } }  -- open and lit, rooms 306-314
+local CLERK = { { 0x80084786, 2, 0x202 }, { 0x800918DC, 4, 30000 } }  -- step prize
+local USE_MAP = { { 6, "circle" }, { 20, "-" }, { 6, "down" }, { 20, "-" }, { 6, "down" }, { 20, "-" },
+  { 6, "circle" }, { 160, "-" }, { 6, "circle" }, { 90, "-" }, { 6, "circle" }, { 90, "-" }, { 6, "circle" },
+  { 60, "-" }, { 6, "circle" } }  -- Items > Map > Use > past its message
+local MAP_ITEM = { { 0x8009133A, 2, 264 }, { 0x8009133C, 2, 1 } }
+local DADV = { { 400, "-" }, { 6, "up" }, { 20, "-" }, { 6, "circle" }, { 60, "-" }, { 6, "circle" } }
+for _ = 1, 6 do DADV[#DADV + 1] = { 54, "-" }; DADV[#DADV + 1] = { 6, "circle" } end
+for _, s in ipairs({ { 119, "-" }, { 6, "circle" }, { 222, "-" }, { 6, "down" }, { 20, "-" }, { 6, "down" },
+  { 20, "-" }, { 6, "circle" } }) do DADV[#DADV + 1] = s end  -- rules, then Advanced (12 blocks)
 local SHOP_BUY = { { 6, "up" }, { 20, "-" }, { 6, "circle" }, { 30, "-" }, { 6, "circle" }, { 240, "-" } }
 for _ = 1, 4 do SHOP_BUY[#SHOP_BUY + 1] = { 6, "circle" }; SHOP_BUY[#SHOP_BUY + 1] = { 50, "-" } end
 SHOP_BUY[#SHOP_BUY + 1] = { 6, "circle" }                    -- the buy / sell / trade-in / leave menu: buy
@@ -45,6 +55,13 @@ return {
   house          = { map = 292, x = 18, y = 13 },
   village        = { map = 1 },
   world          = { map = 0, x = 60, y = 60 },
+  amap_stage3    = { map = 0, x = 60, y = 60, settle = 500, route = USE_MAP, pokes = MAP_ITEM,
+                     hold = { { 0x800846AC, 2, 3 } } },
+  amap_stage5    = { map = 0, x = 60, y = 60, settle = 500, route = USE_MAP, pokes = MAP_ITEM,
+                     hold = { { 0x800846AC, 2, 5 } } },
+  congrats       = { map = 311, x = 64, y = 40, settle = 1680, mash = 60,
+                     pokes = CLERK, hold = CLERK, route = TALK },
+  museum_sign    = { map = 311, x = 49, y = 29, settle = 300, pokes = MUSEUM, hold = MUSEUM },
   -- field menu: hanasu shiraberu / jutsu soubi / dougu meirei / tsuyosa settei (2 columns x 4 rows)
   menu           = { map = 1, route = { { 6, "circle" } }, settle = 60 },
   menu_jutsu     = { map = 1, settle = 90, route = menu(1) },
@@ -143,6 +160,7 @@ return {
     route = { { 400, "-" }, { 6, "circle" }, { 100, "-" }, { 6, "circle" }, { 100, "-" },
               { 6, "circle" }, { 200, "-" }, { 6, "up" }, { 40, "-" }, { 6, "circle" },
               { 600, "-" }, { 6, "circle" } } },
+  daruma_advanced = { minigame = 5, settle = 150, route = DADV },
   mg_mogura      = { minigame = 6, settle = 300 },  -- MOGURA
   -- Not reachable by a plain warp (overlay loads, screen stays black; needs its caller's context):
   -- event 5 (EVT069), minigame 1 (YUMI1 other entry). docs/re/debug.md.

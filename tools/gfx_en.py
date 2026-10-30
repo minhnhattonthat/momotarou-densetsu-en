@@ -91,8 +91,10 @@ BATH_LOCS = ['30EV/FURO_%d.PAC:6' % n for n in range(5)]
 BATH_WORDS = [((0, 5, 76, 80), 'Hot', 30), ((82, 5, 144, 80), 'Bath', 24), ((168, 5, 238, 80), 'Hot', 30),
               ((8, 84, 80, 160), 'Bath', 26)]
 # celebration banner おめでとう in HMAP26.PAC:3: image, word, font px, ink, glyph indices, unrolling frames (x0 y0 x1 y1)
-CONGRATS = ('07HMAP/HMAP26.PAC:3', 'Congrats!', 9, 15, (7, 8, 15),
+CONGRATS = ('07HMAP/HMAP26.PAC:3', 'Congrats!', 8, 15, (6, 7, 8, 15),
             [(72, 132, 88, 144), (88, 132, 104, 156), (105, 132, 121, 180), (88, 172, 104, 196)])
+CONGRATS_CAPS = [(153, 148, 167, 158), (209, 148, 223, 158)]  # 祝 inside the two open-ball caps
+MUSEUM_SIGNS = [((84, 235, 124, 245), 7, False), ((131, 68, 141, 105), 7, True)]  # たべるな!; second is unused art
 # map-event compass 北 (AMAP.PAC:2, magenta fill 57, outline 63) -> N: image, rect cleared, top-left of the 7x7 fill
 COMPASS = ('04HEX/AMAP.PAC:2', (19, 16, 30, 25), (21, 17), 57, 63,
            ['##...##', '###..##', '####.##', '##.####', '##..###', '##...##', '##...##'])
@@ -106,6 +108,10 @@ FUKU_ANGLE = 40                                 # the JP words' slant (a whole w
 DARUMA_INK =(96, 97, 99, 100, 103, 105, 108, 110, 113, 115, 116, 117)     # DARUMA.PAC:6 brush greys
 VERT = {'rotate': True, 'ink': 15}# album index labels: index 15 = the JP glyph fill, black in-game (grey in the preview CLUT)
 IMAGES = {
+    # アホ is lettered on the eastern island in the three revealed-map variants; the lake to its right stays.
+    **{f'amap_label_{i}': (f'04HEX/AMAP.PAC:{i}', (f'04HEX/AMAP.PAC:{i + 5}', 0), [
+        ((164, 63, 184, 90), 'Fool', (72, 81, 146, 193), 9, {}),
+    ]) for i in (9, 10, 11)},
     'title_menu': ('30EV/EVTTIT.PAC:9', ('30EV/EVTTIT.PAC:19', 0), [
         # left edges 2 px right of the JP words' (the cursor peach sits just left of them, at the JP edge); the gap
         # between the two items widened so they read as two options
@@ -126,7 +132,7 @@ IMAGES = {
         ((0, 225, 182, 249), 'Game Clear!', 'sprite', 22, {}),
         ((168, 56, 196, 73), 'Score', 'sprite', 9, {}),
         ((196, 56, 249, 73), 'Best', 'sprite', 11, {}),
-        ((203, 74, 246, 96), 'Time', 'sprite', 16, {}),
+        ((203, 73, 246, 96), 'Time', 'sprite', 16, {}),
     ]),
     'mogura_words': ('30EV/MOGURA.PAC:10', ('30EV/MOGURA.PAC:11', 0), [
         ((40, 176, 144, 198), 'Start!', 'sprite', 22, {}),
@@ -373,25 +379,44 @@ def bath():
 
 
 def banner():
-    """Celebration banner おめでとう (HMAP26.PAC:3) in unrolling frames: glyph pixels in each frame take the nearest
-    cloth pixel above/below, then one rotated word, drawn top-aligned for the longest frame, is clipped to each frame's
-    length (so a half-unrolled frame shows the word's start). New pixels."""
+    """Celebration banner and caps: clear glyphs to each frame's cloth/disc colour, preserve the rim, and clip one
+    rotated word to each unrolling frame. The four-row top inset clears the overlaid ball cap. New pixels."""
     loc, word, size, ink, glyph, frames = CONGRATS
     _, w, h, px = gfx.indices(gfx.entry(loc))
     new = bytearray(px)
     long_ = max(y1 - y0 for _, y0, _, y1 in frames)
-    cov = coverage(word, size, long_ - 2, 12, 'left').rotate(-90, expand=True).load()   # 12 x (long_ - 2), reads down
+    shift = 4  # the open ball overlaps the first four rows of cloth
+    cov = coverage(word, size, long_ - 2 - shift, 12, 'left').rotate(-90, expand=True).load()
     for x0, y0, x1, y1 in frames:
+        cloth = px[(y0 + 4) * w + x0 + 7]  # the shortest rolled frame is grey 6; the others are light 5
+        for y in range(y0 + 5, y1):  # folds above the first JP character use the same grey indices
+            for x in range(x0 + 2, x1 - 2):  # index 7 also appears in the cloth's border
+                if px[y * w + x] in glyph:
+                    new[y * w + x] = cloth
+        cx = x0 + (x1 - x0 - 12) // 2
+        for y in range(y0 + 1 + shift, y1 - 1):
+            for x in range(12):
+                if cov[x, y - y0 - 1 - shift] > 110:
+                    new[y * w + cx + x] = ink
+    for x0, y0, x1, y1 in CONGRATS_CAPS:
         for y in range(y0, y1):
             for x in range(x0, x1):
-                if px[y * w + x] in glyph:
-                    new[y * w + x] = next((px[sy * w + x] for d in range(1, y1 - y0) for sy in (y - d, y + d)
-                                           if y0 <= sy < y1 and px[sy * w + x] not in glyph), px[y * w + x])
-        cx = x0 + (x1 - x0 - 12) // 2
-        for y in range(y0 + 1, y1 - 1):
-            for x in range(12):
-                if cov[x, y - y0 - 1] > 110:
-                    new[y * w + cx + x] = ink
+                if new[y * w + x] == 5:
+                    new[y * w + x] = 8
+        for c, ch in enumerate('YAY'):
+            for r, bits in enumerate(PIXEL_FONT[ch]):
+                for x, bit in enumerate(bits):
+                    if bit == '#':
+                        new[(y0 + 2 + r) * w + x0 + 1 + c * 4 + x] = 5
+    for (x0, y0, x1, y1), size, rotate in MUSEUM_SIGNS:
+        cw, ch = (y1 - y0, x1 - x0) if rotate else (x1 - x0, y1 - y0)
+        cov = coverage("Don't eat!", size, cw, ch)
+        if rotate:
+            cov = cov.rotate(-90, expand=True)
+        cov = cov.load()
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                new[y * w + x] = (10, 11, 12, 13)[round(cov[x - x0, y - y0] * 3 / 255)]
     return new
 
 
