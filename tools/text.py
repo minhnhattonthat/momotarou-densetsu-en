@@ -3,10 +3,10 @@
     python -X utf8 tools/text.py table FILE.PAC ENTRY      # 0x10d string table: one line per string
     python -X utf8 tools/text.py at FILE[.PAC ENTRY] OFF    # one string at a byte offset
 """
-import struct
 import sys
 from pathlib import Path
 
+import extract
 import lzss
 import pac
 from tbl import Table
@@ -23,12 +23,8 @@ def entry(path, idx):
 
 
 def table_offsets(b):
-    """u32 offsets from the block start, table ends at the lowest offset."""
-    offs, i = [], 0
-    while i < min(offs or [len(b)]):
-        offs.append(struct.unpack_from('<I', b, i)[0])
-        i += 4
-    return offs
+    """u32 offsets from the block start, table ends at the lowest offset (extract.parse_table)."""
+    return extract.parse_table(b)
 
 
 def decode(b, off):

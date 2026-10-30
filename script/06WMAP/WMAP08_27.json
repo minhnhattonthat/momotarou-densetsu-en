@@ -1,0 +1,21 @@
+{
+ "id": "WMAP08_27",
+ "kind": "overlay",
+ "base": "0x80168000",
+ "copies": [
+  "0/06WMAP/WMAP08.PAC:27"
+ ],
+ "strings": [
+  {
+   "id": "WMAP08_27:0004",
+   "off": 4,
+   "max": 76,
+   "ptrs": [
+    "lui@0x170"
+   ],
+   "jp": "もももももももものうちすもももももももものうちまもももみもももむもものうち",
+   "en": "",
+   "data": "tongue-twister board read by the minigame code; keep the Japanese"
+  }
+ ]
+}

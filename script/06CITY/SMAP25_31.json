@@ -1,0 +1,14 @@
+{
+ "id": "SMAP25_31",
+ "kind": "table",
+ "copies": [
+  "0/06CITY/SMAP25.PAC:31"
+ ],
+ "strings": [
+  {
+   "id": "SMAP25_31:000",
+   "jp": "桃太郎は{n}どこかの 浜辺に{n}打ち上げられた！{wait}",
+   "en": ""
+  }
+ ]
+}

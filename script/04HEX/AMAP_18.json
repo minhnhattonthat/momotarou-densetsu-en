@@ -1,0 +1,14 @@
+{
+ "id": "AMAP_18",
+ "kind": "table",
+ "copies": [
+  "0/04HEX/AMAP.PAC:18"
+ ],
+ "strings": [
+  {
+   "id": "AMAP_18:000",
+   "jp": "ここまできたよ！{n}{n}{wait}",
+   "en": ""
+  }
+ ]
+}

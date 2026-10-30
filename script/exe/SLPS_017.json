@@ -1,0 +1,40 @@
+{
+ "id": "SLPS_017",
+ "kind": "overlay",
+ "base": "0x8000f800",
+ "copies": [
+  "SLPS_017.85"
+ ],
+ "strings": [
+  {
+   "id": "SLPS_017:d44f4",
+   "off": 869620,
+   "max": 12,
+   "ptrs": [
+    "word@0xd4518"
+   ],
+   "jp": "ひらがな",
+   "en": ""
+  },
+  {
+   "id": "SLPS_017:d4500",
+   "off": 869632,
+   "max": 12,
+   "ptrs": [
+    "word@0xd451c"
+   ],
+   "jp": "カタカナ",
+   "en": ""
+  },
+  {
+   "id": "SLPS_017:d450c",
+   "off": 869644,
+   "max": 8,
+   "ptrs": [
+    "word@0xd4514"
+   ],
+   "jp": "英数字",
+   "en": ""
+  }
+ ]
+}

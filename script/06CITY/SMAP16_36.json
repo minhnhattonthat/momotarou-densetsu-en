@@ -1,0 +1,20 @@
+{
+ "id": "SMAP16_36",
+ "kind": "overlay",
+ "base": "0x80168000",
+ "copies": [
+  "0/06CITY/SMAP16.PAC:36"
+ ],
+ "strings": [
+  {
+   "id": "SMAP16_36:46c4",
+   "off": 18116,
+   "max": 32,
+   "ptrs": [
+    "lui@0x2768"
+   ],
+   "jp": "「ひやかしならでていけ～！」",
+   "en": ""
+  }
+ ]
+}
