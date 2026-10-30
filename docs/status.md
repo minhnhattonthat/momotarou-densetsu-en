@@ -29,6 +29,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   rows 体力/攻撃/守備/速さ (cards 61-297) -> HP / Attack / Defense / Speed (same pixels on every monster card:
   draw once, paste). Names: match each card to its HMAP8500_18 "<name>カード" entry (English there minus " Card").
   Logo kept Japanese (D5). Skipped so far: DARUMA.PAC:6 banner and FUKU.PAC:3/5 not seen in mg_daruma/mg_fuku.
+  Card n (1-based, = (PAC-1)*3 + entry/2 + 1) = the n-th "<name>カード" string in HMAP8500_18 (297, from :085;
+  card 1 Momotaro). Album: ev_card_all + route `30 -;6 circle;90 -;6 circle;90 -;6 right;...` shows 3 cards 1:1
+  with "No.001" under them, and an index page (EVTCARD.PAC:5: 目次, 桃太郎の仲間, 村人, 仙人, ボス鬼, 鬼, ...) to
+  translate. Method for clean backgrounds: cards share a few background templates (pink swirl for monsters,
+  green/orange for characters); the per-pixel mode over all cards of one template (same CLUT colours) is the clean
+  background; JP name glyphs = "differs from template" components lying wholly inside the name column (art
+  components reach outside it and are kept). Built: `tools/cards.py templates` (families keyed by the bottom
+  border colour: cream 38 cards, cyan 25, pink 177; greys outvoted -> clean backgrounds, few specks; ~57 cards with
+  their own art get no template -> use plates). To do in cards.py: inpaint greys in the stat block and name
+  column of each template; per card map template RGB to the nearest index of the card's own CLUT; erase JP name
+  glyph components inside the column; stat block -> HP/Attack/Defense/Speed (black, white outline like the JP);
+  circle glyph -> Latin initial; English name rotated 90 deg cw in the column above any art; hook into
+  gfx_en.entries() and the test_insert allowed spans (whole entry for cards).
 - **Next (phase 8):** graphics text (D5: translate all; seen Japanese in the tour: ev_amap title-menu banner
   はじめて/つづきから, card-album title 桃太郎伝説 カード, bath signs ゆ/湯, town shop signs 防/足/宿/つ; survey in
   docs/re/graphics.md), then `qa_gate.py` tour sheets + visual-qa verdicts over `work/qa/warp_en/` (all 61 scenes
