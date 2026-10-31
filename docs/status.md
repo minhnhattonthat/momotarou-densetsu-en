@@ -3,7 +3,8 @@
 Updated 2026-10-31. History is in git; the current evidence below supersedes older failed or partial QA rounds.
 
 - **Phase:** 9 complete; all nine phases are complete. The local v1.0 patch-only ZIP is built, reapplied and verified.
-  No release has been published. All seven release gates pass: 258 visual sheets and 13 story chapters.
+  Published 2026-10-31 as GitHub release v1.0 (repo stays private):
+  https://github.com/minhnhattonthat/momotarou-densetsu-en/releases/tag/v1.0. All seven release gates pass: 258 visual sheets and 13 story chapters.
 - **Latest build:** `build/momotarou_en.bin`, 143,902,416 bytes, SHA-1
   `b9efce63146b023d5af12e069f8ccb1d78185ee9`, built 2026-10-30 20:50:21 UTC (2026-10-31 locally).
   Fresh boot smoke passes in `work/qa/release/smoke`. Full check passed 55 tests and 6,027 lint checks with zero
@@ -47,8 +48,9 @@ current; the additional 92-scene cold-boot tour is tied to the exact final image
 | `work/qa/release/manifest.tsv` | `work/qa/release/verdicts` | 92 final-image scene sheets, green |
 | `work/qa/story/manifest.tsv` | `work/qa/story/verdicts` | 13 complete chapters, green |
 
-Older manifests under `work/qa/v0`, `cards_final`, `cards_round4` and other repair rounds are historical failed
-or superseded evidence. The release script validates the explicit current set above. Earlier phase-9 candidate
+Older manifests from `v0`, `cards_final`, `cards_round4` (moved to `work/qa_archive/` 2026-10-31 so the
+release guard, which scans every `work/qa/**/manifest.tsv`, ignores them) and other repair rounds are historical
+failed or superseded evidence. The release script validates the explicit current set above. Earlier phase-9 candidate
 logs that failed or preceded the final text corrections are also superseded.
 
 ## Release and next
